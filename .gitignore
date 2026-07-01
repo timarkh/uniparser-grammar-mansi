@@ -3,7 +3,6 @@
 __pycache__/
 uniparser-morph/errors.log
 errors.log
-wordlist.csv
 analyzed.txt
 unanalyzed.txt
 import_test.py
