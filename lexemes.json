@@ -1,0 +1,6369 @@
+{
+  "a": {
+    "EMPH\t\t": 1,
+    "a\t\t": 19,
+    "а\tand\t": 2
+  },
+  "a'a": {
+    "a'a\t\t": 2
+  },
+  "ae": {
+    "ae\t\t": 1
+  },
+  "ai": {
+    "пить\tdrink\tV": 1
+  },
+  "aj": {
+    "выпить\tdrink\tV": 4,
+    "пить\tdrink\tV": 34
+  },
+  "ajaŋ": {
+    "ajaŋ\t\t": 5
+  },
+  "ajt": {
+    "пить\tdrink\tV": 1
+  },
+  "ak": {
+    "ak\t\t": 3
+  },
+  "akan'": {
+    "кукла\tdoll\t": 4
+  },
+  "ake": {
+    "дед\tgrandfather\t": 1
+  },
+  "aki": {
+    "дядя\tuncle\t": 2,
+    "дядя\tuncle\tN": 4
+  },
+  "aku": {
+    "aku\t\t": 1
+  },
+  "akw": {
+    "Один\t\t": 3,
+    "ночь\tnight\t": 1,
+    "один\tone\t": 229,
+    "один\tone\tN": 11,
+    "одинг\t\t": 1,
+    "одна\tone\t": 1,
+    "тётя\taunt\t": 8,
+    "тётя\taunt\tN": 1
+  },
+  "akwa": {
+    "один\tone\t": 3,
+    "один\tone\tN": 7,
+    "тётя\taunt\t": 7,
+    "тётя\taunt\tN": 14
+  },
+  "akwaiɣ": {
+    "каждого\t\t": 1
+  },
+  "akwan": {
+    "вместе\ttogether\t": 12
+  },
+  "akwat": {
+    "вместе\ttogether\t": 1
+  },
+  "akwaɣ": {
+    "всегда\talways\t": 15
+  },
+  "akwmekwa": {
+    "akwmekwa\t\t": 1
+  },
+  "akwxujplow": {
+    "одиннадцать\televen\t": 2
+  },
+  "al": {
+    "al\t\t": 1,
+    "верх\ttop\tN": 1,
+    "убить\tkill\t": 1,
+    "убить\tkill\tV": 94
+  },
+  "al'in": {
+    "al'in\t\t": 1
+  },
+  "ala": {
+    "ala\t\t": 1,
+    "верх\ttop\tN": 1,
+    "крыша\troof\t": 2,
+    "крыша\troof\tN": 1,
+    "поверхность\tsurface\tN": 4,
+    "чуть\tbarely\t": 1
+  },
+  "alam": {
+    "верно\tcorrect\t": 1
+  },
+  "ali": {
+    "южный\tsouthern\t": 4,
+    "южный\tsouthern\tV": 1
+  },
+  "alim": {
+    "успеть\tmanage\tV": 2
+  },
+  "aliɕ": {
+    "оружие\tweapon\tV": 2,
+    "убить\tkill\tV": 1
+  },
+  "alm": {
+    "поднимать\tlift\tV": 4,
+    "поднять\tlift\tV": 3
+  },
+  "alma": {
+    "поднять\tlift\tV": 1
+  },
+  "almpal": {
+    "за\tbehind\t": 3,
+    "за\tbehind\tN": 6
+  },
+  "alpəl": {
+    "утренний\tmorning\t": 4,
+    "утренний\tmorning\tN": 4,
+    "утро\tmorning\t": 5
+  },
+  "am": {
+    "1SG\t\t": 136,
+    "2SG\t\t": 2,
+    "Q\t\t": 1
+  },
+  "aman": {
+    "Q\t\t": 29
+  },
+  "aml": {
+    "ASP\t\tV": 3
+  },
+  "amman": {
+    "Q\t\t": 1
+  },
+  "amp": {
+    "собака\tdog\t": 7,
+    "собака\tdog\tN": 4
+  },
+  "ampar": {
+    "амбар\tbarn\t": 4
+  },
+  "an": {
+    "an\t\t": 1,
+    "поцеловать\tkiss\tV": 4
+  },
+  "an'": {
+    "поцеловать\tkiss\tV": 7,
+    "сейчас\tnow\t": 185,
+    "теперь\tnow\t": 5
+  },
+  "an'ja": {
+    "Анья\t\t": 1
+  },
+  "an't": {
+    "рог\thorn\tN": 2
+  },
+  "an'ɕar": {
+    "торчащий\tprotruding\t": 1
+  },
+  "anas": {
+    "обоз\tcaravan\t": 1,
+    "обоз\tcaravan\tN": 2
+  },
+  "ani": {
+    "чашка\tcup\t": 22,
+    "чашка\tcup\tN": 7
+  },
+  "anja": {
+    "Анья\t\t": 1
+  },
+  "anə": {
+    "чашка\tcup\t": 1
+  },
+  "an'": {
+    "сейчас\tnow\t": 1
+  },
+  "an'": {
+    "сейчас\tnow\t": 38
+  },
+  "apa": {
+    "люлька\tcradle\t": 5,
+    "люлька\tcradle\tN": 7
+  },
+  "apiɣ": {
+    "внук\tgrandson\tN": 1
+  },
+  "apəɣ": {
+    "внук\tgrandson\tN": 5
+  },
+  "apəɣ": {
+    "внук\tgrandson\t": 1
+  },
+  "apɣ": {
+    "внук\tgrandson\tN": 1
+  },
+  "ar": {
+    "ar\t\t": 1,
+    "гладкий\tsmooth\t": 2
+  },
+  "araɕ": {
+    "очаг\thearth\t": 2
+  },
+  "ariɣ": {
+    "лишний\textra\t": 4
+  },
+  "ariɣt": {
+    "остаться\tstay\tV": 1
+  },
+  "art": {
+    "способ\tway\t": 4,
+    "способ\tway\tV": 1
+  },
+  "arɕin": {
+    "аршин\tarshin\t": 1
+  },
+  "arɣen": {
+    "медь\tcopper\t": 14,
+    "слишком\ttoo\t": 4
+  },
+  "arɣi": {
+    "arɣi\t\t": 1
+  },
+  "arɣen": {
+    "зря\tin.vain\t": 1
+  },
+  "as": {
+    "Обь\tOb\t": 31,
+    "Обь\tOb\tN": 14,
+    "дырка\thole\t": 8,
+    "дырка\thole\tN": 2,
+    "отверстие\thole\t": 2,
+    "отец\tfather\tN": 1
+  },
+  "ast": {
+    "закончить\tfinish\tV": 3,
+    "кончить\tfinish\t": 2,
+    "кончить\tfinish\tV": 24
+  },
+  "at": {
+    "NEG\t\t": 157,
+    "NEG\t\tN": 1,
+    "запах\tsmell\t": 14,
+    "пять\tfive\t": 15,
+    "собирать\tgather\tN": 1,
+    "собирать\tgather\tV": 14
+  },
+  "atint": {
+    "нюхать\tsniff\tV": 2
+  },
+  "atpan": {
+    "пятьдесят\tfifty\t": 12
+  },
+  "atər": {
+    "ясный\tclear\t": 1
+  },
+  "at'i": {
+    "NEG\t\t": 1
+  },
+  "awi": {
+    "дверь\tdoor\t": 18,
+    "дверь\tdoor\tN": 7
+  },
+  "awt": {
+    "awt\t\t": 1
+  },
+  "awtn": {
+    "awtn\t\t": 1
+  },
+  "axa": {
+    "ага\taha\t": 2
+  },
+  "axtas": {
+    "камень\tstone\t": 1,
+    "камень\tstone\tN": 2
+  },
+  "axtaxati": {
+    "axtaxati\t\t": 1
+  },
+  "axwtas": {
+    "камень\tstone\tN": 2
+  },
+  "an'": {
+    "Сейчас\t\t": 1,
+    "сейчас\tnow\t": 8,
+    "сестра\tsister\t": 1
+  },
+  "an't": {
+    "рог\thorn\t": 1
+  },
+  "aŋk": {
+    "мать\tmother\t": 1
+  },
+  "aŋkal": {
+    "ствол\ttrunk\t": 1
+  },
+  "aŋkwal": {
+    "пень\tstump\t": 8,
+    "пень\tstump\tN": 5,
+    "ствол\ttrunk\t": 1,
+    "ствол\ttrunk\tN": 1,
+    "столб\tpole\t": 5,
+    "столб\tpole\tN": 3
+  },
+  "aŋkwat": {
+    "взглянуть\tglance\tV": 5
+  },
+  "aŋxw": {
+    "снять\ttake.off\tV": 1
+  },
+  "aɕ": {
+    "отец\tfather\t": 11,
+    "отец\tfather\tN": 17,
+    "отец\tfather\tV": 2
+  },
+  "aɕirma": {
+    "холод\tcold\t": 2,
+    "холод\tcold\tN": 1
+  },
+  "aɣ": {
+    "aɣ\t\t": 1
+  },
+  "aɣi": {
+    "девушка\tgirl\t": 64,
+    "девушка\tgirl\tN": 32,
+    "прийти\tcome\tV": 1
+  },
+  "aɣitar": {
+    "aɣitar\t\t": 1
+  },
+  "aɣm": {
+    "болезнь\tsickness\tN": 15
+  },
+  "aɣt": {
+    "верить\tbelieve\tV": 2
+  },
+  "aɣum": {
+    "aɣum\t\t": 1
+  },
+  "āran": {
+    "Аран\t\t": 1
+  },
+  "āse": {
+    "отец\tfather\t": 1
+  },
+  "āt'i": {
+    "EX\t\t": 1,
+    "нет\tno\t": 1
+  },
+  "āt'im": {
+    "EX\t\t": 1
+  },
+  "āɕe": {
+    "отец\tfather\t": 2
+  },
+  "āɣi": {
+    "девушка\tgirl\tN": 1
+  },
+  "aɣi": {
+    "девушка\tgirl\t": 3,
+    "девушка\tgirl\tN": 2
+  },
+  "aɣm": {
+    "болезнь\tsickness\tN": 6
+  },
+  "aɣə": {
+    "девушка\tgirl\tN": 2
+  },
+  "e": {
+    "e\t\t": 7,
+    "э\they\t": 3
+  },
+  "ej": {
+    "ej\t\t": 1
+  },
+  "ekp": {
+    "ekp\t\t": 7
+  },
+  "ekwa": {
+    "жена\twife\t": 21,
+    "жена\twife\tN": 3,
+    "женщина\twoman\t": 60,
+    "женщина\twoman\tN": 33
+  },
+  "el": {
+    "далеко\tfar\t": 26,
+    "далеко\tfar\tN": 5
+  },
+  "ela": {
+    "вперёд\tforward\t": 15,
+    "вперёд\tforward\tN": 2,
+    "далеко\tfar\t": 3
+  },
+  "eli": {
+    "далеко\tfar\t": 1,
+    "передний\tfront\t": 2
+  },
+  "elm": {
+    "EMPH\t\t": 1
+  },
+  "elmi": {
+    "лезвие\tblade\tN": 1
+  },
+  "elmxolas": {
+    "человек\tperson\t": 40,
+    "человек\tperson\tN": 5
+  },
+  "eln": {
+    "впереди\tahead\t": 1
+  },
+  "elumxolas": {
+    "человек\tperson\t": 2,
+    "человек\tperson\tN": 1
+  },
+  "en": {
+    "en\t\t": 1
+  },
+  "ent": {
+    "опоясать\tgird\tN": 1,
+    "опоясать\tgird\tV": 3
+  },
+  "ep": {
+    "воздух\tair\t": 1,
+    "воздух\tair\tN": 2
+  },
+  "er": {
+    "момент\tmoment\tN": 1,
+    "надлежать\tbe.needed\tV": 2,
+    "надо\tis.needed\tN": 3,
+    "надо\tis.needed\tV": 3,
+    "нуждаться\tneed\tV": 11
+  },
+  "ert": {
+    "когда\twhen\t": 8,
+    "когда\twhen\tN": 3,
+    "момент\tmoment\t": 5,
+    "раз\ttime\t": 1
+  },
+  "ertal": {
+    "неприятный\tunpleasant\t": 3
+  },
+  "erəŋ": {
+    "вероятно\tprobably\t": 5
+  },
+  "erəɣ": {
+    "песня\tsong\t": 30,
+    "песня\tsong\tN": 1
+  },
+  "erəɣ": {
+    "песня\tsong\t": 1
+  },
+  "erɣ": {
+    "песня\tsong\tN": 1,
+    "петь\tsing\tV": 6
+  },
+  "esərma": {
+    "стыд\tshame\t": 2
+  },
+  "et": {
+    "ночь\tnight\t": 33,
+    "ночь\tnight\tN": 2
+  },
+  "ete": {
+    "ночь\tnight\t": 1
+  },
+  "eti": {
+    "вечер\tevening\tV": 1,
+    "ночь\tnight\tV": 1,
+    "ночью\tat.night\t": 5,
+    "ночью\tat.night\tN": 3,
+    "ночью\tat.night\tV": 11
+  },
+  "eŋ": {
+    "подбородок\tchin\t": 1
+  },
+  "eŋkaj": {
+    "слуга\tservant\tN": 2
+  },
+  "eɣe": {
+    "eɣe\t\t": 1,
+    "эге\they\t": 2
+  },
+  "ē": {
+    "э\they\t": 1
+  },
+  "ēkwa": {
+    "ēkwa\t\t": 1,
+    "женщина\twoman\t": 1
+  },
+  "ēlal'": {
+    "наружу\toutside\t": 1
+  },
+  "ēlmxolas": {
+    "человек\tperson\tV": 1
+  },
+  "ēr": {
+    "момент\tmoment\tN": 2,
+    "нуждаться\tneed\tV": 1
+  },
+  "ērt": {
+    "момент\tmoment\t": 3,
+    "раз\ttime\t": 1
+  },
+  "ērtt": {
+    "момент\tmoment\t": 1
+  },
+  "gramm": {
+    "gloss\t\t": 12,
+    "gloss_ru\t\t": 1
+  },
+  "i": {
+    "ADD\t\t": 1,
+    "i\t\t": 5,
+    "и\tand\t": 1
+  },
+  "ij": {
+    "ij\t\t": 1
+  },
+  "il": {
+    "il\t\t": 3
+  },
+  "imən": {
+    "imən\t\t": 1
+  },
+  "inar": {
+    "седло\tsaddle\t": 6
+  },
+  "is": {
+    "душа\tsoul\t": 2,
+    "душа\tsoul\tN": 5,
+    "приземлиться\tland\tV": 8,
+    "согреться\twarm.up\tV": 1
+  },
+  "isnas": {
+    "окно\twindow\t": 5,
+    "окно\twindow\tN": 5
+  },
+  "isum": {
+    "горячий\thot\t": 1
+  },
+  "isxor": {
+    "тень\tshadow\t": 1
+  },
+  "it": {
+    "резкость\tsharpness\tN": 3
+  },
+  "iti": {
+    "вечер\tevening\t": 4,
+    "вечер\tevening\tV": 1
+  },
+  "iŋ": {
+    "ещё\tstill_yet\t": 2
+  },
+  "ižwer": {
+    "зверь\tanimal\t": 1
+  },
+  "iɕwēr": {
+    "зверь\tanimal\t": 3
+  },
+  "īs": {
+    "приземлиться\tland\tV": 1
+  },
+  "īti": {
+    "вечер\tevening\t": 4,
+    "вечер\tevening\tV": 1
+  },
+  "j": {
+    "j\t\t": 3
+  },
+  "ja": {
+    "EMPH\t\t": 2,
+    "PTCL\t\t": 1,
+    "же\tisn't.it\t": 2,
+    "ну\twell\t": 24,
+    "река\triver\t": 25,
+    "река\triver\tN": 10,
+    "река\triver\tV": 1
+  },
+  "jaj": {
+    "идти\tgo\t": 1
+  },
+  "jakt": {
+    "делить\tdivide\tV": 1,
+    "резать\tcut\tV": 2
+  },
+  "jal": {
+    "идти\tgo\tV": 1,
+    "сходить\tgo\t": 2,
+    "сходить\tgo\tV": 102,
+    "ходить\twalk\tV": 10,
+    "шагать\tstep\tV": 1
+  },
+  "jala": {
+    "ездить\tride\tV": 2
+  },
+  "jalp": {
+    "святой\tholy\tN": 10,
+    "священный\tsacred\tN": 1
+  },
+  "jalpən": {
+    "святой\tholy\t": 1
+  },
+  "jalpəŋ": {
+    "святой\tholy\t": 30,
+    "священный\tsacred\t": 1
+  },
+  "jalt": {
+    "ожить\tcome.to.life\tV": 6
+  },
+  "jan": {
+    "большой\tbig\t": 10,
+    "большой\tbig\tN": 9,
+    "большой\tbig\tV": 3,
+    "река\triver\tN": 1
+  },
+  "janit": {
+    "величина\tsize\t": 3,
+    "величина\tsize\tV": 1
+  },
+  "janiɣ": {
+    "Большой\t\t": 1,
+    "большой\tbig\t": 44,
+    "большой\tbig\tN": 1,
+    "большой\tbig\tV": 7
+  },
+  "janəɣ": {
+    "большой\tbig\t": 16,
+    "большой\tbig\tV": 2
+  },
+  "janəɣ": {
+    "большой\tbig\t": 3,
+    "большой\tbig\tV": 3
+  },
+  "janɣ": {
+    "большой\tbig\t": 1
+  },
+  "janɣ": {
+    "большой\tbig\tN": 1
+  },
+  "jarm": {
+    "беда\ttrouble\t": 1
+  },
+  "jarmak": {
+    "шёлк\tsilk\t": 13
+  },
+  "jart": {
+    "удерживать\thold\tV": 1
+  },
+  "jarum": {
+    "беда\ttrouble\tN": 1
+  },
+  "jassa": {
+    "верно\tcorrect\t": 1
+  },
+  "jat": {
+    "середина\tmiddle\t": 2,
+    "середина\tmiddle\tN": 1
+  },
+  "jaŋk": {
+    "белый\twhite\t": 8,
+    "белый\twhite\tN": 5,
+    "белый/лёд\t\t": 1
+  },
+  "jaɣ": {
+    "отец\tfather\t": 2,
+    "отец\tfather\tN": 1
+  },
+  "jaɣaɣi": {
+    "сестра\tsister\t": 2
+  },
+  "jaɣāɣi": {
+    "сестра\tsister\t": 1
+  },
+  "jaɣpiɣ": {
+    "брат\tbrother\t": 3,
+    "брат\tbrother\tN": 2
+  },
+  "janit": {
+    "величина\tsize\tN": 1
+  },
+  "jāŋk": {
+    "белый\twhite\t": 1
+  },
+  "jekwar": {
+    "корень\troot\t": 1
+  },
+  "jemt": {
+    "случаться\thappen\t": 2,
+    "случаться\thappen\tV": 62,
+    "стать\tbecome\tV": 27
+  },
+  "jēmt": {
+    "стать\tbecome\tV": 3
+  },
+  "ji": {
+    "войти\tenter\tV": 1,
+    "идти\tgo\tV": 5,
+    "прийти\tcome\tV": 1
+  },
+  "jik": {
+    "валежник\twindfall\t": 1
+  },
+  "jikw": {
+    "танцевать\tdance\tV": 3
+  },
+  "jil'pi": {
+    "новый\tnew\t": 3
+  },
+  "jin": {
+    "кроить\tcut\tV": 1
+  },
+  "jipiɣ": {
+    "филин\teagle.owl\t": 2
+  },
+  "jipəɣ": {
+    "филин\teagle.owl\t": 3
+  },
+  "jir": {
+    "жертва\tvictim\t": 4,
+    "жертва\tvictim\tN": 3,
+    "жертва\tvictim\tV": 2
+  },
+  "jis": {
+    "древний\tancient\t": 1,
+    "древний\tancient\tN": 1
+  },
+  "jiti": {
+    "ночь\tnight\t": 1
+  },
+  "jiw": {
+    "Дерево\t\t": 1,
+    "дерево\ttree\t": 40,
+    "дерево\ttree\tN": 18
+  },
+  "jiŋk": {
+    "jiŋk\t\t": 2
+  },
+  "jnt": {
+    "jnt\t\t": 1
+  },
+  "jo": {
+    "jo\t\t": 1
+  },
+  "jol": {
+    "вниз\tdown\t": 50,
+    "вниз\tdown\tN": 13,
+    "внизу\tbelow\t": 1,
+    "сидение\tseat\t": 11,
+    "сидение\tseat\tN": 4
+  },
+  "jola": {
+    "вниз\tdown\t": 56
+  },
+  "joli": {
+    "нижний\tlower\t": 9
+  },
+  "joln": {
+    "внизу\tbelow\t": 1
+  },
+  "jom": {
+    "идти\tgo\tV": 104,
+    "ходить\twalk\t": 1,
+    "ходить\twalk\tN": 1,
+    "шагать\tstep\tN": 1,
+    "шагать\tstep\tV": 11
+  },
+  "jomas": {
+    "Хороший\t\t": 1,
+    "хороший\tgood\t": 29,
+    "хорошо\twell\t": 4
+  },
+  "jomaɕ": {
+    "хорошо\twell\tN": 1
+  },
+  "jomaɕakwe": {
+    "хорошенько\tthoroughly\t": 1
+  },
+  "jomɕakw": {
+    "хорошенько\tthoroughly\t": 1
+  },
+  "jonɣ": {
+    "играть\tplay\t": 3,
+    "играть\tplay\tV": 15
+  },
+  "jonɣ": {
+    "играть\tplay\tV": 3
+  },
+  "jor": {
+    "медленность\tslowness\tV": 1,
+    "сила\tstrength\t": 7,
+    "сила\tstrength\tN": 9
+  },
+  "jorn": {
+    "ненец\tNenets\t": 13,
+    "ненец\tNenets\tN": 2
+  },
+  "joruwpeɣum": {
+    "joruwpeɣum\t\t": 1
+  },
+  "joruɣmeɣum": {
+    "joruɣmeɣum\t\t": 1
+  },
+  "jorəɣpeɣum": {
+    "jorəɣpeɣum\t\t": 1
+  },
+  "jorɣ": {
+    "строгать\tplane\tV": 1
+  },
+  "jos": {
+    "лыжа\tski\t": 4,
+    "лыжа\tski\tN": 1,
+    "мокнуть\tget.wet\tV": 1,
+    "сокол\tfalcon\t": 2
+  },
+  "josa": {
+    "лыжи\tskis\tN": 3
+  },
+  "jot": {
+    "COM\t\t": 3,
+    "COM\t\tN": 1,
+    "c\t\t": 28
+  },
+  "jotəl": {
+    "потом\tthen\t": 1
+  },
+  "jowt": {
+    "лук\tbow\t": 12,
+    "лук\tbow\tN": 8,
+    "покупать\tbuy\tV": 1,
+    "стрела\tarrow\t": 1
+  },
+  "jox": {
+    "вращаться\trotate\tV": 3
+  },
+  "joxras": {
+    "joxras\t\t": 2
+  },
+  "joxt": {
+    "3SG\t\tN": 1,
+    "joxt\t\t": 1,
+    "подошли\t\tV": 1,
+    "прийти\tcome\t": 15,
+    "прийти\tcome\tN": 3,
+    "прийти\tcome\tV": 304
+  },
+  "joxəŋ": {
+    "joxəŋ\t\t": 2
+  },
+  "joŋx": {
+    "вращаться\trotate\t": 2,
+    "вращаться\trotate\tV": 17,
+    "кружиться\tspin\tV": 4
+  },
+  "jóxt": {
+    "прийти\tcome\tV": 1
+  },
+  "jóŋx": {
+    "кружиться\tspin\tV": 1
+  },
+  "jom": {
+    "идти\tgo\tV": 2
+  },
+  "joxt": {
+    "идти\tgo\tV": 1,
+    "прийти\tcome\tV": 10,
+    "ходить\twalk\tV": 1
+  },
+  "joxte": {
+    "прийти\tcome\tV": 1
+  },
+  "jp": {
+    "jp\t\t": 1
+  },
+  "jpn": {
+    "jpn\t\t": 8
+  },
+  "jsanen": {
+    "jsanen\t\t": 1
+  },
+  "jto": {
+    "jto\t\t": 1
+  },
+  "ju": {
+    "зад\tback\tN": 1,
+    "идти\tgo\tV": 7
+  },
+  "jui": {
+    "внутрь\tinside\t": 1,
+    "зад\tback\t": 1,
+    "назад\tback\t": 1,
+    "сзади\tbehind\t": 1
+  },
+  "juj": {
+    "зад\tback\tN": 4
+  },
+  "juji": {
+    "зад\tback\t": 4,
+    "зад\tback\tN": 1,
+    "задний\tback\t": 13
+  },
+  "jun": {
+    "дома\tat.home\t": 18,
+    "дома\tat.home\tV": 1
+  },
+  "junt": {
+    "шить\tsew\t": 1,
+    "шить\tsew\tN": 5,
+    "шить\tsew\tV": 4
+  },
+  "junəɣt": {
+    "ударить\thit\tV": 2
+  },
+  "jupk": {
+    "юбка\tskirt\tN": 1
+  },
+  "jurt": {
+    "друг\tfriend\t": 1,
+    "друг\tfriend\tN": 3
+  },
+  "jurɕ": {
+    "подружить\tbefriend\tV": 1
+  },
+  "jurɕxat": {
+    "присоединиться\tjoin\tV": 6
+  },
+  "juw": {
+    "3SG\t\t": 1,
+    "Внутрь\t\t": 3,
+    "внутрь\tinside\t": 278,
+    "домой\thome\t": 21,
+    "идти\tgo\tV": 9,
+    "мука\tflour\t": 1,
+    "назад\tback\t": 2,
+    "сторону\t\t": 1
+  },
+  "juwlè": {
+    "назад\tback\t": 1
+  },
+  "jās": {
+    "тропа\tpath\t": 1
+  },
+  "jāŋk": {
+    "лёд\tice\t": 2
+  },
+  "jēmt": {
+    "стать\tbecome\tV": 5
+  },
+  "jī": {
+    "идти\tgo\tV": 1
+  },
+  "jōm": {
+    "идти\tgo\tV": 6,
+    "шагать\tstep\tV": 1
+  },
+  "jōnɣ": {
+    "играть\tplay\tV": 1
+  },
+  "jōnɣəŋt": {
+    "наигрывать\tplay\tV": 1
+  },
+  "jōwt": {
+    "лук\tbow\tV": 1
+  },
+  "jōŋx": {
+    "вертеться\tspin\tV": 7
+  },
+  "k": {
+    "k\t\t": 1
+  },
+  "k'": {
+    "k'\t\t": 3
+  },
+  "kaj": {
+    "баловаться\tplay.around\tV": 6,
+    "эй\they\tN": 1
+  },
+  "kakər": {
+    "торс\ttorso\t": 1
+  },
+  "kal": {
+    "kal\t\t": 2
+  },
+  "kal'": {
+    "самка\tfemale\t": 3
+  },
+  "kalasi": {
+    "калачи\tpretzels\t": 1
+  },
+  "kaltaɕ": {
+    "Калтащ\t\t": 2
+  },
+  "kami": {
+    "kami\t\t": 1
+  },
+  "kan": {
+    "зло\tevil\tV": 1,
+    "место\tplace\t": 7,
+    "место\tplace\tN": 3,
+    "площадь\tsquare\t": 14,
+    "площадь\tsquare\tN": 17
+  },
+  "kan'ɕ": {
+    "сохнуть\tdry\tV": 5
+  },
+  "kant": {
+    "зло\tevil\t": 3,
+    "зло\tevil\tN": 2,
+    "зло\tevil\tV": 4,
+    "злоба\tmalice\tV": 1
+  },
+  "kapaj": {
+    "великий\tgreat\t": 1
+  },
+  "kapjan": {
+    "капьян\tkapyan\t": 4
+  },
+  "kapərt": {
+    "возиться\tfuss\tV": 1
+  },
+  "karek": {
+    "грех\tsin\t": 1,
+    "грех\tsin\tN": 1
+  },
+  "kars": {
+    "высокий\ttall\t": 9,
+    "высокий\ttall\tN": 1
+  },
+  "karta": {
+    "ограда\tfence\t": 1
+  },
+  "kas": {
+    "радость\tjoy\tN": 15,
+    "соревнование\tcompetition\tN": 5,
+    "состязаться\tcompete\tV": 2
+  },
+  "kasaj": {
+    "нож\tknife\t": 1
+  },
+  "kasal": {
+    "заметить\tnotice\tV": 5,
+    "замечать\tnotice\tV": 1
+  },
+  "kasew": {
+    "чебак\t\t": 1
+  },
+  "kastak": {
+    "стол\ttable\t": 2
+  },
+  "kastəl": {
+    "ради\tfor\t": 1
+  },
+  "kasum": {
+    "Казым\t\t": 5
+  },
+  "kasər": {
+    "карты\tcards\tV": 6
+  },
+  "kasəŋ": {
+    "каждый\tevery\t": 8
+  },
+  "kat": {
+    "рука\thand\t": 4,
+    "рука\thand\tN": 11,
+    "руки\thands\t": 2,
+    "руки\thands\tN": 1
+  },
+  "kati": {
+    "кошка\tcat\t": 1,
+    "кошка\tcat\tN": 1
+  },
+  "ke": {
+    "3SG\t\t": 1,
+    "COND\t\t": 5,
+    "если\tif\t": 73
+  },
+  "kel": {
+    "красить\tpaint\t": 2,
+    "красить\tpaint\tV": 3
+  },
+  "keliɣ": {
+    "болото\tswamp\t": 2
+  },
+  "kelp": {
+    "кровь\tblood\t": 2,
+    "кровь\tblood\tN": 2
+  },
+  "kem": {
+    "APPR\t\t": 9,
+    "количество\tquantity\t": 11,
+    "количество\tquantity\tN": 3,
+    "манера\tmanner\t": 8,
+    "манера\tmanner\tN": 2,
+    "энергия/APPR\t\t": 1
+  },
+  "ken'ɕaml": {
+    "пробуждаться\tawaken\tV": 1
+  },
+  "kent": {
+    "шапка\that\t": 5
+  },
+  "ker": {
+    "железо\tiron\t": 28,
+    "железо\tiron\tN": 18,
+    "запрягать\tharness\tV": 9,
+    "запрячь\tharness\tV": 2
+  },
+  "keras": {
+    "скала\trock\t": 1
+  },
+  "ket": {
+    "послать\tsend\tV": 8
+  },
+  "keŋən": {
+    "пуговица\tbutton\t": 1
+  },
+  "kēləɣ": {
+    "болото\tswamp\t": 1
+  },
+  "kēm": {
+    "APPR\t\t": 1
+  },
+  "kēr": {
+    "запрячь\tharness\tV": 5
+  },
+  "kēt": {
+    "послать\tsend\tV": 1
+  },
+  "ki": {
+    "ki\t\t": 1
+  },
+  "kins": {
+    "искать\tsearch\tV": 11,
+    "отыскивать\tsearch\t": 1,
+    "отыскивать\tsearch\tV": 11
+  },
+  "kirsanin": {
+    "kirsanin\t\t": 1
+  },
+  "kirstan'in": {
+    "kirstan'in\t\t": 1
+  },
+  "kirtəx": {
+    "Киртых\t\t": 1
+  },
+  "kirɕani": {
+    "kirɕani\t\t": 1
+  },
+  "kirɕanin": {
+    "kirɕanin\t\t": 4
+  },
+  "kis": {
+    "искать\tsearch\tV": 1,
+    "обруч\thoop\t": 2,
+    "обруч\thoop\tN": 2,
+    "свистеть\twhistle\tV": 2
+  },
+  "kislakw": {
+    "кругом\taround\t": 1
+  },
+  "kismaj": {
+    "рыть\tdig\t": 1,
+    "рыть\tdig\tV": 1
+  },
+  "kisɣ": {
+    "свистеть\twhistle\t": 2
+  },
+  "kit": {
+    "два\ttwo\t": 69,
+    "два\ttwo\tN": 4,
+    "две\ttwo\t": 1,
+    "спросить\task\tV": 2
+  },
+  "kitiɣl": {
+    "спрашивать\task\tV": 5
+  },
+  "kitt": {
+    "два\ttwo\tN": 5
+  },
+  "kitxujplow": {
+    "двенадцать\ttwelve\t": 2,
+    "двенадцать\ttwelve\tN": 2
+  },
+  "kitəntiɣ": {
+    "вторично\tsecondary\t": 3
+  },
+  "kitəɣ": {
+    "два\ttwo\tV": 1
+  },
+  "kitəɣl": {
+    "спрашивать\task\tV": 2
+  },
+  "kitɣ": {
+    "два\ttwo\tV": 2
+  },
+  "kiw": {
+    "камень\tstone\t": 1
+  },
+  "kiwer": {
+    "нутро\tinsides\tN": 2
+  },
+  "kiwt": {
+    "точить\tsharpen\tV": 5
+  },
+  "kiwər": {
+    "внутренность\tinside\t": 4,
+    "внутренность\tinside\tN": 23
+  },
+  "kne": {
+    "kne\t\t": 1
+  },
+  "ko": {
+    "ko\t\t": 1
+  },
+  "koj": {
+    "koj\t\t": 3
+  },
+  "kojkute": {
+    "kojkute\t\t": 1
+  },
+  "kojup": {
+    "бубен\ttambourine\t": 5,
+    "бубен\ttambourine\tN": 1
+  },
+  "kol": {
+    "Дом\t\t": 1,
+    "дом\thome\t": 169,
+    "дом\thome\tN": 72,
+    "чум\ttent\t": 3,
+    "чум\ttent\tN": 7
+  },
+  "kolas": {
+    "мука\tflour\t": 3
+  },
+  "kolkan": {
+    "пол\tfloor\tN": 1
+  },
+  "kon": {
+    "наружу\toutside\t": 83,
+    "наружу\toutside\tN": 13,
+    "снаружи\toutside\t": 1
+  },
+  "kon'aranen": {
+    "kon'aranen\t\t": 1
+  },
+  "kona": {
+    "наружу\toutside\t": 34,
+    "снаружи\toutside\t": 1
+  },
+  "koni": {
+    "наружний\touter\t": 20
+  },
+  "kons": {
+    "коготь\tclaw\tN": 4,
+    "царапать\tscratch\t": 1,
+    "царапать\tscratch\tV": 4
+  },
+  "kos": {
+    "CONC\t\t": 30,
+    "вместе\ttogether\t": 1,
+    "коготь\tclaw\t": 9,
+    "хоть\tat.least\t": 1
+  },
+  "kot": {
+    "кисы\tdeer.skin.shoes\t": 1
+  },
+  "kotil'": {
+    "середина\tmiddle\t": 9,
+    "середина\tmiddle\tN": 27
+  },
+  "kotli": {
+    "середина\tmiddle\t": 1
+  },
+  "kotərt": {
+    "жечь\tburn\tV": 1
+  },
+  "kow": {
+    "kow\t\t": 3
+  },
+  "koɕaj": {
+    "хозяин\thost\t": 2,
+    "хозяин\thost\tN": 1,
+    "хозяин\thost\tV": 1
+  },
+  "kol": {
+    "дом\thome\t": 2
+  },
+  "kpn": {
+    "kpn\t\t": 5
+  },
+  "kukkuk": {
+    "кукушка\tcuckoo\t": 5
+  },
+  "kul'": {
+    "дьявол\tdevil\t": 10
+  },
+  "kun'ar": {
+    "сирота\torphan\tN": 4
+  },
+  "kupn": {
+    "лёгкий\tlight\t": 2
+  },
+  "kupnit": {
+    "лёгкий\tlight\t": 2
+  },
+  "kur": {
+    "печка\tstove\t": 2,
+    "печь\toven\t": 5
+  },
+  "kuraɕ": {
+    "веник\tbroom\t": 3
+  },
+  "kurɣ": {
+    "греметь\tthunder\tV": 2
+  },
+  "kus": {
+    "хотеть\twant\tV": 1
+  },
+  "kusnitsa": {
+    "кузница\tsmithy\t": 1
+  },
+  "kut'uw": {
+    "собака\tdog\t": 3,
+    "хозяин\thost\t": 1
+  },
+  "kwal": {
+    "вставать\tget.up\tV": 3,
+    "встать\tstand\tV": 132,
+    "выйти\tgo.out\tV": 2
+  },
+  "kwaliɣ": {
+    "верёвка\trope\t": 1
+  },
+  "kwallasən": {
+    "kwallasən\t\t": 1
+  },
+  "kwaləɣ": {
+    "верёвка\trope\t": 1
+  },
+  "kwaləɣ": {
+    "верёвка\trope\t": 2
+  },
+  "kwalɣ": {
+    "верёвка\trope\tN": 3
+  },
+  "kwalɣ": {
+    "сказать\tsay\tV": 1
+  },
+  "kwāl": {
+    "встать\tstand\tV": 1
+  },
+  "kwāl": {
+    "встать\tstand\tV": 4
+  },
+  "kys": {
+    "хотеть\twant\tV": 1
+  },
+  "kārt": {
+    "сосредоточить\tconcentrate\tV": 1
+  },
+  "kāt": {
+    "рука\thand\t": 1
+  },
+  "kēr": {
+    "железо\tiron\t": 10
+  },
+  "kxar": {
+    "самец\tmale\t": 1
+  },
+  "l": {
+    "l\t\t": 3,
+    "стрелять\tshoot\tV": 9
+  },
+  "l'al't": {
+    "навстречу\ttoward\t": 3
+  },
+  "l'am": {
+    "черёмуха\tbird.cherry\t": 1
+  },
+  "l'ap": {
+    "близко\tclose\tN": 1
+  },
+  "l'apa": {
+    "близко\tclose\t": 1,
+    "близость\tproximity\t": 2,
+    "близость\tproximity\tN": 11
+  },
+  "l'awt": {
+    "ругаться\tquarrel\tV": 2
+  },
+  "l'axtxati": {
+    "l'axtxati\t\t": 1
+  },
+  "l'aŋkwi": {
+    "l'aŋkwi\t\t": 1
+  },
+  "l'aɣ": {
+    "говорить\tspeak\tV": 3
+  },
+  "l'aɣal": {
+    "молвить\tsay\tV": 11
+  },
+  "l'eŋk": {
+    "клин\twedge\t": 1
+  },
+  "l'omwoj": {
+    "комар\tmosquito\t": 2,
+    "комар\tmosquito\tN": 1
+  },
+  "l'ou": {
+    "лев\tlion\t": 1
+  },
+  "l'ox": {
+    "дорога\troad\t": 2
+  },
+  "l'oŋx": {
+    "дорога\troad\t": 11,
+    "дорога\troad\tN": 1
+  },
+  "l'ul'": {
+    "встать\tstand\tV": 1,
+    "плохой\tbad\t": 10,
+    "плохой\tbad\tN": 6,
+    "стоять\tstand\tV": 53
+  },
+  "l'ul'it": {
+    "высота\theight\t": 3
+  },
+  "l'ul'saŋ": {
+    "плохой\tbad\t": 2
+  },
+  "l'un's": {
+    "плакать\tcry\tV": 1
+  },
+  "l'un'ɕ": {
+    "плакать\tcry\tV": 2,
+    "слеза\ttear\t": 1,
+    "стоять\tstand\tV": 5
+  },
+  "l'un's": {
+    "Плакать\t\t": 1
+  },
+  "l'un'ɕ": {
+    "сторона\tside\tN": 1
+  },
+  "l'ūl'": {
+    "встать\tstand\tV": 1
+  },
+  "l'ēw": {
+    "лев\tlion\t": 3
+  },
+  "l'ōŋx": {
+    "путь\tpath\t": 1
+  },
+  "l'ūl": {
+    "встать\tstand\tV": 1,
+    "стоять\tstand\tV": 2
+  },
+  "l'ūl'": {
+    "встать\tstand\tV": 1,
+    "стоять\tstand\t": 1,
+    "стоять\tstand\tV": 3
+  },
+  "l'ūn'ɕ": {
+    "плакать\tcry\tV": 1
+  },
+  "laj": {
+    "бросить\tthrow\tV": 2,
+    "стрелять\tshoot\tV": 3
+  },
+  "lakkwa": {
+    "врозь\tapart\t": 2
+  },
+  "lakw": {
+    "двигать\tmove\tV": 5,
+    "обод\trim\t": 1
+  },
+  "lalwa": {
+    "lalwa\t\t": 1
+  },
+  "lampa": {
+    "lampa\t\t": 1
+  },
+  "lap": {
+    "взлететь\ttake.off\tV": 10,
+    "закрыть\tclose\t": 10
+  },
+  "lapl": {
+    "обмануть\tdeceive\tV": 2
+  },
+  "laps": {
+    "взлететь\ttake.off\tV": 1
+  },
+  "lapsa": {
+    "подниматься\trise\tV": 1
+  },
+  "lar": {
+    "крутиться\tturn\tV": 3
+  },
+  "laraɕ": {
+    "ларец\t\t": 1
+  },
+  "larkan": {
+    "larkan\t\t": 1
+  },
+  "lat": {
+    "манера\tmanner\tN": 4
+  },
+  "latəŋ": {
+    "слово\tword\t": 7,
+    "слово\tword\tN": 1
+  },
+  "law": {
+    "Говорить\t\tV": 1,
+    "верёвка\trope\tV": 1,
+    "говорить\tspeak\t": 2,
+    "говорить\tspeak\tV": 181,
+    "ненависть\thatred\tN": 2,
+    "сказать\tsay\tV": 83
+  },
+  "lawlt": {
+    "говорить\tspeak\tV": 1
+  },
+  "laws": {
+    "говорить\tspeak\tV": 1,
+    "обещание\tpromise\tN": 1
+  },
+  "laɕ": {
+    "laɕ\t\t": 1
+  },
+  "laɕal": {
+    "медленный\tslow\t": 2
+  },
+  "laɕiɣl": {
+    "выслеживать\ttrack.down\tV": 1
+  },
+  "laɣl": {
+    "нога\tleg\t": 1,
+    "нога\tleg\tN": 26
+  },
+  "laɣəl": {
+    "нога\tleg\t": 9,
+    "нога\tleg\tN": 3
+  },
+  "lāw": {
+    "говорить\tspeak\tV": 9
+  },
+  "laɣl": {
+    "ноги\tlegs\tN": 2
+  },
+  "laɣəl": {
+    "ноги\tlegs\t": 3,
+    "ноги\tlegs\tN": 1
+  },
+  "lekar": {
+    "лекарь\thealer\t": 6
+  },
+  "leli": {
+    "leli\t\t": 3
+  },
+  "lep": {
+    "lep\t\t": 1,
+    "покрыть\tcover\t": 2,
+    "покрыть\tcover\tN": 3
+  },
+  "lepkas": {
+    "lepkas\t\t": 1
+  },
+  "lew": {
+    "вытащить\tpull.out\tV": 3
+  },
+  "lewat": {
+    "вынуть\ttake.out\tV": 4
+  },
+  "leŋn": {
+    "белка\tsquirrel\t": 1
+  },
+  "leŋxn": {
+    "белка\tsquirrel\t": 1
+  },
+  "leŋxən": {
+    "белка\tsquirrel\t": 2
+  },
+  "leŋən": {
+    "белка\tsquirrel\t": 6
+  },
+  "li": {
+    "бросать\tthrow\tV": 1,
+    "бросить\tthrow\tV": 1
+  },
+  "lil": {
+    "дыхание\tbreath\t": 1,
+    "дыхание\tbreath\tN": 1,
+    "дыхание\tbreath\tV": 2
+  },
+  "lili": {
+    "дыхание\tbreath\tN": 24,
+    "жизнь\tlife\tN": 1
+  },
+  "lisa": {
+    "lisa\t\t": 1
+  },
+  "lj": {
+    "lj\t\t": 1
+  },
+  "lolta": {
+    "заплата\t\tN": 2
+  },
+  "lomij": {
+    "ползти\tcrawl\tV": 2
+  },
+  "lomt": {
+    "кусок\tpiece\t": 7,
+    "кусок\tpiece\tN": 8
+  },
+  "lomɣ": {
+    "ворчать\tgrumble\tV": 1
+  },
+  "lon": {
+    "lon\t\t": 1
+  },
+  "lopi": {
+    "коряга\tsnag\t": 1
+  },
+  "lops": {
+    "страница\tpage\tN": 1
+  },
+  "los": {
+    "искра\tspark\tN": 1
+  },
+  "lot": {
+    "ценность\tvalue\tN": 2
+  },
+  "low": {
+    "десять\tten\t": 3
+  },
+  "lowaɕ": {
+    "скамья\tbench\tN": 1
+  },
+  "lowin't": {
+    "читать\tread\tV": 8
+  },
+  "lowt": {
+    "мыть\twash\tV": 5
+  },
+  "lox": {
+    "бухта\tbay\t": 2,
+    "стучать\tknock\tV": 4
+  },
+  "loxtəŋən": {
+    "loxtəŋən\t\t": 1
+  },
+  "loŋ": {
+    "кричать\tshout\tV": 1
+  },
+  "loŋi": {
+    "собака\tdog\tN": 1
+  },
+  "loŋx": {
+    "дорога\troad\tN": 1
+  },
+  "loŋxal'ɕap": {
+    "колокольчик\tbell\t": 1
+  },
+  "loŋxit": {
+    "заболевать\tfall.ill\tV": 2
+  },
+  "loɕ": {
+    "перепел\tquail\t": 1
+  },
+  "lōŋx": {
+    "дорога\troad\t": 1,
+    "дорога\troad\tN": 1
+  },
+  "lopəl": {
+    "на\ton\t": 1
+  },
+  "lto": {
+    "lto\t\t": 4
+  },
+  "lui": {
+    "север\tnorth\t": 9
+  },
+  "luji": {
+    "север\tnorth\t": 1
+  },
+  "lujɣ": {
+    "щебетать\tchirp\tV": 3
+  },
+  "luli": {
+    "гагара\tloon\tN": 2,
+    "гагарка\tloon\t": 2
+  },
+  "lum": {
+    "жар\theat\tN": 1
+  },
+  "lunt": {
+    "гусь\tgoose\t": 10
+  },
+  "lupta": {
+    "лист\tleaf\t": 10
+  },
+  "luw": {
+    "кость\tbone\t": 5,
+    "кость\tbone\tN": 10,
+    "лошадь\thorse\t": 47,
+    "лошадь\thorse\tN": 18
+  },
+  "luwəx": {
+    "luwəx\t\t": 1
+  },
+  "lū": {
+    "кость\tbone\t": 1
+  },
+  "lyw": {
+    "лошадь\thorse\t": 2
+  },
+  "lāw": {
+    "сказать\tsay\tV": 33
+  },
+  "lāɕ": {
+    "медленно\tslowly\t": 2
+  },
+  "lāɕal": {
+    "медленно\tslowly\t": 1
+  },
+  "lāɣəl": {
+    "нога\tleg\t": 2
+  },
+  "lēw": {
+    "лев\tlion\t": 1
+  },
+  "lōnxit": {
+    "бить\thit\tV": 1
+  },
+  "lōŋxan'ɕap": {
+    "колокольчик\tbell\t": 1
+  },
+  "lōŋxit": {
+    "бить\thit\tV": 1
+  },
+  "ləɣ": {
+    "DISC\t\t": 3
+  },
+  "ləɣt": {
+    "DISC\t\t": 2
+  },
+  "l'al't": {
+    "навстречу\ttoward\t": 1
+  },
+  "l'apa": {
+    "близко\tclose\t": 1,
+    "близко\tclose\tN": 3
+  },
+  "l'aɣal": {
+    "сказать\tsay\tV": 1
+  },
+  "l'ou": {
+    "лев\tlion\t": 1
+  },
+  "l'oŋx": {
+    "дорога\troad\t": 2,
+    "дорога\troad\tN": 3
+  },
+  "l'ul": {
+    "стоять\tstand\tV": 1
+  },
+  "l'ul'": {
+    "плохо\tbad\t": 1,
+    "плохой\tbad\t": 1,
+    "стоять\tstand\t": 3,
+    "стоять\tstand\tV": 3
+  },
+  "l'ul'səŋ": {
+    "плохо\tbad\t": 1
+  },
+  "l'unɕ'": {
+    "плакать\tcry\t": 1
+  },
+  "l'un'ɕ": {
+    "плакать\tcry\tV": 8
+  },
+  "m": {
+    "m\t\t": 5,
+    "дать\tgive\tV": 16
+  },
+  "ma": {
+    "дать\tgive\tV": 1,
+    "земля\tearth\t": 92,
+    "земля\tearth\tN": 33
+  },
+  "maj": {
+    "1PL\t\t": 1,
+    "ведь\tisn't.it\t": 2,
+    "дать\tgive\tV": 13
+  },
+  "majt": {
+    "печень\tliver\tN": 1
+  },
+  "mak": {
+    "правда\ttruth\t": 3
+  },
+  "mal": {
+    "благосостоятельная\trich\tN": 2
+  },
+  "malaɕl": {
+    "щупать\tfeel\tV": 2
+  },
+  "maltəp": {
+    "тёплый\twarm\t": 1
+  },
+  "maləŋ": {
+    "maləŋ\t\t": 1
+  },
+  "man": {
+    "1PL\t\t": 19,
+    "2SG\t\t": 1,
+    "Q\t\t": 44,
+    "порвать\ttear\tV": 1
+  },
+  "man'": {
+    "маленький\tsmall\t": 65
+  },
+  "man'salaste": {
+    "man'salaste\t\t": 2
+  },
+  "man'ɕi": {
+    "манси\tMansi\t": 1,
+    "манси\tMansi\tN": 2
+  },
+  "mana": {
+    "Q\t\t": 11
+  },
+  "manar": {
+    "что\twhat\tN": 3
+  },
+  "manax": {
+    "сколько\thow.much\t": 4
+  },
+  "manax": {
+    "сколько\thow.much\t": 1
+  },
+  "maniɣt": {
+    "рвать\ttear\tV": 1
+  },
+  "manr": {
+    "что\twhat\tN": 16
+  },
+  "manriɣ": {
+    "NEG\t\t": 1
+  },
+  "mant": {
+    "лопата\tshovel\t": 4,
+    "лопата\tshovel\tN": 2
+  },
+  "manur": {
+    "что\twhat\tN": 3
+  },
+  "manurəl": {
+    "как\tlike\t": 1
+  },
+  "manər": {
+    "что\twhat\t": 50
+  },
+  "man'": {
+    "Q\t\t": 1,
+    "маленький\tsmall\t": 6
+  },
+  "man'ɕi": {
+    "манси\tMansi\t": 3
+  },
+  "mar": {
+    "заужение\tnarrowing\tN": 2
+  },
+  "marawi": {
+    "целый\twhole\tN": 3
+  },
+  "marl": {
+    "окружить\tsurround\tV": 2
+  },
+  "marɕem": {
+    "скучно\tboring\t": 1
+  },
+  "mas": {
+    "надеть\tput.on\tV": 2,
+    "одевать\tdress\tV": 15,
+    "одеваться\tget.dressed\tV": 4
+  },
+  "mat": {
+    "INDEF\t\t": 12,
+    "старый\told\tV": 1
+  },
+  "mataras": {
+    "mataras\t\t": 1
+  },
+  "matum": {
+    "старый\told\t": 7
+  },
+  "matər": {
+    "INDEF\t\t": 1,
+    "что\twhat\t": 1
+  },
+  "maxar": {
+    "мамонт\tmammoth\t": 8
+  },
+  "maxr": {
+    "мамонт\tmammoth\t": 1
+  },
+  "man'": {
+    "Маленький\t\t": 1
+  },
+  "maŋkwla": {
+    "сова\towl\t": 2
+  },
+  "maɕtər": {
+    "искусный\tskillful\t": 2
+  },
+  "maɣ": {
+    "мёд\thoney\tN": 9,
+    "совать\tstick\tV": 3
+  },
+  "maɣnawn": {
+    "maɣnawn\t\t": 1
+  },
+  "maɣəs": {
+    "для\tfor\t": 15
+  },
+  "mā": {
+    "земля\tearth\t": 1,
+    "земля\tearth\tN": 2,
+    "место\tplace\tN": 1
+  },
+  "mām": {
+    "земля\tearth\tN": 1
+  },
+  "mān": {
+    "или\tor\t": 2
+  },
+  "māna": {
+    "какой\twhat.kind\t": 1
+  },
+  "maɣ": {
+    "мёд\thoney\tN": 5
+  },
+  "maɣum": {
+    "народ\tpeople\t": 2,
+    "народ\tpeople\tN": 1
+  },
+  "mej": {
+    "1DU\t\t": 1
+  },
+  "men": {
+    "1DU\t\t": 19,
+    "OBL\t\t": 1
+  },
+  "meskent": {
+    "meskent\t\t": 1
+  },
+  "mesəɣ": {
+    "извилина\tgyrus\tN": 2
+  },
+  "mesɣ": {
+    "извилина\tgyrus\tN": 4
+  },
+  "met": {
+    "плата\tpayment\tN": 2
+  },
+  "meŋki": {
+    "1DU\t\t": 1
+  },
+  "meŋkw": {
+    "менкв\tgiant\t": 26,
+    "менкв\tgiant\tN": 4
+  },
+  "mēn": {
+    "1DU\t\t": 1
+  },
+  "mi": {
+    "дать\tgive\tV": 6
+  },
+  "mil": {
+    "глубокий\tdeep\t": 1
+  },
+  "min": {
+    "min\t\t": 2,
+    "идти\tgo\t": 12,
+    "идти\tgo\tV": 429,
+    "комната\troom\tN": 1,
+    "пойти\tstart.going\t": 2,
+    "пойти\tstart.going\tV": 180
+  },
+  "mina": {
+    "идти\tgo\tV": 3
+  },
+  "mine": {
+    "идти\tgo\tN": 2
+  },
+  "minijen": {
+    "minijen\t\t": 2
+  },
+  "mir": {
+    "мис\tMis\t": 1,
+    "народ\tpeople\t": 19,
+    "народ\tpeople\tN": 13,
+    "народ\tpeople\tV": 1,
+    "общество\tsociety\t": 3
+  },
+  "mirɣ": {
+    "греметь\tthunder\tV": 1
+  },
+  "mis": {
+    "корова\tcow\t": 3,
+    "мис\tMis\t": 5,
+    "приведение\tghost\t": 3
+  },
+  "mmn": {
+    "mmn\t\t": 2
+  },
+  "mn": {
+    "mn\t\t": 12
+  },
+  "mn'": {
+    "mn'\t\t": 1
+  },
+  "mojt": {
+    "сказка\tfairy.tale\t": 17,
+    "сказка\tfairy.tale\tN": 1
+  },
+  "mokamaxtas": {
+    "mokamaxtas\t\t": 2
+  },
+  "mokrami": {
+    "mokrami\t\t": 1
+  },
+  "mol": {
+    "прошлый\tpast\t": 6,
+    "прошлый\tpast\tN": 2,
+    "прошлый\tpast\tV": 1
+  },
+  "mol'aml": {
+    "торопить\thurry\tV": 1
+  },
+  "mol'ax": {
+    "быстро\tquickly\t": 2,
+    "быстрый\tfast\t": 10,
+    "быстрый\tfast\tV": 1
+  },
+  "mol'ɕaŋ": {
+    "малица\tdeerskin.outerwear\t": 3
+  },
+  "molal": {
+    "недавно\trecently\t": 4
+  },
+  "moləŋ": {
+    "богатый\trich\t": 1
+  },
+  "mol'": {
+    "скоро\tsoon\t": 2,
+    "скоро\tsoon\tV": 2
+  },
+  "mon'məŋ": {
+    "mon'məŋ\t\t": 1
+  },
+  "mont": {
+    "недавно\trecently\t": 3
+  },
+  "mor": {
+    "дряной\tshabby\t": 6
+  },
+  "mori": {
+    "зря\tin.vain\t": 1,
+    "зря\tin.vain\tN": 1
+  },
+  "morsəŋ": {
+    "редкий\trare\t": 1
+  },
+  "mort": {
+    "мерять\tmeasure\tV": 5
+  },
+  "mortim": {
+    "южный\tsouthern\t": 5
+  },
+  "mos": {
+    "болезнь\tsickness\t": 1,
+    "болезнь\tsickness\tV": 1
+  },
+  "mot": {
+    "другой\tanother\t": 23,
+    "другой\tanother\tN": 2
+  },
+  "motan": {
+    "другой\tanother\tN": 1
+  },
+  "moɕ": {
+    "Мощ\t\t": 19,
+    "Мощ\t\tN": 1,
+    "мало\tlittle\t": 6,
+    "мало\tlittle\tV": 1,
+    "немного\ta.little\t": 11
+  },
+  "moɕa": {
+    "мало\tlittle\t": 4
+  },
+  "moɕne": {
+    "Мощнэ\t\t": 1,
+    "Мощнэ\t\tN": 1
+  },
+  "moɕɕa": {
+    "немного\ta.little\t": 4
+  },
+  "mpn": {
+    "mpn\t\t": 7
+  },
+  "msx": {
+    "msx\t\t": 1
+  },
+  "muj": {
+    "гость\tguest\t": 6,
+    "гость\tguest\tN": 3,
+    "гость\tguest\tV": 8
+  },
+  "mujle": {
+    "гость\tguest\t": 1
+  },
+  "muli": {
+    "косяк\tbunch\t": 1,
+    "передний\tfront\t": 7
+  },
+  "mulɣa": {
+    "вокруг\taround\t": 4
+  },
+  "munt": {
+    "недавно\trecently\t": 2
+  },
+  "murm": {
+    "нырнуть\tdive\tV": 1
+  },
+  "mus": {
+    "до\tto\t": 11
+  },
+  "mutra": {
+    "мудрость\twisdom\tN": 4
+  },
+  "muwal": {
+    "вокруг\taround\t": 1,
+    "засмеяться\t\tV": 4
+  },
+  "muwin't": {
+    "смех\tlaughter\t": 1,
+    "смеяться\tlaugh\tV": 1
+  },
+  "muwr": {
+    "дубина\tclub\t": 1
+  },
+  "muwəl": {
+    "вокруг\taround\t": 2
+  },
+  "muwər": {
+    "дубина\tclub\t": 7
+  },
+  "muŋi": {
+    "яйцо\tegg\t": 7,
+    "яйцо\tegg\tN": 1
+  },
+  "mx": {
+    "mx\t\t": 2
+  },
+  "mā": {
+    "земля\tearth\tN": 9,
+    "место\tplace\tN": 2
+  },
+  "mēn": {
+    "1DU\t\t": 2
+  },
+  "mēŋkw": {
+    "менкв\tgiant\t": 4,
+    "менкв\tgiant\tN": 3
+  },
+  "mōl": {
+    "прошлый\tpast\t": 1
+  },
+  "mōtan": {
+    "другой\tanother\t": 1
+  },
+  "mūwal": {
+    "вокруг\taround\t": 1
+  },
+  "məɣəs": {
+    "для\tfor\t": 1
+  },
+  "n": {
+    "n\t\t": 4
+  },
+  "n'ajt": {
+    "шаман\tshaman\t": 7,
+    "шаман\tshaman\tN": 1
+  },
+  "n'akw": {
+    "пыль\tdust\t": 1
+  },
+  "n'akɕ": {
+    "шлёпать\tslap\tV": 1
+  },
+  "n'al": {
+    "стрела\tarrow\t": 9,
+    "стрела\tarrow\tN": 11
+  },
+  "n'al'": {
+    "слопец\tbird.trap\t": 2,
+    "слопец\tbird.trap\tN": 1
+  },
+  "n'al'umli": {
+    "n'al'umli\t\t": 2
+  },
+  "n'al'ɕ": {
+    "слизь\tslime\tN": 1
+  },
+  "n'allaŋ": {
+    "Няльтье\t\t": 1
+  },
+  "n'altaŋ": {
+    "n'altaŋ\t\t": 1
+  },
+  "n'amirmasa": {
+    "n'amirmasa\t\t": 1
+  },
+  "n'an'": {
+    "хлеб\tbread\t": 1
+  },
+  "n'ar": {
+    "болото\tswamp\t": 12,
+    "болото\tswamp\tN": 1,
+    "голый\tnaked\t": 7
+  },
+  "n'ara": {
+    "чирки\tteals\t": 3,
+    "чирки\tteals\tN": 3
+  },
+  "n'arak": {
+    "n'arak\t\t": 1
+  },
+  "n'art": {
+    "скрести\tscratch\tV": 1
+  },
+  "n'awl": {
+    "гнать\tchase\tV": 7
+  },
+  "n'awram": {
+    "ребёнок\tchild\t": 23,
+    "ребёнок\tchild\tN": 6
+  },
+  "n'axɕumwol'": {
+    "Няксимволь\t\tN": 1
+  },
+  "n'aŋra": {
+    "суровый\tharsh\t": 9,
+    "суровый\tharsh\tN": 1
+  },
+  "n'aɣrametna": {
+    "n'aɣrametna\t\t": 1
+  },
+  "n'il": {
+    "четыре\tfour\t": 1
+  },
+  "n'il'taŋ": {
+    "яр\travine\t": 3
+  },
+  "n'ila": {
+    "четыре\tfour\t": 25
+  },
+  "n'ir": {
+    "прут\ttwig\t": 6
+  },
+  "n'ol": {
+    "нос\tnose\t": 7,
+    "нос\tnose\tN": 16
+  },
+  "n'olləɣt": {
+    "облизываться\tlick.one's.lips\tV": 1
+  },
+  "n'op": {
+    "n'op\t\t": 1
+  },
+  "n'or": {
+    "гора\tmountain\t": 5,
+    "гора\tmountain\tN": 1,
+    "гора\tmountain\tV": 1
+  },
+  "n'ow": {
+    "двигаться\tmove\t": 4,
+    "двигаться\tmove\tV": 1
+  },
+  "n'owl'": {
+    "мясо\tmeat\t": 1,
+    "мясо\tmeat\tN": 4
+  },
+  "n'owəl'": {
+    "мясо\tmeat\t": 12
+  },
+  "n'oxs": {
+    "соболь\tsable\t": 16,
+    "соболь\tsable\tN": 2
+  },
+  "n'oxəs": {
+    "соболь\tsable\t": 10
+  },
+  "n'uns": {
+    "вытянуться\tstretch.out\tV": 1
+  },
+  "n'urm": {
+    "олень\tdeer\t": 3
+  },
+  "n'usm": {
+    "родственник\trelative\tN": 2
+  },
+  "n'uw": {
+    "двигаться\tmove\tV": 2
+  },
+  "n'āwram": {
+    "ребёнок\tchild\tN": 1
+  },
+  "na": {
+    "na\t\t": 4,
+    "на\ton\t": 4
+  },
+  "naj": {
+    "барышня\tyoung.lady\t": 2,
+    "барышня\tyoung.lady\tN": 2,
+    "огонь\tfire\t": 6,
+    "огонь\tfire\tN": 8
+  },
+  "nak": {
+    "комната\troom\tN": 1,
+    "случай\tincident\t": 4,
+    "случай\tincident\tN": 7,
+    "случай\tincident\tV": 2
+  },
+  "nal": {
+    "рукоятка\thandle\t": 1,
+    "сорок\tforty\t": 4,
+    "сорок\tforty\tN": 2
+  },
+  "naliman": {
+    "сорок\tforty\t": 4
+  },
+  "nam": {
+    "имя\tname\t": 4,
+    "имя\tname\tN": 9
+  },
+  "namt": {
+    "думать\tthink\tV": 1
+  },
+  "naməl": {
+    "нарочно\ton.purpose\t": 1
+  },
+  "nan": {
+    "2PL\t\t": 17,
+    "2SG\t\t": 1
+  },
+  "nar": {
+    "толкнуть\tpush\tN": 1,
+    "толкнуть\tpush\tV": 3
+  },
+  "narsələŋ": {
+    "narsələŋ\t\t": 1
+  },
+  "narəŋ": {
+    "дерзкий\tcheeky\t": 2
+  },
+  "nas": {
+    "зря\tin.vain\t": 2,
+    "просто\tjust\t": 1,
+    "простой\tsimple\t": 18,
+    "простой\tsimple\tN": 2
+  },
+  "naul": {
+    "погнать\tchase\tV": 1
+  },
+  "naŋ": {
+    "1SG\t\t": 2,
+    "2SG\t\t": 111,
+    "2SG\t\tV": 2,
+    "3SG\t\t": 1,
+    "вниз\tdown\t": 1,
+    "словно\tas.if\t": 1,
+    "ты\tyou\tN": 1
+  },
+  "naŋk": {
+    "виднеться\tbe.seen\t": 1,
+    "виднеться\tbe.seen\tV": 9,
+    "лиственница\tlarch\t": 23,
+    "лиственница\tlarch\tN": 2
+  },
+  "naɕamtimet": {
+    "naɕamtimet\t\t": 1
+  },
+  "naɣəŋ": {
+    "naɣəŋ\t\t": 1
+  },
+  "nāl": {
+    "стрела\tarrow\tN": 1
+  },
+  "nān": {
+    "2PL\t\t": 1
+  },
+  "ne": {
+    "NEG\t\t": 23,
+    "NEG\t\tN": 1,
+    "женщина\twoman\t": 40,
+    "женщина\twoman\tN": 4,
+    "показаться\tappear\tV": 9
+  },
+  "nejl": {
+    "показаться\tappear\tV": 7
+  },
+  "nelm": {
+    "язык\ttongue\t": 6,
+    "язык\ttongue\tN": 6
+  },
+  "nem": {
+    "NEG\t\t": 6
+  },
+  "nematr": {
+    "ничего\tnothing\t": 1
+  },
+  "nematər": {
+    "ничего\tnothing\t": 5
+  },
+  "nen": {
+    "2DU\t\t": 3
+  },
+  "nensa": {
+    "ненец\tNenets\t": 1
+  },
+  "nepak": {
+    "книга\tbook\t": 8,
+    "человек\tperson\t": 1
+  },
+  "ner": {
+    "пена\tfoam\tN": 1
+  },
+  "neɣ": {
+    "привязать\ttie\tV": 15
+  },
+  "neɣl": {
+    "выглянуть\tpeek.out\tV": 1,
+    "показаться\tappear\tV": 24
+  },
+  "nē": {
+    "жена\twife\t": 1,
+    "женщина\twoman\t": 2
+  },
+  "neɣ": {
+    "привязать\ttie\tV": 1
+  },
+  "neɣl": {
+    "показаться\tappear\tV": 5
+  },
+  "no": {
+    "no\t\t": 1
+  },
+  "nol": {
+    "nol\t\t": 1
+  },
+  "nol'": {
+    "nol'\t\t": 1
+  },
+  "nole": {
+    "nole\t\t": 1
+  },
+  "nom": {
+    "вспоминать\tremember\tV": 4,
+    "думать\tthink\tV": 1
+  },
+  "noms": {
+    "думать\tthink\tV": 25
+  },
+  "nomt": {
+    "ум\tmind\t": 3,
+    "ум\tmind\tN": 9
+  },
+  "nop": {
+    "утонуть\tdrown\tV": 1
+  },
+  "nor": {
+    "бревно\tlog\t": 7,
+    "бревно\tlog\tN": 3
+  },
+  "norma": {
+    "полка\tshelf\t": 4,
+    "полка\tshelf\tN": 7
+  },
+  "nort": {
+    "стлать\tspread.out\tV": 1
+  },
+  "not": {
+    "век\tcentury\t": 1,
+    "век\tcentury\tN": 11
+  },
+  "notja": {
+    "нодья\tslow.log.bonfire\t": 2
+  },
+  "not'ja": {
+    "нодья\tslow.log.bonfire\t": 2
+  },
+  "noutup": {
+    "шабер\t\t": 2
+  },
+  "now": {
+    "начинать\tbegin\t": 1,
+    "начинать\tbegin\tV": 2
+  },
+  "nox": {
+    "вверх\tup\t": 1,
+    "верх\ttop\t": 1,
+    "наверх\tup\t": 17,
+    "хромать\tlimp\tV": 3
+  },
+  "noŋx": {
+    "вверх\tup\t": 5,
+    "наверх\tup\t": 56
+  },
+  "noŋxa": {
+    "наверх\tup\t": 4,
+    "наверх\tup\tN": 1
+  },
+  "noŋx": {
+    "Вверх\t\t": 1
+  },
+  "nōŋx": {
+    "вверх\tup\t": 1
+  },
+  "nōŋx": {
+    "вверх\tup\t": 5
+  },
+  "nt": {
+    "nt\t\t": 2
+  },
+  "nuj": {
+    "сдирать\tpeel.off\tV": 5,
+    "сукно\tcloth\t": 2
+  },
+  "nul": {
+    "стремнина\trapid.river.part\t": 1,
+    "стремнина\trapid.river.part\tN": 1
+  },
+  "num": {
+    "верх\ttop\t": 3
+  },
+  "numi": {
+    "верхний\tupper\t": 13,
+    "верхний\tupper\tN": 1
+  },
+  "numə": {
+    "верхний\tupper\tN": 6
+  },
+  "numən": {
+    "наверху\tupstairs\t": 1
+  },
+  "nunəl": {
+    "nunəl\t\t": 1
+  },
+  "nupəl": {
+    "в\tin\t": 1,
+    "к\tto\t": 49,
+    "к\tto\tN": 1
+  },
+  "nur": {
+    "месть\trevenge\t": 5,
+    "месть\trevenge\tN": 1
+  },
+  "nuraɕeɣum": {
+    "nuraɕeɣum\t\t": 1
+  },
+  "nuraɕi": {
+    "nuraɕi\t\t": 1
+  },
+  "nuw": {
+    "3SG\t\t": 1
+  },
+  "nw": {
+    "nw\t\t": 1
+  },
+  "nys": {
+    "бедный\tpoor\tN": 1
+  },
+  "nysa": {
+    "бедный\tpoor\t": 4,
+    "бедный\tpoor\tN": 3
+  },
+  "nāŋk": {
+    "лиственница\tlarch\t": 1
+  },
+  "nēn": {
+    "2DU\t\t": 1
+  },
+  "nēɣ": {
+    "привязать\ttie\tV": 2
+  },
+  "nēɣl": {
+    "появиться\tappear\tV": 2
+  },
+  "nōŋx": {
+    "вверх\tup\t": 9
+  },
+  "nəl": {
+    "nəl\t\t": 1
+  },
+  "n'al": {
+    "стрела\tarrow\t": 8,
+    "стрела\tarrow\tN": 1
+  },
+  "n'an'": {
+    "хлеб\tbread\t": 2
+  },
+  "n'ar": {
+    "сырой\traw\t": 2
+  },
+  "n'aul": {
+    "догнать\tcatch.up\tV": 1,
+    "погнать\tchase\tV": 2,
+    "прогнать\tchase.away\tV": 1
+  },
+  "n'awram": {
+    "ребёнок\tchild\t": 4,
+    "ребёнок\tchild\tN": 1
+  },
+  "n'axəɣ": {
+    "визг\tsqueal\t": 1
+  },
+  "n'ol": {
+    "мыс/нос\t\tN": 1,
+    "нос\tnose\tN": 2
+  },
+  "n'ow": {
+    "двинуться\tmove\tV": 1
+  },
+  "n'owəl": {
+    "мясо\tmeat\t": 2
+  },
+  "o": {
+    "o\t\t": 13,
+    "О\t\t": 1,
+    "быть\tbe\tV": 1
+  },
+  "oj": {
+    "заснуть\tfall.asleep\tV": 4,
+    "пить\tdrink\tV": 1,
+    "убежать\trun.away\t": 1,
+    "убежать\trun.away\tV": 25,
+    "уснуть\tfall.asleep\tV": 13
+  },
+  "ojka": {
+    "муж\thusband\t": 21,
+    "муж\thusband\tN": 3,
+    "мужчина\tman\t": 131,
+    "мужчина\tman\tN": 27
+  },
+  "ol": {
+    "быть\tbe\t": 4,
+    "быть\tbe\tV": 305,
+    "жить\tlive\tV": 14,
+    "земля\tearth\tN": 1
+  },
+  "ole": {
+    "быть\tbe\tV": 1,
+    "жить\tlive\tV": 1
+  },
+  "oln": {
+    "деньги\tmoney\t": 29,
+    "деньги\tmoney\tN": 2,
+    "серебро\tsilver\t": 6,
+    "серебро\tsilver\tV": 1
+  },
+  "olt": {
+    "соединить\tconnect\t": 9,
+    "соединить\tconnect\tV": 1
+  },
+  "oləŋ": {
+    "oləŋ\t\t": 1
+  },
+  "oma": {
+    "мама\tmom\tN": 1
+  },
+  "omasaptaste": {
+    "omasaptaste\t\t": 1
+  },
+  "omasaste": {
+    "omasaste\t\t": 1
+  },
+  "on'ɕ": {
+    "иметь\thave\tV": 69
+  },
+  "onipe": {
+    "onipe\t\t": 2
+  },
+  "onipen": {
+    "onipen\t\t": 1
+  },
+  "ont": {
+    "прибыть\tarrive\t": 1
+  },
+  "ontolow": {
+    "девять\tnine\t": 1
+  },
+  "onɕ": {
+    "иметь\thave\tV": 2
+  },
+  "on'ɕ": {
+    "иметь\thave\tV": 18,
+    "родить\tgive.birth\tV": 3
+  },
+  "oo": {
+    "oo\t\t": 3
+  },
+  "ooj": {
+    "ooj\t\t": 1
+  },
+  "oras": {
+    "бревно\tlog\tN": 1
+  },
+  "os": {
+    "3SG\t\t": 1,
+    "ADD\t\t": 190,
+    "Возможность\tpossibility\t": 3,
+    "Возможность\tpossibility\tN": 2,
+    "поверхность\tsurface\t": 9,
+    "поверхность\tsurface\tN": 3,
+    "толстый\tthick\t": 13,
+    "толстый\tthick\tN": 7,
+    "тот\tthat\t": 1
+  },
+  "osma": {
+    "подушка\tpillow\t": 4
+  },
+  "oss": {
+    "oss\t\t": 1
+  },
+  "ossuwl": {
+    "оставлять\tleave\tV": 1
+  },
+  "osəŋ": {
+    "густой\tthick\t": 2
+  },
+  "ot": {
+    "ласковый\taffectionate\t": 1
+  },
+  "oter": {
+    "богатырь\thero\t": 1,
+    "богатырь\thero\tN": 2
+  },
+  "otnako": {
+    "однако\thowever\t": 1
+  },
+  "otr": {
+    "богатырь\thero\tN": 2
+  },
+  "otər": {
+    "богатырь\thero\t": 44,
+    "богатырь\thero\tN": 1
+  },
+  "otəɣ": {
+    "otəɣ\t\t": 1
+  },
+  "oule": {
+    "конец\tend\t": 1
+  },
+  "ow": {
+    "течение\tcurrent\tN": 2,
+    "течь\tflow\tV": 2
+  },
+  "owl": {
+    "вина\tguilt\tN": 1,
+    "конец\tend\t": 3,
+    "конец\tend\tN": 8
+  },
+  "owmaŋ": {
+    "пухнущий\tswelling\t": 17
+  },
+  "owəl": {
+    "вина\tguilt\tN": 3,
+    "конец\tend\t": 4,
+    "конец\tend\tN": 7
+  },
+  "oxsar": {
+    "лиса\tfox\t": 13,
+    "лиса\tfox\tV": 1,
+    "лисица\tfox\t": 1
+  },
+  "oŋx": {
+    "смола\tresin\tN": 1
+  },
+  "oɕ": {
+    "иметь\thave\tV": 11,
+    "плетень\tfence\t": 1,
+    "плетень\tfence\tN": 1
+  },
+  "oɕmar": {
+    "хитрость\tcunning\t": 1,
+    "хитрость\tcunning\tV": 1
+  },
+  "oɕɕa": {
+    "тонкий\tthin\t": 2
+  },
+  "ō": {
+    "Ж\t\t": 1
+  },
+  "ōjka": {
+    "господин\tsir\tN": 1,
+    "муж\thusband\tV": 1,
+    "хозяин\thost\t": 1
+  },
+  "ōl": {
+    "быть\tbe\tV": 1,
+    "жить\tlive\tV": 1,
+    "иметь\thave\tV": 1,
+    "платить\tpay\tV": 1
+  },
+  "ōn'ɣa": {
+    "Невестка\t\t": 1
+  },
+  "ōs": {
+    "ADD\t\t": 9,
+    "Ещё\t\t": 1,
+    "ещё\tstill_yet\t": 1
+  },
+  "ōsəŋ": {
+    "высокий\ttall\t": 1
+  },
+  "ōn's": {
+    "иметь\thave\tV": 1
+  },
+  "ōɕa": {
+    "3SG\t\t": 1
+  },
+  "on'ɣa": {
+    "невестка\tdaughter.in.law\t": 1
+  },
+  "p": {
+    "p\t\t": 3,
+    "П\t\t": 1
+  },
+  "paj": {
+    "paj\t\t": 1,
+    "гора\tmountain\t": 1
+  },
+  "pajalt": {
+    "закипеть\tboil\tV": 1
+  },
+  "pajp": {
+    "кузов\tbast.bag\t": 1,
+    "пайва\t\t": 1
+  },
+  "pajt": {
+    "варить\tcook\tV": 7
+  },
+  "pakw": {
+    "шишка\tcone\t": 3
+  },
+  "pal": {
+    "половина\thalf\tN": 1,
+    "сторона\tside\t": 40,
+    "сторона\tside\tN": 145,
+    "ухо\tear\t": 5,
+    "ухо\tear\tN": 7
+  },
+  "pal'": {
+    "ухо\tear\t": 6,
+    "ухо\tear\tN": 6
+  },
+  "pal'tilt": {
+    "услышать\thear\tV": 1
+  },
+  "pali": {
+    "длина\tlength\t": 1
+  },
+  "palit": {
+    "длина\tlength\t": 10,
+    "длина\tlength\tN": 3
+  },
+  "palt": {
+    "в\tin\t": 1,
+    "к\tto\t": 1,
+    "разжечь\tkindle\tV": 9,
+    "часть\tpart\t": 1
+  },
+  "pan": {
+    "pan\t\t": 1
+  },
+  "pan'ɕi": {
+    "простой\tsimple\t": 2
+  },
+  "pann": {
+    "pann\t\t": 2
+  },
+  "panriɕ": {
+    "panriɕ\t\t": 1
+  },
+  "pant": {
+    "сыпать\tpour\tN": 3
+  },
+  "pante": {
+    "деверь\tbrother.in.law\t": 1
+  },
+  "pars": {
+    "доход\tincome\t": 1
+  },
+  "parsa": {
+    "баржа\tbarge\t": 1
+  },
+  "part": {
+    "доска\tboard\t": 4,
+    "доска\tboard\tN": 15
+  },
+  "parɕə": {
+    "parɕə\t\t": 1
+  },
+  "parɣ": {
+    "фыркнуть\tsnort\tV": 3
+  },
+  "pas": {
+    "запахнуть\tstart.smell\t": 1,
+    "запахнуть\tstart.smell\tV": 3,
+    "предел\tlimit\t": 2,
+    "предел\tlimit\tN": 6
+  },
+  "pasan": {
+    "стол\ttable\t": 15,
+    "стол\ttable\tN": 19
+  },
+  "pasap": {
+    "деваться\tget.lost\tV": 2
+  },
+  "pasat": {
+    "продырявить\tpunch.a.hole\tV": 1
+  },
+  "pasiɣ": {
+    "оленёнок\tfawn\t": 2
+  },
+  "pastər": {
+    "Пастор\t\t": 1
+  },
+  "pasən": {
+    "стол\ttable\t": 1
+  },
+  "pasəɣ": {
+    "сверлить\tdrill\tV": 1
+  },
+  "pat": {
+    "начать\tstart\tV": 18,
+    "падать\tfall\t": 3,
+    "падать\tfall\tN": 1,
+    "падать\tfall\tV": 190,
+    "стать\tbecome\tV": 20,
+    "только\tonly\t": 1,
+    "упасть\tfall\tV": 14,
+    "утка\tduck\tN": 1
+  },
+  "patamt": {
+    "выстрелить\tshoot\tV": 1
+  },
+  "patr": {
+    "исчезать\tdisappear\tV": 1,
+    "скрыться\thide\tV": 3
+  },
+  "pats": {
+    "начать\tstart\tN": 1
+  },
+  "patt": {
+    "уронить\tdrop\tV": 1
+  },
+  "patta": {
+    "дно\tbottom\tN": 4,
+    "конец\tend\t": 2,
+    "конец\tend\tN": 1,
+    "полозья\tslides\t": 1
+  },
+  "patər": {
+    "исчезать\tdisappear\t": 1,
+    "исчезать\tdisappear\tV": 2
+  },
+  "paul": {
+    "деревня\tvillage\t": 4
+  },
+  "pawar": {
+    "свергнуться\ttopple\tV": 1
+  },
+  "pawl": {
+    "посёлок\tvillage\t": 19,
+    "посёлок\tvillage\tN": 20
+  },
+  "pawəl": {
+    "посёлок\tvillage\t": 14,
+    "посёлок\tvillage\tN": 15
+  },
+  "paxt": {
+    "бросить\tthrow\tV": 6
+  },
+  "paxwt": {
+    "кидать\tthrow\tV": 3,
+    "кинуть\tthrow\tV": 1
+  },
+  "paŋk": {
+    "грязь\tmud\t": 1,
+    "грязь\tmud\tV": 1
+  },
+  "paŋx": {
+    "мухомор\tfly.agaric\t": 7,
+    "мухомор\tfly.agaric\tN": 2
+  },
+  "paɕa": {
+    "здравствуй\thello\t": 6
+  },
+  "paɕalaxt": {
+    "здороваться\tgreet\tV": 4
+  },
+  "paɣxəl": {
+    "paɣxəl\t\t": 1
+  },
+  "pāul": {
+    "посёлок\tvillage\t": 2
+  },
+  "paxwt": {
+    "стрелять\tshoot\tV": 1
+  },
+  "pel": {
+    "прокол\tpuncture\tV": 2,
+    "проткнуть\tpierce\tV": 2
+  },
+  "pelaml": {
+    "загореться\tget.a.tan\tV": 2
+  },
+  "pelamt": {
+    "зажечь\tlight\tV": 2
+  },
+  "pelp": {
+    "острый\tsharp\tN": 1
+  },
+  "pen": {
+    "вложить\tput.in\tV": 1
+  },
+  "pent": {
+    "менять\tchange\tV": 1
+  },
+  "per": {
+    "брус\tbeam\tN": 12,
+    "перевязать\tbandage\t": 1,
+    "перевязать\tbandage\tV": 5
+  },
+  "peraman'": {
+    "перемена\tchange\t": 1
+  },
+  "perij": {
+    "выбрать\tchoose\tV": 1
+  },
+  "perj": {
+    "выбрать\tchoose\tV": 3
+  },
+  "perjen": {
+    "perjen\t\t": 1
+  },
+  "pes": {
+    "прежде\tbefore\t": 1,
+    "старый\told\t": 9
+  },
+  "pest": {
+    "развязать\tuntie\tV": 7
+  },
+  "pet": {
+    "опускать\tlower\tV": 2
+  },
+  "peɕ": {
+    "бедро\tthigh\t": 1,
+    "бедро\tthigh\tN": 1
+  },
+  "peɕjeri": {
+    "peɕjeri\t\t": 1
+  },
+  "peɣr": {
+    "обознаться\tbe.mistaken\tV": 4
+  },
+  "pérmt": {
+    "повернуть\tturn\tV": 1
+  },
+  "pēl": {
+    "воткнуть\tstick\tV": 1,
+    "кольнуть\tprick\tV": 1,
+    "проколоть\tpierce\t": 1
+  },
+  "pēriɣt": {
+    "говорить\tspeak\tV": 1
+  },
+  "pēs": {
+    "бедро\tthigh\tN": 1
+  },
+  "pi": {
+    "pi\t\t": 1
+  },
+  "pil": {
+    "бояться\tfear\tV": 6,
+    "ягода\tberry\t": 10,
+    "ягода\tberry\tN": 2
+  },
+  "pin": {
+    "класть\tlay\tV": 2,
+    "положить\tput\tV": 24,
+    "ставить\tput\tV": 1
+  },
+  "pin'axti": {
+    "pin'axti\t\t": 1
+  },
+  "pirakən": {
+    "pirakən\t\t": 1
+  },
+  "pirwa": {
+    "утка\tduck\t": 1,
+    "чирок\tteal\t": 8
+  },
+  "pis": {
+    "слой\tlayer\t": 12
+  },
+  "pisal": {
+    "ружьё\tgun\tN": 1
+  },
+  "pistaŋ": {
+    "pistaŋ\t\t": 2
+  },
+  "pit'i": {
+    "гнездо\tnest\t": 18,
+    "гнездо\tnest\tN": 4
+  },
+  "pitam": {
+    "pitam\t\t": 1
+  },
+  "piɣ": {
+    "мальчик\tboy\t": 66,
+    "мальчик\tboy\tN": 22,
+    "сын\tson\t": 1
+  },
+  "piɣriɕ": {
+    "мальчик\tboy\t": 3,
+    "мальчик\tboy\tN": 2
+  },
+  "piɣtar": {
+    "piɣtar\t\t": 1
+  },
+  "pn": {
+    "pn\t\t": 5
+  },
+  "pnel": {
+    "pnel\t\t": 1
+  },
+  "po": {
+    "po\t\t": 1
+  },
+  "pojar": {
+    "боярин\tboyar\t": 3
+  },
+  "pojk": {
+    "молитва\tprayer\tN": 1,
+    "молитва\tprayer\tV": 1,
+    "мольба\tplea\tV": 1,
+    "просить\task\t": 2,
+    "просить\task\tV": 6
+  },
+  "pojt": {
+    "кончить\tfinish\tV": 4,
+    "перестать\tcease\tV": 7,
+    "успокоиться\tcalm.down\tV": 1
+  },
+  "pokmat": {
+    "трескаться\tcrack\tV": 1
+  },
+  "pokəne": {
+    "pokəne\t\t": 1
+  },
+  "pol'": {
+    "замерзать\tfreeze\t": 3,
+    "замерзать\tfreeze\tV": 2
+  },
+  "pol'am": {
+    "мерзлый\tfrozen\tN": 1
+  },
+  "poli": {
+    "poli\t\t": 1
+  },
+  "polx": {
+    "сопли\tsnot\t": 1
+  },
+  "pon": {
+    "давить\tpress\tV": 1,
+    "сучить\t\tV": 1
+  },
+  "ponal": {
+    "крапива\tnettle\t": 1,
+    "крапива\tnettle\tN": 2
+  },
+  "pop": {
+    "поп\tpriest\t": 1
+  },
+  "por": {
+    "Пор\t\t": 2,
+    "время\ttime\tN": 1,
+    "выдолбить\thollow.out\tV": 2,
+    "икра\tcaviar\t": 7,
+    "икра\tcaviar\tN": 1,
+    "по\tby\t": 1
+  },
+  "pora": {
+    "время\ttime\t": 11,
+    "время\ttime\tN": 25
+  },
+  "pori": {
+    "поперечный\ttransverse\tN": 4
+  },
+  "poriɣm": {
+    "прыгать\tjump\tV": 1
+  },
+  "poriɣpan": {
+    "лягушка\tfrog\t": 1
+  },
+  "porne": {
+    "Порнэ\t\t": 1
+  },
+  "pors": {
+    "сор\tlitter\t": 3,
+    "сор\tlitter\tV": 1
+  },
+  "porx": {
+    "туловище\ttorso\tN": 1
+  },
+  "porxa": {
+    "парка\tparka\tN": 1
+  },
+  "porəɣ": {
+    "прыгать\tjump\tV": 6
+  },
+  "porɣ": {
+    "прыгать\tjump\tV": 2
+  },
+  "pos": {
+    "гнать\tchase\tV": 2,
+    "гнать(скот)\t\tV": 1,
+    "доить\tmilk\tV": 1,
+    "доить(коров)\t\tV": 1,
+    "знак\tsign\t": 4,
+    "знак\tsign\tN": 4,
+    "свет\tlight\t": 3,
+    "свет\tlight\tN": 5,
+    "свет\tlight\tV": 1
+  },
+  "posas": {
+    "забор\tfence\t": 1
+  },
+  "posum": {
+    "корма\tstern\tN": 1
+  },
+  "pot": {
+    "котёл\tcauldron\t": 1,
+    "пуд\tpound\t": 11,
+    "пуд\tpound\tN": 1
+  },
+  "poter": {
+    "разговор\tconversation\t": 2
+  },
+  "poti": {
+    "грудь\tchest\t": 1,
+    "грудь\tchest\tN": 1
+  },
+  "potwat": {
+    "подвод\t\tN": 1
+  },
+  "potəlma": {
+    "раздражение\tirritation\t": 1,
+    "шум\tnoise\t": 1
+  },
+  "potər": {
+    "разговор\tconversation\tV": 1,
+    "речь\tspeech\t": 8,
+    "речь\tspeech\tV": 8
+  },
+  "powar": {
+    "катиться\troll\tV": 5
+  },
+  "powart": {
+    "powart\t\t": 1,
+    "выкатывать\troll.out\tV": 1
+  },
+  "pox": {
+    "бок\tside\t": 2,
+    "бок\tside\tN": 3,
+    "сторона\tside\t": 1,
+    "сторона\tside\tN": 6,
+    "сторона\tside\tV": 1
+  },
+  "poxs": {
+    "свищ\tfistula\tN": 2
+  },
+  "poxt": {
+    "вцепиться\tcling\tV": 1,
+    "пристать\tharass\tV": 1,
+    "причалить\tmoor\tN": 1,
+    "причалить\tmoor\tV": 6,
+    "схватить\tgrab\tV": 2
+  },
+  "poŋ": {
+    "нарвать\tpick\tV": 1,
+    "стадо\therd\t": 1
+  },
+  "poɕɣ": {
+    "вить\ttwist\tV": 2
+  },
+  "pōs": {
+    "гнать\tchase\tV": 2
+  },
+  "pōx": {
+    "бок\tside\tN": 1
+  },
+  "pōxatur": {
+    "богатырь\thero\tN": 1
+  },
+  "powar": {
+    "катиться\troll\tV": 1
+  },
+  "poɣ": {
+    "бок\tside\t": 1,
+    "бок\tside\tN": 1
+  },
+  "poxatur": {
+    "богатырь\thero\t": 3,
+    "богатырь\thero\tN": 2
+  },
+  "ppwo": {
+    "богатырь\thero\t": 1
+  },
+  "pu": {
+    "pu\t\t": 2
+  },
+  "pui": {
+    "задний\tback\t": 1
+  },
+  "puj": {
+    "зад\tback\t": 1,
+    "зад\tback\tN": 1
+  },
+  "puki": {
+    "брюхо\tbelly\tN": 1,
+    "живот\tbelly\tN": 1
+  },
+  "pul": {
+    "часть\tpart\t": 1
+  },
+  "pulpe": {
+    "пробка\tcork\t": 1
+  },
+  "pulŋawt": {
+    "Салехард\t\t": 2
+  },
+  "pum": {
+    "Трава\t\t": 1,
+    "трава\tgrass\t": 9,
+    "трава\tgrass\tN": 1
+  },
+  "pumaɕ": {
+    "интересный\tinteresting\tN": 1
+  },
+  "pumaɕipa": {
+    "спасибо\tthank.you\t": 1
+  },
+  "pun": {
+    "перо\tfeather\t": 2
+  },
+  "puns": {
+    "открыть\topen\tV": 6
+  },
+  "pup": {
+    "ушко\tear\tN": 5
+  },
+  "pupa": {
+    "дух\tspirit\tN": 1
+  },
+  "pupiɣ": {
+    "дух\tspirit\t": 5
+  },
+  "pupīɣ": {
+    "покровитель\tpatron\t": 1
+  },
+  "pur": {
+    "грызть\tgnaw\tV": 6,
+    "пир\tfeast\tV": 2
+  },
+  "puri": {
+    "пир\tfeast\t": 3
+  },
+  "puriɕ": {
+    "свинья\tpig\t": 2
+  },
+  "purumsa": {
+    "purumsa\t\t": 1
+  },
+  "pus": {
+    "все\teverybody\tN": 1,
+    "открыть\topen\tV": 2,
+    "целый\twhole\t": 4,
+    "целый\twhole\tN": 3,
+    "целый\twhole\tV": 8
+  },
+  "pusen": {
+    "все\teverybody\t": 1,
+    "всё\teverything\t": 4
+  },
+  "pusm": {
+    "вылечиться\tbe.cured\tV": 2
+  },
+  "pussən": {
+    "все\teverybody\t": 2
+  },
+  "pusən": {
+    "целый\twhole\t": 11
+  },
+  "put": {
+    "котёл\tcauldron\t": 21
+  },
+  "putra": {
+    "скрыть\thide\tV": 1
+  },
+  "puw": {
+    "держать\thold\tV": 19,
+    "ловить\tcatch\tV": 2,
+    "схватить\tgrab\tV": 6
+  },
+  "puwki": {
+    "puwki\t\t": 3
+  },
+  "puwl": {
+    "купаться\tbathe\tN": 1,
+    "купаться\tbathe\tV": 5,
+    "мыться\twash\tV": 20
+  },
+  "puwsəŋ": {
+    "puwsəŋ\t\t": 1
+  },
+  "puwt": {
+    "долбить\thammer\tV": 4,
+    "тыкать\tpoke\tV": 1
+  },
+  "puŋ": {
+    "богатство\twealth\t": 1,
+    "богатство\twealth\tN": 2,
+    "чурка\tchunk\tN": 1
+  },
+  "puŋk": {
+    "голова\thead\t": 14,
+    "голова\thead\tN": 17,
+    "голова/зуб\t\t": 1,
+    "зуб\ttooth\t": 1,
+    "зуб\ttooth\tN": 1
+  },
+  "puŋna": {
+    "чурка\tchunk\t": 1
+  },
+  "puɕka": {
+    "бочка\tbarrel\tN": 1
+  },
+  "pūl": {
+    "кусочек\tpiece\t": 1
+  },
+  "pāl": {
+    "сторона\tside\t": 1
+  },
+  "pālt": {
+    "затопить\tflood\tV": 2
+  },
+  "pān'a": {
+    "баня\tsauna\tN": 3
+  },
+  "pēl": {
+    "воткнуть\tstick\tV": 4
+  },
+  "pēlp": {
+    "быстрый\tfast\t": 1
+  },
+  "pēnɣ": {
+    "гадать\ttell.fortunes\tV": 2
+  },
+  "pērmt": {
+    "обернуть\twrap\tV": 1
+  },
+  "pūs": {
+    "открыть\topen\tV": 1,
+    "целый\twhole\tV": 1
+  },
+  "pə": {
+    "сын\tson\t": 9
+  },
+  "pəɣ": {
+    "мальчик\tboy\t": 29,
+    "мальчик\tboy\tN": 6
+  },
+  "pəɣriɕ": {
+    "мальчик\tboy\t": 1,
+    "мальчик\tboy\tN": 3
+  },
+  "pəɣ": {
+    "сын\tson\t": 15,
+    "сын\tson\tN": 5
+  },
+  "pаl": {
+    "сторона\tside\tN": 1
+  },
+  "r": {
+    "русский\tRussian\t": 2
+  },
+  "rakt": {
+    "глина\tclay\tN": 1
+  },
+  "rakw": {
+    "дождь\train\t": 2,
+    "дождь\train\tN": 2
+  },
+  "rampəŋ": {
+    "парящий\tsoaring\t": 2
+  },
+  "rapant": {
+    "rapant\t\t": 3
+  },
+  "rat": {
+    "бить\thit\tN": 1,
+    "бить\thit\tV": 17
+  },
+  "raŋn": {
+    "затухать\tfade\tV": 1
+  },
+  "raŋən": {
+    "raŋən\t\t": 1
+  },
+  "raɕ": {
+    "рысь\tlynx\t": 3
+  },
+  "raɣ": {
+    "падать\tfall\tV": 11
+  },
+  "raɣat": {
+    "упасть\tfall\tV": 5
+  },
+  "rep": {
+    "метать\tthrow\tV": 2
+  },
+  "ret": {
+    "ret\t\t": 1
+  },
+  "reəɣ": {
+    "жар\theat\t": 2
+  },
+  "reɣ": {
+    "жар\theat\t": 1,
+    "жар\theat\tN": 2,
+    "помощь\thelp\tN": 2
+  },
+  "reɣ": {
+    "жар\theat\tN": 5
+  },
+  "ropit": {
+    "работать\twork\tV": 1
+  },
+  "ropita": {
+    "работать\twork\tV": 1
+  },
+  "rot": {
+    "спокойный\tcalm\tN": 1,
+    "спокойный\tcalm\tV": 1,
+    "стихнуть\tsubside\tV": 3
+  },
+  "row": {
+    "можно\tpossible\tV": 6,
+    "надо\tis.needed\tV": 1,
+    "разрешать\tallow\tV": 9,
+    "разрешённый\tpermitted\tN": 4,
+    "разрешённый\tpermitted\tV": 1
+  },
+  "roxt": {
+    "испугаться\tbe.frightened\tV": 12
+  },
+  "roŋx": {
+    "крикнуть\tshout\tV": 3,
+    "кричать\tshout\tV": 14
+  },
+  "ruma": {
+    "приятель\tbuddy\t": 1
+  },
+  "ruɕ": {
+    "русский\tRussian\t": 2,
+    "русский\tRussian\tN": 2
+  },
+  "ráɣāt": {
+    "упасть\tfall\tV": 1
+  },
+  "rōt": {
+    "спокойный\tcalm\tV": 1
+  },
+  "rōw": {
+    "можно\tpossible\tV": 1
+  },
+  "s": {
+    "s\t\t": 2
+  },
+  "saj": {
+    "гнить\trot\tV": 2,
+    "гной\tpus\tN": 4,
+    "длина\tlength\tN": 1
+  },
+  "sajk": {
+    "трезвый\tsober\tV": 7
+  },
+  "sajt": {
+    "прут\ttwig\t": 4
+  },
+  "saka": {
+    "очень\tvery\t": 36
+  },
+  "sakari": {
+    "сахары\t\t": 1
+  },
+  "sakon": {
+    "закон\tlaw\t": 1
+  },
+  "sakw": {
+    "Ляпин\t\t": 1,
+    "Сыгва\tSygva\tN": 2,
+    "кусок\tpiece\t": 2,
+    "кусок\tpiece\tV": 6,
+    "сломать\tbreak\tV": 2
+  },
+  "sakwat": {
+    "ломать\tbreak\tV": 1
+  },
+  "sal": {
+    "sal\t\t": 1,
+    "засверкать\tsparkle\tV": 11,
+    "олень\tdeer\tN": 1
+  },
+  "sali": {
+    "Олень\t\t": 1,
+    "много\tmany\t": 1,
+    "олень\tdeer\t": 28,
+    "олень\tdeer\tN": 8,
+    "олень\tdeer\tV": 2
+  },
+  "salij": {
+    "олень\tdeer\tN": 1
+  },
+  "sali̊": {
+    "олень\tdeer\t": 1
+  },
+  "saltat": {
+    "солдат\tsoldier\t": 16,
+    "солдат\tsoldier\tN": 3
+  },
+  "sam": {
+    "глаз\teye\t": 11,
+    "глаз\teye\tN": 14,
+    "угол\tcorner\t": 2,
+    "уголок\tcorner\t": 11,
+    "уголок\tcorner\tN": 14
+  },
+  "samas": {
+    "samas\t\t": 5
+  },
+  "samase": {
+    "samase\t\t": 1
+  },
+  "samim": {
+    "глаз\teye\t": 1
+  },
+  "samliŋ": {
+    "звонкий\tringing\t": 1
+  },
+  "sampilt": {
+    "заметить\tnotice\tV": 1
+  },
+  "sampəl'tal": {
+    "слепой\tblind\t": 1
+  },
+  "samxum": {
+    "samxum\t\t": 1
+  },
+  "san": {
+    "чуман\tbast.cup\t": 9,
+    "чуман\tbast.cup\tN": 3
+  },
+  "sans": {
+    "колено\tknee\t": 2,
+    "коленопреклониться\tkneel\tV": 1
+  },
+  "sanətaus": {
+    "sanətaus\t\t": 1
+  },
+  "sapta": {
+    "циновка\tmat\tN": 2
+  },
+  "sar": {
+    "HORT\t\t": 3,
+    "передний\tfront\tN": 1,
+    "потом\tthen\t": 6,
+    "ранний\tearly\t": 3,
+    "ранний\tearly\tN": 1,
+    "табак\ttobacco\t": 10,
+    "табак\ttobacco\tN": 4
+  },
+  "saraɕ": {
+    "море\tsea\t": 1
+  },
+  "sari": {
+    "истинный\ttrue\t": 1
+  },
+  "sart": {
+    "мазать\tsmear\tV": 3,
+    "перед\tin.front.of\tV": 2,
+    "разрубать\tchop\tV": 1
+  },
+  "sartən": {
+    "сперва\tfirst\t": 2
+  },
+  "sas": {
+    "березник\tbirch.grove\t": 2,
+    "оба\tboth\t": 7
+  },
+  "sasɣ": {
+    "дядя\tuncle\tN": 3
+  },
+  "sasɣa": {
+    "родственник\trelative\tN": 1
+  },
+  "sat": {
+    "садок\tfish.trap\t": 5,
+    "семь\tseven\t": 102,
+    "семь\tseven\tN": 2,
+    "создавать\tcreate\tV": 4,
+    "сто\thundred\t": 26,
+    "сто\thundred\tN": 2
+  },
+  "sav": {
+    "лень\tlaziness\tN": 3
+  },
+  "saw": {
+    "беда\ttrouble\t": 7,
+    "беда\ttrouble\tN": 10,
+    "ленивый\tlazy\t": 21,
+    "лень\tlaziness\tN": 1,
+    "много\tmany\t": 46,
+    "много\tmany\tN": 1,
+    "много\tmany\tV": 2,
+    "мучиться\tsuffer\tV": 1,
+    "старый\told\t": 8,
+    "старый\told\tN": 2,
+    "старый\told\tV": 1
+  },
+  "sawa": {
+    "мучиться\tsuffer\tV": 1
+  },
+  "sax": {
+    "кишка\tintestine\t": 3,
+    "кишка\tintestine\tN": 1
+  },
+  "saxi": {
+    "шуба\tfur.coat\t": 3,
+    "шуба\tfur.coat\tN": 4
+  },
+  "saxral": {
+    "saxral\t\t": 1
+  },
+  "saŋastate": {
+    "saŋastate\t\t": 1
+  },
+  "saŋki": {
+    "saŋki\t\t": 2,
+    "турпан\tvelvet.scoter\t": 1
+  },
+  "saŋkw": {
+    "поясница\tlower.back\tV": 1
+  },
+  "saŋspi": {
+    "saŋspi\t\t": 1
+  },
+  "saŋxwat": {
+    "тетива\tbowstring\tN": 1
+  },
+  "saɣ": {
+    "коса\tbraid_scythe\tN": 1,
+    "плести\tweave\tV": 4
+  },
+  "saɣl": {
+    "расщеплять\tsplit\t": 2
+  },
+  "saɣr": {
+    "рубить\tchop\t": 5,
+    "рубить\tchop\tN": 2,
+    "рубить\tchop\tV": 9
+  },
+  "saɣumt": {
+    "сломать\tbreak\tV": 1
+  },
+  "sāli": {
+    "олень\tdeer\t": 6,
+    "олень\tdeer\tN": 1
+  },
+  "sām": {
+    "уголок\tcorner\tN": 1
+  },
+  "sāɣr": {
+    "рубить\tchop\tV": 3
+  },
+  "saɣr": {
+    "рубить\tchop\t": 3,
+    "рубить\tchop\tV": 1,
+    "срубить\tchop.down\tV": 2
+  },
+  "se": {
+    "se\t\t": 1
+  },
+  "sej": {
+    "песчаный\tsandy\t": 1
+  },
+  "sel": {
+    "нажить\tearn\tV": 2
+  },
+  "semel": {
+    "чёрный\tblack\t": 1
+  },
+  "seml": {
+    "чёрный\tblack\t": 4
+  },
+  "seməl": {
+    "чёрный\tblack\t": 30
+  },
+  "sen": {
+    "sen\t\t": 1
+  },
+  "seniɣ": {
+    "seniɣ\t\t": 2
+  },
+  "ser": {
+    "глухой\tdeaf\t": 3
+  },
+  "seri": {
+    "глухой\tdeaf\tN": 1,
+    "личинки(мухи)\t\tN": 1
+  },
+  "set": {
+    "вырваться\tbreak.free\t": 1,
+    "вырваться\tbreak.free\tV": 2
+  },
+  "setap": {
+    "нитка\tthread\t": 1,
+    "нитки\tthreads\t": 2,
+    "нитки\tthreads\tN": 1
+  },
+  "seŋkw": {
+    "туман\tfog\tN": 4
+  },
+  "seɣe": {
+    "seɣe\t\t": 1
+  },
+  "seɣəŋ": {
+    "seɣəŋ\t\t": 3
+  },
+  "sēməl": {
+    "чёрный\tblack\t": 1
+  },
+  "sim": {
+    "сердце\theart\tN": 2
+  },
+  "sip": {
+    "горка\tslide\t": 3,
+    "горка\tslide\tN": 1,
+    "чмокать\tsmack\tV": 6
+  },
+  "sipluw": {
+    "шея\tneck\tN": 1
+  },
+  "sipɣ": {
+    "сосать\tsuck\tV": 14,
+    "чмокать\tsmack\tV": 2
+  },
+  "sir": {
+    "вид\tview\tN": 2,
+    "разный\tdifferent\t": 1,
+    "способ\tway\t": 3,
+    "способ\tway\tN": 6,
+    "шест\tpole\t": 2,
+    "шест\tpole\tN": 15
+  },
+  "siraj": {
+    "меч\tsword\t": 1,
+    "сабля\tsaber\t": 6,
+    "сабля\tsaber\tN": 1
+  },
+  "siram": {
+    "кусок\tpiece\tN": 1
+  },
+  "sis": {
+    "назад\tback\t": 11,
+    "назад\tback\tN": 8,
+    "спина\tback\t": 3,
+    "спина\tback\tN": 39
+  },
+  "sisi": {
+    "назад\tback\t": 2,
+    "попутный\tsame.direction\t": 1,
+    "спина\tback\t": 1
+  },
+  "sistam": {
+    "чистый\tclean\t": 2
+  },
+  "sitam": {
+    "тайный\tsecret\tV": 1
+  },
+  "siŋəs": {
+    "siŋəs\t\t": 2
+  },
+  "sljn": {
+    "sljn\t\t": 1
+  },
+  "so": {
+    "so\t\t": 3
+  },
+  "soj": {
+    "смирный\tmeek\tV": 4
+  },
+  "sol'": {
+    "иней\tfrost\t": 2,
+    "иней\tfrost\tV": 1,
+    "правда\ttruth\t": 18
+  },
+  "solim": {
+    "solim\t\t": 1
+  },
+  "solkowoj": {
+    "рубль\truble\t": 1
+  },
+  "solti": {
+    "солдат\tsoldier\t": 1
+  },
+  "sol'": {
+    "правда\ttruth\t": 11
+  },
+  "soma": {
+    "будто\tas.if\t": 1,
+    "прямо\tstraight\t": 1
+  },
+  "sonaŋ": {
+    "sonaŋ\t\t": 1
+  },
+  "sop": {
+    "рот\tmouth\tN": 1
+  },
+  "sopak": {
+    "сапог\tboot\t": 1,
+    "сапог\tboot\tN": 2,
+    "сапоги\tboots\t": 5
+  },
+  "sopam": {
+    "могила\tgrave\t": 2
+  },
+  "sope": {
+    "sope\t\t": 1
+  },
+  "sor": {
+    "золото\tgold\tN": 5,
+    "стебель\tstem\tN": 15
+  },
+  "soraxta": {
+    "soraxta\t\t": 2
+  },
+  "sori": {
+    "седловина\tsaddle\tN": 1
+  },
+  "sorn": {
+    "1SG\t\tN": 1,
+    "золото\tgold\tN": 1,
+    "золотой\tgolden\tN": 5
+  },
+  "sorni": {
+    "золото\tgold\t": 24,
+    "золото\tgold\tN": 40
+  },
+  "sort": {
+    "щука\tpike\t": 2
+  },
+  "sorum": {
+    "смерть\tdeath\t": 7,
+    "смерть\tdeath\tN": 6,
+    "смерть\tdeath\tV": 2
+  },
+  "sorumpat": {
+    "умереть\tdie\tV": 1,
+    "умирать\tdie\t": 4,
+    "умирать\tdie\tV": 11
+  },
+  "sorup": {
+    "лось\tmoose\t": 1
+  },
+  "sos": {
+    "лить\tpour\tV": 5,
+    "ручей\tstream\t": 1,
+    "тысяча\tthousand\t": 1
+  },
+  "sossa": {
+    "родина\thomeland\t": 7
+  },
+  "sot": {
+    "счастье\thappiness\t": 4,
+    "счастье\thappiness\tN": 2
+  },
+  "sotri": {
+    "sotri\t\t": 1
+  },
+  "sotər": {
+    "тысяча\tthousand\t": 3
+  },
+  "sow": {
+    "кожа\tskin\t": 13,
+    "кожа\tskin\tN": 6,
+    "шкура\tskin\t": 2
+  },
+  "sowi": {
+    "косой\toblique\t": 1
+  },
+  "sowr": {
+    "заяц\thare\t": 1
+  },
+  "sowt": {
+    "набирушка\t\tN": 2
+  },
+  "sowər": {
+    "заяц\thare\t": 8
+  },
+  "sox": {
+    "всех\teveryone\t": 1
+  },
+  "soxt": {
+    "прямой\tstraight\tN": 1,
+    "свернуть\troll\t": 1
+  },
+  "sōl'": {
+    "Правда\t\t": 2,
+    "правда\ttruth\t": 2
+  },
+  "sōrn": {
+    "золото\tgold\tN": 1
+  },
+  "sto": {
+    "sto\t\t": 1
+  },
+  "sui": {
+    "звук\tsound\tV": 8
+  },
+  "suj": {
+    "звук\tsound\t": 6,
+    "звук\tsound\tN": 23,
+    "звук\tsound\tV": 11
+  },
+  "sul'int": {
+    "скакать\tjump\tV": 1
+  },
+  "sul'ja": {
+    "бутылка\tbottle\t": 1
+  },
+  "sul'ɣ": {
+    "переливаться\tshimmer\tV": 1
+  },
+  "suli": {
+    "глина\tclay\tV": 1
+  },
+  "sulil": {
+    "нагреться\twarm.up\t": 2
+  },
+  "sulint": {
+    "скакать\tjump\tV": 3
+  },
+  "sult": {
+    "скачка\trace\tN": 1
+  },
+  "sultm": {
+    "искра\tspark\tN": 1
+  },
+  "sultum": {
+    "искра\tspark\t": 3
+  },
+  "sumjax": {
+    "лабаз\tstorehouse\t": 10,
+    "лабаз\tstorehouse\tN": 4
+  },
+  "suml": {
+    "звучать\tsound\tV": 1
+  },
+  "sumtaŋ": {
+    "sumtaŋ\t\t": 2
+  },
+  "sun": {
+    "нарта\tsledge\t": 16,
+    "нарта\tsledge\tN": 3,
+    "сани\tsledge\t": 2,
+    "сани\tsledge\tN": 5
+  },
+  "sune": {
+    "сани\tsledge\t": 1
+  },
+  "suns": {
+    "Смотреть\t\tV": 1,
+    "видеть\tsee\tV": 47,
+    "сказать\tsay\tV": 1,
+    "смотреть\tlook\tV": 30
+  },
+  "sunt": {
+    "нарта\tsledge\tN": 1,
+    "отверстие\thole\t": 1,
+    "отверстие\thole\tN": 8,
+    "сунт\t\t": 1,
+    "устье\tmouth\t": 1
+  },
+  "sup": {
+    "половина\thalf\t": 13,
+    "половина\thalf\tN": 11,
+    "рот\tmouth\t": 6,
+    "рот\tmouth\tN": 5,
+    "рубашка\tshirt\t": 2
+  },
+  "surum": {
+    "грубый\trough\t": 1,
+    "твёрдый\thard\t": 1
+  },
+  "sus": {
+    "наблюдать\tobserve\tV": 1,
+    "смотреть\tlook\tV": 2
+  },
+  "suw": {
+    "посох\tstaff\t": 3,
+    "посох\tstaff\tN": 6
+  },
+  "sun'": {
+    "богатый\trich\tV": 1
+  },
+  "sāli": {
+    "олень\tdeer\t": 6
+  },
+  "sār": {
+    "HORT\t\t": 2
+  },
+  "sāt": {
+    "семь\tseven\t": 12
+  },
+  "sāw": {
+    "много\tmany\t": 1
+  },
+  "sāɣr": {
+    "рубить\tchop\tV": 2
+  },
+  "sēməl": {
+    "чёрный\tblack\t": 1
+  },
+  "sōl'": {
+    "правда\ttruth\t": 1
+  },
+  "sōrp": {
+    "лось\tmoose\t": 2
+  },
+  "sōrup": {
+    "лось\tmoose\t": 3
+  },
+  "sōwər": {
+    "заяц\thare\t": 3
+  },
+  "sūlint": {
+    "разбежаться\tscatter\tV": 1
+  },
+  "sūltɣal": {
+    "скакать\tjump\tV": 1
+  },
+  "səl": {
+    "səl\t\t": 1
+  },
+  "sər": {
+    "вид\tview\tN": 1,
+    "способ\tway\tN": 1
+  },
+  "sɣ": {
+    "sɣ\t\t": 1
+  },
+  "t": {
+    "PTCL\t\t": 1,
+    "t\t\t": 10,
+    "Т\t\t": 1,
+    "есть\teat\tV": 35
+  },
+  "t'pa": {
+    "t'pa\t\t": 1
+  },
+  "t'un'ter": {
+    "t'un'ter\t\t": 2
+  },
+  "ta": {
+    "EMPH\t\t": 2,
+    "NEG\t\t": 1,
+    "PST[3SG]\t\t": 1,
+    "PTCL\t\t": 332,
+    "PTCL1\t\t": 1,
+    "PTCL2\t\t": 615,
+    "ta\t\t": 2,
+    "вот\there\t": 1,
+    "женщина\twoman\t": 1,
+    "зять\ttake\t": 1,
+    "лебедь\tswan\t": 1,
+    "озеро\tlake\t": 1,
+    "прийти\tcome\tV": 1,
+    "тот\tthat\t": 297,
+    "тот\tthat\tN": 1,
+    "тот\tthat\tV": 2,
+    "туда\tthere\t": 1
+  },
+  "tai": {
+    "подходить\tapproach\tV": 1
+  },
+  "taj": {
+    "3SG\t\t": 1,
+    "есть\teat\tV": 2,
+    "подходить\tapproach\tV": 3,
+    "совок\tscoop\t": 12,
+    "это\tthis\t": 2
+  },
+  "tajap": {
+    "слопать\tdevour\tV": 1
+  },
+  "tajax": {
+    "потом\tthen\t": 1
+  },
+  "tajax": {
+    "попозже\tlater\t": 1
+  },
+  "taji": {
+    "то\tthat\t": 14,
+    "то\tthat\tN": 1
+  },
+  "tajt": {
+    "Сосьва\tSosva\t": 2,
+    "протока\tchannel\t": 1,
+    "протока/Сосьва\t\tN": 1,
+    "рукав\tsleeve\t": 1
+  },
+  "takiɕ": {
+    "сильно\tstrongly\t": 2
+  },
+  "takt": {
+    "протянуть\tstretch\tV": 1
+  },
+  "takwi": {
+    "3SG\t\t": 2,
+    "EMPH\t\t": 1
+  },
+  "takws": {
+    "осень\tautumn\t": 5
+  },
+  "takwsi": {
+    "осенний\tautumn\t": 1
+  },
+  "takwəs": {
+    "осень\tautumn\tN": 1
+  },
+  "tal": {
+    "CAR\t\t": 1,
+    "год\tyear\t": 6,
+    "год\tyear\tN": 1,
+    "погрузиться\tplunge\tV": 1,
+    "сажень\tfathom\t": 4,
+    "сесть\tsit\tV": 6
+  },
+  "tal'ax": {
+    "вершина\ttop\t": 8,
+    "вершина\ttop\tN": 9
+  },
+  "tal'ex": {
+    "вершина\ttop\tN": 1
+  },
+  "tal'x": {
+    "вершина\ttop\tN": 3
+  },
+  "talkwa": {
+    "низкий\tlow\t": 3,
+    "низкий\tlow\tN": 1
+  },
+  "talmat": {
+    "посадить\tplant\tV": 1
+  },
+  "talt": {
+    "грузить\tload\tV": 3,
+    "загрузить\tload\tV": 1,
+    "погрузить\timmerse\tV": 5
+  },
+  "taltəŋ": {
+    "талтынг\tTaltyng\t": 1
+  },
+  "tal'ax": {
+    "верхушка\ttip\tN": 2
+  },
+  "taml'e": {
+    "такой\tsuch\t": 6
+  },
+  "tamle": {
+    "такой\tsuch\t": 1
+  },
+  "tan": {
+    "3PL\t\t": 37,
+    "3SG\t\t": 1
+  },
+  "taplak": {
+    "taplak\t\t": 1
+  },
+  "tapəs": {
+    "Тапыс\tTapys\t": 1
+  },
+  "tar": {
+    "корень\troot\tN": 6,
+    "сквозь\tthrough\tV": 3
+  },
+  "tara": {
+    "сквозь\tthrough\t": 8
+  },
+  "taramt": {
+    "пустить\tlet.go\tV": 4
+  },
+  "tarat": {
+    "пустить\tlet.go\tV": 26
+  },
+  "taraŋ": {
+    "известный\tfamous\tN": 1
+  },
+  "tariɣ": {
+    "журавль\tcrane\t": 4
+  },
+  "tarm": {
+    "на\ton\tN": 4,
+    "поверхность\tsurface\tN": 9
+  },
+  "tarmat": {
+    "отпустить\tlet.go\tV": 2
+  },
+  "tart": {
+    "пустить\tlet.go\tV": 3
+  },
+  "tarwit": {
+    "тяжело\theavy\tN": 1,
+    "тяжесть\tweight\tN": 1
+  },
+  "tarəŋ": {
+    "сосна\tpine\t": 1
+  },
+  "tarəɣ": {
+    "сосна\tpine\t": 1
+  },
+  "tas": {
+    "готовый\tready\t": 1,
+    "готовый\tready\tV": 1
+  },
+  "tatəl": {
+    "пустой\tempty\t": 7
+  },
+  "tau": {
+    "3SG\t\t": 19,
+    "3ЫП\t\t": 1
+  },
+  "taw": {
+    "3SG\t\t": 65,
+    "3SG\t\tN": 1,
+    "она\tshe\t": 1
+  },
+  "tawa": {
+    "tawa\t\t": 1
+  },
+  "tawaj": {
+    "давай\tlet's\t": 1,
+    "думать\tthink\t": 1
+  },
+  "tawèn": {
+    "сейчас\tnow\t": 1
+  },
+  "tax": {
+    "FUT\t\t": 17,
+    "исчезнуть\tdisappear\tV": 6,
+    "отправиться\tset.off\tV": 1,
+    "плавник\tfin\t": 4,
+    "плавник\tfin\tN": 11,
+    "пропасть\tdisappear\tV": 2,
+    "скользить\tslide\tV": 3
+  },
+  "taxt": {
+    "гагара\tloon\tN": 1
+  },
+  "taxə": {
+    "деться\tget.lost\t": 1
+  },
+  "taŋkw": {
+    "мох\tmoss\tV": 1
+  },
+  "taŋx": {
+    "хотеть\twant\tV": 6
+  },
+  "taɣ": {
+    "ветка\tbranch\t": 2,
+    "ветка\tbranch\tN": 1,
+    "ветка\tbranch\tV": 2,
+    "конопатить\tcaulk\tN": 1,
+    "конопатить\tcaulk\tV": 5
+  },
+  "taɣat": {
+    "вешать\thang\tV": 2
+  },
+  "taɣip": {
+    "преграда\tbarrier\tN": 2
+  },
+  "taɣl": {
+    "вместе\ttogether\t": 1,
+    "полный\tfull\t": 2,
+    "полный\tfull\tN": 5
+  },
+  "taɣt": {
+    "Сосьва\tSosva\t": 2,
+    "Сосьва\tSosva\tN": 6
+  },
+  "taɣəl": {
+    "полный\tfull\t": 19
+  },
+  "tā": {
+    "EMPH\t\t": 1
+  },
+  "taɣat": {
+    "вешать\thang\tV": 1
+  },
+  "taɣəl": {
+    "наполнение\tfilling\t": 5
+  },
+  "tax": {
+    "FUT\t\t": 5,
+    "Здесь\t\t": 1,
+    "идти\tgo\tV": 1,
+    "пойти\tstart.going\tV": 1
+  },
+  "taxa": {
+    "уехать\tleave\tV": 1
+  },
+  "te": {
+    "te\t\t": 4,
+    "еда\tfood\t": 2,
+    "есть\teat\t": 35,
+    "есть\teat\tN": 26,
+    "есть\teat\tV": 56
+  },
+  "tek": {
+    "tek\t\t": 1
+  },
+  "tel": {
+    "наверное\tprobably\t": 2,
+    "появиться\tappear\tV": 4,
+    "расти\tgrow\t": 22,
+    "расти\tgrow\tV": 12
+  },
+  "teli": {
+    "зима\twinter\t": 1
+  },
+  "teliɣt": {
+    "смешать\tmix\tV": 2
+  },
+  "ten": {
+    "3DU\t\t": 21,
+    "есть\teat\tN": 1
+  },
+  "tepəl": {
+    "лось\tmoose\t": 3
+  },
+  "terpi": {
+    "лекарство\tmedicine\tN": 2
+  },
+  "terən": {
+    "битва\tbattle\tV": 2
+  },
+  "tetal": {
+    "голодный\thungry\t": 4
+  },
+  "texam": {
+    "друг\tfriend\t": 3
+  },
+  "teŋ": {
+    "teŋ\t\t": 6
+  },
+  "tē": {
+    "есть\teat\tN": 1,
+    "есть\teat\tV": 3
+  },
+  "tēl": {
+    "появиться\tappear\tV": 1
+  },
+  "tēn": {
+    "3DU\t\t": 2
+  },
+  "tēnki": {
+    "2DU\t\t": 1
+  },
+  "teɣ": {
+    "сюда\there\t": 1
+  },
+  "ti": {
+    "3DU\t\t": 1,
+    "3SG\t\t": 2,
+    "ADD\t\t": 1,
+    "PTCL\t\t": 116,
+    "PTCL1\t\t": 3,
+    "PTCL2\t\t": 44,
+    "это\tthis\t": 1,
+    "этот\tthis\t": 142,
+    "этот\tthis\tN": 5
+  },
+  "tiim": {
+    "tiim\t\t": 1
+  },
+  "tiit": {
+    "tiit\t\t": 1
+  },
+  "tiji": {
+    "это\tthis\t": 1,
+    "это\tthis\tN": 1
+  },
+  "til": {
+    "лететь\tfly\tV": 5
+  },
+  "tin": {
+    "цена\tprice\tN": 4
+  },
+  "tit": {
+    "здесь\there\t": 2,
+    "подножье\tfoothills\tN": 2,
+    "тут\there\t": 9,
+    "устье\tmouth\tV": 2
+  },
+  "titn": {
+    "\t\t": 1,
+    "titn\t\t": 1
+  },
+  "titt": {
+    "кормить\tfeed\tV": 8,
+    "основание\tbase\tN": 2
+  },
+  "tiws": {
+    "хватит\tenough\t": 1
+  },
+  "tiɣ": {
+    "3SG\t\t": 1,
+    "сюда\there\t": 22
+  },
+  "tiɣəl": {
+    "сейчас\tnow\t": 1
+  },
+  "tiɣəlnəl": {
+    "даже\teven\t": 1
+  },
+  "tiɣ": {
+    "сюда\there\t": 1
+  },
+  "tiɣl": {
+    "взлететь\ttake.off\t": 1,
+    "влететь\tfly.in\t": 1
+  },
+  "tk": {
+    "tk\t\t": 4
+  },
+  "to": {
+    "to\t\t": 5
+  },
+  "tojuwlasət": {
+    "tojuwlasət\t\t": 1
+  },
+  "tol": {
+    "таять\tmelt\tV": 3
+  },
+  "toll": {
+    "рваться\ttear\tV": 2
+  },
+  "tolmat": {
+    "выстрелить\tshoot\tV": 1
+  },
+  "toləxpa": {
+    "гроб\tcoffin\t": 4
+  },
+  "toləɣ": {
+    "невод\tfishing.net\t": 1,
+    "невод\tfishing.net\tV": 1
+  },
+  "tolɣ": {
+    "невод\tfishing.net\tN": 1,
+    "невод\tfishing.net\tV": 2
+  },
+  "tom": {
+    "tom\t\t": 1
+  },
+  "tona": {
+    "затем\tthen\t": 2,
+    "потому\ttherefore\t": 2
+  },
+  "tont": {
+    "тогда\tthen\t": 1
+  },
+  "top": {
+    "только\tonly\t": 4
+  },
+  "tor": {
+    "небо\tsky\t": 1,
+    "платок\thandkerchief\t": 10,
+    "платок\thandkerchief\tN": 2,
+    "трястись\tshake\tV": 3
+  },
+  "toras": {
+    "помеха\tobstacle\t": 3
+  },
+  "torew": {
+    "медведь\tbear\t": 3
+  },
+  "toriɣ": {
+    "напротив\tacross\t": 3
+  },
+  "tort": {
+    "закрыть\tclose\tV": 1
+  },
+  "torum": {
+    "бог\tgod\t": 26,
+    "бог\tgod\tN": 4,
+    "мир/бог\t\t": 1,
+    "небо\tsky\t": 27,
+    "небо\tsky\tN": 8
+  },
+  "torəɣ": {
+    "напротив\tacross\t": 2
+  },
+  "torɣ": {
+    "трястись\tshake\tV": 6
+  },
+  "torɣ": {
+    "трястись\tshake\tV": 3
+  },
+  "tos": {
+    "камус\tski.skin\tN": 4,
+    "сохнуть\tdry\tV": 4
+  },
+  "tot": {
+    "3SG\t\t": 1,
+    "Там\t\t": 1,
+    "вести\tlead\tV": 1,
+    "нести\tcarry\tV": 91,
+    "там\tthere\t": 43,
+    "туда\tthere\t": 1
+  },
+  "touli": {
+    "довольно\tenough\t": 1
+  },
+  "tow": {
+    "ветка\tbranch\t": 1,
+    "ветка\tbranch\tN": 6,
+    "ветка\tbranch\tV": 1,
+    "грести\trow\tN": 1,
+    "грести\trow\tV": 3,
+    "иной\tother\tN": 1
+  },
+  "towa": {
+    "некоторый\tsome\t": 2
+  },
+  "towant": {
+    "грести\trow\tV": 3
+  },
+  "towart": {
+    "закрыть\tclose\tV": 2
+  },
+  "towl": {
+    "исполниться\tcome.true\t": 1,
+    "исполниться\tcome.true\tV": 5,
+    "крыло\twing\tN": 18
+  },
+  "towli": {
+    "хватит\tenough\t": 3
+  },
+  "towm": {
+    "укусать\tbite\tV": 3
+  },
+  "towəl": {
+    "крыло\twing\t": 10
+  },
+  "tox": {
+    "так\tso\t": 38,
+    "так\tso\tN": 1
+  },
+  "toxa": {
+    "так\tso\t": 1
+  },
+  "toxla": {
+    "воротник\tcollar\tN": 1
+  },
+  "toxr": {
+    "набивать\tstuff\tV": 1
+  },
+  "toɕ": {
+    "поперечина\tcrossbar\tV": 1
+  },
+  "tox": {
+    "для\tfor\t": 1
+  },
+  "tox": {
+    "так\tso\t": 2
+  },
+  "tpo": {
+    "tpo\t\t": 2
+  },
+  "tsa": {
+    "tsa\t\t": 2
+  },
+  "ttm": {
+    "ttm\t\t": 1
+  },
+  "ttmtɣ": {
+    "ttmtɣ\t\t": 1
+  },
+  "tu": {
+    "PTCL\t\t": 1,
+    "tu\t\t": 1
+  },
+  "tui": {
+    "лето\tsummer\t": 1
+  },
+  "tuj": {
+    "толкать\tpush\tV": 7
+  },
+  "tuja": {
+    "весна\tspring\t": 1,
+    "весна\tspring\tN": 1
+  },
+  "tuji": {
+    "лето\tsummer\t": 1
+  },
+  "tujim": {
+    "выпадать\tfall.out\tV": 1
+  },
+  "tujt": {
+    "сани\tsledge\t": 1,
+    "снег\tsnow\t": 17,
+    "снег\tsnow\tN": 8,
+    "спрятать\thide\tV": 8
+  },
+  "tul": {
+    "внести\tbring.in\tV": 15,
+    "облако\tcloud\t": 31
+  },
+  "tul'a": {
+    "перстень\tring\t": 3,
+    "перстень\tring\tN": 6
+  },
+  "tulit": {
+    "тайком\t\t": 6
+  },
+  "tulmant": {
+    "воровать\tsteal\tV": 1
+  },
+  "tulmax": {
+    "росомаха\twolverine\t": 6,
+    "росомаха\twolverine\tV": 1
+  },
+  "tul'a": {
+    "кольцо\tring\t": 2,
+    "кольцо\tring\tN": 1,
+    "палец\tfinger\t": 1
+  },
+  "tum": {
+    "вход\tentrance\tV": 2
+  },
+  "tumaj": {
+    "думай\tthink\t": 1,
+    "думать\tthink\t": 1,
+    "задумка\tidea\t": 1,
+    "почему\twhy\t": 1,
+    "совет\tadvice\t": 4
+  },
+  "tumajt": {
+    "думать\tthink\tV": 15
+  },
+  "tuman": {
+    "замок\tlock\tN": 4
+  },
+  "tuml'": {
+    "думать\tthink\tV": 1
+  },
+  "tump": {
+    "остров\tisland\t": 2,
+    "остров\tisland\tN": 2
+  },
+  "tun'ter": {
+    "tun'ter\t\t": 4
+  },
+  "tup": {
+    "весло\toar\t": 6,
+    "только\tonly\t": 10
+  },
+  "tur": {
+    "Озеро\t\tN": 1,
+    "горло\tthroat\t": 3,
+    "горло\tthroat\tN": 6,
+    "озеро\tlake\t": 18,
+    "озеро\tlake\tN": 9
+  },
+  "turka": {
+    "дробовик\tshotgun\t": 1
+  },
+  "turman": {
+    "стемнеть\tdarken\tV": 1,
+    "тёмный\tdark\t": 1,
+    "тёмный\tdark\tN": 1,
+    "тёмный\tdark\tV": 1
+  },
+  "tus": {
+    "усы\tmustache\tN": 1
+  },
+  "tuu": {
+    "туда\tthere\t": 1
+  },
+  "tuw": {
+    "3SG\t\t": 1,
+    "волокно\tfiber\t": 10,
+    "волокно\tfiber\tN": 8,
+    "там\tthere\t": 1,
+    "туда\tthere\t": 181,
+    "туда\tthere\tN": 5
+  },
+  "tuwl": {
+    "Потом\t\t": 1,
+    "и\tand\t": 1,
+    "потом\tthen\t": 20
+  },
+  "tuwl'e": {
+    "туда\tthere\t": 4
+  },
+  "tuwle": {
+    "потом\tthen\t": 2
+  },
+  "tuwəl": {
+    "Потом\t\t": 1,
+    "оттуда\tfrom.there\t": 16,
+    "потом\tthen\t": 99
+  },
+  "tuxi": {
+    "tuxi\t\t": 1
+  },
+  "tuɕt": {
+    "поставить\tset\t": 1,
+    "поставить\tset\tV": 10,
+    "ставить\tput\tV": 1
+  },
+  "tūr": {
+    "озеро\tlake\t": 5,
+    "озеро\tlake\tN": 1
+  },
+  "tůl": {
+    "внести\tbring.in\tV": 1
+  },
+  "tůp": {
+    "только\tonly\t": 2
+  },
+  "tét": {
+    "послать\tsend\tV": 1
+  },
+  "tāl'ax": {
+    "верхушка\ttip\tN": 1
+  },
+  "tān": {
+    "3PL\t\t": 1
+  },
+  "tārt": {
+    "пустить\tlet.go\tV": 1
+  },
+  "tāɣat": {
+    "вешать\thang\tV": 1
+  },
+  "tāɣint": {
+    "наполнить\tfill\tV": 1
+  },
+  "tē": {
+    "есть\teat\tV": 1
+  },
+  "tēn": {
+    "3DU\t\t": 1
+  },
+  "tōrew": {
+    "медведь\tbear\t": 8
+  },
+  "tūlmax": {
+    "росомаха\twolverine\t": 4
+  },
+  "tūp": {
+    "только\tonly\t": 2
+  },
+  "tůp": {
+    "лишь\tonly\t": 1
+  },
+  "təj": {
+    "сюда\there\t": 1
+  },
+  "təst": {
+    "горевать\tmourn\tV": 1
+  },
+  "təɣ": {
+    "сюда\there\t": 3
+  },
+  "təɣl": {
+    "лететь\tfly\tV": 1
+  },
+  "təɣəl": {
+    "сейчас\tnow\t": 2
+  },
+  "təɣ": {
+    "сюда\there\t": 4,
+    "сюда\there\tN": 1
+  },
+  "təɣl": {
+    "взлететь\ttake.off\t": 1
+  },
+  "tΧ": {
+    "tΧ\t\t": 1
+  },
+  "tаw": {
+    "Он\t\t": 1
+  },
+  "u": {
+    "u\t\t": 3
+  },
+  "uj": {
+    "животное\tanimal\t": 2,
+    "зверь\tanimal\t": 91,
+    "зверь\tanimal\tN": 6,
+    "плыть\tswim\tV": 5
+  },
+  "ul": {
+    "2SG\t\t": 1,
+    "PROH\t\t": 25
+  },
+  "ul'": {
+    "огонь\tfire\t": 2
+  },
+  "ul'a": {
+    "огонь\tfire\t": 33,
+    "огонь\tfire\tN": 9
+  },
+  "ul'jiw": {
+    "дрова\tfirewood\t": 2
+  },
+  "ul'pa": {
+    "кедр\tcedar\t": 1,
+    "кедр\tcedar\tN": 1
+  },
+  "ula": {
+    "ловушка\ttrap\tN": 3
+  },
+  "ulam": {
+    "одежда\tclothing\t": 1,
+    "одежда\tclothing\tN": 2
+  },
+  "ulm": {
+    "сон\tdream\tN": 4
+  },
+  "ulta": {
+    "через\tacross\t": 3
+  },
+  "ultta": {
+    "через\tacross\t": 4
+  },
+  "ultə": {
+    "через\tacross\t": 1
+  },
+  "ulum": {
+    "сон\tdream\t": 12
+  },
+  "ulə": {
+    "воспевание\tpraise\tN": 2,
+    "воспевание\tpraise\tV": 1
+  },
+  "ul'": {
+    "огонь\tfire\t": 2
+  },
+  "ul'a": {
+    "огонь\tfire\t": 8,
+    "огонь\tfire\tN": 1
+  },
+  "ul'pa": {
+    "кедр\tcedar\t": 1
+  },
+  "unl": {
+    "сидеть\tsit\t": 1,
+    "сидеть\tsit\tV": 72
+  },
+  "uns": {
+    "переправиться\tcross.over\tV": 11
+  },
+  "unt": {
+    "сесть\tsit\t": 7,
+    "сесть\tsit\tV": 65
+  },
+  "unəs": {
+    "unəs\t\t": 1
+  },
+  "uoa": {
+    "uoa\t\t": 1
+  },
+  "up": {
+    "деверь\tbrother.in.law\tV": 1
+  },
+  "upa": {
+    "брат\tbrother\tV": 1,
+    "деверь\tbrother.in.law\tN": 1,
+    "деверь\tbrother.in.law\tV": 1
+  },
+  "ur": {
+    "гора\tmountain\t": 6,
+    "гора\tmountain\tN": 8,
+    "ждать\twait\tV": 12,
+    "про\tabout\t": 4,
+    "про\tabout\tN": 5,
+    "способ\tway\tN": 2
+  },
+  "uratnik": {
+    "урядник\tconstable\t": 1
+  },
+  "ure": {
+    "способ\tway\tN": 2
+  },
+  "urinekwa": {
+    "ворона\tcrow\t": 2
+  },
+  "urt": {
+    "делить\tdivide\t": 2,
+    "делить\tdivide\tV": 5
+  },
+  "us": {
+    "ADD\t\t": 1,
+    "город\ttown\t": 32,
+    "город\ttown\tN": 14,
+    "погибнуть\tperish\t": 1,
+    "погибнуть\tperish\tV": 12,
+    "шагать\tstep\t": 4
+  },
+  "ust": {
+    "потерять\tlose\tV": 5
+  },
+  "usuwl": {
+    "шагнуть\tstep\tV": 1
+  },
+  "ut": {
+    "вещь\tthing\t": 4,
+    "вещь\tthing\tN": 1,
+    "лаять\tbark\tV": 3
+  },
+  "uɕ": {
+    "встать\tstand\tV": 1
+  },
+  "uɕa": {
+    "uɕa\t\t": 2,
+    "только\tonly\t": 1
+  },
+  "uɣpa": {
+    "uɣpa\t\t": 1
+  },
+  "ūnl": {
+    "сесть\tsit\tV": 1
+  },
+  "ūr": {
+    "держать\thold\tV": 1
+  },
+  "ūs": {
+    "город\ttown\t": 1,
+    "шаг\tstep\tV": 1
+  },
+  "ūsil": {
+    "шаг\tstep\t": 1
+  },
+  "w": {
+    "w\t\t": 5,
+    "взять\ttake\tV": 8,
+    "видеть\tsee\tV": 6
+  },
+  "wa": {
+    "богатырь\thero\t": 1,
+    "видеть\tsee\tV": 3
+  },
+  "waj": {
+    "взять\ttake\tV": 2,
+    "кисы\tdeer.skin.shoes\tN": 2,
+    "чулки/кисы\t\t": 1
+  },
+  "wal'ɕam": {
+    "стружка\tshavings\t": 1
+  },
+  "want": {
+    "груз\tload\t": 1,
+    "стадо\therd\tV": 3
+  },
+  "wantl": {
+    "кочевать\troam\tV": 1,
+    "переехать\tmove\tV": 1
+  },
+  "wantle": {
+    "переехать\tmove\tN": 1
+  },
+  "waps": {
+    "зять\ttake\t": 1,
+    "зять\ttake\tN": 5
+  },
+  "war": {
+    "cделать\t\tV": 1,
+    "делать\tdo\tV": 126
+  },
+  "warmal'": {
+    "дело\tbusiness\t": 2
+  },
+  "warta": {
+    "warta\t\t": 1
+  },
+  "was": {
+    "видеть\tsee\tV": 1,
+    "утка\tduck\t": 1,
+    "утка\tduck\tN": 2
+  },
+  "wasiɣ": {
+    "больше\tmore\t": 1
+  },
+  "wasəɣ": {
+    "больше\tmore\t": 1
+  },
+  "wat": {
+    "30'\t\t": 1,
+    "3SG\t\t": 1,
+    "берег\tshore\tN": 1,
+    "собирать\tgather\tV": 7,
+    "тридцать\tthirty\t": 4,
+    "тридцать\tthirty\tN": 1,
+    "тридцть\t\t": 1
+  },
+  "wat'i": {
+    "короткий\tshort\t": 39,
+    "короткий\tshort\tV": 1,
+    "медленно\tslowly\t": 1
+  },
+  "wata": {
+    "берег\tshore\t": 5,
+    "берег\tshore\tN": 14,
+    "торговец\tmerchant\t": 1,
+    "торговец\tmerchant\tN": 3,
+    "торговля\ttrade\t": 2
+  },
+  "wati": {
+    "короткий\tshort\t": 1,
+    "коротко\tshort\t": 2
+  },
+  "wat'a": {
+    "короткий\tshort\t": 2,
+    "коротко\tshort\t": 2
+  },
+  "wat'i": {
+    "короткий\tshort\t": 1
+  },
+  "waŋ": {
+    "видеть\tsee\tV": 1,
+    "плечо\tshoulder\tV": 1
+  },
+  "waŋk": {
+    "ползти\tcrawl\tV": 2
+  },
+  "waŋn": {
+    "плечо\tshoulder\t": 1
+  },
+  "waŋən": {
+    "плечо\tshoulder\t": 5
+  },
+  "waɕ": {
+    "видывать\texperience\tV": 1
+  },
+  "waɣ": {
+    "сила\tstrength\tN": 14,
+    "сила\tstrength\tV": 3
+  },
+  "waɣl": {
+    "спуститься\tgo.down\tV": 9
+  },
+  "wāps": {
+    "зять\ttake\tN": 1
+  },
+  "wār": {
+    "говорить\tspeak\tV": 1,
+    "сделать\tmake\tV": 1
+  },
+  "wāt": {
+    "берег\tshore\tN": 1
+  },
+  "wāt'a": {
+    "коротко\tshort\t": 1
+  },
+  "wāŋk": {
+    "ползти\tcrawl\tV": 3
+  },
+  "wāɣ": {
+    "знать\tknow\tV": 1
+  },
+  "waɣ": {
+    "мощь\tpower\tN": 5,
+    "сила\tstrength\tN": 8
+  },
+  "welat": {
+    "бить\thit\tV": 1
+  },
+  "wens": {
+    "wens\t\t": 1
+  },
+  "werit": {
+    "терпеть\tendure\tV": 6
+  },
+  "werm": {
+    "мочь\tbe.able\tV": 7,
+    "смочь\tbe.able\tV": 1
+  },
+  "wet": {
+    "wet\t\t": 10
+  },
+  "wetra": {
+    "ведро\tbucket\t": 2,
+    "ведро\tbucket\tN": 1
+  },
+  "weɕ": {
+    "красота\tbeauty\tN": 1
+  },
+  "weɕelit": {
+    "веселиться\thave.fun\tV": 1
+  },
+  "wi": {
+    "взять\ttake\tV": 2
+  },
+  "wikli": {
+    "wikli\t\t": 2
+  },
+  "wil't": {
+    "лицо\tface\t": 2,
+    "лицо\tface\tN": 2
+  },
+  "win": {
+    "вино\twine\tN": 1
+  },
+  "wina": {
+    "вино\twine\t": 13,
+    "вино\twine\tN": 3
+  },
+  "wirasən": {
+    "wirasən\t\t": 3
+  },
+  "wit": {
+    "Вода\t\t": 1,
+    "вода\twater\t": 36,
+    "вода\twater\tN": 54
+  },
+  "wiɣir": {
+    "красный\tred\t": 2
+  },
+  "wiɣər": {
+    "красный\tred\t": 3
+  },
+  "wl": {
+    "wl\t\t": 2
+  },
+  "wo": {
+    "wo\t\t": 1
+  },
+  "woj": {
+    "брать\ttake\tN": 1,
+    "брать\ttake\tV": 9,
+    "жир\tfat\t": 1
+  },
+  "wojkan": {
+    "светлый\tlight\t": 23,
+    "светлый\tlight\tN": 1
+  },
+  "wol'": {
+    "плёс\tstream.pool\t": 8
+  },
+  "wolt": {
+    "тесать\thew\tV": 2
+  },
+  "won'ɕal": {
+    "пусто\tempty\t": 2,
+    "пусто\tempty\tN": 2
+  },
+  "wonsut": {
+    "мелькнуть\tflash\tV": 1
+  },
+  "wontər": {
+    "выдра\totter\t": 4
+  },
+  "woo": {
+    "woo\t\t": 3
+  },
+  "wopsaxn": {
+    "wopsaxn\t\t": 1
+  },
+  "wor": {
+    "лес\tforest\t": 29,
+    "лес\tforest\tN": 38,
+    "лес\tforest\tV": 7,
+    "мощь\tpower\tN": 2,
+    "мощь\tpower\tV": 3,
+    "сила\tstrength\t": 3,
+    "сила\tstrength\tN": 7,
+    "сила\tstrength\tV": 5
+  },
+  "worat": {
+    "порываться\ttry\tV": 1
+  },
+  "wort": {
+    "подпереть\tprop.up\tV": 2
+  },
+  "wos": {
+    "OPT\t\t": 37,
+    "OPT\t\tN": 8
+  },
+  "woss": {
+    "OPT\t\tN": 4
+  },
+  "wot": {
+    "ветер\twind\t": 8,
+    "ветер\twind\tN": 8
+  },
+  "wotiŋ": {
+    "седой\tgray\t": 1
+  },
+  "wow": {
+    "звать\tcall\tV": 24
+  },
+  "wowta": {
+    "тонкий\tthin\t": 4
+  },
+  "woww": {
+    "просить\task\tV": 1
+  },
+  "woŋxa": {
+    "яма\tpit\t": 2,
+    "яма\tpit\tN": 7
+  },
+  "woɕ": {
+    "woɕ\t\t": 1,
+    "грязь\tmud\tN": 1
+  },
+  "woɕkas": {
+    "бросить\tthrow\tV": 1,
+    "выкинуть\tthrow.out\tV": 2,
+    "сбросить\tdump\tV": 1
+  },
+  "woɕlax": {
+    "грязь\tmud\tN": 1
+  },
+  "woɕəŋ": {
+    "woɕəŋ\t\t": 1
+  },
+  "wōr": {
+    "Лес\t\tN": 2,
+    "лес\tforest\t": 3,
+    "стрела\tarrow\t": 1
+  },
+  "wōŋx": {
+    "яма\tpit\tN": 1
+  },
+  "wōŋxa": {
+    "яма\tpit\t": 1
+  },
+  "wunseɣ": {
+    "wunseɣ\t\t": 2
+  },
+  "wxo": {
+    "wxo\t\t": 1
+  },
+  "wār": {
+    "делать\tdo\tV": 7
+  },
+  "wāɣ": {
+    "сила\tstrength\tN": 2
+  },
+  "wōr": {
+    "лес\tforest\t": 2,
+    "лес\tforest\tN": 12
+  },
+  "wōw": {
+    "звать\tcall\tV": 1
+  },
+  "wəɣər": {
+    "красный\tred\t": 3
+  },
+  "wəɣər": {
+    "красный\tred\t": 1
+  },
+  "x": {
+    "x\t\t": 2
+  },
+  "xajt": {
+    "бег\trun\t": 1,
+    "бег\trun\tN": 2,
+    "бег\trun\tV": 8,
+    "бегать\trun\tV": 1,
+    "бежать\trun\tV": 43
+  },
+  "xajtup": {
+    "мост\tbridge\t": 4
+  },
+  "xal": {
+    "промежуток\tinterval\t": 2,
+    "промежуток\tinterval\tN": 12,
+    "промежуток\tinterval\tV": 1
+  },
+  "xal'": {
+    "берёза\tbirch\t": 1,
+    "берёза\tbirch\tN": 1
+  },
+  "xalew": {
+    "чайка\tseagull\t": 3
+  },
+  "xalt": {
+    "между\tbetween\t": 1
+  },
+  "xan": {
+    "приклеить\tglue\t": 1,
+    "приклеить\tglue\tV": 6,
+    "прилипнуть\tstick\tV": 1
+  },
+  "xan'iɕt": {
+    "учить\tteach\tV": 7
+  },
+  "xaniɕt": {
+    "научить\tteach\tV": 1
+  },
+  "xanmen": {
+    "xanmen\t\t": 1
+  },
+  "xans": {
+    "писать\twrite\tV": 4
+  },
+  "xansa": {
+    "орнамент\tornament\tN": 1,
+    "узор\tpattern\t": 3,
+    "узор\tpattern\tN": 11
+  },
+  "xant": {
+    "сера\tsulfur\tN": 4
+  },
+  "xantə": {
+    "остяк\tKhanty\tN": 1,
+    "сера\tsulfur\tN": 1
+  },
+  "xanəlpatta": {
+    "пазуха\tcavity\t": 3
+  },
+  "xan'iɕt": {
+    "научить\tteach\tV": 1
+  },
+  "xap": {
+    "лодка\tboat\t": 12,
+    "лодка\tboat\tN": 8
+  },
+  "xapɣa": {
+    "осина\taspen\t": 2
+  },
+  "xar": {
+    "самец\tmale\t": 11,
+    "самец\tmale\tN": 1
+  },
+  "xara": {
+    "редкий\trare\t": 2
+  },
+  "xariɣl": {
+    "потухнуть\tgo.out\tV": 3
+  },
+  "xariɣt": {
+    "погасить\textinguish\tV": 1
+  },
+  "xarn'i": {
+    "xarn'i\t\t": 1
+  },
+  "xarni": {
+    "xarni\t\t": 1
+  },
+  "xars": {
+    "полноводный\tfull.flowing\t": 4,
+    "полноводный\tfull.flowing\tV": 1
+  },
+  "xarst": {
+    "хрустеть\tcrunch\tV": 1
+  },
+  "xart": {
+    "тянуть\tpull\tV": 23
+  },
+  "xartum": {
+    "волок\tdrag\t": 1
+  },
+  "xarəɣl": {
+    "потухнуть\tgo.out\tV": 1
+  },
+  "xas": {
+    "писать\twrite\tV": 1,
+    "привязать\ttie\tN": 1,
+    "привязать\ttie\tV": 1,
+    "тальник\twillow\tV": 1,
+    "тащить\tdrag\tV": 3,
+    "уметь\tbe.able\tV": 5
+  },
+  "xasap": {
+    "полог\tcanopy\t": 3
+  },
+  "xasli": {
+    "мох\tmoss\t": 2
+  },
+  "xassumt": {
+    "дёргать\tpull\tV": 2
+  },
+  "xatan'": {
+    "татарин\tTatar\t": 1
+  },
+  "xatəs": {
+    "xatəs\t\t": 1
+  },
+  "xax": {
+    "взобраться\tclimb\tN": 2,
+    "взобраться\tclimb\tV": 1
+  },
+  "xaŋra": {
+    "подколенок\t\tN": 1
+  },
+  "xaŋx": {
+    "взобраться\tclimb\t": 1,
+    "взобраться\tclimb\tV": 16
+  },
+  "xaɕ": {
+    "знание\tknowledge\tN": 4
+  },
+  "xaɕl": {
+    "рваться\ttear\tV": 1
+  },
+  "xāl'": {
+    "берёза\tbirch\t": 1
+  },
+  "xār": {
+    "самец\tmale\t": 1
+  },
+  "xil": {
+    "копать\tdig\t": 1,
+    "копать\tdig\tV": 5
+  },
+  "xis": {
+    "xis\t\t": 1
+  },
+  "xitərt": {
+    "ударить\thit\tV": 2
+  },
+  "xmp": {
+    "xmp\t\t": 1
+  },
+  "xo": {
+    "кто\twho\t": 2,
+    "кто\twho\tN": 2,
+    "кто\twho\tV": 2
+  },
+  "xoj": {
+    "достичь\tachieve\tV": 4,
+    "удариться\tbump.into\tV": 12
+  },
+  "xol": {
+    "кончить\tfinish\tV": 1,
+    "кончиться\tend\t": 9,
+    "кончиться\tend\tV": 24,
+    "погибнуть\tperish\tV": 1,
+    "утро\tmorning\t": 2,
+    "утро\tmorning\tN": 9,
+    "утро\tmorning\tV": 1
+  },
+  "xol't": {
+    "как\tlike\t": 3,
+    "как\tlike\tN": 1
+  },
+  "xoli": {
+    "утренний\tmorning\t": 3
+  },
+  "xolit": {
+    "завтра\ttomorrow\t": 7,
+    "завтрашний\ttomorrow's\t": 6,
+    "завтрашний\ttomorrow's\tN": 5
+  },
+  "xolitan": {
+    "завтра\ttomorrow\t": 7,
+    "завтра\ttomorrow\tN": 3
+  },
+  "xolt": {
+    "тратить\tspend\tV": 3
+  },
+  "xol't": {
+    "наподобие\tlike\t": 1,
+    "наподобие\tlike\tN": 2
+  },
+  "xomi": {
+    "навзничь\tupside.down\t": 2,
+    "ничком\tface.down\t": 3
+  },
+  "xomɕi": {
+    "кнут\twhip\t": 1
+  },
+  "xoməl": {
+    "проклятый\tdamned\t": 1
+  },
+  "xon": {
+    "царь\ttsar\t": 56,
+    "царь\ttsar\tN": 3,
+    "царь[LAT]\t\t": 1
+  },
+  "xoni": {
+    "навзничь\tupside.down\t": 2
+  },
+  "xont": {
+    "войско\tarmy\t": 7,
+    "войско\tarmy\tN": 5,
+    "войско\tarmy\tV": 18,
+    "войско/враг\t\t": 1,
+    "найти\tfind\tV": 52
+  },
+  "xopəlt": {
+    "греметь\tthunder\tV": 1
+  },
+  "xort": {
+    "лаять\tbark\tV": 2
+  },
+  "xortxan": {
+    "ястреб\thawk\t": 1
+  },
+  "xos": {
+    "длинный\tlong\tN": 5,
+    "махать\twave\tV": 7
+  },
+  "xosa": {
+    "далеко\tfar\t": 2,
+    "далеко/долго\t\t": 1,
+    "длинный\tlong\t": 45,
+    "длинный\tlong\tN": 3,
+    "долго\tlong\t": 8,
+    "долго\tlong\tN": 1
+  },
+  "xosit": {
+    "вдоль\talong\t": 8,
+    "по\tby\t": 3
+  },
+  "xot": {
+    "где\twhere\t": 28,
+    "где\twhere\tN": 2,
+    "от\tfrom\t": 51,
+    "шесть\tsix\t": 18,
+    "шесть\tsix\tN": 3,
+    "шесть\tsix\tV": 1
+  },
+  "xotal": {
+    "день\tday\t": 60,
+    "день\tday\tN": 4,
+    "рассветать\tdawn\tV": 7,
+    "солнце\tsun\t": 2
+  },
+  "xotaŋ": {
+    "лебедь\tswan\t": 10,
+    "лебедь\tswan\tN": 6
+  },
+  "xoti": {
+    "который\twho\t": 10
+  },
+  "xotjut": {
+    "кто\twho\t": 7,
+    "кто\twho\tN": 2
+  },
+  "xotl": {
+    "рассветать\tdawn\tV": 1
+  },
+  "xotəl": {
+    "рассветать\tdawn\tV": 1
+  },
+  "xowt": {
+    "ёлка\tspruce\t": 5
+  },
+  "xoxaŋ": {
+    "xoxaŋ\t\t": 1
+  },
+  "xoŋxa": {
+    "кто\twho\t": 1,
+    "кто\twho\tN": 3
+  },
+  "xoŋxsa": {
+    "xoŋxsa\t\t": 1
+  },
+  "xoɕa": {
+    "засохший\tdried.up\t": 1
+  },
+  "xoɕat": {
+    "xoɕat\t\t": 1
+  },
+  "xōt": {
+    "шесть\tsix\t": 1
+  },
+  "xt": {
+    "xt\t\t": 1
+  },
+  "xu": {
+    "xu\t\t": 2
+  },
+  "xuj": {
+    "лежать\tlie\t": 1,
+    "лежать\tlie\tV": 101,
+    "лечь\tlie.down\tV": 2,
+    "ложиться\tlie.down\tV": 1,
+    "спать\tsleep\tV": 19
+  },
+  "xul": {
+    "ночевать\tspend.the.night\tV": 4,
+    "рыба\tfish\t": 23,
+    "рыба\tfish\tN": 14,
+    "слышать\thear\tV": 4
+  },
+  "xul'": {
+    "оставить\tleave\tV": 9
+  },
+  "xul'iɣl": {
+    "всплыть\tsurface\tV": 1
+  },
+  "xul'm": {
+    "зона\tzone\tN": 1,
+    "пепел\tashes\tN": 2
+  },
+  "xul't": {
+    "остаться\tstay\t": 2,
+    "остаться\tstay\tV": 18
+  },
+  "xul'tɣaj": {
+    "зыбун\tswamp\tN": 1
+  },
+  "xul'um": {
+    "речка\triver\t": 2
+  },
+  "xulax": {
+    "ворон\tcrow\t": 6
+  },
+  "xult": {
+    "остаться\tstay\tV": 3,
+    "показать\tshow\t": 1,
+    "показать\tshow\tV": 1
+  },
+  "xul't": {
+    "остаться\tstay\t": 1,
+    "остаться\tstay\tV": 6
+  },
+  "xum": {
+    "3SG\t\t": 1,
+    "DISC\t\t": 7,
+    "мужчина\tman\t": 266,
+    "мужчина\tman\tN": 34,
+    "мужчина\tman\tV": 1,
+    "три\tthree\t": 1,
+    "хум\tKhum\t": 1,
+    "человек\tperson\t": 4
+  },
+  "xuma": {
+    "мужики\tguys\t": 2
+  },
+  "xumi": {
+    "мужчина\tman\tN": 1
+  },
+  "xuml'e": {
+    "как\tlike\t": 4
+  },
+  "xumle": {
+    "как\tlike\t": 2
+  },
+  "xumus": {
+    "как\tlike\t": 3,
+    "какой\twhat.kind\t": 1
+  },
+  "xun": {
+    "черпать\tscoop\tV": 2
+  },
+  "xun'": {
+    "когда\twhen\t": 11,
+    "разве\tis.it.true\t": 1
+  },
+  "xun't": {
+    "когда\twhen\t": 5
+  },
+  "xunt": {
+    "вычерпывать\tscoop.out\tV": 1,
+    "котомка\tknapsack\tN": 2,
+    "котомка\tknapsack\tV": 2
+  },
+  "xuntel": {
+    "слушать\tlisten\tV": 2
+  },
+  "xuntl": {
+    "слушать\tlisten\tV": 10
+  },
+  "xun'": {
+    "когда\twhen\t": 1
+  },
+  "xupta": {
+    "xupta\t\t": 1
+  },
+  "xur": {
+    "берег\tshore\t": 1,
+    "берег\tshore\tV": 1
+  },
+  "xuraxl": {
+    "пугать\tscare\tV": 2
+  },
+  "xuri": {
+    "изображение\timage\t": 3,
+    "изображение\timage\tN": 34,
+    "образ\timage\tN": 1,
+    "узор\tpattern\tN": 1
+  },
+  "xurip": {
+    "образ\timage\t": 2,
+    "свойство\tproperty\t": 2
+  },
+  "xuriɣ": {
+    "мешок\tbag\t": 1
+  },
+  "xurm": {
+    "три\tthree\t": 6,
+    "три\tthree\tN": 8,
+    "три\tthree\tV": 1
+  },
+  "xurp": {
+    "коробка\tbox\tN": 1
+  },
+  "xurum": {
+    "три\tthree\t": 70
+  },
+  "xurəm": {
+    "три\tthree\t": 29
+  },
+  "xurəɣ": {
+    "мешок\tbag\t": 1
+  },
+  "xus": {
+    "двадцать\ttwenty\t": 1,
+    "жечь\tburn\t": 1
+  },
+  "xusap": {
+    "коробка\tbox\t": 1
+  },
+  "xusl": {
+    "отслаиваться\tflake.off\tV": 1
+  },
+  "xut": {
+    "согнуться\tbend\t": 1,
+    "согнуться\tbend\tV": 3
+  },
+  "xuɕ": {
+    "слуга\tservant\tN": 1
+  },
+  "xūl": {
+    "рыба\tfish\t": 2
+  },
+  "xāŋx": {
+    "залезть\tclimb\tV": 1
+  },
+  "xāŋxt": {
+    "загнать\tdrive\tV": 6
+  },
+  "xōnt": {
+    "встретиться\tmeet\tV": 1,
+    "найти\tfind\tV": 2
+  },
+  "xōt": {
+    "где\twhere\tN": 1
+  },
+  "xōtal": {
+    "день\tday\t": 1
+  },
+  "xūl": {
+    "ночевать\tspend.the.night\tV": 6
+  },
+  "xūntl": {
+    "слушать\tlisten\tV": 1
+  },
+  "xūriɣ": {
+    "мешок\tbag\t": 1
+  },
+  "xūrm": {
+    "три\tthree\t": 1
+  },
+  "xəl": {
+    "копать\tdig\tV": 2
+  },
+  "xət": {
+    "xət\t\t": 1
+  },
+  "{ɕakwit": {
+    "молоко\tmilk\tN": 1
+  },
+  "|": {
+    "1SG\t\t": 2,
+    "2SG\t\t": 1,
+    "3SG\t\t": 2,
+    "PST\t\t": 1,
+    "PTCL\t\t": 3,
+    "S\t\t": 1,
+    "Наверное\t\t": 1,
+    "Порнэ\t\t": 1,
+    "Сейчас\t\t": 1,
+    "будет\twill.be\t": 1,
+    "внутрь\tinside\t": 1,
+    "всегда\talways\t": 1,
+    "наружу\toutside\t": 1,
+    "так\tso\t": 1,
+    "тонкий\tthin\t": 1,
+    "тридцать\tthirty\t": 1
+  },
+  "āmart": {
+    "зацепить\thook\tV": 1
+  },
+  "āni": {
+    "блюдо\tdish\t": 1,
+    "тарелка\tplate\tN": 1
+  },
+  "āwi": {
+    "дверь\tdoor\t": 2,
+    "дверь\tdoor\tN": 1
+  },
+  "āŋkwal": {
+    "ствол\ttrunk\t": 5,
+    "столб\tpole\t": 2,
+    "столб\tpole\tN": 1
+  },
+  "āɕ": {
+    "отец\tfather\t": 3
+  },
+  "āɣi": {
+    "дочь\tdaughter\tN": 1
+  },
+  "ēl": {
+    "вперед\tforward\tN": 1,
+    "впереди\tahead\tN": 1
+  },
+  "ēla": {
+    "вперед\tforward\t": 1
+  },
+  "ēr": {
+    "надо\tis.needed\tV": 3
+  },
+  "ēriɣ": {
+    "песня\tsong\t": 2
+  },
+  "ērt": {
+    "во\t\t": 1
+  },
+  "ēti": {
+    "ночь\tnight\tV": 2
+  },
+  "n'al": {
+    "лук\tbow\t": 1,
+    "стрела\tarrow\t": 1,
+    "стрела\tarrow\tN": 1,
+    "стрела\tarrow\tV": 1
+  },
+  "n'ali": {
+    "стрела\tarrow\t": 1
+  },
+  "n'awl": {
+    "гнать\tchase\tV": 1
+  },
+  "n'awram": {
+    "идти\tgo\tV": 1,
+    "ребёнок\tchild\t": 1,
+    "ребёнок\tchild\tN": 2
+  },
+  "n'ēɕe": {
+    "Неще\t\t": 1
+  },
+  "n'ōr": {
+    "ползти\tcrawl\tV": 1
+  },
+  "ŋōŋx": {
+    "вверх\tup\t": 2
+  },
+  "ōj": {
+    "заснуть\tfall.asleep\tV": 2
+  },
+  "ōjka": {
+    "мужчина\tman\t": 16
+  },
+  "ōl": {
+    "быть\tbe\tV": 5,
+    "жить\tlive\tV": 1
+  },
+  "ōn'ɕ": {
+    "иметь\thave\tV": 3
+  },
+  "ōs": {
+    "ADD\t\t": 52,
+    "время\ttime\t": 1
+  },
+  "ōsəŋ": {
+    "толстый\tthick\t": 1
+  },
+  "ōwəl": {
+    "конец\tend\tN": 2
+  },
+  "ōxsar": {
+    "лиса\tfox\t": 2
+  },
+  "ōn'ɕ": {
+    "владеть\tpossess\tV": 1
+  },
+  "ūj": {
+    "звери\tanimals\t": 1,
+    "зверь\tanimal\t": 1,
+    "зверь\tanimal\tN": 3
+  },
+  "ūlum": {
+    "сон\tdream\t": 1
+  },
+  "ūnl": {
+    "сидеть\tsit\tV": 3
+  },
+  "ūnt": {
+    "сесть\tsit\tV": 3,
+    "сидеть\tsit\tV": 2
+  },
+  "ūs": {
+    "город\ttown\t": 1
+  },
+  "ɕ'amralaste": {
+    "ɕ'amralaste\t\t": 1
+  },
+  "ɕai": {
+    "чай\ttea\tN": 2
+  },
+  "ɕaj": {
+    "чай\ttea\t": 5
+  },
+  "ɕakw": {
+    "вымя\tudder\t": 2,
+    "вымя\tudder\tV": 1
+  },
+  "ɕakwit": {
+    "молоко\tmilk\t": 6
+  },
+  "ɕakŋ": {
+    "ɕakŋ\t\t": 1
+  },
+  "ɕaliɣ": {
+    "чистый\tclean\t": 1
+  },
+  "ɕalt": {
+    "войти\tenter\tV": 26,
+    "входить\tenter\t": 1,
+    "входить\tenter\tV": 122,
+    "зайти\tenter\tV": 2
+  },
+  "ɕaləɣ": {
+    "жидкий\tliquid\t": 3
+  },
+  "ɕaləɣ": {
+    "серебро\tsilver\t": 1
+  },
+  "ɕalɣ": {
+    "серебро\tsilver\t": 1
+  },
+  "ɕama": {
+    "насмерть\tto.death\t": 2
+  },
+  "ɕampur": {
+    "обруч\thoop\t": 1
+  },
+  "ɕamralaste": {
+    "ɕamralaste\t\t": 1
+  },
+  "ɕan'": {
+    "мама\tmom\t": 4,
+    "мама\tmom\tN": 3
+  },
+  "ɕanèn": {
+    "2DU\t\t": 1
+  },
+  "ɕape": {
+    "ɕape\t\t": 1
+  },
+  "ɕar": {
+    "самый\tmost\t": 11,
+    "самый\tmost\tN": 1,
+    "совсем\tcompletely\t": 10,
+    "совсем\tcompletely\tV": 1
+  },
+  "ɕaras": {
+    "море\tsea\t": 1,
+    "остров\tisland\t": 1
+  },
+  "ɕaraɕ": {
+    "море\tsea\t": 5
+  },
+  "ɕarit": {
+    "жарить\tfry\tV": 6
+  },
+  "ɕarka": {
+    "ɕarka\t\t": 1,
+    "чарка\tshot.glass\t": 6
+  },
+  "ɕarəɕ": {
+    "море\tsea\t": 4,
+    "море\tsea\tN": 1
+  },
+  "ɕarɣ": {
+    "жечь\tburn\tV": 1
+  },
+  "ɕas": {
+    "колени\tknees\t": 1
+  },
+  "ɕaxl": {
+    "клубок\ttangle\tN": 1,
+    "туча\tcloud\t": 2,
+    "туча\tcloud\tN": 3,
+    "холм\thill\t": 1,
+    "холм\thill\tN": 1
+  },
+  "ɕaxəl": {
+    "гора\tmountain\t": 2,
+    "туча\tcloud\t": 5,
+    "туча\tcloud\tN": 2,
+    "холм\thill\t": 23,
+    "хребет\tspine\t": 1
+  },
+  "ɕaŋkɕ": {
+    "жуланчик\tshrike\t": 1
+  },
+  "ɕaɣt": {
+    "радоваться\trejoice\t": 1,
+    "радоваться\trejoice\tV": 1
+  },
+  "ɕālt": {
+    "войти\tenter\tV": 1
+  },
+  "ɕeltumt": {
+    "бросить\tthrow\tV": 2
+  },
+  "ɕep": {
+    "карман\tpocket\tN": 3
+  },
+  "ɕeranka": {
+    "спичка\tmatch\t": 1
+  },
+  "ɕermat": {
+    "вожжи\treins\t": 1,
+    "вожжи\treins\tN": 2,
+    "вожжи\treins\tV": 3
+  },
+  "ɕes": {
+    "щегол\tgoldfinch\t": 1
+  },
+  "ɕetwert": {
+    "четверть\tquarter\t": 1
+  },
+  "ɕetwert'": {
+    "четверть\tquarter\t": 1
+  },
+  "ɕil": {
+    "бубенчик\tbell\t": 1
+  },
+  "ɕin'axti": {
+    "ɕin'axti\t\t": 1
+  },
+  "ɕir": {
+    "способ\tway\tN": 15
+  },
+  "ɕiraj": {
+    "меч\tsword\tN": 1
+  },
+  "ɕisɣ": {
+    "визжать\tsqueal\tV": 1
+  },
+  "ɕol": {
+    "могущество\tpower\t": 1,
+    "могущество\tpower\tN": 1,
+    "средство\tmeans\tN": 2
+  },
+  "ɕopil": {
+    "договориться\tagree\tV": 3
+  },
+  "ɕopit": {
+    "готовить\tcook\tV": 6
+  },
+  "ɕopər": {
+    "глухарка\tfemale.wood.grouse\t": 7,
+    "тонкий\tthin\t": 3
+  },
+  "ɕora": {
+    "пороша\tsnowflake\t": 2
+  },
+  "ɕorxil": {
+    "зарубка\tnotch\t": 1,
+    "зарубка\tnotch\tN": 1,
+    "зарубка\tnotch\tV": 1
+  },
+  "ɕorxəl": {
+    "зарубка\tnotch\t": 4,
+    "зарубка\tnotch\tV": 4
+  },
+  "ɕos": {
+    "момент\tmoment\t": 1,
+    "раз\ttime\t": 9,
+    "раз\ttime\tN": 1,
+    "час\thour\t": 1
+  },
+  "ɕowal": {
+    "чувал\thearth?\t": 1
+  },
+  "ɕt": {
+    "ɕt\t\t": 3
+  },
+  "ɕul": {
+    "седина\tgray.hair\tN": 2
+  },
+  "ɕul'ɕi": {
+    "кулик\tsandpiper\t": 5
+  },
+  "ɕun'": {
+    "благоденствовать\tprosper\t": 2,
+    "благоденствовать\tprosper\tN": 1,
+    "благоденствовать\tprosper\tV": 10,
+    "богатство\twealth\tN": 6,
+    "здравствовать\tbe.well\tV": 1
+  },
+  "ɕuns": {
+    "смотреть\tlook\tV": 1
+  },
+  "ɕuram": {
+    "освежить\trefresh\tV": 1
+  },
+  "ɕurɣ": {
+    "течь\tflow\tV": 2
+  },
+  "ɕus": {
+    "раз\ttime\t": 1
+  },
+  "ΧtΧɣwtwɣ": {
+    "ΧtΧɣwtwɣ\t\t": 1
+  },
+  "x": {
+    "Ц\t\t": 1
+  },
+  "xajta": {
+    "бежать\trun\tV": 1
+  },
+  "xal": {
+    "среди\tamong\t": 1
+  },
+  "xap": {
+    "лодка\tboat\tN": 1
+  },
+  "xar": {
+    "самец\tmale\t": 2
+  },
+  "xart": {
+    "тянуть\tpull\tV": 1
+  },
+  "xār": {
+    "самец\tmale\t": 1
+  },
+  "xil": {
+    "копать\tdig\tV": 1
+  },
+  "xol": {
+    "утро\tmorning\tN": 1
+  },
+  "xos": {
+    "длина\tlength\tN": 1
+  },
+  "xotal'": {
+    "куда\twhere\t": 1
+  },
+  "xotəl": {
+    "день\tday\t": 1
+  },
+  "xōj": {
+    "касаться\ttouch\tV": 1,
+    "попасть\thit\tV": 1
+  },
+  "xōmi": {
+    "EMPH\t\t": 1,
+    "ничком\tface.down\t": 1
+  },
+  "xōn": {
+    "король\tking\t": 1,
+    "царь\ttsar\t": 4
+  },
+  "xōnt": {
+    "воевать\tfight\tV": 1,
+    "войско\tarmy\t": 1,
+    "найти\tfind\tV": 4,
+    "находить\tfind\tV": 1
+  },
+  "xōpt": {
+    "олень\tdeer\t": 2,
+    "олень\tdeer\tN": 4
+  },
+  "xōs": {
+    "длина\tlength\tN": 1
+  },
+  "xōsa": {
+    "длинный\tlong\tN": 1,
+    "долго\tlong\t": 1
+  },
+  "xōtal": {
+    "день\tday\t": 2
+  },
+  "xōŋ": {
+    "король\tking\t": 1
+  },
+  "xont": {
+    "искать\tsearch\tV": 1
+  },
+  "xuij": {
+    "спать\tsleep\tV": 1
+  },
+  "xuj": {
+    "лежать\tlie\tV": 5,
+    "ложиться\tlie.down\tV": 1,
+    "спать\tsleep\tV": 1
+  },
+  "xuja": {
+    "лежать\tlie\tV": 1
+  },
+  "xujn'utəl": {
+    "спать\tsleep\t": 1
+  },
+  "xul'təs": {
+    "остаться\tstay\t": 1
+  },
+  "xum": {
+    "мужчина\tman\t": 3,
+    "мужчина\tman\tN": 2,
+    "человек\tperson\t": 1
+  },
+  "xuntəl": {
+    "слушать\tlisten\tV": 1
+  },
+  "xurm": {
+    "три\tthree\t": 1
+  },
+  "xun'": {
+    "когда\twhen\t": 1
+  },
+  "xūrm": {
+    "Три\t\t": 1
+  },
+  "xūrum": {
+    "Три\t\t": 3,
+    "три\tthree\t": 4
+  }
+}
