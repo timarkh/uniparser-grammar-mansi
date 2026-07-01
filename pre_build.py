@@ -54,6 +54,7 @@ def parse_wordlists():
                        verbose=True,
                        replacementsAllowed=0)
 
+
 rxVowels = re.compile('[aāeēiīoōuūə]')
 # rxLastVowel = re.compile('([aāeēiīoōuūə])([^aāeēiīoōuūə]*)$')
 rxLastVowel = re.compile('(ə)([^aāeēiīoōuūə]+)$')
@@ -70,6 +71,7 @@ vowelRepl = {
     # 'ū': 'u',
     'ə': ''
 }
+
 
 def sort_key(s):
     # s = s.replace('a', 'a2')
@@ -89,12 +91,14 @@ def sort_key(s):
     s = s.replace("l1'", 'l2')
     return s
 
+
 def make_stem(lex, pos):
     stemVars = [lex]
     nVowels = len(rxVowels.findall(lex))
     if nVowels % 2 == 0:
         stemVars.append(rxLastVowel.sub(lambda m: vowelRepl[m.group(1)] + m.group(2), lex))
     return '|'.join(var + '.' for var in sorted(set(stemVars), key=lambda x: (-len(x), x)))
+
 
 def make_para(lex, pos):
     if pos == 'unknown':
@@ -107,6 +111,7 @@ def make_para(lex, pos):
     else:
         pos += 'odd'
     return pos
+
 
 def make_lexeme(lemma, glossRu, glossEn, pos):
     if pos == '':
@@ -122,6 +127,7 @@ def make_lexeme(lemma, glossRu, glossEn, pos):
     lex += ' gloss_ru: ' + glossRu + '\n'
     return lex
 
+
 def filter_lexemes(lexemes):
     """
     Filter short stems for which there are long stems
@@ -136,6 +142,7 @@ def filter_lexemes(lexemes):
                 continue
             filtered.append(lex)
     return filtered
+
 
 def convert_lexemes():
     with open('lexemes.json', 'r', encoding='utf-8') as fIn:
@@ -176,10 +183,10 @@ def convert_lexemes():
 
 
 if __name__ == '__main__':
-    convert_lexemes()
-    # prepare_files()
-    # parse_wordlists()
-    # from uniparser_mansi_lat import MansiAnalyzer
-    # a = MansiAnalyzer(mode='strict')
-    # for wf in a.analyze_words(['ojka'], format='xml'):
-    #     print(wf)
+    # convert_lexemes()
+    prepare_files()
+    parse_wordlists()
+    from uniparser_mansi_lat import MansiAnalyzer
+    a = MansiAnalyzer(mode='strict')
+    for wf in a.analyze_words(['ojka'], format='xml'):
+        print(wf)

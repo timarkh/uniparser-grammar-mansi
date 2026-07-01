@@ -1,0 +1,25 @@
+-paradigm: unchangeable
+ -flex: .
+  gramm: 
+  gloss: 
+
+
+-paradigm: N_even
+ -flex: .
+  gramm: nom,sg
+  gloss: 
+
+-paradigm: N_odd
+ -flex: .
+  gramm: nom,sg
+  gloss: 
+
+-paradigm: ADJ_even
+ -flex: .
+  gramm: nom,sg
+  gloss: 
+
+-paradigm: ADJ_odd
+ -flex: .
+  gramm: nom,sg
+  gloss: 

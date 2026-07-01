@@ -1,0 +1,125 @@
+<w><ana lex="tuw" gr="N,nom,sg" parts="tuw" gloss="STEM"></ana><ana lex="tuw" gr="N,nom,sg" parts="tuw" gloss="fiber"></ana><ana lex="tuw" gr="N,nom,sg" parts="tuw" gloss="there"></ana>tuw</w>
+<w><ana lex="xum" gr="N,nom,sg" parts="xum" gloss="man"></ana><ana lex="xum" gr="N,nom,sg" parts="xum" gloss="person"></ana>xum</w>
+<w><ana lex="ōjka" gr="N,nom,sg" parts="ōjka" gloss="man"></ana>ōjka</w>
+<w><ana lex="kēr" gr="N,nom,sg" parts="kēr" gloss="iron"></ana>kēr</w>
+<w><ana lex="nupəl" gr="N,nom,sg" parts="nupəl" gloss="towards"></ana>nupəl</w>
+<w><ana lex="sāt" gr="N,nom,sg" parts="sāt" gloss="fish.trap"></ana>sāt</w>
+<w><ana lex="ul" gr="N,nom,sg" parts="ul" gloss="STEM"></ana>ul</w>
+<w><ana lex="sāli" gr="N,nom,sg" parts="sāli" gloss="deer"></ana>sāli</w>
+<w><ana lex="tuwəl" gr="N,nom,sg" parts="tuwəl" gloss="STEM"></ana><ana lex="tuwəl" gr="N,nom,sg" parts="tuwəl" gloss="from.there"></ana><ana lex="tuwəl" gr="N,nom,sg" parts="tuwəl" gloss="then"></ana>tuwəl</w>
+<w><ana lex="at" gr="N,nom,sg" parts="at" gloss="smell"></ana>at</w>
+<w><ana lex="ūj" gr="N,nom,sg" parts="ūj" gloss="animal"></ana><ana lex="ūj" gr="N,nom,sg" parts="ūj" gloss="animals"></ana>ūj</w>
+<w><ana lex="mis" gr="N,nom,sg" parts="mis" gloss="Mis"></ana><ana lex="mis" gr="N,nom,sg" parts="mis" gloss="cow"></ana>mis</w>
+<w><ana lex="āŋkwal" gr="N,nom,sg" parts="āŋkwal" gloss="pole"></ana>āŋkwal</w>
+<w><ana lex="kons" gr="N,nom,sg" parts="kos" gloss="claw"></ana><ana lex="kos" gr="N,nom,sg" parts="kos" gloss="CONC"></ana>kos</w>
+<w><ana lex="palt" gr="N,nom,sg" parts="palt" gloss="to"></ana>palt</w>
+<w><ana lex="tōrew" gr="N,nom,sg" parts="tōrew" gloss="bear"></ana>tōrew</w>
+<w><ana lex="mēŋkw" gr="N,nom,sg" parts="mēŋkw" gloss="giant"></ana>mēŋkw</w>
+<w><ana lex="kan" gr="N,nom,sg" parts="kan" gloss="place"></ana>kan</w>
+<w><ana lex="luw" gr="N,nom,sg" parts="luw" gloss="bone"></ana><ana lex="luw" gr="N,nom,sg" parts="luw" gloss="horse"></ana>luw</w>
+<w><ana lex="sōrp" gr="N,nom,sg" parts="sōrup" gloss="moose"></ana>sōrup</w>
+<w><ana lex="mir" gr="N,nom,sg" parts="mir" gloss="people"></ana>mir</w>
+<w><ana lex="nāŋk" gr="N,nom,sg" parts="nāŋk" gloss="larch"></ana>nāŋk</w>
+<w><ana lex="pāl" gr="N,nom,sg" parts="pāl" gloss="half"></ana><ana lex="pāl" gr="N,nom,sg" parts="pāl" gloss="side"></ana>pāl</w>
+<w><ana lex="tot" gr="N,nom,sg" parts="tot" gloss="STEM"></ana><ana lex="tot" gr="N,nom,sg" parts="tot" gloss="there"></ana>tot</w>
+<w><ana lex="xul" gr="N,nom,sg" parts="xul" gloss="fish"></ana>xul</w>
+<w><ana lex="āwi" gr="N,nom,sg" parts="āwi" gloss="door"></ana>āwi</w>
+<w><ana lex="āɕ" gr="N,nom,sg" parts="āɕ" gloss="father"></ana>āɕ</w>
+<w><ana lex="jāŋk" gr="N,nom,sg" parts="jāŋk" gloss="ice"></ana>jāŋk</w>
+<w><ana lex="tūlmax" gr="N,nom,sg" parts="tūlmax" gloss="wolverine"></ana>tūlmax</w>
+<w><ana lex="wos" gr="N,nom,sg" parts="wos" gloss="STEM"></ana>wos</w>
+<w><ana lex="āpa" gr="N,nom,sg" parts="apa" gloss="cradle"></ana>apa</w>
+<w><ana lex="janiɣ" gr="ADJ,nom,sg" parts="janiɣ" gloss="big"></ana>janiɣ</w>
+<w><ana lex="mus" gr="N,nom,sg" parts="mus" gloss="to"></ana>mus</w>
+<w><ana lex="saka" gr="N,nom,sg" parts="saka" gloss="very"></ana>saka</w>
+<w><ana lex="tox" gr="N,nom,sg" parts="tox" gloss="so"></ana>tox</w>
+<w><ana lex="xosit" gr="N,nom,sg" parts="xosit" gloss="along"></ana><ana lex="xosit" gr="N,nom,sg" parts="xosit" gloss="by"></ana>xosit</w>
+<w><ana lex="xuma" gr="N,nom,sg" parts="xuma" gloss="guys"></ana>xuma</w>
+<w><ana lex="ɕos" gr="N,nom,sg" parts="ɕos" gloss="hour"></ana><ana lex="ɕos" gr="N,nom,sg" parts="ɕos" gloss="moment"></ana><ana lex="ɕos" gr="N,nom,sg" parts="ɕos" gloss="time"></ana>ɕos</w>
+<w><ana lex="as" gr="N,nom,sg" parts="as" gloss="hole"></ana>as</w>
+<w><ana lex="kolas" gr="N,nom,sg" parts="kolas" gloss="flour"></ana>kolas</w>
+<w><ana lex="nas" gr="ADJ,nom,sg" parts="nas" gloss="simple"></ana>nas</w>
+<w><ana lex="oxsar" gr="N,nom,sg" parts="oxsar" gloss="fox"></ana>oxsar</w>
+<w><ana lex="pis" gr="N,nom,sg" parts="pis" gloss="layer"></ana>pis</w>
+<w><ana lex="puŋk" gr="N,nom,sg" parts="puŋk" gloss="head"></ana><ana lex="puŋk" gr="N,nom,sg" parts="puŋk" gloss="tooth"></ana>puŋk</w>
+<w><ana lex="puŋna" gr="N,nom,sg" parts="puŋna" gloss="chunk"></ana>puŋna</w>
+<w><ana lex="sār" gr="ADJ,nom,sg" parts="sār" gloss="front"></ana><ana lex="sār" gr="N,nom,sg" parts="sār" gloss="tobacco"></ana>sār</w>
+<w><ana lex="sōwər" gr="N,nom,sg" parts="sōwər" gloss="hare"></ana>sōwər</w>
+<w><ana lex="tēxam" gr="N,nom,sg" parts="tēxam" gloss="friend"></ana>tēxam</w>
+<w><ana lex="xolit" gr="ADJ,nom,sg" parts="xolit" gloss="tomorrow's"></ana><ana lex="xolit" gr="N,nom,sg" parts="xolit" gloss="tomorrow"></ana><ana lex="xolit" gr="N,nom,sg" parts="xolit" gloss="tomorrow's"></ana>xolit</w>
+<w><ana lex="xot" gr="N,nom,sg" parts="xot" gloss="from"></ana><ana lex="xot" gr="N,nom,sg" parts="xot" gloss="six"></ana><ana lex="xot" gr="N,nom,sg" parts="xot" gloss="where"></ana>xot</w>
+<w><ana lex="xulax" gr="N,nom,sg" parts="xulax" gloss="crow"></ana>xulax</w>
+<w><ana lex="āni" gr="N,nom,sg" parts="āni" gloss="cup"></ana>āni</w>
+<w><ana lex="ɕar" gr="ADJ,nom,sg" parts="ɕar" gloss="most"></ana><ana lex="ɕar" gr="N,nom,sg" parts="ɕar" gloss="completely"></ana><ana lex="ɕar" gr="N,nom,sg" parts="ɕar" gloss="most"></ana>ɕar</w>
+<w><ana lex="iɕwēr" gr="N,nom,sg" parts="iɕwēr" gloss="animal"></ana>iɕwēr</w>
+<w><ana lex="kol" gr="N,nom,sg" parts="kol" gloss="house"></ana>kol</w>
+<w><ana lex="moɕ" gr="N,nom,sg" parts="moɕ" gloss="Mosh"></ana>moɕ</w>
+<w><ana lex="oln" gr="N,nom,sg" parts="oln" gloss="money"></ana>oln</w>
+<w><ana lex="raɕ" gr="N,nom,sg" parts="raɕ" gloss="lynx"></ana>raɕ</w>
+<w><ana lex="siraj" gr="N,nom,sg" parts="siraj" gloss="saber"></ana>siraj</w>
+<w><ana lex="sup" gr="N,nom,sg" parts="sup" gloss="half"></ana><ana lex="sup" gr="N,nom,sg" parts="sup" gloss="shirt"></ana>sup</w>
+<w><ana lex="taj" gr="N,nom,sg" parts="taj" gloss="scoop"></ana>taj</w>
+<w><ana lex="tup" gr="N,nom,sg" parts="tup" gloss="oar"></ana><ana lex="tup" gr="N,nom,sg" parts="tup" gloss="only"></ana>tup</w>
+<w><ana lex="wōr" gr="N,nom,sg" parts="wōr" gloss="forest"></ana>wōr</w>
+<w><ana lex="xosa" gr="ADJ,nom,sg" parts="xosa" gloss="long"></ana><ana lex="xosa" gr="N,nom,sg" parts="xosa" gloss="STEM"></ana><ana lex="xosa" gr="N,nom,sg" parts="xosa" gloss="far"></ana><ana lex="xosa" gr="N,nom,sg" parts="xosa" gloss="long"></ana>xosa</w>
+<w><ana lex="xōt" gr="N,nom,sg" parts="xōt" gloss="where"></ana>xōt</w>
+<w><ana lex="xōtal" gr="N,nom,sg" parts="xōtal" gloss="day"></ana>xōtal</w>
+<w><ana lex="ŋōŋx" gr="N,nom,sg" parts="ŋōŋx" gloss="up"></ana>ŋōŋx</w>
+<w><ana lex="ōtər" gr="N,nom,sg" parts="ōtər" gloss="hero"></ana>ōtər</w>
+<w><ana lex="ōŋx" gr="N,nom,sg" parts="ōŋx" gloss="resin"></ana>ōŋx</w>
+<w><ana lex="ampar" gr="N,nom,sg" parts="ampar" gloss="barn"></ana>ampar</w>
+<w><ana lex="jalpəŋ" gr="ADJ,nom,sg" parts="jalpəŋ" gloss="holy"></ana>jalpəŋ</w>
+<w><ana lex="jir" gr="N,nom,sg" parts="jir" gloss="sacrifice"></ana>jir</w>
+<w><ana lex="jīw" gr="N,nom,sg" parts="jiw" gloss="tree"></ana>jiw</w>
+<w><ana lex="jomas" gr="ADJ,nom,sg" parts="jomas" gloss="good"></ana>jomas</w>
+<w><ana lex="kāt" gr="N,nom,sg" parts="kāt" gloss="hand"></ana>kāt</w>
+<w><ana lex="lāɕal" gr="ADJ,nom,sg" parts="lāɕal" gloss="slow"></ana>lāɕal</w>
+<w><ana lex="lāɣəl" gr="N,nom,sg" parts="lāɣəl" gloss="leg"></ana>lāɣəl</w>
+<w><ana lex="mā" gr="N,nom,sg" parts="mā" gloss="land"></ana>mā</w>
+<w><ana lex="mōt" gr="ADJ,nom,sg" parts="mōt" gloss="another"></ana>mōt</w>
+<w><ana lex="os" gr="N,nom,sg" parts="os" gloss="surface"></ana>os</w>
+<w><ana lex="potəlma" gr="N,nom,sg" parts="potəlma" gloss="irritation"></ana>potəlma</w>
+<w><ana lex="sir" gr="N,nom,sg" parts="sir" gloss="kind"></ana>sir</w>
+<w><ana lex="sow" gr="N,nom,sg" parts="sow" gloss="skin"></ana>sow</w>
+<w><ana lex="sōrp" gr="N,nom,sg" parts="sōrp" gloss="moose"></ana>sōrp</w>
+<w><ana lex="tit" gr="N,nom,sg" parts="tit" gloss="foothills"></ana>tit</w>
+<w><ana lex="towa" gr="ADJ,nom,sg" parts="towa" gloss="some"></ana>towa</w>
+<w><ana lex="tur" gr="N,nom,sg" parts="tur" gloss="STEM"></ana><ana lex="tur" gr="N,nom,sg" parts="tur" gloss="lake"></ana><ana lex="tur" gr="N,nom,sg" parts="tur" gloss="throat"></ana>tur</w>
+<w><ana lex="tūp" gr="N,nom,sg" parts="tūp" gloss="only"></ana>tūp</w>
+<w><ana lex="xapɣa" gr="N,nom,sg" parts="xapɣa" gloss="aspen"></ana>xapɣa</w>
+<w><ana lex="xomi" gr="N,nom,sg" parts="xomi" gloss="face.down"></ana><ana lex="xomi" gr="N,nom,sg" parts="xomi" gloss="upside.down"></ana>xomi</w>
+<w><ana lex="xotal" gr="N,nom,sg" parts="xotal" gloss="day"></ana><ana lex="xotal" gr="N,nom,sg" parts="xotal" gloss="sun"></ana>xotal</w>
+<w><ana lex="ēriɣ" gr="N,nom,sg" parts="ēriɣ" gloss="song"></ana>ēriɣ</w>
+<w><ana lex="ūs" gr="N,nom,sg" parts="ūs" gloss="town"></ana>ūs</w>
+<w><ana lex="al" gr="N,nom,sg" parts="al" gloss="top"></ana>al</w>
+<w><ana lex="janit" gr="N,nom,sg" parts="janit" gloss="size"></ana>janit</w>
+<w><ana lex="joli" gr="ADJ,nom,sg" parts="joli" gloss="lower"></ana>joli</w>
+<w><ana lex="jurt" gr="N,nom,sg" parts="jurt" gloss="friend"></ana>jurt</w>
+<w><ana lex="karek" gr="N,nom,sg" parts="karek" gloss="sin"></ana>karek</w>
+<w><ana lex="koni" gr="ADJ,nom,sg" parts="koni" gloss="outer"></ana>koni</w>
+<w><ana lex="kot" gr="N,nom,sg" parts="kot" gloss="deer.skin.shoes"></ana>kot</w>
+<w><ana lex="moɕɕa" gr="N,nom,sg" parts="moɕɕa" gloss="a.little"></ana>moɕɕa</w>
+<w><ana lex="muli" gr="ADJ,nom,sg" parts="muli" gloss="male.bed"></ana>muli</w>
+<w><ana lex="mōl" gr="ADJ,nom,sg" parts="mōl" gloss="past"></ana>mōl</w>
+<w><ana lex="mōt" gr="ADJ,nom,sg" parts="mōtan" gloss="another"></ana>mōtan</w>
+<w><ana lex="nor" gr="N,nom,sg" parts="nor" gloss="log"></ana>nor</w>
+<w><ana lex="osma" gr="N,nom,sg" parts="osma" gloss="pillow"></ana>osma</w>
+<w><ana lex="palit" gr="N,nom,sg" parts="palit" gloss="length"></ana>palit</w>
+<w><ana lex="pora" gr="N,nom,sg" parts="pora" gloss="time"></ana>pora</w>
+<w><ana lex="pors" gr="N,nom,sg" parts="pors" gloss="litter"></ana>pors</w>
+<w><ana lex="pīɣ" gr="N,nom,sg" parts="pīɣ" gloss="son"></ana>pīɣ</w>
+<w><ana lex="sam" gr="N,nom,sg" parts="sam" gloss="eye"></ana>sam</w>
+<w><ana lex="sis" gr="N,nom,sg" parts="sis" gloss="back"></ana>sis</w>
+<w><ana lex="sēməl" gr="ADJ,nom,sg" parts="sēməl" gloss="black"></ana>sēməl</w>
+<w><ana lex="sūp" gr="N,nom,sg" parts="sūp" gloss="mouth"></ana>sūp</w>
+<w><ana lex="tulmax" gr="N,nom,sg" parts="tulmax" gloss="wolverine"></ana>tulmax</w>
+<w><ana lex="tāl" gr="N,nom,sg" parts="tāl" gloss="year"></ana>tāl</w>
+<w><ana lex="ut" gr="N,nom,sg" parts="ut" gloss="thing"></ana>ut</w>
+<w><ana lex="uɕa" gr="N,nom,sg" parts="uɕa" gloss="only"></ana>uɕa</w>
+<w><ana lex="wasiɣ" gr="N,nom,sg" parts="wasiɣ" gloss="more"></ana>wasiɣ</w>
+<w><ana lex="xūriɣ" gr="N,nom,sg" parts="xūriɣ" gloss="bag"></ana>xūriɣ</w>
+<w><ana lex="xūrum" gr="N,nom,sg" parts="xūrum" gloss="STEM"></ana><ana lex="xūrum" gr="N,nom,sg" parts="xūrum" gloss="three"></ana>xūrum</w>
+<w><ana lex="ākw" gr="N,nom,sg" parts="ākw" gloss="aunt"></ana>ākw</w>
+<w><ana lex="ūlum" gr="N,nom,sg" parts="ūlum" gloss="dream"></ana>ūlum</w>
+<w><ana lex="ɕas" gr="N,nom,sg" parts="ɕas" gloss="knees"></ana>ɕas</w>
+<w><ana lex="ɕil" gr="N,nom,sg" parts="ɕil" gloss="bell"></ana>ɕil</w>
