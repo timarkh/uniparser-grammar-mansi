@@ -41,10 +41,8 @@ im
 iɣ
 kojanəl
 kuɕn
-kwālɣe
 kērsol
 lakw
-lakwsalijanəl
 lakwsite
 lāɕ
 lēwmatas
@@ -70,7 +68,6 @@ towmelēn
 tsət
 tōwli
 wil
-wārijanəl
 wāɣtal
 xumjaɣe
 xōttal
@@ -93,7 +90,6 @@ arti
 artumtame
 artumtaste
 astēɣum
-atintijanəl
 awip
 axn
 aɣenəl
@@ -114,7 +110,6 @@ jaɣpīɣanən
 jaɣāɣiten
 jaɣāɣitēntəl
 jirxatne
-joxtxatēɣēn
 jurɕxateɣum
 jurɕxatəs
 jās
@@ -134,7 +129,6 @@ koɕjanəl
 kuseɣēn
 kwalsət
 kwālapakēte
-kwālapame
 kārtlaxtēw
 kērim
 kōnsəŋ
@@ -150,7 +144,6 @@ lowtxatimete
 loxēnəl
 lāweɣt
 lēw
-lēwatame
 lēwmati
 lōmtane
 lōmtiɣ
@@ -179,13 +172,11 @@ oxsəl
 oxəs
 paln
 pantxatsət
-pilēɣēn
 pinelen
 piɕum
 pojtəltawes
 potərtēɣt
 pāliɣxarteln
-pāltsanəl
 pēlpiɕ
 pērmtaxtame
 pērmtaxtas
@@ -202,7 +193,6 @@ sampal
 siniɣtaxtim
 siɣ
 sujtēɣt
-sunsiɣlijanəl
 sus
 sāŋxwasaste
 sūlintas
@@ -214,7 +204,6 @@ tikeməl
 tjat
 tjatta
 totelen
-totiɣpame
 tuɕteln
 tā
 tānanəlna
@@ -244,8 +233,6 @@ wōnxa
 wōtumtawesət
 xan
 xarteln
-xartsanəl
-xasumtasanəl
 xatasət
 xosiɣxatuŋkwe
 xosɣawet
@@ -255,9 +242,7 @@ xun
 xājtəs
 xāpka
 xōməl
-xōntsanəl
 xōntxatsuw
-xōntxatēɣēn
 xōtalas
 xūji
 xūjliɣtasət

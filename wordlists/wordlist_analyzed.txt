@@ -10,9 +10,9 @@
 <w><ana lex="x" gr="N,sg,1sg,nom" parts="x-um" gloss="STEM-POSS.1SG"></ana><ana lex="xum" gr="N,sg,nom" parts="xum" gloss="man"></ana><ana lex="xum" gr="N,sg,nom" parts="xum" gloss="person"></ana>xum</w>
 <w><ana lex="ōjka" gr="N,sg,nom" parts="ōjka" gloss="man"></ana>ōjka</w>
 <w><ana lex="kēr" gr="N,sg,nom" parts="kēr" gloss="iron"></ana>kēr</w>
-<w><ana lex="min" gr="V,pst,act,subjc,3.s,pl.s" parts="min-as-ət" gloss="set.off-PST-3PL.S"></ana>minasət</w>
+<w><ana lex="min" gr="V,pst,act,3.s,pl.s" parts="min-as-ət" gloss="set.off-PST-3PL.S"></ana>minasət</w>
 <w><ana lex="nōx=" gr="PREV" parts="nōŋx" gloss="up"></ana>nōŋx</w>
-<w><ana lex="min" gr="V,pst,act,subjc,3.s,sg.s" parts="min-as" gloss="set.off-PST"></ana>minas</w>
+<w><ana lex="min" gr="V,pst,act,3.s,sg.s" parts="min-as" gloss="set.off-PST"></ana>minas</w>
 <w><ana lex="ja" gr="X" parts="ja" gloss="well"></ana>ja</w>
 <w><ana lex="nupəl" gr="N,sg,nom" parts="nupəl" gloss="towards"></ana>nupəl</w>
 <w><ana lex="sāt" gr="N,sg,nom" parts="sāt" gloss="fish.trap"></ana><ana lex="sāt" gr="NUM" parts="sāt" gloss="hundred"></ana><ana lex="sāt" gr="NUM" parts="sāt" gloss="seven"></ana>sāt</w>
@@ -21,15 +21,15 @@
 <w><ana lex="sāli" gr="N,sg,nom" parts="sāli" gloss="deer"></ana>sāli</w>
 <w><ana lex="tu" gr="N,sg,1pl,abl" parts="tu-w-əl" gloss="STEM-POSS.1PL-ABL"></ana><ana lex="tu" gr="N,sg,1pl,ins" parts="tu-w-əl" gloss="STEM-POSS.1PL-INS"></ana><ana lex="tuw" gr="N,sg,abl" parts="tuw-əl" gloss="STEM-ABL"></ana><ana lex="tuw" gr="N,sg,abl" parts="tuw-əl" gloss="fiber-ABL"></ana><ana lex="tuw" gr="N,sg,abl" parts="tuw-əl" gloss="there-ABL"></ana><ana lex="tuw" gr="N,sg,ins" parts="tuw-əl" gloss="STEM-INS"></ana><ana lex="tuw" gr="N,sg,ins" parts="tuw-əl" gloss="fiber-INS"></ana><ana lex="tuw" gr="N,sg,ins" parts="tuw-əl" gloss="there-INS"></ana><ana lex="tuwəl" gr="N,sg,nom" parts="tuwəl" gloss="STEM"></ana><ana lex="tuwəl" gr="N,sg,nom" parts="tuwəl" gloss="from.there"></ana><ana lex="tuwəl" gr="N,sg,nom" parts="tuwəl" gloss="then"></ana>tuwəl</w>
 <w><ana lex="at" gr="N,sg,nom" parts="at" gloss="smell"></ana><ana lex="at" gr="NUM" parts="at" gloss="five"></ana>at</w>
-<w><ana lex="min" gr="V,asp,npst,act,subjc,3.s,du.s" parts="min-as-i-ɣ" gloss="set.off-ASP-NPST-3DU.S"></ana><ana lex="min" gr="V,pst,act,subjc,3.s,du.s" parts="min-as-iɣ" gloss="set.off-PST-3DU.S"></ana>minasiɣ</w>
-<w><ana lex="joxt" gr="V,pst,act,subjc,3.s,sg.s" parts="joxt-əs" gloss="come-PST"></ana>joxtəs</w>
+<w><ana lex="min" gr="V,asp,npst,act,3.s,du.s" parts="min-as-i-ɣ" gloss="set.off-ASP-NPST-3DU.S"></ana><ana lex="min" gr="V,pst,act,3.s,du.s" parts="min-as-iɣ" gloss="set.off-PST-3DU.S"></ana>minasiɣ</w>
+<w><ana lex="joxt" gr="V,pst,act,3.s,sg.s" parts="joxt-əs" gloss="come-PST"></ana>joxtəs</w>
 <w><ana lex="naŋ" gr="PRON" parts="naŋ" gloss="2SG"></ana>naŋ</w>
 <w><ana lex="ūj" gr="N,sg,nom" parts="ūj" gloss="animal"></ana><ana lex="ūj" gr="N,sg,nom" parts="ūj" gloss="animals"></ana>ūj</w>
 <w><ana lex="mā" gr="N,pl,nom" parts="mā-t" gloss="land-PL"></ana><ana lex="mā" gr="N,sg,loc" parts="mā-t" gloss="land-LOC"></ana>māt</w>
 <w><ana lex="jol=" gr="PREV" parts="jol" gloss="down"></ana>jol</w>
 <w><ana lex="kon" gr="ADV" parts="kon" gloss="outside"></ana><ana lex="kon=" gr="PREV" parts="kon" gloss="outside"></ana>kon</w>
-<w><ana lex="lāw" gr="V,npst,act,subjc,3.s,pl.s" parts="lāw-ēɣ-t" gloss="say-NPST-3PL.S"></ana>lāwēɣt</w>
-<w><ana lex="Mis" gr="N,PN,sg,nom" parts="mis" gloss="Mis"></ana><ana lex="mi" gr="V,pst,act,subjc,3.s,sg.s" parts="mi-s" gloss="give-PST"></ana><ana lex="mis" gr="N,sg,nom" parts="mis" gloss="cow"></ana>mis</w>
+<w><ana lex="lāw" gr="V,npst,act,3.s,pl.s" parts="lāw-ēɣ-t" gloss="say-NPST-3PL.S"></ana>lāwēɣt</w>
+<w><ana lex="Mis" gr="N,PN,sg,nom" parts="mis" gloss="Mis"></ana><ana lex="mi" gr="V,pst,act,3.s,sg.s" parts="mi-s" gloss="give-PST"></ana><ana lex="mis" gr="N,sg,nom" parts="mis" gloss="cow"></ana>mis</w>
 <w><ana lex="wōr" gr="N,sg,lat" parts="wōr-n" gloss="forest-LAT"></ana>wōrn</w>
 <w><ana lex="āŋkwal" gr="N,sg,nom" parts="āŋkwal" gloss="pole"></ana>āŋkwal</w>
 <w><ana lex="a" gr="X" parts="a" gloss="and"></ana>a</w>
@@ -39,7 +39,7 @@
 <w><ana lex="ōl" gr="V,npst,act,3.s,sg.s" parts="ōl-i" gloss="be-NPST.3SG"></ana>ōli</w>
 <w><ana lex="e" gr="X" parts="e" gloss="hey"></ana>e</w>
 <w><ana lex="i" gr="X" parts="i" gloss="and"></ana>i</w>
-<w><ana lex="joxt" gr="V,pst,act,subjc,3.s,pl.s" parts="joxt-əs-ət" gloss="come-PST-3PL.S"></ana>joxtəsət</w>
+<w><ana lex="joxt" gr="V,pst,act,3.s,pl.s" parts="joxt-əs-ət" gloss="come-PST-3PL.S"></ana>joxtəsət</w>
 <w><ana lex="jun" gr="ADV" parts="jun" gloss="at.home"></ana>jun</w>
 <w><ana lex="manər" gr="PRON" parts="manər" gloss="what"></ana>manər</w>
 <w><ana lex="mēŋkw" gr="N,sg,nom" parts="mēŋkw" gloss="giant"></ana>mēŋkw</w>
@@ -48,11 +48,11 @@
 <w><ana lex="kan" gr="N,sg,nom" parts="kan" gloss="place"></ana>kan</w>
 <w><ana lex="luw" gr="N,sg,nom" parts="luw" gloss="bone"></ana><ana lex="luw" gr="N,sg,nom" parts="luw" gloss="horse"></ana>luw</w>
 <w><ana lex="man" gr="X" parts="man" gloss="Q"></ana>man</w>
-<w><ana lex="pat" gr="V,pst,act,subjc,3.s,sg.s" parts="pat-əs" gloss="fall-PST"></ana>patəs</w>
+<w><ana lex="pat" gr="V,pst,act,3.s,sg.s" parts="pat-əs" gloss="fall-PST"></ana>patəs</w>
 <w><ana lex="sōrp" gr="N,sg,nom" parts="sōrup" gloss="moose"></ana>sōrup</w>
 <w><ana lex="x" gr="N,sg,1sg,trans" parts="x-um-iɣ" gloss="STEM-POSS.1SG-TRANS"></ana><ana lex="xum" gr="N,du,nom" parts="xum-iɣ" gloss="man-DU"></ana><ana lex="xum" gr="N,du,nom" parts="xum-iɣ" gloss="person-DU"></ana><ana lex="xum" gr="N,sg,trans" parts="xum-iɣ" gloss="man-TRANS"></ana><ana lex="xum" gr="N,sg,trans" parts="xum-iɣ" gloss="person-TRANS"></ana><ana lex="xumi" gr="N,du,nom" parts="xumi-ɣ" gloss="man-DU"></ana><ana lex="xumi" gr="N,sg,trans" parts="xumi-ɣ" gloss="man-TRANS"></ana>xumiɣ</w>
 <w><ana lex="jurɕxat" gr="V,act,imp,2.s,sg.s" parts="jurɕxat-en" gloss="join-IMP.2SG"></ana><ana lex="jurɕxat" gr="V,act,nmlz,sg,nom" parts="jurɕxat-en" gloss="join-NMLZ"></ana>jurɕxaten</w>
-<w><ana lex="jēmt" gr="V,pst,act,subjc,3.s,sg.s" parts="jēmt-əs" gloss="become-PST"></ana>jēmtəs</w>
+<w><ana lex="jēmt" gr="V,pst,act,3.s,sg.s" parts="jēmt-əs" gloss="become-PST"></ana>jēmtəs</w>
 <w><ana lex="kit" gr="NUM" parts="kit" gloss="two"></ana>kit</w>
 <w><ana lex="mir" gr="N,sg,nom" parts="mir" gloss="people"></ana>mir</w>
 <w><ana lex="mēŋkw" gr="N,pl,nom" parts="mēŋkw-ət" gloss="giant-PL"></ana>mēŋkwət</w>
@@ -65,45 +65,45 @@
 <w><ana lex="āwi" gr="N,sg,nom" parts="āwi" gloss="door"></ana>āwi</w>
 <w><ana lex="āɕ" gr="N,sg,nom" parts="āɕ" gloss="father"></ana>āɕ</w>
 <w><ana lex="ēr" gr="V,npst,act,3.s,sg.s" parts="ēr-i" gloss="be.needed-NPST.3SG"></ana>ēri</w>
-<w><ana lex="al" gr="V,asp,npst,act,subjc,3.s,du.s" parts="al-as-i-ɣ" gloss="kill-ASP-NPST-3DU.S"></ana><ana lex="al" gr="V,pst,act,subjc,3.s,du.s" parts="al-as-iɣ" gloss="kill-PST-3DU.S"></ana>alasiɣ</w>
-<w><ana lex="jurɕxat" gr="V,npst,act,subjc,1.s,sg.s" parts="jurɕxat-ēɣ-um" gloss="join-NPST-1SG.S"></ana>jurɕxatēɣum</w>
+<w><ana lex="al" gr="V,asp,npst,act,3.s,du.s" parts="al-as-i-ɣ" gloss="kill-ASP-NPST-3DU.S"></ana><ana lex="al" gr="V,pst,act,3.s,du.s" parts="al-as-iɣ" gloss="kill-PST-3DU.S"></ana>alasiɣ</w>
+<w><ana lex="jurɕxat" gr="V,npst,act,1.s,sg.s" parts="jurɕxat-ēɣ-um" gloss="join-NPST-1SG.S"></ana>jurɕxatēɣum</w>
 <w><ana lex="jāŋk" gr="N,sg,nom" parts="jāŋk" gloss="ice"></ana>jāŋk</w>
 <w><ana lex="jōm" gr="V,asp,npst,act,3.s,sg.s" parts="jōm-iɣt-i" gloss="step-ASP-NPST.3SG"></ana>jōmiɣti</w>
 <w><ana lex="manurəl" gr="X" parts="manurəl" gloss="how"></ana>manurəl</w>
-<w><ana lex="pēl" gr="V,refl,refl_xat,pst,act,subjc,3.s,sg.s" parts="pēl-xat-as" gloss="pierce-REFL-PST"></ana>pēlxatas</w>
+<w><ana lex="pēl" gr="V,refl,refl_xat,pst,act,3.s,sg.s" parts="pēl-xat-as" gloss="pierce-REFL-PST"></ana>pēlxatas</w>
 <w><ana lex="sipɣ" gr="V,npst,act,3.s,sg.s" parts="sipɣ-i" gloss="suck-NPST.3SG"></ana>sipɣi</w>
-<w><ana lex="sipɣ" gr="V,pst,act,subjc,3.s,sg.s" parts="sipɣ-əs" gloss="suck-PST"></ana>sipɣəs</w>
-<w><ana lex="suns" gr="V,npst,act,subjc,3.s,pl.s" parts="suns-ēɣ-t" gloss="look-NPST-3PL.S"></ana>sunsēɣt</w>
-<w><ana lex="suns" gr="V,act,nmlz,sg,3sg,nom" parts="sus-n-e" gloss="look-NMLZ-POSS.3SG"></ana><ana lex="suns" gr="V,act,nmlz,sg,nom" parts="sus-ne" gloss="look-NMLZ"></ana><ana lex="suns" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="sus-ne" gloss="look-MIR.NPST"></ana>susne</w>
+<w><ana lex="sipɣ" gr="V,pst,act,3.s,sg.s" parts="sipɣ-əs" gloss="suck-PST"></ana>sipɣəs</w>
+<w><ana lex="suns" gr="V,npst,act,3.s,pl.s" parts="suns-ēɣ-t" gloss="look-NPST-3PL.S"></ana>sunsēɣt</w>
+<w><ana lex="suns" gr="V,act,nmlz,sg,3sg,nom" parts="sus-n-e" gloss="look-NMLZ-POSS.3SG"></ana><ana lex="suns" gr="V,act,nmlz,sg,nom" parts="sus-ne" gloss="look-NMLZ"></ana><ana lex="suns" gr="V,npst,act,mir,3.s,sg.s" parts="sus-ne" gloss="look-MIR.NPST"></ana><ana lex="suns" gr="V,npst,act,mir,3.s,sg.s,objc" parts="sus-n-e" gloss="look-MIR.NPST-3SG.S"></ana>susne</w>
 <w><ana lex="tax" gr="X" parts="tax" gloss="FUT"></ana>tax</w>
 <w><ana lex="tūlmax" gr="N,sg,nom" parts="tūlmax" gloss="wolverine"></ana>tūlmax</w>
 <w><ana lex="wos" gr="N,sg,nom" parts="wos" gloss="STEM"></ana>wos</w>
 <w><ana lex="āpa" gr="N,sg,nom" parts="apa" gloss="cradle"></ana>apa</w>
-<w><ana lex="jal" gr="V,tr,pst,act,subjc,3.s,sg.s" parts="jal-t-əs" gloss="go.get-TR-PST"></ana><ana lex="jalt" gr="V,pst,act,subjc,3.s,sg.s" parts="jalt-əs" gloss="come.to.life-PST"></ana>jaltəs</w>
+<w><ana lex="jal" gr="V,tr,pst,act,3.s,sg.s" parts="jal-t-əs" gloss="go.get-TR-PST"></ana><ana lex="jalt" gr="V,pst,act,3.s,sg.s" parts="jalt-əs" gloss="come.to.life-PST"></ana>jaltəs</w>
 <w><ana lex="janiɣ" gr="ADJ,du,nom" parts="jan-iɣ" gloss="big-DU"></ana><ana lex="janiɣ" gr="ADJ,sg,nom" parts="janiɣ" gloss="big"></ana><ana lex="janiɣ" gr="ADJ,sg,trans" parts="jan-iɣ" gloss="big-TRANS"></ana>janiɣ</w>
 <w><ana lex="ke" gr="X" parts="ke" gloss="COND"></ana>ke</w>
 <w><ana lex="mat" gr="X" parts="mat" gloss="INDEF"></ana>mat</w>
 <w><ana lex="mus" gr="N,sg,nom" parts="mus" gloss="to"></ana>mus</w>
-<w><ana lex="raɣat" gr="V,pst,act,subjc,3.s,sg.s" parts="raɣat-as" gloss="fall-PST"></ana>raɣatas</w>
+<w><ana lex="raɣat" gr="V,pst,act,3.s,sg.s" parts="raɣat-as" gloss="fall-PST"></ana>raɣatas</w>
 <w><ana lex="saka" gr="N,sg,nom" parts="saka" gloss="very"></ana>saka</w>
 <w><ana lex="tox" gr="N,sg,nom" parts="tox" gloss="so"></ana>tox</w>
 <w><ana lex="xos" gr="N,pl,nom" parts="xos-it" gloss="length-PL"></ana><ana lex="xosit" gr="N,sg,nom" parts="xosit" gloss="along"></ana><ana lex="xosit" gr="N,sg,nom" parts="xosit" gloss="by"></ana>xosit</w>
 <w><ana lex="xuma" gr="N,sg,nom" parts="xuma" gloss="guys"></ana>xuma</w>
-<w><ana lex="xūl" gr="V,pst,act,subjc,3.s,pl.s" parts="xūl-s-ət" gloss="spend.the.night-PST-3PL.S"></ana>xūlsət</w>
-<w><ana lex="āŋkwat" gr="V,pst,act,subjc,3.s,sg.s" parts="āŋkwat-as" gloss="glance-PST"></ana>āŋkwatas</w>
+<w><ana lex="xūl" gr="V,pst,act,3.s,pl.s" parts="xūl-s-ət" gloss="spend.the.night-PST-3PL.S"></ana>xūlsət</w>
+<w><ana lex="āŋkwat" gr="V,pst,act,3.s,sg.s" parts="āŋkwat-as" gloss="glance-PST"></ana>āŋkwatas</w>
 <w><ana lex="ɕos" gr="N,sg,nom" parts="ɕos" gloss="hour"></ana><ana lex="ɕos" gr="N,sg,nom" parts="ɕos" gloss="moment"></ana><ana lex="ɕos" gr="N,sg,nom" parts="ɕos" gloss="time"></ana>ɕos</w>
-<w><ana lex="al" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="al-ast-ēn" gloss="kill-ASP-IMP.2DU/PL"></ana><ana lex="al" gr="V,asp,act,imp,2.s,pl.o" parts="al-ast-ēn" gloss="kill-ASP-IMP.PL.O.2.S"></ana><ana lex="al" gr="V,pst,act,sg.o,3.s,du.s" parts="al-as-t-ēn" gloss="kill-PST-SG.O-3DU.S"></ana>alastēn</w>
+<w><ana lex="al" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="al-ast-ēn" gloss="kill-ASP-IMP.2DU/PL"></ana><ana lex="al" gr="V,asp,act,imp,2.s,pl.o,objc" parts="al-ast-ēn" gloss="kill-ASP-IMP.PL.O.2.S"></ana><ana lex="al" gr="V,pst,act,sg.o,objc,3.s,du.s" parts="al-as-t-ēn" gloss="kill-PST-SG.O-3DU.S"></ana>alastēn</w>
 <w><ana lex="as" gr="N,sg,nom" parts="as" gloss="hole"></ana>as</w>
 <w><ana lex="jot" gr="X" parts="jot" gloss="COM"></ana>jot</w>
-<w><ana lex="jurɕxat" gr="V,pst,act,subjc,3.s,sg.s" parts="jurɕxat-as" gloss="join-PST"></ana>jurɕxatas</w>
-<w><ana lex="kins" gr="V,npst,act,subjc,3.s,pl.s" parts="kins-ēɣ-t" gloss="search-NPST-3PL.S"></ana>kinsēɣt</w>
+<w><ana lex="jurɕxat" gr="V,pst,act,3.s,sg.s" parts="jurɕxat-as" gloss="join-PST"></ana>jurɕxatas</w>
+<w><ana lex="kins" gr="V,npst,act,3.s,pl.s" parts="kins-ēɣ-t" gloss="search-NPST-3PL.S"></ana>kinsēɣt</w>
 <w><ana lex="kolas" gr="N,sg,nom" parts="kolas" gloss="flour"></ana>kolas</w>
 <w><ana lex="manriɣ" gr="X" parts="manriɣ" gloss="why"></ana>manriɣ</w>
-<w><ana lex="mi" gr="V,act,nmlz,sg,1pl,nom" parts="mi-nē-w" gloss="give-NMLZ-POSS.1PL"></ana><ana lex="mi" gr="V,npst,act,mir,subjc,1.s,pl.s" parts="mi-nē-w" gloss="give-MIR.NPST-1PL.S"></ana><ana lex="min" gr="V,npst,act,1.s,pl.s" parts="min-ē-w" gloss="set.off-NPST-1PL.S"></ana>minēw</w>
-<w><ana lex="mi" gr="V,act,nmlz,du,loc" parts="mi-nē-ɣ-t" gloss="give-NMLZ-DU-LOC"></ana><ana lex="min" gr="V,npst,act,subjc,3.s,pl.s" parts="min-ēɣ-t" gloss="set.off-NPST-3PL.S"></ana>minēɣt</w>
+<w><ana lex="mi" gr="V,act,nmlz,sg,1pl,nom" parts="mi-nē-w" gloss="give-NMLZ-POSS.1PL"></ana><ana lex="mi" gr="V,npst,act,mir,1.s,pl.s" parts="mi-nē-w" gloss="give-MIR.NPST-1PL.S"></ana><ana lex="min" gr="V,npst,act,1.s,pl.s" parts="min-ē-w" gloss="set.off-NPST-1PL.S"></ana>minēw</w>
+<w><ana lex="mi" gr="V,act,nmlz,du,loc" parts="mi-nē-ɣ-t" gloss="give-NMLZ-DU-LOC"></ana><ana lex="min" gr="V,npst,act,3.s,pl.s" parts="min-ēɣ-t" gloss="set.off-NPST-3PL.S"></ana>minēɣt</w>
 <w><ana lex="mā" gr="N,sg,2sg,nom" parts="mā-n" gloss="land-POSS.2SG"></ana><ana lex="mā" gr="N,sg,lat" parts="mā-n" gloss="land-LAT"></ana>mān</w>
 <w><ana lex="nas" gr="ADJ,sg,nom" parts="nas" gloss="simple"></ana>nas</w>
-<w><ana lex="nēɣl" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="nēɣl-ap-as" gloss="appear-ASP-PST"></ana>nēɣlapas</w>
+<w><ana lex="nēɣl" gr="V,asp,pst,act,3.s,sg.s" parts="nēɣl-ap-as" gloss="appear-ASP-PST"></ana>nēɣlapas</w>
 <w><ana lex="oxsar" gr="N,sg,nom" parts="oxsar" gloss="fox"></ana>oxsar</w>
 <w><ana lex="pis" gr="N,sg,nom" parts="pis" gloss="layer"></ana>pis</w>
 <w><ana lex="powar" gr="V,tr,past,pst,3.s,sg.s" parts="powar-t-awe-s" gloss="roll-TR-PASS-PST"></ana>powartawes</w>
@@ -114,23 +114,23 @@
 <w><ana lex="suns" gr="V,npst,act,3.s,sg.s" parts="suns-i" gloss="look-NPST.3SG"></ana>sunsi</w>
 <w><ana lex="sār" gr="ADJ,sg,nom" parts="sār" gloss="front"></ana><ana lex="sār" gr="N,sg,nom" parts="sār" gloss="tobacco"></ana>sār</w>
 <w><ana lex="sōwər" gr="N,sg,nom" parts="sōwər" gloss="hare"></ana>sōwər</w>
-<w><ana lex="tē" gr="V,act,nmlz,sg,nom" parts="tē-n" gloss="eat-NMLZ"></ana><ana lex="tē" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="tē-n" gloss="eat-MIR.NPST"></ana><ana lex="tēn" gr="PRON" parts="tēn" gloss="3DU"></ana>tēn</w>
+<w><ana lex="tē" gr="V,act,nmlz,sg,nom" parts="tē-n" gloss="eat-NMLZ"></ana><ana lex="tē" gr="V,npst,act,mir,3.s,sg.s" parts="tē-n" gloss="eat-MIR.NPST"></ana><ana lex="tēn" gr="PRON" parts="tēn" gloss="3DU"></ana>tēn</w>
 <w><ana lex="tēxam" gr="N,sg,nom" parts="tēxam" gloss="friend"></ana>tēxam</w>
-<w><ana lex="xo" gr="N,vbz,vbz_l,act,subst1,sg,nom" parts="xo-l-it" gloss="who-VBZ-SUBST1"></ana><ana lex="xo" gr="N,vbz,vbz_l,npst,act,subjc,3.s,pl.s" parts="xo-l-i-t" gloss="who-VBZ-NPST-3PL.S"></ana><ana lex="xol" gr="N,pl,nom" parts="xol-it" gloss="morning-PL"></ana><ana lex="xoli" gr="ADJ,pl,nom" parts="xoli-t" gloss="morning-PL"></ana><ana lex="xolit" gr="ADJ,sg,nom" parts="xolit" gloss="tomorrow's"></ana><ana lex="xolit" gr="N,sg,nom" parts="xolit" gloss="tomorrow"></ana><ana lex="xolit" gr="N,sg,nom" parts="xolit" gloss="tomorrow's"></ana>xolit</w>
+<w><ana lex="xo" gr="N,vbz,vbz_l,act,subst1,sg,nom" parts="xo-l-it" gloss="who-VBZ-SUBST1"></ana><ana lex="xo" gr="N,vbz,vbz_l,npst,act,3.s,pl.s" parts="xo-l-i-t" gloss="who-VBZ-NPST-3PL.S"></ana><ana lex="xol" gr="N,pl,nom" parts="xol-it" gloss="morning-PL"></ana><ana lex="xoli" gr="ADJ,pl,nom" parts="xoli-t" gloss="morning-PL"></ana><ana lex="xolit" gr="ADJ,sg,nom" parts="xolit" gloss="tomorrow's"></ana><ana lex="xolit" gr="N,sg,nom" parts="xolit" gloss="tomorrow"></ana><ana lex="xolit" gr="N,sg,nom" parts="xolit" gloss="tomorrow's"></ana>xolit</w>
 <w><ana lex="xo" gr="N,pl,nom" parts="xo-t" gloss="who-PL"></ana><ana lex="xo" gr="N,sg,loc" parts="xo-t" gloss="who-LOC"></ana><ana lex="xot" gr="N,sg,nom" parts="xot" gloss="from"></ana><ana lex="xot" gr="N,sg,nom" parts="xot" gloss="six"></ana><ana lex="xot" gr="N,sg,nom" parts="xot" gloss="where"></ana>xot</w>
 <w><ana lex="xulax" gr="N,sg,nom" parts="xulax" gloss="crow"></ana>xulax</w>
 <w><ana lex="āni" gr="N,sg,nom" parts="āni" gloss="cup"></ana>āni</w>
 <w><ana lex="ūj" gr="N,pl,3sg,nom" parts="ūj-an-e" gloss="animal-PL-POSS.3SG"></ana><ana lex="ūj" gr="N,pl,3sg,nom" parts="ūj-an-e" gloss="animals-PL-POSS.3SG"></ana>ūjane</w>
-<w><ana lex="ɕalt" gr="V,pst,act,subjc,3.s,pl.s" parts="ɕalt-s-ət" gloss="enter-PST-3PL.S"></ana>ɕaltsət</w>
+<w><ana lex="ɕalt" gr="V,pst,act,3.s,pl.s" parts="ɕalt-s-ət" gloss="enter-PST-3PL.S"></ana>ɕaltsət</w>
 <w><ana lex="ɕar" gr="ADJ,sg,nom" parts="ɕar" gloss="most"></ana><ana lex="ɕar" gr="N,sg,nom" parts="ɕar" gloss="completely"></ana><ana lex="ɕar" gr="N,sg,nom" parts="ɕar" gloss="most"></ana>ɕar</w>
-<w><ana lex="al" gr="V,act,res,sg,nom" parts="al-am" gloss="kill-RES"></ana><ana lex="al" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="al-am" gloss="kill-MIR.PST"></ana><ana lex="ala" gr="N,sg,1sg,nom" parts="ala-m" gloss="roof-POSS.1SG"></ana><ana lex="alam" gr="X" parts="alam" gloss="surely"></ana>alam</w>
+<w><ana lex="al" gr="V,act,res,sg,nom" parts="al-am" gloss="kill-RES"></ana><ana lex="al" gr="V,pst,act,mir,3.s,sg.s" parts="al-am" gloss="kill-MIR.PST"></ana><ana lex="ala" gr="N,sg,1sg,nom" parts="ala-m" gloss="roof-POSS.1SG"></ana><ana lex="alam" gr="X" parts="alam" gloss="surely"></ana>alam</w>
 <w><ana lex="iɕwēr" gr="N,sg,nom" parts="iɕwēr" gloss="animal"></ana>iɕwēr</w>
 <w><ana lex="jal" gr="V,act,imp,2.s,sg.s" parts="jal-en" gloss="go.get-IMP.2SG"></ana><ana lex="jal" gr="V,act,nmlz,sg,nom" parts="jal-en" gloss="go.get-NMLZ"></ana>jalen</w>
-<w><ana lex="jēmt" gr="V,pst,act,subjc,3.s,pl.s" parts="jēmt-s-ət" gloss="become-PST-3PL.S"></ana>jēmtsət</w>
+<w><ana lex="jēmt" gr="V,pst,act,3.s,pl.s" parts="jēmt-s-ət" gloss="become-PST-3PL.S"></ana>jēmtsət</w>
 <w><ana lex="jōŋx" gr="V,npst,act,3.s,sg.s" parts="jōŋx-i" gloss="spin-NPST.3SG"></ana>jōŋxi</w>
 <w><ana lex="kol" gr="N,sg,nom" parts="kol" gloss="house"></ana>kol</w>
-<w><ana lex="kwāl" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="kwāl-ap-as" gloss="stand-ASP-PST"></ana>kwālapas</w>
-<w><ana lex="kwāl" gr="V,pst,act,subjc,3.s,pl.s" parts="kwāl-s-ət" gloss="stand-PST-3PL.S"></ana>kwālsət</w>
+<w><ana lex="kwāl" gr="V,asp,pst,act,3.s,sg.s" parts="kwāl-ap-as" gloss="stand-ASP-PST"></ana>kwālapas</w>
+<w><ana lex="kwāl" gr="V,pst,act,3.s,pl.s" parts="kwāl-s-ət" gloss="stand-PST-3PL.S"></ana>kwālsət</w>
 <w><ana lex="lowt" gr="V,refl,refl_xat,npst,act,3.s,sg.s" parts="lowt-xat-i" gloss="wash-REFL-NPST.3SG"></ana>lowtxati</w>
 <w><ana lex="matər" gr="PRON" parts="matər" gloss="something"></ana>matər</w>
 <w><ana lex="min" gr="V,npst,act,3.s,sg.s" parts="min-i" gloss="set.off-NPST.3SG"></ana>mini</w>
@@ -138,7 +138,7 @@
 <w><ana lex="mēn" gr="PRON" parts="mēn" gloss="1DU"></ana>mēn</w>
 <w><ana lex="oln" gr="N,sg,nom" parts="oln" gloss="money"></ana>oln</w>
 <w><ana lex="pat" gr="V,npst,act,3.s,sg.s" parts="pat-i" gloss="fall-NPST.3SG"></ana>pati</w>
-<w><ana lex="pat" gr="V,pst,act,subjc,3.s,pl.s" parts="pat-s-ət" gloss="fall-PST-3PL.S"></ana>patsət</w>
+<w><ana lex="pat" gr="V,pst,act,3.s,pl.s" parts="pat-s-ət" gloss="fall-PST-3PL.S"></ana>patsət</w>
 <w><ana lex="patta" gr="N,sg,3sg,nom" parts="patta-te" gloss="bottom-POSS.3SG"></ana>pattate</w>
 <w><ana lex="pussən" gr="PRON" parts="pussən" gloss="everybody"></ana>pussən</w>
 <w><ana lex="pālt" gr="V,past,pst,3.s,sg.s" parts="pālt-we-s" gloss="kindle-PASS-PST"></ana>pāltwes</w>
@@ -152,24 +152,24 @@
 <w><ana lex="tot" gr="V,pass,npst,3.s,du.s" parts="tot-awē-ɣ" gloss="carry-PASS.NPST-3DU.S"></ana><ana lex="tot" gr="V,pass,npst,3.s,du.s" parts="tot-awē-ɣ" gloss="lead-PASS.NPST-3DU.S"></ana><ana lex="tot" gr="V,pass,npst,3.s,sg.s" parts="tot-awē-ɣ" gloss="carry-PASS-NPST"></ana><ana lex="tot" gr="V,pass,npst,3.s,sg.s" parts="tot-awē-ɣ" gloss="lead-PASS-NPST"></ana>totawēɣ</w>
 <w><ana lex="tot" gr="V,past,pst,3.s,sg.s" parts="tot-we-s" gloss="carry-PASS-PST"></ana><ana lex="tot" gr="V,past,pst,3.s,sg.s" parts="tot-we-s" gloss="lead-PASS-PST"></ana>totwes</w>
 <w><ana lex="tu" gr="N,prop,prop2,sg,nom" parts="tu-p" gloss="STEM-PROP2"></ana><ana lex="tup" gr="N,sg,nom" parts="tup" gloss="oar"></ana><ana lex="tup" gr="N,sg,nom" parts="tup" gloss="only"></ana>tup</w>
-<w><ana lex="wār" gr="V,npst,act,subjc,3.s,pl.s" parts="wār-ēɣ-t" gloss="do-NPST-3PL.S"></ana>wārēɣt</w>
+<w><ana lex="wār" gr="V,npst,act,3.s,pl.s" parts="wār-ēɣ-t" gloss="do-NPST-3PL.S"></ana>wārēɣt</w>
 <w><ana lex="wōr" gr="N,sg,nom" parts="wōr" gloss="forest"></ana>wōr</w>
 <w><ana lex="wōw" gr="V,pass,npst,3.s,sg.s" parts="wōw-awe" gloss="call-PASS.NPST"></ana>wōwawe</w>
 <w><ana lex="xosa" gr="ADJ,sg,nom" parts="xosa" gloss="long"></ana><ana lex="xosa" gr="N,sg,nom" parts="xosa" gloss="STEM"></ana><ana lex="xosa" gr="N,sg,nom" parts="xosa" gloss="far"></ana><ana lex="xosa" gr="N,sg,nom" parts="xosa" gloss="long"></ana>xosa</w>
 <w><ana lex="xuj" gr="V,act,imp,2.s,sg.s" parts="xuj-en" gloss="lie-IMP.2SG"></ana><ana lex="xuj" gr="V,act,imp,2.s,sg.s" parts="xuj-en" gloss="lie.down-IMP.2SG"></ana><ana lex="xuj" gr="V,act,imp,2.s,sg.s" parts="xuj-en" gloss="sleep-IMP.2SG"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-en" gloss="lie-NMLZ"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-en" gloss="lie.down-NMLZ"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-en" gloss="sleep-NMLZ"></ana>xujen</w>
-<w><ana lex="xuj" gr="V,act,imp,2.s,du.s,pl.s" parts="xuj-ēn" gloss="lie-IMP.2DU/PL"></ana><ana lex="xuj" gr="V,act,imp,2.s,du.s,pl.s" parts="xuj-ēn" gloss="lie.down-IMP.2DU/PL"></ana><ana lex="xuj" gr="V,act,imp,2.s,du.s,pl.s" parts="xuj-ēn" gloss="sleep-IMP.2DU/PL"></ana><ana lex="xuj" gr="V,act,imp,2.s,pl.o" parts="xuj-ēn" gloss="lie-IMP.PL.O.2.S"></ana><ana lex="xuj" gr="V,act,imp,2.s,pl.o" parts="xuj-ēn" gloss="lie.down-IMP.PL.O.2.S"></ana><ana lex="xuj" gr="V,act,imp,2.s,pl.o" parts="xuj-ēn" gloss="sleep-IMP.PL.O.2.S"></ana>xujēn</w>
+<w><ana lex="xuj" gr="V,act,imp,2.s,du.s,pl.s" parts="xuj-ēn" gloss="lie-IMP.2DU/PL"></ana><ana lex="xuj" gr="V,act,imp,2.s,du.s,pl.s" parts="xuj-ēn" gloss="lie.down-IMP.2DU/PL"></ana><ana lex="xuj" gr="V,act,imp,2.s,du.s,pl.s" parts="xuj-ēn" gloss="sleep-IMP.2DU/PL"></ana><ana lex="xuj" gr="V,act,imp,2.s,pl.o,objc" parts="xuj-ēn" gloss="lie-IMP.PL.O.2.S"></ana><ana lex="xuj" gr="V,act,imp,2.s,pl.o,objc" parts="xuj-ēn" gloss="lie.down-IMP.PL.O.2.S"></ana><ana lex="xuj" gr="V,act,imp,2.s,pl.o,objc" parts="xuj-ēn" gloss="sleep-IMP.PL.O.2.S"></ana>xujēn</w>
 <w><ana lex="xōt" gr="N,sg,nom" parts="xōt" gloss="where"></ana>xōt</w>
 <w><ana lex="xōtal" gr="N,sg,nom" parts="xōtal" gloss="day"></ana>xōtal</w>
 <w><ana lex="xōt" gr="N,sg,abl" parts="xōt-əl" gloss="where-ABL"></ana><ana lex="xōt" gr="N,sg,ins" parts="xōt-əl" gloss="where-INS"></ana>xōtəl</w>
 <w><ana lex="āŋkwal" gr="N,sg,lat" parts="āŋkwal-n" gloss="pole-LAT"></ana>āŋkwaln</w>
 <w><ana lex="āɣi" gr="N,dim,sg,nom" parts="āɣi-kwe" gloss="daughter-DIM"></ana>āɣikwe</w>
 <w><ana lex="ŋōŋx" gr="N,sg,nom" parts="ŋōŋx" gloss="up"></ana>ŋōŋx</w>
-<w><ana lex="ōl" gr="V,npst,act,subjc,3.s,sg.s" parts="ōl-ēɣ" gloss="be-NPST"></ana>ōlēɣ</w>
-<w><ana lex="ōl" gr="V,npst,act,subjc,3.s,pl.s" parts="ōl-ēɣ-t" gloss="be-NPST-3PL.S"></ana>ōlēɣt</w>
+<w><ana lex="ōl" gr="V,npst,act,3.s,sg.s" parts="ōl-ēɣ" gloss="be-NPST"></ana>ōlēɣ</w>
+<w><ana lex="ōl" gr="V,npst,act,3.s,pl.s" parts="ōl-ēɣ-t" gloss="be-NPST-3PL.S"></ana>ōlēɣt</w>
 <w><ana lex="ōtər" gr="N,sg,nom" parts="ōtər" gloss="hero"></ana>ōtər</w>
 <w><ana lex="ōŋx" gr="N,sg,nom" parts="ōŋx" gloss="resin"></ana>ōŋx</w>
 <w><ana lex="ūnl" gr="V,npst,act,3.s,sg.s" parts="ūnl-i" gloss="sit-NPST.3SG"></ana>ūnli</w>
-<w><ana lex="ūnl" gr="V,npst,act,subjc,3.s,pl.s" parts="ūnl-ēɣ-t" gloss="sit-NPST-3PL.S"></ana>ūnlēɣt</w>
+<w><ana lex="ūnl" gr="V,npst,act,3.s,pl.s" parts="ūnl-ēɣ-t" gloss="sit-NPST-3PL.S"></ana>ūnlēɣt</w>
 <w><ana lex="ūnt" gr="V,tr,past,pst,3.s,sg.s" parts="ūnt-t-uwe-s" gloss="sit-TR-PASS-PST"></ana>ūnttuwes</w>
 <w><ana lex="ɕar" gr="V,asp,npst,act,3.s,sg.s" parts="ɕar-ɣ-i" gloss="completely-ASP-NPST.3SG"></ana><ana lex="ɕarɣ" gr="V,npst,act,3.s,sg.s" parts="ɕarɣ-i" gloss="burn-NPST.3SG"></ana>ɕarɣi</w>
 <w><ana lex="akwan=" gr="PREV" parts="akwan" gloss="together"></ana>akwan</w>
@@ -179,35 +179,37 @@
 <w><ana lex="eɣe" gr="X" parts="eɣe" gloss="hey"></ana>eɣe</w>
 <w><ana lex="jalpəŋ" gr="ADJ,sg,nom" parts="jalpəŋ" gloss="holy"></ana>jalpəŋ</w>
 <w><ana lex="jal" gr="V,npst,act,1.s,pl.s" parts="jal-ē-w" gloss="go.get-NPST-1PL.S"></ana>jalēw</w>
-<w><ana lex="jal" gr="V,npst,act,subjc,1.s,sg.s" parts="jal-ēɣ-um" gloss="go.get-NPST-1SG.S"></ana>jalēɣum</w>
+<w><ana lex="jal" gr="V,npst,act,1.s,sg.s" parts="jal-ēɣ-um" gloss="go.get-NPST-1SG.S"></ana>jalēɣum</w>
 <w><ana lex="jir" gr="N,sg,nom" parts="jir" gloss="sacrifice"></ana>jir</w>
 <w><ana lex="jīw" gr="N,sg,nom" parts="jiw" gloss="tree"></ana>jiw</w>
 <w><ana lex="jol=" gr="PREV" parts="jola" gloss="down"></ana>jola</w>
 <w><ana lex="jomas" gr="ADJ,sg,nom" parts="jomas" gloss="good"></ana>jomas</w>
-<w><ana lex="jōŋx" gr="V,pst,act,subjc,3.s,sg.s" parts="jōŋx-as" gloss="spin-PST"></ana>jōŋxas</w>
-<w><ana lex="jōŋx" gr="V,pst,act,subjc,3.s,sg.s" parts="jōŋx-əs" gloss="spin-PST"></ana>jōŋxəs</w>
+<w><ana lex="jōŋx" gr="V,pst,act,3.s,sg.s" parts="jōŋx-as" gloss="spin-PST"></ana>jōŋxas</w>
+<w><ana lex="jōŋx" gr="V,pst,act,3.s,sg.s" parts="jōŋx-əs" gloss="spin-PST"></ana>jōŋxəs</w>
 <w><ana lex="kan" gr="N,sg,lat" parts="kan-na" gloss="place-LAT"></ana>kanna</w>
 <w><ana lex="kins" gr="V,npst,act,3.s,sg.s" parts="kins-i" gloss="search-NPST.3SG"></ana>kinsi</w>
+<w><ana lex="kwāl" gr="V,npst,act,3.s,sg.s,objc" parts="kwāl-ɣ-e" gloss="stand-NPST-3SG.S"></ana>kwālɣe</w>
 <w><ana lex="kāt" gr="N,sg,nom" parts="kāt" gloss="hand"></ana>kāt</w>
 <w><ana lex="kīwər" gr="N,sg,lat" parts="kīwər-n" gloss="inside-LAT"></ana>kīwərn</w>
-<w><ana lex="li" gr="V,refl,refl_xat,pst,act,subjc,3.s,sg.s" parts="laj-xat-as" gloss="throw-REFL-PST"></ana>lajxatas</w>
+<w><ana lex="li" gr="V,refl,refl_xat,pst,act,3.s,sg.s" parts="laj-xat-as" gloss="throw-REFL-PST"></ana>lajxatas</w>
+<w><ana lex="lakw" gr="V,asp,npst,act,3.s,pl.s,objc" parts="lakw-sal-i-janəl" gloss="sneak.up-ASP-NPST-3PL.S"></ana>lakwsalijanəl</w>
 <w><ana lex="lap=" gr="PREV" parts="lap" gloss="close"></ana>lap</w>
 <w><ana lex="lāɕal" gr="ADJ,sg,nom" parts="lāɕal" gloss="slow"></ana>lāɕal</w>
 <w><ana lex="lāɣəl" gr="N,sg,nom" parts="lāɣəl" gloss="leg"></ana>lāɣəl</w>
 <w><ana lex="manumt" gr="V,past,pst,3.s,sg.s" parts="manumt-awe-s" gloss="tear-PASS-PST"></ana>manumtawes</w>
-<w><ana lex="mi" gr="V,act,nmlz,sg,2sg,nom" parts="mi-ne-n" gloss="give-NMLZ-POSS.2SG"></ana><ana lex="mi" gr="V,act,nmlz,sg,lat" parts="mi-ne-n" gloss="give-NMLZ-LAT"></ana><ana lex="mi" gr="V,npst,act,mir,subjc,2.s,du.s,pl.s" parts="mi-ne-n" gloss="give-MIR.NPST-2DU/PL.S"></ana><ana lex="mi" gr="V,npst,act,mir,subjc,2.s,sg.s" parts="mi-ne-n" gloss="give-MIR.NPST-2SG.S"></ana><ana lex="min" gr="V,act,imp,2.s,sg.s" parts="min-en" gloss="set.off-IMP.2SG"></ana><ana lex="min" gr="V,act,nmlz,sg,nom" parts="min-en" gloss="set.off-NMLZ"></ana>minen</w>
+<w><ana lex="mi" gr="V,act,nmlz,sg,2sg,nom" parts="mi-ne-n" gloss="give-NMLZ-POSS.2SG"></ana><ana lex="mi" gr="V,act,nmlz,sg,lat" parts="mi-ne-n" gloss="give-NMLZ-LAT"></ana><ana lex="mi" gr="V,npst,act,mir,2.s,du.s,pl.s" parts="mi-ne-n" gloss="give-MIR.NPST-2DU/PL.S"></ana><ana lex="mi" gr="V,npst,act,mir,2.s,sg.s" parts="mi-ne-n" gloss="give-MIR.NPST-2SG.S"></ana><ana lex="min" gr="V,act,imp,2.s,sg.s" parts="min-en" gloss="set.off-IMP.2SG"></ana><ana lex="min" gr="V,act,nmlz,sg,nom" parts="min-en" gloss="set.off-NMLZ"></ana>minen</w>
 <w><ana lex="mi" gr="V,pass,npst,3.s,sg.s" parts="mi-we" gloss="give-PASS.NPST"></ana>miwe</w>
-<w><ana lex="mi" gr="V,npst,act,du.o,1.s,sg.s" parts="mi-ɣ-aɣ-um" gloss="give-NPST-DU.O-1SG.S"></ana>miɣaɣum</w>
+<w><ana lex="mi" gr="V,npst,act,du.o,objc,1.s,sg.s" parts="mi-ɣ-aɣ-um" gloss="give-NPST-DU.O-1SG.S"></ana>miɣaɣum</w>
 <w><ana lex="mā" gr="N,sg,nom" parts="mā" gloss="land"></ana>mā</w>
 <w><ana lex="mā" gr="N,sg,3sg,nom" parts="mā-te" gloss="land-POSS.3SG"></ana>māte</w>
 <w><ana lex="mōt" gr="ADJ,sg,nom" parts="mōt" gloss="another"></ana>mōt</w>
 <w><ana lex="nēɣ" gr="V,past,pst,3.s,pl.s" parts="nēɣ-wē-s-ət" gloss="tie-PASS-PST-3PL.S"></ana>nēɣwēsət</w>
 <w><ana lex="os" gr="N,sg,nom" parts="os" gloss="surface"></ana>os</w>
 <w><ana lex="pin" gr="V,past,pst,3.s,sg.s" parts="pin-we-s" gloss="put-PASS-PST"></ana>pinwes</w>
-<w><ana lex="poriɣm" gr="V,pst,act,subjc,3.s,sg.s" parts="poriɣm-as" gloss="jump-PST"></ana>poriɣmas</w>
-<w><ana lex="poriɣm" gr="V,npst,act,subjc,1.s,sg.s" parts="poriɣm-ēɣ-um" gloss="jump-NPST-1SG.S"></ana>poriɣmēɣum</w>
+<w><ana lex="poriɣm" gr="V,pst,act,3.s,sg.s" parts="poriɣm-as" gloss="jump-PST"></ana>poriɣmas</w>
+<w><ana lex="poriɣm" gr="V,npst,act,1.s,sg.s" parts="poriɣm-ēɣ-um" gloss="jump-NPST-1SG.S"></ana>poriɣmēɣum</w>
 <w><ana lex="potəlma" gr="N,sg,nom" parts="potəlma" gloss="irritation"></ana>potəlma</w>
-<w><ana lex="pur" gr="V,npst,act,subjc,3.s,pl.s" parts="pur-ēɣ-t" gloss="gnaw-NPST-3PL.S"></ana>purēɣt</w>
+<w><ana lex="pur" gr="V,npst,act,3.s,pl.s" parts="pur-ēɣ-t" gloss="gnaw-NPST-3PL.S"></ana>purēɣt</w>
 <w><ana lex="puŋk" gr="N,sg,3sg,nom" parts="puŋk-e" gloss="head-POSS.3SG"></ana><ana lex="puŋk" gr="N,sg,3sg,nom" parts="puŋk-e" gloss="tooth-POSS.3SG"></ana>puŋke</w>
 <w><ana lex="pāl" gr="N,sg,2du_pl,nom" parts="pāl-en" gloss="half-POSS.2DU/PL"></ana><ana lex="pāl" gr="N,sg,2du_pl,nom" parts="pāl-en" gloss="side-POSS.2DU/PL"></ana><ana lex="pāl" gr="N,sg,3sg,lat" parts="pāl-e-n" gloss="half-POSS.3SG-LAT"></ana><ana lex="pāl" gr="N,sg,3sg,lat" parts="pāl-e-n" gloss="side-POSS.3SG-LAT"></ana>pālen</w>
 <w><ana lex="pāwəl" gr="N,sg,1sg,nom" parts="pāwl-um" gloss="village-POSS.1SG"></ana>pāwlum</w>
@@ -221,95 +223,98 @@
 <w><ana lex="sōrp" gr="N,sg,nom" parts="sōrp" gloss="moose"></ana>sōrp</w>
 <w><ana lex="sūp" gr="N,sg,2sg,nom" parts="sūp-ən" gloss="mouth-POSS.2SG"></ana>sūpən</w>
 <w><ana lex="takwi" gr="PRON" parts="takwi" gloss="3SG.EMPH"></ana>takwi</w>
-<w><ana lex="tax" gr="V,pst,act,subjc,3.s,sg.s" parts="tax-as" gloss="set.off-PST"></ana><ana lex="taŋx" gr="V,pst,act,subjc,3.s,sg.s" parts="tax-as" gloss="want-PST"></ana>taxas</w>
+<w><ana lex="tax" gr="V,pst,act,3.s,sg.s" parts="tax-as" gloss="set.off-PST"></ana><ana lex="taŋx" gr="V,pst,act,3.s,sg.s" parts="tax-as" gloss="want-PST"></ana>taxas</w>
 <w><ana lex="tit" gr="N,sg,nom" parts="tit" gloss="foothills"></ana>tit</w>
 <w><ana lex="tit" gr="N,pl,nom" parts="tit-t" gloss="foothills-PL"></ana><ana lex="tit" gr="N,sg,loc" parts="tit-t" gloss="foothills-LOC"></ana>titt</w>
-<w><ana lex="tit" gr="N,pl,lat" parts="tit-t-n" gloss="foothills-PL-LAT"></ana><ana lex="titt" gr="V,act,nmlz,sg,nom" parts="titt-n" gloss="feed-NMLZ"></ana><ana lex="titt" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="titt-n" gloss="feed-MIR.NPST"></ana>tittn</w>
-<w><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-am" gloss="carry-RES"></ana><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-am" gloss="lead-RES"></ana><ana lex="tot" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="tot-am" gloss="carry-MIR.PST"></ana><ana lex="tot" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="tot-am" gloss="lead-MIR.PST"></ana>totam</w>
-<w><ana lex="tot" gr="V,pst,act,sg.o,3.s,sg.s" parts="tot-as-t-e" gloss="carry-PST-SG.O-3SG.S"></ana><ana lex="tot" gr="V,pst,act,sg.o,3.s,sg.s" parts="tot-as-t-e" gloss="lead-PST-SG.O-3SG.S"></ana>totaste</w>
-<w><ana lex="tot" gr="V,npst,act,du.o,1.s,sg.s" parts="tot-i-jaɣ-um" gloss="carry-NPST-DU.O-1SG.S"></ana><ana lex="tot" gr="V,npst,act,du.o,1.s,sg.s" parts="tot-i-jaɣ-um" gloss="lead-NPST-DU.O-1SG.S"></ana>totijaɣum</w>
+<w><ana lex="tit" gr="N,pl,lat" parts="tit-t-n" gloss="foothills-PL-LAT"></ana><ana lex="titt" gr="V,act,nmlz,sg,nom" parts="titt-n" gloss="feed-NMLZ"></ana><ana lex="titt" gr="V,npst,act,mir,3.s,sg.s" parts="titt-n" gloss="feed-MIR.NPST"></ana>tittn</w>
+<w><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-am" gloss="carry-RES"></ana><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-am" gloss="lead-RES"></ana><ana lex="tot" gr="V,pst,act,mir,3.s,sg.s" parts="tot-am" gloss="carry-MIR.PST"></ana><ana lex="tot" gr="V,pst,act,mir,3.s,sg.s" parts="tot-am" gloss="lead-MIR.PST"></ana>totam</w>
+<w><ana lex="tot" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="tot-as-t-e" gloss="carry-PST-SG.O-3SG.S"></ana><ana lex="tot" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="tot-as-t-e" gloss="lead-PST-SG.O-3SG.S"></ana>totaste</w>
+<w><ana lex="tot" gr="V,npst,act,du.o,objc,1.s,sg.s" parts="tot-i-jaɣ-um" gloss="carry-NPST-DU.O-1SG.S"></ana><ana lex="tot" gr="V,npst,act,du.o,objc,1.s,sg.s" parts="tot-i-jaɣ-um" gloss="lead-NPST-DU.O-1SG.S"></ana>totijaɣum</w>
 <w><ana lex="tot" gr="V,pass,pst,mir,3.s,sg.s" parts="tot-ime" gloss="carry-MIR.PASS.PST"></ana><ana lex="tot" gr="V,pass,pst,mir,3.s,sg.s" parts="tot-ime" gloss="lead-MIR.PASS.PST"></ana>totime</w>
 <w><ana lex="towa" gr="ADJ,sg,nom" parts="towa" gloss="some"></ana>towa</w>
 <w><ana lex="tur" gr="N,sg,nom" parts="tur" gloss="STEM"></ana><ana lex="tur" gr="N,sg,nom" parts="tur" gloss="lake"></ana><ana lex="tur" gr="N,sg,nom" parts="tur" gloss="throat"></ana>tur</w>
 <w><ana lex="tur" gr="N,sg,2du_pl,nom" parts="tur-en" gloss="STEM-POSS.2DU/PL"></ana><ana lex="tur" gr="N,sg,2du_pl,nom" parts="tur-en" gloss="lake-POSS.2DU/PL"></ana><ana lex="tur" gr="N,sg,2du_pl,nom" parts="tur-en" gloss="throat-POSS.2DU/PL"></ana><ana lex="tur" gr="N,sg,3sg,lat" parts="tur-e-n" gloss="STEM-POSS.3SG-LAT"></ana><ana lex="tur" gr="N,sg,3sg,lat" parts="tur-e-n" gloss="lake-POSS.3SG-LAT"></ana><ana lex="tur" gr="N,sg,3sg,lat" parts="tur-e-n" gloss="throat-POSS.3SG-LAT"></ana>turen</w>
 <w><ana lex="tārat" gr="V,past,pst,3.s,sg.s" parts="tārt-awe-s" gloss="let.go-PASS-PST"></ana>tārtawes</w>
-<w><ana lex="tēl" gr="V,act,res,sg,nom" parts="tēl-um" gloss="grow-RES"></ana><ana lex="tēl" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="tēl-um" gloss="grow-MIR.PST"></ana>tēlum</w>
+<w><ana lex="tēl" gr="V,act,res,sg,nom" parts="tēl-um" gloss="grow-RES"></ana><ana lex="tēl" gr="V,pst,act,mir,3.s,sg.s" parts="tēl-um" gloss="grow-MIR.PST"></ana>tēlum</w>
 <w><ana lex="tūp" gr="N,sg,nom" parts="tūp" gloss="only"></ana>tūp</w>
-<w><ana lex="ut" gr="N,pl,3sg,nom" parts="ut-an-e" gloss="thing-PL-POSS.3SG"></ana><ana lex="ut" gr="V,act,nmlz,sg,3sg,nom" parts="ut-an-e" gloss="bark-NMLZ-POSS.3SG"></ana><ana lex="ut" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="ut-ane" gloss="bark-MIR.NPST"></ana>utane</w>
+<w><ana lex="ut" gr="N,pl,3sg,nom" parts="ut-an-e" gloss="thing-PL-POSS.3SG"></ana><ana lex="ut" gr="V,act,nmlz,sg,3sg,nom" parts="ut-an-e" gloss="bark-NMLZ-POSS.3SG"></ana><ana lex="ut" gr="V,npst,act,mir,3.s,sg.s" parts="ut-ane" gloss="bark-MIR.NPST"></ana>utane</w>
 <w><ana lex="ut" gr="N,sg,3pl,nom" parts="ut-anəl" gloss="thing-POSS.3PL"></ana><ana lex="ut" gr="V,act,nmlz,sg,abl" parts="ut-an-əl" gloss="bark-NMLZ-ABL"></ana><ana lex="ut" gr="V,act,nmlz,sg,ins" parts="ut-an-əl" gloss="bark-NMLZ-INS"></ana>utanəl</w>
 <w><ana lex="ut" gr="N,du,2sg,nom" parts="ut-aɣ-ən" gloss="thing-DU-POSS.2SG"></ana>utaɣən</w>
-<w><ana lex="w" gr="V,act,subst1,sg,lat" parts="w-it-n" gloss="see-SUBST1-LAT"></ana><ana lex="w" gr="V,act,subst1,sg,lat" parts="w-it-n" gloss="take-SUBST1-LAT"></ana><ana lex="wi" gr="V,tr,act,nmlz,sg,nom" parts="wi-t-n" gloss="take-TR-NMLZ"></ana><ana lex="wi" gr="V,tr,npst,act,mir,subjc,3.s,sg.s" parts="wi-t-n" gloss="take-TR-MIR.NPST"></ana><ana lex="wit" gr="N,sg,lat" parts="wit-n" gloss="STEM-LAT"></ana><ana lex="wit" gr="N,sg,lat" parts="wit-n" gloss="water-LAT"></ana>witn</w>
+<w><ana lex="w" gr="V,act,subst1,sg,lat" parts="w-it-n" gloss="see-SUBST1-LAT"></ana><ana lex="w" gr="V,act,subst1,sg,lat" parts="w-it-n" gloss="take-SUBST1-LAT"></ana><ana lex="wi" gr="V,tr,act,nmlz,sg,nom" parts="wi-t-n" gloss="take-TR-NMLZ"></ana><ana lex="wi" gr="V,tr,npst,act,mir,3.s,sg.s" parts="wi-t-n" gloss="take-TR-MIR.NPST"></ana><ana lex="wit" gr="N,sg,lat" parts="wit-n" gloss="STEM-LAT"></ana><ana lex="wit" gr="N,sg,lat" parts="wit-n" gloss="water-LAT"></ana>witn</w>
+<w><ana lex="wār" gr="V,npst,act,3.s,pl.s,objc" parts="wār-i-janəl" gloss="do-NPST-3PL.S"></ana>wārijanəl</w>
 <w><ana lex="wār" gr="V,npst,act,1.s,pl.s" parts="wār-ē-w" gloss="do-NPST-1PL.S"></ana>wārēw</w>
 <w><ana lex="wōŋx" gr="N,prop,prop2,sg,nom" parts="wōŋx-up" gloss="pit-PROP2"></ana>wōŋxup</w>
 <w><ana lex="xapɣa" gr="N,sg,nom" parts="xapɣa" gloss="aspen"></ana>xapɣa</w>
 <w><ana lex="xolitan" gr="N,du,nom" parts="xolitan-iɣ" gloss="tomorrow-DU"></ana><ana lex="xolitan" gr="N,sg,trans" parts="xolitan-iɣ" gloss="tomorrow-TRANS"></ana>xolitaniɣ</w>
 <w><ana lex="xo" gr="N,vbz,vbz_m,npst,act,3.s,sg.s" parts="xo-m-i" gloss="who-VBZ-NPST.3SG"></ana><ana lex="xo" gr="V,asp,npst,act,3.s,sg.s" parts="xo-m-i" gloss="who-ASP-NPST.3SG"></ana><ana lex="xomi" gr="N,sg,nom" parts="xomi" gloss="face.down"></ana><ana lex="xomi" gr="N,sg,nom" parts="xomi" gloss="upside.down"></ana>xomi</w>
 <w><ana lex="xotal" gr="N,sg,nom" parts="xotal" gloss="day"></ana><ana lex="xotal" gr="N,sg,nom" parts="xotal" gloss="sun"></ana>xotal</w>
-<w><ana lex="xo" gr="V,tr,act,res,sg,nom" parts="xo-t-um" gloss="who-TR-RES"></ana><ana lex="xo" gr="V,tr,pst,act,mir,subjc,3.s,sg.s" parts="xo-t-um" gloss="who-TR-MIR.PST"></ana><ana lex="xot" gr="N,sg,1sg,nom" parts="xot-um" gloss="from-POSS.1SG"></ana><ana lex="xot" gr="N,sg,1sg,nom" parts="xot-um" gloss="six-POSS.1SG"></ana><ana lex="xot" gr="N,sg,1sg,nom" parts="xot-um" gloss="where-POSS.1SG"></ana>xotum</w>
-<w><ana lex="xuj" gr="V,act,nmlz,sg,3sg,nom" parts="xuj-n-e" gloss="lie-NMLZ-POSS.3SG"></ana><ana lex="xuj" gr="V,act,nmlz,sg,3sg,nom" parts="xuj-n-e" gloss="lie.down-NMLZ-POSS.3SG"></ana><ana lex="xuj" gr="V,act,nmlz,sg,3sg,nom" parts="xuj-n-e" gloss="sleep-NMLZ-POSS.3SG"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-ne" gloss="lie-NMLZ"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-ne" gloss="lie.down-NMLZ"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-ne" gloss="sleep-NMLZ"></ana><ana lex="xuj" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="xuj-ne" gloss="lie-MIR.NPST"></ana><ana lex="xuj" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="xuj-ne" gloss="lie.down-MIR.NPST"></ana><ana lex="xuj" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="xuj-ne" gloss="sleep-MIR.NPST"></ana>xujne</w>
-<w><ana lex="xuj" gr="V,npst,act,subjc,3.s,pl.s" parts="xuj-ēɣ-ət" gloss="lie-NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,subjc,3.s,pl.s" parts="xuj-ēɣ-ət" gloss="lie.down-NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,subjc,3.s,pl.s" parts="xuj-ēɣ-ət" gloss="sleep-NPST-3PL.S"></ana>xujēɣət</w>
+<w><ana lex="xo" gr="V,tr,act,res,sg,nom" parts="xo-t-um" gloss="who-TR-RES"></ana><ana lex="xo" gr="V,tr,pst,act,mir,3.s,sg.s" parts="xo-t-um" gloss="who-TR-MIR.PST"></ana><ana lex="xot" gr="N,sg,1sg,nom" parts="xot-um" gloss="from-POSS.1SG"></ana><ana lex="xot" gr="N,sg,1sg,nom" parts="xot-um" gloss="six-POSS.1SG"></ana><ana lex="xot" gr="N,sg,1sg,nom" parts="xot-um" gloss="where-POSS.1SG"></ana>xotum</w>
+<w><ana lex="xuj" gr="V,act,nmlz,sg,3sg,nom" parts="xuj-n-e" gloss="lie-NMLZ-POSS.3SG"></ana><ana lex="xuj" gr="V,act,nmlz,sg,3sg,nom" parts="xuj-n-e" gloss="lie.down-NMLZ-POSS.3SG"></ana><ana lex="xuj" gr="V,act,nmlz,sg,3sg,nom" parts="xuj-n-e" gloss="sleep-NMLZ-POSS.3SG"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-ne" gloss="lie-NMLZ"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-ne" gloss="lie.down-NMLZ"></ana><ana lex="xuj" gr="V,act,nmlz,sg,nom" parts="xuj-ne" gloss="sleep-NMLZ"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,sg.s" parts="xuj-ne" gloss="lie-MIR.NPST"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,sg.s" parts="xuj-ne" gloss="lie.down-MIR.NPST"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,sg.s" parts="xuj-ne" gloss="sleep-MIR.NPST"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,sg.s,objc" parts="xuj-n-e" gloss="lie-MIR.NPST-3SG.S"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,sg.s,objc" parts="xuj-n-e" gloss="lie.down-MIR.NPST-3SG.S"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,sg.s,objc" parts="xuj-n-e" gloss="sleep-MIR.NPST-3SG.S"></ana>xujne</w>
+<w><ana lex="xuj" gr="V,npst,act,3.s,pl.s" parts="xuj-ēɣ-ət" gloss="lie-NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,3.s,pl.s" parts="xuj-ēɣ-ət" gloss="lie.down-NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,3.s,pl.s" parts="xuj-ēɣ-ət" gloss="sleep-NPST-3PL.S"></ana>xujēɣət</w>
 <w><ana lex="xuri" gr="N,sg,abl" parts="xuri-l" gloss="image-ABL"></ana><ana lex="xuri" gr="N,sg,abl" parts="xuri-l" gloss="pattern-ABL"></ana><ana lex="xuri" gr="N,sg,ins" parts="xuri-l" gloss="image-INS"></ana><ana lex="xuri" gr="N,sg,ins" parts="xuri-l" gloss="pattern-INS"></ana>xuril</w>
-<w><ana lex="xūl" gr="V,asp,act,res,sg,nom" parts="xūl-il-um" gloss="spend.the.night-ASP-RES"></ana><ana lex="xūl" gr="V,asp,pst,act,mir,subjc,3.s,sg.s" parts="xūl-il-um" gloss="spend.the.night-ASP-MIR.PST"></ana><ana lex="xūl" gr="V,npst,act,sg.o,1.s,sg.s" parts="xūl-i-l-um" gloss="spend.the.night-NPST-SG.O-1SG.S"></ana>xūlilum</w>
-<w><ana lex="xūntl" gr="V,npst,act,subjc,3.s,sg.s" parts="xūntl-ēɣ" gloss="listen-NPST"></ana>xūntlēɣ</w>
+<w><ana lex="xūl" gr="V,asp,act,res,sg,nom" parts="xūl-il-um" gloss="spend.the.night-ASP-RES"></ana><ana lex="xūl" gr="V,asp,pst,act,mir,3.s,sg.s" parts="xūl-il-um" gloss="spend.the.night-ASP-MIR.PST"></ana><ana lex="xūl" gr="V,npst,act,sg.o,objc,1.s,sg.s" parts="xūl-i-l-um" gloss="spend.the.night-NPST-SG.O-1SG.S"></ana>xūlilum</w>
+<w><ana lex="xūntl" gr="V,npst,act,3.s,sg.s" parts="xūntl-ēɣ" gloss="listen-NPST"></ana>xūntlēɣ</w>
 <w><ana lex="āni" gr="N,pl,nom" parts="āni-t" gloss="cup-PL"></ana><ana lex="āni" gr="N,sg,loc" parts="āni-t" gloss="cup-LOC"></ana>ānit</w>
 <w><ana lex="āŋkw" gr="N,sg,3sg,nom" parts="āŋkw-e" gloss="mother-POSS.3SG"></ana>āŋkwe</w>
 <w><ana lex="ēl=" gr="PREV" parts="ēla" gloss="forward"></ana>ēla</w>
 <w><ana lex="ēln" gr="ADV" parts="ēln" gloss="ahead"></ana>ēln</w>
-<w><ana lex="ēr" gr="V,npst,act,subjc,3.s,du.s" parts="ēr-i-ɣ" gloss="be.needed-NPST-3DU.S"></ana><ana lex="ēriɣ" gr="N,sg,nom" parts="ēriɣ" gloss="song"></ana>ēriɣ</w>
+<w><ana lex="ēr" gr="V,npst,act,3.s,du.s" parts="ēr-i-ɣ" gloss="be.needed-NPST-3DU.S"></ana><ana lex="ēriɣ" gr="N,sg,nom" parts="ēriɣ" gloss="song"></ana>ēriɣ</w>
 <w><ana lex="ēr" gr="V,asp,npst,act,3.s,sg.s" parts="ēr-ɣ-i" gloss="be.needed-ASP-NPST.3SG"></ana>ērɣi</w>
 <w><ana lex="īsnas" gr="N,sg,3pl,nom" parts="īsnas-nəl" gloss="window-POSS.3PL"></ana><ana lex="īsnas" gr="N,sg,abl" parts="īsnas-nəl" gloss="window-ABL"></ana>īsnasnəl</w>
-<w><ana lex="ōl" gr="V,act,res,sg,nom" parts="ōl-um" gloss="be-RES"></ana><ana lex="ōl" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="ōl-um" gloss="be-MIR.PST"></ana>ōlum</w>
+<w><ana lex="ōl" gr="V,act,res,sg,nom" parts="ōl-um" gloss="be-RES"></ana><ana lex="ōl" gr="V,pst,act,mir,3.s,sg.s" parts="ōl-um" gloss="be-MIR.PST"></ana>ōlum</w>
 <w><ana lex="ūj" gr="N,sg,1sg,nom" parts="ūj-um" gloss="animal-POSS.1SG"></ana><ana lex="ūj" gr="N,sg,1sg,nom" parts="ūj-um" gloss="animals-POSS.1SG"></ana>ūjum</w>
-<w><ana lex="ūnt" gr="V,pst,act,subjc,3.s,pl.s" parts="ūnt-s-ət" gloss="sit-PST-3PL.S"></ana>ūntsət</w>
-<w><ana lex="ūnt" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="ūnt-əlmat-əs" gloss="sit-ASP-PST"></ana>ūntəlmatəs</w>
+<w><ana lex="ūnt" gr="V,pst,act,3.s,pl.s" parts="ūnt-s-ət" gloss="sit-PST-3PL.S"></ana>ūntsət</w>
+<w><ana lex="ūnt" gr="V,asp,pst,act,3.s,sg.s" parts="ūnt-əlmat-əs" gloss="sit-ASP-PST"></ana>ūntəlmatəs</w>
 <w><ana lex="ūs" gr="N,sg,nom" parts="ūs" gloss="town"></ana>ūs</w>
 <w><ana lex="ɕeltumt" gr="V,refl,refl_axt,npst,act,3.s,sg.s" parts="ɕeltumt-axt-i" gloss="throw-REFL-NPST.3SG"></ana>ɕeltumtaxti</w>
 <w><ana lex="ɕurɣ" gr="V,pass,npst,3.s,sg.s" parts="ɕurɣ-awe" gloss="flow-PASS.NPST"></ana>ɕurɣawe</w>
-<w><ana lex="aj" gr="V,pst,act,subjc,3.s,pl.s" parts="aj-s-ət" gloss="drink-PST-3PL.S"></ana>ajsət</w>
+<w><ana lex="aj" gr="V,pst,act,3.s,pl.s" parts="aj-s-ət" gloss="drink-PST-3PL.S"></ana>ajsət</w>
 <w><ana lex="al" gr="N,sg,nom" parts="al" gloss="top"></ana>al</w>
-<w><ana lex="al" gr="V,asp,act,nmlz,sg,abl" parts="al-as-an-əl" gloss="kill-ASP-NMLZ-ABL"></ana><ana lex="al" gr="V,asp,act,nmlz,sg,ins" parts="al-as-an-əl" gloss="kill-ASP-NMLZ-INS"></ana>alasanəl</w>
+<w><ana lex="al" gr="V,asp,act,nmlz,sg,abl" parts="al-as-an-əl" gloss="kill-ASP-NMLZ-ABL"></ana><ana lex="al" gr="V,asp,act,nmlz,sg,ins" parts="al-as-an-əl" gloss="kill-ASP-NMLZ-INS"></ana><ana lex="al" gr="V,pst,act,3.s,pl.s,objc" parts="al-as-anəl" gloss="kill-PST-3PL.S"></ana>alasanəl</w>
 <w><ana lex="al" gr="V,pass,npst,1.s,sg.s" parts="al-awe-m" gloss="kill-PASS.NPST-1SG.S"></ana>alawem</w>
-<w><ana lex="al" gr="V,act,cvb" parts="al-im" gloss="kill-CVB"></ana><ana lex="al" gr="V,act,res,sg,nom" parts="al-im" gloss="kill-RES"></ana><ana lex="al" gr="V,npst,act,subjc,1.s,sg.s" parts="al-i-m" gloss="kill-NPST-1SG.S"></ana>alim</w>
-<w><ana lex="al" gr="N,vbz,vbz_m,asp,act,imp,2.s,du.s,pl.s" parts="al-m-aj-ēn" gloss="top-VBZ-ASP-IMP.2DU/PL"></ana><ana lex="al" gr="N,vbz,vbz_m,asp,act,imp,2.s,pl.o" parts="al-m-aj-ēn" gloss="top-VBZ-ASP-IMP.PL.O.2.S"></ana><ana lex="al" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="al-maj-ēn" gloss="kill-ASP-IMP.2DU/PL"></ana><ana lex="al" gr="V,asp,act,imp,2.s,pl.o" parts="al-maj-ēn" gloss="kill-ASP-IMP.PL.O.2.S"></ana><ana lex="ālmaj" gr="V,act,imp,2.s,du.s,pl.s" parts="almaj-ēn" gloss="lift-IMP.2DU/PL"></ana><ana lex="ālmaj" gr="V,act,imp,2.s,pl.o" parts="almaj-ēn" gloss="lift-IMP.PL.O.2.S"></ana>almajēn</w>
-<w><ana lex="al" gr="N,vbz,vbz_m,pst,act,subjc,3.s,sg.s" parts="al-m-əs" gloss="top-VBZ-PST"></ana><ana lex="al" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="al-m-əs" gloss="kill-ASP-PST"></ana>alməs</w>
+<w><ana lex="al" gr="V,act,cvb" parts="al-im" gloss="kill-CVB"></ana><ana lex="al" gr="V,act,res,sg,nom" parts="al-im" gloss="kill-RES"></ana><ana lex="al" gr="V,npst,act,1.s,sg.s" parts="al-i-m" gloss="kill-NPST-1SG.S"></ana>alim</w>
+<w><ana lex="al" gr="N,vbz,vbz_m,asp,act,imp,2.s,du.s,pl.s" parts="al-m-aj-ēn" gloss="top-VBZ-ASP-IMP.2DU/PL"></ana><ana lex="al" gr="N,vbz,vbz_m,asp,act,imp,2.s,pl.o,objc" parts="al-m-aj-ēn" gloss="top-VBZ-ASP-IMP.PL.O.2.S"></ana><ana lex="al" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="al-maj-ēn" gloss="kill-ASP-IMP.2DU/PL"></ana><ana lex="al" gr="V,asp,act,imp,2.s,pl.o,objc" parts="al-maj-ēn" gloss="kill-ASP-IMP.PL.O.2.S"></ana><ana lex="ālmaj" gr="V,act,imp,2.s,du.s,pl.s" parts="almaj-ēn" gloss="lift-IMP.2DU/PL"></ana><ana lex="ālmaj" gr="V,act,imp,2.s,pl.o,objc" parts="almaj-ēn" gloss="lift-IMP.PL.O.2.S"></ana>almajēn</w>
+<w><ana lex="al" gr="N,vbz,vbz_m,pst,act,3.s,sg.s" parts="al-m-əs" gloss="top-VBZ-PST"></ana><ana lex="al" gr="V,asp,pst,act,3.s,sg.s" parts="al-m-əs" gloss="kill-ASP-PST"></ana>alməs</w>
 <w><ana lex="al" gr="V,act,inf" parts="al-uŋkwe" gloss="kill-INF"></ana>aluŋkwe</w>
 <w><ana lex="al" gr="V,past,pst,3.s,sg.s" parts="al-we-s" gloss="kill-PASS-PST"></ana>alwes</w>
-<w><ana lex="ariɣt" gr="V,pst,act,subjc,3.s,sg.s" parts="ariɣt-as" gloss="stay-PST"></ana>ariɣtas</w>
+<w><ana lex="ariɣt" gr="V,pst,act,3.s,sg.s" parts="ariɣt-as" gloss="stay-PST"></ana>ariɣtas</w>
 <w><ana lex="as" gr="N,pl,3pl,nom" parts="as-an-anəl" gloss="hole-PL-POSS.3PL"></ana>asananəl</w>
 <w><ana lex="as" gr="N,sg,3sg,loc" parts="as-e-t" gloss="hole-POSS.3SG-LOC"></ana>aset</w>
 <w><ana lex="as" gr="N,sg,lat" parts="as-n" gloss="hole-LAT"></ana>asn</w>
 <w><ana lex="as" gr="N,sg,lat" parts="as-na" gloss="hole-LAT"></ana>asna</w>
 <w><ana lex="as" gr="N,sg,2sg,lat" parts="as-ən-n" gloss="hole-POSS.2SG-LAT"></ana>asənn</w>
 <w><ana lex="at" gr="V,npst,act,3.s,sg.s" parts="at-i" gloss="gather-NPST.3SG"></ana>ati</w>
-<w><ana lex="atint" gr="V,refl,refl_axt,npst,act,subjc,3.s,pl.s" parts="atint-axt-ēɣ-t" gloss="sniff-REFL-NPST-3PL.S"></ana>atintaxtēɣt</w>
+<w><ana lex="atint" gr="V,refl,refl_axt,npst,act,3.s,pl.s" parts="atint-axt-ēɣ-t" gloss="sniff-REFL-NPST-3PL.S"></ana>atintaxtēɣt</w>
 <w><ana lex="at" gr="V,asp,npst,act,3.s,sg.s" parts="at-int-i" gloss="gather-ASP-NPST.3SG"></ana><ana lex="atint" gr="V,npst,act,3.s,sg.s" parts="atint-i" gloss="sniff-NPST.3SG"></ana>atinti</w>
-<w><ana lex="at" gr="N,sg,1sg,nom" parts="at-um" gloss="smell-POSS.1SG"></ana><ana lex="at" gr="V,act,res,sg,nom" parts="at-um" gloss="gather-RES"></ana><ana lex="at" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="at-um" gloss="gather-MIR.PST"></ana>atum</w>
-<w><ana lex="at" gr="N,sg,2du_pl,nom" parts="at-ēn" gloss="smell-POSS.2DU/PL"></ana><ana lex="at" gr="N,sg,3sg,lat" parts="at-ē-n" gloss="smell-POSS.3SG-LAT"></ana><ana lex="at" gr="V,act,imp,2.s,du.s,pl.s" parts="at-ēn" gloss="gather-IMP.2DU/PL"></ana><ana lex="at" gr="V,act,imp,2.s,pl.o" parts="at-ēn" gloss="gather-IMP.PL.O.2.S"></ana>atēn</w>
+<w><ana lex="at" gr="V,asp,npst,act,3.s,pl.s,objc" parts="at-int-i-janəl" gloss="gather-ASP-NPST-3PL.S"></ana><ana lex="atint" gr="V,npst,act,3.s,pl.s,objc" parts="atint-i-janəl" gloss="sniff-NPST-3PL.S"></ana>atintijanəl</w>
+<w><ana lex="at" gr="N,sg,1sg,nom" parts="at-um" gloss="smell-POSS.1SG"></ana><ana lex="at" gr="V,act,res,sg,nom" parts="at-um" gloss="gather-RES"></ana><ana lex="at" gr="V,pst,act,mir,3.s,sg.s" parts="at-um" gloss="gather-MIR.PST"></ana>atum</w>
+<w><ana lex="at" gr="N,sg,2du_pl,nom" parts="at-ēn" gloss="smell-POSS.2DU/PL"></ana><ana lex="at" gr="N,sg,3sg,lat" parts="at-ē-n" gloss="smell-POSS.3SG-LAT"></ana><ana lex="at" gr="V,act,imp,2.s,du.s,pl.s" parts="at-ēn" gloss="gather-IMP.2DU/PL"></ana><ana lex="at" gr="V,act,imp,2.s,pl.o,objc" parts="at-ēn" gloss="gather-IMP.PL.O.2.S"></ana>atēn</w>
 <w><ana lex="iŋ" gr="X" parts="iŋ" gloss="still_yet"></ana>iŋ</w>
-<w><ana lex="jal" gr="V,pst,act,subjc,3.s,sg.s" parts="jal-as" gloss="go.get-PST"></ana>jalas</w>
-<w><ana lex="jal" gr="V,asp,pst,act,subjc,3.s,pl.s" parts="jal-as-as-ət" gloss="go.get-ASP-PST-3PL.S"></ana>jalasasət</w>
+<w><ana lex="jal" gr="V,pst,act,3.s,sg.s" parts="jal-as" gloss="go.get-PST"></ana>jalas</w>
+<w><ana lex="jal" gr="V,asp,pst,act,3.s,pl.s" parts="jal-as-as-ət" gloss="go.get-ASP-PST-3PL.S"></ana>jalasasət</w>
 <w><ana lex="jal" gr="V,act,inf" parts="jal-uŋkwe" gloss="go.get-INF"></ana>jaluŋkwe</w>
-<w><ana lex="jal" gr="V,npst,act,subjc,3.s,pl.s" parts="jal-ēɣ-t" gloss="go.get-NPST-3PL.S"></ana>jalēɣt</w>
+<w><ana lex="jal" gr="V,npst,act,3.s,pl.s" parts="jal-ēɣ-t" gloss="go.get-NPST-3PL.S"></ana>jalēɣt</w>
 <w><ana lex="janit" gr="N,sg,nom" parts="janit" gloss="size"></ana><ana lex="janiɣ" gr="ADJ,pl,nom" parts="jan-it" gloss="big-PL"></ana>janit</w>
 <w><ana lex="janiɣ" gr="ADJ,sg,trans" parts="jan-ɣiɣ" gloss="big-TRANS"></ana>janɣiɣ</w>
 <w><ana lex="jassa" gr="X" parts="jassa" gloss="correct"></ana>jassa</w>
 <w><ana lex="joli" gr="ADJ,sg,nom" parts="joli" gloss="lower"></ana>joli</w>
 <w><ana lex="joln" gr="X" parts="joln" gloss="below"></ana>joln</w>
 <w><ana lex="joxt" gr="V,npst,act,3.s,sg.s" parts="joxt-i" gloss="come-NPST.3SG"></ana>joxti</w>
-<w><ana lex="joxt" gr="V,asp,pst,act,subjc,3.s,pl.s" parts="joxt-iɣp-as-ət" gloss="come-ASP-PST-3PL.S"></ana>joxtiɣpasət</w>
+<w><ana lex="joxt" gr="V,asp,pst,act,3.s,pl.s" parts="joxt-iɣp-as-ət" gloss="come-ASP-PST-3PL.S"></ana>joxtiɣpasət</w>
+<w><ana lex="joxt" gr="V,refl,refl_xat,npst,act,3.s,du.s,objc" parts="joxt-xat-ēɣ-ēn" gloss="come-REFL-NPST-3DU.S"></ana>joxtxatēɣēn</w>
 <w><ana lex="joxt" gr="V,npst,act,1.s,pl.s" parts="joxt-ē-w" gloss="come-NPST-1PL.S"></ana>joxtēw</w>
-<w><ana lex="joxt" gr="V,npst,act,subjc,1.s,sg.s" parts="joxt-ēɣ-um" gloss="come-NPST-1SG.S"></ana>joxtēɣum</w>
+<w><ana lex="joxt" gr="V,npst,act,1.s,sg.s" parts="joxt-ēɣ-um" gloss="come-NPST-1SG.S"></ana>joxtēɣum</w>
 <w><ana lex="jurt" gr="N,sg,nom" parts="jurt" gloss="friend"></ana>jurt</w>
 <w><ana lex="jā" gr="N,sg,loc" parts="jā-ta" gloss="river-LOC"></ana>jāta</w>
 <w><ana lex="jūniɣt" gr="V,asp,pass,npst,3.s,sg.s" parts="jūniɣt-al-awe" gloss="hit-ASP-PASS.NPST"></ana>jūniɣtalawe</w>
-<w><ana lex="jūniɣt" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="jūniɣt-ast-ēn" gloss="hit-ASP-IMP.2DU/PL"></ana><ana lex="jūniɣt" gr="V,asp,act,imp,2.s,pl.o" parts="jūniɣt-ast-ēn" gloss="hit-ASP-IMP.PL.O.2.S"></ana><ana lex="jūniɣt" gr="V,pst,act,sg.o,3.s,du.s" parts="jūniɣt-as-t-ēn" gloss="hit-PST-SG.O-3DU.S"></ana>jūniɣtastēn</w>
+<w><ana lex="jūniɣt" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="jūniɣt-ast-ēn" gloss="hit-ASP-IMP.2DU/PL"></ana><ana lex="jūniɣt" gr="V,asp,act,imp,2.s,pl.o,objc" parts="jūniɣt-ast-ēn" gloss="hit-ASP-IMP.PL.O.2.S"></ana><ana lex="jūniɣt" gr="V,pst,act,sg.o,objc,3.s,du.s" parts="jūniɣt-as-t-ēn" gloss="hit-PST-SG.O-3DU.S"></ana>jūniɣtastēn</w>
 <w><ana lex="jūniɣt" gr="V,past,pst,3.s,sg.s" parts="jūniɣt-awe-s" gloss="hit-PASS-PST"></ana>jūniɣtawes</w>
 <w><ana lex="karek" gr="N,sg,nom" parts="karek" gloss="sin"></ana>karek</w>
 <w><ana lex="kas" gr="N,pl,abl" parts="kas-t-əl" gloss="competition-PL-ABL"></ana><ana lex="kas" gr="N,pl,ins" parts="kas-t-əl" gloss="competition-PL-INS"></ana><ana lex="kastəl" gr="X" parts="kastəl" gloss="for"></ana>kastəl</w>
 <w><ana lex="kins" gr="V,pass,npst,3.s,du.s" parts="kins-awē-ɣ" gloss="search-PASS.NPST-3DU.S"></ana><ana lex="kins" gr="V,pass,npst,3.s,sg.s" parts="kins-awē-ɣ" gloss="search-PASS-NPST"></ana>kinsawēɣ</w>
-<w><ana lex="kins" gr="V,npst,act,sg.o,3.s,sg.s" parts="kins-i-t-e" gloss="search-NPST-SG.O-3SG.S"></ana>kinsite</w>
+<w><ana lex="kins" gr="V,npst,act,sg.o,objc,3.s,sg.s" parts="kins-i-t-e" gloss="search-NPST-SG.O-3SG.S"></ana>kinsite</w>
 <w><ana lex="kins" gr="V,act,inf" parts="kins-uŋkwe" gloss="search-INF"></ana>kinsuŋkwe</w>
-<w><ana lex="kins" gr="V,refl,refl_xat,npst,act,subjc,3.s,pl.s" parts="kis-xat-ēɣ-t" gloss="search-REFL-NPST-3PL.S"></ana><ana lex="kis" gr="V,refl,refl_xat,npst,act,subjc,3.s,pl.s" parts="kis-xat-ēɣ-t" gloss="whistle-REFL-NPST-3PL.S"></ana>kisxatēɣt</w>
+<w><ana lex="kins" gr="V,refl,refl_xat,npst,act,3.s,pl.s" parts="kis-xat-ēɣ-t" gloss="search-REFL-NPST-3PL.S"></ana><ana lex="kis" gr="V,refl,refl_xat,npst,act,3.s,pl.s" parts="kis-xat-ēɣ-t" gloss="whistle-REFL-NPST-3PL.S"></ana>kisxatēɣt</w>
 <w><ana lex="kolkan" gr="N,sg,lat" parts="kolkan-n" gloss="floor-LAT"></ana>kolkann</w>
 <w><ana lex="kol" gr="N,sg,lat" parts="kol-na" gloss="house-LAT"></ana>kolna</w>
 <w><ana lex="koni" gr="ADJ,sg,nom" parts="koni" gloss="outer"></ana>koni</w>
@@ -317,38 +322,40 @@
 <w><ana lex="kons" gr="N,sg,abl" parts="kons-əl" gloss="claw-ABL"></ana><ana lex="kons" gr="N,sg,ins" parts="kons-əl" gloss="claw-INS"></ana>konsəl</w>
 <w><ana lex="kons" gr="N,prop,prop1,sg,nom" parts="kons-əŋ" gloss="claw-PROP1"></ana>konsəŋ</w>
 <w><ana lex="kot" gr="N,sg,nom" parts="kot" gloss="deer.skin.shoes"></ana>kot</w>
-<w><ana lex="kwāl" gr="V,caus,caus_tt,npst,act,subjc,3.s,sg.s" parts="kwāl-tt-ēɣ" gloss="stand-CAUS-NPST"></ana>kwālttēɣ</w>
+<w><ana lex="kwāl" gr="V,asp,pst,act,mir,3.s,sg.s,objc" parts="kwāl-ap-am-e" gloss="stand-ASP-MIR.PST-3SG.S"></ana>kwālapame</w>
+<w><ana lex="kwāl" gr="V,caus,caus_tt,npst,act,3.s,sg.s" parts="kwāl-tt-ēɣ" gloss="stand-CAUS-NPST"></ana>kwālttēɣ</w>
 <w><ana lex="kāt" gr="N,pl,3sg,nom" parts="kāt-an-e" gloss="hand-PL-POSS.3SG"></ana>kātane</w>
 <w><ana lex="kāt" gr="N,sg,3sg,nom" parts="kāt-e" gloss="hand-POSS.3SG"></ana>kāte</w>
 <w><ana lex="kāt" gr="N,sg,1pl,lat" parts="kāt-uw-n" gloss="hand-POSS.1PL-LAT"></ana>kātuwn</w>
 <w><ana lex="kāt" gr="N,sg,3sg,ins" parts="kāt-ē-təl" gloss="hand-POSS.3SG-INS"></ana>kātētəl</w>
-<w><ana lex="lakw" gr="V,act,subst1,sg,3sg,nom" parts="lakw-it-e" gloss="sneak.up-SUBST1-POSS.3SG"></ana><ana lex="lakw" gr="V,npst,act,sg.o,3.s,sg.s" parts="lakw-i-t-e" gloss="sneak.up-NPST-SG.O-3SG.S"></ana>lakwite</w>
-<w><ana lex="lakw" gr="V,asp,act,subst1,sg,3sg,nom" parts="lakw-sal-it-e" gloss="sneak.up-ASP-SUBST1-POSS.3SG"></ana><ana lex="lakw" gr="V,asp,npst,act,sg.o,3.s,sg.s" parts="lakw-sal-i-t-e" gloss="sneak.up-ASP-NPST-SG.O-3SG.S"></ana>lakwsalite</w>
+<w><ana lex="lakw" gr="V,act,subst1,sg,3sg,nom" parts="lakw-it-e" gloss="sneak.up-SUBST1-POSS.3SG"></ana><ana lex="lakw" gr="V,npst,act,sg.o,objc,3.s,sg.s" parts="lakw-i-t-e" gloss="sneak.up-NPST-SG.O-3SG.S"></ana>lakwite</w>
+<w><ana lex="lakw" gr="V,asp,act,subst1,sg,3sg,nom" parts="lakw-sal-it-e" gloss="sneak.up-ASP-SUBST1-POSS.3SG"></ana><ana lex="lakw" gr="V,asp,npst,act,sg.o,objc,3.s,sg.s" parts="lakw-sal-i-t-e" gloss="sneak.up-ASP-NPST-SG.O-3SG.S"></ana>lakwsalite</w>
 <w><ana lex="lili" gr="N,prop,prop1,du,nom" parts="lili-ŋ-iɣ" gloss="breath-PROP1-DU"></ana><ana lex="lili" gr="N,prop,prop1,sg,trans" parts="lili-ŋ-iɣ" gloss="breath-PROP1-TRANS"></ana>liliŋiɣ</w>
-<w><ana lex="lowt" gr="V,refl,refl_xat,pst,act,subjc,3.s,sg.s" parts="lowt-xat-as" gloss="wash-REFL-PST"></ana>lowtxatas</w>
-<w><ana lex="lowt" gr="V,refl,refl_xat,npst,act,subjc,1.s,sg.s" parts="lowt-xat-ēɣ-um" gloss="wash-REFL-NPST-1SG.S"></ana>lowtxatēɣum</w>
-<w><ana lex="lowt" gr="V,refl,refl_xat,npst,act,subjc,2.s,du.s,pl.s" parts="lowt-xat-ēɣ-ən" gloss="wash-REFL-NPST-2DU/PL.S"></ana><ana lex="lowt" gr="V,refl,refl_xat,npst,act,subjc,2.s,sg.s" parts="lowt-xat-ēɣ-ən" gloss="wash-REFL-NPST-2SG.S"></ana>lowtxatēɣən</w>
+<w><ana lex="lowt" gr="V,refl,refl_xat,pst,act,3.s,sg.s" parts="lowt-xat-as" gloss="wash-REFL-PST"></ana>lowtxatas</w>
+<w><ana lex="lowt" gr="V,refl,refl_xat,npst,act,1.s,sg.s" parts="lowt-xat-ēɣ-um" gloss="wash-REFL-NPST-1SG.S"></ana>lowtxatēɣum</w>
+<w><ana lex="lowt" gr="V,refl,refl_xat,npst,act,2.s,du.s,pl.s" parts="lowt-xat-ēɣ-ən" gloss="wash-REFL-NPST-2DU/PL.S"></ana><ana lex="lowt" gr="V,refl,refl_xat,npst,act,2.s,sg.s" parts="lowt-xat-ēɣ-ən" gloss="wash-REFL-NPST-2SG.S"></ana>lowtxatēɣən</w>
 <w><ana lex="luw" gr="N,sg,3sg,nom" parts="luw-e" gloss="bone-POSS.3SG"></ana><ana lex="luw" gr="N,sg,3sg,nom" parts="luw-e" gloss="horse-POSS.3SG"></ana>luwe</w>
-<w><ana lex="lāw" gr="V,npst,act,subjc,3.s,sg.s" parts="lāw-ēɣ" gloss="say-NPST"></ana>lāwēɣ</w>
+<w><ana lex="lāw" gr="V,npst,act,3.s,sg.s" parts="lāw-ēɣ" gloss="say-NPST"></ana>lāwēɣ</w>
 <w><ana lex="lāɣəl" gr="N,pl,3sg,nom" parts="lāɣl-an-e" gloss="leg-PL-POSS.3SG"></ana>lāɣlane</w>
+<w><ana lex="lēwat" gr="V,pst,act,mir,3.s,sg.s,objc" parts="lēwat-am-e" gloss="lift-MIR.PST-3SG.S"></ana>lēwatame</w>
 <w><ana lex="lēwat" gr="V,act,nmlz,sg,nom" parts="lēwat-an" gloss="lift-NMLZ"></ana>lēwatan</w>
-<w><ana lex="lēwat" gr="V,pst,act,sg.o,3.s,sg.s" parts="lēwat-as-t-e" gloss="lift-PST-SG.O-3SG.S"></ana>lēwataste</w>
-<w><ana lex="lōŋxit" gr="V,refl,refl_axt,npst,act,subjc,3.s,pl.s" parts="lōŋxit-axt-ēɣ-t" gloss="hit-REFL-NPST-3PL.S"></ana>lōŋxitaxtēɣt</w>
+<w><ana lex="lēwat" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="lēwat-as-t-e" gloss="lift-PST-SG.O-3SG.S"></ana>lēwataste</w>
+<w><ana lex="lōŋxit" gr="V,refl,refl_axt,npst,act,3.s,pl.s" parts="lōŋxit-axt-ēɣ-t" gloss="hit-REFL-NPST-3PL.S"></ana>lōŋxitaxtēɣt</w>
 <w><ana lex="man" gr="X" parts="mana" gloss="Q"></ana>mana</w>
-<w><ana lex="maniɣt" gr="V,asp,act,nmlz,sg,abl" parts="maniɣt-as-an-əl" gloss="tear-ASP-NMLZ-ABL"></ana><ana lex="maniɣt" gr="V,asp,act,nmlz,sg,ins" parts="maniɣt-as-an-əl" gloss="tear-ASP-NMLZ-INS"></ana>maniɣtasanəl</w>
+<w><ana lex="maniɣt" gr="V,asp,act,nmlz,sg,abl" parts="maniɣt-as-an-əl" gloss="tear-ASP-NMLZ-ABL"></ana><ana lex="maniɣt" gr="V,asp,act,nmlz,sg,ins" parts="maniɣt-as-an-əl" gloss="tear-ASP-NMLZ-INS"></ana><ana lex="maniɣt" gr="V,pst,act,3.s,pl.s,objc" parts="maniɣt-as-anəl" gloss="tear-PST-3PL.S"></ana>maniɣtasanəl</w>
 <w><ana lex="maniɣt" gr="V,act,inf" parts="maniɣt-aŋkwe" gloss="tear-INF"></ana>maniɣtaŋkwe</w>
-<w><ana lex="maniɣt" gr="V,act,cvb" parts="maniɣt-im" gloss="tear-CVB"></ana><ana lex="maniɣt" gr="V,act,res,sg,nom" parts="maniɣt-im" gloss="tear-RES"></ana><ana lex="maniɣt" gr="V,npst,act,subjc,1.s,sg.s" parts="maniɣt-i-m" gloss="tear-NPST-1SG.S"></ana>maniɣtim</w>
-<w><ana lex="maniɣt" gr="V,npst,act,subjc,3.s,pl.s" parts="maniɣt-ēɣ-t" gloss="tear-NPST-3PL.S"></ana>maniɣtēɣt</w>
-<w><ana lex="mas" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="mas-ap-as" gloss="put.on-ASP-PST"></ana>masapas</w>
-<w><ana lex="mas" gr="V,pst,act,subjc,3.s,sg.s" parts="mas-as" gloss="put.on-PST"></ana>masas</w>
-<w><ana lex="min" gr="V,act,res,sg,nom" parts="min-am" gloss="set.off-RES"></ana><ana lex="min" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="min-am" gloss="set.off-MIR.PST"></ana>minam</w>
-<w><ana lex="min" gr="V,asp,act,res,sg,nom" parts="min-as-um" gloss="set.off-ASP-RES"></ana><ana lex="min" gr="V,asp,pst,act,mir,subjc,3.s,sg.s" parts="min-as-um" gloss="set.off-ASP-MIR.PST"></ana><ana lex="min" gr="V,pst,act,subjc,1.s,sg.s" parts="min-as-um" gloss="set.off-PST-1SG.S"></ana>minasum</w>
-<w><ana lex="mi" gr="V,act,nmlz,sg,2sg,nom" parts="mi-nē-n" gloss="give-NMLZ-POSS.2SG"></ana><ana lex="mi" gr="V,act,nmlz,sg,lat" parts="mi-nē-n" gloss="give-NMLZ-LAT"></ana><ana lex="mi" gr="V,npst,act,mir,subjc,2.s,du.s,pl.s" parts="mi-nē-n" gloss="give-MIR.NPST-2DU/PL.S"></ana><ana lex="mi" gr="V,npst,act,mir,subjc,2.s,sg.s" parts="mi-nē-n" gloss="give-MIR.NPST-2SG.S"></ana><ana lex="min" gr="V,act,imp,2.s,du.s,pl.s" parts="min-ēn" gloss="set.off-IMP.2DU/PL"></ana><ana lex="min" gr="V,act,imp,2.s,pl.o" parts="min-ēn" gloss="set.off-IMP.PL.O.2.S"></ana>minēn</w>
-<w><ana lex="min" gr="V,npst,act,subjc,1.s,sg.s" parts="min-ēɣ-um" gloss="set.off-NPST-1SG.S"></ana>minēɣum</w>
-<w><ana lex="mi" gr="V,npst,act,subjc,3.s,sg.s" parts="mi-ɣ" gloss="give-NPST"></ana>miɣ</w>
-<w><ana lex="mi" gr="V,npst,act,du.o,3.s,sg.s" parts="mi-ɣ-aɣ-e" gloss="give-NPST-DU.O-3SG.S"></ana>miɣaɣe</w>
-<w><ana lex="mi" gr="V,npst,act,du.o,1.s,pl.s" parts="mi-ɣ-aɣ-uw" gloss="give-NPST-DU.O-1PL.S"></ana>miɣaɣuw</w>
-<w><ana lex="mi" gr="V,npst,act,subjc,1.s,pl.s" parts="mi-ɣ-uw" gloss="give-NPST-1PL.S"></ana>miɣuw</w>
+<w><ana lex="maniɣt" gr="V,act,cvb" parts="maniɣt-im" gloss="tear-CVB"></ana><ana lex="maniɣt" gr="V,act,res,sg,nom" parts="maniɣt-im" gloss="tear-RES"></ana><ana lex="maniɣt" gr="V,npst,act,1.s,sg.s" parts="maniɣt-i-m" gloss="tear-NPST-1SG.S"></ana>maniɣtim</w>
+<w><ana lex="maniɣt" gr="V,npst,act,3.s,pl.s" parts="maniɣt-ēɣ-t" gloss="tear-NPST-3PL.S"></ana>maniɣtēɣt</w>
+<w><ana lex="mas" gr="V,asp,pst,act,3.s,sg.s" parts="mas-ap-as" gloss="put.on-ASP-PST"></ana>masapas</w>
+<w><ana lex="mas" gr="V,pst,act,3.s,sg.s" parts="mas-as" gloss="put.on-PST"></ana>masas</w>
+<w><ana lex="min" gr="V,act,res,sg,nom" parts="min-am" gloss="set.off-RES"></ana><ana lex="min" gr="V,pst,act,mir,3.s,sg.s" parts="min-am" gloss="set.off-MIR.PST"></ana>minam</w>
+<w><ana lex="min" gr="V,asp,act,res,sg,nom" parts="min-as-um" gloss="set.off-ASP-RES"></ana><ana lex="min" gr="V,asp,pst,act,mir,3.s,sg.s" parts="min-as-um" gloss="set.off-ASP-MIR.PST"></ana><ana lex="min" gr="V,pst,act,1.s,sg.s" parts="min-as-um" gloss="set.off-PST-1SG.S"></ana>minasum</w>
+<w><ana lex="mi" gr="V,act,nmlz,sg,2sg,nom" parts="mi-nē-n" gloss="give-NMLZ-POSS.2SG"></ana><ana lex="mi" gr="V,act,nmlz,sg,lat" parts="mi-nē-n" gloss="give-NMLZ-LAT"></ana><ana lex="mi" gr="V,npst,act,mir,2.s,du.s,pl.s" parts="mi-nē-n" gloss="give-MIR.NPST-2DU/PL.S"></ana><ana lex="mi" gr="V,npst,act,mir,2.s,sg.s" parts="mi-nē-n" gloss="give-MIR.NPST-2SG.S"></ana><ana lex="mi" gr="V,npst,act,mir,3.s,du.s,objc" parts="mi-n-ēn" gloss="give-MIR.NPST-3DU.S"></ana><ana lex="min" gr="V,act,imp,2.s,du.s,pl.s" parts="min-ēn" gloss="set.off-IMP.2DU/PL"></ana><ana lex="min" gr="V,act,imp,2.s,pl.o,objc" parts="min-ēn" gloss="set.off-IMP.PL.O.2.S"></ana>minēn</w>
+<w><ana lex="min" gr="V,npst,act,1.s,sg.s" parts="min-ēɣ-um" gloss="set.off-NPST-1SG.S"></ana>minēɣum</w>
+<w><ana lex="mi" gr="V,npst,act,3.s,sg.s" parts="mi-ɣ" gloss="give-NPST"></ana>miɣ</w>
+<w><ana lex="mi" gr="V,npst,act,du.o,objc,3.s,sg.s" parts="mi-ɣ-aɣ-e" gloss="give-NPST-DU.O-3SG.S"></ana>miɣaɣe</w>
+<w><ana lex="mi" gr="V,npst,act,du.o,objc,1.s,pl.s" parts="mi-ɣ-aɣ-uw" gloss="give-NPST-DU.O-1PL.S"></ana>miɣaɣuw</w>
+<w><ana lex="mi" gr="V,npst,act,1.s,pl.s" parts="mi-ɣ-uw" gloss="give-NPST-1PL.S"></ana>miɣuw</w>
 <w><ana lex="moɕɕa" gr="N,sg,nom" parts="moɕɕa" gloss="a.little"></ana>moɕɕa</w>
 <w><ana lex="muli" gr="ADJ,sg,nom" parts="muli" gloss="male.bed"></ana>muli</w>
 <w><ana lex="muwal" gr="X" parts="muwal" gloss="around"></ana>muwal</w>
@@ -364,31 +371,32 @@
 <w><ana lex="nor" gr="N,pl,lat" parts="nor-ət-n" gloss="log-PL-LAT"></ana>norətn</w>
 <w><ana lex="nupəl" gr="N,sg,3pl,nom" parts="nupl-anəl" gloss="towards-POSS.3PL"></ana>nuplanəl</w>
 <w><ana lex="nān" gr="PRON" parts="nān" gloss="2PL"></ana>nān</w>
-<w><ana lex="nēɣl" gr="V,asp,pst,act,subjc,3.s,pl.s" parts="nēɣl-ap-as-ət" gloss="appear-ASP-PST-3PL.S"></ana>nēɣlapasət</w>
-<w><ana lex="nēɣl" gr="V,asp,npst,act,subjc,3.s,pl.s" parts="nēɣl-ap-ēɣ-t" gloss="appear-ASP-NPST-3PL.S"></ana>nēɣlapēɣt</w>
-<w><ana lex="nēɣl" gr="V,pst,act,subjc,3.s,pl.s" parts="nēɣl-əs-ət" gloss="appear-PST-3PL.S"></ana>nēɣləsət</w>
-<w><ana lex="nēɣ" gr="V,pst,act,sg.o,3.s,sg.s" parts="nēɣ-əs-t-e" gloss="tie-PST-SG.O-3SG.S"></ana>nēɣəste</w>
+<w><ana lex="nēɣl" gr="V,asp,pst,act,3.s,pl.s" parts="nēɣl-ap-as-ət" gloss="appear-ASP-PST-3PL.S"></ana>nēɣlapasət</w>
+<w><ana lex="nēɣl" gr="V,asp,npst,act,3.s,pl.s" parts="nēɣl-ap-ēɣ-t" gloss="appear-ASP-NPST-3PL.S"></ana>nēɣlapēɣt</w>
+<w><ana lex="nēɣl" gr="V,pst,act,3.s,pl.s" parts="nēɣl-əs-ət" gloss="appear-PST-3PL.S"></ana>nēɣləsət</w>
+<w><ana lex="nēɣ" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="nēɣ-əs-t-e" gloss="tie-PST-SG.O-3SG.S"></ana>nēɣəste</w>
 <w><ana lex="nōx=" gr="PREV" parts="nōx" gloss="up"></ana>nōx</w>
-<w><ana lex="oj" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="oj-iɣp-as" gloss="fall.asleep-ASP-PST"></ana><ana lex="oj" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="oj-iɣp-as" gloss="run.away-ASP-PST"></ana>ojiɣpas</w>
+<w><ana lex="oj" gr="V,asp,pst,act,3.s,sg.s" parts="oj-iɣp-as" gloss="fall.asleep-ASP-PST"></ana><ana lex="oj" gr="V,asp,pst,act,3.s,sg.s" parts="oj-iɣp-as" gloss="run.away-ASP-PST"></ana>ojiɣpas</w>
 <w><ana lex="osma" gr="N,sg,nom" parts="osma" gloss="pillow"></ana>osma</w>
 <w><ana lex="oxsar" gr="N,sg,abl" parts="oxsar-əl" gloss="fox-ABL"></ana><ana lex="oxsar" gr="N,sg,ins" parts="oxsar-əl" gloss="fox-INS"></ana>oxsarəl</w>
 <w><ana lex="palit" gr="N,sg,nom" parts="palit" gloss="length"></ana>palit</w>
 <w><ana lex="palt" gr="N,sg,1sg,nom" parts="palt-um" gloss="to-POSS.1SG"></ana>paltum</w>
 <w><ana lex="palt" gr="N,sg,2du_pl,nom" parts="palt-ēn" gloss="to-POSS.2DU/PL"></ana><ana lex="palt" gr="N,sg,3sg,lat" parts="palt-ē-n" gloss="to-POSS.3SG-LAT"></ana>paltēn</w>
-<w><ana lex="pat" gr="V,pst,act,subjc,3.s,du.s" parts="pat-s-iɣ" gloss="fall-PST-3DU.S"></ana>patsiɣ</w>
+<w><ana lex="pat" gr="V,pst,act,3.s,du.s" parts="pat-s-iɣ" gloss="fall-PST-3DU.S"></ana>patsiɣ</w>
 <w><ana lex="patta" gr="N,sg,abl" parts="patta-l" gloss="bottom-ABL"></ana><ana lex="patta" gr="N,sg,ins" parts="patta-l" gloss="bottom-INS"></ana>pattal</w>
 <w><ana lex="pat" gr="V,tr,act,nmlz,sg,nom" parts="pat-t-an" gloss="fall-TR-NMLZ"></ana><ana lex="patta" gr="N,sg,2sg,nom" parts="patta-n" gloss="bottom-POSS.2SG"></ana><ana lex="patta" gr="N,sg,lat" parts="patta-n" gloss="bottom-LAT"></ana>pattan</w>
 <w><ana lex="patta" gr="N,du,2du_pl,abl" parts="patta-ɣ-en-əl" gloss="bottom-DU-POSS.2DU/PL-ABL"></ana><ana lex="patta" gr="N,du,2du_pl,ins" parts="patta-ɣ-en-əl" gloss="bottom-DU-POSS.2DU/PL-INS"></ana><ana lex="patta" gr="N,du,3sg,abl" parts="patta-ɣ-e-nəl" gloss="bottom-DU-POSS.3SG-ABL"></ana>pattaɣenəl</w>
-<w><ana lex="pat" gr="V,tr,npst,act,pl.o,1.s,sg.s" parts="pat-t-i-jan-um" gloss="fall-TR-NPST-PL.O-1SG.S"></ana>pattijanum</w>
+<w><ana lex="pat" gr="V,tr,npst,act,pl.o,objc,1.s,sg.s" parts="pat-t-i-jan-um" gloss="fall-TR-NPST-PL.O-1SG.S"></ana>pattijanum</w>
 <w><ana lex="pat" gr="V,act,inf" parts="pat-uŋkwe" gloss="fall-INF"></ana>patuŋkwe</w>
-<w><ana lex="pat" gr="V,npst,act,subjc,3.s,sg.s" parts="pat-ēɣ" gloss="fall-NPST"></ana>patēɣ</w>
+<w><ana lex="pat" gr="V,npst,act,3.s,sg.s" parts="pat-ēɣ" gloss="fall-NPST"></ana>patēɣ</w>
 <w><ana lex="pil" gr="V,act,inf" parts="pil-uŋkwe" gloss="fear-INF"></ana>piluŋkwe</w>
-<w><ana lex="pin" gr="V,pst,act,sg.o,3.s,sg.s" parts="pin-əs-t-e" gloss="put-PST-SG.O-3SG.S"></ana>pinəste</w>
+<w><ana lex="pil" gr="V,npst,act,3.s,du.s,objc" parts="pil-ēɣ-ēn" gloss="fear-NPST-3DU.S"></ana>pilēɣēn</w>
+<w><ana lex="pin" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="pin-əs-t-e" gloss="put-PST-SG.O-3SG.S"></ana>pinəste</w>
 <w><ana lex="pora" gr="N,sg,nom" parts="pora" gloss="time"></ana>pora</w>
 <w><ana lex="pora" gr="N,pl,nom" parts="pora-t" gloss="time-PL"></ana><ana lex="pora" gr="N,sg,loc" parts="pora-t" gloss="time-LOC"></ana>porat</w>
 <w><ana lex="pors" gr="N,sg,nom" parts="pors" gloss="litter"></ana>pors</w>
-<w><ana lex="poxt" gr="V,asp,npst,act,subjc,3.s,du.s" parts="poxt-as-i-ɣ" gloss="cling-ASP-NPST-3DU.S"></ana><ana lex="poxt" gr="V,pst,act,subjc,3.s,du.s" parts="poxt-as-iɣ" gloss="cling-PST-3DU.S"></ana>poxtasiɣ</w>
-<w><ana lex="poxt" gr="V,act,imp,2.s,du.s,pl.s" parts="poxt-ēn" gloss="cling-IMP.2DU/PL"></ana><ana lex="poxt" gr="V,act,imp,2.s,pl.o" parts="poxt-ēn" gloss="cling-IMP.PL.O.2.S"></ana>poxtēn</w>
+<w><ana lex="poxt" gr="V,asp,npst,act,3.s,du.s" parts="poxt-as-i-ɣ" gloss="cling-ASP-NPST-3DU.S"></ana><ana lex="poxt" gr="V,pst,act,3.s,du.s" parts="poxt-as-iɣ" gloss="cling-PST-3DU.S"></ana>poxtasiɣ</w>
+<w><ana lex="poxt" gr="V,act,imp,2.s,du.s,pl.s" parts="poxt-ēn" gloss="cling-IMP.2DU/PL"></ana><ana lex="poxt" gr="V,act,imp,2.s,pl.o,objc" parts="poxt-ēn" gloss="cling-IMP.PL.O.2.S"></ana>poxtēn</w>
 <w><ana lex="pur" gr="V,npst,act,3.s,sg.s" parts="pur-i" gloss="gnaw-NPST.3SG"></ana>puri</w>
 <w><ana lex="puw" gr="V,tr,asp,past,pst,3.s,du.s" parts="puw-t-m-awe-s-iɣ" gloss="catch-TR-ASP-PASS-PST-3DU.S"></ana><ana lex="puwt" gr="V,asp,past,pst,3.s,du.s" parts="puwt-m-awe-s-iɣ" gloss="poke-ASP-PASS-PST-3DU.S"></ana>puwtmawesiɣ</w>
 <w><ana lex="puw" gr="V,act,inf" parts="puw-uŋkwe" gloss="catch-INF"></ana>puwuŋkwe</w>
@@ -397,7 +405,8 @@
 <w><ana lex="puŋk" gr="N,sg,abl" parts="puŋk-əl" gloss="head-ABL"></ana><ana lex="puŋk" gr="N,sg,abl" parts="puŋk-əl" gloss="tooth-ABL"></ana><ana lex="puŋk" gr="N,sg,ins" parts="puŋk-əl" gloss="head-INS"></ana><ana lex="puŋk" gr="N,sg,ins" parts="puŋk-əl" gloss="tooth-INS"></ana>puŋkəl</w>
 <w><ana lex="pāl" gr="N,sg,lat" parts="pāl-n" gloss="half-LAT"></ana><ana lex="pāl" gr="N,sg,lat" parts="pāl-n" gloss="side-LAT"></ana>pāln</w>
 <w><ana lex="pāl" gr="N,pl,nom" parts="pāl-t" gloss="half-PL"></ana><ana lex="pāl" gr="N,pl,nom" parts="pāl-t" gloss="side-PL"></ana><ana lex="pāl" gr="N,sg,loc" parts="pāl-t" gloss="half-LOC"></ana><ana lex="pāl" gr="N,sg,loc" parts="pāl-t" gloss="side-LOC"></ana>pālt</w>
-<w><ana lex="pālt" gr="V,pst,act,subjc,3.s,pl.s" parts="pālt-s-ət" gloss="kindle-PST-3PL.S"></ana>pāltsət</w>
+<w><ana lex="pālt" gr="V,pst,act,3.s,pl.s,objc" parts="pālt-s-anəl" gloss="kindle-PST-3PL.S"></ana>pāltsanəl</w>
+<w><ana lex="pālt" gr="V,pst,act,3.s,pl.s" parts="pālt-s-ət" gloss="kindle-PST-3PL.S"></ana>pāltsət</w>
 <w><ana lex="pālt" gr="V,past,pst,3.s,pl.s" parts="pālt-we-s-ət" gloss="kindle-PASS-PST-3PL.S"></ana>pāltwesət</w>
 <w><ana lex="pāl" gr="N,sg,1sg,lat" parts="pāl-um-n" gloss="half-POSS.1SG-LAT"></ana><ana lex="pāl" gr="N,sg,1sg,lat" parts="pāl-um-n" gloss="side-POSS.1SG-LAT"></ana>pālumn</w>
 <w><ana lex="pāl" gr="N,sg,1sg,loc" parts="pāl-um-t" gloss="half-POSS.1SG-LOC"></ana><ana lex="pāl" gr="N,sg,1sg,loc" parts="pāl-um-t" gloss="side-POSS.1SG-LOC"></ana>pālumt</w>
@@ -410,34 +419,35 @@
 <w><ana lex="pīɣ" gr="N,sg,nom" parts="pīɣ" gloss="son"></ana>pīɣ</w>
 <w><ana lex="pīɣ" gr="N,sg,3pl,nom" parts="pīɣ-anəl" gloss="son-POSS.3PL"></ana>pīɣanəl</w>
 <w><ana lex="pōs" gr="V,past,pst,3.s,pl.s" parts="pōs-wē-s-ət" gloss="chase-PASS-PST-3PL.S"></ana>pōswēsət</w>
-<w><ana lex="pūns" gr="V,npst,act,pl.o,1.s,pl.s" parts="pūns-i-jan-uw" gloss="open-NPST-PL.O-1PL.S"></ana>pūnsijanuw</w>
-<w><ana lex="pūns" gr="V,asp,npst,act,subjc,1.s,sg.s" parts="pūs-m-ēɣ-um" gloss="open-ASP-NPST-1SG.S"></ana>pūsmēɣum</w>
-<w><ana lex="pūns" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="pūs-m-əs" gloss="open-ASP-PST"></ana>pūsməs</w>
-<w><ana lex="pūns" gr="V,asp,pst,act,subjc,1.s,sg.s" parts="pūs-m-əs-um" gloss="open-ASP-PST-1SG.S"></ana>pūsməsum</w>
-<w><ana lex="raɣat" gr="V,pst,act,subjc,3.s,pl.s" parts="raɣat-as-ət" gloss="fall-PST-3PL.S"></ana>raɣatasət</w>
-<w><ana lex="roxt" gr="V,pst,act,subjc,3.s,pl.s" parts="roxt-as-ət" gloss="be.frightened-PST-3PL.S"></ana>roxtasət</w>
-<w><ana lex="roxt" gr="V,pst,act,subjc,3.s,sg.s" parts="roxt-əs" gloss="be.frightened-PST"></ana>roxtəs</w>
+<w><ana lex="pūns" gr="V,npst,act,pl.o,objc,1.s,pl.s" parts="pūns-i-jan-uw" gloss="open-NPST-PL.O-1PL.S"></ana>pūnsijanuw</w>
+<w><ana lex="pūns" gr="V,asp,npst,act,1.s,sg.s" parts="pūs-m-ēɣ-um" gloss="open-ASP-NPST-1SG.S"></ana>pūsmēɣum</w>
+<w><ana lex="pūns" gr="V,asp,pst,act,3.s,sg.s" parts="pūs-m-əs" gloss="open-ASP-PST"></ana>pūsməs</w>
+<w><ana lex="pūns" gr="V,asp,pst,act,1.s,sg.s" parts="pūs-m-əs-um" gloss="open-ASP-PST-1SG.S"></ana>pūsməsum</w>
+<w><ana lex="raɣat" gr="V,pst,act,3.s,pl.s" parts="raɣat-as-ət" gloss="fall-PST-3PL.S"></ana>raɣatasət</w>
+<w><ana lex="roxt" gr="V,pst,act,3.s,pl.s" parts="roxt-as-ət" gloss="be.frightened-PST-3PL.S"></ana>roxtasət</w>
+<w><ana lex="roxt" gr="V,pst,act,3.s,sg.s" parts="roxt-əs" gloss="be.frightened-PST"></ana>roxtəs</w>
 <w><ana lex="rāt" gr="V,past,pst,3.s,sg.s" parts="rāt-we-s" gloss="hit-PASS-PST"></ana>rātwes</w>
 <w><ana lex="rōw" gr="V,npst,act,3.s,sg.s" parts="rōw-i" gloss="possible-NPST.3SG"></ana>rōwi</w>
 <w><ana lex="saj" gr="N,sg,lat" parts="saj-na" gloss="pus-LAT"></ana>sajna</w>
-<w><ana lex="sakwat" gr="V,act,res,pl,nom" parts="sakwat-am-t" gloss="break-RES-PL"></ana><ana lex="sakwat" gr="V,pst,act,mir,subjc,3.s,pl.s" parts="sakwat-am-t" gloss="break-MIR.PST-3PL.S"></ana>sakwatamt</w>
+<w><ana lex="sakwat" gr="V,act,res,pl,nom" parts="sakwat-am-t" gloss="break-RES-PL"></ana><ana lex="sakwat" gr="V,pst,act,mir,3.s,pl.s" parts="sakwat-am-t" gloss="break-MIR.PST-3PL.S"></ana>sakwatamt</w>
 <w><ana lex="sakwat" gr="V,past,pst,3.s,sg.s" parts="sakwat-awe-s" gloss="break-PASS-PST"></ana>sakwatawes</w>
 <w><ana lex="sakwat" gr="V,act,inf" parts="sakwat-aŋkwe" gloss="break-INF"></ana>sakwataŋkwe</w>
-<w><ana lex="sakwat" gr="V,npst,act,sg.o,1.s,pl.s" parts="sakwat-i-l-uw" gloss="break-NPST-SG.O-1PL.S"></ana>sakwatiluw</w>
+<w><ana lex="sakwat" gr="V,npst,act,sg.o,objc,1.s,pl.s" parts="sakwat-i-l-uw" gloss="break-NPST-SG.O-1PL.S"></ana>sakwatiluw</w>
 <w><ana lex="sam" gr="N,sg,nom" parts="sam" gloss="eye"></ana>sam</w>
-<w><ana lex="sart" gr="V,act,res,sg,nom" parts="sart-um" gloss="saw-RES"></ana><ana lex="sart" gr="V,act,res,sg,nom" parts="sart-um" gloss="smear-RES"></ana><ana lex="sart" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="sart-um" gloss="saw-MIR.PST"></ana><ana lex="sart" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="sart-um" gloss="smear-MIR.PST"></ana>sartum</w>
+<w><ana lex="sart" gr="V,act,res,sg,nom" parts="sart-um" gloss="saw-RES"></ana><ana lex="sart" gr="V,act,res,sg,nom" parts="sart-um" gloss="smear-RES"></ana><ana lex="sart" gr="V,pst,act,mir,3.s,sg.s" parts="sart-um" gloss="saw-MIR.PST"></ana><ana lex="sart" gr="V,pst,act,mir,3.s,sg.s" parts="sart-um" gloss="smear-MIR.PST"></ana>sartum</w>
 <w><ana lex="saw" gr="N,pl,nom" parts="saw-it" gloss="laziness-PL"></ana><ana lex="saw" gr="N,pl,nom" parts="saw-it" gloss="trouble-PL"></ana>sawit</w>
 <w><ana lex="sim" gr="N,sg,2sg,nom" parts="sim-ən" gloss="heart-POSS.2SG"></ana>simən</w>
 <w><ana lex="sim" gr="N,prop,prop1,du,nom" parts="sim-əŋ-iɣ" gloss="heart-PROP1-DU"></ana><ana lex="sim" gr="N,prop,prop1,sg,trans" parts="sim-əŋ-iɣ" gloss="heart-PROP1-TRANS"></ana>siməŋiɣ</w>
-<w><ana lex="sipɣ" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="sipɣ-as-as" gloss="suck-ASP-PST"></ana>sipɣasas</w>
-<w><ana lex="sipɣ" gr="V,npst,act,sg.o,1.s,pl.s" parts="sipɣ-i-l-uw" gloss="suck-NPST-SG.O-1PL.S"></ana>sipɣiluw</w>
+<w><ana lex="sipɣ" gr="V,asp,pst,act,3.s,sg.s" parts="sipɣ-as-as" gloss="suck-ASP-PST"></ana>sipɣasas</w>
+<w><ana lex="sipɣ" gr="V,npst,act,sg.o,objc,1.s,pl.s" parts="sipɣ-i-l-uw" gloss="suck-NPST-SG.O-1PL.S"></ana>sipɣiluw</w>
 <w><ana lex="sis" gr="N,sg,nom" parts="sis" gloss="back"></ana>sis</w>
 <w><ana lex="sis" gr="N,sg,lat" parts="sis-n" gloss="back-LAT"></ana>sisn</w>
 <w><ana lex="sis" gr="N,sg,3pl,nom" parts="sis-nəl" gloss="back-POSS.3PL"></ana><ana lex="sis" gr="N,sg,abl" parts="sis-nəl" gloss="back-ABL"></ana>sisnəl</w>
 <w><ana lex="sis" gr="N,pl,nom" parts="sis-t" gloss="back-PL"></ana><ana lex="sis" gr="N,sg,loc" parts="sis-t" gloss="back-LOC"></ana>sist</w>
 <w><ana lex="sis" gr="N,sg,3sg,loc" parts="sis-ē-t" gloss="back-POSS.3SG-LOC"></ana>sisēt</w>
-<w><ana lex="sorumpat" gr="V,pst,act,subjc,3.s,sg.s" parts="sorumpat-əs" gloss="die-PST"></ana>sorumpatəs</w>
+<w><ana lex="sorumpat" gr="V,pst,act,3.s,sg.s" parts="sorumpat-əs" gloss="die-PST"></ana>sorumpatəs</w>
 <w><ana lex="sun" gr="N,sg,3sg,nom" parts="sun-e" gloss="sledge-POSS.3SG"></ana>sune</w>
+<w><ana lex="suns" gr="V,asp,npst,act,3.s,pl.s,objc" parts="suns-iɣl-i-janəl" gloss="look-ASP-NPST-3PL.S"></ana>sunsiɣlijanəl</w>
 <w><ana lex="sun" gr="N,sg,2du_pl,nom" parts="sun-ēn" gloss="sledge-POSS.2DU/PL"></ana><ana lex="sun" gr="N,sg,3sg,lat" parts="sun-ē-n" gloss="sledge-POSS.3SG-LAT"></ana>sunēn</w>
 <w><ana lex="sup" gr="N,pl,3sg,nom" parts="sup-an-e" gloss="half-PL-POSS.3SG"></ana><ana lex="sup" gr="N,pl,3sg,nom" parts="sup-an-e" gloss="shirt-PL-POSS.3SG"></ana>supane</w>
 <w><ana lex="sup" gr="N,sg,2sg,nom" parts="sup-ən" gloss="half-POSS.2SG"></ana><ana lex="sup" gr="N,sg,2sg,nom" parts="sup-ən" gloss="shirt-POSS.2SG"></ana>supən</w>
@@ -446,93 +456,98 @@
 <w><ana lex="sāɣr" gr="V,asp,past,pst,3.s,pl.s" parts="sāɣr-ap-awe-s-ət" gloss="chop-ASP-PASS-PST-3PL.S"></ana>sāɣrapawesət</w>
 <w><ana lex="sāɣr" gr="V,past,pst,3.s,sg.s" parts="sāɣr-uwe-s" gloss="chop-PASS-PST"></ana>sāɣruwes</w>
 <w><ana lex="sāɣr" gr="V,act,inf" parts="sāɣr-uŋkwe" gloss="chop-INF"></ana>sāɣruŋkwe</w>
-<w><ana lex="sāɣr" gr="V,pst,act,subjc,3.s,pl.s" parts="sāɣr-əs-ət" gloss="chop-PST-3PL.S"></ana>sāɣrəsət</w>
+<w><ana lex="sāɣr" gr="V,pst,act,3.s,pl.s" parts="sāɣr-əs-ət" gloss="chop-PST-3PL.S"></ana>sāɣrəsət</w>
 <w><ana lex="sēməl" gr="ADJ,sg,nom" parts="sēməl" gloss="black"></ana>sēməl</w>
 <w><ana lex="sūlt" gr="V,asp,npst,act,3.s,sg.s" parts="sūlt-ɣal-i" gloss="jump-ASP-NPST.3SG"></ana>sūltɣali</w>
 <w><ana lex="sūp" gr="N,sg,nom" parts="sūp" gloss="mouth"></ana>sūp</w>
 <w><ana lex="sūp" gr="N,sg,3sg,nom" parts="sūp-e" gloss="mouth-POSS.3SG"></ana>sūpe</w>
 <w><ana lex="taj" gr="N,pl,1sg,nom" parts="taj-an-um" gloss="scoop-PL-POSS.1SG"></ana><ana lex="tē" gr="V,act,nmlz,sg,1sg,nom" parts="taj-an-um" gloss="eat-NMLZ-POSS.1SG"></ana>tajanum</w>
-<w><ana lex="tē" gr="V,asp,npst,act,sg.o,1.s,sg.s" parts="taj-ap-i-l-um" gloss="eat-ASP-NPST-SG.O-1SG.S"></ana>tajapilum</w>
-<w><ana lex="tē" gr="V,asp,npst,act,sg.o,2.s,du.s,pl.s" parts="taj-ap-i-l-ən" gloss="eat-ASP-NPST-SG.O-2DU/PL.S"></ana><ana lex="tē" gr="V,asp,npst,act,sg.o,2.s,sg.s" parts="taj-ap-i-l-ən" gloss="eat-ASP-NPST-SG.O-2SG.S"></ana>tajapilən</w>
-<w><ana lex="tax" gr="V,pst,act,subjc,3.s,pl.s" parts="tax-as-ət" gloss="set.off-PST-3PL.S"></ana><ana lex="taŋx" gr="V,pst,act,subjc,3.s,pl.s" parts="tax-as-ət" gloss="want-PST-3PL.S"></ana>taxasət</w>
+<w><ana lex="tē" gr="V,asp,npst,act,sg.o,objc,1.s,sg.s" parts="taj-ap-i-l-um" gloss="eat-ASP-NPST-SG.O-1SG.S"></ana>tajapilum</w>
+<w><ana lex="tē" gr="V,asp,npst,act,sg.o,objc,2.s,du.s,pl.s" parts="taj-ap-i-l-ən" gloss="eat-ASP-NPST-SG.O-2DU/PL.S"></ana><ana lex="tē" gr="V,asp,npst,act,sg.o,objc,2.s,sg.s" parts="taj-ap-i-l-ən" gloss="eat-ASP-NPST-SG.O-2SG.S"></ana>tajapilən</w>
+<w><ana lex="tax" gr="V,pst,act,3.s,pl.s" parts="tax-as-ət" gloss="set.off-PST-3PL.S"></ana><ana lex="taŋx" gr="V,pst,act,3.s,pl.s" parts="tax-as-ət" gloss="want-PST-3PL.S"></ana>taxasət</w>
 <w><ana lex="tiji" gr="PRON" parts="tiji" gloss="this"></ana>tiji</w>
 <w><ana lex="tit" gr="N,sg,lat" parts="tit-n" gloss="foothills-LAT"></ana>titn</w>
-<w><ana lex="titt" gr="V,act,subst1,sg,3sg,nom" parts="titt-it-e" gloss="feed-SUBST1-POSS.3SG"></ana><ana lex="titt" gr="V,npst,act,sg.o,3.s,sg.s" parts="titt-i-t-e" gloss="feed-NPST-SG.O-3SG.S"></ana>tittite</w>
-<w><ana lex="titt" gr="V,pst,act,sg.o,3.s,sg.s" parts="titt-əs-t-e" gloss="feed-PST-SG.O-3SG.S"></ana>tittəste</w>
+<w><ana lex="titt" gr="V,act,subst1,sg,3sg,nom" parts="titt-it-e" gloss="feed-SUBST1-POSS.3SG"></ana><ana lex="titt" gr="V,npst,act,sg.o,objc,3.s,sg.s" parts="titt-i-t-e" gloss="feed-NPST-SG.O-3SG.S"></ana>tittite</w>
+<w><ana lex="titt" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="titt-əs-t-e" gloss="feed-PST-SG.O-3SG.S"></ana>tittəste</w>
 <w><ana lex="tiɣəl" gr="ADV" parts="tiɣəl" gloss="now"></ana>tiɣəl</w>
 <w><ana lex="tot" gr="N,sg,2du_pl,nom" parts="tot-en" gloss="STEM-POSS.2DU/PL"></ana><ana lex="tot" gr="N,sg,2du_pl,nom" parts="tot-en" gloss="there-POSS.2DU/PL"></ana><ana lex="tot" gr="N,sg,3sg,lat" parts="tot-e-n" gloss="STEM-POSS.3SG-LAT"></ana><ana lex="tot" gr="N,sg,3sg,lat" parts="tot-e-n" gloss="there-POSS.3SG-LAT"></ana><ana lex="tot" gr="V,act,imp,2.s,sg.s" parts="tot-en" gloss="carry-IMP.2SG"></ana><ana lex="tot" gr="V,act,imp,2.s,sg.s" parts="tot-en" gloss="lead-IMP.2SG"></ana><ana lex="tot" gr="V,act,nmlz,sg,nom" parts="tot-en" gloss="carry-NMLZ"></ana><ana lex="tot" gr="V,act,nmlz,sg,nom" parts="tot-en" gloss="lead-NMLZ"></ana>toten</w>
-<w><ana lex="tot" gr="V,asp,pst,act,du.o,3.s,sg.s" parts="tot-iɣl-as-aɣ-e" gloss="carry-ASP-PST-DU.O-3SG.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,3.s,sg.s" parts="tot-iɣl-as-aɣ-e" gloss="lead-ASP-PST-DU.O-3SG.S"></ana>totiɣlasaɣe</w>
-<w><ana lex="tot" gr="V,asp,pst,act,du.o,2.s,du.s,pl.s" parts="tot-iɣl-as-aɣ-ən" gloss="carry-ASP-PST-DU.O-2DU/PL.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,2.s,du.s,pl.s" parts="tot-iɣl-as-aɣ-ən" gloss="lead-ASP-PST-DU.O-2DU/PL.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,2.s,sg.s" parts="tot-iɣl-as-aɣ-ən" gloss="carry-ASP-PST-DU.O-2SG.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,2.s,sg.s" parts="tot-iɣl-as-aɣ-ən" gloss="lead-ASP-PST-DU.O-2SG.S"></ana>totiɣlasaɣən</w>
+<w><ana lex="tot" gr="V,asp,pst,act,du.o,objc,3.s,sg.s" parts="tot-iɣl-as-aɣ-e" gloss="carry-ASP-PST-DU.O-3SG.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,objc,3.s,sg.s" parts="tot-iɣl-as-aɣ-e" gloss="lead-ASP-PST-DU.O-3SG.S"></ana>totiɣlasaɣe</w>
+<w><ana lex="tot" gr="V,asp,pst,act,du.o,objc,2.s,du.s,pl.s" parts="tot-iɣl-as-aɣ-ən" gloss="carry-ASP-PST-DU.O-2DU/PL.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,objc,2.s,du.s,pl.s" parts="tot-iɣl-as-aɣ-ən" gloss="lead-ASP-PST-DU.O-2DU/PL.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,objc,2.s,sg.s" parts="tot-iɣl-as-aɣ-ən" gloss="carry-ASP-PST-DU.O-2SG.S"></ana><ana lex="tot" gr="V,asp,pst,act,du.o,objc,2.s,sg.s" parts="tot-iɣl-as-aɣ-ən" gloss="lead-ASP-PST-DU.O-2SG.S"></ana>totiɣlasaɣən</w>
+<w><ana lex="tot" gr="V,asp,pst,act,mir,3.s,sg.s,objc" parts="tot-iɣp-am-e" gloss="carry-ASP-MIR.PST-3SG.S"></ana><ana lex="tot" gr="V,asp,pst,act,mir,3.s,sg.s,objc" parts="tot-iɣp-am-e" gloss="lead-ASP-MIR.PST-3SG.S"></ana>totiɣpame</w>
 <w><ana lex="tot" gr="V,asp,past,pst,3.s,du.s" parts="tot-iɣp-awe-s-iɣ" gloss="carry-ASP-PASS-PST-3DU.S"></ana><ana lex="tot" gr="V,asp,past,pst,3.s,du.s" parts="tot-iɣp-awe-s-iɣ" gloss="lead-ASP-PASS-PST-3DU.S"></ana>totiɣpawesiɣ</w>
 <w><ana lex="tot" gr="V,asp,past,pst,3.s,pl.s" parts="tot-iɣp-awē-s-ət" gloss="carry-ASP-PASS-PST-3PL.S"></ana><ana lex="tot" gr="V,asp,past,pst,3.s,pl.s" parts="tot-iɣp-awē-s-ət" gloss="lead-ASP-PASS-PST-3PL.S"></ana>totiɣpawēsət</w>
-<w><ana lex="tot" gr="V,asp,npst,act,du.o,1.s,pl.s" parts="tot-iɣp-ēɣ-aɣ-uw" gloss="carry-ASP-NPST-DU.O-1PL.S"></ana><ana lex="tot" gr="V,asp,npst,act,du.o,1.s,pl.s" parts="tot-iɣp-ēɣ-aɣ-uw" gloss="lead-ASP-NPST-DU.O-1PL.S"></ana>totiɣpēɣaɣuw</w>
-<w><ana lex="tot" gr="V,pst,act,du.o,3.s,sg.s" parts="tot-s-aɣ-e" gloss="carry-PST-DU.O-3SG.S"></ana><ana lex="tot" gr="V,pst,act,du.o,3.s,sg.s" parts="tot-s-aɣ-e" gloss="lead-PST-DU.O-3SG.S"></ana>totsaɣe</w>
-<w><ana lex="tot" gr="N,sg,1sg,nom" parts="tot-um" gloss="STEM-POSS.1SG"></ana><ana lex="tot" gr="N,sg,1sg,nom" parts="tot-um" gloss="there-POSS.1SG"></ana><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-um" gloss="carry-RES"></ana><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-um" gloss="lead-RES"></ana><ana lex="tot" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="tot-um" gloss="carry-MIR.PST"></ana><ana lex="tot" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="tot-um" gloss="lead-MIR.PST"></ana>totum</w>
+<w><ana lex="tot" gr="V,asp,npst,act,du.o,objc,1.s,pl.s" parts="tot-iɣp-ēɣ-aɣ-uw" gloss="carry-ASP-NPST-DU.O-1PL.S"></ana><ana lex="tot" gr="V,asp,npst,act,du.o,objc,1.s,pl.s" parts="tot-iɣp-ēɣ-aɣ-uw" gloss="lead-ASP-NPST-DU.O-1PL.S"></ana>totiɣpēɣaɣuw</w>
+<w><ana lex="tot" gr="V,pst,act,du.o,objc,3.s,sg.s" parts="tot-s-aɣ-e" gloss="carry-PST-DU.O-3SG.S"></ana><ana lex="tot" gr="V,pst,act,du.o,objc,3.s,sg.s" parts="tot-s-aɣ-e" gloss="lead-PST-DU.O-3SG.S"></ana>totsaɣe</w>
+<w><ana lex="tot" gr="N,sg,1sg,nom" parts="tot-um" gloss="STEM-POSS.1SG"></ana><ana lex="tot" gr="N,sg,1sg,nom" parts="tot-um" gloss="there-POSS.1SG"></ana><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-um" gloss="carry-RES"></ana><ana lex="tot" gr="V,act,res,sg,nom" parts="tot-um" gloss="lead-RES"></ana><ana lex="tot" gr="V,pst,act,mir,3.s,sg.s" parts="tot-um" gloss="carry-MIR.PST"></ana><ana lex="tot" gr="V,pst,act,mir,3.s,sg.s" parts="tot-um" gloss="lead-MIR.PST"></ana>totum</w>
 <w><ana lex="tot" gr="V,act,inf" parts="tot-uŋkwe" gloss="carry-INF"></ana><ana lex="tot" gr="V,act,inf" parts="tot-uŋkwe" gloss="lead-INF"></ana>totuŋkwe</w>
-<w><ana lex="tot" gr="V,npst,act,subjc,2.s,du.s,pl.s" parts="tot-ēɣ-n" gloss="carry-NPST-2DU/PL.S"></ana><ana lex="tot" gr="V,npst,act,subjc,2.s,du.s,pl.s" parts="tot-ēɣ-n" gloss="lead-NPST-2DU/PL.S"></ana><ana lex="tot" gr="V,npst,act,subjc,2.s,sg.s" parts="tot-ēɣ-n" gloss="carry-NPST-2SG.S"></ana><ana lex="tot" gr="V,npst,act,subjc,2.s,sg.s" parts="tot-ēɣ-n" gloss="lead-NPST-2SG.S"></ana>totēɣn</w>
-<w><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,2du_pl,nom" parts="tow-m-āl-it-ēn" gloss="branch-VBZ-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,2du_pl,nom" parts="tow-m-āl-it-ēn" gloss="other-VBZ-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,2du_pl,nom" parts="tow-m-āl-it-ēn" gloss="row-VBZ-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,3sg,lat" parts="tow-m-āl-it-ē-n" gloss="branch-VBZ-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,3sg,lat" parts="tow-m-āl-it-ē-n" gloss="other-VBZ-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,3sg,lat" parts="tow-m-āl-it-ē-n" gloss="row-VBZ-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,npst,act,sg.o,3.s,du.s" parts="tow-m-āl-i-t-ēn" gloss="branch-VBZ-ASP-NPST-SG.O-3DU.S"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,npst,act,sg.o,3.s,du.s" parts="tow-m-āl-i-t-ēn" gloss="other-VBZ-ASP-NPST-SG.O-3DU.S"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,npst,act,sg.o,3.s,du.s" parts="tow-m-āl-i-t-ēn" gloss="row-VBZ-ASP-NPST-SG.O-3DU.S"></ana><ana lex="towm" gr="V,asp,act,subst1,sg,2du_pl,nom" parts="towm-āl-it-ēn" gloss="bite-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="towm" gr="V,asp,act,subst1,sg,3sg,lat" parts="towm-āl-it-ē-n" gloss="bite-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="towm" gr="V,asp,npst,act,sg.o,3.s,du.s" parts="towm-āl-i-t-ēn" gloss="bite-ASP-NPST-SG.O-3DU.S"></ana>towmālitēn</w>
-<w><ana lex="tuj" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="tuj-al-ēn" gloss="push-ASP-IMP.2DU/PL"></ana><ana lex="tuj" gr="V,asp,act,imp,2.s,pl.o" parts="tuj-al-ēn" gloss="push-ASP-IMP.PL.O.2.S"></ana><ana lex="tuja" gr="N,vbz,vbz_l,act,imp,2.s,du.s,pl.s" parts="tuja-l-ēn" gloss="spring-VBZ-IMP.2DU/PL"></ana><ana lex="tuja" gr="N,vbz,vbz_l,act,imp,2.s,pl.o" parts="tuja-l-ēn" gloss="spring-VBZ-IMP.PL.O.2.S"></ana>tujalēn</w>
-<w><ana lex="tuj" gr="V,npst,act,subjc,3.s,sg.s" parts="tuj-ēɣ" gloss="push-NPST"></ana>tujēɣ</w>
+<w><ana lex="tot" gr="V,npst,act,2.s,du.s,pl.s" parts="tot-ēɣ-n" gloss="carry-NPST-2DU/PL.S"></ana><ana lex="tot" gr="V,npst,act,2.s,du.s,pl.s" parts="tot-ēɣ-n" gloss="lead-NPST-2DU/PL.S"></ana><ana lex="tot" gr="V,npst,act,2.s,sg.s" parts="tot-ēɣ-n" gloss="carry-NPST-2SG.S"></ana><ana lex="tot" gr="V,npst,act,2.s,sg.s" parts="tot-ēɣ-n" gloss="lead-NPST-2SG.S"></ana>totēɣn</w>
+<w><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,2du_pl,nom" parts="tow-m-āl-it-ēn" gloss="branch-VBZ-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,2du_pl,nom" parts="tow-m-āl-it-ēn" gloss="other-VBZ-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,2du_pl,nom" parts="tow-m-āl-it-ēn" gloss="row-VBZ-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,3sg,lat" parts="tow-m-āl-it-ē-n" gloss="branch-VBZ-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,3sg,lat" parts="tow-m-āl-it-ē-n" gloss="other-VBZ-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,act,subst1,sg,3sg,lat" parts="tow-m-āl-it-ē-n" gloss="row-VBZ-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,npst,act,sg.o,objc,3.s,du.s" parts="tow-m-āl-i-t-ēn" gloss="branch-VBZ-ASP-NPST-SG.O-3DU.S"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,npst,act,sg.o,objc,3.s,du.s" parts="tow-m-āl-i-t-ēn" gloss="other-VBZ-ASP-NPST-SG.O-3DU.S"></ana><ana lex="tow" gr="N,vbz,vbz_m,asp,npst,act,sg.o,objc,3.s,du.s" parts="tow-m-āl-i-t-ēn" gloss="row-VBZ-ASP-NPST-SG.O-3DU.S"></ana><ana lex="towm" gr="V,asp,act,subst1,sg,2du_pl,nom" parts="towm-āl-it-ēn" gloss="bite-ASP-SUBST1-POSS.2DU/PL"></ana><ana lex="towm" gr="V,asp,act,subst1,sg,3sg,lat" parts="towm-āl-it-ē-n" gloss="bite-ASP-SUBST1-POSS.3SG-LAT"></ana><ana lex="towm" gr="V,asp,npst,act,sg.o,objc,3.s,du.s" parts="towm-āl-i-t-ēn" gloss="bite-ASP-NPST-SG.O-3DU.S"></ana>towmālitēn</w>
+<w><ana lex="tuj" gr="V,asp,act,imp,2.s,du.s,pl.s" parts="tuj-al-ēn" gloss="push-ASP-IMP.2DU/PL"></ana><ana lex="tuj" gr="V,asp,act,imp,2.s,pl.o,objc" parts="tuj-al-ēn" gloss="push-ASP-IMP.PL.O.2.S"></ana><ana lex="tuja" gr="N,vbz,vbz_l,act,imp,2.s,du.s,pl.s" parts="tuja-l-ēn" gloss="spring-VBZ-IMP.2DU/PL"></ana><ana lex="tuja" gr="N,vbz,vbz_l,act,imp,2.s,pl.o,objc" parts="tuja-l-ēn" gloss="spring-VBZ-IMP.PL.O.2.S"></ana>tujalēn</w>
+<w><ana lex="tuj" gr="V,npst,act,3.s,sg.s" parts="tuj-ēɣ" gloss="push-NPST"></ana>tujēɣ</w>
 <w><ana lex="tulmax" gr="N,sg,nom" parts="tulmax" gloss="wolverine"></ana>tulmax</w>
 <w><ana lex="tu" gr="N,sg,1sg,nom" parts="tu-m" gloss="STEM-POSS.1SG"></ana>tum</w>
-<w><ana lex="tu" gr="N,vbz,vbz_sh,tr,act,subst1,sg,3sg,nom" parts="tu-ɕ-t-it-e" gloss="STEM-VBZ-TR-SUBST1-POSS.3SG"></ana><ana lex="tu" gr="N,vbz,vbz_sh,tr,npst,act,sg.o,3.s,sg.s" parts="tu-ɕ-t-i-t-e" gloss="STEM-VBZ-TR-NPST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,act,subst1,sg,3sg,nom" parts="tuɕt-it-e" gloss="put-SUBST1-POSS.3SG"></ana><ana lex="tuɕt" gr="V,act,subst1,sg,3sg,nom" parts="tuɕt-it-e" gloss="set-SUBST1-POSS.3SG"></ana><ana lex="tuɕt" gr="V,npst,act,sg.o,3.s,sg.s" parts="tuɕt-i-t-e" gloss="put-NPST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,npst,act,sg.o,3.s,sg.s" parts="tuɕt-i-t-e" gloss="set-NPST-SG.O-3SG.S"></ana>tuɕtite</w>
+<w><ana lex="tu" gr="N,vbz,vbz_sh,tr,act,subst1,sg,3sg,nom" parts="tu-ɕ-t-it-e" gloss="STEM-VBZ-TR-SUBST1-POSS.3SG"></ana><ana lex="tu" gr="N,vbz,vbz_sh,tr,npst,act,sg.o,objc,3.s,sg.s" parts="tu-ɕ-t-i-t-e" gloss="STEM-VBZ-TR-NPST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,act,subst1,sg,3sg,nom" parts="tuɕt-it-e" gloss="put-SUBST1-POSS.3SG"></ana><ana lex="tuɕt" gr="V,act,subst1,sg,3sg,nom" parts="tuɕt-it-e" gloss="set-SUBST1-POSS.3SG"></ana><ana lex="tuɕt" gr="V,npst,act,sg.o,objc,3.s,sg.s" parts="tuɕt-i-t-e" gloss="put-NPST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,npst,act,sg.o,objc,3.s,sg.s" parts="tuɕt-i-t-e" gloss="set-NPST-SG.O-3SG.S"></ana>tuɕtite</w>
 <w><ana lex="tu" gr="N,vbz,vbz_sh,tr,past,pst,3.s,sg.s" parts="tu-ɕ-t-uwe-s" gloss="STEM-VBZ-TR-PASS-PST"></ana><ana lex="tuɕt" gr="V,past,pst,3.s,sg.s" parts="tuɕt-uwe-s" gloss="put-PASS-PST"></ana><ana lex="tuɕt" gr="V,past,pst,3.s,sg.s" parts="tuɕt-uwe-s" gloss="set-PASS-PST"></ana>tuɕtuwes</w>
-<w><ana lex="tu" gr="N,vbz,vbz_sh,tr,pst,act,sg.o,3.s,sg.s" parts="tu-ɕ-t-əs-t-e" gloss="STEM-VBZ-TR-PST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,pst,act,sg.o,3.s,sg.s" parts="tuɕt-əs-t-e" gloss="put-PST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,pst,act,sg.o,3.s,sg.s" parts="tuɕt-əs-t-e" gloss="set-PST-SG.O-3SG.S"></ana>tuɕtəste</w>
+<w><ana lex="tu" gr="N,vbz,vbz_sh,tr,pst,act,sg.o,objc,3.s,sg.s" parts="tu-ɕ-t-əs-t-e" gloss="STEM-VBZ-TR-PST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="tuɕt-əs-t-e" gloss="put-PST-SG.O-3SG.S"></ana><ana lex="tuɕt" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="tuɕt-əs-t-e" gloss="set-PST-SG.O-3SG.S"></ana>tuɕtəste</w>
 <w><ana lex="tāl" gr="N,sg,nom" parts="tāl" gloss="year"></ana>tāl</w>
-<w><ana lex="tāl" gr="N,vbz,vbz_m,asp,pst,act,subjc,3.s,sg.s" parts="tāl-m-at-as" gloss="year-VBZ-ASP-PST"></ana><ana lex="tāl" gr="V,asp,pst,act,subjc,3.s,sg.s" parts="tāl-mat-as" gloss="board-ASP-PST"></ana>tālmatas</w>
+<w><ana lex="tāl" gr="N,vbz,vbz_m,asp,pst,act,3.s,sg.s" parts="tāl-m-at-as" gloss="year-VBZ-ASP-PST"></ana><ana lex="tāl" gr="V,asp,pst,act,3.s,sg.s" parts="tāl-mat-as" gloss="board-ASP-PST"></ana>tālmatas</w>
 <w><ana lex="tārat" gr="V,pass,pst,mir,3.s,sg.s" parts="tārt-ime" gloss="let.go-MIR.PASS.PST"></ana>tārtime</w>
-<w><ana lex="tē" gr="V,pst,act,subjc,1.s,sg.s" parts="tē-s-um" gloss="eat-PST-1SG.S"></ana>tēsum</w>
+<w><ana lex="tē" gr="V,pst,act,1.s,sg.s" parts="tē-s-um" gloss="eat-PST-1SG.S"></ana>tēsum</w>
 <w><ana lex="tē" gr="V,pass,npst,3.s,du.s" parts="tē-wē-ɣ" gloss="eat-PASS.NPST-3DU.S"></ana><ana lex="tē" gr="V,pass,npst,3.s,sg.s" parts="tē-wē-ɣ" gloss="eat-PASS-NPST"></ana>tēwēɣ</w>
-<w><ana lex="tē" gr="V,npst,act,du.o,1.s,pl.s" parts="tē-ɣ-aɣ-uw" gloss="eat-NPST-DU.O-1PL.S"></ana>tēɣaɣuw</w>
-<w><ana lex="tē" gr="V,asp,act,res,sg,nom" parts="tē-ɣ-um" gloss="eat-ASP-RES"></ana><ana lex="tē" gr="V,asp,pst,act,mir,subjc,3.s,sg.s" parts="tē-ɣ-um" gloss="eat-ASP-MIR.PST"></ana><ana lex="tē" gr="V,npst,act,subjc,1.s,sg.s" parts="tē-ɣ-um" gloss="eat-NPST-1SG.S"></ana>tēɣum</w>
+<w><ana lex="tē" gr="V,npst,act,du.o,objc,1.s,pl.s" parts="tē-ɣ-aɣ-uw" gloss="eat-NPST-DU.O-1PL.S"></ana>tēɣaɣuw</w>
+<w><ana lex="tē" gr="V,asp,act,res,sg,nom" parts="tē-ɣ-um" gloss="eat-ASP-RES"></ana><ana lex="tē" gr="V,asp,pst,act,mir,3.s,sg.s" parts="tē-ɣ-um" gloss="eat-ASP-MIR.PST"></ana><ana lex="tē" gr="V,npst,act,1.s,sg.s" parts="tē-ɣ-um" gloss="eat-NPST-1SG.S"></ana>tēɣum</w>
 <w><ana lex="tōrew" gr="N,sg,lat" parts="tōrew-n" gloss="bear-LAT"></ana>tōrewn</w>
 <w><ana lex="ut" gr="N,sg,nom" parts="ut" gloss="thing"></ana>ut</w>
 <w><ana lex="ut" gr="N,dim,du,nom" parts="ut-kwe-ɣ" gloss="thing-DIM-DU"></ana><ana lex="ut" gr="N,dim,sg,trans" parts="ut-kwe-ɣ" gloss="thing-DIM-TRANS"></ana>utkweɣ</w>
 <w><ana lex="ut" gr="N,pl,nom" parts="ut-ət" gloss="thing-PL"></ana>utət</w>
 <w><ana lex="uɕa" gr="N,sg,nom" parts="uɕa" gloss="only"></ana>uɕa</w>
-<w><ana lex="w" gr="V,asp,npst,act,subjc,3.s,du.s" parts="w-as-i-ɣ" gloss="see-ASP-NPST-3DU.S"></ana><ana lex="w" gr="V,asp,npst,act,subjc,3.s,du.s" parts="w-as-i-ɣ" gloss="take-ASP-NPST-3DU.S"></ana><ana lex="w" gr="V,pst,act,subjc,3.s,du.s" parts="w-as-iɣ" gloss="see-PST-3DU.S"></ana><ana lex="w" gr="V,pst,act,subjc,3.s,du.s" parts="w-as-iɣ" gloss="take-PST-3DU.S"></ana><ana lex="wa" gr="V,pst,act,subjc,3.s,du.s" parts="wa-s-iɣ" gloss="see-PST-3DU.S"></ana><ana lex="was" gr="N,du,nom" parts="was-iɣ" gloss="duck-DU"></ana><ana lex="was" gr="N,sg,trans" parts="was-iɣ" gloss="duck-TRANS"></ana><ana lex="was" gr="V,npst,act,subjc,3.s,du.s" parts="was-i-ɣ" gloss="see-NPST-3DU.S"></ana><ana lex="wasiɣ" gr="N,sg,nom" parts="wasiɣ" gloss="more"></ana>wasiɣ</w>
-<w><ana lex="wi" gr="V,pst,act,sg.o,3.s,sg.s" parts="wi-s-t-e" gloss="take-PST-SG.O-3SG.S"></ana>wiste</w>
+<w><ana lex="w" gr="V,asp,npst,act,3.s,du.s" parts="w-as-i-ɣ" gloss="see-ASP-NPST-3DU.S"></ana><ana lex="w" gr="V,asp,npst,act,3.s,du.s" parts="w-as-i-ɣ" gloss="take-ASP-NPST-3DU.S"></ana><ana lex="w" gr="V,pst,act,3.s,du.s" parts="w-as-iɣ" gloss="see-PST-3DU.S"></ana><ana lex="w" gr="V,pst,act,3.s,du.s" parts="w-as-iɣ" gloss="take-PST-3DU.S"></ana><ana lex="wa" gr="V,pst,act,3.s,du.s" parts="wa-s-iɣ" gloss="see-PST-3DU.S"></ana><ana lex="was" gr="N,du,nom" parts="was-iɣ" gloss="duck-DU"></ana><ana lex="was" gr="N,sg,trans" parts="was-iɣ" gloss="duck-TRANS"></ana><ana lex="was" gr="V,npst,act,3.s,du.s" parts="was-i-ɣ" gloss="see-NPST-3DU.S"></ana><ana lex="wasiɣ" gr="N,sg,nom" parts="wasiɣ" gloss="more"></ana>wasiɣ</w>
+<w><ana lex="wi" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="wi-s-t-e" gloss="take-PST-SG.O-3SG.S"></ana>wiste</w>
 <w><ana lex="w" gr="V,act,subst1,du,3sg,nom" parts="w-it-aɣ-e" gloss="see-SUBST1-DU-POSS.3SG"></ana><ana lex="w" gr="V,act,subst1,du,3sg,nom" parts="w-it-aɣ-e" gloss="take-SUBST1-DU-POSS.3SG"></ana><ana lex="wit" gr="N,du,3sg,nom" parts="wit-aɣ-e" gloss="STEM-DU-POSS.3SG"></ana><ana lex="wit" gr="N,du,3sg,nom" parts="wit-aɣ-e" gloss="water-DU-POSS.3SG"></ana>witaɣe</w>
 <w><ana lex="w" gr="V,act,subst1,sg,lat" parts="w-it-na" gloss="see-SUBST1-LAT"></ana><ana lex="w" gr="V,act,subst1,sg,lat" parts="w-it-na" gloss="take-SUBST1-LAT"></ana><ana lex="wit" gr="N,sg,lat" parts="wit-na" gloss="STEM-LAT"></ana><ana lex="wit" gr="N,sg,lat" parts="wit-na" gloss="water-LAT"></ana>witna</w>
-<w><ana lex="wonsut" gr="V,asp,pst,act,subjc,3.s,pl.s" parts="wonsut-al-s-ət" gloss="flash-ASP-PST-3PL.S"></ana>wonsutalsət</w>
+<w><ana lex="wonsut" gr="V,asp,pst,act,3.s,pl.s" parts="wonsut-al-s-ət" gloss="flash-ASP-PST-3PL.S"></ana>wonsutalsət</w>
 <w><ana lex="woɕkas" gr="V,past,pst,3.s,sg.s" parts="woɕkas-awe-s" gloss="dump-PASS-PST"></ana><ana lex="woɕkas" gr="V,past,pst,3.s,sg.s" parts="woɕkas-awe-s" gloss="throw-PASS-PST"></ana><ana lex="woɕkas" gr="V,past,pst,3.s,sg.s" parts="woɕkas-awe-s" gloss="throw.out-PASS-PST"></ana>woɕkasawes</w>
 <w><ana lex="w" gr="V,asp,past,pst,3.s,sg.s" parts="w-uj-we-s" gloss="see-ASP-PASS-PST"></ana><ana lex="w" gr="V,asp,past,pst,3.s,sg.s" parts="w-uj-we-s" gloss="take-ASP-PASS-PST"></ana>wujwes</w>
-<w><ana lex="wār" gr="V,npst,act,du.o,1.s,pl.s" parts="wār-i-jaɣ-uw" gloss="do-NPST-DU.O-1PL.S"></ana>wārijaɣuw</w>
-<w><ana lex="wār" gr="V,act,cvb" parts="wār-im" gloss="do-CVB"></ana><ana lex="wār" gr="V,act,res,sg,nom" parts="wār-im" gloss="do-RES"></ana><ana lex="wār" gr="V,npst,act,subjc,1.s,sg.s" parts="wār-i-m" gloss="do-NPST-1SG.S"></ana>wārim</w>
-<w><ana lex="wār" gr="V,pst,act,subjc,3.s,pl.s" parts="wār-s-ət" gloss="do-PST-3PL.S"></ana>wārsət</w>
+<w><ana lex="wār" gr="V,npst,act,du.o,objc,1.s,pl.s" parts="wār-i-jaɣ-uw" gloss="do-NPST-DU.O-1PL.S"></ana>wārijaɣuw</w>
+<w><ana lex="wār" gr="V,act,cvb" parts="wār-im" gloss="do-CVB"></ana><ana lex="wār" gr="V,act,res,sg,nom" parts="wār-im" gloss="do-RES"></ana><ana lex="wār" gr="V,npst,act,1.s,sg.s" parts="wār-i-m" gloss="do-NPST-1SG.S"></ana>wārim</w>
+<w><ana lex="wār" gr="V,pst,act,3.s,pl.s" parts="wār-s-ət" gloss="do-PST-3PL.S"></ana>wārsət</w>
 <w><ana lex="wār" gr="V,act,inf" parts="wār-uŋkwe" gloss="do-INF"></ana>wāruŋkwe</w>
-<w><ana lex="wāɣ" gr="N,vbz,vbz_l,pst,act,subjc,3.s,sg.s" parts="wāɣ-l-as" gloss="strength-VBZ-PST"></ana>wāɣlas</w>
+<w><ana lex="wāɣ" gr="N,vbz,vbz_l,pst,act,3.s,sg.s" parts="wāɣ-l-as" gloss="strength-VBZ-PST"></ana>wāɣlas</w>
 <w><ana lex="wōr" gr="N,pl,nom" parts="wōr-t" gloss="forest-PL"></ana><ana lex="wōr" gr="N,sg,loc" parts="wōr-t" gloss="forest-LOC"></ana>wōrt</w>
 <w><ana lex="wōw" gr="V,pass,npst,3.s,du.s" parts="wōw-awē-ɣ" gloss="call-PASS.NPST-3DU.S"></ana><ana lex="wōw" gr="V,pass,npst,3.s,sg.s" parts="wōw-awē-ɣ" gloss="call-PASS-NPST"></ana>wōwawēɣ</w>
 <w><ana lex="wōw" gr="V,act,imp,2.s,sg.s" parts="wōw-en" gloss="call-IMP.2SG"></ana><ana lex="wōw" gr="V,act,nmlz,sg,nom" parts="wōw-en" gloss="call-NMLZ"></ana>wōwen</w>
 <w><ana lex="wōw" gr="V,npst,act,3.s,sg.s" parts="wōw-i" gloss="call-NPST.3SG"></ana>wōwi</w>
-<w><ana lex="wōw" gr="V,npst,act,sg.o,1.s,pl.s" parts="wōw-i-l-uw" gloss="call-NPST-SG.O-1PL.S"></ana>wōwiluw</w>
+<w><ana lex="wōw" gr="V,npst,act,sg.o,objc,1.s,pl.s" parts="wōw-i-l-uw" gloss="call-NPST-SG.O-1PL.S"></ana>wōwiluw</w>
 <w><ana lex="wōw" gr="V,past,pst,3.s,pl.s" parts="wōw-wē-s-ət" gloss="call-PASS-PST-3PL.S"></ana>wōwwēsət</w>
 <w><ana lex="wōŋxa" gr="N,sg,2sg,nom" parts="wōŋxa-n" gloss="pit-POSS.2SG"></ana><ana lex="wōŋxa" gr="N,sg,lat" parts="wōŋxa-n" gloss="pit-LAT"></ana>wōŋxan</w>
-<w><ana lex="xajta" gr="V,asp,act,nmlz,sg,3sg,nom" parts="xajta-tāl-n-e" gloss="run-ASP-NMLZ-POSS.3SG"></ana><ana lex="xajta" gr="V,asp,act,nmlz,sg,nom" parts="xajta-tāl-ne" gloss="run-ASP-NMLZ"></ana><ana lex="xajta" gr="V,asp,npst,act,mir,subjc,3.s,sg.s" parts="xajta-tāl-ne" gloss="run-ASP-MIR.NPST"></ana><ana lex="xajta" gr="V,tr,asp,act,nmlz,sg,3sg,nom" parts="xajta-t-āl-n-e" gloss="run-TR-ASP-NMLZ-POSS.3SG"></ana><ana lex="xajta" gr="V,tr,asp,act,nmlz,sg,nom" parts="xajta-t-āl-ne" gloss="run-TR-ASP-NMLZ"></ana><ana lex="xajta" gr="V,tr,asp,npst,act,mir,subjc,3.s,sg.s" parts="xajta-t-āl-ne" gloss="run-TR-ASP-MIR.NPST"></ana>xajtatālne</w>
-<w><ana lex="x" gr="N,vbz,vbz_aj,tr,npst,act,subjc,3.s,pl.s" parts="x-aj-t-ēɣ-t" gloss="STEM-VBZ-TR-NPST-3PL.S"></ana><ana lex="xajt" gr="V,npst,act,subjc,3.s,pl.s" parts="xajt-ēɣ-t" gloss="run-NPST-3PL.S"></ana>xajtēɣt</w>
-<w><ana lex="xart" gr="V,act,cvb" parts="xart-im" gloss="pull-CVB"></ana><ana lex="xart" gr="V,act,res,sg,nom" parts="xart-im" gloss="pull-RES"></ana><ana lex="xart" gr="V,npst,act,subjc,1.s,sg.s" parts="xart-i-m" gloss="pull-NPST-1SG.S"></ana>xartim</w>
-<w><ana lex="xo" gr="N,vbz,vbz_l,pst,act,subjc,3.s,sg.s" parts="xo-l-as" gloss="who-VBZ-PST"></ana>xolas</w>
-<w><ana lex="xopəlt" gr="V,npst,act,subjc,3.s,pl.s" parts="xopəlt-ēɣ-t" gloss="thunder-NPST-3PL.S"></ana>xopəltēɣt</w>
+<w><ana lex="xajta" gr="V,asp,act,nmlz,sg,3sg,nom" parts="xajta-tāl-n-e" gloss="run-ASP-NMLZ-POSS.3SG"></ana><ana lex="xajta" gr="V,asp,act,nmlz,sg,nom" parts="xajta-tāl-ne" gloss="run-ASP-NMLZ"></ana><ana lex="xajta" gr="V,asp,npst,act,mir,3.s,sg.s" parts="xajta-tāl-ne" gloss="run-ASP-MIR.NPST"></ana><ana lex="xajta" gr="V,asp,npst,act,mir,3.s,sg.s,objc" parts="xajta-tāl-n-e" gloss="run-ASP-MIR.NPST-3SG.S"></ana><ana lex="xajta" gr="V,tr,asp,act,nmlz,sg,3sg,nom" parts="xajta-t-āl-n-e" gloss="run-TR-ASP-NMLZ-POSS.3SG"></ana><ana lex="xajta" gr="V,tr,asp,act,nmlz,sg,nom" parts="xajta-t-āl-ne" gloss="run-TR-ASP-NMLZ"></ana><ana lex="xajta" gr="V,tr,asp,npst,act,mir,3.s,sg.s" parts="xajta-t-āl-ne" gloss="run-TR-ASP-MIR.NPST"></ana><ana lex="xajta" gr="V,tr,asp,npst,act,mir,3.s,sg.s,objc" parts="xajta-t-āl-n-e" gloss="run-TR-ASP-MIR.NPST-3SG.S"></ana>xajtatālne</w>
+<w><ana lex="x" gr="N,vbz,vbz_aj,tr,npst,act,3.s,pl.s" parts="x-aj-t-ēɣ-t" gloss="STEM-VBZ-TR-NPST-3PL.S"></ana><ana lex="xajt" gr="V,npst,act,3.s,pl.s" parts="xajt-ēɣ-t" gloss="run-NPST-3PL.S"></ana>xajtēɣt</w>
+<w><ana lex="xart" gr="V,act,cvb" parts="xart-im" gloss="pull-CVB"></ana><ana lex="xart" gr="V,act,res,sg,nom" parts="xart-im" gloss="pull-RES"></ana><ana lex="xart" gr="V,npst,act,1.s,sg.s" parts="xart-i-m" gloss="pull-NPST-1SG.S"></ana>xartim</w>
+<w><ana lex="xart" gr="V,pst,act,3.s,pl.s,objc" parts="xart-s-anəl" gloss="pull-PST-3PL.S"></ana>xartsanəl</w>
+<w><ana lex="xas" gr="V,asp,pst,act,3.s,pl.s,objc" parts="xas-umt-as-anəl" gloss="be.able-ASP-PST-3PL.S"></ana><ana lex="xas" gr="V,asp,pst,act,3.s,pl.s,objc" parts="xas-umt-as-anəl" gloss="drag-ASP-PST-3PL.S"></ana><ana lex="xas" gr="V,asp,pst,act,3.s,pl.s,objc" parts="xas-umt-as-anəl" gloss="tie-ASP-PST-3PL.S"></ana><ana lex="xas" gr="V,asp,pst,act,3.s,pl.s,objc" parts="xas-umt-as-anəl" gloss="willow-ASP-PST-3PL.S"></ana><ana lex="xas" gr="V,asp,pst,act,3.s,pl.s,objc" parts="xas-umt-as-anəl" gloss="write-ASP-PST-3PL.S"></ana>xasumtasanəl</w>
+<w><ana lex="xo" gr="N,vbz,vbz_l,pst,act,3.s,sg.s" parts="xo-l-as" gloss="who-VBZ-PST"></ana>xolas</w>
+<w><ana lex="xopəlt" gr="V,npst,act,3.s,pl.s" parts="xopəlt-ēɣ-t" gloss="thunder-NPST-3PL.S"></ana>xopəltēɣt</w>
 <w><ana lex="xo" gr="N,pl,loc" parts="xo-t-t" gloss="who-PL-LOC"></ana><ana lex="xot" gr="N,pl,nom" parts="xot-t" gloss="from-PL"></ana><ana lex="xot" gr="N,pl,nom" parts="xot-t" gloss="six-PL"></ana><ana lex="xot" gr="N,pl,nom" parts="xot-t" gloss="where-PL"></ana><ana lex="xot" gr="N,sg,loc" parts="xot-t" gloss="from-LOC"></ana><ana lex="xot" gr="N,sg,loc" parts="xot-t" gloss="six-LOC"></ana><ana lex="xot" gr="N,sg,loc" parts="xot-t" gloss="where-LOC"></ana>xott</w>
-<w><ana lex="xuj" gr="V,act,res,sg,nom" parts="xuj-am" gloss="lie-RES"></ana><ana lex="xuj" gr="V,act,res,sg,nom" parts="xuj-am" gloss="lie.down-RES"></ana><ana lex="xuj" gr="V,act,res,sg,nom" parts="xuj-am" gloss="sleep-RES"></ana><ana lex="xuj" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="xuj-am" gloss="lie-MIR.PST"></ana><ana lex="xuj" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="xuj-am" gloss="lie.down-MIR.PST"></ana><ana lex="xuj" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="xuj-am" gloss="sleep-MIR.PST"></ana><ana lex="xuja" gr="V,act,res,sg,nom" parts="xuja-m" gloss="lie-RES"></ana><ana lex="xuja" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="xuja-m" gloss="lie-MIR.PST"></ana>xujam</w>
-<w><ana lex="xuj" gr="V,pst,act,subjc,3.s,sg.s" parts="xuj-as" gloss="lie-PST"></ana><ana lex="xuj" gr="V,pst,act,subjc,3.s,sg.s" parts="xuj-as" gloss="lie.down-PST"></ana><ana lex="xuj" gr="V,pst,act,subjc,3.s,sg.s" parts="xuj-as" gloss="sleep-PST"></ana>xujas</w>
-<w><ana lex="xuj" gr="V,asp,npst,act,subjc,3.s,du.s" parts="xuj-as-i-ɣ" gloss="lie-ASP-NPST-3DU.S"></ana><ana lex="xuj" gr="V,asp,npst,act,subjc,3.s,du.s" parts="xuj-as-i-ɣ" gloss="lie.down-ASP-NPST-3DU.S"></ana><ana lex="xuj" gr="V,asp,npst,act,subjc,3.s,du.s" parts="xuj-as-i-ɣ" gloss="sleep-ASP-NPST-3DU.S"></ana><ana lex="xuj" gr="V,pst,act,subjc,3.s,du.s" parts="xuj-as-iɣ" gloss="lie-PST-3DU.S"></ana><ana lex="xuj" gr="V,pst,act,subjc,3.s,du.s" parts="xuj-as-iɣ" gloss="lie.down-PST-3DU.S"></ana><ana lex="xuj" gr="V,pst,act,subjc,3.s,du.s" parts="xuj-as-iɣ" gloss="sleep-PST-3DU.S"></ana>xujasiɣ</w>
-<w><ana lex="xuj" gr="V,pst,act,subjc,3.s,pl.s" parts="xuj-as-ət" gloss="lie-PST-3PL.S"></ana><ana lex="xuj" gr="V,pst,act,subjc,3.s,pl.s" parts="xuj-as-ət" gloss="lie.down-PST-3PL.S"></ana><ana lex="xuj" gr="V,pst,act,subjc,3.s,pl.s" parts="xuj-as-ət" gloss="sleep-PST-3PL.S"></ana>xujasət</w>
+<w><ana lex="xuj" gr="V,act,res,sg,nom" parts="xuj-am" gloss="lie-RES"></ana><ana lex="xuj" gr="V,act,res,sg,nom" parts="xuj-am" gloss="lie.down-RES"></ana><ana lex="xuj" gr="V,act,res,sg,nom" parts="xuj-am" gloss="sleep-RES"></ana><ana lex="xuj" gr="V,pst,act,mir,3.s,sg.s" parts="xuj-am" gloss="lie-MIR.PST"></ana><ana lex="xuj" gr="V,pst,act,mir,3.s,sg.s" parts="xuj-am" gloss="lie.down-MIR.PST"></ana><ana lex="xuj" gr="V,pst,act,mir,3.s,sg.s" parts="xuj-am" gloss="sleep-MIR.PST"></ana><ana lex="xuja" gr="V,act,res,sg,nom" parts="xuja-m" gloss="lie-RES"></ana><ana lex="xuja" gr="V,pst,act,mir,3.s,sg.s" parts="xuja-m" gloss="lie-MIR.PST"></ana>xujam</w>
+<w><ana lex="xuj" gr="V,pst,act,3.s,sg.s" parts="xuj-as" gloss="lie-PST"></ana><ana lex="xuj" gr="V,pst,act,3.s,sg.s" parts="xuj-as" gloss="lie.down-PST"></ana><ana lex="xuj" gr="V,pst,act,3.s,sg.s" parts="xuj-as" gloss="sleep-PST"></ana>xujas</w>
+<w><ana lex="xuj" gr="V,asp,npst,act,3.s,du.s" parts="xuj-as-i-ɣ" gloss="lie-ASP-NPST-3DU.S"></ana><ana lex="xuj" gr="V,asp,npst,act,3.s,du.s" parts="xuj-as-i-ɣ" gloss="lie.down-ASP-NPST-3DU.S"></ana><ana lex="xuj" gr="V,asp,npst,act,3.s,du.s" parts="xuj-as-i-ɣ" gloss="sleep-ASP-NPST-3DU.S"></ana><ana lex="xuj" gr="V,pst,act,3.s,du.s" parts="xuj-as-iɣ" gloss="lie-PST-3DU.S"></ana><ana lex="xuj" gr="V,pst,act,3.s,du.s" parts="xuj-as-iɣ" gloss="lie.down-PST-3DU.S"></ana><ana lex="xuj" gr="V,pst,act,3.s,du.s" parts="xuj-as-iɣ" gloss="sleep-PST-3DU.S"></ana>xujasiɣ</w>
+<w><ana lex="xuj" gr="V,pst,act,3.s,pl.s" parts="xuj-as-ət" gloss="lie-PST-3PL.S"></ana><ana lex="xuj" gr="V,pst,act,3.s,pl.s" parts="xuj-as-ət" gloss="lie.down-PST-3PL.S"></ana><ana lex="xuj" gr="V,pst,act,3.s,pl.s" parts="xuj-as-ət" gloss="sleep-PST-3PL.S"></ana>xujasət</w>
 <w><ana lex="xuj" gr="V,npst,act,3.s,sg.s" parts="xuj-i" gloss="lie-NPST.3SG"></ana><ana lex="xuj" gr="V,npst,act,3.s,sg.s" parts="xuj-i" gloss="lie.down-NPST.3SG"></ana><ana lex="xuj" gr="V,npst,act,3.s,sg.s" parts="xuj-i" gloss="sleep-NPST.3SG"></ana>xuji</w>
-<w><ana lex="xuj" gr="V,npst,act,mir,subjc,3.s,pl.s" parts="xuj-mē-t" gloss="lie-MIR.NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,mir,subjc,3.s,pl.s" parts="xuj-mē-t" gloss="lie.down-MIR.NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,mir,subjc,3.s,pl.s" parts="xuj-mē-t" gloss="sleep-MIR.NPST-3PL.S"></ana>xujmēt</w>
+<w><ana lex="xuj" gr="V,npst,act,mir,3.s,pl.s" parts="xuj-mē-t" gloss="lie-MIR.NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,pl.s" parts="xuj-mē-t" gloss="lie.down-MIR.NPST-3PL.S"></ana><ana lex="xuj" gr="V,npst,act,mir,3.s,pl.s" parts="xuj-mē-t" gloss="sleep-MIR.NPST-3PL.S"></ana>xujmēt</w>
 <w><ana lex="xulax" gr="N,sg,3sg,nom" parts="xulax-e" gloss="crow-POSS.3SG"></ana>xulaxe</w>
 <w><ana lex="xum" gr="N,pl,3sg,nom" parts="xum-jan-e" gloss="man-PL-POSS.3SG"></ana><ana lex="xum" gr="N,pl,3sg,nom" parts="xum-jan-e" gloss="person-PL-POSS.3SG"></ana>xumjane</w>
 <w><ana lex="xum" gr="N,sg,3pl,nom" parts="xum-janəl" gloss="man-POSS.3PL"></ana><ana lex="xum" gr="N,sg,3pl,nom" parts="xum-janəl" gloss="person-POSS.3PL"></ana>xumjanəl</w>
 <w><ana lex="xār" gr="N,sg,abl" parts="xār-əl" gloss="male-ABL"></ana><ana lex="xār" gr="N,sg,abl" parts="xār-əl" gloss="reindeer.bull-ABL"></ana><ana lex="xār" gr="N,sg,ins" parts="xār-əl" gloss="male-INS"></ana><ana lex="xār" gr="N,sg,ins" parts="xār-əl" gloss="reindeer.bull-INS"></ana>xārəl</w>
-<w><ana lex="xāŋx" gr="V,npst,act,subjc,1.s,sg.s" parts="xāŋx-ēɣ-um" gloss="climb-NPST-1SG.S"></ana>xāŋxēɣum</w>
-<w><ana lex="xāŋx" gr="V,pst,act,subjc,3.s,sg.s" parts="xāŋx-əs" gloss="climb-PST"></ana>xāŋxəs</w>
-<w><ana lex="xōnt" gr="V,pst,act,sg.o,3.s,sg.s" parts="xōnt-as-t-e" gloss="fight-PST-SG.O-3SG.S"></ana><ana lex="xōnt" gr="V,pst,act,sg.o,3.s,sg.s" parts="xōnt-as-t-e" gloss="find-PST-SG.O-3SG.S"></ana>xōntaste</w>
-<w><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,subjc,1.s,du.s" parts="xōnt-xat-i-mēn" gloss="fight-REFL-NPST-1DU.S"></ana><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,subjc,1.s,du.s" parts="xōnt-xat-i-mēn" gloss="find-REFL-NPST-1DU.S"></ana>xōntxatimēn</w>
-<w><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,subjc,1.s,sg.s" parts="xōnt-xat-ēɣ-um" gloss="fight-REFL-NPST-1SG.S"></ana><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,subjc,1.s,sg.s" parts="xōnt-xat-ēɣ-um" gloss="find-REFL-NPST-1SG.S"></ana>xōntxatēɣum</w>
-<w><ana lex="xūl" gr="V,pst,act,subjc,3.s,du.s" parts="xūl-s-iɣ" gloss="spend.the.night-PST-3DU.S"></ana>xūlsiɣ</w>
-<w><ana lex="xūntl" gr="V,act,imp,2.s,du.s,pl.s" parts="xūntl-ēn" gloss="listen-IMP.2DU/PL"></ana><ana lex="xūntl" gr="V,act,imp,2.s,pl.o" parts="xūntl-ēn" gloss="listen-IMP.PL.O.2.S"></ana>xūntlēn</w>
-<w><ana lex="xūntl" gr="V,npst,act,subjc,3.s,pl.s" parts="xūntl-ēɣ-t" gloss="listen-NPST-3PL.S"></ana>xūntlēɣt</w>
+<w><ana lex="xāŋx" gr="V,npst,act,1.s,sg.s" parts="xāŋx-ēɣ-um" gloss="climb-NPST-1SG.S"></ana>xāŋxēɣum</w>
+<w><ana lex="xāŋx" gr="V,pst,act,3.s,sg.s" parts="xāŋx-əs" gloss="climb-PST"></ana>xāŋxəs</w>
+<w><ana lex="xōnt" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="xōnt-as-t-e" gloss="fight-PST-SG.O-3SG.S"></ana><ana lex="xōnt" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="xōnt-as-t-e" gloss="find-PST-SG.O-3SG.S"></ana>xōntaste</w>
+<w><ana lex="xōnt" gr="V,pst,act,3.s,pl.s,objc" parts="xōnt-s-anəl" gloss="fight-PST-3PL.S"></ana><ana lex="xōnt" gr="V,pst,act,3.s,pl.s,objc" parts="xōnt-s-anəl" gloss="find-PST-3PL.S"></ana>xōntsanəl</w>
+<w><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,1.s,du.s" parts="xōnt-xat-i-mēn" gloss="fight-REFL-NPST-1DU.S"></ana><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,1.s,du.s" parts="xōnt-xat-i-mēn" gloss="find-REFL-NPST-1DU.S"></ana>xōntxatimēn</w>
+<w><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,1.s,sg.s" parts="xōnt-xat-ēɣ-um" gloss="fight-REFL-NPST-1SG.S"></ana><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,1.s,sg.s" parts="xōnt-xat-ēɣ-um" gloss="find-REFL-NPST-1SG.S"></ana>xōntxatēɣum</w>
+<w><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,3.s,du.s,objc" parts="xōnt-xat-ēɣ-ēn" gloss="fight-REFL-NPST-3DU.S"></ana><ana lex="xōnt" gr="V,refl,refl_xat,npst,act,3.s,du.s,objc" parts="xōnt-xat-ēɣ-ēn" gloss="find-REFL-NPST-3DU.S"></ana>xōntxatēɣēn</w>
+<w><ana lex="xūl" gr="V,pst,act,3.s,du.s" parts="xūl-s-iɣ" gloss="spend.the.night-PST-3DU.S"></ana>xūlsiɣ</w>
+<w><ana lex="xūntl" gr="V,act,imp,2.s,du.s,pl.s" parts="xūntl-ēn" gloss="listen-IMP.2DU/PL"></ana><ana lex="xūntl" gr="V,act,imp,2.s,pl.o,objc" parts="xūntl-ēn" gloss="listen-IMP.PL.O.2.S"></ana>xūntlēn</w>
+<w><ana lex="xūntl" gr="V,npst,act,3.s,pl.s" parts="xūntl-ēɣ-t" gloss="listen-NPST-3PL.S"></ana>xūntlēɣt</w>
 <w><ana lex="xūriɣ" gr="N,sg,nom" parts="xūriɣ" gloss="bag"></ana>xūriɣ</w>
 <w><ana lex="xūrum" gr="N,sg,nom" parts="xūrum" gloss="STEM"></ana><ana lex="xūrum" gr="N,sg,nom" parts="xūrum" gloss="three"></ana>xūrum</w>
 <w><ana lex="ākw" gr="N,sg,nom" parts="ākw" gloss="aunt"></ana>ākw</w>
@@ -544,23 +559,23 @@
 <w><ana lex="Ās" gr="N,PN,sg,lat" parts="ās-na" gloss="Ob-LAT"></ana>āsna</w>
 <w><ana lex="āwi" gr="N,prop,prop2,sg,nom" parts="āwi-p" gloss="door-PROP2"></ana>āwip</w>
 <w><ana lex="āŋkwal" gr="N,sg,3sg,nom" parts="āŋkwal-e" gloss="pole-POSS.3SG"></ana>āŋkwale</w>
-<w><ana lex="āŋxw" gr="V,pst,act,subjc,3.s,sg.s" parts="āŋxw-əs" gloss="take.off-PST"></ana>āŋxwəs</w>
+<w><ana lex="āŋxw" gr="V,pst,act,3.s,sg.s" parts="āŋxw-əs" gloss="take.off-PST"></ana>āŋxwəs</w>
 <w><ana lex="āɣm" gr="N,sg,abl" parts="āɣm-əl" gloss="sickness-ABL"></ana><ana lex="āɣm" gr="N,sg,ins" parts="āɣm-əl" gloss="sickness-INS"></ana>āɣməl</w>
 <w><ana lex="āɣm" gr="N,prop,prop1,sg,nom" parts="āɣm-əŋ" gloss="sickness-PROP1"></ana>āɣməŋ</w>
-<w><ana lex="ēr" gr="V,asp,act,nmlz,sg,1sg,nom" parts="ēr-ɣ-an-um" gloss="be.needed-ASP-NMLZ-POSS.1SG"></ana><ana lex="ēr" gr="V,npst,act,pl.o,1.s,sg.s" parts="ēr-ɣ-an-um" gloss="be.needed-NPST-PL.O-1SG.S"></ana><ana lex="ēriɣ" gr="N,pl,1sg,nom" parts="ērɣ-an-um" gloss="song-PL-POSS.1SG"></ana>ērɣanum</w>
-<w><ana lex="ēr" gr="V,asp,npst,act,pl.o,1.s,sg.s" parts="ēr-ɣ-i-jan-um" gloss="be.needed-ASP-NPST-PL.O-1SG.S"></ana>ērɣijanum</w>
-<w><ana lex="ēr" gr="V,asp,act,res,sg,nom" parts="ēr-ɣ-um" gloss="be.needed-ASP-RES"></ana><ana lex="ēr" gr="V,asp,pst,act,mir,subjc,3.s,sg.s" parts="ēr-ɣ-um" gloss="be.needed-ASP-MIR.PST"></ana><ana lex="ēr" gr="V,npst,act,subjc,1.s,sg.s" parts="ēr-ɣ-um" gloss="be.needed-NPST-1SG.S"></ana><ana lex="ēriɣ" gr="N,sg,1sg,nom" parts="ērɣ-um" gloss="song-POSS.1SG"></ana>ērɣum</w>
-<w><ana lex="ētim" gr="V,pst,act,subjc,3.s,sg.s" parts="ētim-as" gloss="get.dark-PST"></ana>ētimas</w>
+<w><ana lex="ēr" gr="V,asp,act,nmlz,sg,1sg,nom" parts="ēr-ɣ-an-um" gloss="be.needed-ASP-NMLZ-POSS.1SG"></ana><ana lex="ēr" gr="V,npst,act,pl.o,objc,1.s,sg.s" parts="ēr-ɣ-an-um" gloss="be.needed-NPST-PL.O-1SG.S"></ana><ana lex="ēriɣ" gr="N,pl,1sg,nom" parts="ērɣ-an-um" gloss="song-PL-POSS.1SG"></ana>ērɣanum</w>
+<w><ana lex="ēr" gr="V,asp,npst,act,pl.o,objc,1.s,sg.s" parts="ēr-ɣ-i-jan-um" gloss="be.needed-ASP-NPST-PL.O-1SG.S"></ana>ērɣijanum</w>
+<w><ana lex="ēr" gr="V,asp,act,res,sg,nom" parts="ēr-ɣ-um" gloss="be.needed-ASP-RES"></ana><ana lex="ēr" gr="V,asp,pst,act,mir,3.s,sg.s" parts="ēr-ɣ-um" gloss="be.needed-ASP-MIR.PST"></ana><ana lex="ēr" gr="V,npst,act,1.s,sg.s" parts="ēr-ɣ-um" gloss="be.needed-NPST-1SG.S"></ana><ana lex="ēriɣ" gr="N,sg,1sg,nom" parts="ērɣ-um" gloss="song-POSS.1SG"></ana>ērɣum</w>
+<w><ana lex="ētim" gr="V,pst,act,3.s,sg.s" parts="ētim-as" gloss="get.dark-PST"></ana>ētimas</w>
 <w><ana lex="ētim" gr="V,pass,npst,1.s,pl.s" parts="ētim-awē-w" gloss="get.dark-PASS.NPST-1PL.S"></ana>ētimawēw</w>
 <w><ana lex="ētim" gr="V,act,inf" parts="ētim-aŋkwe" gloss="get.dark-INF"></ana>ētimaŋkwe</w>
 <w><ana lex="ōl" gr="V,act,temp,sg,2sg,nom" parts="ōl-kē-n" gloss="be-TEMP-POSS.2SG"></ana><ana lex="ōl" gr="V,act,temp,sg,lat" parts="ōl-kē-n" gloss="be-TEMP-LAT"></ana>ōlkēn</w>
-<w><ana lex="ōl" gr="V,act,nmlz,sg,3sg,nom" parts="ōl-ne-te" gloss="be-NMLZ-POSS.3SG"></ana><ana lex="ōl" gr="V,npst,act,mir,sg.o,3.s,sg.s" parts="ōl-ne-t-e" gloss="be-MIR.NPST-SG.O-3SG.S"></ana>ōlnete</w>
-<w><ana lex="ōl" gr="V,act,nmlz,sg,2du_pl,nom" parts="ōl-n-ēn" gloss="be-NMLZ-POSS.2DU/PL"></ana><ana lex="ōl" gr="V,act,nmlz,sg,2sg,nom" parts="ōl-nē-n" gloss="be-NMLZ-POSS.2SG"></ana><ana lex="ōl" gr="V,act,nmlz,sg,3sg,lat" parts="ōl-n-ē-n" gloss="be-NMLZ-POSS.3SG-LAT"></ana><ana lex="ōl" gr="V,act,nmlz,sg,lat" parts="ōl-nē-n" gloss="be-NMLZ-LAT"></ana><ana lex="ōl" gr="V,npst,act,mir,subjc,2.s,du.s,pl.s" parts="ōl-nē-n" gloss="be-MIR.NPST-2DU/PL.S"></ana><ana lex="ōl" gr="V,npst,act,mir,subjc,2.s,sg.s" parts="ōl-nē-n" gloss="be-MIR.NPST-2SG.S"></ana>ōlnēn</w>
-<w><ana lex="ōl" gr="V,tr,act,res,sg,nom" parts="ōl-t-um" gloss="be-TR-RES"></ana><ana lex="ōl" gr="V,tr,pst,act,mir,subjc,3.s,sg.s" parts="ōl-t-um" gloss="be-TR-MIR.PST"></ana><ana lex="ōlt" gr="V,act,res,sg,nom" parts="ōlt-um" gloss="connect-RES"></ana><ana lex="ōlt" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="ōlt-um" gloss="connect-MIR.PST"></ana>ōltum</w>
+<w><ana lex="ōl" gr="V,act,nmlz,sg,3sg,nom" parts="ōl-ne-te" gloss="be-NMLZ-POSS.3SG"></ana><ana lex="ōl" gr="V,npst,act,mir,sg.o,objc,3.s,sg.s" parts="ōl-ne-t-e" gloss="be-MIR.NPST-SG.O-3SG.S"></ana>ōlnete</w>
+<w><ana lex="ōl" gr="V,act,nmlz,sg,2du_pl,nom" parts="ōl-n-ēn" gloss="be-NMLZ-POSS.2DU/PL"></ana><ana lex="ōl" gr="V,act,nmlz,sg,2sg,nom" parts="ōl-nē-n" gloss="be-NMLZ-POSS.2SG"></ana><ana lex="ōl" gr="V,act,nmlz,sg,3sg,lat" parts="ōl-n-ē-n" gloss="be-NMLZ-POSS.3SG-LAT"></ana><ana lex="ōl" gr="V,act,nmlz,sg,lat" parts="ōl-nē-n" gloss="be-NMLZ-LAT"></ana><ana lex="ōl" gr="V,npst,act,mir,2.s,du.s,pl.s" parts="ōl-nē-n" gloss="be-MIR.NPST-2DU/PL.S"></ana><ana lex="ōl" gr="V,npst,act,mir,2.s,sg.s" parts="ōl-nē-n" gloss="be-MIR.NPST-2SG.S"></ana><ana lex="ōl" gr="V,npst,act,mir,3.s,du.s,objc" parts="ōl-n-ēn" gloss="be-MIR.NPST-3DU.S"></ana>ōlnēn</w>
+<w><ana lex="ōl" gr="V,tr,act,res,sg,nom" parts="ōl-t-um" gloss="be-TR-RES"></ana><ana lex="ōl" gr="V,tr,pst,act,mir,3.s,sg.s" parts="ōl-t-um" gloss="be-TR-MIR.PST"></ana><ana lex="ōlt" gr="V,act,res,sg,nom" parts="ōlt-um" gloss="connect-RES"></ana><ana lex="ōlt" gr="V,pst,act,mir,3.s,sg.s" parts="ōlt-um" gloss="connect-MIR.PST"></ana>ōltum</w>
 <w><ana lex="ōtər" gr="N,sg,3pl,nom" parts="ōtr-anəl" gloss="hero-POSS.3PL"></ana>ōtranəl</w>
 <w><ana lex="ōwəl" gr="N,sg,lat" parts="ōwəl-n" gloss="end-LAT"></ana>ōwəln</w>
 <w><ana lex="ōwəl" gr="N,pl,nom" parts="ōwəl-t" gloss="end-PL"></ana><ana lex="ōwəl" gr="N,sg,loc" parts="ōwəl-t" gloss="end-LOC"></ana>ōwəlt</w>
-<w><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,2du_pl,nom" parts="ōɕ-n-ēn" gloss="have-NMLZ-POSS.2DU/PL"></ana><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,2sg,nom" parts="ōɕ-nē-n" gloss="have-NMLZ-POSS.2SG"></ana><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,3sg,lat" parts="ōɕ-n-ē-n" gloss="have-NMLZ-POSS.3SG-LAT"></ana><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,lat" parts="ōɕ-nē-n" gloss="have-NMLZ-LAT"></ana><ana lex="ōn'ɕ" gr="V,npst,act,mir,subjc,2.s,du.s,pl.s" parts="ōɕ-nē-n" gloss="have-MIR.NPST-2DU/PL.S"></ana><ana lex="ōn'ɕ" gr="V,npst,act,mir,subjc,2.s,sg.s" parts="ōɕ-nē-n" gloss="have-MIR.NPST-2SG.S"></ana>ōɕnēn</w>
+<w><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,2du_pl,nom" parts="ōɕ-n-ēn" gloss="have-NMLZ-POSS.2DU/PL"></ana><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,2sg,nom" parts="ōɕ-nē-n" gloss="have-NMLZ-POSS.2SG"></ana><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,3sg,lat" parts="ōɕ-n-ē-n" gloss="have-NMLZ-POSS.3SG-LAT"></ana><ana lex="ōn'ɕ" gr="V,act,nmlz,sg,lat" parts="ōɕ-nē-n" gloss="have-NMLZ-LAT"></ana><ana lex="ōn'ɕ" gr="V,npst,act,mir,2.s,du.s,pl.s" parts="ōɕ-nē-n" gloss="have-MIR.NPST-2DU/PL.S"></ana><ana lex="ōn'ɕ" gr="V,npst,act,mir,2.s,sg.s" parts="ōɕ-nē-n" gloss="have-MIR.NPST-2SG.S"></ana><ana lex="ōn'ɕ" gr="V,npst,act,mir,3.s,du.s,objc" parts="ōɕ-n-ēn" gloss="have-MIR.NPST-3DU.S"></ana>ōɕnēn</w>
 <w><ana lex="ūj" gr="N,pl,2du_pl,nom" parts="ūj-an-en" gloss="animal-PL-POSS.2DU/PL"></ana><ana lex="ūj" gr="N,pl,2du_pl,nom" parts="ūj-an-en" gloss="animals-PL-POSS.2DU/PL"></ana><ana lex="ūj" gr="N,pl,3sg,lat" parts="ūj-an-e-n" gloss="animal-PL-POSS.3SG-LAT"></ana><ana lex="ūj" gr="N,pl,3sg,lat" parts="ūj-an-e-n" gloss="animals-PL-POSS.3SG-LAT"></ana>ūjanen</w>
 <w><ana lex="ūj" gr="N,pl,1sg,nom" parts="ūj-an-um" gloss="animal-PL-POSS.1SG"></ana><ana lex="ūj" gr="N,pl,1sg,nom" parts="ūj-an-um" gloss="animals-PL-POSS.1SG"></ana>ūjanum</w>
 <w><ana lex="ūj" gr="N,pl,3sg,ins" parts="ūj-an-ē-təl" gloss="animal-PL-POSS.3SG-INS"></ana><ana lex="ūj" gr="N,pl,3sg,ins" parts="ūj-an-ē-təl" gloss="animals-PL-POSS.3SG-INS"></ana>ūjanētəl</w>
@@ -569,15 +584,15 @@
 <w><ana lex="ūj" gr="N,sg,lat" parts="ūj-n" gloss="animal-LAT"></ana><ana lex="ūj" gr="N,sg,lat" parts="ūj-n" gloss="animals-LAT"></ana>ūjn</w>
 <w><ana lex="ūj" gr="N,pl,nom" parts="ūj-t" gloss="animal-PL"></ana><ana lex="ūj" gr="N,pl,nom" parts="ūj-t" gloss="animals-PL"></ana><ana lex="ūj" gr="N,sg,loc" parts="ūj-t" gloss="animal-LOC"></ana><ana lex="ūj" gr="N,sg,loc" parts="ūj-t" gloss="animals-LOC"></ana>ūjt</w>
 <w><ana lex="ūlum" gr="N,sg,nom" parts="ūlum" gloss="dream"></ana>ūlum</w>
-<w><ana lex="ūnt" gr="V,tr,act,res,sg,nom" parts="ūnt-t-um" gloss="sit-TR-RES"></ana><ana lex="ūnt" gr="V,tr,pst,act,mir,subjc,3.s,sg.s" parts="ūnt-t-um" gloss="sit-TR-MIR.PST"></ana>ūnttum</w>
+<w><ana lex="ūnt" gr="V,tr,act,res,sg,nom" parts="ūnt-t-um" gloss="sit-TR-RES"></ana><ana lex="ūnt" gr="V,tr,pst,act,mir,3.s,sg.s" parts="ūnt-t-um" gloss="sit-TR-MIR.PST"></ana>ūnttum</w>
 <w><ana lex="ūnt" gr="V,tr,past,pst,3.s,pl.s" parts="ūnt-t-uwe-s-ət" gloss="sit-TR-PASS-PST-3PL.S"></ana>ūnttuwesət</w>
-<w><ana lex="ūnt" gr="V,pst,act,subjc,3.s,sg.s" parts="ūnt-əs" gloss="sit-PST"></ana>ūntəs</w>
-<w><ana lex="ūr" gr="V,asp,pst,act,sg.o,3.s,sg.s" parts="ūr-miɣt-as-t-e" gloss="hold-ASP-PST-SG.O-3SG.S"></ana>ūrmiɣtaste</w>
+<w><ana lex="ūnt" gr="V,pst,act,3.s,sg.s" parts="ūnt-əs" gloss="sit-PST"></ana>ūntəs</w>
+<w><ana lex="ūr" gr="V,asp,pst,act,sg.o,objc,3.s,sg.s" parts="ūr-miɣt-as-t-e" gloss="hold-ASP-PST-SG.O-3SG.S"></ana>ūrmiɣtaste</w>
 <w><ana lex="ɕalt" gr="V,act,imp,2.s,sg.s" parts="ɕalt-en" gloss="enter-IMP.2SG"></ana><ana lex="ɕalt" gr="V,act,nmlz,sg,nom" parts="ɕalt-en" gloss="enter-NMLZ"></ana>ɕalten</w>
-<w><ana lex="ɕalt" gr="V,asp,pst,act,subjc,3.s,pl.s" parts="ɕalt-liɣt-as-ət" gloss="enter-ASP-PST-3PL.S"></ana>ɕaltliɣtasət</w>
+<w><ana lex="ɕalt" gr="V,asp,pst,act,3.s,pl.s" parts="ɕalt-liɣt-as-ət" gloss="enter-ASP-PST-3PL.S"></ana>ɕaltliɣtasət</w>
 <w><ana lex="ɕarit" gr="V,pass,pst,mir,3.s,sg.s" parts="ɕarit-ime" gloss="fry-MIR.PASS.PST"></ana>ɕaritime</w>
 <w><ana lex="ɕar" gr="V,past,pst,3.s,sg.s" parts="ɕar-we-s" gloss="completely-PASS-PST"></ana>ɕarwes</w>
 <w><ana lex="ɕas" gr="N,sg,nom" parts="ɕas" gloss="knees"></ana>ɕas</w>
 <w><ana lex="ɕil" gr="N,sg,nom" parts="ɕil" gloss="bell"></ana>ɕil</w>
-<w><ana lex="ɕopit" gr="V,pst,act,subjc,3.s,sg.s" parts="ɕopit-as" gloss="cook-PST"></ana>ɕopitas</w>
-<w><ana lex="ɕurɣ" gr="V,npst,act,subjc,3.s,sg.s" parts="ɕurɣ-ēɣ" gloss="flow-NPST"></ana>ɕurɣēɣ</w>
+<w><ana lex="ɕopit" gr="V,pst,act,3.s,sg.s" parts="ɕopit-as" gloss="cook-PST"></ana>ɕopitas</w>
+<w><ana lex="ɕurɣ" gr="V,npst,act,3.s,sg.s" parts="ɕurɣ-ēɣ" gloss="flow-NPST"></ana>ɕurɣēɣ</w>
