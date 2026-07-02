@@ -30,6 +30,7 @@
  -flex: .<.>
   gramm: sg
   paradigm: N-case-default
+  paradigm: N-poss
  -flex: .ɣ<.>//<1>.iɣ<.>
   gramm: du
   gloss: DU
@@ -57,6 +58,7 @@
  -flex: .<.>
   gramm: sg
   paradigm: N-case-default
+  paradigm: N-poss
  -flex: .ɣ<.>//<1>.iɣ<.>
   gramm: du
   gloss: DU
