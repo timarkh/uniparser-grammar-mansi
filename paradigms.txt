@@ -1,25 +1,1381 @@
 -paradigm: unchangeable
  -flex: .
   gramm: 
-  gloss: 
 
+-paradigm: NUM_odd
+ -flex: .
+  gramm: 
+
+-paradigm: NUM_even
+ -flex: .
+  gramm: 
+
+-paradigm: ADV
+ -flex: .
+  gramm: 
+ -flex: .nuw
+  gramm: cmpr
+  gloss: CMPR
+
+
+
+# MAIN NOMINAL AND ADJECTIVAL PARADIGMS
 
 -paradigm: N_even
- -flex: .
-  gramm: nom,sg
-  gloss: 
+ -flex: .<.>
+  gramm: 
+  paradigm: N2V_even
+  paradigm: N2N_even
+  paradigm: N2A_even
+ -flex: .<.>
+  gramm: sg
+  paradigm: N-case-default
+ -flex: .ɣ<.>//<1>.iɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-case-numposs
+ -flex: .ɣ<.>//<1>.aɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-poss
+ -flex: .t<.>//<1>.ət<.>//<1>.it<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-case-numposs
+ -flex: .n<.>//<1>.an<.>//.jan<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-poss
+
 
 -paradigm: N_odd
- -flex: .
-  gramm: nom,sg
-  gloss: 
+ -flex: .<.>
+  gramm: 
+  paradigm: N2V_odd
+  paradigm: N2N_odd
+  paradigm: N2A_odd
+ -flex: .<.>
+  gramm: sg
+  paradigm: N-case-default
+ -flex: .ɣ<.>//<1>.iɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-case-numposs
+ -flex: .ɣ<.>//<1>.aɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-poss
+ -flex: .t<.>//<1>.ət<.>//<1>.it<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-case-numposs
+ -flex: .n<.>//<1>.an<.>//.jan<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-poss
+
+
+-paradigm: N_even_noobl
+ -flex: .<.>
+  gramm: 
+  paradigm: N2V_even
+ -flex: .<.>
+  gramm: sg
+  paradigm: N-case-default
+ -flex: .ɣ<.>//.iɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-case-numposs
+ -flex: .ɣ<.>//.aɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-poss
+ -flex: .t<.>//.ət<.>//.it<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-case-numposs
+ -flex: .n<.>//.an<.>//.jan<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-poss-noobl
+
+
+-paradigm: N_odd_noobl
+ -flex: .<.>
+  gramm: 
+  paradigm: N2V_odd
+ -flex: .<.>
+  gramm: sg
+  paradigm: N-case-default
+ -flex: .ɣ<.>//.iɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-case-numposs
+ -flex: .ɣ<.>//.aɣ<.>
+  gramm: du
+  gloss: DU
+  paradigm: N-poss
+ -flex: .t<.>//.ət<.>//.it<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-case-numposs
+ -flex: .n<.>//.an<.>//.jan<.>
+  gramm: pl
+  gloss: PL
+  paradigm: N-poss-noobl
+
+
+
 
 -paradigm: ADJ_even
- -flex: .
-  gramm: nom,sg
-  gloss: 
+ -flex: .<.>
+  gramm: 
+  paradigm: ADJ_even-main
+ -flex: .nuw<.>
+  gramm: cmpr
+  gloss: CMPR
+  paradigm: ADJ_odd-main
 
 -paradigm: ADJ_odd
+ -flex: .<.>
+  gramm: 
+  paradigm: ADJ_odd-main
+ -flex: .nuw<.>
+  gramm: cmpr
+  gloss: CMPR
+  paradigm: ADJ_even
+
+
+-paradigm: ADJ_even-main
  -flex: .
-  gramm: nom,sg
-  gloss: 
+  gramm: sg,nom
+ -flex: .ɣ//<1>.iɣ
+  gramm: du,nom
+  gloss: DU
+ -flex: .t//<1>.ət//<1>.it
+  gramm: pl,nom
+  gloss: PL
+  paradigm: N-case-numposs
+ -flex: .ɣ//.iɣ//.ɣiɣ
+  gramm: sg,trans
+  gloss: TRANS
+
+
+-paradigm: ADJ_odd-main
+ -flex: .
+  gramm: sg,nom
+ -flex: .ɣ//<1>.iɣ
+  gramm: du,nom
+  gloss: DU
+ -flex: .t//<1>.ət//<1>.it
+  gramm: pl,nom
+  gloss: PL
+  paradigm: N-case-numposs
+ -flex: .ɣ//.iɣ//.ɣiɣ
+  gramm: sg,trans
+  gloss: TRANS
+
+
+
+
+#   NOMINAL SUBPARADIGMS (DERIVATIONS, POSSESSION, CASE)
+
+-paradigm: N2V_even
+ -flex: .l<.>
+  gramm: vbz,vbz_l
+  gloss: VBZ
+  paradigm: V_even
+ -flex: .m<.>
+  gramm: vbz,vbz_m
+  gloss: VBZ
+  paradigm: V_even
+ -flex: .ɕ<.>
+  gramm: vbz,vbz_sh
+  gloss: VBZ
+  paradigm: V_even
+ -flex: .aj<.>
+  gramm: vbz,vbz_aj
+  gloss: VBZ
+  paradigm: V_odd
+
+-paradigm: N2V_odd
+ -flex: .l<.>
+  gramm: vbz,vbz_l
+  gloss: VBZ
+  paradigm: V_odd
+ -flex: .m<.>
+  gramm: vbz,vbz_m
+  gloss: VBZ
+  paradigm: V_odd
+ -flex: .ɕ<.>
+  gramm: vbz,vbz_sh
+  gloss: VBZ
+  paradigm: V_odd
+ -flex: .aj<.>
+  gramm: vbz,vbz_aj
+  gloss: VBZ
+  paradigm: V_even
+
+-paradigm: N2N_even
+ -flex: .kwe<.>
+  gramm: dim
+  gloss: DIM
+  paradigm: N_odd_noobl
+ -flex: .riɕ<.>
+  gramm: pej
+  gloss: PEJ
+  paradigm: N_odd_noobl
+
+-paradigm: N2N_odd
+ -flex: .kwe<.>
+  gramm: dim
+  gloss: DIM
+  paradigm: N_even_noobl
+ -flex: .riɕ<.>
+  gramm: pej
+  gloss: PEJ
+  paradigm: N_even_noobl
+
+
+-paradigm: N2A_even
+ -flex: .tāl<.>
+  gramm: car
+  gloss: CAR
+  paradigm: ADJ_odd
+ -flex: .ŋ<.>
+  gramm: prop,prop1
+  gloss: PROP1
+  paradigm: ADJ_even
+ -flex: <1>.əŋ<.>
+  gramm: prop,prop1
+  gloss: PROP1
+  paradigm: ADJ_odd
+ -flex: .p<.>
+  gramm: prop,prop2
+  gloss: PROP2
+  paradigm: ADJ_even
+ -flex: <1>.up<.>
+  gramm: prop,prop2
+  gloss: PROP2
+  paradigm: ADJ_odd
+
+-paradigm: N2A_odd
+ -flex: .tāl<.>
+  gramm: car
+  gloss: CAR
+  paradigm: ADJ_even
+ -flex: .ŋ<.>
+  gramm: prop,prop1
+  gloss: PROP1
+  paradigm: ADJ_odd
+ -flex: <1>.əŋ<.>
+  gramm: prop,prop1
+  gloss: PROP1
+  paradigm: ADJ_even
+ -flex: .p<.>
+  gramm: prop,prop2
+  gloss: PROP2
+  paradigm: ADJ_odd
+ -flex: <1>.up<.>
+  gramm: prop,prop2
+  gloss: PROP2
+  paradigm: ADJ_even
+
+
+
+-paradigm: N-case-default
+ -flex: .
+  gramm: nom
+ -flex: .n//.na
+  gramm: lat
+  gloss: LAT
+ -flex: .t//.ta
+  gramm: loc
+  gloss: LOC
+ -flex: .nəl
+  gramm: abl
+  gloss: ABL
+ -flex: .l
+  gramm: abl
+  gloss: ABL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .əl
+  gramm: abl
+  gloss: ABL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .l
+  gramm: ins
+  gloss: INS
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .əl
+  gramm: ins
+  gloss: INS
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .ɣ//.iɣ//.ɣiɣ
+  gramm: trans
+  gloss: TRANS
+
+-paradigm: N-case-numposs
+ -flex: .
+  gramm: nom
+ -flex: .n//.na
+  gramm: lat
+  gloss: LAT
+ -flex: .t//.ta
+  gramm: loc
+  gloss: LOC
+ -flex: .nəl
+  gramm: abl
+  gloss: ABL
+ -flex: .l
+  gramm: abl
+  gloss: ABL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .əl
+  gramm: abl
+  gloss: ABL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .təl
+  gramm: ins
+  gloss: INS
+ -flex: .l
+  gramm: ins
+  gloss: INS
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .əl
+  gramm: ins
+  gloss: INS
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .ɣ//.iɣ//.ɣiɣ
+  gramm: trans
+  gloss: TRANS
+
+
+-paradigm: N-poss
+ -flex: .m<.>//<1>.um<.>
+  gramm: 1sg
+  gloss: POSS.1SG
+ -flex: .mēn<.>//<1>.amen<.>//<1>.umēn<.>
+  gramm: 1du
+  gloss: POSS.1DU
+ -flex: .w<.>//<1>.uw<.>
+  gramm: 1pl
+  gloss: POSS.1PL
+ -flex: .n<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: <1>.ən<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: <1>.en<.>//<1>.ēn<.>
+  gramm: 2du_pl
+  gloss: POSS.2DU/PL
+ -flex: .te<.>//.tē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: <1>.e<.>//<1>.ē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .ten<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: <1>.atēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .nəl<.>//<1>.anəl<.>//.janəl<.>
+  gramm: 3pl
+  gloss: POSS.3PL
+ paradigm: N-case-numposs
+
+-paradigm: N-poss-noobl
+ -flex: .m<.>//.um<.>
+  gramm: 1sg
+  gloss: POSS.1SG
+ -flex: .mēn<.>//.amen<.>//.umēn<.>
+  gramm: 1du
+  gloss: POSS.1DU
+ -flex: .w<.>//.uw<.>
+  gramm: 1pl
+  gloss: POSS.1PL
+ -flex: .n<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .ən<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .en<.>//.ēn<.>
+  gramm: 2du_pl
+  gloss: POSS.2DU/PL
+ -flex: .te<.>//.tē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .e<.>//.ē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .ten<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .atēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .nəl<.>//.anəl<.>//.janəl<.>
+  gramm: 3pl
+  gloss: POSS.3PL
+ paradigm: N-case-numposs
+
+
+
+#  MAIN VERBAL PARADIGMS
+
+-paradigm: V_even
+ -flex: .<.>
+  gramm: 
+  paradigm: V_asp_even
+ -flex: .tt<.>
+  gramm: caus,caus_tt
+  gloss: CAUS
+  paradigm: V_voice2_even
+  paradigm: V_asp_even
+ -flex: .lt<.>
+  gramm: caus,caus_lt
+  gloss: CAUS
+  paradigm: V_voice2_even
+  paradigm: V_asp_even
+ -flex: .pt<.>
+  gramm: caus,caus_pt
+  gloss: CAUS
+  paradigm: V_voice2_even
+  paradigm: V_asp_even
+ -flex: .ltt<.>
+  gramm: caus,caus_ltt
+  gloss: CAUS
+  paradigm: V_voice2_even
+  paradigm: V_asp_even
+ -flex: .t<.>
+  gramm: tr
+  gloss: TR
+  paradigm: V_voice2_even
+  paradigm: V_asp_even
+ -flex: .xat<.>
+  gramm: refl,refl_xat
+  gloss: REFL
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd
+ -flex: .axt<.>
+  gramm: refl,refl_axt
+  gloss: REFL
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd
+
+-paradigm: V_odd
+ -flex: .<.>
+  gramm: 
+  paradigm: V_asp_odd
+ -flex: .tt<.>
+  gramm: caus,caus_tt
+  gloss: CAUS
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd
+ -flex: .lt<.>
+  gramm: caus,caus_lt
+  gloss: CAUS
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd
+ -flex: .pt<.>
+  gramm: caus,caus_pt
+  gloss: CAUS
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd
+ -flex: .ltt<.>
+  gramm: caus,caus_ltt
+  gloss: CAUS
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd
+ -flex: .t<.>
+  gramm: tr
+  gloss: TR
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd
+ -flex: .xat<.>
+  gramm: refl,refl_xat
+  gloss: REFL
+  paradigm: V_voice2_even
+  paradigm: V_asp_even
+ -flex: .axt<.>
+  gramm: refl,refl_axt
+  gloss: REFL
+  paradigm: V_voice2_even
+  paradigm: V_asp_even
+
+
+
+-paradigm: V_voice2_even
+ -flex: .tt<.>
+  gramm: caus,caus_tt
+  gloss: CAUS
+  paradigm: V_asp_even
+ -flex: .lt<.>
+  gramm: caus,caus_lt
+  gloss: CAUS
+  paradigm: V_asp_even
+ -flex: .pt<.>
+  gramm: caus,caus_pt
+  gloss: CAUS
+  paradigm: V_asp_even
+ -flex: .ltt<.>
+  gramm: caus,caus_ltt
+  gloss: CAUS
+  paradigm: V_asp_even
+ -flex: .xat<.>
+  gramm: refl,refl_xat
+  gloss: REFL
+  paradigm: V_asp_odd
+ -flex: .axt<.>
+  gramm: refl,refl_axt
+  gloss: REFL
+  paradigm: V_asp_odd
+
+
+-paradigm: V_voice2_odd
+ -flex: .tt<.>
+  gramm: caus,caus_tt
+  gloss: CAUS
+  paradigm: V_asp_odd
+ -flex: .lt<.>
+  gramm: caus,caus_lt
+  gloss: CAUS
+  paradigm: V_asp_odd
+ -flex: .pt<.>
+  gramm: caus,caus_pt
+  gloss: CAUS
+  paradigm: V_asp_odd
+ -flex: .ltt<.>
+  gramm: caus,caus_ltt
+  gloss: CAUS
+  paradigm: V_asp_odd
+ -flex: .xat<.>
+  gramm: refl,refl_xat
+  gloss: REFL
+  paradigm: V_asp_even
+ -flex: .axt<.>
+  gramm: refl,refl_axt
+  gloss: REFL
+  paradigm: V_asp_even
+
+
+
+-paradigm: V_asp_odd
+ -flex: .<.>
+  gramm: 
+  paradigm: V_main_odd
+ -flex: .ɣ<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .aɕ<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .ɕ<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .iɣl<.>//.il<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .ɣal<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .tāl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .aml<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .as<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .iɣt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .at<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .aj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .iɣp<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .liɣt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .uj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .uwj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .m<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .maj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .lat<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .ap<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .āl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .al<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .alāl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .alt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .ānt<.>//.ant<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .umt<.>//.emt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .miɣt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .sal<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .aɕl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .iɕl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .amt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .mat<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .uwl<.>//.ul<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .int<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .xōl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .əlmat<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .ast<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .tl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+
+
+-paradigm: V_asp_even
+ -flex: .<.>
+  gramm: 
+  paradigm: V_main_even
+ -flex: .ɣ<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .aɕ<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .ɕ<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .iɣl<.>//.il<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .ɣal<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .tāl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .aml<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .as<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .iɣt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .at<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .aj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .iɣp<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .liɣt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .uj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .uwj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .m<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .maj<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .lat<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .ap<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .āl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .al<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .alāl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .alt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .ānt<.>//.ant<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .umt<.>//.emt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .miɣt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .sal<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .aɕl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .iɕl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .amt<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .mat<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .uwl<.>//.ul<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .int<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .xōl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .əlmat<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .ast<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
+ -flex: .tl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+
+
+-paradigm: V_main_even
+ -flex: .<.>
+  gramm: act
+  paradigm: V_imp
+  paradigm: V_nonfin_even
+
+ -flex: .ēɣ<.>
+  gramm: npst,act
+  gloss: NPST
+  paradigm: V-agr-odd
+ -flex: .ɣ<.>
+  gramm: npst,act
+  gloss: NPST
+  paradigm: V-agr-even
+ -flex: .ē|w
+  gramm: npst,act,1.s,pl.s
+  gloss: NPST|1PL.S
+ -flex: .i<.>
+  gramm: npst,act
+  gloss: NPST
+  paradigm: V-agr-odd
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+ -flex: .i
+  gramm: npst,act,3.s,sg.s
+  gloss: NPST.3SG
+ -flex: .as<.>
+  gramm: pst,act
+  gloss: PST
+  paradigm: V-agr-odd
+
+ -flex: .ne<.>//.nē<.>//.mē<.>
+  gramm: npst,act,mir
+  gloss: MIR.NPST
+  paradigm: V-agr-odd
+ -flex: .ane<.>//.anē<.>//.n<.>
+  gramm: npst,act,mir
+  gloss: MIR.NPST
+  paradigm: V-agr-even
+
+ -flex: .am<.>//.əm<.>//.um<.>
+  gramm: pst,act,mir
+  gloss: MIR.PST
+  paradigm: V-agr-odd
+ -flex: .m<.>
+  gramm: pst,act,mir
+  gloss: MIR.PST
+  paradigm: V-agr-even
+ 
+ -flex: .ima<.>//.ime<.>
+  gramm: pass,pst,mir
+  gloss: MIR.PASS.PST
+  paradigm: V-agr-s
+ 
+ -flex: .we<.>//.wē<.>
+  gramm: pass,npst
+  gloss: PASS.NPST
+  paradigm: V-agr-s
+ -flex: .awe<.>//.awē<.>//.uwe<.>
+  gramm: pass,npst
+  gloss: PASS.NPST
+  paradigm: V-agr-s
+ -flex: .we|ēɣ<.>//.wē|ēɣ<.>//.awe|ēɣ<.>//.awē|ēɣ<.>//.uwe|ēɣ<.>
+  gramm: pass,npst
+  gloss: PASS|NPST
+  paradigm: V-agr-s
+ -flex: .we|ɣ<.>//.wē|ɣ<.>//.awe|ɣ<.>//.awē|ɣ<.>//.uwe|ɣ<.>
+  gramm: pass,npst
+  gloss: PASS|NPST
+  paradigm: V-agr-s
+ -flex: .we|ē|w//.wē|ē|w//.awe|ē|w//.awē|ē|w//.uwe|ē|w
+  gramm: pass,npst,1.s,pl.s
+  gloss: PASS|NPST|1PL.S
+ -flex: .we|i<.>//.wē|i<.>//.awe|i<.>//.awē|i<.>//.uwe|i<.>
+  gramm: pass,npst
+  gloss: PASS|NPST
+  paradigm: V-agr-s
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+ -flex: .we|i//.wē|i//.awe|i//.awē|i//.uwe|i
+  gramm: pass,npst,3.s,sg.s
+  gloss: PASS|NPST.3SG
+ -flex: .we|s<.>//.wē|s<.>//.awe|s<.>//.awē|s<.>//.uwe|s<.>
+  gramm: past,pst
+  gloss: PASS|PST
+  paradigm: V-agr-s
+ -flex: .we|əs<.>//.wē|əs<.>//.awe|əs<.>//.awē|əs<.>//.uwe|əs<.>
+  gramm: past,pst
+  gloss: PASS|PST
+  paradigm: V-agr-s
+ -flex: .we|as<.>//.wē|as<.>//.awe|as<.>//.awē|as<.>//.uwe|as<.>
+  gramm: past,pst
+  gloss: PASS|PST
+  paradigm: V-agr-s
+
+ -flex: .nuw<.>
+  gramm: irr,act
+  gloss: IRR
+  paradigm: V-agr-odd
+ -flex: .ənuw<.>//.anuw<.>
+  gramm: irr,act
+  gloss: IRR
+  paradigm: V-agr-even
+ 
+ -flex: .nuwe<.>
+  gramm: irr,act
+  gloss: IRR
+  paradigm: V-agr-s
+ -flex: .ənuwe<.>//.anuwe<.>//.anuwē<.>
+  gramm: irr,pass
+  gloss: IRR.PASS
+  paradigm: V-agr-s
+
+ 
+
+
+-paradigm: V_main_odd
+ -flex: .<.>
+  gramm: act
+  paradigm: V_imp
+  paradigm: V_nonfin_odd
+
+ -flex: .ēɣ<.>
+  gramm: npst,act
+  gloss: NPST
+  paradigm: V-agr-even
+ -flex: .ɣ<.>
+  gramm: npst,act
+  gloss: NPST
+  paradigm: V-agr-odd
+ -flex: .ē|w
+  gramm: npst,act,1.s,pl.s
+  gloss: NPST|1PL.S
+ -flex: .i<.>
+  gramm: npst,act
+  gloss: NPST
+  paradigm: V-agr-even
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+ -flex: .i
+  gramm: npst,act,3.s,sg.s
+  gloss: NPST.3SG
+ -flex: .s<.>
+  gramm: pst,act
+  gloss: PST
+  paradigm: V-agr-odd
+ -flex: .əs<.>
+  gramm: pst,act
+  gloss: PST
+  paradigm: V-agr-even
+ -flex: .as<.>
+  gramm: pst,act
+  gloss: PST
+  paradigm: V-agr-even
+
+ -flex: .ne<.>//.nē<.>//.mē<.>
+  gramm: npst,act,mir
+  gloss: MIR.NPST
+  paradigm: V-agr-even
+ -flex: .ane<.>//.anē<.>//.n<.>
+  gramm: npst,act,mir
+  gloss: MIR.NPST
+  paradigm: V-agr-odd
+
+ -flex: .am<.>//.əm<.>//.um<.>
+  gramm: pst,act,mir
+  gloss: MIR.PST
+  paradigm: V-agr-even
+ -flex: .m<.>
+  gramm: pst,act,mir
+  gloss: MIR.PST
+  paradigm: V-agr-odd
+ 
+ -flex: .ima<.>//.ime<.>
+  gramm: pass,pst,mir
+  gloss: MIR.PASS.PST
+  paradigm: V-agr-s
+ 
+ -flex: .we<.>//.wē<.>
+  gramm: pass,npst
+  gloss: PASS.NPST
+  paradigm: V-agr-s
+ -flex: .awe<.>//.awē<.>//.uwe<.>
+  gramm: pass,npst
+  gloss: PASS.NPST
+  paradigm: V-agr-s
+ -flex: .we|ēɣ<.>//.wē|ēɣ<.>//.awe|ēɣ<.>//.awē|ēɣ<.>//.uwe|ēɣ<.>
+  gramm: pass,npst
+  gloss: PASS|NPST
+  paradigm: V-agr-s
+ -flex: .we|ɣ<.>//.wē|ɣ<.>//.awe|ɣ<.>//.awē|ɣ<.>//.uwe|ɣ<.>
+  gramm: pass,npst
+  gloss: PASS|NPST
+  paradigm: V-agr-s
+ -flex: .we|ē|w//.wē|ē|w//.awe|ē|w//.awē|ē|w//.uwe|ē|w
+  gramm: pass,npst,1.s,pl.s
+  gloss: PASS|NPST|1PL.S
+ -flex: .we|i<.>//.wē|i<.>//.awe|i<.>//.awē|i<.>//.uwe|i<.>
+  gramm: pass,npst
+  gloss: PASS|NPST
+  paradigm: V-agr-s
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+ -flex: .we|i//.wē|i//.awe|i//.awē|i//.uwe|i
+  gramm: pass,npst,3.s,sg.s
+  gloss: PASS|NPST.3SG
+ -flex: .we|s<.>//.wē|s<.>//.awe|s<.>//.awē|s<.>//.uwe|s<.>
+  gramm: past,pst
+  gloss: PASS|PST
+  paradigm: V-agr-s
+ -flex: .we|əs<.>//.wē|əs<.>//.awe|əs<.>//.awē|əs<.>//.uwe|əs<.>
+  gramm: past,pst
+  gloss: PASS|PST
+  paradigm: V-agr-s
+ -flex: .we|as<.>//.wē|as<.>//.awe|as<.>//.awē|as<.>//.uwe|as<.>
+  gramm: past,pst
+  gloss: PASS|PST
+  paradigm: V-agr-s
+
+ -flex: .nuw<.>
+  gramm: irr,act
+  gloss: IRR
+  paradigm: V-agr-even
+ -flex: .ənuw<.>//.anuw<.>
+  gramm: irr,act
+  gloss: IRR
+  paradigm: V-agr-odd
+ 
+ -flex: .nuwe<.>
+  gramm: irr,act
+  gloss: IRR
+  paradigm: V-agr-s
+ -flex: .ənuwe<.>//.anuwe<.>//.anuwē<.>
+  gramm: irr,pass
+  gloss: IRR.PASS
+  paradigm: V-agr-s
+
+
+
+-paradigm: V_main_short
+ -flex: .ŋkwe
+  gramm: inf
+  gloss: INF
+  regex-rev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .w<.>
+  gramm: npst,act
+  gloss: NPST
+  paradigm: V-agr-odd
+  regex-rev: .*[aeiouāēīōūə][.<>]*$
+
+
+
+#  IMPERATIVES
+
+-paradigm: V_imp
+ -flex: .en
+  gramm: imp,2.s,sg.s
+  gloss: IMP.2SG
+ -flex: .ēn
+  gramm: imp,2.s,du.s,pl.s
+  gloss: IMP.2DU/PL
+ -flex: .ē|l|n
+  gramm: imp,2.s,sg.s,sg.o
+  gloss: IMP|SG.O|2SG.S
+ -flex: .ē|l|an//.ē|l|en
+  gramm: imp,2.s,du.s,pl.s,sg.o
+  gloss: IMP|SG.O|2DU/PL.S
+ -flex: .e|ɣ|en
+  gramm: imp,2.s,du.o
+  gloss: IMP|DU.O|2.S
+ -flex: .ēn
+  gramm: imp,2.s,pl.o
+  gloss: IMP.PL.O.2.S
+
+
+
+#  NON-FINITE VERBAL FORMS
+
+-paradigm: V_nonfin_odd
+ -flex: .uŋkwe//.aŋkwe
+  gramm: inf
+  gloss: INF
+ -flex: .im
+  gramm: cvb
+  gloss: CVB
+ -flex: .upsa<.>
+  gramm: subst
+  gloss: SUBST
+  paradigm: N_odd
+ -flex: .it<.>
+  gramm: subst1
+  gloss: SUBST1
+  paradigm: N_even
+
+ -flex: .m<.>
+  gramm: res
+  gloss: RES
+  paradigm: ADJ_odd
+ -flex: .am<.>//.əm<.>//.im<.>//.um<.>
+  gramm: res
+  gloss: RES
+  paradigm: ADJ_even
+
+ -flex: .p<.>
+  gramm: ptcp
+  gloss: PTCP
+  paradigm: ADJ_odd
+ -flex: .ap<.>//.up<.>
+  gramm: ptcp
+  gloss: PTCP
+  paradigm: ADJ_even
+
+ -flex: .n<.>
+  gramm: nmlz
+  gloss: NMLZ
+  paradigm: N_odd
+ -flex: .ne<.>//.nē<.>//.en<.>//.an<.>//.ən<.>
+  gramm: nmlz
+  gloss: NMLZ
+  paradigm: N_even
+
+ -flex: .ake<.>
+  gramm: temp
+  gloss: TEMP
+  paradigm: N_odd
+ -flex: .ke<.>//.kē<.>
+  gramm: temp
+  gloss: TEMP
+  paradigm: N_even
+
+
+
+-paradigm: V_nonfin_even
+ -flex: .aŋkwe
+  gramm: inf
+  gloss: INF
+ -flex: .im
+  gramm: cvb
+  gloss: CVB
+ -flex: .upsa<.>
+  gramm: subst
+  gloss: SUBST
+  paradigm: N_odd
+ -flex: .it<.>
+  gramm: subst1
+  gloss: SUBST1
+  paradigm: N_even
+
+ -flex: .m<.>
+  gramm: res
+  gloss: RES
+  paradigm: ADJ_even
+ -flex: .am<.>//.əm<.>//.im<.>//.um<.>
+  gramm: res
+  gloss: RES
+  paradigm: ADJ_odd
+
+ -flex: .p<.>
+  gramm: ptcp
+  gloss: PTCP
+  paradigm: ADJ_even
+ -flex: .ap<.>//.up<.>
+  gramm: ptcp
+  gloss: PTCP
+  paradigm: ADJ_odd
+
+ -flex: .n<.>
+  gramm: nmlz
+  gloss: NMLZ
+  paradigm: N_even
+ -flex: .ne<.>//.nē<.>//.en<.>//.an<.>//.ən<.>
+  gramm: nmlz
+  gloss: NMLZ
+  paradigm: N_odd
+
+ -flex: .ake<.>
+  gramm: temp
+  gloss: TEMP
+  paradigm: N_even
+ -flex: .ke<.>//.kē<.>
+  gramm: temp
+  gloss: TEMP
+  paradigm: N_odd
+
+
+#  VERBAL AGREEMENT
+
+-paradigm: V-agr-even
+ -flex: .<.>
+  gramm: subjc
+  paradigm: V-agr-s
+ -flex: .l<.>
+  gramm: sg.o
+  gloss: SG.O
+  paradigm: V-agr-12s
+ -flex: .t<.>
+  gramm: sg.o
+  gloss: SG.O
+  paradigm: V-agr-3npls
+ -flex: .an<.>//.jan<.>
+  gramm: pl.o
+  gloss: PL.O
+  paradigm: V-agr-12s
+  paradigm: V-agr-3npls
+ -flex: .aɣ<.>//.jaɣ<.>
+  gramm: du.o
+  gloss: DU.O
+  paradigm: V-agr-s
+
+
+-paradigm: V-agr-odd
+ -flex: .<.>
+  gramm: subjc
+  paradigm: V-agr-s
+ -flex: .l<.>
+  gramm: sg.o
+  gloss: SG.O
+  paradigm: V-agr-12s
+ -flex: .t<.>
+  gramm: sg.o
+  gloss: SG.O
+  paradigm: V-agr-3npls
+ -flex: .an<.>//.jan<.>
+  gramm: pl.o
+  gloss: PL.O
+  paradigm: V-agr-12s
+  paradigm: V-agr-3npls
+ -flex: .aɣ<.>//.jaɣ<.>
+  gramm: du.o
+  gloss: DU.O
+  paradigm: V-agr-s
+
+
+-paradigm: V-agr-s
+ -flex: .m//.um
+  gramm: 1.s,sg.s
+  gloss: 1SG.S
+ -flex: .mēn//.umēn//.amēn
+  gramm: 1.s,du.s
+  gloss: 1DU.S
+ -flex: .w//.uw//.aw//.ūw
+  gramm: 1.s,pl.s
+  gloss: 1PL.S
+ -flex: .n//.ən
+  gramm: 2.s,sg.s
+  gloss: 2SG.S
+ -flex: .n//.ən//.īn
+  gramm: 2.s,du.s,pl.s
+  gloss: 2DU/PL.S
+ -flex: .
+  gramm: 3.s,sg.s
+  gloss: 3SG.S
+ -flex: .īɣ//.iɣ//.ɣ
+  gramm: 3.s,du.s
+  gloss: 3DU.S
+ -flex: .t//.ət
+  gramm: 3.s,pl.s
+  gloss: 3PL.S
+ -flex: .e
+  gramm: 3.s,sg.s
+  gloss: 3SG.S
+  regex-prev-gramm: .*\.o.*
+ -flex: .ēn
+  gramm: 3.s,du.s
+  gloss: 3DU.S
+  regex-prev-gramm: .*\.o.*
+ -flex: .anəl//.janəl
+  gramm: 3.s,pl.s
+  gloss: 3PL.S
+  regex-prev-gramm: .*\.o.*
+
+
+-paradigm: V-agr-3npls
+ -flex: .e
+  gramm: 3.s,sg.s
+  gloss: 3SG.S
+  regex-prev-gramm: .*\.o.*
+ -flex: .ēn
+  gramm: 3.s,du.s
+  gloss: 3DU.S
+  regex-prev-gramm: .*\.o.*
+
+
+-paradigm: V-agr-12s
+ -flex: .m//.um
+  gramm: 1.s,sg.s
+  gloss: 1SG.S
+ -flex: .mēn//.umēn//.amēn
+  gramm: 1.s,du.s
+  gloss: 1DU.S
+ -flex: .w//.uw//.aw//.ūw
+  gramm: 1.s,pl.s
+  gloss: 1PL.S
+ -flex: .n//.ən
+  gramm: 2.s,sg.s
+  gloss: 2SG.S
+ -flex: .n//.ən//.īn
+  gramm: 2.s,du.s,pl.s
+  gloss: 2DU/PL.S

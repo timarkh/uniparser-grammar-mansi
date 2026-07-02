@@ -147,7 +147,8 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
             continue
         if 'PN' not in pos and re.search('\\b(topn|famn|persn|patrn)\\b', pos) is not None:
             pos += ',PN'
-        if 'PN' not in pos and lemma[0].lower() != lemma[0]:
+        if 'PN' not in pos and (lemma[0].lower() != lemma[0]
+                                or (len(trans_en) > 0 and trans_en[0].lower() != trans_en[0] and trans_en.upper() != trans_en)):
             pos += ',PN'
         if 'anim' not in pos and re.search('\\b(hum)\\b', pos) is not None:
             pos += ',anim'
@@ -155,7 +156,9 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
         gramm = gramm.strip('.,')
         if re.search(',(persn|topn|famn|patrn|PN)\\b', gramm) is not None:
             lemma = lemma[0].upper() + lemma[1:]
-        if len(para) <= 0:
+        if para.startswith('ADV'):
+            para = 'ADV'
+        elif len(para) <= 0 or re.search('^(N|V|ADJ|NUM|ADV)', para) is None:
             para = 'unchangeable'
         para = para.replace(' ', '').split('/')
         lexOut = ('\n-lexeme\n lex: ' + lemma + '\n stem: ' + stem.strip().replace(' /', '/').replace(' |', '|')

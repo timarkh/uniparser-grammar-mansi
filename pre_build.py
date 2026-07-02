@@ -188,5 +188,5 @@ if __name__ == '__main__':
     parse_wordlists()
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')
-    for wf in a.analyze_words(['ojka'], format='xml'):
+    for wf in a.analyze_words(['ōjka'], format='xml'):
         print(wf)
