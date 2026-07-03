@@ -42,7 +42,7 @@ alm	V	alm.	V_odd	поднять	lift	x
 alma	V	alma.	V_even	поднять	lift	x
 almpal	N	almpal.	N_even	за	behind	x
 alpəl	ADJ	alpəl.|alpl.	ADJ_even	утренний	morning	x
-ālpəl	N	ālpəl.	N_even	утренний	morning	
+ālpəl	ADV	ālpəl.	ADV_even	утром	in.the.morning	
 alpəl	N	alpəl.|alpl.	N_even	утро	morning	x
 am	PRON	am.	PRON_odd	1SG	1SG	
 am	N	am.	N_odd	2SG		x
@@ -217,9 +217,9 @@ janiɣ	ADJ	janiɣ.	ADJ_even	большой	big	x
 janiɣ	N	janiɣ.	N_even	большой	big	x
 janiɣ	V	janiɣ.	V_even	большой	big	x
 janit	N	janit.	N_even	величина	size	
-janiɣ	ADJ	janiɣ.|janɣ//jan.	ADJ_even	большой	big	
+janiɣ	ADJ	janiɣ.|janɣ.//jan.	ADJ_even	большой	big	
 janəɣ	V	janəɣ.|janɣ.	V_even	большой	big	x
-jārum	N	jārum|jārm.	N_odd	беда	trouble	
+jārum	N	jārum.|jārm.	N_odd	беда	trouble	
 jārmak	N	jārmak.	N_even	шелк	silk	
 jārt	V	jart.	V_odd	удерживать	detain	
 jarum	N	jarum.	N_even	беда	trouble	x
@@ -235,14 +235,14 @@ jemt	V	jemt.	V_odd	случаться	happen	x
 jemt	V	jemt.	V_odd	стать	become	x
 jēmt	V	jēmt.	V_odd	стать	become	
 ji	V	ji.	V_odd	войти	enter	x
-ji	V	ji.	V_odd	идти	walk	
+ji	V	ji.|jaj.	V_odd	идти	walk	
 ji	V	ji.	V_odd	прийти	come	x
 jī	V	jī.	V_odd	идти	walk	x
 jik	N	jik.	N_odd	валежник	windfall	c
 jīkw	V	jīkw.	V_odd	танцевать	dance	
 jil'pi	ADJ	jil'pi.	ADJ_even	новый	new	
 jin	V	jin.	V_odd	кроить	cut	
-jipiɣ	N	jipiɣ.|jipɣ	N_even	филин	eagle.owl	
+jipiɣ	N	jipiɣ.|jipɣ.	N_even	филин	eagle.owl	
 jipəɣ	N	jipəɣ.|jipɣ.	N_even	филин	eagle.owl	x
 jir	N	jir.	N_odd	жертва	sacrifice	
 jis	ADJ	jis.	ADJ_odd	древний	ancient	
@@ -276,12 +276,12 @@ jos	N	jos.//josa.	N_odd	лыжа	ski
 jos	N	jos.	N_odd	сокол	falcon	c
 jos	V	jos.	V_odd	мокнуть	get.wet	
 josa	N	josa.	N_even	лыжи	skis	x
-jot	X	jot.	X_odd	COM	COM	
+jot	POSTP	jot.	POSTP_odd	COM	COM	
 jotəl	X	jotəl	X_even	затем	then	
 jowt	N	jowt.	N_odd	лук	bow	x
 jowt	N	jowt.	N_odd	стрела	arrow	x
 jowt	V	jowt.	V_odd	покупать	buy	
-jōwt	V	jōwt.	V_odd	лук	bow	
+jōwt	N	jōwt.	N_odd	лук	bow	
 jox	V	jox.	V_odd	вращаться	rotate	x
 joxt	V	joxt.	V_odd	идти	go	x
 joxt	V	joxt.	V_odd	прийти	come	
@@ -348,9 +348,9 @@ kāsal	V	kāsal.	V_even	заметить	notice
 kasal	V	kasal.	V_even	замечать	notice	x
 kāsew	N	kasew.	N_even	плотва	roach	
 kastak	N	kastak.	N_even	стол	table	c
-kastəl	X	kastəl.	X_even	для	for	
+kastəl	POSTP	kastəl.	POSTP_even	для	for	
 kāsum	N	kāsum.	N_even	Казым	Kazym	
-kasər	V	kasər.|kasr.	V_even	карты	cards	
+kasər	N	kasər.|kasr.	N_even	карты	cards	
 kāsəŋ	ADJ	kasəŋ	ADJ_even	каждый	every	
 kat	N	kat.	N_odd	рука	hand	x
 kat	N	kat.	N_odd	руки	hands	x
@@ -413,7 +413,7 @@ kona	N	kona.	N_even	снаружи	outside	x
 koni	ADJ	koni.	ADJ_even	наружний	outer	
 kons	N	kons.//kos.	N_odd	коготь	claw	
 kons	V	kons.	V_odd	царапать	scratch	
-kos	N	kos.	N_odd	CONC	CONC	
+kos	X	kos.	X_odd	CONC	CONC	
 kos	N	kos.	N_odd	вместе	together	x
 kos	N	kos.	N_odd	коготь	claw	x
 kos	N	kos.	N_odd	хоть	at.least	x
@@ -441,7 +441,7 @@ kwal	V	kwal.	V_odd	встать	stand	x
 kwal	V	kwal.	V_odd	выйти	go.out	x
 kwāl	V	kwāl.	V_odd	встать	stand	
 kwalɣ	V	kwalɣ.	V_odd	сказать	say	x
-kwāliɣ	N	kwāliɣ.|kwālɣ	N_even	верёвка	rope	
+kwāliɣ	N	kwāliɣ.|kwālɣ.	N_even	верёвка	rope	
 kwaləɣ	N	kwaləɣ.|kwalɣ.	N_even	верёвка	rope	x
 xār	N	xār.	N_odd	самец.оленя	reindeer.bull	
 kys	V	kys.	V_even	хотеть	want	x
@@ -503,7 +503,7 @@ lōps	N	lōps.	N_odd	страница	page
 lopəl	N	lopəl.|lopl.	N_even	на	on	c
 los	N	los.	N_odd	искра	spark	
 lot	N	lot.	N_odd	ценность	value	c
-low	N	low.	N_odd	десять	ten	
+low	NUM	low.	NUM_odd	десять	ten	
 lōwaɕ	N	lōwaɕ.	N_even	скамья	bench	
 lowin't	V	lowin't.	V_even	читать	read	
 lowt	V	lowt.	V_odd	мыть	wash	
@@ -534,7 +534,7 @@ ləɣ	N	ləɣ.	N_odd	DISC		x
 ləɣt	N	ləɣt.	N_odd	DISC		x
 l'aɣ	V	l'aɣ.	V_odd	говорить	speak	x
 l'aɣal	V	l'aɣal.	V_even	молвить	utter	
-l'al't	X	l'al't.	X_odd	навстречу	towards	
+l'al't	POSTP	l'al't.	POSTP_odd	навстречу	towards	
 l'ām	N	l'ām.	N_odd	черёмуха	bird.cherry	
 l'ap	N	l'ap.	N_odd	близко	close	x
 l'apa	ADJ	l'apa.	ADJ_even	близкий	close	
@@ -570,7 +570,7 @@ mā	N	mā.	N_odd	земля	land
 mā	N	mā.	N_odd	место	place	x
 māɣ	N	māɣ.	N_odd	мёд	honey	
 maɣum	N	maɣum.	N_even	народ	people	x
-māɣəs	X	māɣəs.|māɣs.	X_even	для	for	
+māɣəs	POSTP	māɣəs.|māɣs.	POSTP_even	для	for	
 maj	N	maj.	N_odd	1PL		x
 maj	N	maj.	N_odd	ведь	isn't.it	x
 maj	V	maj.	V_odd	дать	give	x
@@ -669,7 +669,7 @@ moɕ	N	moɕ.	N_odd	Мощ	Mosh
 moɕ	N	moɕ.	N_odd	мало	little	x
 moɕ	X	moɕ.	X_odd	немного	little	
 moɕ	V	moɕ.	V_odd	мало	little	x
-moɕɕa	N	moɕɕa.	N_even	мало	a.little	
+moɕɕa	ADV	moɕɕa.	ADV_even	мало	a.little	
 moɕne	N	moɕne.	N_even	Мощнэ		x
 moɕɕa	N	moɕɕa.	N_even	немного	a.little	x
 mūj	N	mūj.	N_odd	гость	guest	
@@ -680,14 +680,14 @@ muli	ADJ	muli.	ADJ_even	мужская.кровать	male.bed
 muli	ADJ	muli.	ADJ_even	передний	front	x
 an'mūnt	ADV	an'mūnt.	ADV_odd	недавно	recently	
 mūrm	V	mūrm.	V_odd	нырнуть	dive	
-mus	N	mus.	N_odd	до	to	
+mus	X	mus.	X_odd	до	to	
 mutra	N	mutra.	N_even	мудрость	wisdom	
 muwal	X	muwal.	X_even	вокруг	around	
 muwal	V	muwal.	V_even	засмеяться	start.laughing	
 mūwal	N	mūwal.	N_even	вокруг	around	x
 muwin't	N	muwin't.//mowin't.	N_even	смех	laughter	
 muwin't	V	muwin't.//mowin't.	V_even	смеяться	laugh	
-muwər	N	muwər|muwr.	N_odd	дубина	club	x
+muwər	N	muwər.|muwr.	N_odd	дубина	club	x
 muwəl	N	muwəl.|muwl.	N_even	вокруг	around	x
 muwər	N	muwər.|muwr.	N_even	дубина	club	
 mūŋi	N	mūŋi.	N_even	яйцо	egg	
@@ -759,7 +759,7 @@ not'ja	N	not'ja.	N_even	нодья	slow.log.bonfire	c
 notja	N	notja.	N_even	нодья	slow.log.bonfire	x
 noutup	N	noutup.	N_odd	шабер		c
 now	V	now.	V_odd	трогать	touch	
-nōx=	PREV	nōx.|nōŋx.//nōŋxa.	PREV_odd	вверх	up	
+nōx=	PREV	nōx.//nōŋx.//nōŋxa.	PREV_odd	вверх	up	
 nox	N	nox.	N_odd	верх	top	x
 nox	N	nox.	N_odd	наверх	up	x
 nox	V	nox.	V_odd	окоченеть	stiffen	
@@ -775,7 +775,7 @@ numi	N	numi.	N_even	верхний	upper	x
 numə	N	numə.	N_even	верхний	upper	x
 numən	ADV	numən.	ADV_even	наверху	up	
 nupəl	N	nupəl.|nupl.	N_even	в	in	x
-nupəl	N	nupəl.|nupl.	N_even	к	towards	
+nupəl	X	nupəl.|nupl.	X_even	к	towards	
 nur	N	nur.	N_odd	месть	revenge	
 nuw	N	nuw.	N_odd	3SG		x
 nys	N	nys.	N_even	бедный	poor	x
@@ -913,7 +913,7 @@ pāl	N	pāl.	N_odd	сторона	side	x
 pali	N	pali.	N_even	длина	length	x
 palit	N	palit.	N_even	длина	length	
 palt	N	palt.	N_odd	в	in	x
-palt	N	palt.	N_odd	к	to	
+palt	X	palt.	X_odd	к	to	
 palt	N	palt.	N_odd	часть	part	x
 palt	V	palt.	V_odd	разжечь	kindle	x
 pālt	V	pālt.	V_odd	затопить	kindle	
@@ -962,9 +962,9 @@ pāxwt	V	pāxwt.	V_odd	стрелять	shoot
 pāŋk	N	pāŋk.	N_odd	грязь	mud	
 paŋk	V	paŋk.	V_odd	грязь	mud	x
 pāŋx	N	pāŋx.	N_odd	мухомор	fly.agaric	
-paɕa	N	paɕa.	N_even	здравствуй	hello	
+paɕa	X	paɕa.	X_even	здравствуй	hello	
 paɕalaxt	V	paɕalaxt.	V_odd	здороваться	greet	
-peɣr	V	peɣr.	V_odd	обознаться	be.mistaken	x
+peɣr	V	peɣr.	V_odd	обознаться	be.mistaken	с
 pel	V	pel.	V_odd	прокол	puncture	x
 pel	V	pel.	V_odd	проткнуть	pierce	x
 pēl	V	pēl.	V_odd	воткнуть	pierce	
@@ -1069,9 +1069,9 @@ poxt	V	poxt.	V_odd	схватить	grab	x
 poxt	N	poxt.	N_odd	причалить	moor	x
 poŋ	V	poŋ.	V_odd	нарвать	pick	x
 poŋ	N	poŋ.	N_odd	стадо	herd	x
-poɕɣ	V	poɕɣ.	V_odd	вить	twist	x
+poɕɣ	V	poɕɣ.	V_odd	вить	twist	с
 ppwo	N	ppwo.	N_odd	богатырь	hero	x
-pui	ADJ	pui.	ADJ_even	задний	back	
+puji	ADJ	puji.	ADJ_even	задний	back	
 puj	N	puj.	N_odd	зад	back	
 puki	N	puki.	N_even	брюхо	belly	x
 puki	N	puki.	N_even	живот	belly	
@@ -1081,7 +1081,7 @@ pulpe	N	pulpe.	N_even	пробка	cork	x
 pulŋawt	N	pulŋawt.	N_even	Полноват	Polnowat	
 pum	N	pum.	N_odd	Трава		x
 pum	N	pum.	N_odd	трава	grass	
-pūmaɕ	N	pūmaɕ.	N_even	интересный	interesting	
+pūmaɕ	ADJ	pūmaɕ.	ADJ_even	интересный	interesting	
 pūmaɕipa	X	pūmaɕipa.	X_even	спасибо	thanks	
 pun	N	pun.	N_odd	шерсть	fur	
 pūns	V	pūns.|pūs.	V_odd	открыть	open	
@@ -1110,7 +1110,7 @@ putra	V	putra.	V_even	скрыть	hide	c
 puw	V	puw.	V_odd	держать	hold	x
 puw	V	puw.	V_odd	ловить	catch	
 puw	V	puw.	V_odd	схватить	grab	x
-puwl	N	puwl.	N_odd	купаться	bathe	
+puwl	V	puwl.	V_odd	купаться	bathe	
 puwl	V	puwl.	V_odd	купаться	bathe	x
 puwl	V	puwl.	V_odd	мыться	wash	x
 puwt	V	puwt.	V_odd	долбить	hammer	x
@@ -1169,7 +1169,7 @@ saj	N	saj.	N_odd	гной	pus
 saj	N	saj.	N_odd	длина	length	x
 sajk	V	sajk.	V_odd	трезвый	sober	x
 sājt	N	sājt.	N_odd	прут	twig	
-saka	N	saka.	N_even	очень	very	
+saka	X	saka.	X_even	очень	very	
 sakari	N	sakari.	N_odd	сахары		x
 sakōn	N	sakōn.	N_even	закон	law	
 sakw	N	sakw.	N_odd	Ляпин		x
@@ -1378,7 +1378,7 @@ tāɣin't	V	tāɣin't.	V_even	наполнить	fill
 taɣip	N	taɣip.	N_even	преграда	barrier	x
 taɣl	N	taɣl.	N_odd	вместе	together	x
 taɣl	N	taɣl.	N_odd	полный	full	x
-tāɣəl	ADJ	tāɣəl.|tāɣl.	ADJ_even	полный	full	
+tāɣəl	POSTP	tāɣəl.|tāɣl.	POSTP_even	полный	full	
 tāɣt	N	tāɣt.	N_odd	Сосьва	Sosva	
 taɣəl	N	taɣəl.|taɣl.	N_even	наполнение	filling	x
 tai	V	tai.	V_even	подходить	approach	x
@@ -1388,8 +1388,8 @@ taj	N	taj.	N_odd	это	this	x
 taj	V	taj.	V_odd	есть	eat	x
 taj	V	taj.	V_odd	подходить	approach	x
 tajap	V	tajap.	V_even	слопать	devour	x
-tajax	N	tajax.	N_even	попозже	later	
-taji	N	taji.	N_even	то	that	
+tajax	ADV	tajax.	ADV_even	попозже	later	
+taji	PRON	taji.	PRON_even	то	that	
 tajt	N	tajt.	N_odd	Сосьва	Sosva	x
 tajt	N	tajt.	N_odd	протока	channel	x
 tajt	N	tajt.	N_odd	протока/Сосьва		x
@@ -1425,17 +1425,17 @@ tān	PRON	tān.	PRON_odd	3PL	3PL
 tapəs	N	tapəs.|taps.	N_even	Тапсуй	Tapsuj	
 tār	N	tār.	N_odd	корень	root	
 tar	V	tar.	V_odd	сквозь	through	x
-tāra	ADV	tāra.	ADV_even	сквозь	through	
+tāra	POSTP	tāra.	POSTP_even	сквозь	through	
 taramt	V	taramt.	V_even	пустить	let.go	x
 tārat	V	tārat.//tārt.	V_even	пустить	let.go	
 taraŋ	N	taraŋ.	N_even	известный	famous	x
 tāriɣ	N	tāriɣ.|tārɣ.	N_even	журавль	crane	
-tarm	X	tapəm.|tarm.	X_odd	на	on	
+tarəm	POSTP	tarəm.|tarm.	POSTP_odd	на	on	
 tarm	N	tarm.	N_odd	поверхность	surface	x
 tarmat	V	tarmat.	V_even	отпустить	let.go	x
 tart	V	tart.	V_odd	пустить	let.go	x
 tārt	V	tārt.	V_odd	пустить	let.go	x
-tarwit	N	tarwit.	N_even	тяжело	heavy	
+tarwit	N	tarwit.	N_even	тяжело	heavy	x
 tārwit	N	tārwit.	N_even	тяжесть	weight	x
 tariɣ	N	tariɣ.|tarɣ.	N_even	сосна	pine	
 tarəŋ	N	tarəŋ.|tarŋ.	N_even	сосна	pine	x
@@ -1446,7 +1446,7 @@ tau	N	tau.	N_even	3SG		x
 tau	N	tau.	N_even	3ЫП		x
 taw	PRON	taw.	PRON_odd	3SG		
 taw	N	taw.	N_odd	она	she	x
-tawaj	N	tawaj.	N_even	давай	let's	
+tawaj	X	tawaj.	X_even	давай	let's	
 tawaj	V	tawaj.	V_even	думать	think	x
 tawèn	N	tawèn.	N_odd	сейчас	now	x
 tax	X	tax.	X_odd	FUT	FUT	
@@ -1502,529 +1502,529 @@ titt	V	titt.	V_odd	кормить	feed
 titt	N	titt.	N_odd	основание	base	x
 tiws	N	tiws.	N_odd	хватит	enough	c
 tol	V	tol.	V_odd	таять	melt	
-tolɣ	N	tolɣ.	N_odd	невод	fishing.net	
-tolɣ	V	tolɣ.	V_odd	невод	fishing.net	
-toll	V	toll.	V_odd	рваться	tear	
-tolmat	V	tolmat.	V_even	выстрелить	shoot	
-toləɣ	N	toləɣ.|tolɣ.	N_even	невод	fishing.net	
-toləɣ	V	toləɣ.|tolɣ.	V_even	невод	fishing.net	
-toləxpa	N	toləxpa.	N_odd	гроб	coffin	
-tona	N	tona.	N_even	затем	then	
-tona	N	tona.	N_even	потому	therefore	
-tont	N	tont.	N_odd	тогда	then	
-top	N	top.	N_odd	только	only	
-tor	N	tor.	N_odd	небо	sky	
-tor	N	tor.	N_odd	платок	handkerchief	
-tor	V	tor.	V_odd	трястись	shake	
+tolɣ	N	tolɣ.	N_odd	невод	fishing.net	x
+tolɣ	V	tolɣ.	V_odd	невод	fishing.net	x
+toll	V	toll.	V_odd	рваться	tear	x
+tolmat	V	tolmat.	V_even	выстрелить	shoot	x
+toliɣ	N	toliɣ.|tolɣ.	N_even	невод	fishing.net	
+toləɣ	V	toləɣ.|tolɣ.	V_even	невод	fishing.net	x
+toləxpa	N	toləxpa.	N_odd	гроб	coffin	с
+tona	N	tona.	N_even	затем	then	x
+tona	N	tona.	N_even	потому	therefore	x
+tōnt	X	tōnt.	X_odd	тогда	then	
+top	X	top.//tup.	X_odd	только	only	
+tor	N	tor.	N_odd	небо	sky	x
+tōr	N	tōr.	N_odd	платок	handkerchief	
+tōrɣ	V	tōrɣ.	V_odd	трястись	shake	
 toras	N	toras.	N_even	помеха	obstacle	
-torew	N	torew.	N_even	медведь	bear	
+torew	N	torew.	N_even	медведь	bear	x
 tōrew	N	tōrew.	N_even	медведь	bear	
-torɣ	V	torɣ.	V_odd	трястись	shake	
-toriɣ	N	toriɣ.	N_even	напротив	across	
-tort	V	tort.	V_odd	закрыть	close	
-torum	N	torum.	N_even	бог	god	
-torum	N	torum.	N_even	мир/бог		
-torum	N	torum.	N_even	небо	sky	
-torəɣ	N	torəɣ.|torɣ.	N_even	напротив	across	
-tos	N	tos.	N_odd	камус	ski.skin	
-tos	V	tos.	V_odd	сохнуть	dry	
-tot	N	tot.	N_odd	3SG		
-tot	N	tot.	N_odd	Там		
-tot	N	tot.	N_odd	там	there	
-tot	N	tot.	N_odd	туда	there	
-tot	V	tot.	V_odd	вести	lead	
+torɣ	V	torɣ.	V_odd	трястись	shake	x
+toriɣ	N	toriɣ.	N_even	напротив	across	c
+tort	V	tort.	V_odd	закрыть	close	x
+tōrum	N	tōrum.	N_even	Бог	God	
+torum	N	torum.	N_even	мир/бог		x
+tōrum	N	tōrum.	N_even	небо	sky	
+torəɣ	N	torəɣ.|torɣ.	N_even	напротив	across	x
+tos	N	tos.	N_odd	камус	ski.skin	x
+tōs	V	tōs.	V_odd	сохнуть	dry	
+tot	N	tot.	N_odd	3SG		x
+tot	N	tot.	N_odd	Там		x
+tot	X	tot.	X_odd	там	there	
+tot	N	tot.	N_odd	туда	there	x
+tot	V	tot.	V_odd	вести	lead	x
 tot	V	tot.	V_odd	нести	carry	
-touli	N	touli.	N_odd	довольно	enough	
+touli	N	touli.	N_odd	довольно	enough	x
 tow	N	tow.	N_odd	ветка	branch	
-tow	N	tow.	N_odd	грести	row	
-tow	N	tow.	N_odd	иной	other	
+tow	N	tow.	N_odd	грести	row	x
+tow	N	tow.	N_odd	иной	other	x
 tow	V	tow.	V_odd	грести	row	
-towa	ADJ	towa.	ADJ_even	некоторый	some	
-towant	V	towant.	V_even	грести	row	
-towart	V	towart.	V_even	закрыть	close	
-towl	V	towl.	V_odd	исполниться	come.true	
-towl	N	towl.	N_odd	крыло	wing	
-towli	N	towli.	N_even	хватит	enough	
-towm	V	towm.	V_odd	укусать	bite	
+tōwa	ADJ	tōwa.	ADJ_even	некоторый	some	
+towant	V	towant.	V_even	грести	row	x
+towart	V	towart.	V_even	закрыть	close	x
+tōwl	V	tōwl.	V_odd	быть.достаточным	be.enough	
+towl	N	towl.	N_odd	крыло	wing	x
+towl	N	towli.	N_even	хватит	enough	x
+tōwm	V	tōwm.	V_odd	укусить	bite	
 towəl	N	towəl.|towl.	N_even	крыло	wing	
-tox	N	tox.	N_odd	так	so	
-toxa	N	toxa.	N_even	так	so	
-toxla	N	toxla.	N_even	воротник	collar	
+tox	X	tox.//toxa.	X_odd	так	so	
+toxa	N	toxa.	N_even	так	so	x
+toxla	N	toxla.	N_even	воротник	collar	c
 toxr	V	toxr.	V_odd	набивать	stuff	
-toɕ	V	toɕ.	V_odd	поперечина	crossbar	
-tu	N	tu.	N_odd	PTCL		
-tui	N	tui.	N_even	лето	summer	
+toɕ	V	toɕ.	V_odd	поперечина	crossbar	c
+tu	N	tu.	N_odd	PTCL		x
+tui	N	tui.	N_even	лето	summer	x
 tuj	V	tuj.	V_odd	толкать	push	
-tuja	N	tuja.	N_even	весна	spring	
-tuji	N	tuji.	N_even	лето	summer	
-tujim	V	tujim.	V_even	выпадать	fall.out	
-tujt	N	tujt.	N_odd	сани	sledge	
-tujt	N	tujt.	N_odd	снег	snow	
-tujt	V	tujt.	V_odd	спрятать	hide	
-tul	V	tul.	V_odd	внести	bring.in	
+tūja	N	tūja.	N_even	весна	spring	
+tuji	ADV	tuji.	ADV_even	летом	in.summer	
+tujim	V	tujim.	V_even	выпадать	fall.out	x
+tujt	N	tujt.	N_odd	сани	sledge	x
+tūjt	N	tūjt.	N_odd	снег	snow	
+tūjt	V	tūjt.	V_odd	спрятать	hide	
+tūl	V	tūl.	V_odd	внести	bring.in	
 tul	N	tul.	N_odd	облако	cloud	
-tulit	N	tulit.	N_even	тайком		
-tulmant	V	tulmant.	V_even	воровать	steal	
-tulmax	N	tulmax.	N_even	росомаха	wolverine	
-tulmax	V	tulmax.	V_even	росомаха	wolverine	
+tulit	N	tulit.	N_even	тайком		x
+tūlmant	V	tulmant.	V_even	воровать	steal	
+tulmax	N	tulmax.	N_even	росомаха	wolverine	x
+tulmax	V	tulmax.	V_even	росомаха	wolverine	x
 tūlmax	N	tūlmax.	N_even	росомаха	wolverine	
 tul'a	N	tul'a.	N_even	кольцо	ring	
-tul'a	N	tul'a.	N_even	палец	finger	
-tum	V	tum.	V_odd	вход	entrance	
-tumaj	N	tumaj.	N_even	думай	think	
-tumaj	N	tumaj.	N_even	задумка	idea	
-tumaj	N	tumaj.	N_even	почему	why	
-tumaj	N	tumaj.	N_even	совет	advice	
-tumaj	V	tumaj.	V_even	думать	think	
+tul'a	N	tul'a.	N_even	палец	finger	x
+tum	V	tum.	V_odd	вход	entrance	x
+tumaj	N	tumaj.	N_even	думай	think	x
+tumaj	N	tumaj.	N_even	задумка	idea	x
+tumaj	N	tumaj.	N_even	почему	why	x
+tumaj	N	tumaj.	N_even	совет	advice	x
+tumaj	V	tumaj.	V_even	думать	think	x
 tumajt	V	tumajt.	V_even	думать	think	
 tuman	N	tuman.	N_even	замок	lock	
-tuml'	V	tuml'.	V_odd	думать	think	
+tuml'	V	tuml'.	V_odd	думать	think	x
 tump	N	tump.	N_odd	остров	island	
-tup	N	tup.	N_odd	весло	oar	
-tup	N	tup.	N_odd	только	only	
-tūp	N	tūp.	N_odd	только	only	
-tur	N	tur.	N_odd	Озеро		
+tūp	N	tūp.	N_odd	весло	oar	
+tup	N	tup.	N_odd	только	only	x
+tūp	N	tūp.	N_odd	только	only	x
+tur	N	tur.	N_odd	Озеро		x
 tur	N	tur.	N_odd	горло	throat	
-tur	N	tur.	N_odd	озеро	lake	
+tur	N	tur.	N_odd	озеро	lake	x
 tūr	N	tūr.	N_odd	озеро	lake	
-turka	N	turka.	N_even	дробовик	shotgun	
-turman	V	turman.	V_even	стемнеть	darken	
-turman	V	turman.	V_even	тёмный	dark	
-turman	ADJ	turman.	ADJ_even	тёмный	dark	
-turman	N	turman.	N_even	тёмный	dark	
-tus	N	tus.	N_odd	усы	mustache	
-tuu	N	tuu.	N_even	туда	there	
-tuw	N	tuw.	N_odd	3SG		
-tuw	N	tuw.	N_odd	волокно	fiber	
-tuw	N	tuw.	N_odd	там	there	
-tuw	N	tuw.	N_odd	туда	there	
-tuwl	N	tuwl.	N_odd	Потом		
-tuwl	N	tuwl.	N_odd	и	and	
-tuwl	N	tuwl.	N_odd	потом	then	
-tuwle	N	tuwle.	N_even	потом	then	
-tuwl'e	N	tuwl'e.	N_even	туда	there	
-tuwəl	N	tuwəl.|tuwl.	N_even	Потом		
-tuwəl	N	tuwəl.|tuwl.	N_even	оттуда	from.there	
-tuwəl	N	tuwəl.|tuwl.	N_even	потом	then	
-tuɕt	V	tuɕt.	V_odd	поставить	set	
-tuɕt	V	tuɕt.	V_odd	ставить	put	
-tůl	V	tůl.	V_odd	внести	bring.in	
-tůp	N	tůp.	N_odd	только	only	
-tét	V	tét.	V_even	послать	send	
-tůp	N	tůp.	N_even	лишь	only	
-təɣ	N	təɣ.	N_odd	сюда	here	
-təɣl	N	təɣl.	N_odd	взлететь	take.off	
-təɣəl	N	təɣəl.|təɣl.	N_even	сейчас	now	
-təj	N	təj.	N_odd	сюда	here	
-təst	V	təst.	V_odd	горевать	mourn	
-tаw	N	tаw.	N_even	Он		
-uj	N	uj.	N_odd	животное	animal	
-uj	N	uj.	N_odd	зверь	animal	
-uj	V	uj.	V_odd	плыть	swim	
-ūj	N	ūj.	N_odd	звери	animals	
+turka	N	turka.	N_even	дробовик	shotgun	c
+turman	V	turman.	V_even	стемнеть	darken	x
+turman	ADV	turman.	ADV_even	темно	dark	x
+turman	ADJ	turman.	ADJ_even	темный	dark	
+turman	N	turman.	N_even	темнота	darkness	
+tus	N	tus.	N_odd	борода	beard	
+tuu	N	tuu.	N_even	туда	there	x
+tuw	N	tuw.	N_odd	3SG		x
+tuw	N	tuw.	N_odd	волокно	fiber	x
+tuw	N	tuw.	N_odd	там	there	x
+tuw	X	tuw.	X_odd	туда	to.there	
+tuwl	N	tuwl.	N_odd	Потом		x
+tuwl	N	tuwl.	N_odd	и	and	x
+tuwl	N	tuwl.	N_odd	потом	then	x
+tuwle	N	tuwle.	N_even	потом	then	x
+tuwl'e	N	tuwl'e.	N_even	туда	there	x
+tuwəl	N	tuwəl.|tuwl.	N_even	Потом		x
+tuwəl	X	tuwəl.	X_even	оттуда	from.there	
+tuwəl	X	tuwəl.	X_even	потом	then	
+tūɕt	V	tūɕt.	V_odd	поставить	set	
+tuɕt	V	tuɕt.	V_odd	ставить	put	x
+tůl	V	tůl.	V_odd	внести	bring.in	x
+tůp	N	tůp.	N_odd	только	only	x
+tét	V	tét.	V_even	послать	send	x
+tůp	N	tůp.	N_even	лишь	only	x
+təɣ	N	təɣ.	N_odd	сюда	here	x
+təɣl	N	təɣl.	N_odd	взлететь	take.off	x
+təɣəl	N	təɣəl.|təɣl.	N_even	сейчас	now	x
+təj	N	təj.	N_odd	сюда	here	x
+təst	V	təst.	V_odd	горевать	mourn	x
+tаw	N	tаw.	N_even	Он		x
+uj	N	uj.	N_odd	животное	animal	x
+uj	N	uj.	N_odd	зверь	animal	x
+ūj	V	ūj.	V_odd	плыть	swim	
+ūj	N	ūj.	N_odd	звери	animals	x
 ūj	N	ūj.	N_odd	зверь	animal	
-ul	N	ul.	N_odd	2SG		
-ul	N	ul.	N_odd	PROH		
-ula	N	ula.	N_even	ловушка	trap	
+ul	N	ul.	N_odd	2SG		x
+ul	N	ul.	N_odd	PROH		x
+ula	N	ula.	N_even	ловушка	trap	x
 ulam	N	ulam.	N_even	одежда	clothing	
-ulm	N	ulm.	N_odd	сон	dream	
-ulta	N	ulta.	N_even	через	across	
-ultta	N	ultta.	N_even	через	across	
-ultə	N	ultə.	N_even	через	across	
-ulum	N	ulum.	N_even	сон	dream	
-ūlum	N	ūlum.	N_even	сон	dream	
-ulə	N	ulə.	N_even	воспевание	praise	
-ul'	N	ul'.	N_odd	огонь	fire	
+ūlm	N	ūlm.//ūlum.	N_odd	сон	sleep	
+ulta	N	ulta.	N_even	через	across	x
+ūltta	POSTP	ūltta.	POSTP_even	через	across	
+ultə	N	ultə.	N_even	через	across	x
+ulum	N	ulum.	N_even	сон	dream	x
+ūlum	N	ūlum.	N_even	сон	dream	x
+ulə	N	ulə.	N_even	воспевание	praise	x
+ul'	N	ul'.	N_odd	огонь	fire	x
 ul'a	N	ul'a.	N_even	огонь	fire	
-ul'jiw	N	ul'jiw.	N_even	дрова	firewood	
+ul'jiw	N	ul'jiw.//ul'l'uw.	N_even	дрова	firewood	
 ul'pa	N	ul'pa.	N_even	кедр	cedar	
-unl	N	unl.	N_odd	сидеть	sit	
-unl	V	unl.	V_odd	сидеть	sit	
+unl	N	unl.	N_odd	сидеть	sit	x
+unl	V	unl.	V_odd	сидеть	sit	x
 ūnl	V	ūnl.	V_odd	сидеть	sit	
 uns	V	uns.	V_odd	переправиться	cross.over	
-unt	N	unt.	N_odd	сесть	sit	
-unt	V	unt.	V_odd	сесть	sit	
-ūnt	V	ūnt.	V_odd	сесть	sit	
-ūnt	V	ūnt.	V_odd	сидеть	sit	
+unt	N	unt.	N_odd	сесть	sit	x
+unt	V	unt.	V_odd	сесть	sit	x
+ūnt	V	ūnt.	V_odd	сесть	sit.down	
+ūnt	V	ūnt.	V_odd	сидеть	sit	x
 up	V	up.	V_odd	деверь	brother.in.law	
-upa	V	upa.	V_even	брат	brother	
-upa	V	upa.	V_even	деверь	brother.in.law	
-upa	N	upa.	N_even	деверь	brother.in.law	
-ur	N	ur.	N_odd	гора	mountain	
-ur	N	ur.	N_odd	про	about	
-ur	N	ur.	N_odd	способ	way	
-ur	V	ur.	V_odd	ждать	wait	
-ūr	V	ūr.	V_odd	держать	hold	
-uratnik	N	uratnik.	N_odd	урядник	constable	
-ure	N	ure.	N_even	способ	way	
-urinekwa	N	urinekwa.	N_even	ворона	crow	
+upa	V	upa.	V_even	брат	brother	x
+upa	V	upa.	V_even	деверь	brother.in.law	x
+upa	N	upa.	N_even	деверь	brother.in.law	x
+ūr	N	ūr.	N_odd	гора	mountain	
+urəl	POSTP	urəl.	POSTP_odd	про	about	
+ur	N	ur.	N_odd	способ	way	x
+ūr	V	ūr.	V_odd	ждать	wait	
+ūr	V	ūr.	V_odd	держать	hold	x
+ur'ātnik	N	ur'ātnik.	N_odd	урядник	constable	
+ure	N	ure.	N_even	способ	way	x
+ūrinekwa	N	ūrinekwa.	N_even	ворона	crow	
 urt	V	urt.	V_odd	делить	divide	
-us	N	us.	N_odd	ADD		
-us	N	us.	N_odd	город	town	
-us	V	us.	V_odd	погибнуть	perish	
-us	V	us.	V_odd	шагать	step	
+us	N	us.	N_odd	ADD		x
+us	N	us.	N_odd	город	town	x
+ūs	V	us.	V_odd	погибнуть	perish	
+us	V	us.	V_odd	шагать	step	x
 ūs	N	ūs.	N_odd	город	town	
 ūsil	N	ūsil.	N_even	шаг	step	
 ust	V	ust.	V_odd	потерять	lose	
-usuwl	V	usuwl.	V_even	шагнуть	step	
+ūsuwl	V	ūsuwl.	V_even	шагнуть	step	
 ut	N	ut.	N_odd	вещь	thing	
-ut	V	ut.	V_odd	лаять	bark	
-uɕ	V	uɕ.	V_odd	встать	stand	
-uɕa	N	uɕa.	N_even	только	only	
-w	V	w.	V_even	взять	take	
-w	V	w.	V_even	видеть	see	
-wa	N	wa.	N_odd	богатырь	hero	
-wa	V	wa.	V_odd	видеть	see	
-waɣ	N	waɣ.	N_odd	мощь	power	
-waɣ	N	waɣ.	N_odd	сила	strength	
+ut	V	ut.	V_odd	лаять	bark	x
+uɕ	V	uɕ.	V_odd	встать	stand	x
+uɕ	X	uɕ.//uɕa.	X_even	только	only	
+w	V	w.	V_even	взять	take	x
+w	V	w.	V_even	видеть	see	x
+wa	N	wa.	N_odd	богатырь	hero	x
+wā	V	wā.	V_odd	видеть	see	
+waɣ	N	waɣ.	N_odd	мощь	power	x
+waɣ	N	waɣ.	N_odd	сила	strength	x
 wāɣ	N	wāɣ.	N_odd	сила	strength	
-waɣl	V	waɣl.	V_odd	спуститься	go.down	
-waj	V	waj.	V_odd	взять	take	
-waj	N	waj.	N_odd	кисы	deer.skin.shoes	
-waj	N	waj.	N_odd	чулки/кисы		
-wal'ɕam	N	wal'ɕam.	N_even	стружка	shavings	
-want	N	want.	N_odd	груз	load	
-want	V	want.	V_odd	стадо	herd	
-wantl	V	wantl.	V_odd	кочевать	roam	
-wantl	V	wantl.	V_odd	переехать	move	
-wantle	N	wantle.	N_even	переехать	move	
-waps	N	waps.	N_odd	зять	take	
+wāɣl	V	wāɣl.	V_odd	спуститься	go.down	
+wi	V	wi.|wuj.	V_odd	взять	take	
+wāj	N	wāj.	N_odd	кисы	deer.skin.shoes	
+waj	N	waj.	N_odd	чулки/кисы		x
+wāl'ɕam	N	wāl'ɕam.	N_even	стружка	shavings	
+want	N	want.	N_odd	груз	load	x
+want	V	want.	V_odd	стадо	herd	x
+wantl	V	wantl.	V_odd	кочевать	roam	x
+wāntl	V	wāntl.	V_odd	переехать	move	
+wantle	N	wantle.	N_even	переехать	move	x
+waps	N	waps.	N_odd	зять	take	x
 wāps	N	wāps.	N_odd	зять	take	
-war	V	war.	V_odd	cделать		
-war	V	war.	V_odd	делать	do	
+war	V	war.	V_odd	cделать		x
+war	V	war.	V_odd	делать	do	x
 wār	V	wār.	V_odd	делать	do	
-warmal'	N	warmal'.	N_even	дело	business	
-was	V	was.	V_odd	видеть	see	
-was	N	was.	N_odd	утка	duck	
-wasiɣ	N	wasiɣ.	N_even	больше	more	
-wasəɣ	N	wasəɣ.|wasɣ.	N_even	больше	more	
-wat	N	wat.	N_odd	30'		
-wat	N	wat.	N_odd	3SG		
-wat	N	wat.	N_odd	берег	shore	
-wat	N	wat.	N_odd	тридцать	thirty	
-wat	N	wat.	N_odd	тридцть		
-wat	V	wat.	V_odd	собирать	gather	
-wat	V	wat.	V_odd	тридцать	thirty	
-wāt	N	wāt.	N_odd	берег	shore	
-wat'a	ADJ	wat'a.	ADJ_even	короткий	short	
-wat'a	N	wat'a.	N_even	коротко	short	
-wāt'a	N	wāt'a.	N_even	коротко	short	
-wat'i	ADJ	wat'i.	ADJ_even	короткий	short	
-wata	N	wata.	N_even	берег	shore	
-wata	N	wata.	N_even	торговец	merchant	
-wata	N	wata.	N_even	торговля	trade	
-wati	ADJ	wati.	ADJ_even	короткий	short	
-wati	N	wati.	N_even	коротко	short	
-waŋ	V	waŋ.	V_odd	видеть	see	
-waŋ	V	waŋ.	V_odd	плечо	shoulder	
-waŋk	V	waŋk.	V_odd	ползти	crawl	
+wārmal'	N	wārmal'.	N_even	дело	affair	
+was	V	was.	V_odd	видеть	see	x
+wās	N	wās.	N_odd	утка	duck	
+wasiɣ	X	wasiɣ.//wossiɣ	X_even	больше.не	not.anymore	
+wasəɣ	N	wasəɣ.|wasɣ.	N_even	больше	more	x
+wat	N	wat.	N_odd	30'		x
+wat	N	wat.	N_odd	3SG		x
+wat	N	wat.	N_odd	берег	shore	x
+wāt	NUM	wāt.	NUM_odd	тридцать	thirty	
+wat	N	wat.	N_odd	тридцть		x
+wāt	V	wāt.	V_odd	собирать.ягоды	gather.berries	
+wat	V	wat.	V_odd	тридцать	thirty	x
+wāta	N	wāta.	N_odd	берег	shore	
+wat'a	ADJ	wat'a.	ADJ_even	короткий	short	x
+wat'a	N	wat'a.	N_even	коротко	short	x
+wāt'a	N	wāt'a.	N_even	коротко	short	x
+wāt'i	ADJ	wāt'i.	ADJ_even	короткий	short	
+wata	N	wata.	N_even	берег	shore	x
+wātaxum	N	wātaxum.	N_even	купец	merchant	
+wata	N	wata.	N_even	торговля	trade	x
+wati	ADJ	wati.	ADJ_even	короткий	short	x
+wati	N	wati.	N_even	коротко	short	x
+waŋ	V	waŋ.	V_odd	видеть	see	x
+waŋ	V	waŋ.	V_odd	плечо	shoulder	x
+waŋk	V	waŋk.	V_odd	ползти	crawl	x
 wāŋk	V	wāŋk.	V_odd	ползти	crawl	
-waŋn	N	waŋn.	N_odd	плечо	shoulder	
-waŋən	N	waŋən.|waŋn.	N_even	плечо	shoulder	
-waɕ	V	waɕ.	V_odd	видывать	experience	
-welat	V	welat.	V_even	бить	hit	
-werit	V	werit.	V_even	терпеть	endure	
-werm	V	werm.	V_odd	мочь	be.able	
-werm	V	werm.	V_odd	смочь	be.able	
-wetra	N	wetra.	N_even	ведро	bucket	
-weɕ	N	weɕ.	N_odd	красота	beauty	
-weɕelit	V	weɕelit.	V_odd	веселиться	have.fun	
-wi	V	wi.	V_odd	взять	take	
-wiɣir	ADJ	wiɣir.	ADJ_even	красный	red	
-wiɣər	ADJ	wiɣər.|wiɣr.	ADJ_even	красный	red	
-wil't	N	wil't.	N_odd	лицо	face	
-win	N	win.	N_odd	вино	wine	
-wina	N	wina.	N_even	вино	wine	
-wit	N	wit.	N_odd	Вода		
+waŋn	N	waŋn.	N_odd	плечо	shoulder	x
+wāŋən	N	wāŋən.|wāŋn.	N_even	плечо	shoulder	
+wāɕ	V	wāɕ.	V_odd	видывать	experience	
+welat	V	welat.	V_even	бить	hit	x
+wēr'it	V	wēr'it.	V_even	терпеть	endure	
+wērm	V	wērm.	V_odd	мочь	be.able	
+werm	V	werm.	V_odd	смочь	be.able	x
+wētra	N	wētra.	N_even	ведро	bucket	
+weɕ	N	weɕ.	N_odd	красота	beauty	x
+weɕēl'it	V	weɕēl'it.	V_odd	веселиться	have.fun	
+wi	V	wi.	V_odd	взять	take	x
+wiɣir	ADJ	wiɣir.	ADJ_even	красный	red	x
+wīɣir	ADJ	wīɣir.|wīɣr.	ADJ_even	красный	red	
+wīl't	N	wīl't.	N_odd	лицо	face	
+win	N	win.	N_odd	вино	wine	x
+wīna	N	wīna.	N_even	алкоголь	alcohol	
+wit	N	wit.	N_odd	Вода		x
 wit	N	wit.	N_odd	вода	water	
-woj	N	woj.	N_odd	брать	take	
-woj	N	woj.	N_odd	жир	fat	
-woj	V	woj.	V_odd	брать	take	
+woj	N	woj.	N_odd	брать	take	x
+wōj	N	wōj.	N_odd	жир	fat	
+woj	V	woj.	V_odd	брать	take	x
 wojkan	ADJ	wojkan.	ADJ_even	светлый	light	
-wojkan	N	wojkan.	N_even	светлый	light	
+wojkan	N	wojkan.	N_even	светлый	light	x
 wolt	V	wolt.	V_odd	тесать	hew	
 wol'	N	wol'.	N_odd	плёс	stream.pool	
 wonsut	V	wonsut.	V_even	мелькнуть	flash	
-wontər	N	wontər.|wontr.	N_even	выдра	otter	
+wōntər	N	wōntər.|wōntr.	N_even	выдра	otter	
 won'ɕal	N	won'ɕal.	N_even	пусто	empty	
-wor	N	wor.	N_odd	лес	forest	
-wor	N	wor.	N_odd	мощь	power	
-wor	N	wor.	N_odd	сила	strength	
-wor	V	wor.	V_odd	мощь	power	
+wor	N	wor.	N_odd	лес	forest	x
+wor	N	wor.	N_odd	мощь	power	x
+wor	N	wor.	N_odd	сила	strength	x
+wor	V	wor.	V_odd	мощь	power	x
 wōr	N	wōr.	N_odd	лес	forest	
-worat	V	worat.	V_even	порываться	try	
-wort	V	wort.	V_odd	подпереть	prop.up	
-wos	N	wos.	N_odd	OPT		
-woss	N	woss.	N_odd	OPT		
-wot	N	wot.	N_odd	ветер	wind	
-wotiŋ	ADJ	wotiŋ.	ADJ_even	седой	gray	
-wow	V	wow.	V_odd	звать	call	
+worat	V	worat.	V_even	стремиться	aim	
+wōrt	V	wort.	V_odd	подпереть	prop.up	
+wos	N	wos.	N_odd	OPT		x
+woss	N	woss.	N_odd	OPT		x
+wōt	N	wōt.	N_odd	ветер	wind	
+wōtiŋ	ADJ	wōtiŋ.	ADJ_even	седой	gray	
+wow	V	wow.	V_odd	звать	call	x
 wōw	V	wōw.	V_odd	звать	call	
-wowta	ADJ	wowta.	ADJ_even	тонкий	thin	
-woww	V	woww.	V_odd	просить	ask	
-wōŋx	N	wōŋx.	N_odd	яма	pit	
-woŋxa	N	woŋxa.	N_even	яма	pit	
+wōwta	ADJ	wōwta.	ADJ_even	тонкий	thin	
+woww	V	woww.	V_odd	просить	ask	x
+wōŋx	N	wōŋx.	N_odd	яма	pit	x
+woŋxa	N	woŋxa.	N_even	яма	pit	x
 wōŋxa	N	wōŋxa.	N_even	яма	pit	
-woɕ	N	woɕ.	N_odd	грязь	mud	
+woɕ	N	woɕ.	N_odd	грязь	mud	c
 woɕkas	V	woɕkas.	V_even	бросить	throw	
-woɕkas	V	woɕkas.	V_even	выкинуть	throw.out	
-woɕkas	V	woɕkas.	V_even	сбросить	dump	
-woɕlax	N	woɕlax.	N_even	грязь	mud	
-wəɣər	ADJ	wəɣər.|wəɣr.	ADJ_even	красный	red	
-x	N	x.	N_even	Ц		
-xajt	N	xajt.	N_odd	бег	run	
-xajt	V	xajt.	V_odd	бег	run	
-xajt	V	xajt.	V_odd	бегать	run	
-xajt	V	xajt.	V_odd	бежать	run	
-xajta	V	xajta.	V_even	бежать	run	
-xajtup	N	xajtup.	N_even	мост	bridge	
-xal	N	xal.	N_odd	среди	among	
+woɕkas	V	woɕkas.	V_even	выкинуть	throw.out	x
+woɕkas	V	woɕkas.	V_even	сбросить	dump	x
+woɕlax	N	woɕlax.	N_even	грязь	mud	x
+wəɣər	ADJ	wəɣər.|wəɣr.	ADJ_even	красный	red	x
+x	N	x.	N_even	Ц		x
+xajt	N	xajt.	N_odd	бег	run	x
+xajt	V	xajt.	V_odd	бег	run	x
+xajt	V	xajt.	V_odd	бегать	run	x
+xājt	V	xājt.	V_odd	бежать	run	
+xajta	V	xajta.	V_even	бежать	run	x
+xājtup	N	xājtup.	N_even	мост	bridge	
+xal	N	xal.	N_odd	промежуток	gap	
 xalew	N	xalew.	N_even	чайка	seagull	
-xalt	N	xalt.	N_odd	между	between	
-xal'	N	xal'.	N_odd	берёза	birch	
+xalt	N	xalt.	N_odd	между	between	x
+xal'	N	xal'.	N_odd	берёза	birch	x
 xāl'	N	xāl'.	N_odd	берёза	birch	
 xan	V	xan.	V_odd	приклеить	glue	
-xan	V	xan.	V_odd	прилипнуть	stick	
-xaniɕt	V	xaniɕt.	V_even	научить	teach	
-xans	V	xans.	V_odd	писать	write	
-xansa	N	xansa.	N_even	орнамент	ornament	
-xansa	N	xansa.	N_even	узор	pattern	
-xant	N	xant.	N_odd	сера	sulfur	
-xantə	N	xantə.	N_even	остяк	Khanty	
-xantə	N	xantə.	N_even	сера	sulfur	
-xanəlpatta	N	xanəlpatta.	N_even	пазуха	cavity	
+xan	V	xan.	V_odd	прилипнуть	stick	x
 xan'iɕt	V	xan'iɕt.	V_even	научить	teach	
-xap	N	xap.	N_odd	лодка	boat	
-xapɣa	N	xapɣa.	N_even	осина	aspen	
-xar	N	xar.	N_odd	самец	male	
-xār	N	xār.	N_odd	самец	male	
-xara	ADJ	xara.	ADJ_even	редкий	rare	
+xans	V	xans.|xas.	V_odd	писать	write	
+xansa	N	xansa.	N_even	орнамент	ornament	
+xansa	N	xansa.	N_even	узор	pattern	x
+xant	N	xant.	N_odd	сера	sulfur	c
+xanti	N	xanti.	N_even	остяк	Khanty	
+xantə	N	xantə.	N_even	сера	sulfur	x
+xanəlpatta	N	xanəlpatta.	N_even	пазуха	cavity	x
+xan'iɕt	V	xan'iɕt.	V_even	научить	teach	x
+xāp	N	xāp.	N_odd	лодка	boat	
+xāpɣa	N	xāpɣa.//xāpka.	N_even	осина	aspen	
+xar	N	xar.	N_odd	самец	male	x
+xār	N	xār.	N_odd	самец.оленя	male.reindeer	
+xara	ADJ	xara.	ADJ_even	редкий	sparse	
 xariɣl	V	xariɣl.	V_even	потухнуть	go.out	
 xariɣt	V	xariɣt.	V_even	погасить	extinguish	
-xars	ADJ	xars.	ADJ_odd	полноводный	full.flowing	
-xars	V	xars.	V_odd	полноводный	full.flowing	
-xarst	V	xarst.	V_odd	хрустеть	crunch	
+xars	ADJ	xars.	ADJ_odd	полноводный	full.flowing	c
+xars	V	xars.	V_odd	полноводный	full.flowing	x
+xārst	V	xārst.	V_odd	хрустеть	crunch	
 xart	V	xart.	V_odd	тянуть	pull	
 xartum	N	xartum.	N_even	волок	drag	
-xarəɣl	V	xarəɣl.|xarɣl.	V_even	потухнуть	go.out	
-xas	V	xas.	V_odd	писать	write	
-xas	V	xas.	V_odd	привязать	tie	
+xarəɣl	V	xarəɣl.|xarɣl.	V_even	потухнуть	go.out	x
+xas	V	xas.	V_odd	писать	write	x
+xas	V	xas.	V_odd	привязать	tie	x
 xas	V	xas.	V_odd	тальник	willow	
-xas	V	xas.	V_odd	тащить	drag	
-xas	V	xas.	V_odd	уметь	be.able	
-xas	N	xas.	N_odd	привязать	tie	
+xas	V	xas.	V_odd	тащить	drag	x
+xās	V	xās.	V_odd	уметь	be.able	
+xas	V	xas.	V_odd	привязать	tie	
 xasap	N	xasap.	N_even	полог	canopy	
 xasli	N	xasli.	N_even	мох	moss	
 xassumt	V	xassumt.	V_even	дёргать	pull	
 xatan'	N	xatan'.	N_even	татарин	Tatar	
-xax	N	xax.	N_odd	взобраться	climb	
-xaŋra	N	xaŋra.	N_even	подколенок		
-xaŋx	V	xaŋx.	V_odd	взобраться	climb	
-xāŋx	V	xāŋx.	V_odd	залезть	climb	
-xāŋxt	V	xāŋxt.	V_odd	загнать	drive	
-xaɕ	N	xaɕ.	N_odd	знание	knowledge	
-xaɕl	V	xaɕl.	V_odd	рваться	tear	
+xax	N	xax.	N_odd	взобраться	climb	x
+xaŋra	N	xaŋra.	N_even	подколенок		x
+xaŋx	V	xaŋx.	V_odd	взобраться	climb	x
+xāŋx	V	xāŋx.|xāx.	V_odd	залезть	climb	
+xāŋxt	V	xāŋxt.	V_odd	загнать	drive	x
+xāɕ	N	xāɕ.	N_odd	знание	knowledge	
+xaɕl	V	xaɕl.	V_odd	рваться	tear	c
 xil	V	xil.	V_odd	копать	dig	
-xitərt	V	xitərt.|xitrt.	V_even	ударить	hit	
-xo	N	xo.	N_odd	кто	who	
-xo	V	xo.	V_odd	кто	who	
-xoj	V	xoj.	V_odd	достичь	achieve	
-xoj	V	xoj.	V_odd	удариться	bump.into	
-xōj	V	xōj.	V_odd	касаться	touch	
+xitərt	V	xitərt.|xitrt.	V_even	ударить	hit	c
+xo	N	xo.	N_odd	кто	who	x
+xo	V	xo.	V_odd	кто	who	x
+xoj	V	xoj.	V_odd	достичь	achieve	x
+xoj	V	xoj.	V_odd	удариться	bump.into	x
+xōj	V	xōj.	V_odd	касаться	touch	x
 xōj	V	xōj.	V_odd	попасть	hit	
-xol	N	xol.	N_odd	утро	morning	
-xoli	ADJ	xoli.	ADJ_even	утренний	morning	
-xolit	N	xolit.	N_even	завтра	tomorrow	
-xolit	N	xolit.	N_even	завтрашний	tomorrow's	
-xolit	ADJ	xolit.	ADJ_even	завтрашний	tomorrow's	
-xolitan	N	xolitan.	N_odd	завтра	tomorrow	
+xol	N	xol.	N_odd	заморозки	morning.frost	
+xoli	ADJ	xoli.	ADJ_even	утренний	morning	x
+xolit	N	xolit.//xolitan.	N_even	завтра	tomorrow	
+xolit	N	xolit.	N_even	завтрашний	tomorrow's	x
+xolit	ADJ	xolit.	ADJ_even	завтрашний	tomorrow's	x
+xolitan	N	xolitan.	N_odd	завтра	tomorrow	x
 xolt	V	xolt.	V_odd	тратить	spend	
-xol't	N	xol't.	N_odd	наподобие	like	
-xomi	N	xomi.	N_even	навзничь	upside.down	
-xomi	N	xomi.	N_even	ничком	face.down	
-xōmi	N	xōmi.	N_even	EMPH		
-xōmi	N	xōmi.	N_even	ничком	face.down	
-xomɕi	N	xomɕi.	N_even	кнут	whip	
-xoməl	ADJ	xoməl.|xoml.	ADJ_even	проклятый	damned	
-xon	N	xon.	N_odd	царь	tsar	
-xon	N	xon.	N_odd	царь[LAT]		
-xōn	N	xōn.	N_odd	король	king	
+xol't	N	xol't.	N_odd	словно	like	
+xomi	N	xomi.	N_even	навзничь	upside.down	x
+xomi	N	xomi.//xoni.	N_even	ничком	face.down	
+xōmi	N	xōmi.	N_even	EMPH		x
+xōmi	N	xōmi.	N_even	ничком	face.down	x
+xōmɕi	N	xōmɕi.	N_even	кнут	whip	
+xoməl	N	xoməl.|xoml.	N_even	чудак	weirdo	
+xon	N	xon.	N_odd	царь	tsar	x
+xon	N	xon.	N_odd	царь[LAT]		x
+xōn	N	xōn.	N_odd	король	king	x
 xōn	N	xōn.	N_odd	царь	tsar	
-xoni	N	xoni.	N_even	навзничь	upside.down	
-xont	V	xont.	V_odd	искать	search	
-xōnt	V	xōnt.	V_odd	воевать	fight	
+xoni	N	xoni.	N_even	навзничь	upside.down	x
+xont	V	xont.	V_odd	искать	search	x
+xōnt	V	xōnt.	V_odd	воевать	fight	x
 xōnt	V	xōnt.	V_odd	найти	find	
-xōnt	V	xōnt.	V_odd	находить	find	
+xōnt	V	xōnt.	V_odd	находить	find	x
 xōnt	N	xōnt.	N_odd	войско	army	
-xōpt	N	xōpt.	N_odd	олень	deer	
-xopəlt	V	xopəlt.|xoplt.	V_even	греметь	thunder	
+xōpt	N	xōpt.	N_odd	кастрированный.олень	castrated.deer	
+xopəlt	V	xopəlt.|xoplt.	V_even	греметь	thunder	x
 xort	V	xort.	V_odd	лаять	bark	
 xortxan	N	xortxan.	N_even	ястреб	hawk	
-xos	N	xos.	N_odd	длина	length	
-xōs	N	xōs.	N_odd	длина	length	
-xosa	N	xosa.	N_even	далеко	far	
-xosa	N	xosa.	N_even	далеко/долго		
-xosa	N	xosa.	N_even	длинный	long	
-xosa	N	xosa.	N_even	долго	long	
+xos	N	xos.	N_odd	длина	length	x
+xōs	N	xōs.	N_odd	длина	length	x
+xosa	N	xosa.	N_even	далеко	far	x
+xosa	N	xosa.	N_even	далеко/долго		x
+xosa	N	xosa.	N_even	длинный	long	x
+xosa	N	xosa.	N_even	долго	long	x
+xosa	ADJ	xosa.	ADJ_even	длинный	long	x
 xosa	ADJ	xosa.	ADJ_even	длинный	long	
-xōsa	N	xōsa.	N_even	длинный	long	
-xōsa	N	xōsa.	N_even	долго	long	
-xosit	N	xosit.	N_even	вдоль	along	
-xosit	N	xosit.	N_even	по	by	
-xot	N	xot.	N_odd	где	where	
-xot	N	xot.	N_odd	от	from	
-xot	N	xot.	N_odd	шесть	six	
-xōt	N	xōt.	N_odd	где	where	
-xotal	N	xotal.	N_even	день	day	
-xotal	N	xotal.	N_even	солнце	sun	
-xotal	V	xotal.	V_even	рассветать	dawn	
+xōsa	ADV	xōsa.	ADV_even	долго	long	x
+xosit	POSTP	xosit.	POSTP_even	вдоль	along	
+xosit	N	xosit.	N_even	по	by	x
+xōt	X	xot.	X_odd	где	where	
+xot=	PREV	xot.	PREV_odd	от	from	
+xōt	NUM	xōt.	NUM_odd	шесть	six	
+xōt	N	xōt.	N_odd	где	where	x
+xotal	N	xotal.	N_even	день	day	x
+xotal	N	xotal.	N_even	солнце	sun	x
+xotal	V	xotal.	V_even	рассветать	dawn	x
 xōtal	N	xōtal.	N_even	день	day	
-xotal'	N	xotal'.	N_even	куда	where	
+xotal'	X	xotal'.	X_even	куда	where.to	
 xotaŋ	N	xotaŋ.	N_even	лебедь	swan	
 xoti	ADJ	xoti.	ADJ_even	который	who	
-xotjut	N	xotjut.	N_even	кто	who	
-xotl	V	xotl.	V_odd	рассветать	dawn	
-xotəl	N	xotəl.|xotl.	N_even	день	day	
-xowt	N	xowt.	N_odd	ёлка	spruce	
-xōŋ	N	xōŋ.	N_odd	король	king	
-xoŋxa	N	xoŋxa.	N_even	кто	who	
-xoɕa	ADJ	xoɕa.	ADJ_even	засохший	dried.up	
-xuij	V	xuij.	V_even	спать	sleep	
+xotjut	PRON	xotjut.	PRON_even	кто	who	
+xōtəl	V	xōtəl.	V_odd	рассветать	dawn	
+xotəl	N	xotəl.|xotl.	N_even	день	day	x
+xōwt	N	xōwt.	N_odd	ёлка	spruce	
+xōŋ	N	xōŋ.	N_odd	король	king	x
+xōŋxa	PRON	xōŋxa.	PRON_even	кто	who	
+xoɕa	ADJ	xoɕa.	ADJ_even	засохший	dried.up	c
+xuij	V	xuij.	V_even	спать	sleep	x
 xuj	V	xuj.	V_odd	лежать	lie	
-xuj	V	xuj.	V_odd	ложиться	lie.down	
-xuj	V	xuj.	V_odd	спать	sleep	
-xuja	V	xuja.	V_even	лежать	lie	
-xujn'utəl	V	xujn'utəl.	V_odd	спать	sleep	
-xul	V	xul.	V_odd	ночевать	spend.the.night	
-xul	V	xul.	V_odd	слышать	hear	
-xul	N	xul.	N_odd	рыба	fish	
+xuj	V	xuj.	V_odd	ложиться	lie.down	x
+xuj	V	xuj.	V_odd	спать	sleep	x
+xuja	V	xuja.	V_even	лежать	lie	x
+xujn'utəl	V	xujn'utəl.	V_odd	спать	sleep	x
+xul	V	xul.	V_odd	ночевать	spend.the.night	x
+xūl	V	xūl.	V_odd	слышать	hear	
+xūl	N	xūl.	N_odd	рыба	fish	
 xūl	V	xūl.	V_odd	ночевать	spend.the.night	
 xulax	N	xulax.	N_even	ворон	crow	
-xult	V	xult.	V_odd	остаться	stay	
-xult	V	xult.	V_odd	показать	show	
-xul'	V	xul'.	V_odd	оставить	leave	
-xul'iɣl	V	xul'iɣl.	V_even	всплыть	surface	
-xul'm	N	xul'm.	N_odd	зона	zone	
-xul'm	N	xul'm.	N_odd	пепел	ashes	
 xul't	V	xul't.	V_odd	остаться	stay	
+xūlt	V	xūlt.	V_odd	показать	show	
+xūl'	V	xūl'.	V_odd	оставить	leave	
+xul'iɣl	V	xul'iɣl.	V_even	всплыть	surface	x
+xul'm	N	xul'm.	N_odd	зона	zone	x
+xūl'um	N	xūl'um.|xūl'm.	N_odd	пепел	ashes	
+xul't	V	xul't.	V_odd	остаться	stay	x
 xul'tɣaj	N	xul'tɣaj.	N_even	зыбун	swamp	
-xul'təs	V	xul'təs.|xul'ts.	V_even	остаться	stay	
-xul'um	N	xul'um.	N_even	речка	river	
-xum	N	xum.	N_odd	мужчина	man	
-xum	N	xum.	N_odd	человек	person	
+xul'təs	V	xul'təs.|xul'ts.	V_even	остаться	stay	x
+xul'um	N	xul'um.	N_even	нерест	fish.spawn	
+xum	N	xum.|xumi.	N_odd	мужчина	man	
+xum	N	xum.	N_odd	человек	person	x
 xuma	N	xuma.	N_even	мужики	guys	
-xumi	N	xumi.	N_even	мужчина	man	
-xumle	N	xumle.	N_even	как	like	
-xuml'e	N	xuml'e.	N_even	как	like	
-xumus	N	xumus.	N_even	как	like	
-xumus	ADJ	xumus.	ADJ_even	какой	what.kind	
+xumi	N	xumi.	N_even	мужчина	man	x
+xumle	N	xumle.	N_even	как	like	x
+xuml'e	X	xuml'e.	X_even	как	how	
+xumus	X	xumus.	X_even	как	how	
+xumus	ADJ	xumus.	ADJ_even	какой	what.kind	x
 xun	V	xun.	V_odd	черпать	scoop	
-xunt	V	xunt.	V_odd	вычерпывать	scoop.out	
-xunt	V	xunt.	V_odd	котомка	knapsack	
-xunt	N	xunt.	N_odd	котомка	knapsack	
-xuntel	V	xuntel.	V_even	слушать	listen	
-xuntl	V	xuntl.	V_odd	слушать	listen	
+xunt	V	xunt.	V_odd	вычерпывать	scoop.out	x
+xunt	V	xunt.	V_odd	котомка	knapsack	x
+xunt	N	xunt.	N_odd	котомка	knapsack	с
+xuntel	V	xuntel.	V_even	слушать	listen	x
+xuntl	V	xuntl.	V_odd	слушать	listen	x
 xūntl	V	xūntl.	V_odd	слушать	listen	
-xuntəl	V	xuntəl.|xuntl.	V_even	слушать	listen	
-xun'	N	xun'.	N_odd	когда	when	
-xun't	N	xun't.	N_odd	когда	when	
-xur	N	xur.	N_odd	берег	shore	
-xur	V	xur.	V_odd	берег	shore	
-xuraxl	V	xuraxl.	V_even	пугать	scare	
-xuri	N	xuri.	N_even	изображение	image	
+xuntəl	V	xuntəl.|xuntl.	V_even	слушать	listen	x
+xun'	X	xun'.	X_odd	когда	when	
+xun't	X	xun't.	X_odd	когда.то	at.some.point	
+xur	N	xur.	N_odd	берег	shore	x
+xur	V	xur.	V_odd	берег	shore	x
+xuraxl	V	xuraxl.	V_even	бояться	be.scared	
+xuri	N	xuri.	N_even	изображение	image	x
 xuri	N	xuri.	N_even	образ	image	
-xuri	N	xuri.	N_even	узор	pattern	
-xuriɣ	N	xuriɣ.	N_even	мешок	bag	
-xūriɣ	N	xūriɣ.	N_even	мешок	bag	
-xurip	N	xurip.	N_even	образ	image	
-xurip	N	xurip.	N_even	свойство	property	
-xurm	N	xurm.	N_odd	три	three	
-xūrm	N	xūrm.	N_odd	Три		
-xurp	N	xurp.	N_odd	коробка	box	
-xurum	N	xurum.	N_even	три	three	
-xūrum	N	xūrum.	N_even	Три		
-xūrum	N	xūrum.	N_even	три	three	
-xurəɣ	N	xurəɣ.|xurɣ.	N_even	мешок	bag	
-xurəm	N	xurəm.|xurm.	N_even	три	three	
+xuri	N	xuri.	N_even	узор	pattern	x
+xuriɣ	N	xuriɣ.	N_even	мешок	bag	x
+xūriɣ	N	xūriɣ.|xūrɣ.	N_even	мешок	sack	
+xurip	N	xurip.	N_even	образ	image	x
+xurip	N	xurip.	N_even	свойство	property	x
+xurm	N	xurm.	N_odd	три	three	x
+xūrm	N	xūrm.	N_odd	Три		x
+xurp	N	xurp.	N_odd	коробка	box	x
+xurum	N	xurum.	N_even	три	three	x
+xūrum	N	xūrum.	N_even	Три		x
+xūrum	NUM	xūrum.|xūrm.	NUM_even	три	three	
+xurəɣ	N	xurəɣ.|xurɣ.	N_even	мешок	bag	x
+xurəm	N	xurəm.|xurm.	N_even	три	three	x
 xus	V	xus.	V_odd	двадцать	twenty	
-xus	N	xus.	N_odd	жечь	burn	
+xus	N	xus.	N_odd	жечь	burn	x
 xusap	N	xusap.	N_even	коробка	box	
-xusl	V	xusl.	V_odd	отслаиваться	flake.off	
-xut	V	xut.	V_odd	согнуться	bend	
-xuɕ	N	xuɕ.	N_odd	слуга	servant	
-xəl	V	xəl.	V_odd	копать	dig	
-ŋōŋx	N	ŋōŋx.	N_odd	вверх	up	
-ɕaɣt	V	ɕaɣt.	V_odd	радоваться	rejoice	
-ɕai	N	ɕai.	N_even	чай	tea	
-ɕaj	N	ɕaj.	N_odd	чай	tea	
-ɕakw	N	ɕakw.	N_odd	вымя	udder	
-ɕakw	V	ɕakw.	V_odd	вымя	udder	
+xusl	V	xusl.	V_odd	отслаиваться	flake.off	c
+xūt	V	xūt.	V_odd	согнуться	bend	
+xuɕ	N	xuɕ.	N_odd	слуга	servant	x
+xəl	V	xəl.	V_odd	копать	dig	x
+ŋōŋx	N	ŋōŋx.	N_odd	вверх	up	x
+ɕāɣt	V	ɕāɣt.	V_odd	радоваться	rejoice	
+ɕai	N	ɕai.	N_even	чай	tea	x
+ɕāj	N	ɕāj.	N_odd	чай	tea	
+ɕakw	N	ɕakw.	N_odd	грудь	breast	
+ɕakw	V	ɕakw.	V_odd	вымя	udder	x
 ɕakwit	N	ɕakwit.	N_even	молоко	milk	
-ɕalɣ	N	ɕalɣ.	N_odd	серебро	silver	
-ɕaliɣ	ADJ	ɕaliɣ.	ADJ_even	чистый	clean	
+ɕalɣ	N	ɕalɣ.	N_odd	серебро	silver	c
+ɕaliɣ	ADJ	ɕaliɣ.	ADJ_even	чистый	clean	c
 ɕalt	V	ɕalt.	V_odd	войти	enter	
-ɕalt	V	ɕalt.	V_odd	входить	enter	
-ɕalt	V	ɕalt.	V_odd	зайти	enter	
-ɕālt	V	ɕālt.	V_odd	войти	enter	
-ɕaləɣ	N	ɕaləɣ.|ɕalɣ.	N_even	серебро	silver	
-ɕama	N	ɕama.	N_even	насмерть	to.death	
-ɕampur	N	ɕampur.	N_even	обруч	hoop	
-ɕanèn	N	ɕanèn.	N_odd	2DU		
-ɕan'	N	ɕan'.	N_odd	мама	mom	
-ɕar	ADJ	ɕar.	ADJ_odd	самый	most	
-ɕar	N	ɕar.	N_odd	самый	most	
-ɕar	N	ɕar.	N_odd	совсем	completely	
-ɕar	V	ɕar.	V_odd	совсем	completely	
-ɕaras	N	ɕaras.	N_even	море	sea	
-ɕaras	N	ɕaras.	N_even	остров	island	
-ɕaraɕ	N	ɕaraɕ.	N_even	море	sea	
-ɕarɣ	V	ɕarɣ.	V_odd	жечь	burn	
+ɕalt	V	ɕalt.	V_odd	входить	enter	x
+ɕalt	V	ɕalt.	V_odd	зайти	enter	x
+ɕālt	V	ɕālt.	V_odd	войти	enter	x
+ɕaləɣ	N	ɕaləɣ.|ɕalɣ.	N_even	серебро	silver	x
+ɕama=	PREV	ɕama.	PREV_even	насмерть	to.death	
+ɕampur	N	ɕampur.	N_even	обруч	hoop	c
+ɕanèn	N	ɕanèn.	N_odd	2DU		x
+ɕān'	N	ɕān'.	N_odd	мать	mother	
+ɕar	ADJ	ɕar.	ADJ_odd	самый	most	x
+ɕar	N	ɕar.	N_odd	самый	most	x
+ɕar	N	ɕar.	N_odd	совсем	completely	x
+ɕar	X	ɕar.	X_odd	совсем	completely	
+ɕaras	N	ɕaras.	N_even	море	sea	x
+ɕaras	N	ɕaras.	N_even	остров	island	x
+ɕaraɕ	N	ɕaraɕ.	N_even	море	sea	x
+ɕārɣ	V	ɕārɣ.	V_odd	щипать	sting	
 ɕarit	V	ɕarit.	V_even	жарить	fry	
 ɕarka	N	ɕarka.	N_even	чарка	shot.glass	
-ɕarəɕ	N	ɕarəɕ.|ɕarɕ.	N_even	море	sea	
-ɕas	N	ɕas.	N_odd	колени	knees	
-ɕaxl	N	ɕaxl.	N_odd	клубок	tangle	
-ɕaxl	N	ɕaxl.	N_odd	туча	cloud	
-ɕaxl	N	ɕaxl.	N_odd	холм	hill	
-ɕaxəl	N	ɕaxəl.|ɕaxl.	N_even	гора	mountain	
+ɕarəɕ	N	ɕarəɕ.|ɕarɕ.	N_even	море	sea	x
+ɕas	N	ɕas.	N_odd	колени	knees	x
+ɕaxl	N	ɕaxl.	N_odd	клубок	tangle	x
+ɕaxl	N	ɕaxl.	N_odd	туча	cloud	x
+ɕaxl	N	ɕaxl.	N_odd	холм	hill	x
+ɕaxəl	N	ɕaxəl.|ɕaxl.	N_even	гора	mountain	x
 ɕaxəl	N	ɕaxəl.|ɕaxl.	N_even	туча	cloud	
 ɕaxəl	N	ɕaxəl.|ɕaxl.	N_even	холм	hill	
-ɕaxəl	N	ɕaxəl.|ɕaxl.	N_even	хребет	spine	
-ɕaŋkɕ	N	ɕaŋkɕ.	N_odd	жуланчик	shrike	
-ɕeltumt	V	ɕeltumt.	V_even	бросить	throw	
-ɕep	N	ɕep.	N_odd	карман	pocket	
-ɕeranka	N	ɕeranka.	N_odd	спичка	match	
-ɕermat	N	ɕermat.	N_even	вожжи	reins	
-ɕermat	V	ɕermat.	V_even	вожжи	reins	
+ɕaxəl	N	ɕaxəl.|ɕaxl.	N_even	хребет	spine	x
+ɕaŋkɕ	N	ɕaŋkɕ.	N_odd	жуланчик	shrike	x
+ɕēltumt	V	ɕēltumt.	V_even	бросить	throw	
+ɕēp	N	ɕēp.	N_odd	карман	pocket	
+ɕēranka	N	ɕēranka.	N_odd	спичка	match	
+ɕērmat	N	ɕērmat.	N_even	вожжи	reins	
+ɕermat	V	ɕermat.	V_even	вожжи	reins	x
 ɕes	N	ɕes.	N_odd	щегол	goldfinch	
-ɕetwert	N	ɕetwert.	N_even	четверть	quarter	
-ɕetwert'	N	ɕetwert'.	N_even	четверть	quarter	
+ɕetwert	N	ɕetwert.	N_even	четверть	quarter	x
+ɕētwert'	N	ɕetwert'.	N_even	четверть	quarter	
 ɕil	N	ɕil.	N_odd	бубенчик	bell	
 ɕir	N	ɕir.	N_odd	способ	way	
-ɕiraj	N	ɕiraj.	N_even	меч	sword	
+ɕiraj	N	ɕiraj.	N_even	меч	sword	x
 ɕisɣ	V	ɕisɣ.	V_odd	визжать	squeal	
-ɕol	N	ɕol.	N_odd	могущество	power	
-ɕol	N	ɕol.	N_odd	средство	means	
-ɕopil	V	ɕopil.	V_even	договориться	agree	
-ɕopit	V	ɕopit.	V_even	готовить	cook	
-ɕopər	N	ɕopər.|ɕopr.	N_even	глухарка	female.wood.grouse	
-ɕopər	ADJ	ɕopər.|ɕopr.	ADJ_even	тонкий	thin	
+ɕol	N	ɕol.	N_odd	могущество	power	x
+ɕoləŋ	ADJ	ɕoləŋ.	ADJ_odd	богатый	rich	
+ɕōpil	V	ɕōpil.	V_even	договориться	agree	
+ɕōpit	V	ɕōpit.	V_even	готовить	cook	
+ɕopər	N	ɕopər.|ɕopr.	N_even	глухарь	wood.grouse	
+ɕopər	ADJ	ɕopər.|ɕopr.	ADJ_even	тонкий	thin	x
 ɕora	N	ɕora.	N_even	пороша	snowflake	
 ɕorxil	N	ɕorxil.	N_even	зарубка	notch	
 ɕorxil	V	ɕorxil.	V_even	зарубка	notch	
 ɕorxəl	N	ɕorxəl.|ɕorxl.	N_even	зарубка	notch	
-ɕorxəl	V	ɕorxəl.|ɕorxl.	V_even	зарубка	notch	
-ɕos	N	ɕos.	N_odd	момент	moment	
+ɕorxəl	V	ɕorxəl.|ɕorxl.	V_even	зарубка	notch	x
+ɕos	N	ɕos.	N_odd	момент	moment	x
 ɕos	N	ɕos.	N_odd	раз	time	
-ɕos	N	ɕos.	N_odd	час	hour	
-ɕowal	N	ɕowal.	N_even	чувал	hearth?	
-ɕul	N	ɕul.	N_odd	седина	gray.hair	
-ɕul'ɕi	N	ɕul'ɕi.	N_even	кулик	sandpiper	
-ɕuns	V	ɕuns.	V_odd	смотреть	look	
-ɕun'	V	ɕun'.	V_odd	благоденствовать	prosper	
+ɕōs	N	ɕōs.	N_odd	час	hour	
+ɕowal	N	ɕowal.	N_even	чувал	hearth	
+ɕūl	N	ɕūl.	N_odd	седина	gray.hair	
+ɕulɕi	N	ɕulɕi.	N_even	кулик	sandpiper	
+ɕuns	V	ɕuns.	V_odd	смотреть	look	x
+ɕun'	V	ɕun'.	V_odd	благоденствовать	prosper	x
 ɕun'	V	ɕun'.	V_odd	здравствовать	be.well	
-ɕun'	N	ɕun'.	N_odd	благоденствовать	prosper	
+ɕun'	N	ɕun'.	N_odd	благоденствовать	prosper	x
 ɕun'	N	ɕun'.	N_odd	богатство	wealth	
-ɕuram	V	ɕuram.	V_even	освежить	refresh	
+ɕuram	V	ɕuram.	V_even	освежить	refresh	c
 ɕurɣ	V	ɕurɣ.	V_odd	течь	flow	
-ɕus	N	ɕus.	N_odd	раз	time	
+ɕus	N	ɕus.	N_odd	раз	time	x

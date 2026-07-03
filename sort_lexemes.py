@@ -158,8 +158,19 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
             lemma = lemma[0].upper() + lemma[1:]
         if para.startswith('ADV'):
             para = 'ADV'
-        elif len(para) <= 0 or re.search('^(N|V|ADJ|NUM|ADV)', para) is None:
+        elif len(para) <= 0 or re.search('^(N|V|ADJ|NUM|ADV|POSTP)', para) is None:
             para = 'unchangeable'
+        elif '|' in stem:
+            if re.search('^\\w\\w\\.\\|\\w\\w\\w\\.', stem) is not None:
+                para = 'V_odd_short'
+            elif re.search('^([\\w\']+)[aeiouāēīōūə]([^aeiouāēīōūə]*)\\|\\1\\2', stem) is not None:
+                para += '_syncop'
+            elif re.search('^([\\w\']+)[nŋ]\'?([^aeiouāēīōūə]+)\\|\\1\\2', stem) is not None:
+                para += '_n'
+            elif stem == 'xum.|xumi.':
+                para = 'N_xum'
+            else:
+                print(stem, para)
         para = para.replace(' ', '').split('/')
         lexOut = ('\n-lexeme\n lex: ' + lemma + '\n stem: ' + stem.strip().replace(' /', '/').replace(' |', '|')
                   + '\n gramm: ' + gramm + ''.join('\n paradigm: ' + p for p in sorted(para))
