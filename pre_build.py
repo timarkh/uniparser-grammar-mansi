@@ -2,6 +2,38 @@ import re
 import os
 import shutil
 import json
+from rapidfuzz.distance import DamerauLevenshtein
+
+badChars = {
+        'ā': 'ā',
+        'ō': 'ō',
+        'ē': 'ē',
+        'ī': 'ī',
+        'ū': 'ū',
+        'γ': 'ɣ',
+        'é': 'e',
+        'á': 'a',
+        'ȯ': 'o',
+        '̊': ''
+    }
+
+simplifyChars = {
+        'ā': 'a',
+        'ā': 'a',
+        'ō': 'o',
+        'ō': 'o',
+        'ē': 'e',
+        'ē': 'e',
+        'ī': 'i',
+        'ī': 'i',
+        'ū': 'u',
+        'ū': 'u',
+        'γ': 'ɣ',
+        'é': 'e',
+        'á': 'a',
+        'ȯ': 'o',
+        '̊': ''
+    }
 
 
 def collect_lemmata(dirName):
@@ -128,26 +160,71 @@ def make_lexeme(lemma, glossRu, glossEn, pos):
     return lex
 
 
-def filter_lexemes(lexemes):
+def filter_lexemes(lexemes, fnameProcessed=''):
     """
     Filter short stems for which there are long stems
     """
+    lexProcessed = set()
+    if len(fnameProcessed) > 0:
+        with open(fnameProcessed, 'r', encoding='utf-8') as fIn:
+            for line in fIn:
+                if '\t' not in line:
+                    continue
+                fields = line.strip(' \r\n').split('\t')
+                lexProcessed.add((simplify(fields[0]), fields[4], fields[5]))
+
     filtered = []
-    for lex in lexemes:
-        m = re.search(' stem: ([^/\r\n]+\n).*?(trans_en: [^\r\n]*\n trans_ru: [^\r\n]*)', lex, flags=re.DOTALL)
+    for iLex in range(len(lexemes)):
+        lex = lexemes[iLex]
+        m = re.search(' lex: ([^\r\n]+)\n.*? stem: ([^/\r\n]+)\n.*?(gloss: ([^\r\n]*)\n gloss_ru: ([^\r\n]*))', lex, flags=re.DOTALL)
         if m is None:
             filtered.append(lex)
+            print(' Weird lexeme: ', lex)
         else:
-            if any ('//' + m.group(1) in l and m.group(2) in l for l in lexemes):
+            # print((simplify(m.group(1)), m.group(5), m.group(4)))
+            if any (iLexOther != iLex
+                    and ('//' + m.group(2) in lexemes[iLexOther]
+                         or 'lex: ' + m.group(1) in lexemes[iLexOther])
+                    and m.group(3) in lexemes[iLexOther]
+                    for iLexOther in range(len(lexemes))):
+                continue
+            elif (simplify(m.group(1)), m.group(5), m.group(4)) in lexProcessed:
+                print('Processed lexeme: ' + lex)
+                continue
+            elif any(m.group(5) == l[1]
+                     and m.group(4) == l[2]
+                     and DamerauLevenshtein.distance(m.group(1), l[0], score_cutoff=1) <= 1
+                     for l in lexProcessed):
+                print('Processed lexeme (Damerau-Levenshtein): ' + lex)
                 continue
             filtered.append(lex)
     return filtered
 
 
-def convert_lexemes():
-    with open('lexemes.json', 'r', encoding='utf-8') as fIn:
+def simplify(s):
+    """
+    Remove diacritics.
+    """
+    for c in simplifyChars:
+        s = s.replace(c, simplifyChars[c])
+        s = s.replace(c.upper(), simplifyChars[c].upper())
+    return s
+
+
+def clean(s):
+    for c in badChars:
+        s = s.replace(c, badChars[c])
+        s = s.replace(c.upper(), badChars[c].upper())
+    return s
+
+
+def convert_lexemes(fnameIn='lexemes.json',
+                    fnameOut='lexemes.txt',
+                    fnameProcessed=''):
+    with open(fnameIn, 'r', encoding='utf-8') as fIn:
         lexJson = json.load(fIn)
     lexemes = []
+    lexJson = {clean(k): v for k, v in lexJson.items()}
     for lex in sorted(lexJson, key=sort_key):
         freqs = lexJson[lex]
         vars = {}
@@ -177,16 +254,18 @@ def convert_lexemes():
                 vars[(glossRu, glossEn, pos)] = freq
         for var in vars:
             lexemes.append(make_lexeme(lex, var[0], var[1], var[2]))
-    lexemes = filter_lexemes(lexemes)
-    with open('lexemes.txt', 'w', encoding='utf-8') as fOut:
+    lexemes = filter_lexemes(lexemes, fnameProcessed=fnameProcessed)
+    with open(fnameOut, 'w', encoding='utf-8') as fOut:
         fOut.write('\n'.join(lexemes))
 
 
 if __name__ == '__main__':
-    # convert_lexemes()
-    prepare_files()
-    parse_wordlists()
-    from uniparser_mansi_lat import MansiAnalyzer
-    a = MansiAnalyzer(mode='strict')
-    for wf in a.analyze_words(['ōjka'], format='xml'):
-        print(wf)
+    convert_lexemes('lexemes_update.json',
+                    'lexemes_update_2026.07.14.txt',
+                    'lexemes-mansi-lat.csv')
+    # prepare_files()
+    # parse_wordlists()
+    # from uniparser_mansi_lat import MansiAnalyzer
+    # a = MansiAnalyzer(mode='strict')
+    # for wf in a.analyze_words(['ōjka'], format='xml'):
+    #     print(wf)

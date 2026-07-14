@@ -10,7 +10,11 @@ badChars = {
         'ō': 'ō',
         'ē': 'ē',
         'ī': 'ī',
-        'ū': 'ū'
+        'ū': 'ū',
+        'γ': 'ɣ',
+        'é': 'e',
+        'á': 'a',
+        'ȯ': 'o'
     }
 
 
@@ -82,7 +86,7 @@ def load_tabulate_lexemes(fnameDict):
     return lexNew, table
 
 
-def yaml2csv(fnameYaml, fnameCsv):
+def yaml2csv(fnameYaml, fnameCsv, fnameExistingCsv=''):
     lex, table = load_tabulate_lexemes(fnameYaml)
     wfFreqs = {}
     lemmaFreqs = {}
@@ -186,8 +190,10 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
 
 if __name__ == '__main__':
     # yaml2csv('lexemes.txt', 'lexemes.csv')
+    # yaml2csv('lexemes_update_2026.07.14.txt', 'lexemes_update_2026.07.14.csv')
     # yaml2csv('udm_lexemes_V.txt', 'add_lex/udm_lexemes_V.csv')
     # yaml2csv('udm_lexemes_N_persn.txt', 'add_lex/udm_lexemes_N_persn.csv')
     # yaml2csv('udm_lexemes_ADJ.txt', 'add_lex/udm_lexemes_ADJ.csv')
     # yaml2csv('udm_lexemes_unchangeable.txt', 'add_lex/udm_lexemes_unchangeable.csv')
-    csv2yaml('lexemes-mansi-lat.csv', 'lexemes.txt', 'lex_deleted.csv')
+    csv2yaml('lexemes_update_2026.07.14.csv', 'lexemes_update_2026.07.14.txt', 'lex_deleted_2026.07.14.csv')
+    # csv2yaml('lexemes-mansi-lat.csv', 'lexemes.txt', 'lex_deleted.csv')
