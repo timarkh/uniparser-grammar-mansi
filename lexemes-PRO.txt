@@ -1,0 +1,367 @@
+-lexeme
+ lex: am
+ stem: am.
+ gramm: PRON,pers,nom
+ gloss: 1SG
+ gloss_ru: 1SG
+ paradigm: PRON_pers
+
+-lexeme
+ lex: am
+ stem: anum.
+ gramm: PRON,pers,obl
+ gloss: 1SG.OBL
+ gloss_ru: 1SG.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: am
+ stem: anum&na.//anum&n.
+ gramm: PRON,pers,lat
+ gloss: 1SG.OBL&LAT
+ gloss_ru: 1SG.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: am
+ stem: anum&nəl.
+ gramm: PRON,pers,abl
+ gloss: 1SG.OBL&ABL
+ gloss_ru: 1SG.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: am
+ stem: anum&təl.
+ gramm: PRON,pers,ins
+ gloss: 1SG.OBL&INS
+ gloss_ru: 1SG.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: naŋ
+ stem: naŋ.
+ gramm: PRON,pers,nom
+ gloss: 2SG
+ gloss_ru: 2SG
+ paradigm: PRON_pers
+
+-lexeme
+ lex: naŋ
+ stem: naŋən.
+ gramm: PRON,pers,obl
+ gloss: 2SG.OBL
+ gloss_ru: 2SG.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: naŋ
+ stem: naŋən&na.//naŋən&n.
+ gramm: PRON,pers,lat
+ gloss: 2SG.OBL&LAT
+ gloss_ru: 2SG.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: naŋ
+ stem: naŋən&nəl.
+ gramm: PRON,pers,abl
+ gloss: 2SG.OBL&ABL
+ gloss_ru: 2SG.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: naŋ
+ stem: naŋən&təl.
+ gramm: PRON,pers,ins
+ gloss: 2SG.OBL&INS
+ gloss_ru: 2SG.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: taw
+ stem: taw.
+ gramm: PRON,pers,nom
+ gloss: 3SG
+ gloss_ru: 3SG
+ paradigm: unchangeable
+
+-lexeme
+ lex: taw
+ stem: takwi.
+ gramm: PRON,pers,emph
+ gloss: 3SG.EMPH
+ gloss_ru: 3SG.EMPH
+ paradigm: PRON_pers_emph
+
+-lexeme
+ lex: taw
+ stem: tawe.
+ gramm: PRON,pers,obl
+ gloss: 3SG.OBL
+ gloss_ru: 3SG.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: taw
+ stem: tawe&na.//tawe&n.
+ gramm: PRON,pers,lat
+ gloss: 3SG.OBL&LAT
+ gloss_ru: 3SG.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: taw
+ stem: tawe&nəl.
+ gramm: PRON,pers,abl
+ gloss: 3SG.OBL&ABL
+ gloss_ru: 3SG.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: taw
+ stem: tawe&təl.
+ gramm: PRON,pers,ins
+ gloss: 3SG.OBL&INS
+ gloss_ru: 3SG.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: mēn
+ stem: mēn.
+ gramm: PRON,pers,nom
+ gloss: 1DU
+ gloss_ru: 1DU
+ paradigm: PRON_pers
+
+-lexeme
+ lex: mēn
+ stem: mēnamēn.
+ gramm: PRON,pers,obl
+ gloss: 1DU.OBL
+ gloss_ru: 1DU.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: mēn
+ stem: mēnamēn&na.//mēnamēn&n.
+ gramm: PRON,pers,lat
+ gloss: 1DU.OBL&LAT
+ gloss_ru: 1DU.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: mēn
+ stem: mēnamēn&nəl.
+ gramm: PRON,pers,abl
+ gloss: 1DU.OBL&ABL
+ gloss_ru: 1DU.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: mēn
+ stem: mēnamēn&təl.
+ gramm: PRON,pers,ins
+ gloss: 1DU.OBL&INS
+ gloss_ru: 1DU.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: nēn
+ stem: nēn.
+ gramm: PRON,pers,nom
+ gloss: 2DU
+ gloss_ru: 2DU
+ paradigm: PRON_pers
+
+-lexeme
+ lex: nēn
+ stem: nēnan.
+ gramm: PRON,pers,obl
+ gloss: 2DU.OBL
+ gloss_ru: 2DU.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: nēn
+ stem: nēnan&na.//nēnan&n.
+ gramm: PRON,pers,lat
+ gloss: 2DU.OBL&LAT
+ gloss_ru: 2DU.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: nēn
+ stem: nēnan&nəl.
+ gramm: PRON,pers,abl
+ gloss: 2DU.OBL&ABL
+ gloss_ru: 2DU.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: nēn
+ stem: nēnan&təl.
+ gramm: PRON,pers,ins
+ gloss: 2DU.OBL&INS
+ gloss_ru: 2DU.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: tēn
+ stem: tēn.
+ gramm: PRON,pers,nom
+ gloss: 3DU
+ gloss_ru: 3DU
+ paradigm: PRON_pers
+
+-lexeme
+ lex: tēn
+ stem: tēnatēn.
+ gramm: PRON,pers,obl
+ gloss: 3DU.OBL
+ gloss_ru: 3DU.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: tēn
+ stem: tēnatēn&na.//tēnatēn&n.
+ gramm: PRON,pers,lat
+ gloss: 3DU.OBL&LAT
+ gloss_ru: 3DU.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: tēn
+ stem: tēnatēn&nəl.
+ gramm: PRON,pers,abl
+ gloss: 3DU.OBL&ABL
+ gloss_ru: 3DU.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: tēn
+ stem: tēnatēn&təl.
+ gramm: PRON,pers,ins
+ gloss: 3DU.OBL&INS
+ gloss_ru: 3DU.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: mān
+ stem: mān.
+ gramm: PRON,pers,nom
+ gloss: 1PL
+ gloss_ru: 1PL
+ paradigm: PRON_pers
+
+-lexeme
+ lex: mān
+ stem: mānaw.
+ gramm: PRON,pers,obl
+ gloss: 1PL.OBL
+ gloss_ru: 1PL.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: mān
+ stem: mānaw&na.//mānaw&n.
+ gramm: PRON,pers,lat
+ gloss: 1PL.OBL&LAT
+ gloss_ru: 1PL.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: mān
+ stem: mānaw&nəl.
+ gramm: PRON,pers,abl
+ gloss: 1PL.OBL&ABL
+ gloss_ru: 1PL.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: mān
+ stem: mānaw&təl.
+ gramm: PRON,pers,ins
+ gloss: 1PL.OBL&INS
+ gloss_ru: 1PL.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: nān
+ stem: nān.
+ gramm: PRON,pers,nom
+ gloss: 2PL
+ gloss_ru: 2PL
+ paradigm: PRON_pers
+
+-lexeme
+ lex: nān
+ stem: nānan.
+ gramm: PRON,pers,obl
+ gloss: 2PL.OBL
+ gloss_ru: 2PL.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: nān
+ stem: nānan&na.//nānan&n.
+ gramm: PRON,pers,lat
+ gloss: 2PL.OBL&LAT
+ gloss_ru: 2PL.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: nān
+ stem: nānan&nəl.
+ gramm: PRON,pers,abl
+ gloss: 2PL.OBL&ABL
+ gloss_ru: 2PL.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: nān
+ stem: nānan&təl.
+ gramm: PRON,pers,ins
+ gloss: 2PL.OBL&INS
+ gloss_ru: 2PL.OBL&INS
+ paradigm: unchangeable
+
+-lexeme
+ lex: tān
+ stem: tān.
+ gramm: PRON,pers,nom
+ gloss: 3PL
+ gloss_ru: 3PL
+ paradigm: PRON_pers
+
+-lexeme
+ lex: tān
+ stem: tānanəl.
+ gramm: PRON,pers,obl
+ gloss: 3PL.OBL
+ gloss_ru: 3PL.OBL
+ paradigm: unchangeable
+
+-lexeme
+ lex: tān
+ stem: tānanəl&na.//tānanəl&n.
+ gramm: PRON,pers,lat
+ gloss: 3PL.OBL&LAT
+ gloss_ru: 3PL.OBL&LAT
+ paradigm: unchangeable
+
+-lexeme
+ lex: tān
+ stem: tānanəl&nəl.
+ gramm: PRON,pers,abl
+ gloss: 3PL.OBL&ABL
+ gloss_ru: 3PL.OBL&ABL
+ paradigm: unchangeable
+
+-lexeme
+ lex: tān
+ stem: tānanəl&təl.
+ gramm: PRON,pers,ins
+ gloss: 3PL.OBL&INS
+ gloss_ru: 3PL.OBL&INS
+ paradigm: unchangeable

@@ -66,7 +66,7 @@
  lex: akər
  stem: akər.|akr.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: purebred.dog
  gloss_ru: породистая.собака
 
@@ -101,14 +101,6 @@
  paradigm: V_even
  gloss: flood
  gloss_ru: затопить
-
--lexeme
- lex: amki
- stem: amki.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 1SG.EMPH
 
 -lexeme
  lex: amɕ
@@ -162,7 +154,7 @@
  lex: arməɣt
  stem: arməɣt.|armɣt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: remain.superfluous
  gloss_ru: остаться.в.излишке
 
@@ -186,7 +178,7 @@
  lex: arənt
  stem: arənt.|arnt.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: debt
  gloss_ru: долг
 
@@ -410,7 +402,7 @@
  lex: isəl
  stem: isəl.|isl.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: warm.up
  gloss_ru: согреться
 
@@ -418,7 +410,7 @@
  lex: isəlt
  stem: isəlt.|islt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: warm
  gloss_ru: согреть
 
@@ -514,7 +506,7 @@
  lex: jarəm
  stem: jarəm.|jarm.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: 
  gloss_ru: беда/нужда
 
@@ -578,7 +570,7 @@
  lex: jonəɣ
  stem: jonəɣ.|jonɣ.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: game
  gloss_ru: игра
 
@@ -610,7 +602,7 @@
  lex: jūnət
  stem: jūnət.|jūnt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: hit
  gloss_ru: ударить
 
@@ -626,7 +618,7 @@
  lex: kakəŋ
  stem: kakəŋ.|kakŋ.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: lousy
  gloss_ru: паршивый
 
@@ -706,7 +698,7 @@
  lex: keməl
  stem: keməl.|keml.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: rich
  gloss_ru: богатый
 
@@ -730,7 +722,7 @@
  lex: kitəɣl
  stem: kitəɣl.|kitɣl.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: ask
  gloss_ru: спросить
 
@@ -1010,7 +1002,7 @@
  lex: maɣəl
  stem: maɣəl.|maɣl.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: chest
  gloss_ru: грудь
 
@@ -1031,22 +1023,6 @@
  gloss_ru: что.EMPH
 
 -lexeme
- lex: manaw
- stem: manaw.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 1PL.OBL
-
--lexeme
- lex: mānaw
- stem: mānaw.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 1PL.OBL
-
--lexeme
  lex: mark
  stem: mark.
  gramm: N
@@ -1061,30 +1037,6 @@
  paradigm: N_even
  gloss: earth.man
  gloss_ru: земля.мужчина
-
--lexeme
- lex: maŋkew
- stem: maŋkew.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 1PL.EMPH
-
--lexeme
- lex: maŋki
- stem: maŋki.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 1PL.EMPH
-
--lexeme
- lex: menmen
- stem: menmen.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 1DU.OBL
 
 -lexeme
  lex: mol'amt
@@ -1130,7 +1082,7 @@
  lex: najən
  stem: najən.|najn.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: noble
  gloss_ru: знатный
 
@@ -1167,22 +1119,6 @@
  gloss_ru: от.суши
 
 -lexeme
- lex: nānan
- stem: nānan.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2PL.OBL
-
--lexeme
- lex: nanən
- stem: nanən.|nann.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2PL.OBL
-
--lexeme
  lex: nārapt
  stem: nārapt.
  gramm: V
@@ -1207,69 +1143,12 @@
  gloss_ru: клевать
 
 -lexeme
- lex: naŋen
- stem: naŋen.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2SG.OBL
-
--lexeme
- lex: naŋki
- stem: naŋki.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2SG.EMPH
-
--lexeme
  lex: nē
  stem: nē.
  gramm: PRON
  paradigm: unchangeable
  gloss: 
  gloss_ru: PRON.NEG
-
--lexeme
- lex: nenan
- stem: nenan.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2DU.OBL
-
--lexeme
- lex: nenan
- stem: nenan.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 3DU.OBL
-
--lexeme
- lex: nēnan
- stem: nēnan.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2DU.OBL
-
--lexeme
- lex: neŋki
- stem: neŋki.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2DU.EMPH
-
--lexeme
- lex: neŋki
- stem: neŋki.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2SG.ENPH
-
 -lexeme
  lex: nirasa
  stem: nirasa.
@@ -1442,7 +1321,7 @@
  lex: olməɣt
  stem: olməɣt.|olmɣt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: heal
  gloss_ru: зажить
 
@@ -1778,7 +1657,7 @@
  lex: pojəlt
  stem: pojəlt.|pojlt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: comfort
  gloss_ru: утешить
 
@@ -1834,7 +1713,7 @@
  lex: portəŋ
  stem: portəŋ.|portŋ.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: nutritious
  gloss_ru: питательный
 
@@ -1946,7 +1825,7 @@
  lex: retəŋ
  stem: retəŋ.|retŋ.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: lazy
  gloss_ru: ленивый
 
@@ -2122,7 +2001,7 @@
  lex: sawəŋ
  stem: sawəŋ.|sawŋ.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: lazy
  gloss_ru: ленивый
 
@@ -2154,7 +2033,7 @@
  lex: sāŋkwəlt
  stem: sāŋkwəlt.|sāŋkwlt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: play.lyre
  gloss_ru: играть.на.санквылтапе
 
@@ -2202,7 +2081,7 @@
  lex: senəɣ
  stem: senəɣ.|senɣ.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: growth.on.a.birch
  gloss_ru: нарост.на.берёзе
 
@@ -2250,7 +2129,7 @@
  lex: siməŋ
  stem: siməŋ.|simŋ.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: diligent
  gloss_ru: усердный
 
@@ -2306,7 +2185,7 @@
  lex: sormən
  stem: sormən.|sormn.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: dead
  gloss_ru: мёртвый
 
@@ -2314,7 +2193,7 @@
  lex: sorəɣ
  stem: sorəɣ.|sorɣ.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: belly
  gloss_ru: живот
 
@@ -2346,7 +2225,7 @@
  lex: səpəɣ
  stem: səpəɣ.|səpɣ.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: smack
  gloss_ru: чмокать
 
@@ -2399,28 +2278,12 @@
  gloss_ru: завиток
 
 -lexeme
- lex: takwē
- stem: takwē.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 3SG.EMPH
-
--lexeme
  lex: tāl
  stem: tāl.
  gramm: V
  paradigm: V_odd
  gloss: plunge
  gloss_ru: погрузиться
-
--lexeme
- lex: tananəl
- stem: tananəl.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 3PL.OBL
 
 -lexeme
  lex: tarelka
@@ -2447,18 +2310,10 @@
  gloss_ru: волокно
 
 -lexeme
- lex: taŋki
- stem: taŋki.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 3PL.EMPH
-
--lexeme
  lex: taŋkər
  stem: taŋkər.|taŋkr.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: mole
  gloss_ru: крот
 
@@ -2471,18 +2326,10 @@
  gloss_ru: дело
 
 -lexeme
- lex: tēnki
- stem: tēnki.
- gramm: PRON
- paradigm: unchangeable
- gloss: 
- gloss_ru: 2DU.EMPH
-
--lexeme
  lex: terəŋ
  stem: terəŋ.|terŋ.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: misfortune
  gloss_ru: несчастье
 
@@ -2578,7 +2425,7 @@
  lex: torəlt
  stem: torəlt.|torlt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: drop
  gloss_ru: выронить
 
@@ -2706,7 +2553,7 @@
  lex: wartəŋ
  stem: wartəŋ.|wartŋ.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: 
  gloss_ru: кремлеватый
 
@@ -2773,14 +2620,6 @@
  paradigm: N_even
  gloss: verst
  gloss_ru: верста
-
--lexeme
- lex: wiɣ
- stem: wiɣ.
- gramm: V
- paradigm: V_odd
- gloss: 
- gloss_ru: брать.NPST.3SG
 
 -lexeme
  lex: wil'tjat
@@ -3018,7 +2857,7 @@
  lex: xōməl
  stem: xōməl.|xōml.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: eccentric
  gloss_ru: чудак
 
@@ -3162,7 +3001,7 @@
  lex: ɕakər
  stem: ɕakər.|ɕakr.
  gramm: ADJ
- paradigm: ADJ_even_syncop
+ paradigm: ADJ_even-syncop
  gloss: greedy
  gloss_ru: жадный
 
@@ -3170,7 +3009,7 @@
  lex: ɕampəl
  stem: ɕampəl.|ɕampl.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: twisting
  gloss_ru: кручение.туда.сюда
 
@@ -3218,7 +3057,7 @@
  lex: ɕarək
  stem: ɕarək.|ɕark.
  gramm: N
- paradigm: N_even_syncop
+ paradigm: N_even-syncop
  gloss: pasture
  gloss_ru: выгон
 
@@ -3306,7 +3145,7 @@
  lex: ɕorxəlt
  stem: ɕorxəlt.|ɕorxlt.
  gramm: V
- paradigm: V_even_syncop
+ paradigm: V_even-syncop
  gloss: make.a.notch
  gloss_ru: сделать.зарубку
 

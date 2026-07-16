@@ -260,12 +260,19 @@ def convert_lexemes(fnameIn='lexemes.json',
 
 
 if __name__ == '__main__':
-    convert_lexemes('lexemes_update.json',
-                    'lexemes_update_2026.07.14.txt',
-                    'lexemes-mansi-lat.csv')
-    # prepare_files()
-    # parse_wordlists()
-    # from uniparser_mansi_lat import MansiAnalyzer
-    # a = MansiAnalyzer(mode='strict')
-    # for wf in a.analyze_words(['ōjka'], format='xml'):
-    #     print(wf)
+    # convert_lexemes('lexemes_update.json',
+    #                 'lexemes_update_2026.07.14.txt',
+    #                 'lexemes-mansi-lat.csv')
+    prepare_files()
+    parse_wordlists()
+    from uniparser_mansi_lat import MansiAnalyzer
+    a = MansiAnalyzer(mode='strict')
+    for wf in a.analyze_words([
+        'ōjka',
+        'minas',
+        'minasmēn',
+        'minasasmēn',
+        'xumil',
+        'uretəl'
+    ], format='xml'):
+        print(wf)

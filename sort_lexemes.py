@@ -168,9 +168,9 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
             if re.search('^\\w\\w\\.\\|\\w\\w\\w\\.', stem) is not None:
                 para = 'V_odd_short'
             elif re.search('^([\\w\']+)[aeiouāēīōūə]([^aeiouāēīōūə]*)\\|\\1\\2', stem) is not None:
-                para += '_syncop'
+                para += '-syncop'
             elif re.search('^([\\w\']+)[nŋ]\'?([^aeiouāēīōūə]+)\\|\\1\\2', stem) is not None:
-                para += '_n'
+                para += '-n'
             elif stem == 'xum.|xumi.':
                 para = 'N_xum'
             else:
