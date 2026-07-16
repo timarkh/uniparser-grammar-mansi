@@ -1672,9 +1672,9 @@
 
 -lexeme
  lex: kons
- stem: kons.//kos.
+ stem: kons.|kos.
  gramm: N
- paradigm: N_odd
+ paradigm: N_odd-n
  gloss: claw
  gloss_ru: коготь
 
