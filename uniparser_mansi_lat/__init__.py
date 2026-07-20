@@ -48,6 +48,19 @@ class MansiAnalyzer(Analyzer):
         # There is no disambiguation yet!
         return super().analyze_words(words, format=format, disambiguate=False, replacementsAllowed=replacementsAllowed)
 
+    def analyze_word_hint(self, word, parts, gloss_ru, gloss_en):
+        """
+        Take one word glossed using a potentially different annotation scheme.
+        Return one analysis that conforms most to the morpheme segmentation or
+        the gloss provided.
+        """
+        gloss = gloss_en
+        if len(gloss) <= 0:
+            gloss = gloss_ru
+        anas = super().analyze_words(word, format=format, disambiguate=False, replacementsAllowed=0)
+        for ana in anas:
+            if ana.
+
 
 if __name__ == '__main__':
     pass
