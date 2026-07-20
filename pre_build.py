@@ -3,6 +3,7 @@ import os
 import shutil
 import json
 from rapidfuzz.distance import DamerauLevenshtein
+from uniparser_mansi_lat import simplify
 
 badChars = {
         'ā': 'ā',
@@ -10,24 +11,6 @@ badChars = {
         'ē': 'ē',
         'ī': 'ī',
         'ū': 'ū',
-        'γ': 'ɣ',
-        'é': 'e',
-        'á': 'a',
-        'ȯ': 'o',
-        '̊': ''
-    }
-
-simplifyChars = {
-        'ā': 'a',
-        'ā': 'a',
-        'ō': 'o',
-        'ō': 'o',
-        'ē': 'e',
-        'ē': 'e',
-        'ī': 'i',
-        'ī': 'i',
-        'ū': 'u',
-        'ū': 'u',
         'γ': 'ɣ',
         'é': 'e',
         'á': 'a',
@@ -60,18 +43,27 @@ def prepare_files():
     lemmata, lexrules = collect_lemmata('.')
     with open('uniparser_mansi_lat/data_strict/lexemes.txt', 'w', encoding='utf-8') as fOutLemmata:
         fOutLemmata.write(lemmata)
+    with open('uniparser_mansi_lat/data_nodiacritics/lexemes.txt', 'w', encoding='utf-8') as fOutLemmata:
+        fOutLemmata.write(lemmata)
 
     with open('paradigms.txt', 'r', encoding='utf-8-sig') as fInParadigms:
         paradigms = fInParadigms.read()
     with open('uniparser_mansi_lat/data_strict/paradigms.txt', 'w', encoding='utf-8') as fOutParadigms:
+        fOutParadigms.write(paradigms)
+    with open('uniparser_mansi_lat/data_nodiacritics/paradigms.txt', 'w', encoding='utf-8') as fOutParadigms:
         fOutParadigms.write(paradigms)
 
     # with open('uniparser_mansi_lat/data_strict/lex_rules.txt', 'w', encoding='utf-8') as fOutLexrules:
     #     fOutLexrules.write(lexrules)
     if os.path.exists('bad_analyses.txt'):
         shutil.copy2('bad_analyses.txt', 'uniparser_mansi_lat/data_strict/')
+        shutil.copy2('bad_analyses.txt', 'uniparser_mansi_lat/data_nodiacritics/')
     if os.path.exists('mansi_disambiguation.cg3'):
         shutil.copy2('mansi_disambiguation.cg3', 'uniparser_mansi_lat/data_strict/')
+        shutil.copy2('mansi_disambiguation.cg3', 'uniparser_mansi_lat/data_nodiacritics/')
+
+    if os.path.exists('char_equiv.txt'):
+        shutil.copy2('char_equiv.txt', 'uniparser_mansi_lat/data_nodiacritics/')
 
 
 def parse_wordlists():
@@ -201,16 +193,6 @@ def filter_lexemes(lexemes, fnameProcessed=''):
     return filtered
 
 
-def simplify(s):
-    """
-    Remove diacritics.
-    """
-    for c in simplifyChars:
-        s = s.replace(c, simplifyChars[c])
-        s = s.replace(c.upper(), simplifyChars[c].upper())
-    return s
-
-
 def clean(s):
     for c in badChars:
         s = s.replace(c, badChars[c])
@@ -264,7 +246,8 @@ if __name__ == '__main__':
     #                 'lexemes_update_2026.07.14.txt',
     #                 'lexemes-mansi-lat.csv')
     prepare_files()
-    parse_wordlists()
+    # parse_wordlists()
+
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')
     for wf in a.analyze_words([
@@ -276,3 +259,28 @@ if __name__ == '__main__':
         'uretəl'
     ], format='xml'):
         print(wf)
+
+    # Test no-diacritics analyses
+    a = MansiAnalyzer(mode='nodiacritics')
+    for wf in a.analyze_words([
+        'ojka',
+        'minas',
+        'minās',
+        'mināsmen',
+        'minasāsmēn',
+        'xumil',
+        'urētəl'
+    ], format='xml'):
+        print(wf)
+
+    # Test alignment with manual glosses
+    testTuples = [
+        ('susne', 'sus-ne', 'смотреть-PTCP.NPST', 'look-NMLZ.NPST'),
+        ('totēɣn', 'tot-ē-ɣ-n', 'нести-NPST-DU.O-2SG.S', 'carry-NPST-DU.O-2SG.S'), # should not match
+        ]
+
+    for t in testTuples:
+        anas = a.analyze_word_hint(*t)
+        print(t, len(anas), 'conforming analyses found:')
+        for ana in anas:
+            print(ana.wfGlossed, ana.gloss)
