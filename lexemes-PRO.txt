@@ -1,3 +1,5 @@
+#  PERSONAL PRONOUNS
+
 -lexeme
  lex: am
  stem: am.
@@ -365,3 +367,113 @@
  gloss: 3PL.OBL&INS
  gloss_ru: 3PL.OBL&INS
  paradigm: unchangeable
+
+
+
+
+
+# WH-PRONOUNS
+
+-lexeme
+ lex: xōt
+ stem: xōt.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: where
+ gloss_ru: где
+
+-lexeme
+ lex: xōtəl'
+ stem: xōtəl'.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: from.where
+ gloss_ru: откуда
+
+-lexeme
+ lex: xōtal'
+ stem: xōtal'.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: to.where
+ gloss_ru: куда
+
+-lexeme
+ lex: xōttəl'
+ stem: xōttəl'.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: from.somewhere
+ gloss_ru: откуда.то
+
+-lexeme
+ lex: xōttal'
+ stem: xōttal'.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: to.somewhere
+ gloss_ru: куда.то
+
+-lexeme
+ lex: xotjut
+ stem: xotjut.
+ gramm: PRON
+ paradigm: N_even
+ gloss: who
+ gloss_ru: кто
+
+-lexeme
+ lex: manər
+ stem: manər.|manr.
+ gramm: PRON
+ paradigm: N_even
+ gloss: what
+ gloss_ru: что
+
+-lexeme
+ lex: manar
+ stem: manar.
+ gramm: V
+ paradigm: V_even
+ gloss: do.what
+ gloss_ru: делать.что
+
+-lexeme
+ lex: manax
+ stem: manax.
+ gramm: X
+ paradigm: unchangeable
+ gloss: how.much
+ gloss_ru: сколько
+
+-lexeme
+ lex: matər
+ stem: matər.
+ gramm: PRON
+ paradigm: N_even
+ gloss: something
+ gloss_ru: что.INDEF
+
+-lexeme
+ lex: matər
+ stem: matar.
+ gramm: PRON
+ paradigm: V_even
+ gloss: do.something
+ gloss_ru: делать.что.то
+
+-lexeme
+ lex: xōŋxa
+ stem: xōŋxa.
+ gramm: PRON
+ paradigm: N_even
+ gloss: who
+ gloss_ru: кто
+
+-lexeme
+ lex: xumus
+ stem: xumus.//xomus.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: how
+ gloss_ru: как

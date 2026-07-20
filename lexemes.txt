@@ -183,6 +183,14 @@
  gloss_ru: дочь
 
 -lexeme
+ lex: jaɣāɣi
+ stem: jaɣ&āɣi.
+ gramm: N
+ paradigm: N_even
+ gloss: big&daughter
+ gloss_ru: большой&дочь
+
+-lexeme
  lex: āɣm
  stem: āɣm.
  gramm: N
@@ -245,14 +253,6 @@
  paradigm: ADV
  gloss: always
  gloss_ru: всегда
-
--lexeme
- lex: akwan=
- stem: akwan.
- gramm: PREV
- paradigm: unchangeable
- gloss: together
- gloss_ru: вместе
 
 -lexeme
  lex: akwxujplow
@@ -661,14 +661,6 @@
  paradigm: N_even
  gloss: woman
  gloss_ru: женщина
-
--lexeme
- lex: ēl=
- stem: ēl.//ēla.
- gramm: PREV
- paradigm: unchangeable
- gloss: forward
- gloss_ru: вперед
 
 -lexeme
  lex: ēlal'
@@ -1087,14 +1079,6 @@
  gloss_ru: дерево
 
 -lexeme
- lex: jol=
- stem: jol.//jola.
- gramm: PREV
- paradigm: unchangeable
- gloss: down
- gloss_ru: вниз
-
--lexeme
  lex: joli
  stem: joli.
  gramm: ADJ
@@ -1295,14 +1279,6 @@
  gloss_ru: домой
 
 -lexeme
- lex: juw=
- stem: juw.
- gramm: PREV
- paradigm: unchangeable
- gloss: inside
- gloss_ru: внутрь
-
--lexeme
  lex: kakər
  stem: kakər.|kakr.
  gramm: N
@@ -1461,14 +1437,6 @@
  paradigm: N_even
  gloss: cat
  gloss_ru: кошка
-
--lexeme
- lex: ke
- stem: ke.
- gramm: X
- paradigm: unchangeable
- gloss: COND
- gloss_ru: COND
 
 -lexeme
  lex: kēl
@@ -1655,14 +1623,6 @@
  gloss_ru: cнаружи
 
 -lexeme
- lex: kon=
- stem: kon.//kona.
- gramm: PREV
- paradigm: unchangeable
- gloss: outside
- gloss_ru: наружу
-
--lexeme
  lex: koni
  stem: koni.
  gramm: ADJ
@@ -1685,14 +1645,6 @@
  paradigm: V_odd
  gloss: scratch
  gloss_ru: царапать
-
--lexeme
- lex: kos
- stem: kos.
- gramm: X
- paradigm: unchangeable
- gloss: CONC
- gloss_ru: CONC
 
 -lexeme
  lex: kot
@@ -1823,14 +1775,6 @@
  gloss_ru: нога
 
 -lexeme
- lex: lakkwa=
- stem: lakkwa.
- gramm: PREV
- paradigm: unchangeable
- gloss: apart
- gloss_ru: врозь
-
--lexeme
  lex: lakw
  stem: lakw.
  gramm: V
@@ -1861,14 +1805,6 @@
  paradigm: V_odd
  gloss: take.off
  gloss_ru: взлететь
-
--lexeme
- lex: lap=
- stem: lap.
- gramm: PREV
- paradigm: unchangeable
- gloss: close
- gloss_ru: закрыть
 
 -lexeme
  lex: lāpl
@@ -2311,22 +2247,6 @@
  gloss_ru: Q
 
 -lexeme
- lex: manar
- stem: manar.
- gramm: V
- paradigm: V_even
- gloss: do.what
- gloss_ru: делать.что
-
--lexeme
- lex: manax
- stem: manax.
- gramm: X
- paradigm: unchangeable
- gloss: how.much
- gloss_ru: сколько
-
--lexeme
  lex: maniɣt
  stem: maniɣt.
  gramm: V
@@ -2365,14 +2285,6 @@
  paradigm: unchangeable
  gloss: how
  gloss_ru: как
-
--lexeme
- lex: manər
- stem: manər.|manr.
- gramm: PRON
- paradigm: unchangeable
- gloss: what
- gloss_ru: что
 
 -lexeme
  lex: mān'
@@ -2437,14 +2349,6 @@
  paradigm: ADJ_even
  gloss: old
  gloss_ru: старый
-
--lexeme
- lex: matər
- stem: matər.
- gramm: PRON
- paradigm: unchangeable
- gloss: something
- gloss_ru: что.INDEF
 
 -lexeme
  lex: māxar
@@ -2941,14 +2845,6 @@
  paradigm: V_odd
  gloss: stiffen
  gloss_ru: окоченеть
-
--lexeme
- lex: nōx=
- stem: nōx.//nōŋx.//nōŋxa.
- gramm: PREV
- paradigm: unchangeable
- gloss: up
- gloss_ru: вверх
 
 -lexeme
  lex: nuj
@@ -3797,6 +3693,14 @@
  paradigm: N_odd
  gloss: son
  gloss_ru: сын
+
+-lexeme
+ lex: jaɣpīɣ
+ stem: jaɣ&pīɣ.
+ gramm: N
+ paradigm: N_odd
+ gloss: big&son
+ gloss_ru: большой&сын
 
 -lexeme
  lex: pil
@@ -6735,22 +6639,6 @@
  gloss_ru: шесть
 
 -lexeme
- lex: xōt
- stem: xot.
- gramm: X
- paradigm: unchangeable
- gloss: where
- gloss_ru: где
-
--lexeme
- lex: xot=
- stem: xot.
- gramm: PREV
- paradigm: unchangeable
- gloss: from
- gloss_ru: от
-
--lexeme
  lex: xōtal
  stem: xōtal.
  gramm: N
@@ -6783,14 +6671,6 @@
  gloss_ru: который
 
 -lexeme
- lex: xotjut
- stem: xotjut.
- gramm: PRON
- paradigm: unchangeable
- gloss: who
- gloss_ru: кто
-
--lexeme
  lex: xōtəl
  stem: xōtəl.
  gramm: V
@@ -6805,14 +6685,6 @@
  paradigm: N_odd
  gloss: spruce
  gloss_ru: ёлка
-
--lexeme
- lex: xōŋxa
- stem: xōŋxa.
- gramm: PRON
- paradigm: unchangeable
- gloss: who
- gloss_ru: кто
 
 -lexeme
  lex: xuj
@@ -6927,14 +6799,6 @@
  gloss_ru: как
 
 -lexeme
- lex: xumus
- stem: xumus.
- gramm: X
- paradigm: unchangeable
- gloss: how
- gloss_ru: как
-
--lexeme
  lex: xun
  stem: xun.
  gramm: V
@@ -6949,14 +6813,6 @@
  paradigm: V_odd
  gloss: listen
  gloss_ru: слушать
-
--lexeme
- lex: xun'
- stem: xun'.
- gramm: X
- paradigm: unchangeable
- gloss: when
- gloss_ru: когда
 
 -lexeme
  lex: xun't
@@ -7069,14 +6925,6 @@
  paradigm: V_odd
  gloss: enter
  gloss_ru: войти
-
--lexeme
- lex: ɕama=
- stem: ɕama.
- gramm: PREV
- paradigm: unchangeable
- gloss: to.death
- gloss_ru: насмерть
 
 -lexeme
  lex: ɕān'

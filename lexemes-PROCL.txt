@@ -1,0 +1,151 @@
+-lexeme
+ lex: at
+ stem: at.
+ gramm: X,procl
+ paradigm: unchangeable
+ gloss: NEG
+ gloss_ru: NEG
+
+-lexeme
+ lex: ul
+ stem: ul.
+ gramm: X,procl
+ paradigm: unchangeable
+ gloss: PROH
+ gloss_ru: PROH
+
+-lexeme
+ lex: wos
+ stem: wos.
+ gramm: X,procl
+ paradigm: unchangeable
+ gloss: OPT
+ gloss_ru: OPT
+
+-lexeme
+ lex: ke
+ stem: ke.
+ gramm: X,encl
+ paradigm: unchangeable
+ gloss: COND
+ gloss_ru: COND
+
+-lexeme
+ lex: kos
+ stem: kos.
+ gramm: X,procl
+ paradigm: unchangeable
+ gloss: CONC
+ gloss_ru: CONC
+
+-lexeme
+ lex: xun'
+ stem: xun'.
+ gramm: X,procl
+ paradigm: unchangeable
+ gloss: when
+ gloss_ru: когда
+
+-lexeme
+ lex: ta
+ stem: ta.
+ gramm: X,procl
+ paradigm: unchangeable
+ gloss: PTCL
+ gloss_ru: PTCL
+
+-lexeme
+ lex: ti
+ stem: ti.
+ gramm: X,procl
+ paradigm: unchangeable
+ gloss: PTCL2
+ gloss_ru: PTCL2
+
+-lexeme
+ lex: akwan
+ stem: akwan.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: together
+ gloss_ru: вместе
+
+-lexeme
+ lex: ēl
+ stem: ēl.//ēla.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: forward
+ gloss_ru: вперед
+
+-lexeme
+ lex: jol
+ stem: jol.//jola.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: down
+ gloss_ru: вниз
+
+-lexeme
+ lex: juw
+ stem: juw.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: inside
+ gloss_ru: внутрь
+
+-lexeme
+ lex: kon
+ stem: kon.//kona.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: outside
+ gloss_ru: наружу
+
+-lexeme
+ lex: lakkwa
+ stem: lakkwa.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: apart
+ gloss_ru: врозь
+
+-lexeme
+ lex: lap
+ stem: lap.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: close
+ gloss_ru: закрыть
+
+-lexeme
+ lex: nōx
+ stem: nōx.//nōŋx.//nōŋxa.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: up
+ gloss_ru: вверх
+
+-lexeme
+ lex: xot
+ stem: xot.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: from
+ gloss_ru: от
+
+-lexeme
+ lex: ɕama=
+ stem: ɕama.
+ gramm: PREV
+ paradigm: unchangeable
+ gloss: to.death
+ gloss_ru: насмерть
+
+-lexeme
+ lex: ɕama=
+ stem: ɕama.
+ gramm: PREV
+ paradigm: unchangeable
+ gloss: to.death
+ gloss_ru: насмерть

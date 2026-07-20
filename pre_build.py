@@ -246,7 +246,7 @@ if __name__ == '__main__':
     #                 'lexemes_update_2026.07.14.txt',
     #                 'lexemes-mansi-lat.csv')
     prepare_files()
-    # parse_wordlists()
+    parse_wordlists()
 
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')
