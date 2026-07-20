@@ -240,6 +240,57 @@ def convert_lexemes(fnameIn='lexemes.json',
     with open(fnameOut, 'w', encoding='utf-8') as fOut:
         fOut.write('\n'.join(lexemes))
 
+def find_best_alt(lex, existingLex):
+    """
+    Find the best alternative for a deleted lexeme among the
+    existing lexemes.
+    """
+    candidates = []
+    simpleLemma = simplify(lex[0])
+    for exLex in existingLex:
+        if exLex[1] == lex[1] and simplify(exLex[0]) == simpleLemma:
+            candidates.append(exLex)
+    if len(candidates) <= 0:
+        for exLex in existingLex:
+            if exLex[2] == lex[2] and simplify(exLex[0]) == simpleLemma:
+                candidates.append(exLex)
+    if len(candidates) <= 0:
+        for exLex in existingLex:
+            if ((exLex[1] == lex[1] or exLex[2] == lex[2])
+                    and DamerauLevenshtein.distance(simpleLemma,
+                                                    simplify(exLex[0]),
+                                                    score_cutoff=2) <= min(2, len(simpleLemma) - 1, len(exLex[0]) - 1)):
+                candidates.append(exLex)
+    candidates.sort(key=lambda x: DamerauLevenshtein.distance(x[0], lex[0], score_cutoff=3))
+    if len(candidates) > 0:
+        return candidates[0]
+    return None
+
+def generate_replacements():
+    """
+    Prepare a list of deleted lexemes indicating what they
+    have to be replaced with.
+    """
+    existingLex = set()     # (lemma, gloss_en, gloss_ru)
+    deletedLex = set()
+    with open('uniparser_mansi_lat/data_strict/lexemes.txt', 'r', encoding='utf-8') as fIn:
+        text = fIn.read()
+        existingLex = set(l for l in re.findall(' lex: +([^\r\n]+)\n(?: [^\r\n]*\n)*'
+                                                ' gloss: +([^\r\n]+)\n(?: [^\r\n]*\n)*'
+                                                ' gloss_ru: +([^\r\n]+)', text,
+                                                flags=re.DOTALL))
+    with open('lex_deleted.csv', 'r', encoding='utf-8') as fIn:
+        for line in fIn:
+            if len(line) <= 5 or '\t' not in line:
+                continue
+            line = line.strip('\r\n ').split('\t')
+            deletedLex.add((line[0], line[5], line[4]))
+    with open('gloss_replacements.csv', 'w', encoding='utf-8') as fOut:
+        for lex in deletedLex:
+            bestAlt = find_best_alt(lex, existingLex)
+            if bestAlt is not None:
+                fOut.write('\t'.join(lex) + '\t' + '\t'.join(bestAlt) + '\n')
+
 
 if __name__ == '__main__':
     # convert_lexemes('lexemes_update.json',
@@ -247,6 +298,7 @@ if __name__ == '__main__':
     #                 'lexemes-mansi-lat.csv')
     prepare_files()
     parse_wordlists()
+    generate_replacements()
 
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')

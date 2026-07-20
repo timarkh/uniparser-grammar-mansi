@@ -370,6 +370,51 @@
 
 
 
+#  DEMONSTRATIVE PRONOUNS
+
+
+
+-lexeme
+ lex: ta
+ stem: ta.
+ gramm: PRON
+ paradigm: ADJ_odd
+ gloss: that
+ gloss_ru: тот
+
+-lexeme
+ lex: taji
+ stem: taji.
+ gramm: PRON
+ paradigm: ADJ_even
+ gloss: that
+ gloss_ru: то
+
+-lexeme
+ lex: ti
+ stem: ti.
+ gramm: PRON
+ paradigm: ADJ_odd
+ gloss: this
+ gloss_ru: этот
+
+-lexeme
+ lex: tiɣ
+ stem: tiɣ.
+ gramm: PRON
+ paradigm: ADV
+ gloss: here
+ gloss_ru: сюда
+
+-lexeme
+ lex: tiji
+ stem: tiji.
+ gramm: PRON
+ paradigm: ADJ_even
+ gloss: this
+ gloss_ru: это
+
+
 
 
 # WH-PRONOUNS

@@ -1,6 +1,6 @@
-<w><ana lex="ta" gr="PRON" parts="ta" gloss="that"></ana><ana lex="ta" gr="X,procl" parts="ta" gloss="PTCL"></ana>ta</w>
+<w><ana lex="ta" gr="PRON,sg,nom" parts="ta" gloss="that"></ana><ana lex="ta" gr="X,procl" parts="ta" gloss="PTCL"></ana>ta</w>
 <w><ana lex="ōs" gr="X" parts="ōs" gloss="ADD"></ana>ōs</w>
-<w><ana lex="ti" gr="PRON" parts="ti" gloss="this"></ana><ana lex="ti" gr="X,procl" parts="ti" gloss="PTCL2"></ana>ti</w>
+<w><ana lex="ti" gr="PRON,sg,nom" parts="ti" gloss="this"></ana><ana lex="ti" gr="X,procl" parts="ti" gloss="PTCL2"></ana>ti</w>
 <w><ana lex="akw" gr="NUM" parts="akw" gloss="one"></ana>akw</w>
 <w><ana lex="lāw" gr="V,npst,act,subjc,3.s,sg.s" parts="lāw-i" gloss="say-NPST.3SG"></ana>lāwi</w>
 <w><ana lex="juw" gr="ADV" parts="juw" gloss="home"></ana><ana lex="juw" gr="PREV,procl" parts="juw" gloss="inside"></ana>juw</w>
@@ -44,7 +44,7 @@
 <w><ana lex="jun" gr="ADV" parts="jun" gloss="at.home"></ana>jun</w>
 <w><ana lex="manər" gr="PRON,sg,nom" parts="manər" gloss="what"></ana>manər</w>
 <w><ana lex="mēŋkw" gr="N,sg,nom" parts="mēŋkw" gloss="giant"></ana>mēŋkw</w>
-<w><ana lex="tiɣ" gr="ADV" parts="tiɣ" gloss="here"></ana>tiɣ</w>
+<w><ana lex="ti" gr="PRON,du,nom" parts="ti-ɣ" gloss="this-DU"></ana><ana lex="ti" gr="PRON,sg,trans" parts="ti-ɣ" gloss="this-TRANS"></ana><ana lex="tiɣ" gr="PRON" parts="tiɣ" gloss="here"></ana>tiɣ</w>
 <w><ana lex="tān" gr="PRON,pers,nom" parts="tān" gloss="3PL"></ana>tān</w>
 <w><ana lex="kan" gr="N,sg,nom" parts="kan" gloss="place"></ana>kan</w>
 <w><ana lex="luw" gr="N,sg,nom" parts="luw" gloss="bone"></ana><ana lex="luw" gr="N,sg,nom" parts="luw" gloss="horse"></ana>luw</w>
@@ -241,7 +241,7 @@
 <w><ana lex="sūp" gr="N,sg,2sg,nom" parts="sūp-ən" gloss="mouth-POSS.2SG"></ana>sūpən</w>
 <w><ana lex="taw" gr="PRON,pers,emph" parts="takwi" gloss="3SG.EMPH"></ana>takwi</w>
 <w><ana lex="tax" gr="V,pst,act,subjc,3.s,sg.s" parts="tax-as" gloss="set.off-PST.3SG"></ana>taxas</w>
-<w><ana lex="tit" gr="N,sg,nom" parts="tit" gloss="foothills"></ana>tit</w>
+<w><ana lex="ti" gr="PRON,pl,nom" parts="ti-t" gloss="this-PL"></ana><ana lex="tit" gr="N,sg,nom" parts="tit" gloss="foothills"></ana>tit</w>
 <w><ana lex="tit" gr="N,pl,nom" parts="tit-t" gloss="foothills-PL"></ana><ana lex="tit" gr="N,sg,loc" parts="tit-t" gloss="foothills-LOC"></ana>titt</w>
 <w><ana lex="tit" gr="N,pl,lat" parts="tit-t-n" gloss="foothills-PL-LAT"></ana><ana lex="titt" gr="V,act,ptcp_npst,sg,nom" parts="titt-n" gloss="feed-PTCP.NPST"></ana><ana lex="titt" gr="V,npst,act,mir,subjc,3.s,sg.s" parts="titt-n" gloss="feed-MIR.NPST.3SG"></ana>tittn</w>
 <w><ana lex="tot" gr="V,act,ptcp_res,sg,nom" parts="tot-am" gloss="carry-PTCP.RES"></ana><ana lex="tot" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="tot-am" gloss="carry-MIR.PST.3SG"></ana>totam</w>
@@ -501,8 +501,9 @@
 <w><ana lex="sūp" gr="N,sg,nom" parts="sūp" gloss="mouth"></ana>sūp</w>
 <w><ana lex="sūp" gr="N,sg,3sg,nom" parts="sūp-e" gloss="mouth-POSS.3SG"></ana>sūpe</w>
 <w><ana lex="taj" gr="N,pl,1sg,nom" parts="taj-an-um" gloss="scoop-PL-POSS.1SG"></ana>tajanum</w>
+<w><ana lex="ta" gr="PRON,appr,sg,nom" parts="ta-kem" gloss="that-APPR"></ana>takem</w>
 <w><ana lex="tax" gr="V,pst,act,subjc,3.s,pl.s" parts="tax-as-ət" gloss="set.off-PST-3PL"></ana>taxasət</w>
-<w><ana lex="tiji" gr="PRON" parts="tiji" gloss="this"></ana>tiji</w>
+<w><ana lex="tiji" gr="PRON,sg,nom" parts="tiji" gloss="this"></ana>tiji</w>
 <w><ana lex="tit" gr="N,sg,lat" parts="tit-n" gloss="foothills-LAT"></ana>titn</w>
 <w><ana lex="titt" gr="V,act,subst1,sg,3sg,nom" parts="titt-it-e" gloss="feed-SUBST1-POSS.3SG"></ana><ana lex="titt" gr="V,npst,act,sg.o,objc,3.s,sg.s" parts="titt-i-t-e" gloss="feed-NPST-SG.O-3SG.S"></ana>tittite</w>
 <w><ana lex="titt" gr="V,pst,act,sg.o,objc,3.s,sg.s" parts="titt-əs-t-e" gloss="feed-PST-SG.O-3SG.S"></ana>tittəste</w>

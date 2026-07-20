@@ -329,24 +329,36 @@
  -flex: .<.>
   gramm: 
   paradigm: ADJ-main
+ -flex: .kem<.>
+  gramm: appr
+  gloss: APPR
+  paradigm: ADJ_odd
  -flex: .nuw<.>
   gramm: cmpr
   gloss: CMPR
-  paradigm: ADJ-main
+  paradigm: ADJ_odd
 
 -paradigm: ADJ_even-syncop
  -flex: .<.>
   gramm: 
   paradigm: ADJ-main-syncop
+ -flex: <0>.kem<.>
+  gramm: appr
+  gloss: APPR
+  paradigm: ADJ_odd
  -flex: <0>.nuw<.>
   gramm: cmpr
   gloss: CMPR
-  paradigm: ADJ-main
+  paradigm: ADJ_odd
 
 -paradigm: ADJ_odd
  -flex: .<.>
   gramm: 
   paradigm: ADJ-main
+ -flex: .kem<.>
+  gramm: appr
+  gloss: APPR
+  paradigm: ADJ_even
  -flex: .nuw<.>
   gramm: cmpr
   gloss: CMPR
@@ -356,7 +368,11 @@
  -flex: .<.>
   gramm: 
   paradigm: ADJ-main-syncop
- -flex: .nuw<.>
+ -flex: <0>.kem<.>
+  gramm: appr
+  gloss: APPR
+  paradigm: ADJ_even
+ -flex: <0>.nuw<.>
   gramm: cmpr
   gloss: CMPR
   paradigm: ADJ_even

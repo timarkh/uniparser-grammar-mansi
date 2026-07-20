@@ -5031,14 +5031,6 @@
  gloss_ru: посох
 
 -lexeme
- lex: ta
- stem: ta.
- gramm: PRON
- paradigm: unchangeable
- gloss: that
- gloss_ru: тот
-
--lexeme
  lex: taɣ
  stem: taɣ.
  gramm: N
@@ -5085,14 +5077,6 @@
  paradigm: ADV
  gloss: later
  gloss_ru: попозже
-
--lexeme
- lex: taji
- stem: taji.
- gramm: PRON
- paradigm: unchangeable
- gloss: that
- gloss_ru: то
 
 -lexeme
  lex: tājt
@@ -5319,36 +5303,12 @@
  gloss_ru: друг
 
 -lexeme
- lex: ti
- stem: ti.
- gramm: PRON
- paradigm: unchangeable
- gloss: this
- gloss_ru: этот
-
--lexeme
- lex: tiɣ
- stem: tiɣ.
- gramm: ADV
- paradigm: ADV
- gloss: here
- gloss_ru: сюда
-
--lexeme
  lex: tiɣəl
  stem: tiɣəl.
  gramm: ADV
  paradigm: ADV
  gloss: now
  gloss_ru: сейчас
-
--lexeme
- lex: tiji
- stem: tiji.
- gramm: PRON
- paradigm: unchangeable
- gloss: this
- gloss_ru: это
 
 -lexeme
  lex: tilaml
