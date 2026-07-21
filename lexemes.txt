@@ -1680,7 +1680,7 @@
 
 -lexeme
  lex: kul'
- stem: kul'.
+ stem: kul'.//xul'.
  gramm: N
  paradigm: N_odd
  gloss: demon
@@ -4453,6 +4453,14 @@
  paradigm: N_odd-n
  gloss: knee
  gloss_ru: колено
+
+-lexeme
+ lex: sār
+ stem: sār.
+ gramm: X
+ paradigm: unchangeable
+ gloss: HORT
+ gloss_ru: HORT
 
 -lexeme
  lex: sār

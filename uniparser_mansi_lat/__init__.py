@@ -4,6 +4,7 @@ except ImportError:
     from importlib_resources import files, as_file
 from uniparser_morph import Analyzer
 import re
+import copy
 
 simplifyChars = {
         'ā': 'a',
@@ -18,20 +19,35 @@ simplifyChars = {
         'ū': 'u',
         'γ': 'ɣ',
         'é': 'e',
+        'è': 'e',
         'á': 'a',
         'ȯ': 'o',
+        'ó': 'o',
         '̊': ''
     }
+oversimplifyChars = copy.deepcopy(simplifyChars)
+oversimplifyChars.update({
+    'ə': 'i',
+    "'": '',
+    'w': 'u',
+    'ŋ': 'n',
+    'jī': 'i',
+    'ji': 'i'
+})
 rxGloss = re.compile('[-=<>]|[^-=<>]+')
+rxStemGloss = re.compile('\\b[^-=<>]*[a-zа-яё][^-=<>]*\\b')
 
 
-def simplify(s):
+def simplify(s, over=False):
     """
     Remove diacritics.
     """
-    for c in simplifyChars:
-        s = s.replace(c, simplifyChars[c])
-        s = s.replace(c.upper(), simplifyChars[c].upper())
+    chars = simplifyChars
+    if over:
+        chars = oversimplifyChars
+    for c in chars:
+        s = s.replace(c, chars[c])
+        s = s.replace(c.upper(), chars[c].upper())
     return s
 
 
@@ -67,6 +83,14 @@ class MansiAnalyzer(Analyzer):
         if mode not in ('strict', 'nodiacritics'):
             return
         self.dirName = 'uniparser_mansi_lat.data_' + mode
+
+        # Equivalents of glosses that have been removed
+        self.eqEn = {}
+        self.eqRu = {}
+        self.eqEnRu = {}
+        self.load_gloss_equiv()
+
+        # Load grammar
         with as_file(files(self.dirName) / 'paradigms.txt') as self.paradigmFile,\
              as_file(files(self.dirName) / 'lexemes.txt') as self.lexFile,\
              as_file(files(self.dirName) / 'lex_rules.txt') as self.lexRulesFile,\
@@ -79,6 +103,35 @@ class MansiAnalyzer(Analyzer):
         self.initialize_parser()
         self.m.MIN_REPLACEMENT_WORD_LEN = 8
         self.m.MIN_REPLACEMENT_STEM_LEN = 6
+
+    def load_gloss_equiv(self, mode='strict'):
+        """
+        Load equivalences for glosses that have been removed
+        but occur in the manual analyses.
+        """
+        self.eqEn = {}
+        self.eqRu = {}
+        self.eqEnRu = {}
+        with as_file(files(self.dirName) / 'gloss_replacements.csv') as fnameIn:
+            with open(fnameIn, 'r', encoding='utf-8') as fIn:
+                for line in fIn:
+                    if len(line) <= 5 or '\t' not in line:
+                        continue
+                    lexOld, enOld, ruOld,\
+                        lexNew, enNew, ruNew = line.strip('\r\n').split('\t')
+                    if lexNew == 'NONE' or len(lexNew) <= 0:
+                        continue
+                    if enOld not in self.eqEn:
+                        self.eqEn[enOld] = set()
+                    if ruOld not in self.eqRu:
+                        self.eqRu[ruOld] = set()
+                    if (enOld, ruOld) not in self.eqEnRu:
+                        self.eqEnRu[(enOld, ruOld)] = set()
+                    v = (lexOld, lexNew, enNew, ruNew)
+                    self.eqEn[enOld].add(v)
+                    self.eqRu[ruOld].add(v)
+                    self.eqEnRu[(enOld, ruOld)].add(v)
+
 
     def analyze_words(self, words, format=None, disambiguate=False, replacementsAllowed=0):
         """
@@ -107,19 +160,59 @@ class MansiAnalyzer(Analyzer):
         gloss = gloss_en
         if len(gloss) <= 0:
             gloss = gloss_ru
-        sortedGoodAnas = [[] for i in range(5)]
+        simpleGloss = simplify_gloss(gloss)
+        sortedGoodAnas = [[] for i in range(7)]
         anas = super().analyze_words(word, format=format, disambiguate=False, replacementsAllowed=0)
         for ana in anas:
-            if ana.wfGlossed == parts and ana.gloss == gloss:
+            if (ana.wfGlossed == parts
+                    and ana.gloss == gloss):
                 sortedGoodAnas[0].append(ana)
-            elif ana.wfGlossed == parts and simplify_gloss(ana.gloss) == simplify_gloss(gloss):
+            elif (ana.wfGlossed == parts
+                  and simplify_gloss(ana.gloss) == simpleGloss):
                 sortedGoodAnas[1].append(ana)
-            elif simplify(ana.wfGlossed) == simplify(parts) and ana.gloss == gloss:
+            elif (simplify(ana.wfGlossed) == simplify(parts)
+                  and ana.gloss == gloss):
                 sortedGoodAnas[2].append(ana)
-            elif simplify(ana.wfGlossed) == simplify(parts) and simplify_gloss(ana.gloss) == simplify_gloss(gloss):
+            elif (simplify(ana.wfGlossed) == simplify(parts)
+                  and simplify_gloss(ana.gloss) == simpleGloss):
                 sortedGoodAnas[3].append(ana)
-            elif simplify(ana.wfGlossed) == simplify(parts) or ana.gloss == gloss:
-                sortedGoodAnas[4].append(ana)
+            elif (simplify(ana.wfGlossed) == simplify(parts)
+                  or simplify_gloss(rxStemGloss.sub('', ana.gloss)) == simplify_gloss(rxStemGloss.sub('', gloss))):
+                sortedGoodAnas[5].append(ana)
+            elif (simplify(ana.wfGlossed) == simplify(parts)
+                  or ana.gloss == gloss):
+                sortedGoodAnas[6].append(ana)
+
+            # Search for glosses that have been corrected
+            partsSplit = rxGloss.findall(parts)
+            glossSplit = rxGloss.findall(gloss)
+            if len(partsSplit) != len(glossSplit):
+                continue
+            potentialParts = ['']
+            potentialGloss = ['']
+            for i in range(len(glossSplit)):
+                curEnGl = glossSplit[i]
+                curPart = partsSplit[i]
+                if curEnGl not in self.eqEn:
+                    for iPotent in range(len(potentialParts)):
+                        potentialParts[iPotent] += curPart
+                        potentialGloss[iPotent] += curEnGl
+                    continue
+                additionsParts = []
+                additionsGloss = []
+                for lexOld, lexNew, enNew, ruNew in self.eqEn[curEnGl]:
+                    if lexOld != curPart:
+                        lexNew = curPart
+                    for iPotent in range(len(potentialParts)):
+                        additionsParts.append(potentialParts[iPotent] + lexNew)
+                        additionsGloss.append(potentialGloss[iPotent] + enNew)
+                potentialParts = additionsParts
+                potentialGloss = additionsGloss
+            for iPotent in range(len(potentialParts)):
+                if (simplify(ana.wfGlossed) == simplify(potentialParts[iPotent])
+                        and simplify_gloss(ana.gloss) == simplify_gloss(potentialGloss[iPotent])):
+                    # print('CORRECTED GLOSS:', ana.gloss, gloss)
+                    sortedGoodAnas[4].append(ana)
 
         for i in range(len(sortedGoodAnas)):
             if len(sortedGoodAnas[i]) > 0:

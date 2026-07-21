@@ -3,7 +3,10 @@ import os
 import shutil
 import json
 from rapidfuzz.distance import DamerauLevenshtein
+from rapidfuzz.fuzz import ratio
 from uniparser_mansi_lat import simplify
+from sklearn.metrics.pairwise import cosine_similarity
+import math
 
 badChars = {
         'ā': 'ā',
@@ -64,6 +67,9 @@ def prepare_files():
 
     if os.path.exists('char_equiv.txt'):
         shutil.copy2('char_equiv.txt', 'uniparser_mansi_lat/data_nodiacritics/')
+    if os.path.exists('gloss_replacements.csv'):
+        shutil.copy2('gloss_replacements.csv', 'uniparser_mansi_lat/data_strict/')
+        shutil.copy2('gloss_replacements.csv', 'uniparser_mansi_lat/data_nodiacritics/')
 
 
 def parse_wordlists():
@@ -240,28 +246,67 @@ def convert_lexemes(fnameIn='lexemes.json',
     with open(fnameOut, 'w', encoding='utf-8') as fOut:
         fOut.write('\n'.join(lexemes))
 
+def cos_sim(lex1, lex2):
+    """
+    Cosine similarity of the embeddings of the two glosses.
+    """
+    if ((len(lex1[3]) <= 0 or len(lex2[3]) <= 0)
+            and (len(lex1[4]) <= 0 or len(lex2[4]) <= 0)):
+        return 0.0
+    if len(lex1[3]) <= 0 or len(lex2[3]) <= 0:
+        return cosine_similarity([lex1[4]], [lex2[4]])[0][0]
+    elif len(lex1[4]) <= 0 or len(lex2[4]) <= 0:
+        return cosine_similarity([lex1[3]], [lex2[3]])[0][0]
+    # English similarities are more reliable
+    return 0.7 * cosine_similarity([lex1[3]], [lex2[3]])[0][0] \
+        + 0.3 * cosine_similarity([lex1[4]], [lex2[4]])[0][0]
+
 def find_best_alt(lex, existingLex):
     """
     Find the best alternative for a deleted lexeme among the
     existing lexemes.
     """
     candidates = []
-    simpleLemma = simplify(lex[0])
+    simpleLemma = simplify(lex[0], over=True)
+    oversimpleLemma = simplify(lex[0], over=True)
     for exLex in existingLex:
-        if exLex[1] == lex[1] and simplify(exLex[0]) == simpleLemma:
+        if exLex[1] == lex[1] and simplify(exLex[0], over=True) == simpleLemma:
             candidates.append(exLex)
     if len(candidates) <= 0:
         for exLex in existingLex:
-            if exLex[2] == lex[2] and simplify(exLex[0]) == simpleLemma:
+            if exLex[2] == lex[2] and simplify(exLex[0], over=True) == simpleLemma:
+                candidates.append(exLex)
+
+    if len(candidates) <= 0:
+        for exLex in existingLex:
+            if ((exLex[1] == lex[1] or exLex[2] == lex[2] or cos_sim(exLex, lex) > 0.58)
+                    and simpleLemma[0] == simplify(exLex[0])[0]  # it's improbable that the first letter is different
+                    and DamerauLevenshtein.distance(simpleLemma,
+                                                    simplify(exLex[0]),
+                                                    score_cutoff=1) <= 1
+                    and ratio(simpleLemma, simplify(exLex[0]),
+                              score_cutoff=70) >= 70):
                 candidates.append(exLex)
     if len(candidates) <= 0:
         for exLex in existingLex:
-            if ((exLex[1] == lex[1] or exLex[2] == lex[2])
-                    and DamerauLevenshtein.distance(simpleLemma,
-                                                    simplify(exLex[0]),
-                                                    score_cutoff=2) <= min(2, len(simpleLemma) - 1, len(exLex[0]) - 1)):
+            if ((exLex[1] == lex[1] or exLex[2] == lex[2] or cos_sim(exLex, lex) > 0.58)
+                    and oversimpleLemma[0] == simplify(exLex[0], over=True)[0]  # it's improbable that the first letter is different
+                    and DamerauLevenshtein.distance(oversimpleLemma,
+                                                    simplify(exLex[0], over=True),
+                                                    score_cutoff=2) <= min(2, len(oversimpleLemma) - 1, len(exLex[0]) - 1)
+                    and ratio(oversimpleLemma, simplify(exLex[0], over=True),
+                              score_cutoff=60) >= 60):
                 candidates.append(exLex)
-    candidates.sort(key=lambda x: DamerauLevenshtein.distance(x[0], lex[0], score_cutoff=3))
+    if len(candidates) > 1:
+        candidates.sort(key=lambda x: (-math.floor(cos_sim(x, lex) * 6),
+                                       -ratio(simplify(x[0], over=True),
+                                              oversimpleLemma,
+                                              score_cutoff=60)))
+        print(lex[:3], [c[:3] + [-math.floor(cos_sim(c, lex) * 6),
+                                 -ratio(simplify(c[0], over=True),
+                                        oversimpleLemma,
+                                        score_cutoff=60)]
+                        for c in candidates])
     if len(candidates) > 0:
         return candidates[0]
     return None
@@ -271,25 +316,44 @@ def generate_replacements():
     Prepare a list of deleted lexemes indicating what they
     have to be replaced with.
     """
-    existingLex = set()     # (lemma, gloss_en, gloss_ru)
-    deletedLex = set()
-    with open('uniparser_mansi_lat/data_strict/lexemes.txt', 'r', encoding='utf-8') as fIn:
+    from sentence_transformers import SentenceTransformer
+    # model = SentenceTransformer('all-MiniLM-L6-v2')
+    model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+    existingLex = []     # (lemma, gloss_en, gloss_ru, embedding_en, embedding_ru)
+    deletedLex = []
+    with open('lexemes.txt', 'r', encoding='utf-8') as fIn:
         text = fIn.read()
-        existingLex = set(l for l in re.findall(' lex: +([^\r\n]+)\n(?: [^\r\n]*\n)*'
-                                                ' gloss: +([^\r\n]+)\n(?: [^\r\n]*\n)*'
-                                                ' gloss_ru: +([^\r\n]+)', text,
-                                                flags=re.DOTALL))
+        existingLex = [l for l in re.findall(' lex: +([^\r\n]+)\n(?: [^\r\n]*\n)*'
+                                             ' gloss: +([^\r\n]+)\n(?: [^\r\n]*\n)*'
+                                             ' gloss_ru: +([^\r\n]+)', text,
+                                             flags=re.DOTALL)]
+    embeddingsEn = model.encode([l[1].replace('.', ' ') for l in existingLex])
+    embeddingsRu = model.encode([l[2].replace('.', ' ') for l in existingLex])
+    existingLex = [list(existingLex[i]) + [embeddingsEn[i], embeddingsRu[i]]
+                   for i in range(len(existingLex))]
+
     with open('lex_deleted.csv', 'r', encoding='utf-8') as fIn:
         for line in fIn:
             if len(line) <= 5 or '\t' not in line:
                 continue
             line = line.strip('\r\n ').split('\t')
-            deletedLex.add((line[0], line[5], line[4]))
-    with open('gloss_replacements.csv', 'w', encoding='utf-8') as fOut:
-        for lex in deletedLex:
-            bestAlt = find_best_alt(lex, existingLex)
+            if line[-2] != 'x':
+                continue    # words that need checking; maybe they are alright
+            deletedLex.append((line[0], line[5], line[4]))
+    embeddingsEn = model.encode([l[1].replace('.', ' ') for l in deletedLex])
+    embeddingsRu = model.encode([l[2].replace('.', ' ') for l in deletedLex])
+    deletedLex = [list(deletedLex[i]) + [embeddingsEn[i], embeddingsRu[i]]
+                  for i in range(len(deletedLex))]
+
+    with open('gloss_replacements.csv', 'w', encoding='utf-8'):
+        pass
+    for lex in deletedLex:
+        bestAlt = find_best_alt(lex, existingLex)
+        with open('gloss_replacements.csv', 'a', encoding='utf-8') as fOut:
             if bestAlt is not None:
-                fOut.write('\t'.join(lex) + '\t' + '\t'.join(bestAlt) + '\n')
+                fOut.write('\t'.join(lex[:3]) + '\t' + '\t'.join(bestAlt[:3]) + '\n')
+            else:
+                fOut.write('\t'.join(lex[:3]) + '\t' + '\t'.join(['NONE', '', '']) + '\n')
 
 
 if __name__ == '__main__':
@@ -298,7 +362,7 @@ if __name__ == '__main__':
     #                 'lexemes-mansi-lat.csv')
     prepare_files()
     parse_wordlists()
-    generate_replacements()
+    # generate_replacements()
 
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')

@@ -116,7 +116,7 @@
 <w><ana lex="pāwəl" gr="N,sg,2du_pl,nom" parts="pāwl-ēn" gloss="village-POSS.2DU/PL"></ana><ana lex="pāwəl" gr="N,sg,3sg,lat" parts="pāwl-ē-n" gloss="village-POSS.3SG-LAT"></ana>pāwlēn</w>
 <w><ana lex="pēl" gr="V,past,pst,subjc,3.s,sg.s" parts="pēl-we-s" gloss="pierce-PASS-PST.3SG"></ana>pēlwes</w>
 <w><ana lex="suns" gr="V,npst,act,subjc,3.s,sg.s" parts="suns-i" gloss="look-NPST.3SG"></ana>sunsi</w>
-<w><ana lex="sār" gr="ADJ,sg,nom" parts="sār" gloss="front"></ana><ana lex="sār" gr="N,sg,nom" parts="sār" gloss="tobacco"></ana>sār</w>
+<w><ana lex="sār" gr="ADJ,sg,nom" parts="sār" gloss="front"></ana><ana lex="sār" gr="N,sg,nom" parts="sār" gloss="tobacco"></ana><ana lex="sār" gr="X" parts="sār" gloss="HORT"></ana>sār</w>
 <w><ana lex="sāŋkwəlt" gr="V,act,ptcp_npst,sg,nom" parts="sāŋkwəlt-an" gloss="play.lyre-PTCP.NPST"></ana>sāŋkwəltan</w>
 <w><ana lex="sōwər" gr="N,sg,nom" parts="sōwər" gloss="hare"></ana>sōwər</w>
 <w><ana lex="taw" gr="PRON,pers,lat" parts="tawe-n" gloss="3SG.OBL-LAT"></ana>tawen</w>

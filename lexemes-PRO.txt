@@ -428,32 +428,32 @@
  gloss_ru: где
 
 -lexeme
- lex: xōtəl'
- stem: xōtəl'.
+ lex: xotəl'
+ stem: xotəl'.
  gramm: PRON
  paradigm: unchangeable
  gloss: from.where
  gloss_ru: откуда
 
 -lexeme
- lex: xōtal'
- stem: xōtal'.
+ lex: xotal'
+ stem: xotal'.
  gramm: PRON
  paradigm: unchangeable
  gloss: to.where
  gloss_ru: куда
 
 -lexeme
- lex: xōttəl'
- stem: xōttəl'.
+ lex: xottəl'
+ stem: xottəl'.
  gramm: PRON
  paradigm: unchangeable
  gloss: from.somewhere
  gloss_ru: откуда.то
 
 -lexeme
- lex: xōttal'
- stem: xōttal'.
+ lex: xottal'
+ stem: xottal'.
  gramm: PRON
  paradigm: unchangeable
  gloss: to.somewhere
