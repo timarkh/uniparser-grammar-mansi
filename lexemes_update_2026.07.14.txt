@@ -15,17 +15,9 @@
  gloss_ru: петька
 
 -lexeme
- lex: Ro
- stem: ro.
- gramm: N,PN
- paradigm: N_odd
- gloss: Russian.hero
- gloss_ru: русский.богатырь
-
--lexeme
  lex: Saran
  stem: saran.
- gramm: N,PN
+ gramm: N
  paradigm: N_even
  gloss: Komi
  gloss_ru: коми
@@ -189,38 +181,6 @@
  paradigm: V_even
  gloss: finish
  gloss_ru: заканчивать
-
--lexeme
- lex: āt'i
- stem: āt'i.
- gramm: PRON
- paradigm: unchangeable
- gloss: something
- gloss_ru: что.то
-
--lexeme
- lex: āt'i
- stem: āt'i.
- gramm: V
- paradigm: V_even
- gloss: 
- gloss_ru: NEG.PRED
-
--lexeme
- lex: at'im
- stem: at'im.
- gramm: V
- paradigm: V_even
- gloss: 
- gloss_ru: NEG.EX
-
--lexeme
- lex: āt'im
- stem: āt'im.
- gramm: V
- paradigm: V_even
- gloss: 
- gloss_ru: NEG.EX
 
 -lexeme
  lex: āti

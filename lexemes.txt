@@ -3939,7 +3939,7 @@
  stem: potwata.
  gramm: N
  paradigm: N_even
- gloss: 
+ gloss: cart
  gloss_ru: подвода
 
 -lexeme
@@ -3965,14 +3965,6 @@
  paradigm: V_even
  gloss: roll
  gloss_ru: катиться
-
--lexeme
- lex: pōx
- stem: pōx.
- gramm: N
- paradigm: N_odd
- gloss: side
- gloss_ru: бок
 
 -lexeme
  lex: pōx
@@ -4125,14 +4117,6 @@
  paradigm: unchangeable
  gloss: everybody
  gloss_ru: все
-
--lexeme
- lex: pūt
- stem: pūt.
- gramm: N
- paradigm: N_odd
- gloss: cauldron
- gloss_ru: котёл
 
 -lexeme
  lex: pūt
@@ -5005,14 +4989,6 @@
  paradigm: N_odd
  gloss: shirt
  gloss_ru: рубашка
-
--lexeme
- lex: sūp
- stem: sūp.
- gramm: N
- paradigm: N_odd
- gloss: mouth
- gloss_ru: рот
 
 -lexeme
  lex: sūp
