@@ -7,6 +7,7 @@ from rapidfuzz.fuzz import ratio
 from uniparser_mansi_lat import simplify
 from sklearn.metrics.pairwise import cosine_similarity
 import math
+from itertools import combinations
 
 badChars = {
         'ā': 'ā',
@@ -21,6 +22,17 @@ badChars = {
         '̊': ''
     }
 
+rxStem = re.compile('( stem: *)([^\r\n]+)')
+rxStemVariants = re.compile('[^|/]+')
+rxPhon = re.compile("[lnt]'?|.")
+palatCons = {
+    "t": "t'",
+    "n": "n'",
+    "l": "l'",
+    "t'": "t",
+    "n'": "n",
+    "l'": "l"
+}
 
 def collect_lemmata(dirName):
     lemmata = ''
@@ -39,6 +51,48 @@ def collect_lemmata(dirName):
     return lemmata, lexrules
 
 
+def palat_var(s):
+    """
+    Return all variants of `s` with one or more palatalizations swapped.
+    """
+    phonemes = rxPhon.findall(s)
+    positions = [i for i, c in enumerate(phonemes) if c in palatCons]
+    variants = set()
+    for r in range(1, len(positions) + 1):
+        for changed in combinations(positions, r):
+            changed = set(changed)
+            var = ''
+            for i, c in enumerate(phonemes):
+                if i in changed:
+                    var += palatCons[c]
+                else:
+                    var += c
+            variants.add(var)
+    return variants
+
+
+def add_palatal_var_stem(s):
+    s = s.group(0)
+    # if "'" not in s:
+    #     return s
+    vars = '//'.join(palat_var(s))
+    if vars:
+        return s + '//' + vars
+    return s
+
+
+def add_palatal_vars_stem(m):
+    morphEnhanced = rxStemVariants.sub(add_palatal_var_stem, m.group(2).strip())
+    return m.group(1) + morphEnhanced + '\n std: ' + re.sub('//[^|]*', '', m.group(2))
+
+
+def add_palatal_vars(lemmata):
+    """
+    Add non-palatalized variants for palatalized phonemes and vice versa.
+    """
+    return rxStem.sub(add_palatal_vars_stem, lemmata)
+
+
 def prepare_files():
     """
     Put all grammar files to ../uniparser_mansi_lat/data_strict/.
@@ -48,6 +102,8 @@ def prepare_files():
         fOutLemmata.write(lemmata)
     with open('uniparser_mansi_lat/data_nodiacritics/lexemes.txt', 'w', encoding='utf-8') as fOutLemmata:
         fOutLemmata.write(lemmata)
+    with open('uniparser_mansi_lat/data_nopalatal/lexemes.txt', 'w', encoding='utf-8') as fOutLemmata:
+        fOutLemmata.write(add_palatal_vars(lemmata))
 
     with open('paradigms.txt', 'r', encoding='utf-8-sig') as fInParadigms:
         paradigms = fInParadigms.read()
@@ -55,21 +111,27 @@ def prepare_files():
         fOutParadigms.write(paradigms)
     with open('uniparser_mansi_lat/data_nodiacritics/paradigms.txt', 'w', encoding='utf-8') as fOutParadigms:
         fOutParadigms.write(paradigms)
+    with open('uniparser_mansi_lat/data_nopalatal/paradigms.txt', 'w', encoding='utf-8') as fOutParadigms:
+        fOutParadigms.write(paradigms)
 
     # with open('uniparser_mansi_lat/data_strict/lex_rules.txt', 'w', encoding='utf-8') as fOutLexrules:
     #     fOutLexrules.write(lexrules)
     if os.path.exists('bad_analyses.txt'):
         shutil.copy2('bad_analyses.txt', 'uniparser_mansi_lat/data_strict/')
         shutil.copy2('bad_analyses.txt', 'uniparser_mansi_lat/data_nodiacritics/')
+        shutil.copy2('bad_analyses.txt', 'uniparser_mansi_lat/data_nopalatal/')
     if os.path.exists('mansi_disambiguation.cg3'):
         shutil.copy2('mansi_disambiguation.cg3', 'uniparser_mansi_lat/data_strict/')
         shutil.copy2('mansi_disambiguation.cg3', 'uniparser_mansi_lat/data_nodiacritics/')
+        shutil.copy2('mansi_disambiguation.cg3', 'uniparser_mansi_lat/data_nopalatal/')
 
     if os.path.exists('char_equiv.txt'):
         shutil.copy2('char_equiv.txt', 'uniparser_mansi_lat/data_nodiacritics/')
+        shutil.copy2('char_equiv.txt', 'uniparser_mansi_lat/data_nopalatal/')
     if os.path.exists('gloss_replacements.csv'):
         shutil.copy2('gloss_replacements.csv', 'uniparser_mansi_lat/data_strict/')
         shutil.copy2('gloss_replacements.csv', 'uniparser_mansi_lat/data_nodiacritics/')
+        shutil.copy2('gloss_replacements.csv', 'uniparser_mansi_lat/data_nopalatal/')
 
 
 def parse_wordlists():
@@ -377,7 +439,7 @@ if __name__ == '__main__':
         print(wf)
 
     # Test no-diacritics analyses
-    a = MansiAnalyzer(mode='nodiacritics')
+    a = MansiAnalyzer(mode='nopalatal')
     for wf in a.analyze_words([
         'ojka',
         'minas',
@@ -385,13 +447,15 @@ if __name__ == '__main__':
         'mināsmen',
         'minasāsmēn',
         'xumil',
-        'urētəl'
+        'urētəl',
+        'lēw'
     ], format='xml'):
         print(wf)
 
     # Test alignment with manual glosses
     testTuples = [
         ('susne', 'sus-ne', 'смотреть-PTCP.NPST', 'look-NMLZ.NPST'),
+        ('lēw', 'lēw', 'лев', 'lion'),
         ('totēɣn', 'tot-ē-ɣ-n', 'нести-NPST-DU.O-2SG.S', 'carry-NPST-DU.O-2SG.S'), # should not match
         ]
 

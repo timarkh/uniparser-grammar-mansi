@@ -79,10 +79,12 @@ class MansiAnalyzer(Analyzer):
         Initialize the analyzer by reading the grammar files.
         If mode=='strict' (default), load the data as is.
         If mode=='nodiacritics', load the data for (possibly) diacriticless texts.
+        If mode=='nopalatal', load the data for (possibly) diacriticless texts
+        that also may have palatalization marks at the wrong places inside stems.
         """
         super().__init__(verbose_grammar=verbose_grammar)
         self.mode = mode
-        if mode not in ('strict', 'nodiacritics'):
+        if mode not in ('strict', 'nodiacritics', 'nopalatal'):
             return
         self.dirName = 'data_' + mode
 
