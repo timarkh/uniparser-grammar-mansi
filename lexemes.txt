@@ -1248,7 +1248,7 @@
 
 -lexeme
  lex: jūpk
- stem: jūpk.//jūpka
+ stem: jūpk.//jūpka.
  gramm: N
  paradigm: N_odd
  gloss: skirt
@@ -1456,7 +1456,7 @@
 
 -lexeme
  lex: kelp
- stem: kēlp.//kēlup
+ stem: kēlp.//kēlup.
  gramm: N
  paradigm: N_odd
  gloss: blood
@@ -1544,7 +1544,7 @@
 
 -lexeme
  lex: kit
- stem: kit.//kitiɣ
+ stem: kit.//kitiɣ.
  gramm: NUM
  paradigm: NUM_odd
  gloss: two
@@ -1656,7 +1656,7 @@
 
 -lexeme
  lex: kot'il'
- stem: kot'il'.//kot'l'
+ stem: kot'il'.//kot'l'.
  gramm: N
  paradigm: N_even
  gloss: middle
@@ -1848,7 +1848,7 @@
 
 -lexeme
  lex: lāɕal
- stem: lāɕal.//lāɕ
+ stem: lāɕal.//lāɕ.
  gramm: ADJ
  paradigm: ADJ_even
  gloss: slow
@@ -2128,7 +2128,7 @@
 
 -lexeme
  lex: l'ōmwoj
- stem: l'ōmwoj.//l'ōmuj
+ stem: l'ōmwoj.//l'ōmuj.
  gramm: N
  paradigm: N_even
  gloss: mosquito
@@ -2136,7 +2136,7 @@
 
 -lexeme
  lex: l'ōŋx
- stem: l'ōŋx.//l'ōx
+ stem: l'ōŋx.//l'ōx.
  gramm: N
  paradigm: N_odd
  gloss: road
@@ -5952,7 +5952,7 @@
 
 -lexeme
  lex: wasiɣ
- stem: wasiɣ.//wossiɣ
+ stem: wasiɣ.//wossiɣ.
  gramm: X
  paradigm: unchangeable
  gloss: not.anymore

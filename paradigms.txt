@@ -1346,7 +1346,7 @@
 
 
 -paradigm: V_odd_short
- -flex: <0>.<.>
+ -flex: .<.>
   gramm: 
   regex-next: .*[^<>.0-9,].*
   paradigm: V_asp_odd_vowel
@@ -2279,25 +2279,25 @@
  -flex: .m<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: ADJ_odd
+  paradigm: N_odd
  -flex: .am<.>//.əm<.>//.im<.>//.um<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: ADJ_even
+  paradigm: N_even
  
  -flex: .ime<.>
   gramm: ptcp_pass
   gloss: PTCP.PASS
-  paradigm: ADJ_odd
+  paradigm: N_odd
 
  -flex: .p<.>
   gramm: ptcp
   gloss: PTCP
-  paradigm: ADJ_odd
+  paradigm: N_odd
  -flex: .ap<.>//.up<.>
   gramm: ptcp
   gloss: PTCP
-  paradigm: ADJ_even
+  paradigm: N_even
 
  -flex: .n<.>
   gramm: ptcp_npst
@@ -2338,25 +2338,25 @@
  -flex: .m<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: ADJ_even
+  paradigm: N_even
  -flex: .am<.>//.əm<.>//.im<.>//.um<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: ADJ_odd
+  paradigm: N_odd
  
  -flex: .ime<.>
   gramm: ptcp_pass
   gloss: PTCP.PASS
-  paradigm: ADJ_even
+  paradigm: N_even
 
  -flex: .p<.>
   gramm: ptcp
   gloss: PTCP
-  paradigm: ADJ_even
+  paradigm: N_even
  -flex: .ap<.>//.up<.>
   gramm: ptcp
   gloss: PTCP
-  paradigm: ADJ_odd
+  paradigm: N_odd
 
  -flex: .n<.>
   gramm: ptcp_npst

@@ -1,0 +1,3 @@
+﻿[
+  {"gloss": ".*PTCP.*-(VBL?Z|PROP).*"}
+]
