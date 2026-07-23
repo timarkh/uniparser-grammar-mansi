@@ -82,7 +82,7 @@ class MansiAnalyzer(Analyzer):
         self.mode = mode
         if mode not in ('strict', 'nodiacritics'):
             return
-        self.dirName = 'uniparser_mansi_lat.data_' + mode
+        self.dirName = 'data_' + mode
 
         # Equivalents of glosses that have been removed
         self.eqEn = {}
@@ -91,14 +91,14 @@ class MansiAnalyzer(Analyzer):
         self.load_gloss_equiv()
 
         # Load grammar
-        with as_file(files(self.dirName) / 'paradigms.txt') as self.paradigmFile,\
-             as_file(files(self.dirName) / 'lexemes.txt') as self.lexFile,\
-             as_file(files(self.dirName) / 'lex_rules.txt') as self.lexRulesFile,\
-             as_file(files(self.dirName) / 'derivations.txt') as self.derivFile,\
-             as_file(files(self.dirName) / 'stem_conversions.txt') as self.conversionFile,\
-             as_file(files(self.dirName) / 'clitics.txt') as self.cliticFile,\
-             as_file(files(self.dirName) / 'bad_analyses.txt') as self.delAnaFile,\
-             as_file(files(self.dirName) / 'char_equiv.txt') as self.charEquivFile:
+        with as_file(files(__package__) / self.dirName / 'paradigms.txt') as self.paradigmFile,\
+             as_file(files(__package__) / self.dirName / 'lexemes.txt') as self.lexFile,\
+             as_file(files(__package__) / self.dirName / 'lex_rules.txt') as self.lexRulesFile,\
+             as_file(files(__package__) / self.dirName / 'derivations.txt') as self.derivFile,\
+             as_file(files(__package__) / self.dirName / 'stem_conversions.txt') as self.conversionFile,\
+             as_file(files(__package__) / self.dirName / 'clitics.txt') as self.cliticFile,\
+             as_file(files(__package__) / self.dirName / 'bad_analyses.txt') as self.delAnaFile,\
+             as_file(files(__package__) / self.dirName / 'char_equiv.txt') as self.charEquivFile:
             self.load_grammar()
         self.initialize_parser()
         self.m.MIN_REPLACEMENT_WORD_LEN = 8
@@ -112,7 +112,7 @@ class MansiAnalyzer(Analyzer):
         self.eqEn = {}
         self.eqRu = {}
         self.eqEnRu = {}
-        with as_file(files(self.dirName) / 'gloss_replacements.csv') as fnameIn:
+        with as_file(files(__package__) / self.dirName / 'gloss_replacements.csv') as fnameIn:
             with open(fnameIn, 'r', encoding='utf-8') as fIn:
                 for line in fIn:
                     if len(line) <= 5 or '\t' not in line:
@@ -144,7 +144,7 @@ class MansiAnalyzer(Analyzer):
         Perform CG3 disambiguation if disambiguate == True and CG3 is installed.
         """
         # if disambiguate:
-        #     with as_file(files(self.dirName) / 'mansi_disambiguation.cg3') as cgFile:
+        #     with as_file(files(__package__) / self.dirName / 'mansi_disambiguation.cg3') as cgFile:
         #         cgFilePath = str(cgFile)
         #         return super().analyze_words(words, format=format, disambiguate=True,
         #                                      cgFile=cgFilePath, replacementsAllowed=replacementsAllowed)
