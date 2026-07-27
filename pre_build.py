@@ -463,4 +463,4 @@ if __name__ == '__main__':
         anas = a.analyze_word_hint(*t)
         print(t, len(anas), 'conforming analyses found:')
         for ana in anas:
-            print(ana.wfGlossed, ana.gloss)
+            print(ana.wfGlossed, ana.wfGlossedStd, ana.gloss)
