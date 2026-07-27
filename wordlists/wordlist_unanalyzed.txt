@@ -23,7 +23,6 @@ pāsi
 sul
 sōl
 t
-takiɕ
 təl
 xottal
 xōtəl
@@ -37,7 +36,6 @@ kuɕn
 kērsol
 lakw
 lakwsite
-maj
 malaɕlaxti
 mol
 nal
@@ -84,7 +82,6 @@ ižwer
 jalaseɣt
 jaltaptiluw
 jaltuptelen
-jaɣāɣitēntəl
 jurɕxateɣum
 jās
 jīnete
@@ -141,7 +138,6 @@ paltēn
 pinelen
 potərtēɣt
 pāliɣxarteln
-pēlpiɕ
 pērmtaxtame
 pērmtaxtas
 pōjtəltaste
@@ -157,7 +153,6 @@ tajapilum
 tajapilən
 takēməl
 takəɕ
-tikeməl
 tjat
 tjatta
 totelen

@@ -66,9 +66,11 @@ def simplify_gloss(s):
         g = g.replace('NMZ', 'PTCP')
         g = g.replace('VBLZ', 'VBZ')
         g = g.replace('INSTR', 'INS')
+        g = g.replace('SOL', 'EMPH')
         g = re.sub('([^.]+)\\.POSS', 'POSS.\\1', g)
         g = re.sub('\\.S\\b', '', g)
         g = re.sub('\\b(MOM|FREQ|INCH)\\b', 'ASP', g)
+        g = re.sub('2(DU|PL)(?!/)', '2DU/PL', g)
         glossNew += g
     return glossNew
 
@@ -163,7 +165,7 @@ class MansiAnalyzer(Analyzer):
         """
         simpleGlossEn = simplify_gloss(glossEn)
         simpleGlossRu = simplify_gloss(glossRu)
-        sortedGoodAnas = [[] for i in range(11)]
+        sortedGoodAnas = [[] for _ in range(12)]
 
         anas = super().analyze_words(word, format=format, disambiguate=False, replacementsAllowed=0)
         for ana in anas:
@@ -193,10 +195,10 @@ class MansiAnalyzer(Analyzer):
                 sortedGoodAnas[7].append(ana)
             elif (simplify(ana.wfGlossed) == simplify(parts)
                   or simplify_gloss(rxStemGloss.sub('', ana.gloss)) == simplify_gloss(rxStemGloss.sub('', glossEn))):
-                sortedGoodAnas[9].append(ana)
+                sortedGoodAnas[10].append(ana)
             elif (simplify(ana.wfGlossed) == simplify(parts)
                   or ana.gloss == glossEn):
-                sortedGoodAnas[10].append(ana)
+                sortedGoodAnas[11].append(ana)
 
             # Search for glosses that have been corrected
             partsSplit = rxGloss.findall(parts)
@@ -224,10 +226,14 @@ class MansiAnalyzer(Analyzer):
                 potentialParts = additionsParts
                 potentialGloss = additionsGloss
             for iPotent in range(len(potentialParts)):
-                if (simplify(ana.wfGlossed) == simplify(potentialParts[iPotent])
+                if (ana.wfGlossed == potentialParts[iPotent]
                         and simplify_gloss(ana.gloss) == simplify_gloss(potentialGloss[iPotent])):
                     # print('CORRECTED GLOSS:', ana.gloss, gloss)
                     sortedGoodAnas[8].append(ana)
+                elif (simplify(ana.wfGlossed) == simplify(potentialParts[iPotent])
+                        and simplify_gloss(ana.gloss) == simplify_gloss(potentialGloss[iPotent])):
+                    # print('CORRECTED GLOSS:', ana.gloss, gloss)
+                    sortedGoodAnas[9].append(ana)
 
         for i in range(len(sortedGoodAnas)):
             if len(sortedGoodAnas[i]) > 0:

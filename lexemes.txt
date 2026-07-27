@@ -7133,3 +7133,11 @@
  paradigm: V_odd
  gloss: flow
  gloss_ru: течь
+
+-lexeme
+ lex: maj
+ stem: maj.
+ gramm: X
+ paradigm: unchangeable
+ gloss: DISC
+ gloss_ru: DISC
