@@ -5,6 +5,8 @@
  paradigm: unchangeable
  gloss: NEG
  gloss_ru: NEG
+ trans_en: NEG
+ trans_ru: NEG
 
 -lexeme
  lex: ul
@@ -13,6 +15,8 @@
  paradigm: unchangeable
  gloss: PROH
  gloss_ru: PROH
+ trans_en: PROH
+ trans_ru: PROH
 
 -lexeme
  lex: wos
@@ -21,6 +25,8 @@
  paradigm: unchangeable
  gloss: OPT
  gloss_ru: OPT
+ trans_en: OPT
+ trans_ru: OPT
 
 -lexeme
  lex: ke
@@ -29,6 +35,8 @@
  paradigm: unchangeable
  gloss: COND
  gloss_ru: COND
+ trans_en: COND
+ trans_ru: COND
 
 -lexeme
  lex: kos
@@ -37,6 +45,8 @@
  paradigm: unchangeable
  gloss: CONC
  gloss_ru: CONC
+ trans_en: CONC
+ trans_ru: CONC
 
 -lexeme
  lex: xun'
@@ -45,6 +55,8 @@
  paradigm: unchangeable
  gloss: when
  gloss_ru: когда
+ trans_en: when
+ trans_ru: когда
 
 -lexeme
  lex: ta
@@ -53,6 +65,8 @@
  paradigm: unchangeable
  gloss: PTCL
  gloss_ru: PTCL
+ trans_en: PTCL
+ trans_ru: PTCL
 
 -lexeme
  lex: ti
@@ -61,6 +75,8 @@
  paradigm: unchangeable
  gloss: PTCL2
  gloss_ru: PTCL2
+ trans_en: PTCL2
+ trans_ru: PTCL2
 
 -lexeme
  lex: akwan
@@ -69,6 +85,8 @@
  paradigm: unchangeable
  gloss: together
  gloss_ru: вместе
+ trans_en: together
+ trans_ru: вместе
 
 -lexeme
  lex: ēl
@@ -77,6 +95,8 @@
  paradigm: unchangeable
  gloss: forward
  gloss_ru: вперед
+ trans_en: forward
+ trans_ru: вперед
 
 -lexeme
  lex: jol
@@ -85,6 +105,8 @@
  paradigm: unchangeable
  gloss: down
  gloss_ru: вниз
+ trans_en: down
+ trans_ru: вниз
 
 -lexeme
  lex: juw
@@ -93,6 +115,8 @@
  paradigm: unchangeable
  gloss: inside
  gloss_ru: внутрь
+ trans_en: inside
+ trans_ru: внутрь
 
 -lexeme
  lex: kon
@@ -101,6 +125,8 @@
  paradigm: unchangeable
  gloss: outside
  gloss_ru: наружу
+ trans_en: outside
+ trans_ru: наружу
 
 -lexeme
  lex: lakkwa
@@ -109,6 +135,8 @@
  paradigm: unchangeable
  gloss: apart
  gloss_ru: врозь
+ trans_en: apart
+ trans_ru: врозь
 
 -lexeme
  lex: lap
@@ -117,6 +145,8 @@
  paradigm: unchangeable
  gloss: close
  gloss_ru: закрыть
+ trans_en: close
+ trans_ru: закрыть
 
 -lexeme
  lex: nōx
@@ -125,6 +155,8 @@
  paradigm: unchangeable
  gloss: up
  gloss_ru: вверх
+ trans_en: up
+ trans_ru: вверх
 
 -lexeme
  lex: xot
@@ -133,6 +165,8 @@
  paradigm: unchangeable
  gloss: from
  gloss_ru: от
+ trans_en: from
+ trans_ru: от
 
 -lexeme
  lex: ɕama=
@@ -141,6 +175,8 @@
  paradigm: unchangeable
  gloss: to.death
  gloss_ru: насмерть
+ trans_en: to death
+ trans_ru: насмерть
 
 -lexeme
  lex: ɕama=

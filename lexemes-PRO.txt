@@ -6,6 +6,8 @@
  gramm: PRON,pers,nom
  gloss: 1SG
  gloss_ru: 1SG
+ trans_en: 1SG
+ trans_ru: 1SG
  paradigm: PRON_pers
 
 -lexeme
@@ -14,6 +16,8 @@
  gramm: PRON,pers,obl
  gloss: 1SG.OBL
  gloss_ru: 1SG.OBL
+ trans_en: 1SG OBL
+ trans_ru: 1SG OBL
  paradigm: unchangeable
 
 -lexeme
@@ -22,6 +26,8 @@
  gramm: PRON,pers,lat
  gloss: 1SG.OBL&LAT
  gloss_ru: 1SG.OBL&LAT
+ trans_en: 1SG OBL&LAT
+ trans_ru: 1SG OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -30,6 +36,8 @@
  gramm: PRON,pers,abl
  gloss: 1SG.OBL&ABL
  gloss_ru: 1SG.OBL&ABL
+ trans_en: 1SG OBL&ABL
+ trans_ru: 1SG OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -38,6 +46,8 @@
  gramm: PRON,pers,ins
  gloss: 1SG.OBL&INS
  gloss_ru: 1SG.OBL&INS
+ trans_en: 1SG OBL&INS
+ trans_ru: 1SG OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -46,6 +56,8 @@
  gramm: PRON,pers,nom
  gloss: 2SG
  gloss_ru: 2SG
+ trans_en: 2SG
+ trans_ru: 2SG
  paradigm: PRON_pers
 
 -lexeme
@@ -54,6 +66,8 @@
  gramm: PRON,pers,obl
  gloss: 2SG.OBL
  gloss_ru: 2SG.OBL
+ trans_en: 2SG OBL
+ trans_ru: 2SG OBL
  paradigm: unchangeable
 
 -lexeme
@@ -62,6 +76,8 @@
  gramm: PRON,pers,lat
  gloss: 2SG.OBL&LAT
  gloss_ru: 2SG.OBL&LAT
+ trans_en: 2SG OBL&LAT
+ trans_ru: 2SG OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -70,6 +86,8 @@
  gramm: PRON,pers,abl
  gloss: 2SG.OBL&ABL
  gloss_ru: 2SG.OBL&ABL
+ trans_en: 2SG OBL&ABL
+ trans_ru: 2SG OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -78,6 +96,8 @@
  gramm: PRON,pers,ins
  gloss: 2SG.OBL&INS
  gloss_ru: 2SG.OBL&INS
+ trans_en: 2SG OBL&INS
+ trans_ru: 2SG OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -86,6 +106,8 @@
  gramm: PRON,pers,nom
  gloss: 3SG
  gloss_ru: 3SG
+ trans_en: 3SG
+ trans_ru: 3SG
  paradigm: unchangeable
 
 -lexeme
@@ -94,6 +116,8 @@
  gramm: PRON,pers,emph
  gloss: 3SG.EMPH
  gloss_ru: 3SG.EMPH
+ trans_en: 3SG EMPH
+ trans_ru: 3SG EMPH
  paradigm: PRON_pers_emph
 
 -lexeme
@@ -102,6 +126,8 @@
  gramm: PRON,pers,obl
  gloss: 3SG.OBL
  gloss_ru: 3SG.OBL
+ trans_en: 3SG OBL
+ trans_ru: 3SG OBL
  paradigm: unchangeable
 
 -lexeme
@@ -110,6 +136,8 @@
  gramm: PRON,pers,lat
  gloss: 3SG.OBL&LAT
  gloss_ru: 3SG.OBL&LAT
+ trans_en: 3SG OBL&LAT
+ trans_ru: 3SG OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -118,6 +146,8 @@
  gramm: PRON,pers,abl
  gloss: 3SG.OBL&ABL
  gloss_ru: 3SG.OBL&ABL
+ trans_en: 3SG OBL&ABL
+ trans_ru: 3SG OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -126,6 +156,8 @@
  gramm: PRON,pers,ins
  gloss: 3SG.OBL&INS
  gloss_ru: 3SG.OBL&INS
+ trans_en: 3SG OBL&INS
+ trans_ru: 3SG OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -134,6 +166,8 @@
  gramm: PRON,pers,nom
  gloss: 1DU
  gloss_ru: 1DU
+ trans_en: 1DU
+ trans_ru: 1DU
  paradigm: PRON_pers
 
 -lexeme
@@ -142,6 +176,8 @@
  gramm: PRON,pers,obl
  gloss: 1DU.OBL
  gloss_ru: 1DU.OBL
+ trans_en: 1DU OBL
+ trans_ru: 1DU OBL
  paradigm: unchangeable
 
 -lexeme
@@ -150,6 +186,8 @@
  gramm: PRON,pers,lat
  gloss: 1DU.OBL&LAT
  gloss_ru: 1DU.OBL&LAT
+ trans_en: 1DU OBL&LAT
+ trans_ru: 1DU OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -158,6 +196,8 @@
  gramm: PRON,pers,abl
  gloss: 1DU.OBL&ABL
  gloss_ru: 1DU.OBL&ABL
+ trans_en: 1DU OBL&ABL
+ trans_ru: 1DU OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -166,6 +206,8 @@
  gramm: PRON,pers,ins
  gloss: 1DU.OBL&INS
  gloss_ru: 1DU.OBL&INS
+ trans_en: 1DU OBL&INS
+ trans_ru: 1DU OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -174,6 +216,8 @@
  gramm: PRON,pers,nom
  gloss: 2DU
  gloss_ru: 2DU
+ trans_en: 2DU
+ trans_ru: 2DU
  paradigm: PRON_pers
 
 -lexeme
@@ -182,6 +226,8 @@
  gramm: PRON,pers,obl
  gloss: 2DU.OBL
  gloss_ru: 2DU.OBL
+ trans_en: 2DU OBL
+ trans_ru: 2DU OBL
  paradigm: unchangeable
 
 -lexeme
@@ -190,6 +236,8 @@
  gramm: PRON,pers,lat
  gloss: 2DU.OBL&LAT
  gloss_ru: 2DU.OBL&LAT
+ trans_en: 2DU OBL&LAT
+ trans_ru: 2DU OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -198,6 +246,8 @@
  gramm: PRON,pers,abl
  gloss: 2DU.OBL&ABL
  gloss_ru: 2DU.OBL&ABL
+ trans_en: 2DU OBL&ABL
+ trans_ru: 2DU OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -206,6 +256,8 @@
  gramm: PRON,pers,ins
  gloss: 2DU.OBL&INS
  gloss_ru: 2DU.OBL&INS
+ trans_en: 2DU OBL&INS
+ trans_ru: 2DU OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -214,6 +266,8 @@
  gramm: PRON,pers,nom
  gloss: 3DU
  gloss_ru: 3DU
+ trans_en: 3DU
+ trans_ru: 3DU
  paradigm: PRON_pers
 
 -lexeme
@@ -222,6 +276,8 @@
  gramm: PRON,pers,obl
  gloss: 3DU.OBL
  gloss_ru: 3DU.OBL
+ trans_en: 3DU OBL
+ trans_ru: 3DU OBL
  paradigm: unchangeable
 
 -lexeme
@@ -230,6 +286,8 @@
  gramm: PRON,pers,lat
  gloss: 3DU.OBL&LAT
  gloss_ru: 3DU.OBL&LAT
+ trans_en: 3DU OBL&LAT
+ trans_ru: 3DU OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -238,6 +296,8 @@
  gramm: PRON,pers,abl
  gloss: 3DU.OBL&ABL
  gloss_ru: 3DU.OBL&ABL
+ trans_en: 3DU OBL&ABL
+ trans_ru: 3DU OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -246,6 +306,8 @@
  gramm: PRON,pers,ins
  gloss: 3DU.OBL&INS
  gloss_ru: 3DU.OBL&INS
+ trans_en: 3DU OBL&INS
+ trans_ru: 3DU OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -254,6 +316,8 @@
  gramm: PRON,pers,nom
  gloss: 1PL
  gloss_ru: 1PL
+ trans_en: 1PL
+ trans_ru: 1PL
  paradigm: PRON_pers
 
 -lexeme
@@ -262,6 +326,8 @@
  gramm: PRON,pers,obl
  gloss: 1PL.OBL
  gloss_ru: 1PL.OBL
+ trans_en: 1PL OBL
+ trans_ru: 1PL OBL
  paradigm: unchangeable
 
 -lexeme
@@ -270,6 +336,8 @@
  gramm: PRON,pers,lat
  gloss: 1PL.OBL&LAT
  gloss_ru: 1PL.OBL&LAT
+ trans_en: 1PL OBL&LAT
+ trans_ru: 1PL OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -278,6 +346,8 @@
  gramm: PRON,pers,abl
  gloss: 1PL.OBL&ABL
  gloss_ru: 1PL.OBL&ABL
+ trans_en: 1PL OBL&ABL
+ trans_ru: 1PL OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -286,6 +356,8 @@
  gramm: PRON,pers,ins
  gloss: 1PL.OBL&INS
  gloss_ru: 1PL.OBL&INS
+ trans_en: 1PL OBL&INS
+ trans_ru: 1PL OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -294,6 +366,8 @@
  gramm: PRON,pers,nom
  gloss: 2PL
  gloss_ru: 2PL
+ trans_en: 2PL
+ trans_ru: 2PL
  paradigm: PRON_pers
 
 -lexeme
@@ -302,6 +376,8 @@
  gramm: PRON,pers,obl
  gloss: 2PL.OBL
  gloss_ru: 2PL.OBL
+ trans_en: 2PL OBL
+ trans_ru: 2PL OBL
  paradigm: unchangeable
 
 -lexeme
@@ -310,6 +386,8 @@
  gramm: PRON,pers,lat
  gloss: 2PL.OBL&LAT
  gloss_ru: 2PL.OBL&LAT
+ trans_en: 2PL OBL&LAT
+ trans_ru: 2PL OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -318,6 +396,8 @@
  gramm: PRON,pers,abl
  gloss: 2PL.OBL&ABL
  gloss_ru: 2PL.OBL&ABL
+ trans_en: 2PL OBL&ABL
+ trans_ru: 2PL OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -326,6 +406,8 @@
  gramm: PRON,pers,ins
  gloss: 2PL.OBL&INS
  gloss_ru: 2PL.OBL&INS
+ trans_en: 2PL OBL&INS
+ trans_ru: 2PL OBL&INS
  paradigm: unchangeable
 
 -lexeme
@@ -334,6 +416,8 @@
  gramm: PRON,pers,nom
  gloss: 3PL
  gloss_ru: 3PL
+ trans_en: 3PL
+ trans_ru: 3PL
  paradigm: PRON_pers
 
 -lexeme
@@ -342,6 +426,8 @@
  gramm: PRON,pers,obl
  gloss: 3PL.OBL
  gloss_ru: 3PL.OBL
+ trans_en: 3PL OBL
+ trans_ru: 3PL OBL
  paradigm: unchangeable
 
 -lexeme
@@ -350,6 +436,8 @@
  gramm: PRON,pers,lat
  gloss: 3PL.OBL&LAT
  gloss_ru: 3PL.OBL&LAT
+ trans_en: 3PL OBL&LAT
+ trans_ru: 3PL OBL&LAT
  paradigm: unchangeable
 
 -lexeme
@@ -358,6 +446,8 @@
  gramm: PRON,pers,abl
  gloss: 3PL.OBL&ABL
  gloss_ru: 3PL.OBL&ABL
+ trans_en: 3PL OBL&ABL
+ trans_ru: 3PL OBL&ABL
  paradigm: unchangeable
 
 -lexeme
@@ -366,6 +456,8 @@
  gramm: PRON,pers,ins
  gloss: 3PL.OBL&INS
  gloss_ru: 3PL.OBL&INS
+ trans_en: 3PL OBL&INS
+ trans_ru: 3PL OBL&INS
  paradigm: unchangeable
 
 
@@ -381,6 +473,8 @@
  paradigm: ADJ_odd
  gloss: that
  gloss_ru: тот
+ trans_en: that
+ trans_ru: тот
 
 -lexeme
  lex: taji
@@ -389,6 +483,8 @@
  paradigm: ADJ_even
  gloss: that
  gloss_ru: то
+ trans_en: that
+ trans_ru: то
 
 -lexeme
  lex: ti
@@ -397,6 +493,8 @@
  paradigm: ADJ_odd
  gloss: this
  gloss_ru: этот
+ trans_en: this
+ trans_ru: этот
 
 -lexeme
  lex: tiɣ
@@ -405,6 +503,8 @@
  paradigm: ADV
  gloss: here
  gloss_ru: сюда
+ trans_en: here
+ trans_ru: сюда
 
 -lexeme
  lex: tiji
@@ -413,6 +513,8 @@
  paradigm: ADJ_even
  gloss: this
  gloss_ru: это
+ trans_en: this
+ trans_ru: это
 
 
 
@@ -426,6 +528,8 @@
  paradigm: unchangeable
  gloss: where
  gloss_ru: где
+ trans_en: where
+ trans_ru: где
 
 -lexeme
  lex: xotəl'
@@ -434,6 +538,8 @@
  paradigm: unchangeable
  gloss: from.where
  gloss_ru: откуда
+ trans_en: from where
+ trans_ru: откуда
 
 -lexeme
  lex: xotal'
@@ -442,6 +548,8 @@
  paradigm: unchangeable
  gloss: to.where
  gloss_ru: куда
+ trans_en: to where
+ trans_ru: куда
 
 -lexeme
  lex: xottəl'
@@ -450,6 +558,8 @@
  paradigm: unchangeable
  gloss: from.somewhere
  gloss_ru: откуда.то
+ trans_en: from somewhere
+ trans_ru: откуда то
 
 -lexeme
  lex: xottal'
@@ -458,6 +568,8 @@
  paradigm: unchangeable
  gloss: to.somewhere
  gloss_ru: куда.то
+ trans_en: to somewhere
+ trans_ru: куда то
 
 -lexeme
  lex: xotjut
@@ -466,6 +578,8 @@
  paradigm: N_even
  gloss: who
  gloss_ru: кто
+ trans_en: who
+ trans_ru: кто
 
 -lexeme
  lex: manər
@@ -474,6 +588,8 @@
  paradigm: N_even
  gloss: what
  gloss_ru: что
+ trans_en: what
+ trans_ru: что
 
 -lexeme
  lex: manar
@@ -482,6 +598,8 @@
  paradigm: V_even
  gloss: do.what
  gloss_ru: делать.что
+ trans_en: do what
+ trans_ru: делать что
 
 -lexeme
  lex: manax
@@ -490,6 +608,8 @@
  paradigm: unchangeable
  gloss: how.much
  gloss_ru: сколько
+ trans_en: how much
+ trans_ru: сколько
 
 -lexeme
  lex: matər
@@ -498,6 +618,8 @@
  paradigm: N_even
  gloss: something
  gloss_ru: что.INDEF
+ trans_en: something
+ trans_ru: что INDEF
 
 -lexeme
  lex: matər
@@ -506,6 +628,8 @@
  paradigm: V_even
  gloss: do.something
  gloss_ru: делать.что.то
+ trans_en: do something
+ trans_ru: делать что то
 
 -lexeme
  lex: xōŋxa
@@ -514,6 +638,8 @@
  paradigm: N_even
  gloss: who
  gloss_ru: кто
+ trans_en: who
+ trans_ru: кто
 
 -lexeme
  lex: xumus
@@ -522,3 +648,5 @@
  paradigm: unchangeable
  gloss: how
  gloss_ru: как
+ trans_en: how
+ trans_ru: как
