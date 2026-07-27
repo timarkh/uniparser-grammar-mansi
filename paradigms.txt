@@ -905,9 +905,14 @@
  -flex: .mēn<.>//.amen<.>//.umēn<.>
   gramm: 1du
   gloss: POSS.1DU
- -flex: .w<.>//.uw<.>
+ -flex: .w<.>
   gramm: 1pl
   gloss: POSS.1PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .uw<.>
+  gramm: 1pl
+  gloss: POSS.1PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
  -flex: .n<.>
   gramm: 2sg
   gloss: POSS.2SG
