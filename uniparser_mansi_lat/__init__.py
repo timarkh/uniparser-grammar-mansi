@@ -150,11 +150,11 @@ class MansiAnalyzer(Analyzer):
         If format == 'json', the analyses are JSON objects (dictionaries).
         Perform CG3 disambiguation if disambiguate == True and CG3 is installed.
         """
-        # if disambiguate:
-        #     with as_file(files(__package__) / self.dirName / 'mansi_disambiguation.cg3') as cgFile:
-        #         cgFilePath = str(cgFile)
-        #         return super().analyze_words(words, format=format, disambiguate=True,
-        #                                      cgFile=cgFilePath, replacementsAllowed=replacementsAllowed)
+        if disambiguate:
+            with as_file(files(__package__) / self.dirName / 'mansi_disambiguation.cg3') as cgFile:
+                cgFilePath = str(cgFile)
+                return super().analyze_words(words, format=format, disambiguate=True,
+                                             cgFile=cgFilePath, replacementsAllowed=replacementsAllowed)
         # There is no disambiguation yet!
         return super().analyze_words(words, format=format, disambiguate=False, replacementsAllowed=replacementsAllowed)
 

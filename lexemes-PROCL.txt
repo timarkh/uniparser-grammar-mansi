@@ -169,7 +169,7 @@
  trans_ru: от
 
 -lexeme
- lex: ɕama=
+ lex: ɕama
  stem: ɕama.
  gramm: PREV
  paradigm: unchangeable
@@ -177,11 +177,3 @@
  gloss_ru: насмерть
  trans_en: to death
  trans_ru: насмерть
-
--lexeme
- lex: ɕama=
- stem: ɕama.
- gramm: PREV
- paradigm: unchangeable
- gloss: to.death
- gloss_ru: насмерть

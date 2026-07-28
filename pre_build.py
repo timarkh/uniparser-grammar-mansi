@@ -438,7 +438,12 @@ if __name__ == '__main__':
     ], format='xml'):
         print(wf)
 
+    print('Disambiguation:')
+    for wf in a.analyze_words('taw ta kit pālēn ta xujasiɣ'.split(), format='xml', disambiguate=True):
+        print(wf)
+
     # Test no-diacritics analyses
+    print('Missing diacritics:')
     a = MansiAnalyzer(mode='nopalatal')
     for wf in a.analyze_words([
         'ojka',
@@ -451,6 +456,7 @@ if __name__ == '__main__':
         'lēw'
     ], format='xml'):
         print(wf)
+
 
     # Test alignment with manual glosses
     testTuples = [

@@ -1,0 +1,30 @@
+DELIMITERS = "<SENT_BOUNDARY>";
+
+SET Proclitics = (procl) OR ("ōs"i);
+SET NotProclitics = (*) - Proclitics;
+LIST Poss = 1sg 2sg 3sg 1pl 2pl 3pl;
+LIST PossNot3sg = 1sg 2sg 1pl 2pl 3pl;
+SET NN = (N sg nom) - Poss;
+SET NomPoss = (N sg nom 1sg) OR (N sg nom 2sg) OR (N sg nom 3sg) OR (N sg nom 1pl) OR (N sg nom 2pl) OR (N sg nom 3pl);
+LIST NAdj = N ADJ;
+SET V = (V) OR (N vbz);
+SET VTr1 = (V tr) OR (V caus);
+SET VTr2 = VTr1 - (pass);
+SET VTr = VTr2 OR ("вераны") OR ("шуккыны") OR ("пырыны") OR ("вазьыны") OR ("оскыны");
+LIST BOS = (>>>);
+SET BOSPunct = (punct) | BOS;
+
+
+
+SECTION    # Preverbs and other proclitics
+REMOVE (procl)
+    IF (0 NotProclitics)
+       (NEGATE *1 V BARRIER NotProclitics);
+
+SECTION    # Verbs
+# Select finite analyses with the correct subject agreement
+SELECT (V npst 1.s du.s) IF (*-1 ("mēn"i) BARRIER V | BOSPunct)
+                            (0 (".*mēn"r))
+                            (NEGATE 0 (V npst pass));
+
+SELECT (V imp) IF (-1 ("ul"i));
