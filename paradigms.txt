@@ -1928,19 +1928,19 @@
   paradigm: V-agr-s
  
  -flex: .we|s<.>//.wē|s<.>//.awe|s<.>//.awē|s<.>//.uwe|s<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|əs<.>//.wē|əs<.>//.awe|əs<.>//.awē|əs<.>//.uwe|əs<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|as<.>//.wē|as<.>//.awe|as<.>//.awē|as<.>//.uwe|as<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|s//.wē|s//.awe|s//.awē|s//.uwe|s//.we|s//.wē|əs//.awe|əs//.awē|əs//.uwe|əs//.we|as//.wē|as//.awe|as//.awē|as//.uwe|as
-  gramm: past,pst,subjc,3.s,sg.s
+  gramm: pass,pst,subjc,3.s,sg.s
   gloss: PASS|PST.3SG
 
  -flex: .nuw<.>
@@ -2078,19 +2078,19 @@
   paradigm: V-agr-s
  
  -flex: .we|s<.>//.wē|s<.>//.awe|s<.>//.awē|s<.>//.uwe|s<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|əs<.>//.wē|əs<.>//.awe|əs<.>//.awē|əs<.>//.uwe|əs<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|as<.>//.wē|as<.>//.awe|as<.>//.awē|as<.>//.uwe|as<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|s//.wē|s//.awe|s//.awē|s//.uwe|s//.we|s//.wē|əs//.awe|əs//.awē|əs//.uwe|əs//.we|as//.wē|as//.awe|as//.awē|as//.uwe|as
-  gramm: past,pst,subjc,3.s,sg.s
+  gramm: pass,pst,subjc,3.s,sg.s
   gloss: PASS|PST.3SG
 
  -flex: .nuw<.>
@@ -2233,19 +2233,19 @@
   paradigm: V-agr-s
  
  -flex: .we|s<.>//.wē|s<.>//.awe|s<.>//.awē|s<.>//.uwe|s<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|əs<.>//.wē|əs<.>//.awe|əs<.>//.awē|əs<.>//.uwe|əs<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|as<.>//.wē|as<.>//.awe|as<.>//.awē|as<.>//.uwe|as<.>
-  gramm: past,pst
+  gramm: pass,pst
   gloss: PASS|PST
   paradigm: V-agr-s
  -flex: .we|s//.wē|s//.awe|s//.awē|s//.uwe|s//.we|s//.wē|əs//.awe|əs//.awē|əs//.uwe|əs//.we|as//.wē|as//.awe|as//.awē|as//.uwe|as
-  gramm: past,pst,subjc,3.s,sg.s
+  gramm: pass,pst,subjc,3.s,sg.s
   gloss: PASS|PST.3SG
 
  -flex: <0>.nuw<.>
