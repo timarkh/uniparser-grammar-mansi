@@ -10,7 +10,6 @@ LIST NAdj = N ADJ;
 SET V = (V) OR (N vbz);
 SET VTr1 = (V tr) OR (V caus);
 SET VTr2 = VTr1 - (pass);
-SET VTr = VTr2 OR ("вераны") OR ("шуккыны") OR ("пырыны") OR ("вазьыны") OR ("оскыны");
 LIST BOS = (>>>);
 SET BOSPunct = (punct) | BOS;
 
@@ -27,4 +26,13 @@ SELECT (V npst 1.s du.s) IF (*-1 ("mēn"i) BARRIER V | BOSPunct)
                             (0 (".*mēn"r))
                             (NEGATE 0 (V npst pass));
 
-SELECT (V imp) IF (-1 ("ul"i));
+SELECT (V imp) IF (-1 ("<ul>"i));
+SELECT (V imp) IF (-2 ("<ul>"i)) (-1 ("<=>"));
+
+# Participles
+SELECT (V ptcp) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
+
+SECTION    # Nouns
+SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
+
+SELECT (N pl nom) IF (0 (".*t"r)) AND (1 ("kīwər"));
