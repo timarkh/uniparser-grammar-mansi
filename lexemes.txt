@@ -581,7 +581,7 @@
 -lexeme
  lex: ariɣt
  stem: ariɣt.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: stay
  gloss_ru: остаться
@@ -891,7 +891,7 @@
 -lexeme
  lex: ēr
  stem: ēr.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: be.needed
  gloss_ru: нужно
@@ -907,6 +907,16 @@
  gloss_ru: песня
  trans_en: song
  trans_ru: песня
+
+-lexeme
+ lex: ērɣ
+ stem: ērɣ.
+ gramm: V
+ paradigm: V_odd
+ gloss: sing
+ gloss_ru: петь
+ trans_en: sing
+ trans_ru: петь
 
 -lexeme
  lex: ērt
@@ -951,7 +961,7 @@
 -lexeme
  lex: ētim
  stem: ētim.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: get.dark
  gloss_ru: темнеть
@@ -1001,7 +1011,7 @@
 -lexeme
  lex: is
  stem: is.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: warm.up
  gloss_ru: согреться
@@ -1011,7 +1021,7 @@
 -lexeme
  lex: īs
  stem: īs.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: land
  gloss_ru: приземлиться
@@ -1119,16 +1129,6 @@
  trans_ru: отец
 
 -lexeme
- lex: jaj
- stem: jaj.
- gramm: V
- paradigm: V_odd
- gloss: walk
- gloss_ru: идти
- trans_en: walk
- trans_ru: идти
-
--lexeme
  lex: jakt
  stem: jakt.
  gramm: V
@@ -1141,7 +1141,7 @@
 -lexeme
  lex: jal
  stem: jal.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: go.get
  gloss_ru: сходить
@@ -1161,7 +1161,7 @@
 -lexeme
  lex: jalt
  stem: jalt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: come.to.life
  gloss_ru: ожить
@@ -1261,7 +1261,7 @@
 -lexeme
  lex: jēmt
  stem: jēmt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: become
  gloss_ru: стать
@@ -1271,7 +1271,7 @@
 -lexeme
  lex: ji
  stem: ji.|jaj.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd_short
  gloss: walk
  gloss_ru: идти
@@ -1281,7 +1281,7 @@
 -lexeme
  lex: jīkw
  stem: jīkw.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: dance
  gloss_ru: танцевать
@@ -1371,7 +1371,7 @@
 -lexeme
  lex: jōm
  stem: jōm.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: step
  gloss_ru: шагать
@@ -1441,7 +1441,7 @@
 -lexeme
  lex: jos
  stem: jos.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: get.wet
  gloss_ru: мокнуть
@@ -1491,7 +1491,7 @@
 -lexeme
  lex: joxt
  stem: joxt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: come
  gloss_ru: прийти
@@ -1501,7 +1501,7 @@
 -lexeme
  lex: jōŋx
  stem: jōŋx.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: spin
  gloss_ru: кружиться
@@ -1701,7 +1701,7 @@
 -lexeme
  lex: kas
  stem: kas.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: compete
  gloss_ru: состязаться
@@ -1851,7 +1851,7 @@
 -lexeme
  lex: kēn'ɕaml
  stem: ken'ɕaml.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: awaken
  gloss_ru: пробуждаться
@@ -1921,7 +1921,7 @@
 -lexeme
  lex: kis
  stem: kis.//kisɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: whistle
  gloss_ru: свистеть
@@ -2141,7 +2141,7 @@
 -lexeme
  lex: kurɣ
  stem: kurɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: thunder
  gloss_ru: греметь
@@ -2191,7 +2191,7 @@
 -lexeme
  lex: kwāl
  stem: kwāl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: stand
  gloss_ru: встать
@@ -2251,7 +2251,7 @@
 -lexeme
  lex: lap
  stem: lap.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: take.off
  gloss_ru: взлететь
@@ -2381,7 +2381,7 @@
 -lexeme
  lex: lomɣ
  stem: lomɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: grumble
  gloss_ru: ворчать
@@ -2511,7 +2511,7 @@
 -lexeme
  lex: lujɣ
  stem: lujɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: chirp
  gloss_ru: щебетать
@@ -2691,7 +2691,7 @@
 -lexeme
  lex: l'ūl'
  stem: l'ūl'.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: stand
  gloss_ru: стоять
@@ -2721,7 +2721,7 @@
 -lexeme
  lex: l'ūn'ɕ
  stem: l'ūn'ɕ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: cry
  gloss_ru: плакать
@@ -2911,7 +2911,7 @@
 -lexeme
  lex: mat
  stem: mat.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: get.old
  gloss_ru: стареть
@@ -3021,7 +3021,7 @@
 -lexeme
  lex: min
  stem: min.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: set.off
  gloss_ru: пойти
@@ -3041,7 +3041,7 @@
 -lexeme
  lex: mirɣ
  stem: mirɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: make.noise
  gloss_ru: греметь
@@ -3091,7 +3091,7 @@
 -lexeme
  lex: mol'aml
  stem: mol'aml.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: hurry
  gloss_ru: торопиться
@@ -3251,7 +3251,7 @@
 -lexeme
  lex: muwal
  stem: muwal.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: start.laughing
  gloss_ru: засмеяться
@@ -3281,7 +3281,7 @@
 -lexeme
  lex: muwin't
  stem: muwin't.//mowin't.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: laugh
  gloss_ru: смеяться
@@ -3391,7 +3391,7 @@
 -lexeme
  lex: nāŋk
  stem: naŋk.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: be.seen
  gloss_ru: виднеться
@@ -3431,7 +3431,7 @@
 -lexeme
  lex: nēɣl
  stem: nēɣl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: appear
  gloss_ru: появиться
@@ -3491,7 +3491,7 @@
 -lexeme
  lex: nop
  stem: nop.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: drown
  gloss_ru: утонуть
@@ -3551,7 +3551,7 @@
 -lexeme
  lex: nox
  stem: nox.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: stiffen
  gloss_ru: окоченеть
@@ -3771,7 +3771,7 @@
 -lexeme
  lex: n'axt
  stem: n'axt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: sneeze
  gloss_ru: чихать
@@ -3821,7 +3821,7 @@
 -lexeme
  lex: n'oliɣt
  stem: n'oliɣt.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: lick
  gloss_ru: облизываться
@@ -3831,7 +3831,7 @@
 -lexeme
  lex: n'or
  stem: n'or.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: crawl
  gloss_ru: ползти
@@ -3851,7 +3851,7 @@
 -lexeme
  lex: n'ow
  stem: n'ow.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: move
  gloss_ru: двинуться
@@ -3881,7 +3881,7 @@
 -lexeme
  lex: n'ūns
  stem: n'ūns.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: stretch.out
  gloss_ru: вытянуться
@@ -3901,7 +3901,7 @@
 -lexeme
  lex: oj
  stem: oj.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: fall.asleep
  gloss_ru: заснуть
@@ -3911,7 +3911,7 @@
 -lexeme
  lex: oj
  stem: oj.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: run.away
  gloss_ru: убежать
@@ -3931,7 +3931,7 @@
 -lexeme
  lex: ōl
  stem: ōl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: be
  gloss_ru: быть
@@ -4091,7 +4091,7 @@
 -lexeme
  lex: ow
  stem: ow.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: flow
  gloss_ru: течь
@@ -4161,7 +4161,7 @@
 -lexeme
  lex: pājalt
  stem: pājalt.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: boil
  gloss_ru: закипеть
@@ -4290,8 +4290,8 @@
 
 -lexeme
  lex: pārɣ
- stem: parɣ.
- gramm: V
+ stem: pārɣ.
+ gramm: V,intr
  paradigm: V_odd
  gloss: snort
  gloss_ru: фыркнуть
@@ -4331,7 +4331,7 @@
 -lexeme
  lex: pas
  stem: pas.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: smell
  gloss_ru: пахнуть
@@ -4351,7 +4351,7 @@
 -lexeme
  lex: pasap
  stem: pasap.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: wear.out
  gloss_ru: износиться
@@ -4391,7 +4391,7 @@
 -lexeme
  lex: pat
  stem: pat.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: fall
  gloss_ru: падать
@@ -4421,7 +4421,7 @@
 -lexeme
  lex: pātər
  stem: pātər.|pātr.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd-syncop
  gloss: disappear
  gloss_ru: исчезать
@@ -4501,7 +4501,7 @@
 -lexeme
  lex: pēlaml
  stem: pelaml.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: burn
  gloss_ru: загореться
@@ -4741,7 +4741,7 @@
 -lexeme
  lex: pokmat
  stem: pokmat.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: crack
  gloss_ru: трескаться
@@ -4750,8 +4750,8 @@
 
 -lexeme
  lex: pōl'
- stem: pol'.
- gramm: V
+ stem: pōl'.
+ gramm: V,intr
  paradigm: V_odd
  gloss: freeze
  gloss_ru: замерзать
@@ -4821,7 +4821,7 @@
 -lexeme
  lex: porɣ
  stem: porɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: jump
  gloss_ru: прыгать
@@ -4831,7 +4831,7 @@
 -lexeme
  lex: poriɣm
  stem: poriɣm.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: jump
  gloss_ru: прыгнуть
@@ -4951,7 +4951,7 @@
 -lexeme
  lex: powar
  stem: powar.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: roll
  gloss_ru: катиться
@@ -5171,7 +5171,7 @@
 -lexeme
  lex: puwl
  stem: puwl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: bathe
  gloss_ru: купаться
@@ -5231,7 +5231,7 @@
 -lexeme
  lex: raɣat
  stem: raɣat.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: fall
  gloss_ru: упасть
@@ -5311,7 +5311,7 @@
 -lexeme
  lex: rot
  stem: rot.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: subside
  gloss_ru: стихнуть
@@ -5321,7 +5321,7 @@
 -lexeme
  lex: rōw
  stem: rōw.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: possible
  gloss_ru: можно
@@ -5411,7 +5411,7 @@
 -lexeme
  lex: saj
  stem: saj.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: rot
  gloss_ru: гнить
@@ -5471,7 +5471,7 @@
 -lexeme
  lex: sālɣ
  stem: sālɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: sparkle
  gloss_ru: засверкать
@@ -5711,7 +5711,7 @@
 -lexeme
  lex: sawal
  stem: sawal.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: suffer
  gloss_ru: мучиться
@@ -6011,7 +6011,7 @@
 -lexeme
  lex: sorumpat
  stem: sorumpat.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: die
  gloss_ru: умереть
@@ -6131,7 +6131,7 @@
 -lexeme
  lex: sūlin't
  stem: sūlin't.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: gallop
  gloss_ru: мчаться
@@ -6141,7 +6141,7 @@
 -lexeme
  lex: sūlt
  stem: sūlt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: jump
  gloss_ru: скакать
@@ -6161,7 +6161,7 @@
 -lexeme
  lex: sul'ɣ
  stem: sul'ɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: shimmer
  gloss_ru: переливаться
@@ -6181,7 +6181,7 @@
 -lexeme
  lex: suml
  stem: suml.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: sound
  gloss_ru: звучать
@@ -6401,7 +6401,7 @@
 -lexeme
  lex: tāl
  stem: tāl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: board
  gloss_ru: погрузиться
@@ -6561,7 +6561,7 @@
 -lexeme
  lex: tēl
  stem: tēl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: grow
  gloss_ru: расти
@@ -6621,7 +6621,7 @@
 -lexeme
  lex: tilaml
  stem: tilaml.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: take.off
  gloss_ru: взлететь
@@ -6661,7 +6661,7 @@
 -lexeme
  lex: tol
  stem: tol.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: melt
  gloss_ru: таять
@@ -6731,7 +6731,7 @@
 -lexeme
  lex: tōrɣ
  stem: tōrɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: shake
  gloss_ru: трястись
@@ -6751,7 +6751,7 @@
 -lexeme
  lex: tōs
  stem: tōs.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: dry
  gloss_ru: сохнуть
@@ -6791,7 +6791,7 @@
 -lexeme
  lex: tow
  stem: tow.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: row
  gloss_ru: грести
@@ -6811,7 +6811,7 @@
 -lexeme
  lex: tōwl
  stem: tōwl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: be.enough
  gloss_ru: быть.достаточным
@@ -7091,7 +7091,7 @@
 -lexeme
  lex: ūj
  stem: ūj.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: swim
  gloss_ru: плыть
@@ -7171,7 +7171,7 @@
 -lexeme
  lex: ūnl
  stem: ūnl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: sit
  gloss_ru: сидеть
@@ -7181,7 +7181,7 @@
 -lexeme
  lex: uns
  stem: uns.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: cross.over
  gloss_ru: переправиться
@@ -7191,7 +7191,7 @@
 -lexeme
  lex: ūnt
  stem: ūnt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: sit.down
  gloss_ru: сесть
@@ -7201,8 +7201,8 @@
 -lexeme
  lex: up
  stem: up.
- gramm: V
- paradigm: V_odd
+ gramm: N
+ paradigm: N_odd
  gloss: brother.in.law
  gloss_ru: деверь
  trans_en: brother in law
@@ -7271,7 +7271,7 @@
 -lexeme
  lex: ūs
  stem: us.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: perish
  gloss_ru: погибнуть
@@ -7311,7 +7311,7 @@
 -lexeme
  lex: ūsuwl
  stem: ūsuwl.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: step
  gloss_ru: шагнуть
@@ -7361,7 +7361,7 @@
 -lexeme
  lex: wāɣl
  stem: wāɣl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: go.down
  gloss_ru: спуститься
@@ -7391,7 +7391,7 @@
 -lexeme
  lex: wāntl
  stem: wāntl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: move
  gloss_ru: переехать
@@ -7501,7 +7501,7 @@
 -lexeme
  lex: wāŋk
  stem: wāŋk.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: crawl
  gloss_ru: ползти
@@ -7561,7 +7561,7 @@
 -lexeme
  lex: weɕēl'it
  stem: weɕēl'it.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: have.fun
  gloss_ru: веселиться
@@ -7661,7 +7661,7 @@
 -lexeme
  lex: wonsut
  stem: wonsut.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: flash
  gloss_ru: мелькнуть
@@ -7781,7 +7781,7 @@
 -lexeme
  lex: xājt
  stem: xājt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: run
  gloss_ru: бежать
@@ -7921,7 +7921,7 @@
 -lexeme
  lex: xariɣl
  stem: xariɣl.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: go.out
  gloss_ru: потухнуть
@@ -7941,7 +7941,7 @@
 -lexeme
  lex: xārst
  stem: xārst.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: crunch
  gloss_ru: хрустеть
@@ -7981,8 +7981,8 @@
 -lexeme
  lex: xas
  stem: xas.
- gramm: V
- paradigm: V_odd
+ gramm: N
+ paradigm: N_odd
  gloss: willow
  gloss_ru: тальник
  trans_en: willow
@@ -8031,7 +8031,7 @@
 -lexeme
  lex: xāŋx
  stem: xāŋx.|xāx.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd-n
  gloss: climb
  gloss_ru: залезть
@@ -8061,7 +8061,7 @@
 -lexeme
  lex: xōj
  stem: xōj.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: hit
  gloss_ru: попасть
@@ -8181,7 +8181,7 @@
 -lexeme
  lex: xort
  stem: xort.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: bark
  gloss_ru: лаять
@@ -8271,7 +8271,7 @@
 -lexeme
  lex: xōtəl
  stem: xōtəl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: dawn
  gloss_ru: рассветать
@@ -8291,7 +8291,7 @@
 -lexeme
  lex: xuj
  stem: xuj.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: lie
  gloss_ru: лежать
@@ -8321,7 +8321,7 @@
 -lexeme
  lex: xūl
  stem: xūl.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: spend.the.night
  gloss_ru: ночевать
@@ -8361,7 +8361,7 @@
 -lexeme
  lex: xul't
  stem: xul't.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: stay
  gloss_ru: остаться
@@ -8374,9 +8374,9 @@
  gramm: N
  paradigm: N_even
  gloss: swamp
- gloss_ru: зыбун
+ gloss_ru: болото
  trans_en: swamp
- trans_ru: зыбун
+ trans_ru: болото
 
 -lexeme
  lex: xul'um
@@ -8501,8 +8501,8 @@
 -lexeme
  lex: xus
  stem: xus.
- gramm: V
- paradigm: V_odd
+ gramm: NUM
+ paradigm: NUM_odd
  gloss: twenty
  gloss_ru: двадцать
  trans_en: twenty
@@ -8521,7 +8521,7 @@
 -lexeme
  lex: xūt
  stem: xūt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: bend
  gloss_ru: согнуться
@@ -8541,7 +8541,7 @@
 -lexeme
  lex: ɕāɣt
  stem: ɕāɣt.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: rejoice
  gloss_ru: радоваться
@@ -8751,7 +8751,7 @@
 -lexeme
  lex: ɕisɣ
  stem: ɕisɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: squeal
  gloss_ru: визжать
@@ -8771,7 +8771,7 @@
 -lexeme
  lex: ɕōpil
  stem: ɕōpil.
- gramm: V
+ gramm: V,intr
  paradigm: V_even
  gloss: agree
  gloss_ru: договориться
@@ -8807,26 +8807,6 @@
  gloss_ru: пороша
  trans_en: snowflake
  trans_ru: пороша
-
--lexeme
- lex: ɕorxil
- stem: ɕorxil.
- gramm: N
- paradigm: N_even
- gloss: notch
- gloss_ru: зарубка
- trans_en: notch
- trans_ru: зарубка
-
--lexeme
- lex: ɕorxil
- stem: ɕorxil.
- gramm: V
- paradigm: V_even
- gloss: notch
- gloss_ru: зарубка
- trans_en: notch
- trans_ru: зарубка
 
 -lexeme
  lex: ɕorxəl
@@ -8901,7 +8881,7 @@
 -lexeme
  lex: ɕun'
  stem: ɕun'.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: be.well
  gloss_ru: здравствовать
@@ -8911,7 +8891,7 @@
 -lexeme
  lex: ɕurɣ
  stem: ɕurɣ.
- gramm: V
+ gramm: V,intr
  paradigm: V_odd
  gloss: flow
  gloss_ru: течь

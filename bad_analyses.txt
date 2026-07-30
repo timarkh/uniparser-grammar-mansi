@@ -1,3 +1,6 @@
 ﻿[
-  {"gloss": ".*PTCP.*-(VBL?Z|PROP).*"}
+  {"gloss": ".*PTCP.*-(VBL?Z|PROP).*"},
+  {"wfGlossed": ".*-i-ɣ$", "gloss": ".*NPST-3DU$"},
+  {"wfGlossed": "^ēr-ɣ-.*", "gloss": "^be\\.needed-ASP.*"},
+  {"gramm": "V.*,intr(.(?!(\\btr,|cau)))*objc.*"}
 ]
