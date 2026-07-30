@@ -1639,6 +1639,16 @@
  trans_ru: злость
 
 -lexeme
+ lex: kantm
+ stem: kant&m.
+ gramm: V,vbz,vbz_m
+ paradigm: V_odd
+ gloss: anger&VBZ
+ gloss_ru: злость&VBZ
+ trans_en: be angry
+ trans_ru: злиться
+
+-lexeme
  lex: kapərt
  stem: kapərt.
  gramm: V
@@ -2699,6 +2709,16 @@
  trans_ru: стоять
 
 -lexeme
+ lex: l'ūl'ax
+ stem: l'ūl'ax
+ gramm: ADV
+ paradigm: ADV
+ gloss: standing
+ gloss_ru: стоя
+ trans_en: standing
+ trans_ru: стоя
+
+-lexeme
  lex: l'ūl'it
  stem: l'ūl'it.
  gramm: N
@@ -2877,6 +2897,16 @@
  gloss_ru: заужение
  trans_en: narrowing
  trans_ru: заужение
+
+-lexeme
+ lex: marl
+ stem: mar&l.
+ gramm: V,vbz,vbz_l
+ paradigm: V_odd
+ gloss: narrowing&VBZ
+ gloss_ru: заужение&VBZ
+ trans_en: squeeze
+ trans_ru: стеснять
 
 -lexeme
  lex: marawi
@@ -3207,6 +3237,16 @@
  gloss_ru: гость
  trans_en: guest
  trans_ru: гость
+
+-lexeme
+ lex: mūjl
+ stem: mūj&l.
+ gramm: V,vbz,vbz_l
+ paradigm: V_odd
+ gloss: guest&VBZ
+ gloss_ru: гость&VBZ
+ trans_en: come over
+ trans_ru: ходить в гости
 
 -lexeme
  lex: muli
@@ -3869,8 +3909,8 @@
  trans_ru: мясо
 
 -lexeme
- lex: n'oxəs
- stem: n'oxəs.|n'oxs.
+ lex: n'oxs
+ stem: n'oxs.//n'oxəs.|n'oxs.
  gramm: N
  paradigm: N_even-syncop
  gloss: sable
@@ -4947,6 +4987,16 @@
  gloss_ru: рассказ
  trans_en: story
  trans_ru: рассказ
+
+-lexeme
+ lex: potərt
+ stem: potər&t.
+ gramm: V,tr
+ paradigm: V_even
+ gloss: story&TR
+ gloss_ru: рассказ&TR
+ trans_en: speak
+ trans_ru: говорить
 
 -lexeme
  lex: powar
@@ -6119,6 +6169,16 @@
  trans_ru: звук
 
 -lexeme
+ lex: sujt
+ stem: suj&t.
+ gramm: V,tr
+ paradigm: V_odd
+ gloss: sound&TR
+ gloss_ru: звук&TR
+ trans_en: sound
+ trans_ru: звучать
+
+-lexeme
  lex: sūli
  stem: sūli.
  gramm: N
@@ -6769,16 +6829,6 @@
  trans_ru: нести
 
 -lexeme
- lex: tot
- stem: tot.
- gramm: X
- paradigm: unchangeable
- gloss: there
- gloss_ru: там
- trans_en: there
- trans_ru: там
-
--lexeme
  lex: tow
  stem: tow.
  gramm: N
@@ -6837,16 +6887,6 @@
  gloss_ru: крыло
  trans_en: wing
  trans_ru: крыло
-
--lexeme
- lex: tox
- stem: tox.//toxa.
- gramm: X
- paradigm: unchangeable
- gloss: so
- gloss_ru: так
- trans_en: so
- trans_ru: так
 
 -lexeme
  lex: toxr
@@ -7699,6 +7739,16 @@
  trans_ru: лес
 
 -lexeme
+ lex: wōraj
+ stem: wōr&aj.
+ gramm: V,vbz
+ paradigm: V_even
+ gloss: forest&VBZ
+ gloss_ru: лес&VBZ
+ trans_en: go to the forest, hunt
+ trans_ru: идти в лес, охотиться
+
+-lexeme
  lex: worat
  stem: worat.
  gramm: V
@@ -8374,9 +8424,9 @@
  gramm: N
  paradigm: N_even
  gloss: swamp
- gloss_ru: болото
+ gloss_ru: зыбун
  trans_en: swamp
- trans_ru: болото
+ trans_ru: зыбун
 
 -lexeme
  lex: xul'um

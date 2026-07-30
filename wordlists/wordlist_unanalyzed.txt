@@ -10,7 +10,6 @@ pōɕka
 tara
 ōn
 sar
-sujti
 tiɣl
 alelen
 aleln
@@ -35,7 +34,6 @@ kojanəl
 kuɕn
 kērsol
 lakw
-lakwsite
 malaɕlaxti
 mol
 nal
@@ -52,7 +50,6 @@ wāɣtal
 wōŋxup
 xapɣa
 xotal
-xotum
 xōttal
 ārɣum
 ēɕ
@@ -102,8 +99,6 @@ kwālapakēte
 kārtlaxtēw
 kērim
 kōnsəŋ
-lakwsawe
-lakwsijanəl
 lanenəl
 lawi
 lawn
@@ -126,7 +121,6 @@ mōtane
 mūwal
 ne
 nātawe
-nēmat
 nēmxotum
 ol
 oxsēn
@@ -136,7 +130,6 @@ paln
 paltum
 paltēn
 pinelen
-potərtēɣt
 pāliɣxarteln
 pērmtaxtame
 pērmtaxtas
@@ -145,7 +138,6 @@ rōtməs
 rōttumlawes
 s
 sampal
-sujtēɣt
 sus
 sūlintas
 tajapeln
@@ -156,6 +148,7 @@ takəɕ
 tjat
 tjatta
 totelen
+towmālitēn
 tulmax
 tum
 tuɕteln

@@ -33,7 +33,7 @@
 -paradigm: N_even
  -flex: .<.>
   gramm: 
-  paradigm: N2V_even
+  #paradigm: N2V_even
   paradigm: N2N_even
   paradigm: N2A_even
  -flex: .<.>
@@ -60,7 +60,7 @@
 -paradigm: N_even-syncop
  -flex: .<.>
   gramm: 
-  paradigm: N2V_even-syncop
+  #paradigm: N2V_even-syncop
   paradigm: N2N_even-syncop
   paradigm: N2A_even-syncop
  -flex: .<.>
@@ -87,7 +87,7 @@
 -paradigm: N_even-n
  -flex: .<.>
   gramm: 
-  paradigm: N2V_even-n
+  #paradigm: N2V_even-n
   paradigm: N2N_even-n
   paradigm: N2A_even-n
  -flex: .<.>
@@ -115,7 +115,7 @@
 -paradigm: N_xum
  -flex: <1>.<.>
   gramm: 
-  paradigm: N2V_even-n
+  #paradigm: N2V_even-n
   paradigm: N2N_even-n
   paradigm: N2A_even-n
   paradigm: N-poss
@@ -143,7 +143,7 @@
 -paradigm: N_odd
  -flex: .<.>
   gramm: 
-  paradigm: N2V_odd
+  #paradigm: N2V_odd
   paradigm: N2N_odd
   paradigm: N2A_odd
  -flex: .<.>
@@ -170,7 +170,7 @@
 -paradigm: N_odd-syncop
  -flex: .<.>
   gramm: 
-  paradigm: N2V_odd-syncop
+  #paradigm: N2V_odd-syncop
   paradigm: N2N_odd-syncop
   paradigm: N2A_odd-syncop
  -flex: .<.>
@@ -197,7 +197,7 @@
 -paradigm: N_odd-n
  -flex: .<.>
   gramm: 
-  paradigm: N2V_odd-n
+  #paradigm: N2V_odd-n
   paradigm: N2N_odd-n
   paradigm: N2A_odd-n
  -flex: .<.>
@@ -1577,8 +1577,13 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^N?PST\b.*
+  regex-next-gloss: ^(PASS\.)?N?PST\b.*
   paradigm: V_main_even
+ -flex: .s<.>
+  gramm: asp
+  gloss: ASP
+  regex-next-gloss: ^(PASS\.)?N?PST\b.*
+  paradigm: V_main_odd
  -flex: .iɣt<.>
   gramm: asp
   gloss: ASP
@@ -1739,8 +1744,13 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^N?PST\b.*
+  regex-next-gloss: ^(PASS\.)?N?PST\b.*
   paradigm: V_main_odd
+ -flex: .s<.>
+  gramm: asp
+  gloss: ASP
+  regex-next-gloss: ^(PASS\.)?N?PST\b.*
+  paradigm: V_main_even
  -flex: .iɣt<.>
   gramm: asp
   gloss: ASP

@@ -516,6 +516,35 @@
  trans_en: this
  trans_ru: это
 
+-lexeme
+ lex: tit
+ stem: tit.
+ gramm: PRON
+ paradigm: ADV
+ gloss: here
+ gloss_ru: здесь
+ trans_en: here
+ trans_ru: здесь
+
+-lexeme
+ lex: tot
+ stem: tot.
+ gramm: PRON
+ paradigm: ADV
+ gloss: there
+ gloss_ru: там
+ trans_en: there
+ trans_ru: там
+
+-lexeme
+ lex: tox
+ stem: tox.//toxa.
+ gramm: PRON
+ paradigm: ADV
+ gloss: so
+ gloss_ru: так
+ trans_en: so
+ trans_ru: так
 
 
 
@@ -559,7 +588,7 @@
  gloss: from.somewhere
  gloss_ru: откуда.то
  trans_en: from somewhere
- trans_ru: откуда то
+ trans_ru: откуда-то
 
 -lexeme
  lex: xottal'
@@ -569,7 +598,7 @@
  gloss: to.somewhere
  gloss_ru: куда.то
  trans_en: to somewhere
- trans_ru: куда то
+ trans_ru: куда-то
 
 -lexeme
  lex: xotjut
@@ -619,7 +648,27 @@
  gloss: something
  gloss_ru: что.INDEF
  trans_en: something
- trans_ru: что INDEF
+ trans_ru: что-то
+
+-lexeme
+ lex: nēmatər
+ stem: nēmatər.
+ gramm: PRON
+ paradigm: N_even
+ gloss: nothing
+ gloss_ru: ничего
+ trans_en: nothing
+ trans_ru: ничего
+
+-lexeme
+ lex: nēmat
+ stem: nēmat.
+ gramm: PRON
+ paradigm: ADV
+ gloss: nothing
+ gloss_ru: никакой
+ trans_en: nothing
+ trans_ru: никакой
 
 -lexeme
  lex: matər
@@ -629,7 +678,7 @@
  gloss: do.something
  gloss_ru: делать.что.то
  trans_en: do something
- trans_ru: делать что то
+ trans_ru: делать что-то
 
 -lexeme
  lex: xōŋxa
@@ -650,3 +699,13 @@
  gloss_ru: как
  trans_en: how
  trans_ru: как
+
+-lexeme
+ lex: xotum
+ stem: xotum.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: somehow
+ gloss_ru: как.нибудь
+ trans_en: somehow
+ trans_ru: как-нибудь
