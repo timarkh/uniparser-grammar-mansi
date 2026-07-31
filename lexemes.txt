@@ -1913,16 +1913,6 @@
  gramm: V
  paradigm: V_even
  gloss: hit
- gloss_ru: ударить
- trans_en: hit
- trans_ru: ударить
-
--lexeme
- lex: jūniɣt
- stem: jūniɣt.
- gramm: V
- paradigm: V_even
- gloss: hit
  gloss_ru: бить
  trans_en: hit
  trans_ru: бить
