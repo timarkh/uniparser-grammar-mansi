@@ -397,7 +397,7 @@ def generate_replacements():
     existingLex = [list(existingLex[i]) + [embeddingsEn[i], embeddingsRu[i]]
                    for i in range(len(existingLex))]
 
-    with open('lex_deleted.csv', 'r', encoding='utf-8') as fIn:
+    with open('lex_deleted_2026.07.14.csv', 'r', encoding='utf-8') as fIn:
         for line in fIn:
             if len(line) <= 5 or '\t' not in line:
                 continue

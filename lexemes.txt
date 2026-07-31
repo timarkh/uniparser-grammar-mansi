@@ -4894,8 +4894,8 @@
  paradigm: N_odd
  gloss: money
  gloss_ru: деньги
- trans_en: money
- trans_ru: деньги
+ trans_en: money, silver
+ trans_ru: деньги, серебро
 
 -lexeme
  lex: ōlt
@@ -5464,8 +5464,8 @@
  paradigm: V_odd
  gloss: fall
  gloss_ru: падать
- trans_en: fall
- trans_ru: падать
+ trans_en: fall; start
+ trans_ru: падать; начать
 
 -lexeme
  lex: pātamt
@@ -9304,8 +9304,8 @@
  paradigm: V_odd
  gloss: see
  gloss_ru: видеть
- trans_en: see
- trans_ru: видеть
+ trans_en: see, know
+ trans_ru: видеть, знать
 
 -lexeme
  lex: wāj
@@ -10806,6 +10806,16 @@
  gloss_ru: сахар
  trans_en: sugar
  trans_ru: сахар
+
+-lexeme
+ lex: ɕakər
+ stem: ɕakər.|ɕakr.
+ gramm: ADJ
+ paradigm: ADJ_even-syncop
+ gloss: greedy
+ gloss_ru: жадный
+ trans_en: greedy
+ trans_ru: жадный
 
 -lexeme
  lex: ɕakw

@@ -706,7 +706,7 @@
  gramm: PRON
  paradigm: N_even
  gloss: something
- gloss_ru: что.INDEF
+ gloss_ru: что.то
  trans_en: something
  trans_ru: что-то
 
