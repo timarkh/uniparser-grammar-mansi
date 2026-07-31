@@ -501,10 +501,40 @@
  stem: tiɣ.
  gramm: PRON
  paradigm: ADV
- gloss: here
+ gloss: to.here
  gloss_ru: сюда
- trans_en: here
+ trans_en: to here
  trans_ru: сюда
+
+-lexeme
+ lex: tiɣl'e
+ stem: tiɣ&l'e.
+ gramm: PRON
+ paradigm: ADV
+ gloss: to.here&DIR
+ gloss_ru: сюда&DIR
+ trans_en: to here
+ trans_ru: сюда
+
+-lexeme
+ lex: tuw
+ stem: tuw.
+ gramm: PRON
+ paradigm: ADV
+ gloss: to.there
+ gloss_ru: туда
+ trans_en: to there
+ trans_ru: туда
+
+-lexeme
+ lex: tuwl'e
+ stem: tuw&l'e.
+ gramm: PRON
+ paradigm: ADV
+ gloss: to.there&DIR
+ gloss_ru: туда&DIR
+ trans_en: to there
+ trans_ru: туда
 
 -lexeme
  lex: tiji
@@ -631,6 +661,26 @@
  trans_ru: делать что
 
 -lexeme
+ lex: manurəl
+ stem: manurəl.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: how
+ gloss_ru: как
+ trans_en: how
+ trans_ru: как
+
+-lexeme
+ lex: manriɣ
+ stem: manriɣ.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: why
+ gloss_ru: почему
+ trans_en: why
+ trans_ru: почему
+
+-lexeme
  lex: manax
  stem: manax.
  gramm: X
@@ -709,3 +759,13 @@
  gloss_ru: как.нибудь
  trans_en: somehow
  trans_ru: как-нибудь
+
+-lexeme
+ lex: xuml'e
+ stem: xuml'e.
+ gramm: PRON
+ paradigm: ADV
+ gloss: how
+ gloss_ru: как
+ trans_en: how
+ trans_ru: как

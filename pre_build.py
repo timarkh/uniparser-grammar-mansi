@@ -33,6 +33,9 @@ palatCons = {
     "n'": "n",
     "l'": "l"
 }
+rxLex = re.compile('-lexeme\n(?: [^\r\n]*\n)+', flags=re.DOTALL)
+rxLemma = re.compile(' lex: *([^\r\n]+)')
+
 
 def collect_lemmata(dirName):
     lemmata = ''
@@ -46,7 +49,7 @@ def collect_lemmata(dirName):
             f = open(os.path.join(dirName, fname), 'r', encoding='utf-8-sig')
             lexrules += f.read() + '\n'
             f.close()
-    lemmataSet = set(re.findall('-lexeme\n(?: [^\r\n]*\n)+', lemmata, flags=re.DOTALL))
+    lemmataSet = set(rxLex.findall(lemmata))
     lemmata = '\n'.join(sorted(list(lemmataSet)))
     return lemmata, lexrules
 
@@ -417,12 +420,21 @@ def generate_replacements():
             else:
                 fOut.write('\t'.join(lex[:3]) + '\t' + '\t'.join(['NONE', '', '']) + '\n')
 
+def join_lexemes(fnames):
+    lexemes = []
+    for fname in fnames:
+        with open(fname, 'r', encoding='utf-8') as fIn:
+            lexemes += rxLex.findall(fIn.read())
+    with open('lexemes-out.txt', 'w', encoding='utf-8') as fOut:
+        fOut.write('\n'.join(l for l in sorted(lexemes, key=lambda x: simplify(rxLemma.search(x).group(1)))))
+
 
 if __name__ == '__main__':
     # convert_lexemes('lexemes_update.json',
     #                 'lexemes_update_2026.07.14.txt',
     #                 'lexemes-mansi-lat.csv')
-    prepare_files()
+    join_lexemes(['lexemes.txt', 'lexemes_update_2026.07.14.txt'])
+    # prepare_files()
     parse_wordlists()
     generate_replacements()
 
