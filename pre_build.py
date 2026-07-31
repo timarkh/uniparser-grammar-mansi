@@ -433,10 +433,10 @@ if __name__ == '__main__':
     # convert_lexemes('lexemes_update.json',
     #                 'lexemes_update_2026.07.14.txt',
     #                 'lexemes-mansi-lat.csv')
-    join_lexemes(['lexemes.txt', 'lexemes_update_2026.07.14.txt'])
-    # prepare_files()
+    # join_lexemes(['lexemes.txt', 'lexemes_update_2026.07.14.txt'])
+    prepare_files()
     parse_wordlists()
-    generate_replacements()
+    # generate_replacements()
 
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')

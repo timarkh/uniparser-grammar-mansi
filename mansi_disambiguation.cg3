@@ -35,4 +35,4 @@ SELECT (V ptcp) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
 SECTION    # Nouns
 SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
 
-SELECT (N pl nom) IF (0 (".*t"r)) AND (1 ("kīwər"));
+SELECT (N pl nom) IF (0 (".*t"r)) (1 ("kīwər"));

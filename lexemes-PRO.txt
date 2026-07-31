@@ -112,7 +112,7 @@
 
 -lexeme
  lex: taw
- stem: takwi.
+ stem: takwi.//takkēt.//takkēte.
  gramm: PRON,pers,emph
  gloss: 3SG.EMPH
  gloss_ru: 3SG.EMPH
@@ -609,6 +609,16 @@
  gloss_ru: куда
  trans_en: to where
  trans_ru: куда
+
+-lexeme
+ lex: xott
+ stem: xott.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: somewhere
+ gloss_ru: где.то
+ trans_en: somewhere
+ trans_ru: где-то
 
 -lexeme
  lex: xottəl'
