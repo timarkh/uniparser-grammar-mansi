@@ -30,7 +30,8 @@ SELECT (V imp) IF (-1 ("<ul>"i));
 SELECT (V imp) IF (-2 ("<ul>"i)) (-1 ("<=>"));
 
 # Participles
-SELECT (V ptcp) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
+SELECT (V ptcp_npst) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
+REMOVE (V ptcp_npst 3sg) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
 
 SECTION    # Nouns
 SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
