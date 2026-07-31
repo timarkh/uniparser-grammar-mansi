@@ -178,7 +178,9 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
         para = para.replace(' ', '').split('/')
         lexOut = ('\n-lexeme\n lex: ' + lemma + '\n stem: ' + stem.strip().replace(' /', '/').replace(' |', '|')
                   + '\n gramm: ' + gramm + ''.join('\n paradigm: ' + p for p in sorted(para))
-                  + '\n gloss: ' + trans_en.strip() + '\n gloss_ru: ' + trans_ru.strip() + '\n')
+                  + '\n gloss: ' + trans_en.strip() + '\n gloss_ru: ' + trans_ru.strip()
+                  + '\n trans_en: ' + trans_en.strip().replace('.', ' ') + '\n trans_ru: ' + trans_ru.strip().replace('.', ' ')
+                  + '\n')
         lexemesOut.append([re.sub(',.*', '', gramm), lemma, lexOut])
     lexemesOutStr = ''.join(l[2] for l in sorted(lexemesOut, key=lambda x: sort_key(x[1])))
 
@@ -195,5 +197,5 @@ if __name__ == '__main__':
     # yaml2csv('udm_lexemes_N_persn.txt', 'add_lex/udm_lexemes_N_persn.csv')
     # yaml2csv('udm_lexemes_ADJ.txt', 'add_lex/udm_lexemes_ADJ.csv')
     # yaml2csv('udm_lexemes_unchangeable.txt', 'add_lex/udm_lexemes_unchangeable.csv')
-    csv2yaml('lexemes_update_2026.07.14.csv', 'lexemes_update_2026.07.14.txt', 'lex_deleted_2026.07.14.csv')
+    csv2yaml('lexemes-mansi-lat-2.csv', 'lexemes_update_2026.07.14.txt', 'lex_deleted_2026.07.14.csv')
     # csv2yaml('lexemes-mansi-lat.csv', 'lexemes.txt', 'lex_deleted.csv')

@@ -171,9 +171,39 @@
 -lexeme
  lex: ɕama
  stem: ɕama.
- gramm: PREV
+ gramm: PREV,procl
  paradigm: unchangeable
  gloss: to.death
  gloss_ru: насмерть
  trans_en: to death
  trans_ru: насмерть
+
+-lexeme
+ lex: nāluw
+ stem: nāluw.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: to.elements
+ gloss_ru: к.стихии
+ trans_en: to elements
+ trans_ru: к стихии
+
+-lexeme
+ lex: pāɣ
+ stem: pāɣ.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: from.elements
+ gloss_ru: от.стихии
+ trans_en: from elements
+ trans_ru: от стихии
+
+-lexeme
+ lex: pāliɣ
+ stem: pāliɣ.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: to.pieces
+ gloss_ru: вдребезги
+ trans_en: to pieces
+ trans_ru: вдребезги

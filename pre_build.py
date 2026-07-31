@@ -407,11 +407,11 @@ def generate_replacements():
     deletedLex = [list(deletedLex[i]) + [embeddingsEn[i], embeddingsRu[i]]
                   for i in range(len(deletedLex))]
 
-    with open('gloss_replacements.csv', 'w', encoding='utf-8'):
+    with open('gloss_replacements-2.csv', 'w', encoding='utf-8'):
         pass
     for lex in deletedLex:
         bestAlt = find_best_alt(lex, existingLex)
-        with open('gloss_replacements.csv', 'a', encoding='utf-8') as fOut:
+        with open('gloss_replacements-2.csv', 'a', encoding='utf-8') as fOut:
             if bestAlt is not None:
                 fOut.write('\t'.join(lex[:3]) + '\t' + '\t'.join(bestAlt[:3]) + '\n')
             else:
@@ -424,7 +424,7 @@ if __name__ == '__main__':
     #                 'lexemes-mansi-lat.csv')
     prepare_files()
     parse_wordlists()
-    # generate_replacements()
+    generate_replacements()
 
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')
