@@ -139,8 +139,6 @@ sampal
 sus
 sūlintas
 tajapeln
-tajapilum
-tajapilən
 takēməl
 takəɕ
 tjat
@@ -167,7 +165,6 @@ tāɣmatwes
 tāɣəltawe
 tēpɣālasət
 tɣajt
-wissiɣ
 wolkati
 wāreɣt
 wāreɣēn

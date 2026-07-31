@@ -459,6 +459,7 @@ if __name__ == '__main__':
     a = MansiAnalyzer(mode='nopalatal')
     for wf in a.analyze_words([
         'ojka',
+        'tajapeln',
         'minas',
         'minās',
         'mināsmen',

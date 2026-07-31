@@ -1010,186 +1010,230 @@
   gramm: 
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .tt<.>
   gramm: caus,caus_tt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .əlt<.>
   gramm: caus,caus_ylt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .upt<.>
   gramm: caus,caus_upt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .t<.>
   gramm: tr
   gloss: TR
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 
 -paradigm: V_even-syncop
  -flex: <0>.<.>
   gramm: 
   paradigm: V_asp_even_cons
+ -flex: <0>.<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+  paradigm: V_main_even
  -flex: .<.>
   gramm: 
   paradigm: V_asp_even_vowel
+ -flex: .<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[aeiouāēīōūə].*
+  paradigm: V_main_even
  -flex: <0>.tt<.>
   gramm: caus,caus_tt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .əlt<.>
   gramm: caus,caus_ylt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .upt<.>
   gramm: caus,caus_upt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.t<.>
   gramm: tr
   gloss: TR
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 
 -paradigm: V_even-n
  -flex: <0>.<.>
   gramm: 
   paradigm: V_asp_even_vowel
+ -flex: <0>.<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[aeiouāēīōūə].*
+  paradigm: V_main_even
  -flex: .<.>
   gramm: 
   paradigm: V_asp_even_cons
+ -flex: .<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+  paradigm: V_main_even
  -flex: .tt<.>
   gramm: caus,caus_tt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.əlt<.>
   gramm: caus,caus_ylt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.upt<.>
   gramm: caus,caus_upt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .t<.>
   gramm: tr
   gloss: TR
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 
 -paradigm: V_odd
@@ -1197,191 +1241,234 @@
   gramm: 
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .tt<.>
   gramm: caus,caus_tt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .əlt<.>
   gramm: caus,caus_ylt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .upt<.>
   gramm: caus,caus_upt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .t<.>
   gramm: tr
   gloss: TR
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
 
 -paradigm: V_odd-syncop
  -flex: <0>.<.>
   gramm: 
   paradigm: V_asp_odd_cons
+ -flex: <0>.<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+  paradigm: V_main_odd
  -flex: .<.>
   gramm: 
   paradigm: V_asp_odd_vowel
+ -flex: .<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[aeiouāēīōūə].*
+  paradigm: V_main_odd
  -flex: <0>.tt<.>
   gramm: caus,caus_tt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .əlt<.>
   gramm: caus,caus_ylt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .upt<.>
   gramm: caus,caus_upt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.t<.>
   gramm: tr
   gloss: TR
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
 
 -paradigm: V_odd-n
  -flex: <0>.<.>
   gramm: 
   paradigm: V_asp_odd_vowel
+ -flex: <0>.<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[aeiouāēīōūə].*
+  paradigm: V_main_odd
  -flex: .<.>
   gramm: 
   paradigm: V_asp_odd_cons
+ -flex: .<.>
+  gramm: 
+  regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
+  paradigm: V_main_odd
  -flex: .tt<.>
   gramm: caus,caus_tt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.əlt<.>
   gramm: caus,caus_ylt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.upt<.>
   gramm: caus,caus_upt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .t<.>
   gramm: tr
   gloss: TR
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: <0>.axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
 
 
 
 -paradigm: V_odd_short
  -flex: .<.>
   gramm: 
-  regex-next: .*[^<>.0-9,].*
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
  -flex: .<.>
@@ -1393,42 +1480,49 @@
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.t<.>
   gramm: tr
   gloss: TR
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <1>.xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
 
 
 -paradigm: V_voice2_even
@@ -1437,31 +1531,37 @@
   gloss: CAUS
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 
 -paradigm: V_voice2_odd
@@ -1470,31 +1570,37 @@
   gloss: CAUS
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .lt<.>
   gramm: caus,caus_lt
   gloss: CAUS
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .pt<.>
   gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .xat<.>
   gramm: refl,refl_xat
   gloss: REFL
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
+  paradigm: V_main_even
 
 
 
