@@ -179,6 +179,16 @@
  trans_ru: насмерть
 
 -lexeme
+ lex: nālwal'
+ stem: nālwal'.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: to.elements
+ gloss_ru: к.стихии
+ trans_en: to elements
+ trans_ru: к стихии
+
+-lexeme
  lex: nāluw
  stem: nāluw.
  gramm: PREV,procl

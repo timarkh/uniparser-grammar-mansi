@@ -152,7 +152,7 @@ def parse_wordlists():
 
 rxVowels = re.compile('[aāeēiīoōuūə]')
 # rxLastVowel = re.compile('([aāeēiīoōuūə])([^aāeēiīoōuūə]*)$')
-rxLastVowel = re.compile('(ə)([^aāeēiīoōuūə]+)$')
+rxLastVowel = re.compile('(ə)([^aāeēiīoōuūə])$')
 vowelRepl = {
     # 'a': '',
     # 'ā': 'a',
@@ -190,22 +190,38 @@ def sort_key(s):
 def make_stem(lex, pos):
     stemVars = [lex]
     nVowels = len(rxVowels.findall(lex))
-    if nVowels % 2 == 0:
+    if nVowels % 2 == 0 and pos in ('ADJ', 'N', 'V'):
         stemVars.append(rxLastVowel.sub(lambda m: vowelRepl[m.group(1)] + m.group(2), lex))
     return '|'.join(var + '.' for var in sorted(set(stemVars), key=lambda x: (-len(x), x)))
 
 
-def make_para(lex, pos):
-    if pos == 'unknown':
-        pos = 'unchangeable_'
+def make_para(lex, pos, stem=''):
+    para = pos
+    if not stem:
+        stem = lex + '.'
+    if para == 'unknown':
+        para = 'unchangeable_'
     else:
-        pos += '_'
+        para += '_'
     nVowels = len(rxVowels.findall(lex))
     if nVowels % 2 == 0:
-        pos += 'even'
+        para += 'even'
     else:
-        pos += 'odd'
-    return pos
+        para += 'odd'
+    if para.startswith('ADV'):
+        para = 'ADV'
+    elif len(para) <= 0 or re.search('^(N|V|ADJ|NUM|ADV|POSTP)', para) is None:
+        para = 'unchangeable'
+    elif '|' in stem:
+        if re.search('^\\w\\w\\.\\|\\w\\w\\w\\.', stem) is not None:
+            para = 'V_odd_short'
+        elif re.search('^([\\w\']+)[aeiouāēīōūə]([^aeiouāēīōūə]*)\\|\\1\\2', stem) is not None:
+            para += '-syncop'
+        elif re.search('^([\\w\']+)[nŋ]\'?([^aeiouāēīōūə]+)\\|\\1\\2', stem) is not None:
+            para += '-n'
+        elif stem == 'xum.|xumi.':
+            para = 'N_xum'
+    return para
 
 
 def make_lexeme(lemma, glossRu, glossEn, pos):

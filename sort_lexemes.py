@@ -55,7 +55,9 @@ def split_fields(lex):
     paradigm = ' / '.join(re.findall(' paradigm: *([^\r\n]*?) *\n', lex, flags=re.DOTALL))
     gloss_ru = ' / '.join(re.findall(' gloss_ru: *([^\r\n]*?) *\n', lex, flags=re.DOTALL))
     gloss = ' / '.join(re.findall(' gloss: *([^\r\n]*?) *\n', lex, flags=re.DOTALL))
-    return lemma, pos, grdic, stem, paradigm, gloss_ru, gloss
+    trans_ru = ' / '.join(re.findall(' trans_ru: *([^\r\n]*?) *\n', lex, flags=re.DOTALL))
+    trans_en = ' / '.join(re.findall(' trans_en: *([^\r\n]*?) *\n', lex, flags=re.DOTALL))
+    return lemma, pos, grdic, stem, paradigm, gloss_ru, gloss, trans_ru, trans_en
 
 
 def load_tabulate_lexemes(fnameDict):
@@ -77,17 +79,54 @@ def load_tabulate_lexemes(fnameDict):
     lexNew = set()
     for lemma, pos in curDict:
         for lexeme in curDict[(lemma, pos)]:
-            lemma, pos, grdic, stem, paradigm, gloss_ru, gloss = split_fields(lexeme)
+            lemma, pos, grdic, stem, paradigm, gloss_ru, gloss, trans_ru, trans_en = split_fields(lexeme)
             if lexeme in lexNew:
                 print('Duplicate', lexeme)
             else:
-                table.append([lemma, pos, grdic, stem, paradigm, gloss_ru, gloss, ''])
+                table.append([lemma, pos, grdic, stem, paradigm, gloss_ru, gloss, trans_ru, trans_en, ''])
                 lexNew.add(lexeme)
     return lexNew, table
 
 
-def yaml2csv(fnameYaml, fnameCsv, fnameExistingCsv=''):
+def yaml2csv(fnameYaml, fnameCsv, fnameExistingCsv='', fnameExternalDictCsv=''):
     lex, table = load_tabulate_lexemes(fnameYaml)
+    tableAdd = []
+    if fnameExternalDictCsv:
+        with open(fnameExternalDictCsv, 'r', encoding='utf-8') as fIn:
+            for line in fIn:
+                if len(line) < 5 or '\t' not in line:
+                    continue
+                tableAdd.append(list(line.strip('\n').split('\t')) + ['L'])
+                if any((l[0] == tableAdd[-1][0]
+                        or l[0] == tableAdd[-1][0][0] + tableAdd[-1][0][1:].replace('ə', 'i')
+                        or l[0] == tableAdd[-1][0][0] + tableAdd[-1][0][1:].replace('j', 'ɣ')
+                        or l[0] == tableAdd[-1][0][0] + tableAdd[-1][0][1:].replace('j', 'ɣ').replace('ə', 'i'))
+                       and re.sub(',.*', '', l[1]) == tableAdd[-1][1]
+                       and l[5] == tableAdd[-1][5]
+                       for l in table):
+                    del tableAdd[-1]
+                    continue
+                if any(l[0] == tableAdd[-1][0]
+                       or l[0] == tableAdd[-1][0][0] + tableAdd[-1][0][1:].replace('ə', 'i')
+                       or l[0] == tableAdd[-1][0][0] + tableAdd[-1][0][1:].replace('j', 'ɣ')
+                       or l[0] == tableAdd[-1][0][0] + tableAdd[-1][0][1:].replace('j', 'ɣ').replace('ə', 'i')
+                       for l in table):
+                    tableAdd[-1][-1] = 'x'
+                elif (tableAdd[-1][1] == 'ADJ' and tableAdd[-1][0].endswith('əŋ')
+                      and any(l[0] == tableAdd[-1][0][:-2]
+                       or l[0] == tableAdd[-1][0][:-2].replace('ə', 'i')
+                       or l[0] == tableAdd[-1][0][:-2].replace('j', 'ɣ')
+                       or l[0] == tableAdd[-1][0][:-2].replace('j', 'ɣ').replace('ə', 'i')
+                       for l in table)):
+                    tableAdd[-1][-1] = 'x'
+                elif (tableAdd[-1][1] == 'ADJ' and tableAdd[-1][0].endswith('ŋ')
+                      and any(l[0] == tableAdd[-1][0][:-1]
+                       or l[0] == tableAdd[-1][0][:-1].replace('ə', 'i')
+                       or l[0] == tableAdd[-1][0][:-1].replace('j', 'ɣ')
+                       or l[0] == tableAdd[-1][0][:-1].replace('j', 'ɣ').replace('ə', 'i')
+                       for l in table)):
+                    tableAdd[-1][-1] = 'x'
+    table += tableAdd
     wfFreqs = {}
     lemmaFreqs = {}
     rxLemma = re.compile('\\bl(?:ex)?="([^\r\n"<>]+)"')
@@ -124,8 +163,8 @@ def yaml2csv(fnameYaml, fnameCsv, fnameExistingCsv=''):
     # Sort by POS, then by frequency, then by lemma
     with open(fnameCsv, 'w', encoding='utf-8') as fOut:
         fOut.write('\n'.join('\t'.join(str(field) for field in line)
-                             for line in table))
-                             # for line in sorted(table, key=lambda l: (l[1], -l[-1], l[0]))))
+                             # for line in table))
+                             for line in sorted(table, key=lambda l: (sort_key(l[0]), l))))
 
 def clean(s):
     for c in badChars:
@@ -145,14 +184,14 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
     for lex in sorted(l.strip('\r\n') for l in lexemes if len(l) > 5 and '\t' in l):
         lex = clean(lex)
         lex += '\t' * (7 - lex.count('\t'))
-        lemma, pos, stem, para, trans_ru, trans_en, remove, rest = lex.split('\t', 8)
+        lemma, pos, stem, para, gloss_ru, gloss_en, trans_ru, trans_en, remove, rest = lex.split('\t', 8)
         if len(remove.strip()) > 0 or len(lemma) <= 0:
             lexDel.append(lex)
             continue
         if 'PN' not in pos and re.search('\\b(topn|famn|persn|patrn)\\b', pos) is not None:
             pos += ',PN'
         if 'PN' not in pos and (lemma[0].lower() != lemma[0]
-                                or (len(trans_en) > 0 and trans_en[0].lower() != trans_en[0] and trans_en.upper() != trans_en)):
+                                or (len(gloss_en) > 0 and gloss_en[0].lower() != gloss_en[0] and gloss_en.upper() != gloss_en)):
             pos += ',PN'
         if 'anim' not in pos and re.search('\\b(hum)\\b', pos) is not None:
             pos += ',anim'
@@ -164,21 +203,25 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
             para = 'ADV'
         elif len(para) <= 0 or re.search('^(N|V|ADJ|NUM|ADV|POSTP)', para) is None:
             para = 'unchangeable'
-        elif '|' in stem:
-            if re.search('^\\w\\w\\.\\|\\w\\w\\w\\.', stem) is not None:
-                para = 'V_odd_short'
-            elif re.search('^([\\w\']+)[aeiouāēīōūə]([^aeiouāēīōūə]*)\\|\\1\\2', stem) is not None:
-                para += '-syncop'
-            elif re.search('^([\\w\']+)[nŋ]\'?([^aeiouāēīōūə]+)\\|\\1\\2', stem) is not None:
-                para += '-n'
-            elif stem == 'xum.|xumi.':
-                para = 'N_xum'
-            else:
-                print(stem, para)
+        # elif '|' in stem:
+        #     if re.search('^\\w\\w\\.\\|\\w\\w\\w\\.', stem) is not None:
+        #         para = 'V_odd_short'
+        #     elif re.search('^([\\w\']+)[aeiouāēīōūə]([^aeiouāēīōūə]*)\\|\\1\\2', stem) is not None:
+        #         para += '-syncop'
+        #     elif re.search('^([\\w\']+)[nŋ]\'?([^aeiouāēīōūə]+)\\|\\1\\2', stem) is not None:
+        #         para += '-n'
+        #     elif stem == 'xum.|xumi.':
+        #         para = 'N_xum'
+        #     else:
+        #         print(stem, para)
         para = para.replace(' ', '').split('/')
+        if not trans_en:
+            trans_en = gloss_en.replace('.', ' ')
+        if not trans_ru:
+            trans_ru = gloss_ru.replace('.', ' ')
         lexOut = ('\n-lexeme\n lex: ' + lemma + '\n stem: ' + stem.strip().replace(' /', '/').replace(' |', '|')
                   + '\n gramm: ' + gramm + ''.join('\n paradigm: ' + p for p in sorted(para))
-                  + '\n gloss: ' + trans_en.strip() + '\n gloss_ru: ' + trans_ru.strip()
+                  + '\n gloss: ' + gloss_en.strip() + '\n gloss_ru: ' + gloss_ru.strip()
                   + '\n trans_en: ' + trans_en.strip().replace('.', ' ') + '\n trans_ru: ' + trans_ru.strip().replace('.', ' ')
                   + '\n')
         lexemesOut.append([re.sub(',.*', '', gramm), lemma, lexOut])
@@ -191,11 +234,11 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
 
 
 if __name__ == '__main__':
-    # yaml2csv('lexemes.txt', 'lexemes.csv')
+    yaml2csv('lexemes.txt', 'lexemes_update_lozva.csv', fnameExternalDictCsv='add_lex/lozva_dict.csv')
     # yaml2csv('lexemes_update_2026.07.14.txt', 'lexemes_update_2026.07.14.csv')
     # yaml2csv('udm_lexemes_V.txt', 'add_lex/udm_lexemes_V.csv')
     # yaml2csv('udm_lexemes_N_persn.txt', 'add_lex/udm_lexemes_N_persn.csv')
     # yaml2csv('udm_lexemes_ADJ.txt', 'add_lex/udm_lexemes_ADJ.csv')
     # yaml2csv('udm_lexemes_unchangeable.txt', 'add_lex/udm_lexemes_unchangeable.csv')
-    csv2yaml('lexemes-mansi-lat-2.csv', 'lexemes_update_2026.07.14.txt', 'lex_deleted_2026.07.14.csv')
+    # csv2yaml('lexemes-mansi-lat-2.csv', 'lexemes_update_2026.07.14.txt', 'lex_deleted_2026.07.14.csv')
     # csv2yaml('lexemes-mansi-lat.csv', 'lexemes.txt', 'lex_deleted.csv')

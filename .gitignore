@@ -14,7 +14,6 @@ uniparser_mansi_lat/*/lex_rules.txt
 uniparser_mansi_lat/*/char_equiv.txt
 uniparser_mansi_lat/*/gloss_replacements.csv
 uniparser_mansi_lat/*/*.cg3
-add_lex/
 wordlist_nodia.csv
 wordlist_analyzed_nodia.txt
 wordlist_unanalyzed_nodia.txt
