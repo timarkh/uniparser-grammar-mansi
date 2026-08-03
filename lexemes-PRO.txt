@@ -779,3 +779,43 @@
  gloss_ru: как
  trans_en: how
  trans_ru: как
+
+-lexeme
+ lex: mansāwit
+ stem: mansāwit.
+ gramm: PRON
+ paradigm: ADV
+ gloss: how.much
+ gloss_ru: сколько
+ trans_en: how much (quantity, volume)
+ trans_ru: сколько (количество, объём)
+
+-lexeme
+ lex: manxurip
+ stem: manxurip.
+ gramm: PRON
+ paradigm: ADJ_odd
+ gloss: what.kind
+ gloss_ru: какой
+ trans_en: what kind
+ trans_ru: какой
+
+-lexeme
+ lex: matsirmat
+ stem: matsirmat.
+ gramm: PRON
+ paradigm: ADV
+ gloss: some.sort
+ gloss_ru: какой.то
+ trans_en: some sort of
+ trans_ru: какой-то
+
+-lexeme
+ lex: matxalt
+ stem: matxalt.
+ gramm: PRON
+ paradigm: ADV
+ gloss: someday
+ gloss_ru: когда.нибудь
+ trans_en: someday
+ trans_ru: когда-нибудь

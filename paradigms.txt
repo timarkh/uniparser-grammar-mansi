@@ -2681,7 +2681,7 @@
   gramm: emph,nom
   gloss: EMPH
   paradigm: PRON_pers_emph
- -flex: .ki|na<.>
+ -flex: .ki|nā<.>
   gramm: emph,obl
   gloss: EMPH|OBL
   paradigm: PRON_pers_emph
