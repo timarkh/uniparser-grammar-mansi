@@ -1683,12 +1683,12 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^(PASS\.)?N?PST\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR)\b.*
   paradigm: V_main_even
  -flex: .s<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^(PASS\.)?N?PST\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR)\b.*
   paradigm: V_main_odd
  -flex: .iɣt<.>
   gramm: asp
@@ -1850,12 +1850,12 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^(PASS\.)?N?PST\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR)\b.*
   paradigm: V_main_odd
  -flex: .s<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^(PASS\.)?N?PST\b.*
+  regex-next-gloss: ((PASS\.)?N?PST|PTCP|CVB|MIR)\b.*
   paradigm: V_main_even
  -flex: .iɣt<.>
   gramm: asp

@@ -2401,7 +2401,7 @@
 -lexeme
  lex: jīkw
  stem: jīkw.
- gramm: V,intr
+ gramm: V
  paradigm: V_odd
  gloss: dance
  gloss_ru: танцевать
@@ -6759,6 +6759,16 @@
  trans_ru: крохаль (вид утки)
 
 -lexeme
+ lex: n'ālək
+ stem: n'ālək.
+ gramm: N
+ paradigm: N_odd
+ gloss: herring
+ gloss_ru: сельдь
+ trans_en: herring
+ trans_ru: сельдь
+
+-lexeme
  lex: n'āl'
  stem: n'āl'.
  gramm: N
@@ -8151,7 +8161,7 @@
 -lexeme
  lex: pat
  stem: pat.
- gramm: V,intr
+ gramm: V
  paradigm: V_odd
  gloss: fall
  gloss_ru: падать
@@ -9350,7 +9360,7 @@
 
 -lexeme
  lex: pupiɣ
- stem: pupiɣ.
+ stem: pupiɣ.//pupɣ.
  gramm: N
  paradigm: N_even
  gloss: spirit
