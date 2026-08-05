@@ -470,6 +470,11 @@ if __name__ == '__main__':
     for wf in a.analyze_words('taw ta kit pālēn ta xujasiɣ'.split(), format='xml', disambiguate=True):
         print(wf)
 
+    a.alphabet = 'cyr'
+    for wf in a.analyze_words('Тōрум лāтыӈ тотнэхум Исая такви нэ̄пакēт тох лāвыс Мир ōлнэ мāн Наӈ ёхтынэн э̄лы пāлт ангелум кēтэгум'.split(),
+                              format='xml'):
+        print(wf)
+
     # Test no-diacritics analyses
     print('Missing diacritics:')
     a = MansiAnalyzer(mode='nopalatal')

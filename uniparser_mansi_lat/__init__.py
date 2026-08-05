@@ -3,8 +3,11 @@ try:
 except ImportError:
     from importlib_resources import files, as_file
 from uniparser_morph import Analyzer
+from uniparser_morph.wordform import Wordform
+from .translit_mansi_lat import mansi_translit_cyr2lat
 import re
 import copy
+from itertools import combinations
 
 simplifyChars = {
         'ā': 'a',
@@ -39,6 +42,12 @@ oversimplifyChars.update({
 rxGloss = re.compile('[-=<>]|[^-=<>]+')
 rxStemGloss = re.compile('\\b[^-=<>]*[a-zа-яё][^-=<>]*\\b')
 rxHyphens = re.compile('[\\-<>]+')
+rxYI = re.compile("(?<!')ə|'?i|.")
+iySwap = {
+    "'i": "'ə",
+    "i": "ə",
+    "ə": "i"
+}
 
 
 def simplify(s, over=False):
@@ -76,6 +85,26 @@ def simplify_gloss(s):
     return glossNew
 
 
+def iy_vars(s):
+    """
+    Return all variants of the string with one or more I/Y swapped.
+    """
+    phonemes = rxYI.findall(s)
+    positions = [i for i, c in enumerate(phonemes) if c in iySwap]
+    variants = set()
+    for r in range(1, len(positions) + 1):
+        for changed in combinations(positions, r):
+            changed = set(changed)
+            var = ''
+            for i, c in enumerate(phonemes):
+                if i in changed:
+                    var += iySwap[c]
+                else:
+                    var += c
+            variants.add(var)
+    return variants
+
+
 class MansiAnalyzer(Analyzer):
     def __init__(self, mode='strict', verbose_grammar=False):
         """
@@ -90,6 +119,7 @@ class MansiAnalyzer(Analyzer):
         if mode not in ('strict', 'nodiacritics', 'nopalatal'):
             return
         self.dirName = 'data_' + mode
+        self.alphabet = 'lat'
 
         # Equivalents of glosses that have been removed
         self.eqEn = {}
@@ -155,8 +185,38 @@ class MansiAnalyzer(Analyzer):
                 cgFilePath = str(cgFile)
                 return super().analyze_words(words, format=format, disambiguate=True,
                                              cgFile=cgFilePath, replacementsAllowed=replacementsAllowed)
-        # There is no disambiguation yet!
         return super().analyze_words(words, format=format, disambiguate=False, replacementsAllowed=replacementsAllowed)
+
+    def __analyze_word__(self, word, replacementsAllowed=0):
+        """
+        Analyze a single word. Return either a list of its analyses
+        or a list with a single Wordform object that has only the wf
+        property filled. Assume the parser has already been initialized.
+        """
+        if self.alphabet == 'lat':
+            return super().__analyze_word__(word, replacementsAllowed=replacementsAllowed)
+
+        # For Cyrillic alphabet, there may be several transliteration options, try them all
+        wordTrans = mansi_translit_cyr2lat(word)
+        words = [wordTrans] + [var for var in sorted(iy_vars(wordTrans))]
+        self.g.COMPLEX_WF_AS_BAGS = self.flattenSubwords
+        analyses = []
+        for var in words:
+            # print(var)
+            analyses += self.m.parse(var.lower(), replacementsAllowed=replacementsAllowed)
+        if len(analyses) <= 0:
+            analyses = [Wordform(self.g, wf=word)]
+        else:
+            for ana in analyses:
+                ana.wf = word  # Reverse lowering if needed.
+        if format == 'xml':
+            analyses = '<w>' + ''.join(ana.to_xml(glossing=self.glossing)
+                                       for ana in analyses) + \
+                       html.escape(word) + '</w>'
+        if format == 'json':
+            analyses = [ana.to_json() for ana in analyses]
+        return analyses
+
 
     def analyze_word_hint(self, word, parts, glossRu, glossEn):
         """
