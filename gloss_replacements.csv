@@ -37,7 +37,7 @@ apɣ	grandson	внук	apiɣ	grandson	внук
 ar	smooth	гладкий	NONE		
 arit	remain.superfluous	остаться.лишним	ariɣt	stay	остаться
 art	way	способ	ārt	way	способ
-as	hole	отверстие	as	hole	дырка
+as	hole	дырка	as	hole	отверстие
 ast	finish	кончить	āst	finish	закончить
 at	gather	собирать	at	gather	собирать
 at'im		NEG.EX	āt'im	NEG.EX	NEG.EX
@@ -206,8 +206,8 @@ kiw	stone	камень	NONE
 kiwer	insides	нутро	kīwər	inside	внутренность
 kol		Дом	kol	house	дом
 kon'ar	unfortunate	несчастный	kūn'ar	poor	несчастный
-kona	outside	наружу	kon	outside	cнаружи
-kona	outside	снаружи	kon	outside	cнаружи
+kona	outside	наружу	kon	outside	наружу
+kona	outside	снаружи	kon	outside	наружу
 kort		Корт	NONE		
 kos	at.least	хоть	kis	hoop	обруч
 kos	claw	коготь	kons	claw	коготь
@@ -913,10 +913,10 @@ xoj	bump.into	удариться	xōj	hit	попасть
 xoli	morning	утренний	xol	morning.frost	заморозки
 xolit	tomorrow's	завтрашний	xolit	tomorrow	завтра
 xolitan	tomorrow	завтра	xolit	tomorrow	завтра
-xomi	upside.down	навзничь	xomi	face.down	ничком
+xomi	upside.down	навзничь	xomi	face.up	ничком
 xon		царь[LAT]	xōn	tsar	царь
 xon	tsar	царь	xōn	tsar	царь
-xoni	upside.down	навзничь	xomi	face.down	ничком
+xoni	upside.down	навзничь	xomi	face.up	ничком
 xont	search	искать	xōnt	find	найти
 xopi	outer.protrusion	наружний.выступ.кисти	NONE		
 xopt	bull	бык	NONE		
@@ -970,7 +970,7 @@ xāx	climb	лезть	xāŋx	climb	залезть
 xāŋxt	drive	загнать	NONE		
 xōj	touch	касаться	xōj	hit	попасть
 xōl	morning	утро	xol	morning.frost	заморозки
-xōmi	face.down	ничком	xomi	face.down	ничком
+xōmi	face.down	ничком	xomi	face.up	ничком
 xōməl	eccentric	чудак	xoməl	weirdo	чудак
 xōn		Царь	xōn	tsar	царь
 xōn	king	король	xōn	tsar	царь
@@ -984,7 +984,7 @@ xūrum		Три	xūrum	three	три
 xəl	dig	копать	xil	dig	копать
 āni	dish	блюдо	āni	cup	чашка
 āni	plate	тарелка	āni	cup	чашка
-āraɕ	bonfire	костёр	āraɕ	hearth	очаг
+āraɕ	bonfire	костёр	āraɕ	bonfire	костер
 āse	father	отец	āɕ	father	отец
 āstal	finish	заканчивать	āst	finish	закончить
 āt'i		EX	āt'i	NEG.PRED	NEG.PRED

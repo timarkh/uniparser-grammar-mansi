@@ -119,6 +119,16 @@
  trans_ru: внутрь
 
 -lexeme
+ lex: kona-juw
+ stem: kona&juw.//kona&-juw.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: outside&inside
+ gloss_ru: наружу&внутрь
+ trans_en: outside and back home
+ trans_ru: наружу и обратно
+
+-lexeme
  lex: kon
  stem: kon.//kona.
  gramm: PREV,procl
@@ -210,7 +220,7 @@
 
 -lexeme
  lex: pāliɣ
- stem: pāliɣ.
+ stem: pāliɣ.//pāl.//puliɣ.
  gramm: PREV,procl
  paradigm: unchangeable
  gloss: to.pieces

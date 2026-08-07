@@ -725,9 +725,9 @@
  stem: nēmat.
  gramm: PRON
  paradigm: ADV
- gloss: nothing
+ gloss: none
  gloss_ru: никакой
- trans_en: nothing
+ trans_en: none
  trans_ru: никакой
 
 -lexeme

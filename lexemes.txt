@@ -640,7 +640,7 @@
 
 -lexeme
  lex: ālmaj
- stem: almaj.
+ stem: ālmaj.
  gramm: V
  paradigm: V_odd
  gloss: lift
@@ -923,10 +923,10 @@
  stem: āraɕ.
  gramm: N
  paradigm: N_even
- gloss: hearth
- gloss_ru: очаг
- trans_en: hearth
- trans_ru: очаг
+ gloss: bonfire
+ gloss_ru: костер
+ trans_en: bonfire
+ trans_ru: костер
 
 -lexeme
  lex: arɣēn
@@ -1054,9 +1054,9 @@
  gramm: N
  paradigm: N_odd
  gloss: hole
- gloss_ru: дырка
+ gloss_ru: отверстие
  trans_en: hole
- trans_ru: дырка
+ trans_ru: отверстие
 
 -lexeme
  lex: āsk
@@ -2013,9 +2013,9 @@
  stem: iŋ.
  gramm: X
  paradigm: unchangeable
- gloss: still_yet
+ gloss: still
  gloss_ru: ещё
- trans_en: still, yet
+ trans_en: still
  trans_ru: ещё
 
 -lexeme
@@ -3827,16 +3827,6 @@
  gloss_ru: завязка
  trans_en: tie
  trans_ru: завязка
-
--lexeme
- lex: kon
- stem: kon.//kona.
- gramm: ADV
- paradigm: ADV
- gloss: outside
- gloss_ru: cнаружи
- trans_en: outside
- trans_ru: cнаружи
 
 -lexeme
  lex: konal'
@@ -5931,11 +5921,11 @@
 -lexeme
  lex: moɕ
  stem: moɕ.
- gramm: X
- paradigm: unchangeable
- gloss: little
+ gramm: ADV
+ paradigm: ADV
+ gloss: a.little
  gloss_ru: немного
- trans_en: little
+ trans_en: a little
  trans_ru: немного
 
 -lexeme
@@ -7843,20 +7833,10 @@
  stem: pāl.
  gramm: N
  paradigm: N_odd
- gloss: half
- gloss_ru: половина
- trans_en: half
- trans_ru: половина
-
--lexeme
- lex: pāl
- stem: pāl.
- gramm: N
- paradigm: N_odd
  gloss: side
  gloss_ru: сторона
- trans_en: side
- trans_ru: сторона
+ trans_en: side; half
+ trans_ru: сторона; половина
 
 -lexeme
  lex: palit
@@ -7993,9 +7973,9 @@
  stem: pān'a.
  gramm: N
  paradigm: N_even
- gloss: sauna
+ gloss: bathhouse
  gloss_ru: баня
- trans_en: sauna
+ trans_en: bathhouse
  trans_ru: баня
 
 -lexeme
@@ -9433,9 +9413,9 @@
  stem: pussən.
  gramm: X
  paradigm: unchangeable
- gloss: everybody
+ gloss: all
  gloss_ru: все
- trans_en: everybody
+ trans_en: all
  trans_ru: все
 
 -lexeme
@@ -12249,14 +12229,14 @@
  trans_ru: скорбеть
 
 -lexeme
- lex: tit
- stem: tit.
+ lex: titt
+ stem: titt.//tit.
  gramm: N
  paradigm: N_odd
- gloss: foothills
- gloss_ru: подножье
- trans_en: foothills
- trans_ru: подножье
+ gloss: base
+ gloss_ru: основание
+ trans_en: base
+ trans_ru: основание
 
 -lexeme
  lex: titt
@@ -15213,9 +15193,9 @@
  stem: xomi.//xoni.
  gramm: X
  paradigm: unchangeable
- gloss: face.down
+ gloss: face.up
  gloss_ru: ничком
- trans_en: face down
+ trans_en: face up
  trans_ru: ничком
 
 -lexeme
@@ -15613,9 +15593,9 @@
  stem: xulax.
  gramm: N
  paradigm: N_even
- gloss: crow
+ gloss: raven
  gloss_ru: ворон
- trans_en: crow
+ trans_en: raven
  trans_ru: ворон
 
 -lexeme
@@ -16027,6 +16007,16 @@
  gloss_ru: совсем
  trans_en: completely
  trans_ru: совсем
+
+-lexeme
+ lex: ɕar
+ stem: ɕar.
+ gramm: V
+ paradigm: V_odd
+ gloss: burn
+ gloss_ru: жечь
+ trans_en: burn
+ trans_ru: жечь
 
 -lexeme
  lex: ɕārɣ
