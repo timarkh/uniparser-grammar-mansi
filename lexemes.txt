@@ -2020,7 +2020,7 @@
 
 -lexeme
  lex: iŋət
- stem: iŋət.
+ stem: iŋət.//iŋt.
  gramm: ADV
  paradigm: ADV
  gloss: not.yet
@@ -2083,20 +2083,20 @@
  stem: jaɣ&āɣi.
  gramm: N
  paradigm: N_even
- gloss: big&daughter
- gloss_ru: большой&дочь
- trans_en: big&daughter
- trans_ru: большой&дочь
+ gloss: elder&daughter
+ gloss_ru: старший&дочь
+ trans_en: elder sister
+ trans_ru: старшая сестра
 
 -lexeme
  lex: jaɣpīɣ
  stem: jaɣ&pīɣ.
  gramm: N
  paradigm: N_odd
- gloss: big&son
- gloss_ru: большой&сын
- trans_en: big&son
- trans_ru: большой&сын
+ gloss: elder&son
+ gloss_ru: старший&сын
+ trans_en: elder brother
+ trans_ru: старший брат
 
 -lexeme
  lex: jakt
@@ -4213,9 +4213,9 @@
  stem: kwāl.
  gramm: V,intr
  paradigm: V_odd
- gloss: stand
+ gloss: get.up
  gloss_ru: встать
- trans_en: stand
+ trans_en: get up
  trans_ru: встать
 
 -lexeme
@@ -7871,8 +7871,8 @@
 -lexeme
  lex: palt
  stem: palt.
- gramm: X
- paradigm: unchangeable
+ gramm: POSTP
+ paradigm: POSTP_default
  gloss: to
  gloss_ru: к
  trans_en: to
@@ -12173,10 +12173,10 @@
  stem: tēxam.
  gramm: N
  paradigm: N_even
- gloss: friend
- gloss_ru: друг
- trans_en: friend
- trans_ru: друг
+ gloss: comrade
+ gloss_ru: товарищ
+ trans_en: comrade
+ trans_ru: товарищ
 
 -lexeme
  lex: tiɣl

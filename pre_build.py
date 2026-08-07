@@ -462,7 +462,9 @@ if __name__ == '__main__':
         'minasmēn',
         'minasasmēn',
         'xumil',
-        'uretəl'
+        'uretəl',
+        'lakwsite',
+        'lakwsalite'
     ], format='xml'):
         print(wf)
 

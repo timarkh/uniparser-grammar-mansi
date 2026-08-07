@@ -219,9 +219,9 @@ koɕaj	host	хозяин	kūɕaj	master	хозяин
 kupn	light	лёгкий	NONE		
 kur	stove	печка	kūr	oven	печь
 kut'uw	host	хозяин	NONE		
-kwal	get.up	вставать	kwāl	stand	встать
-kwal	go.out	выйти	kwāl	stand	встать
-kwal	stand	встать	kwāl	stand	встать
+kwal	get.up	вставать	kwāl	get.up	встать
+kwal	go.out	выйти	kwāl	get.up	встать
+kwal	stand	встать	kwāl	get.up	встать
 kwaləɣ	rope	верёвка	kwāliɣ	rope	верёвка
 kwālɣ	rope	верёвка	kwāliɣ	rope	верёвка
 kys	want	хотеть	kus	want	хотеть
@@ -790,7 +790,7 @@ tārwit	weight	тяжесть	NONE
 tāɣat	hang	вешать	taɣat	hang	вешать
 tēnki		2DU	NONE		
 tēs	no	нет	NONE		
-tēxam	buddy	дружище	tēxam	friend	друг
+tēxam	buddy	дружище	tēxam	comrade	товарищ
 tōwl	suffice	быть.достаточным	tōwl	be.enough	быть.достаточным
 tūp	only	только	top	only	только
 tůp	only	лишь	top	only	только

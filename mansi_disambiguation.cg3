@@ -29,7 +29,10 @@ SELECT (V npst 1.s du.s) IF (*-1 ("mēn"i) BARRIER V | BOSPunct)
 SELECT (V imp) IF (-1 ("<ul>"i));
 SELECT (V imp) IF (-2 ("<ul>"i)) (-1 ("<=>"));
 
-# Participles
+# Participles with possession markers are very rare and may be homonymous with the mirative forms
+REMOVE (V ptcp_npst 3sg) IF (0 (V mir 3.s sg.s));
+
+# Participles in character names
 SELECT (V ptcp_npst) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
 REMOVE (V ptcp_npst 3sg) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
 
