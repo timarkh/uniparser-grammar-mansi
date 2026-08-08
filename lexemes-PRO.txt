@@ -537,7 +537,7 @@
  trans_ru: сюда
 
 -lexeme
- lex: tiɣl'e
+ lex: tiɣəl
  stem: tiɣ&əl.
  gramm: PRON
  paradigm: ADV
