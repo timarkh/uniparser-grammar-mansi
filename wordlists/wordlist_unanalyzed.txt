@@ -24,12 +24,12 @@ t
 takiɕ
 təl
 xottal
-xōtəl
 ēw
 ŋōŋx
 en
 im
 iɣ
+jiw
 kuɕn
 kērsol
 lakw
@@ -44,7 +44,6 @@ towmelēn
 tsət
 wil
 wāɣtal
-wōŋxup
 xapɣa
 xotal
 xōttal
@@ -54,9 +53,7 @@ xōttal
 ūli
 ɕeltumtaxti
 ɕun
-akwate
 akwēɣ
-akwəl
 alɣal
 apɕitēn
 arten
@@ -83,10 +80,6 @@ jīsuw
 jōnɣēɣt
 jōnɣəŋtēɣt
 jūniɣtelēn
-koɕaj
-koɕajanəl
-koɕaje
-koɕjanəl
 kwalsət
 kwālapakēte
 kārtlaxtēw
@@ -123,6 +116,7 @@ sampal
 sūlintas
 takēməl
 takəɕ
+tikeməl
 tjat
 tjatta
 tulmax
@@ -143,7 +137,6 @@ tāɣatālawesət
 tāɣintas
 tāɣmatwes
 tāɣəltawe
-tēpɣālasət
 tɣajt
 wolkati
 wāreɣt
@@ -157,10 +150,8 @@ xumjanəl
 xuml
 xun
 xōməl
-xōtalas
 xūji
 xūjliɣtasət
-xūrmintiɣ
 āl
 ālelen
 ān
@@ -168,7 +159,6 @@ xūrmintiɣ
 āwramət
 ēlanuw
 ēlmxōlasaɣe
-ēti
 ēɣt
 ōjawem
 ōjawēn

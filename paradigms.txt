@@ -3,20 +3,72 @@
   gramm: 
 
 -paradigm: NUM_odd
- -flex: .
+ -flex: .<.>
   gramm: 
+  paradigm: POSTP_default
+ -flex: .it
+  gramm: ord
+  gloss: ORD
+ -flex: .intiɣ//.ittiɣ
+  gramm: iter
+  gloss: ITER
+ -flex: .l//.əl
+  gramm: ins
+  gloss: INS
+ -flex: .kem//.mankem//.axkem
+  gramm: appr
+  gloss: APPR
 
 -paradigm: NUM_even
- -flex: .
+ -flex: .<.>
   gramm: 
+  paradigm: POSTP_default
+ -flex: .it
+  gramm: ord
+  gloss: ORD
+ -flex: .intiɣ//.ittiɣ
+  gramm: iter
+  gloss: ITER
+ -flex: .l//.əl
+  gramm: ins
+  gloss: INS
+ -flex: .kem//.mankem//.axkem
+  gramm: appr
+  gloss: APPR
 
 -paradigm: NUM_odd-syncop
- -flex: .
+ -flex: .<.>
   gramm: 
+  paradigm: POSTP_default-syncop
+ -flex: <1>.it
+  gramm: ord
+  gloss: ORD
+ -flex: <1>.intiɣ//<1>.ittiɣ
+  gramm: iter
+  gloss: ITER
+ -flex: <0>.l//<1>.əl
+  gramm: ins
+  gloss: INS
+ -flex: <0>.kem//<0>.mankem//<1>.axkem
+  gramm: appr
+  gloss: APPR
 
 -paradigm: NUM_even-syncop
- -flex: .
+ -flex: .<.>
   gramm: 
+  paradigm: POSTP_default-syncop
+ -flex: <1>.it
+  gramm: ord
+  gloss: ORD
+ -flex: <1>.intiɣ//<1>.ittiɣ
+  gramm: iter
+  gloss: ITER
+ -flex: <0>.l//<1>.əl
+  gramm: ins
+  gloss: INS
+ -flex: <0>.kem//<0>.mankem//<1>.axkem
+  gramm: appr
+  gloss: APPR
 
 -paradigm: ADV
  -flex: .
@@ -340,6 +392,10 @@
   gramm: cmpr
   gloss: CMPR
   paradigm: ADJ_odd
+ -flex: .nuwe
+  gramm: cmpr
+  gloss: CMPR
+  paradigm: unchangeable
  -flex: .iɕ<.>
   gramm: adv
   gloss: ADV
@@ -360,6 +416,10 @@
   gramm: cmpr
   gloss: CMPR
   paradigm: ADJ_odd
+ -flex: <0>.nuwe
+  gramm: cmpr
+  gloss: CMPR
+  paradigm: unchangeable
  -flex: .iɕ<.>
   gramm: adv
   gloss: ADV
@@ -380,6 +440,10 @@
   gramm: cmpr
   gloss: CMPR
   paradigm: ADJ_even
+ -flex: .nuwe
+  gramm: cmpr
+  gloss: CMPR
+  paradigm: unchangeable
  -flex: .iɕ<.>
   gramm: adv
   gloss: ADV
@@ -400,6 +464,10 @@
   gramm: cmpr
   gloss: CMPR
   paradigm: ADJ_even
+ -flex: <0>.nuwe
+  gramm: cmpr
+  gloss: CMPR
+  paradigm: unchangeable
  -flex: .iɕ<.>
   gramm: adv
   gloss: ADV
@@ -642,7 +710,7 @@
   gramm: prop,prop1
   gloss: PROP1
   paradigm: ADJ_odd
- -flex: .p<.>
+ -flex: .p<.>//.upa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
@@ -664,7 +732,7 @@
   gramm: prop,prop1
   gloss: PROP1
   paradigm: ADJ_odd
- -flex: <0>.p<.>
+ -flex: <0>.p<.>//.upa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
@@ -686,7 +754,7 @@
   gramm: prop,prop1
   gloss: PROP1
   paradigm: ADJ_odd
- -flex: .p<.>
+ -flex: .p<.>//<0>.upa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
@@ -708,7 +776,7 @@
   gramm: prop,prop1
   gloss: PROP1
   paradigm: ADJ_even
- -flex: .p<.>
+ -flex: .p<.>//.upa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
@@ -730,7 +798,7 @@
   gramm: prop,prop1
   gloss: PROP1
   paradigm: ADJ_even
- -flex: <0>.p<.>
+ -flex: <0>.p<.>//.upa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
@@ -752,7 +820,7 @@
   gramm: prop,prop1
   gloss: PROP1
   paradigm: ADJ_even
- -flex: .p<.>
+ -flex: .p<.>//<0>.upa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
@@ -1766,6 +1834,10 @@
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_even
+ -flex: .uml<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_asp2_even
 
 
 -paradigm: V_asp_even_cons
@@ -1929,6 +2001,10 @@
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_odd
+ -flex: .uml<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_asp2_odd
 
 -paradigm: V_asp2_even
  -flex: .<.>
@@ -2059,6 +2135,10 @@
   gramm: asp
   gloss: ASP
   paradigm: V_main_odd
+ -flex: .uml<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_odd
 
 -paradigm: V_asp2_odd
  -flex: .<.>
@@ -2186,6 +2266,10 @@
   gloss: ASP
   paradigm: V_main_even
  -flex: .xōl<.>
+  gramm: asp
+  gloss: ASP
+  paradigm: V_main_even
+ -flex: .uml<.>
   gramm: asp
   gloss: ASP
   paradigm: V_main_even

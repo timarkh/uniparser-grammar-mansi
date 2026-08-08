@@ -200,7 +200,7 @@
 
 -lexeme
  lex: nāluw
- stem: nāluw.
+ stem: nāluw.//nal.
  gramm: PREV,procl
  paradigm: unchangeable
  gloss: to.elements

@@ -470,7 +470,7 @@
  lex: ta
  stem: ta.
  gramm: PRON
- paradigm: ADJ_odd
+ paradigm: unchangeable
  gloss: that
  gloss_ru: тот
  trans_en: that
@@ -487,10 +487,30 @@
  trans_ru: то
 
 -lexeme
+ lex: takem
+ stem: ta&kem.
+ gramm: PRON
+ paradigm: ADJ_even
+ gloss: that&APPR
+ gloss_ru: то&APPR
+ trans_en: that much
+ trans_ru: такой, настолько
+
+-lexeme
+ lex: takem
+ stem: ta&kem&əl.
+ gramm: PRON
+ paradigm: ADV
+ gloss: that&APPR&INS
+ gloss_ru: то&APPR&INS
+ trans_en: that much
+ trans_ru: такой, настолько
+
+-lexeme
  lex: ti
  stem: ti.
  gramm: PRON
- paradigm: ADJ_odd
+ paradigm: unchangeable
  gloss: this
  gloss_ru: этот
  trans_en: this
@@ -515,6 +535,26 @@
  gloss_ru: сюда&DIR
  trans_en: to here
  trans_ru: сюда
+
+-lexeme
+ lex: tiɣl'e
+ stem: tiɣ&əl.
+ gramm: PRON
+ paradigm: ADV
+ gloss: to.here&ABL
+ gloss_ru: сюда&ABL
+ trans_en: from here
+ trans_ru: отсюда
+
+-lexeme
+ lex: tit
+ stem: tit.
+ gramm: PRON
+ paradigm: ADV
+ gloss: here
+ gloss_ru: здесь
+ trans_en: here
+ trans_ru: здесь
 
 -lexeme
  lex: tuw
@@ -615,8 +655,8 @@
  stem: xott.
  gramm: PRON
  paradigm: unchangeable
- gloss: somewhere
- gloss_ru: где.то
+ gloss: where.INDEF
+ gloss_ru: где.INDEF
  trans_en: somewhere
  trans_ru: где-то
 
@@ -632,11 +672,11 @@
 
 -lexeme
  lex: xottal'
- stem: xottal'.
+ stem: xott&al'.
  gramm: PRON
  paradigm: unchangeable
- gloss: to.somewhere
- gloss_ru: куда.то
+ gloss: where.INDEF&DIR
+ gloss_ru: куда.INDEF&DIR
  trans_en: to somewhere
  trans_ru: куда-то
 
@@ -709,6 +749,16 @@
  gloss_ru: что.то
  trans_en: something
  trans_ru: что-то
+
+-lexeme
+ lex: nēm
+ stem: nēm.
+ gramm: PRON
+ paradigm: ADV
+ gloss: PRON.NEG
+ gloss_ru: PRON.NEG
+ trans_en: not
+ trans_ru: не
 
 -lexeme
  lex: nēmatər

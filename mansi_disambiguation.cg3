@@ -19,6 +19,9 @@ SECTION    # Preverbs and other proclitics
 REMOVE (procl)
     IF (0 NotProclitics)
        (NEGATE *1 V BARRIER NotProclitics);
+SELECT (procl) IF (0 ("<juw>"i)) (-1 ("<ta>"i) OR ("<ti>"i));
+SELECT (V npst 3.s sg.s) IF (0 ("<juw>"i)) (1 (V) OR Proclitics);
+
 
 SECTION    # Verbs
 # Select finite analyses with the correct subject agreement

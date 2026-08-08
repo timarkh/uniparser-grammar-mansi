@@ -22,7 +22,7 @@ alma	lift	поднять	ālmaj	lift	поднимать
 almpal	behind	за	NONE		
 alpəl	morning	утренний	ālpəl	in.the.morning	утром
 alpəl	morning	утро	ālpəl	in.the.morning	утром
-alɣal'	upstream	вверх.по.течению	alɣal'	upstream	вверх.по.реке
+alɣal'	upstream	вверх.по.реке	alɣal'	upstream	вверх.по.течению
 am		2SG	am	1SG	1SG
 am		Q	NONE		
 aman		Q	man	Q	Q
@@ -55,9 +55,9 @@ aɣi	girl	девушка	āɣi	daughter	дочь
 aɣə	girl	девушка	āɣi	daughter	дочь
 ekwa	wife	жена	ēkwa	woman	женщина
 ekwa	woman	женщина	ēkwa	woman	женщина
-el	far	далеко	ēli	front	передний
-ela	far	далеко	ēlal'	forward	вперед
-ela	forward	вперёд	ēlal'	forward	вперед
+el	far	далеко	ēl	forward	вперед
+ela	far	далеко	ēla	forward	вперед
+ela	forward	вперёд	ēla	forward	вперед
 eli	far	далеко	ēli	front	передний
 elmxolas	person	человек	ēlmxolas	human	человек
 elumxolas	person	человек	ēlmxolas	human	человек
@@ -74,7 +74,7 @@ ertal	unpleasant	неприятный	NONE
 erəɣ	song	песня	ēriɣ	song	песня
 erɣ	song	песня	ēriɣ	song	песня
 ete	night	ночь	ēt	night	ночь
-eti	at.night	ночью	īti	at.night	ночью
+eti	at.night	ночью	ēti	at.night	ночью
 eti	evening	вечер	ēt	night	ночь
 i		ADD	i	and	и
 is	land	приземлиться	īs	land	приземлиться
@@ -107,17 +107,17 @@ jat	middle	середина	NONE
 jaŋk		белый/лёд	jāŋk	white	белый
 jaŋk	white	белый	jāŋk	white	белый
 jaɣ	elder.male.relative	старший.родственник	NONE		
-jaɣaɣi	sister	сестра	jaɣāɣi	big&daughter	большой&дочь
-jaɣpiɣ	brother	брат	jaɣpīɣ	big&son	большой&сын
-jaɣpiɣ	elder.brother	старший.брат	jaɣpīɣ	big&son	большой&сын
-jaɣāɣi	sister	сестра	jaɣāɣi	big&daughter	большой&дочь
-jej	come	прийти	ji	walk	идти
+jaɣaɣi	sister	сестра	jaɣāɣi	elder&daughter	старший&дочь
+jaɣpiɣ	brother	брат	jaɣpīɣ	elder&son	старший&сын
+jaɣpiɣ	elder.brother	старший.брат	jaɣpīɣ	elder&son	старший&сын
+jaɣāɣi	sister	сестра	jaɣāɣi	elder&daughter	старший&дочь
+jej	come	прийти	ji	go	идти
 jej	elder.male.relative	старший.родственник	NONE		
 jemt	become	стать	jēmt	become	стать
 jemt	happen	случаться	jēmt	become	стать
 jeɣ	elder.brother	старший.брат	jaɣ	father	отец
-ji	come	прийти	ji	walk	идти
-ji	enter	войти	ji	walk	идти
+ji	come	прийти	ji	go	идти
+ji	enter	войти	ji	go	идти
 jim	grave	могила	NONE		
 jipəɣ	eagle.owl	филин	jipiɣ	eagle.owl	филин
 jis	ancient	древний	jis	ancient	древний
@@ -126,7 +126,7 @@ jiw		Дерево	jīw	tree	дерево
 jol	below	внизу	joln	below	внизу
 jol	seat	сидение	NONE		
 jola	down	вниз	jol	down	вниз
-jom	go	идти	jōm	step	шагать
+jom	go	идти	jōm	walk	шагать
 jomas		Хороший	jomas	good	хороший
 jomas	well	хорошо	jomas	good	хороший
 jomaɕ	well	хорошо	jomas	good	хороший
@@ -145,7 +145,7 @@ joŋx	spin	кружиться	jōŋx	spin	кружиться
 jóxt	come	прийти	joxt	come	прийти
 jóŋx	spin	кружиться	jōŋx	spin	кружиться
 ju	back	зад	juj	back	зад
-ju	go	идти	ji	walk	идти
+ju	go	идти	ji	go	идти
 jui	back	зад	juj	back	зад
 jui	back	назад	juj	back	зад
 jui	behind	сзади	juj	back	зад
@@ -159,11 +159,11 @@ juw		Внутрь	juw	inside	внутрь
 juw		сторону	juj	back	зад
 juw	back	назад	juj	back	зад
 juw	flour	мука	NONE		
-juw	go	идти	ji	walk	идти
+juw	go	идти	ji	go	идти
 juwlè	back	назад	NONE		
 jārəm		беда/нужда	jārum	trouble	беда
-jī	walk	идти	ji	walk	идти
-jōm	go	идти	jōm	step	шагать
+jī	walk	идти	ji	go	идти
+jōm	go	идти	jōm	walk	шагать
 jōnɣ	play	играть	jonɣ	play	играть
 jōnɣəŋt	play	наигрывать	NONE		
 jūnit	hit	ударить	jūniɣt	hit	ударить
@@ -334,8 +334,8 @@ mont	recently	недавно	mōjt	tale	сказка
 mor	shabby	дряной	NONE		
 mos	sickness	болезнь	mos	sickness	болезнь
 mos	small	малый	moɕ	little	немного
-mot	another	другой	mōt	another	другой
-motan	another	другой	mōt	another	другой
+mot	another	другой	mōt	other	другой
+motan	another	другой	mōt	other	другой
 moɕ	little	мало	moɕ	little	немного
 moɕɕa	a.little	немного	moɕɕa	a.little	мало
 muj	guest	гость	mūj	guest	гость
@@ -567,10 +567,10 @@ raɣ	fall	падать	raɣat	fall	упасть
 reəɣ	heat	жар	rēɣ	heat	жар
 ropita	work	работать	rōpit	work	работать
 rot	calm	спокойный	rot	calm	спокойный
-row	allow	разрешать	rōw	possible	можно
-row	is.needed	надо	rōw	possible	можно
-row	permitted	разрешённый	rōw	possible	можно
-row	possible	можно	rōw	possible	можно
+row	allow	разрешать	rōw	be.allowed	можно
+row	is.needed	надо	rōw	be.allowed	можно
+row	permitted	разрешённый	rōw	be.allowed	можно
+row	possible	можно	rōw	be.allowed	можно
 roŋx	shout	крикнуть	rōŋx	shout	кричать
 ráɣāt	fall	упасть	raɣat	fall	упасть
 rōt	calm	спокойный	rot	calm	спокойный
@@ -700,8 +700,8 @@ tarəŋ	pine	сосна	tariɣ	pine	сосна
 tau		3SG	taw	3SG	3SG
 tau		3ЫП	taw	3SG	3SG
 taw	she	она	taw	3SG	3SG
-tax	go	идти	tax	set.off	отправиться
-taxa	leave	уехать	tax	set.off	отправиться
+tax	go	идти	tax	flee	уйти
+taxa	leave	уехать	tax	flee	уйти
 taxt	loon	гагара	NONE		
 taxə	get.lost	деться	tax	set.off	отправиться
 taɣ	branch	ветка	taɣ	branch	ветка
@@ -929,7 +929,7 @@ xosa	long	долго	xosa	long	длинный
 xosit	by	по	xosit	along	вдоль
 xosiɣ	wave	махать	xosɣ	wave	махать
 xosx	wave	махать	xosɣ	wave	махать
-xotal	dawn	рассветать	xōtəl	dawn	рассветать
+xotal	dawn	рассветать	xōtal	dawn	рассветать
 xotal	day	день	xōtal	day	день
 xotal	sun	солнце	xōtal	day	день
 xotəl	day	день	xōtal	day	день
