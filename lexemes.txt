@@ -3289,6 +3289,16 @@
  trans_ru: для
 
 -lexeme
+ lex: kastəl
+ stem: kastəl.
+ gramm: N
+ paradigm: N_even
+ gloss: consent
+ gloss_ru: согласие
+ trans_en: consent
+ trans_ru: согласие
+
+-lexeme
  lex: kasəm
  stem: kasəm.|kasm.
  gramm: ADJ
@@ -9999,6 +10009,16 @@
  trans_ru: рубить
 
 -lexeme
+ lex: sāɣrap
+ stem: sāɣrap.
+ gramm: N
+ paradigm: V_even
+ gloss: axe
+ gloss_ru: топор
+ trans_en: axe
+ trans_ru: топор
+
+-lexeme
  lex: saj
  stem: saj.
  gramm: N
@@ -11637,6 +11657,16 @@
  gloss_ru: крупа
  trans_en: groats
  trans_ru: крупа
+
+-lexeme
+ lex: tān
+ stem: tān.
+ gramm: N
+ paradigm: N_odd
+ gloss: tune
+ gloss_ru: мелодия
+ trans_en: tune
+ trans_ru: мелодия
 
 -lexeme
  lex: t'āt't'alaxt

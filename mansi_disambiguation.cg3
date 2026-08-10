@@ -18,8 +18,10 @@ SET BOSPunct = (punct) | BOS;
 SECTION    # Preverbs and other proclitics
 REMOVE (procl)
     IF (0 NotProclitics)
-       (NEGATE *1 V BARRIER NotProclitics);
+       (NEGATE *1 V BARRIER NotProclitics)
+       (NEGATE -1 ("<ja>"i));
 SELECT (procl) IF (0 ("<juw>"i)) (-1 ("<ta>"i) OR ("<ti>"i));
+SELECT (procl) IF (0 ("<ta>"i) OR ("<ti>"i)) (1 V);
 SELECT (V npst 3.s sg.s) IF (0 ("<juw>"i)) (1 (V) OR Proclitics);
 
 
@@ -43,3 +45,7 @@ SECTION    # Nouns
 SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
 
 SELECT (N pl nom) IF (0 (".*t"r)) (1 ("kīwər"));
+
+
+# Random homonymy
+SELECT (PRON) IF (0 ("<tān>"i)) (*1 ("sāŋkwəlt") OR ("ērɣ") BARRIER NotProclitics);

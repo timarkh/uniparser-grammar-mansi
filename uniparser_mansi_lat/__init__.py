@@ -106,6 +106,8 @@ def iy_vars(s):
 
 
 class MansiAnalyzer(Analyzer):
+    rxGlossBracket = re.compile('\\b(N?PST|IRR|PASS)\\.(3SG|NPST)$')
+
     def __init__(self, mode='strict', verbose_grammar=False):
         """
         Initialize the analyzer by reading the grammar files.
@@ -120,6 +122,7 @@ class MansiAnalyzer(Analyzer):
             return
         self.dirName = 'data_' + mode
         self.alphabet = 'lat'
+        self.glossBrackets = False
 
         # Equivalents of glosses that have been removed
         self.eqEn = {}
@@ -169,6 +172,15 @@ class MansiAnalyzer(Analyzer):
                     self.eqRu[ruOld].add(v)
                     self.eqEnRu[(enOld, ruOld)].add(v)
 
+    def bracket_gloss(self, gloss):
+        """
+        Put in brackets those glosses that do not correspond to any overt marker.
+        """
+        glossSegs = rxGloss.findall(gloss)
+        for i in range(len(glossSegs)):
+            glossSegs[i] = self.rxGlossBracket.sub('\\1[\\2]', glossSegs[i])
+        return ''.join(glossSegs)
+
 
     def analyze_words(self, words, format=None, disambiguate=False, replacementsAllowed=0):
         """
@@ -192,9 +204,17 @@ class MansiAnalyzer(Analyzer):
         Analyze a single word. Return either a list of its analyses
         or a list with a single Wordform object that has only the wf
         property filled. Assume the parser has already been initialized.
+        If glossBrackets == True, put in brackets those glosses that
+        do not correspond to any overt marker.
         """
         if self.alphabet == 'lat':
-            return super().__analyze_word__(word, replacementsAllowed=replacementsAllowed)
+            analyses = super().__analyze_word__(word, replacementsAllowed=replacementsAllowed)
+            if self.glossBrackets:
+                for ana in analyses:
+                    ana.gloss = self.bracket_gloss(ana.gloss)
+                    for lang in ana.glossByLang:
+                        ana.glossByLang[lang] = self.bracket_gloss(ana.glossByLang[lang])
+            return analyses
 
         # For Cyrillic alphabet, there may be several transliteration options, try them all
         wordTrans = mansi_translit_cyr2lat(word)
@@ -209,6 +229,10 @@ class MansiAnalyzer(Analyzer):
         else:
             for ana in analyses:
                 ana.wf = word  # Reverse lowering if needed.
+                if self.glossBrackets:
+                    ana.gloss = self.bracket_gloss(ana.gloss)
+                    for lang in ana.glossByLang:
+                        ana.glossByLang[lang] = self.bracket_gloss(ana.glossByLang[lang])
         if format == 'xml':
             analyses = '<w>' + ''.join(ana.to_xml(glossing=self.glossing)
                                        for ana in analyses) + \

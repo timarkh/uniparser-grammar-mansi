@@ -307,11 +307,11 @@
   gramm: 3sg
   gloss: POSS.3SG
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
- -flex: .ten
+ -flex: .tēn
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[aeiouāēīōūə][.<>]*$
- -flex: .atēn
+ -flex: .en//.ēn
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
@@ -340,7 +340,10 @@
  -flex: .e//.ē
   gramm: 3sg
   gloss: POSS.3SG
- -flex: .atēn
+ -flex: .en//.ēn
+  gramm: 3du
+  gloss: POSS.3DU
+ -flex: <0>.tēn
   gramm: 3du
   gloss: POSS.3DU
  -flex: <0>.nəl//.anəl//<0>.janəl
@@ -368,7 +371,10 @@
  -flex: <1>.e.//<1>.ē.
   gramm: 3sg
   gloss: POSS.3SG
- -flex: <1>.atēn.
+ -flex: <1>.en.//<1>.ēn.
+  gramm: 3du
+  gloss: POSS.3DU
+ -flex: <1>.tēn.
   gramm: 3du
   gloss: POSS.3DU
  -flex: <1>.nəl.//<1>.anəl.//<1>.janəl.
@@ -1004,7 +1010,7 @@
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[aeiouāēīōūə][.<>]*$
- -flex: .atēn<.>
+ -flex: .en<.>//.ēn<.>
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
@@ -1033,7 +1039,10 @@
  -flex: .e<.>//.ē<.>
   gramm: 3sg
   gloss: POSS.3SG
- -flex: .atēn<.>
+ -flex: .en<.>//.ēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+ -flex: <0>.tēn<.>
   gramm: 3du
   gloss: POSS.3DU
  -flex: <0>.nəl<.>//.anəl<.>//<0>.janəl<.>
@@ -1061,7 +1070,10 @@
  -flex: <0>.e<.>//<0>.ē<.>
   gramm: 3sg
   gloss: POSS.3SG
- -flex: <0>.atēn<.>
+ -flex: <0>.en<.>//<0>.ēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+ -flex: .tēn<.>
   gramm: 3du
   gloss: POSS.3DU
  -flex: .nəl<.>//<0>.anəl<.>//.janəl<.>
