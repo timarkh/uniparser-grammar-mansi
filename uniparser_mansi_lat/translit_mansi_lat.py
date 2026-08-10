@@ -45,7 +45,7 @@ cyr2dic = {
 
 cyrHard2Soft = {
     'а': 'я', 'а̄': 'я̄',
-    'э': 'е', 'э̄': 'ē',
+    'э': 'е', 'э̄': 'е̄',
     'ы': 'и', 'ы̄': 'ӣ',
     'о': 'ё', 'о̄': 'ё̄',
     'у': 'ю', 'ӯ': 'ю̄'
@@ -53,7 +53,7 @@ cyrHard2Soft = {
 
 cyrSoft2Hard = {
     'я': 'а', 'я̄': 'а̄',
-    'е': 'э', 'ē': 'э̄',
+    'е': 'э', 'е̄': 'э̄', 'ē': 'э̄',
     'и': 'ы', 'ӣ': 'ы̄',
     'ё': 'о', 'ё̄': 'о̄',
     'ю': 'у', 'ю̄': 'ӯ'
@@ -150,7 +150,10 @@ def mansi_translit_cyr2lat(text):
     text = text.replace("ъ'", "й")
     text = text.replace("Ъ'", "Й")
     text = text.replace("с'", 'щ')
+    text = text.replace("сь", 'щ')
     text = text.replace("С'", 'Щ')
+    text = text.replace("СЬ", 'Щ')
+    text = text.replace("Сь", 'Щ')
     text = rxCyrVowelSoft.sub('\\1й', text)
     text = rxCyrNeutralConsSoftY.sub('\\1и', text)
     text = rxCyrNeutralConsSoftYCap.sub('\\1И', text)
