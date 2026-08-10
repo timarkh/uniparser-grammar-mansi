@@ -10012,7 +10012,7 @@
  lex: sāɣrap
  stem: sāɣrap.
  gramm: N
- paradigm: V_even
+ paradigm: N_even
  gloss: axe
  gloss_ru: топор
  trans_en: axe
