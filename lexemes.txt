@@ -5130,7 +5130,7 @@
 
 -lexeme
  lex: l'ūl'ax
- stem: l'ūl'ax
+ stem: l'ūl'ax.
  gramm: ADV
  paradigm: ADV
  gloss: standing
