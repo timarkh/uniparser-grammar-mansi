@@ -149,6 +149,76 @@
  trans_ru: Тапсуй
 
 -lexeme
+ lex: L'en'in
+ stem: l'en'in.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Lenin
+ gloss_ru: Ленин
+ trans_en: Lenin
+ trans_ru: Ленин
+
+-lexeme
+ lex: L'en'ingrad
+ stem: l'en'ingrad.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Leningrad
+ gloss_ru: Ленинград
+ trans_en: Leningrad (St. Petersburg)
+ trans_ru: Ленинград (Санкт-Петербург)
+
+-lexeme
+ lex: Moskwa
+ stem: moskwa.//maskwa.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Moscow
+ gloss_ru: Москва
+ trans_en: Moscow
+ trans_ru: Москва
+
+-lexeme
+ lex: T'umen'
+ stem: t'umen'.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Tyumen
+ gloss_ru: Тюмень
+ trans_en: Tyumen
+ trans_ru: Тюмень
+
+-lexeme
+ lex: Īsus
+ stem: īsus.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Jesus
+ gloss_ru: Иисус
+ trans_en: Jesus
+ trans_ru: Иисус
+
+-lexeme
+ lex: Ioan
+ stem: ioan.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: John
+ gloss_ru: Иоанн
+ trans_en: John
+ trans_ru: Иоанн
+
+-lexeme
+ lex: lawka
+ stem: lawka.
+ gramm: N
+ paradigm: N_even
+ gloss: store
+ gloss_ru: магазин
+ trans_en: store
+ trans_ru: магазин
+
+-lexeme
  lex: tōrum
  stem: tōrum.
  gramm: N

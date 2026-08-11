@@ -535,7 +535,7 @@
 <w><ana lex="sāli" gr="N,pl,nom" parts="sāli-t" gloss="deer-PL" gloss_ru="олень-PL" trans_en="deer" trans_ru="олень"></ana><ana lex="sāli" gr="N,sg,loc" parts="sāli-t" gloss="deer-LOC" gloss_ru="олень-LOC" trans_en="deer" trans_ru="олень"></ana>sālit</w>
 <w><ana lex="sāw" gr="ADV" parts="sāw" gloss="many" gloss_ru="много" trans_en="many" trans_ru="много"></ana>sāw</w>
 <w><ana lex="sāŋxw" gr="V,asp,pst,act,sg.o,objc,3.s,sg.s" parts="sāŋxw-as-as-t-e" gloss="kick-ASP-PST-SG.O-3SG.S" gloss_ru="пинать-ASP-PST-SG.O-3SG.S" trans_en="kick" trans_ru="пинать"></ana>sāŋxwasaste</w>
-<w><ana lex="sāɣr" gr="V,mom,pass,pst,subjc,3.s,pl.s" parts="sāɣr-ap-awe-s-ət" gloss="chop-MOM-PASS-PST-3PL" gloss_ru="рубить-MOM-PASS-PST-3PL" trans_en="chop" trans_ru="рубить"></ana><ana lex="sāɣrap" gr="N,pass,pst,subjc,3.s,pl.s" parts="sāɣrap-awe-s-ət" gloss="axe-PASS-PST-3PL" gloss_ru="топор-PASS-PST-3PL" trans_en="axe" trans_ru="топор"></ana>sāɣrapawesət</w>
+<w><ana lex="sāɣr" gr="V,mom,pass,pst,subjc,3.s,pl.s" parts="sāɣr-ap-awe-s-ət" gloss="chop-MOM-PASS-PST-3PL" gloss_ru="рубить-MOM-PASS-PST-3PL" trans_en="chop" trans_ru="рубить"></ana>sāɣrapawesət</w>
 <w><ana lex="sāɣr" gr="V,pass,pst,subjc,3.s,sg.s" parts="sāɣr-uwe-s" gloss="chop-PASS-PST.3SG" gloss_ru="рубить-PASS-PST.3SG" trans_en="chop" trans_ru="рубить"></ana>sāɣruwes</w>
 <w><ana lex="sāɣr" gr="V,act,inf" parts="sāɣr-uŋkwe" gloss="chop-INF" gloss_ru="рубить-INF" trans_en="chop" trans_ru="рубить"></ana>sāɣruŋkwe</w>
 <w><ana lex="sāɣr" gr="V,pst,act,subjc,3.s,pl.s" parts="sāɣr-əs-ət" gloss="chop-PST-3PL" gloss_ru="рубить-PST-3PL" trans_en="chop" trans_ru="рубить"></ana>sāɣrəsət</w>
