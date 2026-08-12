@@ -3839,6 +3839,16 @@
  trans_ru: выслеживать, преследовать
 
 -lexeme
+ lex: koj
+ stem: koj.
+ gramm: V,npst
+ paradigm: V-agr-odd-j
+ gloss: chase.NPST
+ gloss_ru: выслеживать.NPST
+ trans_en: track down, chase
+ trans_ru: выслеживать, преследовать
+
+-lexeme
  lex: kojup
  stem: kojup.//kojp.
  gramm: N
@@ -4365,8 +4375,8 @@
  paradigm: V_odd
  gloss: sneak.up
  gloss_ru: подкрадываться
- trans_en: sneak up, move
- trans_ru: подкрадываться, двигаться
+ trans_en: sneak up
+ trans_ru: подкрадываться
 
 -lexeme
  lex: lākw
@@ -6689,6 +6699,16 @@
  trans_ru: сдирать
 
 -lexeme
+ lex: nuj
+ stem: nuj.
+ gramm: V,npst
+ paradigm: V-agr-odd-j
+ gloss: peel.off.NPST
+ gloss_ru: сдирать.NPST
+ trans_en: peel off
+ trans_ru: сдирать
+
+-lexeme
  lex: nul
  stem: nul.
  gramm: N
@@ -7599,6 +7619,16 @@
  trans_ru: чесать, причесать
 
 -lexeme
+ lex: orj
+ stem: orj.
+ gramm: V,npst
+ paradigm: V-agr-odd-j
+ gloss: scratch.NPST
+ gloss_ru: чесать.NPST
+ trans_en: scratch, comb
+ trans_ru: чесать, причесать
+
+-lexeme
  lex: orp
  stem: orp.
  gramm: N
@@ -7763,18 +7793,18 @@
  stem: ōwəl.|ōwl.
  gramm: N
  paradigm: N_even-syncop
- gloss: end
- gloss_ru: конец
- trans_en: end, edge; start
- trans_ru: конец, край; начало
+ gloss: edge
+ gloss_ru: край
+ trans_en: edge; end; start
+ trans_ru: край; конец; начало
 
 -lexeme
  lex: ōwəlt
  stem: ōwəl&t.
  gramm: V,tr
  paradigm: V_even
- gloss: end&TR
- gloss_ru: конец&TR
+ gloss: edge&TR
+ gloss_ru: край&TR
  trans_en: start, found
  trans_ru: начать, основать
 
@@ -10109,6 +10139,16 @@
  trans_ru: гнить
 
 -lexeme
+ lex: saj
+ stem: saj.
+ gramm: V,intr,npst
+ paradigm: V-agr-odd-j
+ gloss: rot.NPST
+ gloss_ru: гнить.NPST
+ trans_en: rot
+ trans_ru: гнить
+
+-lexeme
  lex: sājkal
  stem: sājkal.
  gramm: V,intr
@@ -10803,9 +10843,9 @@
  stem: sāŋkwəlt.//sāŋəlt.
  gramm: V
  paradigm: V_even
- gloss: play.lyre
+ gloss: play.string.instrument
  gloss_ru: играть.на.санквылтапе
- trans_en: play lyre; rattle
+ trans_en: play a string instrument; rattle
  trans_ru: играть на санквылтапе; греметь, бренчать
 
 -lexeme
@@ -10813,9 +10853,9 @@
  stem: sāŋkwəltap.
  gramm: N
  paradigm: N_odd
- gloss: lyre
+ gloss: string.instrument
  gloss_ru: санквылтап
- trans_en: lyre
+ trans_en: string instrument
  trans_ru: санквылтап
 
 -lexeme
@@ -11809,6 +11849,16 @@
  trans_ru: годиться
 
 -lexeme
+ lex: taj
+ stem: taj.
+ gramm: V,intr,npst
+ paradigm: V-agr-odd-j
+ gloss: be.good.for.NPST
+ gloss_ru: годиться.NPST
+ trans_en: be goof for
+ trans_ru: годиться
+
+-lexeme
  lex: tajax
  stem: tajax.
  gramm: ADV
@@ -12749,6 +12799,16 @@
  trans_ru: толкать
 
 -lexeme
+ lex: tuj
+ stem: tuj.
+ gramm: V,npst
+ paradigm: V-agr-odd-j
+ gloss: push.NPST
+ gloss_ru: толкать.NPST
+ trans_en: push
+ trans_ru: толкать
+
+-lexeme
  lex: tūja
  stem: tūja.
  gramm: N
@@ -13129,6 +13189,16 @@
  trans_ru: плыть
 
 -lexeme
+ lex: ūj
+ stem: ūj.
+ gramm: V,intr,npst
+ paradigm: V-agr-odd-j
+ gloss: swim.NPST
+ gloss_ru: плыть.NPST
+ trans_en: swim
+ trans_ru: плыть
+
+-lexeme
  lex: ūjriɕ
  stem: ūjriɕ.
  gramm: N
@@ -13295,6 +13365,16 @@
  paradigm: V_odd
  gloss: moo
  gloss_ru: мычать
+ trans_en: moo
+ trans_ru: мычать
+
+-lexeme
+ lex: umj
+ stem: umj.
+ gramm: V,intr,npst
+ paradigm: V-agr-odd-j
+ gloss: moo.NPST
+ gloss_ru: мычать.NPST
  trans_en: moo
  trans_ru: мычать
 
@@ -15289,6 +15369,16 @@
  trans_ru: попасть
 
 -lexeme
+ lex: xōj
+ stem: xōj.
+ gramm: V,intr,npst
+ paradigm: V-agr-odd-j
+ gloss: hit.NPST
+ gloss_ru: попасть.NPST
+ trans_en: hit
+ trans_ru: попасть
+
+-lexeme
  lex: xol
  stem: xol.
  gramm: N
@@ -15705,6 +15795,16 @@
  paradigm: V_odd
  gloss: lie
  gloss_ru: лежать
+ trans_en: lie
+ trans_ru: лежать
+
+-lexeme
+ lex: xuj
+ stem: xuj.
+ gramm: V,intr,npst
+ paradigm: V-agr-odd-j
+ gloss: lie.NPST
+ gloss_ru: лежать.NPST
  trans_en: lie
  trans_ru: лежать
 
@@ -16595,6 +16695,16 @@
  paradigm: V_odd
  gloss: shove.in
  gloss_ru: вталкивать
+ trans_en: shove in
+ trans_ru: вталкивать
+
+-lexeme
+ lex: ɕuj
+ stem: ɕuj.
+ gramm: V,npst
+ paradigm: V-agr-odd-j
+ gloss: shove.in.NPST
+ gloss_ru: вталкивать.NPST
  trans_en: shove in
  trans_ru: вталкивать
 

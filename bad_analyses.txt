@@ -2,5 +2,6 @@
   {"gloss": ".*PTCP.*-(VBL?Z|PROP).*"},
   {"wfGlossed": ".*-i-ɣ$", "gloss": ".*NPST-3DU$"},
   {"wfGlossed": "^ēr-ɣ-.*", "gloss": "^be\\.needed-ASP.*"},
+  {"wfGlossed": "^nom-s-.*", "gloss": "^remember-ASP.*"},
   {"gramm": "V.*,intr(.(?!(\\btr,|cau)))*objc.*"}
 ]

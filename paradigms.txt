@@ -10,8 +10,8 @@
   gramm: ord
   gloss: ORD
  -flex: .intiɣ//.ittiɣ
-  gramm: iter
-  gloss: ITER
+  gramm: iter_num
+  gloss: ITER.NUM
  -flex: .l//.əl
   gramm: ins
   gloss: INS
@@ -27,8 +27,8 @@
   gramm: ord
   gloss: ORD
  -flex: .intiɣ//.ittiɣ
-  gramm: iter
-  gloss: ITER
+  gramm: iter_num
+  gloss: ITER.NUM
  -flex: .l//.əl
   gramm: ins
   gloss: INS
@@ -44,8 +44,8 @@
   gramm: ord
   gloss: ORD
  -flex: <1>.intiɣ//<1>.ittiɣ
-  gramm: iter
-  gloss: ITER
+  gramm: iter_num
+  gloss: ITER.NUM
  -flex: <0>.l//<1>.əl
   gramm: ins
   gloss: INS
@@ -61,8 +61,8 @@
   gramm: ord
   gloss: ORD
  -flex: <1>.intiɣ//<1>.ittiɣ
-  gramm: iter
-  gloss: ITER
+  gramm: iter_num
+  gloss: ITER.NUM
  -flex: <0>.l//<1>.əl
   gramm: ins
   gloss: INS
@@ -1751,8 +1751,9 @@
  -flex: .iɣl<.>//.il<.>
   gramm: asp
   gloss: ASP
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
   paradigm: V_asp2_even
- -flex: .aml<.>
+ -flex: .aml<.>//.uml<.>
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_even
@@ -1918,8 +1919,9 @@
  -flex: .iɣl<.>//.il<.>
   gramm: asp
   gloss: ASP
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
   paradigm: V_asp2_odd
- -flex: .aml<.>
+ -flex: .aml<.>//.uml<.>
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_odd
@@ -2029,8 +2031,9 @@
  -flex: .iɣl<.>//.il<.>
   gramm: asp
   gloss: ASP
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
   paradigm: V_main_odd
- -flex: .aml<.>
+ -flex: .aml<.>//.uml<.>
   gramm: asp
   gloss: ASP
   paradigm: V_main_odd
@@ -2163,8 +2166,9 @@
  -flex: .iɣl<.>//.il<.>
   gramm: asp
   gloss: ASP
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
   paradigm: V_main_even
- -flex: .aml<.>
+ -flex: .aml<.>//.uml<.>
   gramm: asp
   gloss: ASP
   paradigm: V_main_even
@@ -2917,6 +2921,21 @@
   paradigm: V-agr-12s
   paradigm: V-agr-3npls
  -flex: .aɣ<.>//.jaɣ<.>
+  gramm: du.o,objc
+  gloss: DU.O
+  paradigm: V-agr-s-obj
+
+
+-paradigm: V-agr-odd-j
+ -flex: .anəl
+  gramm: sg.o,pl.o,objc,3.s,pl.s
+  gloss: 3PL.S
+ -flex: .an<.>
+  gramm: pl.o,objc
+  gloss: PL.O
+  paradigm: V-agr-12s
+  paradigm: V-agr-3npls
+ -flex: .aɣ<.>
   gramm: du.o,objc
   gloss: DU.O
   paradigm: V-agr-s-obj
