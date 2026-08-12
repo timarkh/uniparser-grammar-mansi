@@ -330,6 +330,9 @@ class MansiAnalyzer(Analyzer):
                     sortedGoodAnas[i] = [ana for ana in sortedGoodAnas[i]
                                          if rxHyphens.sub('', ana.wfGlossed) == rxHyphens.sub('', word)]
                 return sortedGoodAnas[i]
+        if any(rxHyphens.sub('', ana.wfGlossed) == rxHyphens.sub('', word) for ana in anas):
+            anas = [ana for ana in anas
+                    if rxHyphens.sub('', ana.wfGlossed) == rxHyphens.sub('', word)]
         return anas
 
 
