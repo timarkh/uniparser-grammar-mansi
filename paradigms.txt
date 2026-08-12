@@ -1119,8 +1119,8 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
- -flex: .upt<.>
-  gramm: caus,caus_upt
+ -flex: .upt<.>//.apt<.>
+  gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
@@ -1199,8 +1199,8 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
- -flex: .upt<.>
-  gramm: caus,caus_upt
+ -flex: .upt<.>//.apt<.>
+  gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
@@ -1279,8 +1279,8 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
- -flex: <0>.upt<.>
-  gramm: caus,caus_upt
+ -flex: <0>.upt<.>//<0>.apt<.>
+  gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_odd
   paradigm: V_asp_odd_vowel
@@ -1350,8 +1350,8 @@
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
   paradigm: V_main_odd
- -flex: .upt<.>
-  gramm: caus,caus_upt
+ -flex: .upt<.>//.apt<.>
+  gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
@@ -1429,8 +1429,8 @@
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
   paradigm: V_main_odd
- -flex: .upt<.>
-  gramm: caus,caus_upt
+ -flex: .upt<.>//.apt<.>
+  gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel
@@ -1508,8 +1508,8 @@
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
   paradigm: V_main_odd
- -flex: <0>.upt<.>
-  gramm: caus,caus_upt
+ -flex: <0>.upt<.>//<0>.apt<.>
+  gramm: caus,caus_pt
   gloss: CAUS
   paradigm: V_voice2_even
   paradigm: V_asp_even_vowel

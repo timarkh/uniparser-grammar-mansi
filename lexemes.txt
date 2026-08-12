@@ -11830,7 +11830,7 @@
 
 -lexeme
  lex: taj
- stem: taj.
+ stem: NONE_taj.
  gramm: N
  paradigm: N_odd
  gloss: scoop

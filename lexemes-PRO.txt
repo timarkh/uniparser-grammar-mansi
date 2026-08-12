@@ -580,11 +580,21 @@
  lex: tiji
  stem: tiji.
  gramm: PRON
- paradigm: ADJ_even
+ paradigm: N_even
  gloss: this
  gloss_ru: это
  trans_en: this
  trans_ru: это
+
+-lexeme
+ lex: taj
+ stem: taj.
+ gramm: PRON
+ paradigm: N_even
+ gloss: that
+ gloss_ru: то
+ trans_en: that
+ trans_ru: то
 
 -lexeme
  lex: tit
