@@ -134,6 +134,14 @@ def mansi_translit_cyrillic(text):
     res = rxCJV.sub(lambda m: 'ъ' + cyrHard2Soft[m.group(1).lower()], res)
     res = res.replace("'", 'ь')
     res = rxExtraSoft.sub('\\1\\1', res)
+    res = res.replace('ӣ', 'ӣ')
+    res = res.replace('ӣ'.upper(), 'ӣ'.upper())
+    res = res.replace('ӯ', 'ӯ')
+    res = res.replace('ӯ'.upper(), 'ӯ'.upper())
+    res = res.replace('иг', 'ыг')
+    res = res.replace('иг'.upper(), 'ыг'.upper())
+    res = res.replace('ӣг', 'ы̄г')
+    res = res.replace('ӣг'.upper(), 'ы̄г'.upper())
 
     if res in cyrReplacements:
         res = cyrReplacements[res]

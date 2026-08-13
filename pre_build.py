@@ -457,8 +457,10 @@ if __name__ == '__main__':
     from uniparser_mansi_lat import MansiAnalyzer
     a = MansiAnalyzer(mode='strict')
     for wf in a.analyze_words([
-        'ōjka',
-        'minas',
+        'mān',
+        'poranəl',
+        'mineɣ',
+        'n\'olpa',
         'minasmēn',
         'minasasmēn',
         'jōmliɣtapas',
@@ -489,6 +491,7 @@ if __name__ == '__main__':
     a.glossBrackets = True
     for wf in a.analyze_words([
         'ojka',
+        'xulaŋ',
         'tajapeln',
         'minas',
         'minās',

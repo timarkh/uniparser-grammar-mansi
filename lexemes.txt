@@ -21,7 +21,7 @@
 -lexeme
  lex: Kāsum
  stem: kāsum.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Kazym
  gloss_ru: Казым
@@ -31,7 +31,7 @@
 -lexeme
  lex: Lepla
  stem: lepla.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Leplya
  gloss_ru: Лепля
@@ -61,7 +61,7 @@
 -lexeme
  lex: N'axɕumwol'
  stem: n'axɕumwol'.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_odd
  gloss: Nyaximvol
  gloss_ru: Няксимволь
@@ -71,7 +71,7 @@
 -lexeme
  lex: N'il'taŋ
  stem: n'il'taŋ.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Nildino
  gloss_ru: Нильдино
@@ -81,12 +81,12 @@
 -lexeme
  lex: Pastər
  stem: pastər.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Pastyr
- gloss_ru: Пастыр
+ gloss_ru: Пашторы
  trans_en: Pastyr
- trans_ru: Пастыр
+ trans_ru: Пашторы
 
 -lexeme
  lex: Pet'ka
@@ -111,7 +111,7 @@
 -lexeme
  lex: Pulŋawt
  stem: pulŋawt.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Polnowat
  gloss_ru: Полноват
@@ -121,7 +121,7 @@
 -lexeme
  lex: Sākw
  stem: sākw.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_odd
  gloss: Sygva
  gloss_ru: Сыгва
@@ -131,7 +131,7 @@
 -lexeme
  lex: Tāɣt
  stem: tāɣt.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_odd
  gloss: Sosva
  gloss_ru: Сосьва
@@ -141,7 +141,7 @@
 -lexeme
  lex: Tapəs
  stem: tapəs.|taps.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even-syncop
  gloss: Tapsuj
  gloss_ru: Тапсуй
@@ -151,7 +151,7 @@
 -lexeme
  lex: L'en'in
  stem: l'en'in.
- gramm: N,PN
+ gramm: N,PN,famn
  paradigm: N_even
  gloss: Lenin
  gloss_ru: Ленин
@@ -161,7 +161,7 @@
 -lexeme
  lex: L'en'ingrad
  stem: l'en'ingrad.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_odd
  gloss: Leningrad
  gloss_ru: Ленинград
@@ -171,7 +171,7 @@
 -lexeme
  lex: Moskwa
  stem: moskwa.//maskwa.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Moscow
  gloss_ru: Москва
@@ -181,7 +181,7 @@
 -lexeme
  lex: T'umen'
  stem: t'umen'.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Tyumen
  gloss_ru: Тюмень
@@ -191,7 +191,7 @@
 -lexeme
  lex: Īsus
  stem: īsus.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_even
  gloss: Jesus
  gloss_ru: Иисус
@@ -201,7 +201,7 @@
 -lexeme
  lex: Ioan
  stem: ioan.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_odd
  gloss: John
  gloss_ru: Иоанн
@@ -220,9 +220,9 @@
 
 -lexeme
  lex: tōrum
- stem: tōrum.
+ stem: tōrum.|tōrum.//tōrm.
  gramm: N
- paradigm: N_even
+ paradigm: N_even-syncop
  gloss: God
  gloss_ru: Бог
  trans_en: God
@@ -2250,7 +2250,7 @@
 
 -lexeme
  lex: janiɣ
- stem: janiɣ.|janɣ.//jan.
+ stem: janiɣ.|janɣ.
  gramm: ADJ
  paradigm: ADJ_even-syncop
  gloss: big
@@ -2474,6 +2474,16 @@
  gramm: V,intr,npst,subjc,3.s,sg.s
  paradigm: unchangeable
  gloss: go.NPST.3SG
+ gloss_ru: идти
+ trans_en: go
+ trans_ru: идти (к говорящему)
+
+-lexeme
+ lex: ji
+ stem: juw.
+ gramm: V,intr,npst,subjc
+ paradigm: V-agr-s
+ gloss: go.NPST
  gloss_ru: идти
  trans_en: go
  trans_ru: идти (к говорящему)
@@ -7665,8 +7675,8 @@
  paradigm: unchangeable
  gloss: ADD
  gloss_ru: ADD
- trans_en: ADD
- trans_ru: ADD
+ trans_en: also, again
+ trans_ru: тоже, опять
 
 -lexeme
  lex: osma
@@ -9289,16 +9299,6 @@
  trans_ru: пасынок
 
 -lexeme
- lex: poxt
- stem: poxt.
- gramm: V
- paradigm: V_odd
- gloss: cling
- gloss_ru: вцепиться
- trans_en: cling
- trans_ru: вцепиться
-
--lexeme
  lex: poɕ
  stem: poɕ.
  gramm: N
@@ -9650,13 +9650,13 @@
 
 -lexeme
  lex: pūxt
- stem: pūxt.
+ stem: pūxt.//poxt.
  gramm: V,intr
  paradigm: V_odd
  gloss: grasp
  gloss_ru: взяться
- trans_en: grasp
- trans_ru: взяться
+ trans_en: grasp, cling
+ trans_ru: взяться, вцепиться
 
 -lexeme
  lex: puŋk

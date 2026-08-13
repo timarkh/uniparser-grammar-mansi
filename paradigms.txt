@@ -299,11 +299,11 @@
  -flex: .en//.ēn
   gramm: 2du_pl
   gloss: POSS.2DU/PL
- -flex: .te//.tē
+ -flex: .te
   gramm: 3sg
   gloss: POSS.3SG
   regex-prev: .*[aeiouāēīōūə][.<>]*$
- -flex: .e//.ē
+ -flex: .e
   gramm: 3sg
   gloss: POSS.3SG
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
@@ -337,7 +337,7 @@
  -flex: .en//.ēn
   gramm: 2du_pl
   gloss: POSS.2DU/PL
- -flex: .e//.ē
+ -flex: .e
   gramm: 3sg
   gloss: POSS.3SG
  -flex: .en//.ēn
@@ -720,7 +720,7 @@
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
- -flex: .up<.>
+ -flex: .up<.>//.pa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
@@ -742,7 +742,7 @@
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
- -flex: .up<.>
+ -flex: .up<.>//<0>.pa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
@@ -764,7 +764,7 @@
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
- -flex: <0>.up<.>
+ -flex: <0>.up<.>//.pa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
@@ -786,7 +786,7 @@
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
- -flex: .up<.>
+ -flex: .up<.>//.pa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
@@ -808,7 +808,7 @@
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
- -flex: .up<.>
+ -flex: .up<.>//<0>.pa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
@@ -830,7 +830,7 @@
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_odd
- -flex: <0>.up<.>
+ -flex: <0>.up<.>//.pa<.>
   gramm: prop,prop2
   gloss: PROP2
   paradigm: ADJ_even
@@ -998,14 +998,24 @@
  -flex: .en<.>//.ēn<.>
   gramm: 2du_pl
   gloss: POSS.2DU/PL
- -flex: .te<.>//.tē<.>
+ -flex: .te<.>
   gramm: 3sg
   gloss: POSS.3SG
   regex-prev: .*[aeiouāēīōūə][.<>]*$
- -flex: .e<.>//.ē<.>
+ -flex: .tē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+  regex-next: ^[.<>0-9,]*[a-zāēīōūəɕɣŋ].*
+ -flex: .e<.>
   gramm: 3sg
   gloss: POSS.3SG
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .ē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+  regex-next: ^[.<>0-9,]*[a-zāēīōūəɕɣŋ].*
  -flex: .tēn<.>
   gramm: 3du
   gloss: POSS.3DU
@@ -1036,9 +1046,13 @@
  -flex: .en<.>//.ēn<.>
   gramm: 2du_pl
   gloss: POSS.2DU/PL
- -flex: .e<.>//.ē<.>
+ -flex: .e<.>
   gramm: 3sg
   gloss: POSS.3SG
+ -flex: .ē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-next: ^[.<>0-9,]*[a-zāēīōūəɕɣŋ].*
  -flex: .en<.>//.ēn<.>
   gramm: 3du
   gloss: POSS.3DU
@@ -1067,9 +1081,13 @@
  -flex: <0>.en<.>//<0>.ēn<.>
   gramm: 2du_pl
   gloss: POSS.2DU/PL
- -flex: <0>.e<.>//<0>.ē<.>
+ -flex: <0>.e<.>
   gramm: 3sg
   gloss: POSS.3SG
+ -flex: <0>.ē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-next: ^[.<>0-9,]*[a-zāēīōūəɕɣŋ].*
  -flex: <0>.en<.>//<0>.ēn<.>
   gramm: 3du
   gloss: POSS.3DU
@@ -2369,7 +2387,7 @@
   gramm: pass,npst
   gloss: PASS.NPST
   paradigm: V-agr-s
- -flex: .we//.wē//.awe//.awē//.uwe
+ -flex: .we//.awe//.uwe
   gramm: pass,npst,subjc,3.s,sg.s
   gloss: PASS.NPST.3SG
  -flex: .we|ēɣ<.>//.wē|ēɣ<.>//.awe|ēɣ<.>//.awē|ēɣ<.>//.uwe|ēɣ<.>
@@ -2517,7 +2535,7 @@
   gramm: pass,npst
   gloss: PASS.NPST
   paradigm: V-agr-s
- -flex: .we//.wē//.awe//.awē//.uwe
+ -flex: .we//.awe//.uwe
   gramm: pass,npst,subjc,3.s,sg.s
   gloss: PASS.NPST.3SG
  -flex: .we|ēɣ<.>//.wē|ēɣ<.>//.awe|ēɣ<.>//.awē|ēɣ<.>//.uwe|ēɣ<.>
@@ -2661,7 +2679,7 @@
   gramm: pass,npst
   gloss: PASS.NPST
   paradigm: V-agr-s
- -flex: .we//.wē//.awe//.awē//.uwe
+ -flex: .we//.awe//.uwe
   gramm: pass,npst,subjc,3.s,sg.s
   gloss: PASS.NPST.3SG
  
@@ -3084,6 +3102,10 @@
 -paradigm: PRON_pers
  -flex: .
   gramm: nom
+ -flex: .kkē<.>
+  gramm: sol
+  gloss: SOL
+  paradigm: POSTP_default
  -flex: .ki<.>
   gramm: emph,nom
   gloss: EMPH

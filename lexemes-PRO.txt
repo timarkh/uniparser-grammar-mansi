@@ -6,8 +6,8 @@
  gramm: PRON,pers,nom
  gloss: 1SG
  gloss_ru: 1SG
- trans_en: 1SG
- trans_ru: 1SG
+ trans_en: I
+ trans_ru: я
  paradigm: PRON_pers
 
 -lexeme
@@ -16,8 +16,8 @@
  gramm: PRON,pers,obl
  gloss: 1SG.OBL
  gloss_ru: 1SG.OBL
- trans_en: 1SG OBL
- trans_ru: 1SG OBL
+ trans_en: I
+ trans_ru: я
  paradigm: unchangeable
 
 -lexeme
@@ -26,8 +26,8 @@
  gramm: PRON,pers,lat
  gloss: 1SG.OBL&LAT
  gloss_ru: 1SG.OBL&LAT
- trans_en: 1SG OBL&LAT
- trans_ru: 1SG OBL&LAT
+ trans_en: I
+ trans_ru: я
  paradigm: unchangeable
 
 -lexeme
@@ -36,8 +36,8 @@
  gramm: PRON,pers,abl
  gloss: 1SG.OBL&ABL
  gloss_ru: 1SG.OBL&ABL
- trans_en: 1SG OBL&ABL
- trans_ru: 1SG OBL&ABL
+ trans_en: I
+ trans_ru: я
  paradigm: unchangeable
 
 -lexeme
@@ -46,8 +46,8 @@
  gramm: PRON,pers,ins
  gloss: 1SG.OBL&INS
  gloss_ru: 1SG.OBL&INS
- trans_en: 1SG OBL&INS
- trans_ru: 1SG OBL&INS
+ trans_en: I
+ trans_ru: я
  paradigm: unchangeable
 
 -lexeme
@@ -56,8 +56,8 @@
  gramm: PRON,pers,nom
  gloss: 2SG
  gloss_ru: 2SG
- trans_en: 2SG
- trans_ru: 2SG
+ trans_en: you
+ trans_ru: ты
  paradigm: PRON_pers
 
 -lexeme
@@ -66,8 +66,8 @@
  gramm: PRON,pers,obl
  gloss: 2SG.OBL
  gloss_ru: 2SG.OBL
- trans_en: 2SG OBL
- trans_ru: 2SG OBL
+ trans_en: you
+ trans_ru: ты
  paradigm: unchangeable
 
 -lexeme
@@ -76,8 +76,8 @@
  gramm: PRON,pers,lat
  gloss: 2SG.OBL&LAT
  gloss_ru: 2SG.OBL&LAT
- trans_en: 2SG OBL&LAT
- trans_ru: 2SG OBL&LAT
+ trans_en: you
+ trans_ru: ты
  paradigm: unchangeable
 
 -lexeme
@@ -86,8 +86,8 @@
  gramm: PRON,pers,abl
  gloss: 2SG.OBL&ABL
  gloss_ru: 2SG.OBL&ABL
- trans_en: 2SG OBL&ABL
- trans_ru: 2SG OBL&ABL
+ trans_en: you
+ trans_ru: ты
  paradigm: unchangeable
 
 -lexeme
@@ -96,8 +96,8 @@
  gramm: PRON,pers,ins
  gloss: 2SG.OBL&INS
  gloss_ru: 2SG.OBL&INS
- trans_en: 2SG OBL&INS
- trans_ru: 2SG OBL&INS
+ trans_en: you
+ trans_ru: ты
  paradigm: unchangeable
 
 -lexeme
@@ -106,18 +106,28 @@
  gramm: PRON,pers,nom
  gloss: 3SG
  gloss_ru: 3SG
- trans_en: 3SG
- trans_ru: 3SG
+ trans_en: он, она, оно
+ trans_ru: he, she, it
  paradigm: unchangeable
 
 -lexeme
  lex: taw
- stem: takwi.//takkēt.//takkēte.
+ stem: takwi.
  gramm: PRON,pers,emph
  gloss: 3SG.EMPH
  gloss_ru: 3SG.EMPH
- trans_en: 3SG EMPH
- trans_ru: 3SG EMPH
+ trans_en: он, она, оно
+ trans_ru: he, she, it
+ paradigm: PRON_pers_emph
+
+-lexeme
+ lex: taw
+ stem: ta&kkē&t.//ta&kkē&te.
+ gramm: PRON,pers,sol,3sg
+ gloss: 3SG&SOL&POSS.3SG
+ gloss_ru: 3SG&SOL&POSS.3SG
+ trans_en: он, она, оно
+ trans_ru: he, she, it
  paradigm: PRON_pers_emph
 
 -lexeme
@@ -126,8 +136,8 @@
  gramm: PRON,pers,obl
  gloss: 3SG.OBL
  gloss_ru: 3SG.OBL
- trans_en: 3SG OBL
- trans_ru: 3SG OBL
+ trans_en: он, она, оно
+ trans_ru: he, she, it
  paradigm: unchangeable
 
 -lexeme
@@ -136,8 +146,8 @@
  gramm: PRON,pers,lat
  gloss: 3SG.OBL&LAT
  gloss_ru: 3SG.OBL&LAT
- trans_en: 3SG OBL&LAT
- trans_ru: 3SG OBL&LAT
+ trans_en: он, она, оно
+ trans_ru: he, she, it
  paradigm: unchangeable
 
 -lexeme
@@ -146,8 +156,8 @@
  gramm: PRON,pers,abl
  gloss: 3SG.OBL&ABL
  gloss_ru: 3SG.OBL&ABL
- trans_en: 3SG OBL&ABL
- trans_ru: 3SG OBL&ABL
+ trans_en: он, она, оно
+ trans_ru: he, she, it
  paradigm: unchangeable
 
 -lexeme
@@ -156,8 +166,8 @@
  gramm: PRON,pers,ins
  gloss: 3SG.OBL&INS
  gloss_ru: 3SG.OBL&INS
- trans_en: 3SG OBL&INS
- trans_ru: 3SG OBL&INS
+ trans_en: он, она, оно
+ trans_ru: he, she, it
  paradigm: unchangeable
 
 -lexeme
@@ -492,7 +502,7 @@
  gramm: PRON
  paradigm: ADJ_even
  gloss: that&APPR
- gloss_ru: то&APPR
+ gloss_ru: тот&APPR
  trans_en: that much
  trans_ru: такой, настолько
 
@@ -502,7 +512,7 @@
  gramm: PRON
  paradigm: ADV
  gloss: that&APPR&INS
- gloss_ru: то&APPR&INS
+ gloss_ru: тот&APPR&INS
  trans_en: that much
  trans_ru: такой, настолько
 
@@ -515,6 +525,26 @@
  gloss_ru: этот
  trans_en: this
  trans_ru: этот
+
+-lexeme
+ lex: tikem
+ stem: ti&kem.
+ gramm: PRON
+ paradigm: ADJ_even
+ gloss: this&APPR
+ gloss_ru: этот&APPR
+ trans_en: this much
+ trans_ru: такой, настолько
+
+-lexeme
+ lex: tikem
+ stem: ti&kem&əl.
+ gramm: PRON
+ paradigm: ADV
+ gloss: this&APPR&INS
+ gloss_ru: этот&APPR&INS
+ trans_en: this much
+ trans_ru: такой, настолько
 
 -lexeme
  lex: tiɣ
@@ -641,6 +671,16 @@
  trans_ru: где
 
 -lexeme
+ lex: nēmxōt
+ stem: nēm&xōt.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&where
+ gloss_ru: PRON.NEG&где
+ trans_en: nowhere
+ trans_ru: нигде
+
+-lexeme
  lex: xotəl'
  stem: xotəl'.
  gramm: PRON
@@ -651,6 +691,16 @@
  trans_ru: откуда
 
 -lexeme
+ lex: nēmxotəl'
+ stem: nēm&xotəl'.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&from.where
+ gloss_ru: PRON.NEG&откуда
+ trans_en: from nowhere
+ trans_ru: ниоткуда
+
+-lexeme
  lex: xotal'
  stem: xotal'.
  gramm: PRON
@@ -659,6 +709,16 @@
  gloss_ru: куда
  trans_en: to where
  trans_ru: куда
+
+-lexeme
+ lex: nēmxotal'
+ stem: nēm&xotal'.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&to.where
+ gloss_ru: PRON.NEG&куда
+ trans_en: to nowhere
+ trans_ru: никуда
 
 -lexeme
  lex: xott
@@ -701,6 +761,16 @@
  trans_ru: кто
 
 -lexeme
+ lex: nēmxotjut
+ stem: nēm&xotjut.
+ gramm: PRON
+ paradigm: N_even
+ gloss: PRON.NEG&who
+ gloss_ru: PRON.NEG&кто
+ trans_en: nobody
+ trans_ru: никто
+
+-lexeme
  lex: manər
  stem: manər.|manr.
  gramm: PRON
@@ -709,6 +779,16 @@
  gloss_ru: что
  trans_en: what
  trans_ru: что
+
+-lexeme
+ lex: nēmanər
+ stem: nē&manər.|nē&manr.
+ gramm: PRON
+ paradigm: N_even
+ gloss: PRON.NEG&what
+ gloss_ru: PRON.NEG&что
+ trans_en: nothing
+ trans_ru: ничто
 
 -lexeme
  lex: manar
@@ -741,14 +821,34 @@
  trans_ru: почему
 
 -lexeme
+ lex: nēmanriɣ
+ stem: nē&manriɣ.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&why
+ gloss_ru: PRON.NEG&почему
+ trans_en: no reason
+ trans_ru: нипочему
+
+-lexeme
  lex: manax
  stem: manax.
- gramm: X
+ gramm: PRON
  paradigm: unchangeable
  gloss: how.much
  gloss_ru: сколько
  trans_en: how much
  trans_ru: сколько
+
+-lexeme
+ lex: nēmanax
+ stem: nē&manax.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&how.much
+ gloss_ru: PRON.NEG&сколько
+ trans_en: no amount
+ trans_ru: нисколько
 
 -lexeme
  lex: matər
@@ -772,21 +872,21 @@
 
 -lexeme
  lex: nēmatər
- stem: nēmatər.
+ stem: nē&matər.
  gramm: PRON
  paradigm: N_even
- gloss: nothing
- gloss_ru: ничего
+ gloss: PRON.NEG&something
+ gloss_ru: PRON.NEG&что.то
  trans_en: nothing
  trans_ru: ничего
 
 -lexeme
  lex: nēmat
- stem: nēmat.
+ stem: nē&mat.
  gramm: PRON
  paradigm: ADV
- gloss: none
- gloss_ru: никакой
+ gloss: PRON.NEG&what.kind
+ gloss_ru: PRON.NEG&какой
  trans_en: none
  trans_ru: никакой
 
@@ -811,6 +911,16 @@
  trans_ru: кто
 
 -lexeme
+ lex: nēmxōŋxa
+ stem: nēm&xōŋxa.
+ gramm: PRON
+ paradigm: N_even
+ gloss: PRON.NEG&who
+ gloss_ru: PRON.NEG&кто
+ trans_en: nobody
+ trans_ru: никто
+
+-lexeme
  lex: xumus
  stem: xumus.//xomus.
  gramm: PRON
@@ -819,6 +929,16 @@
  gloss_ru: как
  trans_en: how
  trans_ru: как
+
+-lexeme
+ lex: nēmxumus
+ stem: nēm&xumus.//nēm&xomus.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&how
+ gloss_ru: PRON.NEG&как
+ trans_en: no way
+ trans_ru: никак
 
 -lexeme
  lex: xotum

@@ -19,6 +19,7 @@ SECTION    # Preverbs and other proclitics
 REMOVE (procl)
     IF (0 NotProclitics)
        (NEGATE *1 V BARRIER NotProclitics)
+       (*1 (N) OR (ADJ) OR (ADV) OR (NUM) OR (PRON) OR (POSTP) OR (INTRJ) OR (X) BARRIER NotProclitics)
        (NEGATE -1 ("<ja>"i));
 SELECT (procl) IF (0 ("<juw>"i)) (-1 ("<ta>"i) OR ("<ti>"i));
 SELECT (procl) IF (0 ("<ta>"i) OR ("<ti>"i)) (1 V);
@@ -41,10 +42,15 @@ REMOVE (V ptcp_npst 3sg) IF (0 (V mir 3.s sg.s));
 SELECT (V ptcp_npst) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
 REMOVE (V ptcp_npst 3sg) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
 
+
+
 SECTION    # Nouns
 SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
 
+# PL vs LOC
 SELECT (N pl nom) IF (0 (".*t"r)) (1 ("kīwər"));
+SELECT (N loc) IF (0 (".*t"r)) (0 (N topn));
+
 
 
 # Random homonymy

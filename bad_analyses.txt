@@ -3,5 +3,6 @@
   {"wfGlossed": ".*-i-ɣ$", "gloss": ".*NPST-3DU$"},
   {"wfGlossed": "^ēr-ɣ-.*", "gloss": "^be\\.needed-ASP.*"},
   {"wfGlossed": "^nom-s-.*", "gloss": "^remember-ASP.*"},
-  {"gramm": "V.*,intr(.(?!(\\btr,|cau)))*objc.*"}
+  {"gramm": "V.*,intr(.(?!(\\btr,|cau)))*objc.*"},
+  {"wf": "^mis(it|an(e|um|ən))$", "gramm": "N.*,PN"}
 ]
