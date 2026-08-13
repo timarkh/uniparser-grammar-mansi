@@ -48,10 +48,12 @@ SECTION    # Nouns
 SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
 
 # PL vs LOC
-SELECT (N pl nom) IF (0 (".*t"r)) (1 ("kīwər"));
-SELECT (N loc) IF (0 (".*t"r)) (0 (N topn));
+SELECT (N pl nom) IF (0 ("<.*t>"r)) (1 ("kīwər"));
+SELECT (N loc) IF (0 ("<.*t>"r)) (0 (N topn));
 
 
 
 # Random homonymy
 SELECT (PRON) IF (0 ("<tān>"i)) (*1 ("sāŋkwəlt") OR ("ērɣ") BARRIER NotProclitics);
+
+SELECT (NUM) IF (0 ("<s[aā]t>"r)) (1 ("<tal>") OR ("<tāl>") OR ("<ɕos>"));

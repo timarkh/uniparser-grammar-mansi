@@ -476,7 +476,7 @@ if __name__ == '__main__':
         print(wf)
 
     print('Disambiguation:')
-    for wf in a.analyze_words('taw ta kit pālēn ta xujasiɣ'.split(), format='xml', disambiguate=True):
+    for wf in a.analyze_words('tapəst taw ta kit pālēn ta xujasiɣ'.split(), format='xml', disambiguate=True):
         print(wf)
 
     a.alphabet = 'cyr'
