@@ -1,236 +1,35 @@
 {
-  "ankīm": {
-    "поровну\tequally\t": 1
-  },
-  "il'ja": {
-    "Илья\tIlya\t": 2
-  },
-  "il'jītɕ": {
-    "Ильич\tIlyich\t": 2
-  },
   "iɕl'ēn": {
-    "член\tmember\t": 2,
-    "член\tmember\tN": 2
-  },
-  "janwār'": {
-    "январь\tJanuary\t": 1
-  },
-  "jefīm": {
-    "Ефим\tYefim\t": 2
-  },
-  "jiwānətɕ": {
-    "Иванович\tIvanovich\t": 2
-  },
-  "josaūl": {
-    "есаул\tcossack.captain\t": 2
-  },
-  "jātūs": {
-    "Ятус\tYatus\tN": 2
-  },
-  "kak": {
-    "как\tlike\t": 1
-  },
-  "kapitalīsta": {
-    "капиталист\tcapitalist\tN": 2
-  },
-  "kapūsta": {
-    "капуста\tcabbage\t": 1
-  },
-  "kastal": {
-    "праздновать\tcelebrate\tV": 1
-  },
-  "kaɕnā": {
-    "казна\ttreasury\tN": 1
-  },
-  "kirpiɕ": {
-    "кирпич\tbrick\t": 1
+    "член\tmember\tN": 9
   },
   "kolxōs": {
-    "колхоз\tcollective.farm\t": 4,
-    "колхоз\tcollective.farm\tN": 2
-  },
-  "komitēt": {
-    "комитет\tcommittee\t": 4
-  },
-  "kommūna": {
-    "коммуна\tcommune\t": 1
-  },
-  "komsomōl": {
-    "Комсомол\tKomsomol\tN": 1,
-    "комсомол\tKomsomol\t": 1
-  },
-  "kr'est'jān": {
-    "крестьянин\tpeasant\t": 20
-  },
-  "krikōrij": {
-    "Григорий\tGrigory\t": 2
-  },
-  "kāmin't": {
-    "мягкий\tsoft\t": 1
-  },
-  "kānaɕ": {
-    "князь\tprince\t": 4
-  },
-  "kārkam": {
-    "усердный\tdiligent\t": 1
-  },
-  "kāsnākol": {
-    "тюрьма\tprison\tN": 2
+    "колхоз\tcollective.farm\tN": 9
   },
   "kāɕ": {
-    "штаны\tpants\t": 1,
-    "штаны\tpants\tN": 1
-  },
-  "kōperatsija": {
-    "кооператив\tcooperative\t": 1
-  },
-  "kōpn'it": {
-    "легкий\teasy\t": 2
-  },
-  "kōpnit": {
-    "легкий\teasy\t": 2
-  },
-  "l'ūpajt": {
-    "любить\tlove\tV": 1
+    "штаны\tpants\tN": 10
   },
   "lāst'": {
-    "власть\tpower\t": 3,
-    "власть\tpower\tN": 1
-  },
-  "lūji": {
-    "северный\tnorthern\t": 20
-  },
-  "mil'jōn": {
-    "миллион\tmillion\t": 1
-  },
-  "morkōwka": {
-    "морковь\tcarrots\t": 2
-  },
-  "māj": {
-    "май\tMay\t": 8
-  },
-  "mārt": {
-    "март\tMarch\t": 3
-  },
-  "n'ololow": {
-    "восемь\teight\tNUM": 3
-  },
-  "nikolāewitɕ": {
-    "Николаевич\tNikolayevich\t": 2
+    "власть\tpower\tN": 10
   },
   "nēɣra": {
-    "негр\tBlack.person\t": 3,
     "негр\tBlack.person\tN": 8
   },
-  "pasa": {
-    "база\tbase\t": 2
-  },
-  "petrōwitɕ": {
-    "Петрович\tPetrovich\t": 2
-  },
-  "pionēr": {
-    "пионер\tpioneer\tN": 5
-  },
   "pretsetāt'el'": {
-    "председатель\tchairman\t": 2,
-    "председатель\tchairman\tN": 1
-  },
-  "pārs": {
-    "прибыль\t\t": 4,
-    "прибыль\t\tN": 2
+    "председатель\tchairman\tN": 10
   },
   "pārt'i": {
-    "партия\tparty\t": 4,
-    "партия\tparty\tN": 2
-  },
-  "pāwel": {
-    "Павел\tPavel\t": 2
-  },
-  "pērɕ": {
-    "бороться\tfight\tV": 1
+    "партия\tparty\tN": 20
   },
   "pōl'nītsa": {
-    "больница\thospital\t": 10,
     "больница\thospital\tN": 6
   },
-  "pōt": {
-    "налог\ttax\tN": 14
-  },
-  "pōxan": {
-    "возле\tnear\t": 1,
-    "прочь\taway\t": 19
-  },
-  "r'ewol'ūtsi": {
-    "революция\trevolution\t": 2,
-    "революция\trevolution\tN": 1
-  },
-  "rapōta": {
-    "работа\twork\t": 1,
-    "работа\twork\tV": 1
-  },
-  "rasaxan": {
-    "лохмотья\trags\t": 1
-  },
-  "resīna": {
-    "резина\trubber\t": 1
-  },
-  "ropōta": {
-    "работа\twork\t": 3,
-    "работа\twork\tN": 1,
-    "работа\twork\tV": 1
+  "rewol'ūtsi": {
+    "революция\trevolution\tN": 10
   },
   "saltāt": {
-    "солдат\tsoldier\t": 3,
-    "солдат\tsoldier\tN": 1
-  },
-  "samār": {
-    "Самарово\tSamar\t": 2
-  },
-  "slon": {
-    "слон\telephant\t": 2
-  },
-  "sowētska": {
-    "Советская\t\t": 2,
-    "Советский\tSoviet\t": 10
-  },
-  "soxtəl": {
-    "прямо\tstraight\t": 1
-  },
-  "sāl'it": {
-    "жалеть\tpity\tV": 2
-  },
-  "sārtn": {
-    "передний\tfront\t": 1
-  },
-  "sōpas": {
-    "запасной\t\t": 2
-  },
-  "sūtka": {
-    "сутки\tday\tN": 1
+    "солдат\tsoldier\tN": 10
   },
   "tōxtor": {
-    "доктор\tdoctor\t": 5,
-    "доктор\tdoctor\tN": 2
-  },
-  "wasīlitɕ": {
-    "Васильевич\tVasilyevich\t": 2
-  },
-  "waɕīli": {
-    "Василий\tVasily\t": 1
-  },
-  "wlat'īmir": {
-    "Владимир\tVladimir\t": 2
-  },
-  "wori": {
-    "упрямство\tstubbornness\t": 2
-  },
-  "ɕimpirsk": {
-    "Симбирск\tSimbirsk\t": 2
-  },
-  "ɕās": {
-    "час\thour\t": 1
-  },
-  "ɕērkal": {
-    "Шеркалы\tSherkal\tN": 2
+    "доктор\tdoctor\tN": 20
   }
 }

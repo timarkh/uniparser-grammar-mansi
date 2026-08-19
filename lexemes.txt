@@ -17407,3 +17407,132 @@
  gloss_ru: Симбирск
  trans_en: Simbirsk, Ulyanovsk
  trans_ru: Симбирск, Ульяновск
+-lexeme
+ lex: iɕl'ēn
+ stem: iɕl'ēn.
+ gramm: N
+ paradigm: N_even
+ gloss: member
+ gloss_ru: член
+ trans_en: member
+ trans_ru: член
+
+-lexeme
+ lex: kāɕ
+ stem: kāɕ.
+ gramm: N
+ paradigm: N_odd
+ gloss: pants
+ gloss_ru: штаны
+ trans_en: pants
+ trans_ru: штаны
+
+-lexeme
+ lex: kolxōs
+ stem: kolxōs.
+ gramm: N
+ paradigm: N_even
+ gloss: collective.farm
+ gloss_ru: колхоз
+ trans_en: collective farm
+ trans_ru: колхоз
+
+-lexeme
+ lex: lāst'
+ stem: lāst'.
+ gramm: N
+ paradigm: N_odd
+ gloss: power
+ gloss_ru: власть
+ trans_en: power
+ trans_ru: власть
+
+-lexeme
+ lex: nēɣra
+ stem: nēɣra.
+ gramm: N
+ paradigm: N_even
+ gloss: Black.person
+ gloss_ru: негр
+ trans_en: Black person
+ trans_ru: негр
+
+-lexeme
+ lex: pārt'i
+ stem: pārt'i.
+ gramm: N
+ paradigm: N_even
+ gloss: party
+ gloss_ru: партия
+ trans_en: party
+ trans_ru: партия
+
+-lexeme
+ lex: pōl'nītsa
+ stem: pōl'nītsa.
+ gramm: N
+ paradigm: N_odd
+ gloss: hospital
+ gloss_ru: больница
+ trans_en: hospital
+ trans_ru: больница
+
+-lexeme
+ lex: pretsetāt'el'
+ stem: pretsetāt'el'.
+ gramm: N
+ paradigm: N_even
+ gloss: chairman
+ gloss_ru: председатель
+ trans_en: chairman
+ trans_ru: председатель
+
+-lexeme
+ lex: rewol'ūtsi
+ stem: rewol'ūtsi.
+ gramm: N
+ paradigm: N_even
+ gloss: revolution
+ gloss_ru: революция
+ trans_en: revolution
+ trans_ru: революция
+
+-lexeme
+ lex: saltāt
+ stem: saltāt.
+ gramm: N
+ paradigm: N_even
+ gloss: soldier
+ gloss_ru: солдат
+ trans_en: soldier
+ trans_ru: солдат
+
+-lexeme
+ lex: tōxtor
+ stem: tōxtor.
+ gramm: N
+ paradigm: N_even
+ gloss: doctor
+ gloss_ru: доктор
+ trans_en: doctor
+ trans_ru: доктор
+
+-lexeme
+ lex: komunīst
+ stem: komunīst.
+ gramm: N
+ paradigm: N_odd
+ gloss: communist
+ gloss_ru: коммунист
+ trans_en: communist
+ trans_ru: коммунист
+
+-lexeme
+ lex: sut
+ stem: sut.
+ gramm: N
+ paradigm: N_odd
+ gloss: judge
+ gloss_ru: судья
+ trans_en: judge, court
+ trans_ru: судья, суд
