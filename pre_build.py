@@ -227,6 +227,8 @@ def make_para(lex, pos, stem=''):
 def make_lexeme(lemma, glossRu, glossEn, pos):
     if pos == '':
         pos = 'unknown'
+    transRu = glossRu.replace('.', ' ')
+    transEn = glossEn.replace('.', ' ')
     pos = re.sub('_guess', '', pos)
     lex = '-lexeme\n'
     lex += ' lex: ' + lemma + '\n'
@@ -234,8 +236,9 @@ def make_lexeme(lemma, glossRu, glossEn, pos):
     lex += ' gramm: ' + pos + '\n'
     lex += ' paradigm: ' + make_para(lemma, pos) + '\n'
     lex += ' gloss: ' + glossEn + '\n'
-    # lex += ' trans_en: ' + glossEn + '\n'
     lex += ' gloss_ru: ' + glossRu + '\n'
+    lex += ' trans_en: ' + transEn + '\n'
+    lex += ' trans_ru: ' + transRu + '\n'
     return lex
 
 
@@ -288,7 +291,7 @@ def clean(s):
 
 
 def convert_lexemes(fnameIn='lexemes.json',
-                    fnameOut='lexemes.txt',
+                    fnameOut='lexemes-add.txt',
                     fnameProcessed=''):
     with open(fnameIn, 'r', encoding='utf-8') as fIn:
         lexJson = json.load(fIn)
@@ -446,9 +449,8 @@ def join_lexemes(fnames):
 
 
 if __name__ == '__main__':
-    # convert_lexemes('lexemes_update.json',
-    #                 'lexemes_update_2026.07.14.txt',
-    #                 'lexemes-mansi-lat.csv')
+    # convert_lexemes('lexemes.json',
+    #                 'lexemes_update_2026.08.19.txt')
     # join_lexemes(['lexemes.txt', 'lexemes_update_2026.07.14.txt'])
     prepare_files()
     parse_wordlists()

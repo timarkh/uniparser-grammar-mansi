@@ -227,3 +227,13 @@
  gloss_ru: вдребезги
  trans_en: to pieces
  trans_ru: вдребезги
+
+-lexeme
+ lex: pōxan
+ stem: pōxan.
+ gramm: PREV,procl
+ paradigm: unchangeable
+ gloss: away
+ gloss_ru: прочь
+ trans_en: away
+ trans_ru: прочь

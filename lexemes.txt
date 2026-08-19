@@ -159,8 +159,8 @@
  trans_ru: Ленин
 
 -lexeme
- lex: L'en'ingrad
- stem: l'en'ingrad.
+ lex: L'en'ingrat
+ stem: l'en'ingrat.
  gramm: N,PN,topn
  paradigm: N_odd
  gloss: Leningrad
@@ -179,8 +179,8 @@
  trans_ru: Москва
 
 -lexeme
- lex: T'umen'
- stem: t'umen'.
+ lex: T'umēn'
+ stem: t'umēn'.
  gramm: N,PN,topn
  paradigm: N_even
  gloss: Tyumen
@@ -1513,9 +1513,9 @@
  stem: ēkwa.
  gramm: N
  paradigm: N_even
- gloss: woman,.wife
+ gloss: woman
  gloss_ru: женщина
- trans_en: woman
+ trans_en: woman, wife
  trans_ru: женщина, жена
 
 -lexeme
@@ -3410,7 +3410,7 @@
 
 -lexeme
  lex: kāsəŋ
- stem: kāsəŋ
+ stem: kāsəŋ.
  gramm: ADJ
  paradigm: ADJ_even
  gloss: every
@@ -3539,7 +3539,7 @@
  trans_ru: болото
 
 -lexeme
- lex: kelp
+ lex: kēlp
  stem: kēlp.//kēlup.
  gramm: N
  paradigm: N_odd
@@ -5389,8 +5389,28 @@
  trans_ru: правда
 
 -lexeme
+ lex: mālaj
+ stem: mālaj.
+ gramm: V
+ paradigm: V_even
+ gloss: feel
+ gloss_ru: щупать
+ trans_en: feel
+ trans_ru: щупать
+
+-lexeme
  lex: mālaɕl
  stem: mālaɕl.
+ gramm: V
+ paradigm: V_even
+ gloss: feel
+ gloss_ru: щупать
+ trans_en: feel
+ trans_ru: щупать
+
+-lexeme
+ lex: mālaɕt
+ stem: mālaɕt.
  gramm: V
  paradigm: V_even
  gloss: feel
@@ -10579,6 +10599,16 @@
  trans_ru: сперва
 
 -lexeme
+ lex: sārtən
+ stem: sārtən.
+ gramm: ADJ
+ paradigm: ADJ_even
+ gloss: foremost
+ gloss_ru: передний
+ trans_en: foremost
+ trans_ru: передний
+
+-lexeme
  lex: sas
  stem: sas.
  gramm: NUM
@@ -12463,9 +12493,9 @@
  stem: tōlm.
  gramm: V,intr
  paradigm: V_odd
- gloss: lose.one’s.mind
+ gloss: lose.one's.mind
  gloss_ru: потерять.рассудок
- trans_en: lose one’s mind, memory
+ trans_en: lose one's mind, memory
  trans_ru: потерять рассудок, память
 
 -lexeme
@@ -12707,16 +12737,6 @@
  gloss_ru: некоторый
  trans_en: some
  trans_ru: некоторый
-
--lexeme
- lex: towar
- stem: towar.
- gramm: N
- paradigm: N_even
- gloss: goods
- gloss_ru: товар
- trans_en: goods
- trans_ru: товар
 
 -lexeme
  lex: tōwartt
@@ -16729,6 +16749,76 @@
  trans_ru: кулик
 
 -lexeme
+ lex: artal'
+ stem: artal'.
+ gramm: N
+ paradigm: N_even
+ gloss: cooperative
+ gloss_ru: артель
+ trans_en: cooperative
+ trans_ru: артель
+
+-lexeme
+ lex: towār
+ stem: towār.
+ gramm: N
+ paradigm: N_even
+ gloss: goods
+ gloss_ru: товар
+ trans_en: goods
+ trans_ru: товар
+
+-lexeme
+ lex: pāprik
+ stem: pāprik.
+ gramm: N
+ paradigm: N_even
+ gloss: factory
+ gloss_ru: фабрика
+ trans_en: factory
+ trans_ru: фабрика
+
+-lexeme
+ lex: sawōt
+ stem: sawōt.//zawōt.
+ gramm: N
+ paradigm: N_even
+ gloss: factory
+ gloss_ru: завод
+ trans_en: factory
+ trans_ru: завод
+
+-lexeme
+ lex: sirtēp
+ stem: sirtēp.
+ gramm: N
+ paradigm: N_even
+ gloss: grain
+ gloss_ru: зерно
+ trans_en: grain, groats
+ trans_ru: зерно, крупа
+
+-lexeme
+ lex: maɕina
+ stem: maɕina.
+ gramm: N
+ paradigm: N_even
+ gloss: car
+ gloss_ru: машина
+ trans_en: car
+ trans_ru: машина
+
+-lexeme
+ lex: trāktor
+ stem: trāktor.
+ gramm: N
+ paradigm: N_even
+ gloss: tractor
+ gloss_ru: трактор
+ trans_en: tractor
+ trans_ru: трактор
+
+-lexeme
  lex: ɕun'
  stem: ɕun'.
  gramm: N
@@ -16777,3 +16867,543 @@
  gloss_ru: чертить
  trans_en: draw, scratch
  trans_ru: чертить, царапать
+
+-lexeme
+ lex: ankīm
+ stem: ankīm.
+ gramm: ADV
+ paradigm: ADV
+ gloss: equally
+ gloss_ru: поровну
+ trans_en: equally
+ trans_ru: поровну
+
+-lexeme
+ lex: Il'ja
+ stem: il'ja.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Ilya
+ gloss_ru: Илья
+ trans_en: Ilya
+ trans_ru: Илья
+
+-lexeme
+ lex: Il'jītɕ
+ stem: il'jītɕ.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Ilyich
+ gloss_ru: Ильич
+ trans_en: Ilyich
+ trans_ru: Ильич
+
+-lexeme
+ lex: janwār'
+ stem: janwār'.
+ gramm: N
+ paradigm: N_even
+ gloss: January
+ gloss_ru: январь
+ trans_en: January
+ trans_ru: январь
+
+-lexeme
+ lex: Jātūs
+ stem: jātūs.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Yatus
+ gloss_ru: Ятус
+ trans_en: Yatus
+ trans_ru: Ятус
+
+-lexeme
+ lex: Jefīm
+ stem: jefīm.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Yefim
+ gloss_ru: Ефим
+ trans_en: Yefim
+ trans_ru: Ефим
+
+-lexeme
+ lex: Jiwānətɕ
+ stem: jiwānətɕ.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Ivanovich
+ gloss_ru: Иванович
+ trans_en: Ivanovich
+ trans_ru: Иванович
+
+-lexeme
+ lex: josaūl
+ stem: josaūl.
+ gramm: N
+ paradigm: N_odd
+ gloss: cossack.captain
+ gloss_ru: есаул
+ trans_en: cossack captain
+ trans_ru: есаул
+
+-lexeme
+ lex: kak
+ stem: kak.
+ gramm: X
+ paradigm: unchangeable
+ gloss: like
+ gloss_ru: как
+ trans_en: like
+ trans_ru: как
+
+-lexeme
+ lex: kāmin't
+ stem: kāmin't.
+ gramm: ADJ
+ paradigm: ADJ_even
+ gloss: soft
+ gloss_ru: мягкий
+ trans_en: soft
+ trans_ru: мягкий
+
+-lexeme
+ lex: kānaɕ
+ stem: kānaɕ.
+ gramm: N
+ paradigm: N_even
+ gloss: prince
+ gloss_ru: князь
+ trans_en: prince
+ trans_ru: князь
+
+-lexeme
+ lex: kapitalīsta
+ stem: kapitalīsta.
+ gramm: N
+ paradigm: N_odd
+ gloss: capitalist
+ gloss_ru: капиталист
+ trans_en: capitalist
+ trans_ru: капиталист
+
+-lexeme
+ lex: kapūsta
+ stem: kapūsta.
+ gramm: N
+ paradigm: N_odd
+ gloss: cabbage
+ gloss_ru: капуста
+ trans_en: cabbage
+ trans_ru: капуста
+
+-lexeme
+ lex: kārkam
+ stem: kārkam.
+ gramm: ADJ
+ paradigm: ADJ_even
+ gloss: diligent
+ gloss_ru: усердный
+ trans_en: diligent
+ trans_ru: усердный
+
+-lexeme
+ lex: kāsnākol
+ stem: kāsnākol.
+ gramm: N
+ paradigm: N_odd
+ gloss: prison
+ gloss_ru: тюрьма
+ trans_en: prison
+ trans_ru: тюрьма
+
+-lexeme
+ lex: kastal
+ stem: kastal.
+ gramm: V
+ paradigm: V_even
+ gloss: celebrate
+ gloss_ru: праздновать
+ trans_en: celebrate
+ trans_ru: праздновать
+
+-lexeme
+ lex: kaɕnā
+ stem: kaɕnā.
+ gramm: N
+ paradigm: N_even
+ gloss: treasury
+ gloss_ru: казна
+ trans_en: treasury
+ trans_ru: казна
+
+-lexeme
+ lex: kirpiɕ
+ stem: kirpiɕ.
+ gramm: N
+ paradigm: N_even
+ gloss: brick
+ gloss_ru: кирпич
+ trans_en: brick
+ trans_ru: кирпич
+
+-lexeme
+ lex: komitēt
+ stem: komitēt.
+ gramm: N
+ paradigm: N_odd
+ gloss: committee
+ gloss_ru: комитет
+ trans_en: committee
+ trans_ru: комитет
+
+-lexeme
+ lex: kommūna
+ stem: kommūna.
+ gramm: N
+ paradigm: N_odd
+ gloss: commune
+ gloss_ru: коммуна
+ trans_en: commune
+ trans_ru: коммуна
+
+-lexeme
+ lex: komsomōl
+ stem: komsomōl.
+ gramm: N
+ paradigm: N_odd
+ gloss: Komsomol
+ gloss_ru: комсомол
+ trans_en: Komsomol
+ trans_ru: комсомол
+
+-lexeme
+ lex: kōperatsija
+ stem: kōperatsija.
+ gramm: N
+ paradigm: N_odd
+ gloss: cooperative
+ gloss_ru: кооператив
+ trans_en: cooperative
+ trans_ru: кооператив
+
+-lexeme
+ lex: krest'jān
+ stem: krest'jān.
+ gramm: N
+ paradigm: N_even
+ gloss: peasant
+ gloss_ru: крестьянин
+ trans_en: peasant
+ trans_ru: крестьянин
+
+-lexeme
+ lex: Krikōrij
+ stem: krikōrij.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Grigory
+ gloss_ru: Григорий
+ trans_en: Grigory
+ trans_ru: Григорий
+
+-lexeme
+ lex: lūji
+ stem: lūji.
+ gramm: ADJ
+ paradigm: ADJ_even
+ gloss: northern
+ gloss_ru: северный
+ trans_en: northern
+ trans_ru: северный
+
+-lexeme
+ lex: l'ūpajt
+ stem: l'ūpajt.
+ gramm: V
+ paradigm: V_even
+ gloss: love
+ gloss_ru: любить
+ trans_en: love
+ trans_ru: любить
+
+-lexeme
+ lex: māj
+ stem: māj.
+ gramm: N
+ paradigm: N_odd
+ gloss: May
+ gloss_ru: май
+ trans_en: May
+ trans_ru: май
+
+-lexeme
+ lex: mārt
+ stem: mārt.
+ gramm: N
+ paradigm: N_odd
+ gloss: March
+ gloss_ru: март
+ trans_en: March
+ trans_ru: март
+
+-lexeme
+ lex: mil'jōn
+ stem: mil'jōn.
+ gramm: N
+ paradigm: N_even
+ gloss: million
+ gloss_ru: миллион
+ trans_en: million
+ trans_ru: миллион
+
+-lexeme
+ lex: morkōwka
+ stem: morkōwka.
+ gramm: N
+ paradigm: N_odd
+ gloss: carrots
+ gloss_ru: морковь
+ trans_en: carrots
+ trans_ru: морковь
+
+-lexeme
+ lex: N'ikolāewitɕ
+ stem: n'ikolāewitɕ.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Nikolayevich
+ gloss_ru: Николаевич
+ trans_en: Nikolayevich
+ trans_ru: Николаевич
+
+-lexeme
+ lex: n'ololow
+ stem: n'ololow.
+ gramm: NUM
+ paradigm: NUM_odd
+ gloss: eight
+ gloss_ru: восемь
+ trans_en: eight
+ trans_ru: восемь
+
+-lexeme
+ lex: pasa
+ stem: pasa.
+ gramm: N
+ paradigm: N_even
+ gloss: base
+ gloss_ru: база
+ trans_en: base
+ trans_ru: база
+
+-lexeme
+ lex: Pāwel
+ stem: pāwel.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Pavel
+ gloss_ru: Павел
+ trans_en: Pavel
+ trans_ru: Павел
+
+-lexeme
+ lex: pērɕ
+ stem: pērɕ.
+ gramm: V
+ paradigm: V_odd
+ gloss: fight
+ gloss_ru: бороться
+ trans_en: fight
+ trans_ru: бороться
+
+-lexeme
+ lex: Petrōwitɕ
+ stem: petrōwitɕ.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Petrovich
+ gloss_ru: Петрович
+ trans_en: Petrovich
+ trans_ru: Петрович
+
+-lexeme
+ lex: pionēr
+ stem: pionēr.
+ gramm: N
+ paradigm: N_odd
+ gloss: pioneer
+ gloss_ru: пионер
+ trans_en: pioneer
+ trans_ru: пионер
+
+-lexeme
+ lex: pōt
+ stem: pōt.
+ gramm: N
+ paradigm: N_odd
+ gloss: tax
+ gloss_ru: налог
+ trans_en: tax
+ trans_ru: налог
+
+-lexeme
+ lex: rasaxan
+ stem: rasaxan.
+ gramm: N
+ paradigm: N_odd
+ gloss: rags
+ gloss_ru: лохмотья
+ trans_en: rags
+ trans_ru: лохмотья
+
+-lexeme
+ lex: resīna
+ stem: resīna.
+ gramm: N
+ paradigm: N_odd
+ gloss: rubber
+ gloss_ru: резина
+ trans_en: rubber
+ trans_ru: резина
+
+-lexeme
+ lex: sāl'it
+ stem: sāl'it.
+ gramm: V
+ paradigm: V_even
+ gloss: pity
+ gloss_ru: жалеть
+ trans_en: pity
+ trans_ru: жалеть
+
+-lexeme
+ lex: Samār
+ stem: samār.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Samar
+ gloss_ru: Самарово
+ trans_en: Samar
+ trans_ru: Самарово
+
+-lexeme
+ lex: slon
+ stem: slon.
+ gramm: N
+ paradigm: N_odd
+ gloss: elephant
+ gloss_ru: слон
+ trans_en: elephant
+ trans_ru: слон
+
+-lexeme
+ lex: sōpas
+ stem: sōpas.
+ gramm: ADJ
+ paradigm: ADJ_even
+ gloss: spare
+ gloss_ru: запасной
+ trans_en: spare
+ trans_ru: запасной
+
+-lexeme
+ lex: sowētska
+ stem: sowētska.
+ gramm: ADJ
+ paradigm: ADJ_odd
+ gloss: Soviet
+ gloss_ru: Советский
+ trans_en: Soviet
+ trans_ru: Советский
+
+-lexeme
+ lex: soxtəl
+ stem: soxtəl.
+ gramm: ADV
+ paradigm: ADV
+ gloss: straight
+ gloss_ru: прямо
+ trans_en: straight
+ trans_ru: прямо
+
+-lexeme
+ lex: sūtka
+ stem: sūtka.
+ gramm: N
+ paradigm: N_even
+ gloss: day
+ gloss_ru: сутки
+ trans_en: day
+ trans_ru: сутки
+
+-lexeme
+ lex: Wasīlitɕ
+ stem: wasīlitɕ.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Vasilyevich
+ gloss_ru: Васильевич
+ trans_en: Vasilyevich
+ trans_ru: Васильевич
+
+-lexeme
+ lex: Waɕīli
+ stem: waɕīli.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Vasily
+ gloss_ru: Василий
+ trans_en: Vasily
+ trans_ru: Василий
+
+-lexeme
+ lex: Wlat'īmir
+ stem: wlat'īmir.
+ gramm: N,PN
+ paradigm: N_odd
+ gloss: Vladimir
+ gloss_ru: Владимир
+ trans_en: Vladimir
+ trans_ru: Владимир
+
+-lexeme
+ lex: wori
+ stem: wori.
+ gramm: N
+ paradigm: N_even
+ gloss: stubbornness
+ gloss_ru: упрямство
+ trans_en: stubbornness
+ trans_ru: упрямство
+
+-lexeme
+ lex: ɕās
+ stem: ɕās.
+ gramm: N
+ paradigm: N_odd
+ gloss: hour
+ gloss_ru: час
+ trans_en: hour
+ trans_ru: час
+
+-lexeme
+ lex: ɕērkal
+ stem: ɕērkal.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Sherkal
+ gloss_ru: Шеркалы
+ trans_en: Sherkal
+ trans_ru: Шеркалы
+
+-lexeme
+ lex: ɕimpirsk
+ stem: ɕimpirsk.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Simbirsk
+ gloss_ru: Симбирск
+ trans_en: Simbirsk, Ulyanovsk
+ trans_ru: Симбирск, Ульяновск
