@@ -2615,7 +2615,7 @@
  -flex: <1>.<.>
   gramm: act
   paradigm: V_imp
- -flex: <0>.<.>
+ -flex: .<.>
   gramm: act
   paradigm: V_nonfin_odd
  

@@ -242,7 +242,7 @@ class MansiAnalyzer(Analyzer):
         return analyses
 
 
-    def analyze_word_hint(self, word, parts, glossRu, glossEn):
+    def analyze_word_hint(self, word, parts, glossRu, glossEn, defaultIfNotFound=True):
         """
         Take one word glossed using a potentially different annotation scheme.
         Return one analysis that conforms most to the morpheme segmentation or
@@ -333,6 +333,8 @@ class MansiAnalyzer(Analyzer):
         if any(rxHyphens.sub('', ana.wfGlossed) == rxHyphens.sub('', word) for ana in anas):
             anas = [ana for ana in anas
                     if rxHyphens.sub('', ana.wfGlossed) == rxHyphens.sub('', word)]
+        if not defaultIfNotFound:
+            anas = []
         return anas
 
 
