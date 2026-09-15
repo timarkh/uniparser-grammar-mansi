@@ -50,6 +50,8 @@ SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
 # PL vs LOC
 SELECT (N pl nom) IF (0 ("<.*t>"r)) (1 ("kīwər"));
 SELECT (N loc) IF (0 ("<.*t>"r)) (0 (N topn));
+SELECT (N pl nom) IF (0 ("<.*t>"r)) (0 (N persn) OR (N famn) OR (N anim) OR (N supernat) OR ("pora"));
+SELECT (N pl nom) IF (0 ("<kolt>"r)) (1 ("ōl"));
 
 # ABL vs. INS (-əl as ABL only in Upper Lozva, otherwise very restricted)
 SELECT (N abl) IF (0 ("<pāwləl>i"));

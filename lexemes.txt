@@ -221,7 +221,7 @@
 -lexeme
  lex: tōrum
  stem: tōrum.|tōrum.//tōrm.
- gramm: N
+ gramm: N,supernat
  paradigm: N_even-syncop
  gloss: God
  gloss_ru: Бог
@@ -251,7 +251,7 @@
 -lexeme
  lex: āɣi
  stem: āɣi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: daughter
  gloss_ru: дочь
@@ -321,7 +321,7 @@
 -lexeme
  lex: ākar
  stem: ākar.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: pet.dog
  gloss_ru: породистая.собака
@@ -331,7 +331,7 @@
 -lexeme
  lex: aki
  stem: aki.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: uncle
  gloss_ru: дядя
@@ -351,7 +351,7 @@
 -lexeme
  lex: ākw
  stem: ākw.//ākwa.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: aunt
  gloss_ru: тетя
@@ -831,7 +831,7 @@
 -lexeme
  lex: āmp
  stem: āmp.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: dog
  gloss_ru: собака
@@ -861,7 +861,7 @@
 -lexeme
  lex: amɕik
  stem: amɕik.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: coachman
  gloss_ru: ямщик
@@ -971,7 +971,7 @@
 -lexeme
  lex: apiɣ
  stem: apiɣ.|apɣ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even-syncop
  gloss: grandson
  gloss_ru: внук
@@ -981,7 +981,7 @@
 -lexeme
  lex: āpɕi
  stem: āpɕi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: younger.brother
  gloss_ru: младший.брат
@@ -1401,7 +1401,7 @@
 -lexeme
  lex: āŋkw
  stem: āŋkw.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: mother
  gloss_ru: мать
@@ -1411,7 +1411,7 @@
 -lexeme
  lex: āŋkwāɣi
  stem: āŋkwāɣi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: maternal.female.cousin
  gloss_ru: двоюродная.сестра
@@ -1441,7 +1441,7 @@
 -lexeme
  lex: āŋxa
  stem: āŋxa.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: partridge
  gloss_ru: куропатка
@@ -1461,7 +1461,7 @@
 -lexeme
  lex: āɕ
  stem: āɕ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: father
  gloss_ru: отец
@@ -1481,7 +1481,7 @@
 -lexeme
  lex: āɕojka
  stem: āɕojka.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: maternal.grandfather
  gloss_ru: дедушка
@@ -1511,7 +1511,7 @@
 -lexeme
  lex: ēkwa
  stem: ēkwa.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: woman
  gloss_ru: женщина
@@ -1551,7 +1551,7 @@
 -lexeme
  lex: ēlmxolas
  stem: ēlmxolas.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: human
  gloss_ru: человек
@@ -1841,7 +1841,7 @@
 -lexeme
  lex: ēwlaŋ
  stem: ēwlaŋ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: wife.older.sisters.daughters
  gloss_ru: дочери.старших.сестёр.жены
@@ -1861,7 +1861,7 @@
 -lexeme
  lex: ēŋk
  stem: ēŋk.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: niece
  gloss_ru: племянница
@@ -1871,7 +1871,7 @@
 -lexeme
  lex: ēŋkaj
  stem: ēŋkaj.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: maidservant
  gloss_ru: служанка
@@ -1891,7 +1891,7 @@
 -lexeme
  lex: ēɕ
  stem: ēɕ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: younger.sister
  gloss_ru: младшая.сестра
@@ -2111,7 +2111,7 @@
 -lexeme
  lex: iɕwēr
  stem: iɕwēr.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: animal
  gloss_ru: зверь
@@ -2151,7 +2151,7 @@
 -lexeme
  lex: jaɣ
  stem: jaɣ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: father
  gloss_ru: отец
@@ -2161,7 +2161,7 @@
 -lexeme
  lex: jaɣāɣi
  stem: jaɣ&āɣi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: elder&daughter
  gloss_ru: старший&дочь
@@ -2171,7 +2171,7 @@
 -lexeme
  lex: jaɣpīɣ
  stem: jaɣ&pīɣ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: elder&son
  gloss_ru: старший&сын
@@ -2231,7 +2231,7 @@
 -lexeme
  lex: jāmsək
  stem: jāmsək.|jāmsk.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even-syncop
  gloss: Russian
  gloss_ru: русский
@@ -2411,7 +2411,7 @@
 -lexeme
  lex: jatri
  stem: jatri.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: black.grouse
  gloss_ru: тетерев
@@ -2541,7 +2541,7 @@
 -lexeme
  lex: jipiɣ
  stem: jipiɣ.|jipɣ.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: eagle.owl
  gloss_ru: филин
@@ -2751,7 +2751,7 @@
 -lexeme
  lex: jōrn
  stem: jōrn.//jōrən.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: Nenets
  gloss_ru: ненец
@@ -2981,7 +2981,7 @@
 -lexeme
  lex: jurt
  stem: jurt.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: friend
  gloss_ru: друг
@@ -3021,7 +3021,7 @@
 -lexeme
  lex: kaja
  stem: kaja.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: shaman
  gloss_ru: шаман
@@ -3141,7 +3141,7 @@
 -lexeme
  lex: kar
  stem: kar.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: black.woodpecker
  gloss_ru: чёрный.дятел
@@ -3321,7 +3321,7 @@
 -lexeme
  lex: kāsew
  stem: kasew.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: roach
  gloss_ru: плотва
@@ -3431,7 +3431,7 @@
 -lexeme
  lex: kat'i
  stem: kat'i.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: cat
  gloss_ru: кошка
@@ -3441,7 +3441,7 @@
 -lexeme
  lex: katkasə
  stem: katkasə.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: titmouse
  gloss_ru: синица
@@ -3501,7 +3501,7 @@
 -lexeme
  lex: kaŋk
  stem: kaŋk.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: older.brother
  gloss_ru: старший.брат
@@ -3641,7 +3641,7 @@
 -lexeme
  lex: kil
  stem: kil.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: son.in.law
  gloss_ru: зять
@@ -3711,7 +3711,7 @@
 -lexeme
  lex: kisup
  stem: kisup.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: hazel.grouse
  gloss_ru: рябчик
@@ -4101,7 +4101,7 @@
 -lexeme
  lex: koɕar
  stem: koɕar.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: chipmunk
  gloss_ru: бурундук
@@ -4111,7 +4111,7 @@
 -lexeme
  lex: kukkuk
  stem: kukkuk.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: cuckoo
  gloss_ru: кукушка
@@ -4141,7 +4141,7 @@
 -lexeme
  lex: kul'
  stem: kul'.//xul'.
- gramm: N
+ gramm: N,supernat
  paradigm: N_odd
  gloss: demon
  gloss_ru: черт
@@ -4261,7 +4261,7 @@
 -lexeme
  lex: kūt'uw
  stem: kūt'uw.|kūt'w.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: dog
  gloss_ru: собака
@@ -4301,7 +4301,7 @@
 -lexeme
  lex: kūɕaj
  stem: kūɕaj.//kuɕaj.//koɕaj.//koɕj.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: master
  gloss_ru: хозяин
@@ -4471,7 +4471,7 @@
 -lexeme
  lex: lāpantə
  stem: lāpantə.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: butterfly
  gloss_ru: бабочка
@@ -4601,7 +4601,7 @@
 -lexeme
  lex: lēkkar
  stem: lēkkar.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: healer
  gloss_ru: лекарь
@@ -4661,7 +4661,7 @@
 -lexeme
  lex: lēŋən
  stem: lēŋən.|lēŋn.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: squirrel
  gloss_ru: белка
@@ -4911,7 +4911,7 @@
 -lexeme
  lex: loɕ
  stem: loɕ.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: quail
  gloss_ru: перепел
@@ -4941,7 +4941,7 @@
 -lexeme
  lex: lūli
  stem: lūli.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: loon
  gloss_ru: гагарка
@@ -4981,7 +4981,7 @@
 -lexeme
  lex: lunt
  stem: lunt.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: goose
  gloss_ru: гусь
@@ -5011,7 +5011,7 @@
 -lexeme
  lex: lūsxalēkwa
  stem: lūsxalēkwa.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: frog
  gloss_ru: лягушка
@@ -5041,7 +5041,7 @@
 -lexeme
  lex: luw
  stem: luw.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: horse
  gloss_ru: лошадь
@@ -5141,7 +5141,7 @@
 -lexeme
  lex: l'ēw
  stem: l'ēw.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: lion
  gloss_ru: лев
@@ -5169,19 +5169,9 @@
  trans_ru: задеть
 
 -lexeme
- lex: l'ōmmuj
- stem: l'ōmmuj.
- gramm: N
- paradigm: N_even
- gloss: mosquito
- gloss_ru: комар
- trans_en: mosquito
- trans_ru: комар
-
--lexeme
  lex: l'ōmwoj
  stem: l'ōmwoj.//l'ōmuj.//l'ōmmuj.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: mosquito
  gloss_ru: комар
@@ -5351,7 +5341,7 @@
 -lexeme
  lex: mājwārap
  stem: mājwārap.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: bee
  gloss_ru: пчела
@@ -5451,7 +5441,7 @@
 -lexeme
  lex: mansən
  stem: mansən.|mansn.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: capercaillie
  gloss_ru: глухарь
@@ -5501,7 +5491,7 @@
 -lexeme
  lex: mān'ɕi
  stem: mān'ɕi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: Mansi
  gloss_ru: манси
@@ -5651,7 +5641,7 @@
 -lexeme
  lex: māxar
  stem: māxar.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: mammoth
  gloss_ru: мамонт
@@ -5661,7 +5651,7 @@
 -lexeme
  lex: māxum
  stem: māxum.|māxm.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even-syncop
  gloss: people
  gloss_ru: народ
@@ -5671,7 +5661,7 @@
 -lexeme
  lex: māŋkwla
  stem: maŋkwla.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: owl
  gloss_ru: сова
@@ -5721,7 +5711,7 @@
 -lexeme
  lex: mēŋkw
  stem: mēŋkw.
- gramm: N
+ gramm: N,supernat
  paradigm: N_odd
  gloss: giant
  gloss_ru: менкв
@@ -5781,7 +5771,7 @@
 -lexeme
  lex: mis
  stem: mis.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: cow
  gloss_ru: корова
@@ -5841,7 +5831,7 @@
 -lexeme
  lex: mōjtəŋ
  stem: mōjtəŋ.|mōjtŋ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even-syncop
  gloss: deceased
  gloss_ru: умерший
@@ -6091,7 +6081,7 @@
 -lexeme
  lex: mūj
  stem: mūj.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: guest
  gloss_ru: гость
@@ -6261,7 +6251,7 @@
 -lexeme
  lex: naj
  stem: naj.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: young.lady
  gloss_ru: барышня
@@ -6501,7 +6491,7 @@
 -lexeme
  lex: nē
  stem: nē.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: woman
  gloss_ru: женщина
@@ -6541,7 +6531,7 @@
 -lexeme
  lex: nensa
  stem: nensa.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: Nenets
  gloss_ru: ненец
@@ -6841,7 +6831,7 @@
 -lexeme
  lex: n'ājt
  stem: n'ājt.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: shaman
  gloss_ru: шаман
@@ -6891,7 +6881,7 @@
 -lexeme
  lex: n'āltup
  stem: n'āltup.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: teal
  gloss_ru: крохаль
@@ -6901,7 +6891,7 @@
 -lexeme
  lex: n'ālək
  stem: n'ālək.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: herring
  gloss_ru: сельдь
@@ -6951,7 +6941,7 @@
 -lexeme
  lex: n'āp
  stem: n'āp.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: moose.calf
  gloss_ru: лосёнок
@@ -7061,7 +7051,7 @@
 -lexeme
  lex: n'āwram
  stem: n'āwram.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: child
  gloss_ru: ребёнок
@@ -7281,7 +7271,7 @@
 -lexeme
  lex: n'oxs
  stem: n'oxs.//n'oxəs.|n'oxs.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: sable
  gloss_ru: соболь
@@ -7341,7 +7331,7 @@
 -lexeme
  lex: n'ūrum
  stem: n'ūrum.|n'ūrm.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd-syncop
  gloss: deer
  gloss_ru: олень
@@ -7401,7 +7391,7 @@
 -lexeme
  lex: n'əmsarēkwa
  stem: n'əmsarēkwa.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: spider
  gloss_ru: паук
@@ -7471,7 +7461,7 @@
 -lexeme
  lex: ōjka
  stem: ōjka.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: man
  gloss_ru: мужчина
@@ -7541,7 +7531,7 @@
 -lexeme
  lex: oma
  stem: oma.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: mother
  gloss_ru: мать
@@ -7551,7 +7541,7 @@
 -lexeme
  lex: ōnip
  stem: ōnip.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: mother.in.law
  gloss_ru: тёща
@@ -7591,7 +7581,7 @@
 -lexeme
  lex: ōn'ɣa
  stem: ōn'ɣa.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: daughter.in.law
  gloss_ru: невестка
@@ -7611,7 +7601,7 @@
 -lexeme
  lex: ōpa
  stem: ōpa.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: paternal.grandfather
  gloss_ru: дед
@@ -7621,7 +7611,7 @@
 -lexeme
  lex: opaklēŋən
  stem: opaklēŋən.|opaklēŋn.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: flying.squirrel
  gloss_ru: белка.летяга
@@ -7761,7 +7751,7 @@
 -lexeme
  lex: ōtər
  stem: ōtər.|ōtr.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even-syncop
  gloss: hero
  gloss_ru: богатырь
@@ -7791,7 +7781,7 @@
 -lexeme
  lex: owlax
  stem: owlax.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: coween
  gloss_ru: савка
@@ -7851,7 +7841,7 @@
 -lexeme
  lex: oxsar
  stem: oxsar.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: fox
  gloss_ru: лиса
@@ -7921,7 +7911,7 @@
 -lexeme
  lex: oɕɕalējpa
  stem: oɕɕalējpa.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: lizard
  gloss_ru: ящерица
@@ -7981,7 +7971,7 @@
 -lexeme
  lex: pākwtēpine
  stem: pākwtēpine.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: northern.nutcracker
  gloss_ru: кедровка
@@ -8031,7 +8021,7 @@
 -lexeme
  lex: palum
  stem: palum.|palm.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: horsefly
  gloss_ru: овод
@@ -8051,7 +8041,7 @@
 -lexeme
  lex: pāl'a
  stem: pāl'a.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: ram
  gloss_ru: баран
@@ -8111,7 +8101,7 @@
 -lexeme
  lex: pānt
  stem: pānt.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: male.cousin
  gloss_ru: двоюродный.брат
@@ -8271,7 +8261,7 @@
 -lexeme
  lex: pāsiɣ
  stem: pāsiɣ.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: fawn
  gloss_ru: оленёнок
@@ -8621,7 +8611,7 @@
 -lexeme
  lex: pīɣ
  stem: pīɣ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: son
  gloss_ru: сын
@@ -8691,7 +8681,7 @@
 -lexeme
  lex: pirwa
  stem: pirwa.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: teal
  gloss_ru: чирок
@@ -8771,7 +8761,7 @@
 -lexeme
  lex: pojar
  stem: pojar.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: boyar
  gloss_ru: боярин
@@ -8921,7 +8911,7 @@
 -lexeme
  lex: pōl'uj
  stem: pōl'uj.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: bullfinch
  gloss_ru: снегирь
@@ -8961,7 +8951,7 @@
 -lexeme
  lex: pop
  stem: pop.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: priest
  gloss_ru: поп
@@ -9031,7 +9021,7 @@
 -lexeme
  lex: poriɣpan
  stem: poriɣpan.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: frog
  gloss_ru: лягушка
@@ -9291,7 +9281,7 @@
 -lexeme
  lex: pōxatur
  stem: pōxatur.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: hero
  gloss_ru: богатырь
@@ -9311,7 +9301,7 @@
 -lexeme
  lex: poxlaŋ
  stem: poxlaŋ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: stepson
  gloss_ru: пасынок
@@ -9381,7 +9371,7 @@
 -lexeme
  lex: pukn'əɕān'
  stem: pukn'əɕān'.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: birth.mother
  gloss_ru: пупочная.мать
@@ -9491,7 +9481,7 @@
 -lexeme
  lex: pupiɣ
  stem: pupiɣ.//pupɣ.
- gramm: N
+ gramm: N,supernat
  paradigm: N_even
  gloss: spirit
  gloss_ru: дух
@@ -9521,7 +9511,7 @@
 -lexeme
  lex: pūriɕ
  stem: pūriɕ.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: pig
  gloss_ru: свинья
@@ -9871,7 +9861,7 @@
 -lexeme
  lex: raɕ
  stem: raɕ.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: lynx
  gloss_ru: рысь
@@ -10011,7 +10001,7 @@
 -lexeme
  lex: ruma
  stem: ruma.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: comrade
  gloss_ru: товарищ
@@ -10071,7 +10061,7 @@
 -lexeme
  lex: ruɕ
  stem: ruɕ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: Russian
  gloss_ru: русский
@@ -10311,7 +10301,7 @@
 -lexeme
  lex: sākwal'ak
  stem: sākwal'ak.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: magpie
  gloss_ru: сорока
@@ -10341,7 +10331,7 @@
 -lexeme
  lex: sāli
  stem: sāli.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: deer
  gloss_ru: олень
@@ -10351,7 +10341,7 @@
 -lexeme
  lex: saltat
  stem: saltat.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: soldier
  gloss_ru: солдат
@@ -10361,7 +10351,7 @@
 -lexeme
  lex: sāl'
  stem: sāl'.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: teal
  gloss_ru: утка.гоголь
@@ -10549,10 +10539,10 @@
  trans_ru: HORT
 
 -lexeme
- lex: saralaŋkw
- stem: saralaŋkw.
- gramm: N
- paradigm: N_odd
+ lex: saral
+ stem: saral.
+ gramm: V
+ paradigm: V_even
  gloss: impose
  gloss_ru: навязывать
  trans_en: impose
@@ -10561,7 +10551,7 @@
 -lexeme
  lex: saran
  stem: saran.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: Komi
  gloss_ru: коми
@@ -10631,7 +10621,7 @@
 -lexeme
  lex: sasiɣ
  stem: sasiɣ.|sasɣ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd-syncop
  gloss: uncle
  gloss_ru: дядя
@@ -11001,7 +10991,7 @@
 -lexeme
  lex: sēriwārap
  stem: sēriwārap.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: fly
  gloss_ru: муха
@@ -11041,7 +11031,7 @@
 -lexeme
  lex: siɣ
  stem: siɣ.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: burbot
  gloss_ru: налим
@@ -11081,7 +11071,7 @@
 -lexeme
  lex: simri
  stem: simri.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: perch
  gloss_ru: окунь
@@ -11351,7 +11341,7 @@
 -lexeme
  lex: sōrp
  stem: sōrp.//sōrup.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: moose
  gloss_ru: лось
@@ -11361,7 +11351,7 @@
 -lexeme
  lex: sort
  stem: sort.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: pike
  gloss_ru: щука
@@ -11491,7 +11481,7 @@
 -lexeme
  lex: sōwər
  stem: sōwər.|sōwr.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: hare
  gloss_ru: заяц
@@ -11721,7 +11711,7 @@
 -lexeme
  lex: sus
  stem: sus.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: predator
  gloss_ru: хищник
@@ -11751,7 +11741,7 @@
 -lexeme
  lex: sūtsut
  stem: sūtsut.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: wren
  gloss_ru: поползень
@@ -12141,7 +12131,7 @@
 -lexeme
  lex: tāriɣ
  stem: tāriɣ.|tārɣ.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: crane
  gloss_ru: журавль
@@ -12251,7 +12241,7 @@
 -lexeme
  lex: taŋkər
  stem: taŋkər.|taŋkr.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: mole
  gloss_ru: крот
@@ -12371,7 +12361,7 @@
 -lexeme
  lex: tēxam
  stem: tēxam.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: comrade
  gloss_ru: товарищ
@@ -12591,7 +12581,7 @@
 -lexeme
  lex: tōrew
  stem: tōrew.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: bear
  gloss_ru: медведь
@@ -12921,7 +12911,7 @@
 -lexeme
  lex: tūlmax
  stem: tūlmax.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: wolverine
  gloss_ru: росомаха
@@ -13071,7 +13061,7 @@
 -lexeme
  lex: turuj
  stem: turuj.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: white.tailed.eagle
  gloss_ru: орлан
@@ -13081,7 +13071,7 @@
 -lexeme
  lex: tūrxul
  stem: tūrxul.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: crucian.carp
  gloss_ru: карась
@@ -13191,7 +13181,7 @@
 -lexeme
  lex: ūj
  stem: ūj.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: animal
  gloss_ru: зверь
@@ -13221,7 +13211,7 @@
 -lexeme
  lex: ūjriɕ
  stem: ūjriɕ.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: little.bird
  gloss_ru: птичка
@@ -13241,7 +13231,7 @@
 -lexeme
  lex: ūjxul
  stem: ūjxul.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: animal
  gloss_ru: животное
@@ -13461,7 +13451,7 @@
 -lexeme
  lex: up
  stem: up.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: brother_father.in.law
  gloss_ru: деверь_тесть
@@ -13471,7 +13461,7 @@
 -lexeme
  lex: ūp
  stem: ūp.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: daughter.in.law
  gloss_ru: невестка
@@ -13531,7 +13521,7 @@
 -lexeme
  lex: ur'ātnik
  stem: ur'ātnik.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: constable
  gloss_ru: урядник
@@ -13601,7 +13591,7 @@
 -lexeme
  lex: ūrinekwa
  stem: ūrinekwa.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: crow
  gloss_ru: ворона
@@ -13791,7 +13781,7 @@
 -lexeme
  lex: uwɕi
  stem: uwɕi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: aunt
  gloss_ru: тётя
@@ -13951,7 +13941,7 @@
 -lexeme
  lex: wāps
  stem: wāps.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: son.in.law
  gloss_ru: зять
@@ -13991,7 +13981,7 @@
 -lexeme
  lex: wās
  stem: wās.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: duck
  gloss_ru: утка
@@ -14051,7 +14041,7 @@
 -lexeme
  lex: wātaxum
  stem: wātaxum.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: merchant
  gloss_ru: купец
@@ -14271,7 +14261,7 @@
 -lexeme
  lex: wituj
  stem: wituj.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: beaver
  gloss_ru: бобёр
@@ -14411,7 +14401,7 @@
 -lexeme
  lex: wōntər
  stem: wōntər.|wōntr.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: otter
  gloss_ru: выдра
@@ -14451,7 +14441,7 @@
 -lexeme
  lex: worap
  stem: worap.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: northern.nutcracker
  gloss_ru: кедровка
@@ -14531,7 +14521,7 @@
 -lexeme
  lex: wōruj
  stem: wōruj.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: beast
  gloss_ru: зверь
@@ -14541,7 +14531,7 @@
 -lexeme
  lex: worɕik
  stem: worɕik.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: wagtail
  gloss_ru: трясогузка
@@ -14821,7 +14811,7 @@
 -lexeme
  lex: xājtnut
  stem: xājtnut.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: wolf
  gloss_ru: волк
@@ -14851,7 +14841,7 @@
 -lexeme
  lex: xalew
  stem: xalew.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: seagull
  gloss_ru: чайка
@@ -14961,7 +14951,7 @@
 -lexeme
  lex: xanti
  stem: xanti.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: Khanty
  gloss_ru: ханты
@@ -15011,7 +15001,7 @@
 -lexeme
  lex: xār
  stem: xār.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: male.reindeer
  gloss_ru: самец.оленя
@@ -15221,7 +15211,7 @@
 -lexeme
  lex: xatan'
  stem: xatan'.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: Tatar
  gloss_ru: татарин
@@ -15471,7 +15461,7 @@
 -lexeme
  lex: xoməl
  stem: xoməl.|xoml.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even-syncop
  gloss: weirdo
  gloss_ru: чудак
@@ -15481,7 +15471,7 @@
 -lexeme
  lex: xōn
  stem: xōn.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: tsar
  gloss_ru: царь
@@ -15531,7 +15521,7 @@
 -lexeme
  lex: xōpt
  stem: xōpt.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: castrated.deer
  gloss_ru: кастрированный.олень
@@ -15581,7 +15571,7 @@
 -lexeme
  lex: xoraxɕi
  stem: xoraxɕi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: bandit
  gloss_ru: разбойник
@@ -15641,7 +15631,7 @@
 -lexeme
  lex: xortxan
  stem: xortxan.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: hawk
  gloss_ru: ястреб
@@ -15751,7 +15741,7 @@
 -lexeme
  lex: xotaŋ
  stem: xotaŋ.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: swan
  gloss_ru: лебедь
@@ -15771,7 +15761,7 @@
 -lexeme
  lex: xōtpa
  stem: xōtpa.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: person
  gloss_ru: человек
@@ -15831,7 +15821,7 @@
 -lexeme
  lex: xūl
  stem: xūl.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: fish
  gloss_ru: рыба
@@ -15861,7 +15851,7 @@
 -lexeme
  lex: xulax
  stem: xulax.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: raven
  gloss_ru: ворон
@@ -15941,7 +15931,7 @@
 -lexeme
  lex: xum
  stem: xum.|xumi.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_xum
  gloss: man
  gloss_ru: мужчина
@@ -15951,7 +15941,7 @@
 -lexeme
  lex: xuma
  stem: xuma.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: guys
  gloss_ru: мужики
@@ -16131,7 +16121,7 @@
 -lexeme
  lex: Ās
  stem: ās.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_odd
  gloss: Ob
  gloss_ru: Обь
@@ -16151,7 +16141,7 @@
 -lexeme
  lex: šōfor
  stem: šōfor.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: driver
  gloss_ru: шофёр
@@ -16251,7 +16241,7 @@
 -lexeme
  lex: ɕān'
  stem: ɕān'.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: mother
  gloss_ru: мать
@@ -16451,7 +16441,7 @@
 -lexeme
  lex: ɕes
  stem: ɕes.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: goldfinch
  gloss_ru: щегол
@@ -16511,7 +16501,7 @@
 -lexeme
  lex: ɕiɕkurek
  stem: ɕiɕkurek.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: chicken
  gloss_ru: курица
@@ -16541,7 +16531,7 @@
 -lexeme
  lex: ɕōl'ɕi
  stem: ɕōl'ɕi.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: ermine
  gloss_ru: горностай
@@ -16591,7 +16581,7 @@
 -lexeme
  lex: ɕopər
  stem: ɕopər.|ɕopr.
- gramm: N
+ gramm: N,anim
  paradigm: N_even-syncop
  gloss: wood.grouse
  gloss_ru: глухарь
@@ -16691,7 +16681,7 @@
 -lexeme
  lex: ɕōwnaxne
  stem: ɕōwnaxne.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: jay
  gloss_ru: сойка
@@ -16741,7 +16731,7 @@
 -lexeme
  lex: ɕulɕi
  stem: ɕulɕi.
- gramm: N
+ gramm: N,anim
  paradigm: N_even
  gloss: sandpiper
  gloss_ru: кулик
@@ -16881,7 +16871,7 @@
 -lexeme
  lex: Il'ja
  stem: il'ja.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_even
  gloss: Ilya
  gloss_ru: Илья
@@ -16921,7 +16911,7 @@
 -lexeme
  lex: Jefīm
  stem: jefīm.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_even
  gloss: Yefim
  gloss_ru: Ефим
@@ -16941,7 +16931,7 @@
 -lexeme
  lex: josaūl
  stem: josaūl.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: cossack.captain
  gloss_ru: есаул
@@ -16971,7 +16961,7 @@
 -lexeme
  lex: kānaɕ
  stem: kānaɕ.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: prince
  gloss_ru: князь
@@ -16981,7 +16971,7 @@
 -lexeme
  lex: kapitalīsta
  stem: kapitalīsta.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: capitalist
  gloss_ru: капиталист
@@ -17091,7 +17081,7 @@
 -lexeme
  lex: krest'jān
  stem: krest'jān.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: peasant
  gloss_ru: крестьянин
@@ -17101,7 +17091,7 @@
 -lexeme
  lex: Krikōrij
  stem: krikōrij.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_odd
  gloss: Grigory
  gloss_ru: Григорий
@@ -17201,7 +17191,7 @@
 -lexeme
  lex: Pāwel
  stem: pāwel.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_even
  gloss: Pavel
  gloss_ru: Павел
@@ -17231,7 +17221,7 @@
 -lexeme
  lex: pionēr
  stem: pionēr.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: pioneer
  gloss_ru: пионер
@@ -17281,7 +17271,7 @@
 -lexeme
  lex: Samār
  stem: samār.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Samar
  gloss_ru: Самарово
@@ -17291,7 +17281,7 @@
 -lexeme
  lex: slon
  stem: slon.
- gramm: N
+ gramm: N,anim
  paradigm: N_odd
  gloss: elephant
  gloss_ru: слон
@@ -17351,7 +17341,7 @@
 -lexeme
  lex: Waɕīli
  stem: waɕīli.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_odd
  gloss: Vasily
  gloss_ru: Василий
@@ -17361,7 +17351,7 @@
 -lexeme
  lex: Wlat'īmir
  stem: wlat'īmir.
- gramm: N,PN
+ gramm: N,PN,persn
  paradigm: N_odd
  gloss: Vladimir
  gloss_ru: Владимир
@@ -17391,7 +17381,7 @@
 -lexeme
  lex: ɕērkal
  stem: ɕērkal.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Sherkal
  gloss_ru: Шеркалы
@@ -17401,16 +17391,17 @@
 -lexeme
  lex: ɕimpirsk
  stem: ɕimpirsk.
- gramm: N,PN
+ gramm: N,PN,topn
  paradigm: N_even
  gloss: Simbirsk
  gloss_ru: Симбирск
  trans_en: Simbirsk, Ulyanovsk
  trans_ru: Симбирск, Ульяновск
+
 -lexeme
  lex: iɕl'ēn
  stem: iɕl'ēn.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: member
  gloss_ru: член
@@ -17450,7 +17441,7 @@
 -lexeme
  lex: nēɣra
  stem: nēɣra.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: Black.person
  gloss_ru: негр
@@ -17480,7 +17471,7 @@
 -lexeme
  lex: pretsetāt'el'
  stem: pretsetāt'el'.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: chairman
  gloss_ru: председатель
@@ -17500,7 +17491,7 @@
 -lexeme
  lex: saltāt
  stem: saltāt.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: soldier
  gloss_ru: солдат
@@ -17510,7 +17501,7 @@
 -lexeme
  lex: tōxtor
  stem: tōxtor.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_even
  gloss: doctor
  gloss_ru: доктор
@@ -17520,7 +17511,7 @@
 -lexeme
  lex: komunīst
  stem: komunīst.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: communist
  gloss_ru: коммунист
@@ -17530,7 +17521,7 @@
 -lexeme
  lex: sut
  stem: sut.
- gramm: N
+ gramm: N,anim,hum
  paradigm: N_odd
  gloss: judge
  gloss_ru: судья
