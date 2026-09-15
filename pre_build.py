@@ -480,6 +480,8 @@ if __name__ == '__main__':
     print('Disambiguation:')
     for wf in a.analyze_words('tapəst taw ta kit pālēn ta xujasiɣ'.split(), format='xml', disambiguate=True):
         print(wf)
+    for wf in a.analyze_words('mān; mān jotuw; mān rōpitamuwt'.split(), format='xml', disambiguate=True):
+        print(wf)
 
     a.alphabet = 'cyr'
     a.glossBrackets = True
