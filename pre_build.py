@@ -473,13 +473,15 @@ if __name__ == '__main__':
         'xumil',
         'uretəl',
         'lakwsite',
-        'lakwsalite'
+        'lakwsalite',
+        'pāwləl'
     ], format='xml'):
         print(wf)
 
     print('Disambiguation:')
     for wf in a.analyze_words('tapəst taw ta kit pālēn ta xujasiɣ'.split(), format='xml', disambiguate=True):
         print(wf)
+    print('***')
     for wf in a.analyze_words('mān; mān jotuw; mān rōpitamuwt'.split(), format='xml', disambiguate=True):
         print(wf)
 

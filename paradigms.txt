@@ -849,14 +849,10 @@
  -flex: .nəl
   gramm: abl
   gloss: ABL
- -flex: .l
-  gramm: abl
-  gloss: ABL
-  regex-prev: .*[aeiouāēīōūə][.<>]*$
  -flex: .əl
   gramm: abl
   gloss: ABL
-  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+  regex-prev: .*āwl[.<>]*$
  -flex: .l
   gramm: ins
   gloss: INS
@@ -884,6 +880,7 @@
  -flex: .əl
   gramm: abl
   gloss: ABL
+  regex-prev: .*āwl[.<>]*$
  -flex: .əl
   gramm: ins
   gloss: INS
@@ -906,6 +903,7 @@
  -flex: <0>.əl
   gramm: abl
   gloss: ABL
+  regex-prev: .*āwl[.<>]*$
  -flex: <0>.əl
   gramm: ins
   gloss: INS
@@ -923,9 +921,6 @@
   gramm: loc
   gloss: LOC
  -flex: <0>.nəl
-  gramm: abl
-  gloss: ABL
- -flex: <0>.əl
   gramm: abl
   gloss: ABL
  -flex: <1>.l
@@ -947,14 +942,10 @@
  -flex: .nəl
   gramm: abl
   gloss: ABL
- -flex: .l
-  gramm: abl
-  gloss: ABL
-  regex-prev: .*[aeiouāēīōūə][.<>]*$
  -flex: .əl
   gramm: abl
   gloss: ABL
-  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+  regex-prev: .*āwl[.<>]*$
  -flex: .təl
   gramm: ins
   gloss: INS
