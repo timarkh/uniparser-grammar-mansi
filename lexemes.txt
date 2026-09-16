@@ -5300,7 +5300,7 @@
 
 -lexeme
  lex: māɣəs
- stem: māɣəs.|māɣs.
+ stem: māɣəs.|māɣs.//māɣsəl.
  gramm: POSTP
  paradigm: POSTP_default-syncop
  gloss: for
