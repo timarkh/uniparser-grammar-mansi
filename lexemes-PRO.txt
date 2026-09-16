@@ -774,7 +774,7 @@
  lex: manər
  stem: manər.|manr.
  gramm: PRON
- paradigm: N_even
+ paradigm: N-case-default-syncop
  gloss: what
  gloss_ru: что
  trans_en: what
@@ -784,7 +784,7 @@
  lex: nēmanər
  stem: nē&manər.|nē&manr.
  gramm: PRON
- paradigm: N_even
+ paradigm: N-case-default-syncop
  gloss: PRON.NEG&what
  gloss_ru: PRON.NEG&что
  trans_en: nothing
@@ -854,7 +854,7 @@
  lex: matər
  stem: matər.
  gramm: PRON
- paradigm: N_even
+ paradigm: N-case-default
  gloss: something
  gloss_ru: что.то
  trans_en: something
@@ -874,7 +874,7 @@
  lex: nēmatər
  stem: nē&matər.
  gramm: PRON
- paradigm: N_even
+ paradigm: N-case-default
  gloss: PRON.NEG&something
  gloss_ru: PRON.NEG&что.то
  trans_en: nothing
