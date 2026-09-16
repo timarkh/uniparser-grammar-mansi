@@ -17527,3 +17527,13 @@
  gloss_ru: судья
  trans_en: judge, court
  trans_ru: судья, суд
+
+-lexeme
+ lex: mētal
+ stem: mētal.
+ gramm: V
+ paradigm: V_even
+ gloss: hire
+ gloss_ru: нанимать
+ trans_en: hire
+ trans_ru: нанимать
