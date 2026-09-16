@@ -2815,7 +2815,7 @@
   gramm: ptcp_npst
   gloss: PTCP.NPST
   paradigm: N_odd
- -flex: .ne<.>//.nē<.>//.en<.>//.an<.>//.ən<.>
+ -flex: .ne<.>//.nē<.>//.an<.>//.ən<.>
   gramm: ptcp_npst
   gloss: PTCP.NPST
   paradigm: N_even
@@ -2874,7 +2874,7 @@
   gramm: ptcp_npst
   gloss: PTCP.NPST
   paradigm: N_even
- -flex: .ne<.>//.nē<.>//.en<.>//.an<.>//.ən<.>
+ -flex: .ne<.>//.nē<.>//.an<.>//.ən<.>
   gramm: ptcp_npst
   gloss: PTCP.NPST
   paradigm: N_odd
