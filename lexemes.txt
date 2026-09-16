@@ -2451,7 +2451,7 @@
 -lexeme
  lex: jēmt
  stem: jēmt.
- gramm: V,intr
+ gramm: V,intr,w_trans
  paradigm: V_odd
  gloss: become
  gloss_ru: стать
@@ -4551,7 +4551,7 @@
 -lexeme
  lex: lāw
  stem: lāw.
- gramm: V
+ gramm: V,w_trans
  paradigm: V_odd
  gloss: say
  gloss_ru: сказать
@@ -4841,7 +4841,7 @@
 -lexeme
  lex: lowin't
  stem: lowin't.
- gramm: V
+ gramm: V,w_trans
  paradigm: V_even
  gloss: read
  gloss_ru: читать
@@ -6351,7 +6351,7 @@
 -lexeme
  lex: namaj
  stem: nam&aj.
- gramm: V,vbz,vbz_aj
+ gramm: V,vbz,vbz_aj,w_trans
  paradigm: V_even
  gloss: name&VBZ
  gloss_ru: имя&VBZ
@@ -7491,7 +7491,7 @@
 -lexeme
  lex: ōl
  stem: ōl.
- gramm: V,intr
+ gramm: V,intr,w_trans
  paradigm: V_odd
  gloss: be
  gloss_ru: быть
@@ -8291,7 +8291,7 @@
 -lexeme
  lex: pat
  stem: pat.
- gramm: V
+ gramm: V,w_trans
  paradigm: V_odd
  gloss: fall
  gloss_ru: падать
@@ -9891,7 +9891,7 @@
 -lexeme
  lex: rōpit
  stem: rōpit.//rūpit.
- gramm: V
+ gramm: V,w_trans
  paradigm: V_even
  gloss: work
  gloss_ru: работать
@@ -10017,16 +10017,6 @@
  gloss_ru: работа
  trans_en: work, labor
  trans_ru: работа, труд
-
--lexeme
- lex: rūpit
- stem: rūpit.
- gramm: V
- paradigm: V_even
- gloss: work
- gloss_ru: работать
- trans_en: work
- trans_ru: работать, трудиться
 
 -lexeme
  lex: rūt
@@ -13951,7 +13941,7 @@
 -lexeme
  lex: wār
  stem: wār.
- gramm: V
+ gramm: V,w_trans
  paradigm: V_odd
  gloss: do
  gloss_ru: делать

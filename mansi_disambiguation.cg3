@@ -59,6 +59,13 @@ SELECT (N abl) IF (0 ("<pāwləl>i"));
 # Only nominative in front of postpositions
 SELECT (nom) IF (0 (N) OR (PRON)) (1 (POSTP));
 
+# DU vs. TRAN
+REMOVE (du nom) IF (0 (N trans) OR (A trans))
+                   (1* (V w_trans) BARRIER (V) OR (A) OR (POSTP))
+				   (NEGATE -1 ("<kit>"i))
+				   (NEGATE -2 ("<kit>"i))
+				   (NEGATE -3 ("<kit>"i))
+				   (NEGATE 0* (V du.o) OR (V du.s));
 
 # Random homonymy
 SELECT (PRON) IF (0 ("<tān>"i)) (*1 ("sāŋkwəlt") OR ("ērɣ") BARRIER NotProclitics);
