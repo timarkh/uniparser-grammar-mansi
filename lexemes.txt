@@ -7829,6 +7829,16 @@
  trans_ru: начать, основать
 
 -lexeme
+ lex: ōwəltət
+ stem: ōwəltət.
+ gramm: POSTP
+ paradigm: POSTP_default
+ gloss: about
+ gloss_ru: о
+ trans_en: about
+ trans_ru: о
+
+-lexeme
  lex: oxsa
  stem: oxsa.
  gramm: N
