@@ -1685,8 +1685,8 @@
 -paradigm: V_odd_short
  -flex: .<.>
   gramm: 
-  paradigm: V_asp_odd_vowel
-  paradigm: V_asp_odd_cons
+  paradigm: V_asp_odd_vowel_nonempty
+  paradigm: V_asp_odd_cons_nonempty
  -flex: .<.>
   gramm: 
   paradigm: V_main_short
@@ -1889,6 +1889,9 @@
   gramm: 
   regex-next: ^[.<>0-9,]*[aeiouāēīōūə].*
   paradigm: V_main_odd
+  paradigm: V_asp_odd_vowel_nonempty
+
+-paradigm: V_asp_odd_vowel_nonempty
  -flex: .aɕ<.>
   gramm: asp
   gloss: ASP
@@ -2024,6 +2027,9 @@
   gramm: 
   regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
   paradigm: V_main_even
+  paradigm: V_asp_even_cons_nonempty
+
+-paradigm: V_asp_even_cons_nonempty
  -flex: .ɣ<.>
   gramm: asp
   gloss: ASP

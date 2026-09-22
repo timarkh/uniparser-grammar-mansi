@@ -492,6 +492,9 @@ if __name__ == '__main__':
     print('***')
     for wf in a.analyze_words('koliɣ wārijanum kit koliɣ wārijanum'.split(), format='xml', disambiguate=True):
         print(wf)
+    print('***')
+    for wf in a.analyze_words('taji māɣəs taji'.split(), format='xml', disambiguate=True):
+        print(wf)
 
     a.alphabet = 'cyr'
     a.glossBrackets = True
