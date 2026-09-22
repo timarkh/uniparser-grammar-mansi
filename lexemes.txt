@@ -680,11 +680,11 @@
 
 -lexeme
  lex: alɣal'
- stem: alɣal'.
+ stem: alɣ&al'.
  gramm: ADV
  paradigm: ADV
- gloss: upstream
- gloss_ru: вверх.по.течению
+ gloss: upstream&DIR
+ gloss_ru: вверх.по.течению&DIR
  trans_en: upstream
  trans_ru: вверх по течению
 
@@ -1530,11 +1530,11 @@
 
 -lexeme
  lex: ēlal'
- stem: ēlal'.
+ stem: ēl&al'.
  gramm: ADV
  paradigm: ADV
- gloss: forward
- gloss_ru: вперед
+ gloss: forward&DIR
+ gloss_ru: вперед&DIR
  trans_en: forward
  trans_ru: вперед
 
@@ -3000,11 +3000,11 @@
 
 -lexeme
  lex: juwl'e
- stem: juwl'e.
+ stem: juw&l'e.
  gramm: ADV
  paradigm: ADV
- gloss: home
- gloss_ru: домой
+ gloss: home&DIR
+ gloss_ru: домой&DIR
  trans_en: home
  trans_ru: домой
 
@@ -3940,13 +3940,13 @@
 
 -lexeme
  lex: konal'
- stem: konal'.
+ stem: kon&al'.
  gramm: ADV
  paradigm: ADV
- gloss: from.outside
- gloss_ru: извне
- trans_en: from the outside
- trans_ru: извне
+ gloss: outside&DIR
+ gloss_ru: наружу&DIR
+ trans_en: outside
+ trans_ru: наружу
 
 -lexeme
  lex: koni
@@ -4889,12 +4889,22 @@
  trans_ru: стучать
 
 -lexeme
- lex: lōŋxal'
- stem: lōŋxal'.//lōŋxa.
+ lex: lōŋxa
+ stem: lōŋxa.
  gramm: ADV
  paradigm: ADV
  gloss: downstream
  gloss_ru: вниз.по.течению
+ trans_en: downstream
+ trans_ru: вниз по течению
+
+-lexeme
+ lex: lōŋxal'
+ stem: lōŋx&al'.
+ gramm: ADV
+ paradigm: ADV
+ gloss: downstream&DIR
+ gloss_ru: вниз.по.течению&DIR
  trans_en: downstream
  trans_ru: вниз по течению
 

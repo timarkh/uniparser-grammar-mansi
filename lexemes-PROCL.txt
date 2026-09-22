@@ -190,11 +190,11 @@
 
 -lexeme
  lex: nālwal'
- stem: nālwal'.
+ stem: nālw&al'.
  gramm: PREV,procl
  paradigm: unchangeable
- gloss: to.elements
- gloss_ru: к.стихии
+ gloss: to.elements&DIR
+ gloss_ru: к.стихии&DIR
  trans_en: to elements
  trans_ru: к стихии
 
