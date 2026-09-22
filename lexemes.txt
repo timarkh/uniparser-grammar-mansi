@@ -8200,14 +8200,14 @@
  trans_ru: фыркнуть
 
 -lexeme
- lex: parjalt
- stem: parjalt.
+ lex: parɣalt
+ stem: parɣalt.//parjalt.
  gramm: V
  paradigm: V_even
  gloss: shake.off
  gloss_ru: отряхивать
- trans_en: shake off
- trans_ru: отряхивать
+ trans_en: shake off, sow
+ trans_ru: отряхивать; сеять
 
 -lexeme
  lex: parkan
@@ -9208,6 +9208,16 @@
  gloss_ru: гнать
  trans_en: chase
  trans_ru: гнать
+
+-lexeme
+ lex: pōsl
+ stem: pōs&l.
+ gramm: V,vbz,vbz_l
+ paradigm: V_odd
+ gloss: sign&VBZ
+ gloss_ru: знак&VBZ
+ trans_en: draw
+ trans_ru: рисовать
 
 -lexeme
  lex: posl
@@ -12460,6 +12470,16 @@
  trans_ru: цена
 
 -lexeme
+ lex: tinal
+ stem: tinal.
+ gramm: V
+ paradigm: V_even
+ gloss: sell
+ gloss_ru: продать
+ trans_en: sell
+ trans_ru: продать
+
+-lexeme
  lex: tip
  stem: tip.
  gramm: V,intr
@@ -12498,6 +12518,16 @@
  gloss_ru: основание
  trans_en: base
  trans_ru: основание
+
+-lexeme
+ lex: titlt
+ stem: titlt.
+ gramm: V
+ paradigm: V_odd
+ gloss: wet
+ gloss_ru: намочить
+ trans_en: wet
+ trans_ru: намочить
 
 -lexeme
  lex: titt
@@ -13790,8 +13820,8 @@
  trans_ru: шагнуть
 
 -lexeme
- lex: ūsxulə
- stem: ūsxulə.
+ lex: ūsxuli
+ stem: ūsxuli.
  gramm: N
  paradigm: N_odd
  gloss: street
@@ -14548,6 +14578,16 @@
  gloss_ru: упрямый
  trans_en: stubborn, persistent
  trans_ru: упрямый, настойчивый
+
+-lexeme
+ lex: woritot
+ stem: woritot.
+ gramm: V,intr
+ paradigm: V_odd
+ gloss: struggle
+ gloss_ru: бороться
+ trans_en: struggle
+ trans_ru: бороться
 
 -lexeme
  lex: wōrt
@@ -17588,3 +17628,93 @@
  gloss_ru: нанимать
  trans_en: hire
  trans_ru: нанимать
+
+-lexeme
+ lex: tō
+ stem: tō.//tōwa.
+ gramm: X
+ paradigm: unchangeable
+ gloss: some
+ gloss_ru: некоторый
+ trans_en: some
+ trans_ru: некоторый
+
+-lexeme
+ lex: tujt
+ stem: tujt.
+ gramm: N
+ paradigm: N_odd
+ gloss: train
+ gloss_ru: поезд
+ trans_en: train
+ trans_ru: поезд
+
+-lexeme
+ lex: awtomopil'
+ stem: awtomopil'.
+ gramm: N,rus
+ paradigm: N_even
+ gloss: car
+ gloss_ru: автомобиль
+ trans_en: car
+ trans_ru: автомобиль
+
+-lexeme
+ lex: tēnut
+ stem: tēnut.
+ gramm: N
+ paradigm: N_even
+ gloss: food
+ gloss_ru: еда
+ trans_en: food
+ trans_ru: еда
+
+-lexeme
+ lex: Xal'pūs
+ stem: xal'pūs.//xal'ūs.
+ gramm: N,PN,topn
+ paradigm: N_even
+ gloss: Khalpus
+ gloss_ru: Березово
+ trans_en: Khalpus
+ trans_ru: Березово
+
+-lexeme
+ lex: Sortəŋjā
+ stem: sortəŋjā.
+ gramm: N,PN,topn
+ paradigm: N_even
+ gloss: Sortynja
+ gloss_ru: Сортынья
+ trans_en: Sortynja
+ trans_ru: Сортынья
+
+-lexeme
+ lex: mōlti
+ stem: mōlti.
+ gramm: ADV
+ paradigm: ADV
+ gloss: earlier
+ gloss_ru: раньше
+ trans_en: earlier
+ trans_ru: раньше
+
+-lexeme
+ lex: mastərl
+ stem: mastərl.
+ gramm: V,rus
+ paradigm: V_even
+ gloss: craft
+ gloss_ru: мастерить
+ trans_en: craft
+ trans_ru: мастерить
+
+-lexeme
+ lex: lūsit
+ stem: lūsit.
+ gramm: V,rus
+ paradigm: V_even
+ gloss: serve
+ gloss_ru: служить
+ trans_en: serve
+ trans_ru: служить
