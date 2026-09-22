@@ -100,7 +100,7 @@
   gramm: du
   gloss: DU
   paradigm: N-poss
- -flex: .t<.>//.ət<.>//.it<.>
+ -flex: .t<.>//.ət<.>
   gramm: pl
   gloss: PL
   paradigm: N-case-numposs
@@ -127,7 +127,7 @@
   gramm: du
   gloss: DU
   paradigm: N-poss
- -flex: <0>.t<.>//.ət<.>//.it<.>
+ -flex: <0>.t<.>//.ət<.>
   gramm: pl
   gloss: PL
   paradigm: N-case-numposs
@@ -154,7 +154,7 @@
   gramm: du
   gloss: DU
   paradigm: N-poss
- -flex: .t<.>//<0>.ət<.>//<0>.it<.>
+ -flex: .t<.>//<0>.ət<.>
   gramm: pl
   gloss: PL
   paradigm: N-case-numposs
@@ -182,7 +182,7 @@
   gramm: du
   gloss: DU
   paradigm: N-poss
- -flex: <1>.t<.>//<1>.ət<.>//<1>.it<.>
+ -flex: <1>.t<.>//<1>.ət<.>
   gramm: pl
   gloss: PL
   paradigm: N-case-numposs
@@ -210,7 +210,7 @@
   gramm: du
   gloss: DU
   paradigm: N-poss
- -flex: .t<.>//.ət<.>//.it<.>
+ -flex: .t<.>//.ət<.>
   gramm: pl
   gloss: PL
   paradigm: N-case-numposs
@@ -237,7 +237,7 @@
   gramm: du
   gloss: DU
   paradigm: N-poss
- -flex: <0>.t<.>//.ət<.>//.it<.>
+ -flex: <0>.t<.>//.ət<.>
   gramm: pl
   gloss: PL
   paradigm: N-case-numposs
@@ -264,7 +264,7 @@
   gramm: du
   gloss: DU
   paradigm: N-poss
- -flex: .t<.>//<0>.ət<.>//<0>.it<.>
+ -flex: .t<.>//<0>.ət<.>
   gramm: pl
   gloss: PL
   paradigm: N-case-numposs
@@ -514,7 +514,7 @@
  -flex: .ɣ//.iɣ
   gramm: du,nom
   gloss: DU
- -flex: .t//.ət//.it
+ -flex: .t//.ət
   gramm: pl,nom
   gloss: PL
  -flex: .ɣ//.iɣ//.ɣiɣ
@@ -527,7 +527,7 @@
  -flex: <0>.ɣ//.iɣ
   gramm: du,nom
   gloss: DU
- -flex: <0>.t//.ət//.it
+ -flex: <0>.t//.ət
   gramm: pl,nom
   gloss: PL
  -flex: <0>.ɣ//.iɣ//<0>.ɣiɣ
@@ -1825,6 +1825,9 @@
   gramm: 
   regex-next: ^[.<>0-9,]*[^.<>0-9,aeiouāēīōūə].*
   paradigm: V_main_odd
+  paradigm: V_asp_odd_cons_nonempty
+
+-paradigm: V_asp_odd_cons_nonempty
  -flex: .ɣ<.>
   gramm: asp
   gloss: ASP

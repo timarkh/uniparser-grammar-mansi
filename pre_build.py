@@ -472,14 +472,15 @@ if __name__ == '__main__':
         "kot'l'",
         'xumil',
         'uretəl',
-        'lakwsite',
-        'lakwsalite',
+        'lākwsite',
+        'lākwsalite',
         'pāwləl',
         'pāwəlt',
         'porat',
         'māɣsəluw',
         'mētalaxtalāluŋkwe',
-        'xōŋxan'
+        'xōŋxan',
+        'atit'
     ], format='xml'):
         print(wf)
 
