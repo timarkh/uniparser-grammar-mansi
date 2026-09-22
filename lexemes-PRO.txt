@@ -781,16 +781,6 @@
  trans_ru: что
 
 -lexeme
- lex: nēmanər
- stem: nē&manər.|nē&manr.
- gramm: PRON
- paradigm: N-case-default-syncop
- gloss: PRON.NEG&what
- gloss_ru: PRON.NEG&что
- trans_en: nothing
- trans_ru: ничто
-
--lexeme
  lex: manar
  stem: manar.
  gramm: V
@@ -821,16 +811,6 @@
  trans_ru: почему
 
 -lexeme
- lex: nēmanriɣ
- stem: nē&manriɣ.
- gramm: PRON
- paradigm: unchangeable
- gloss: PRON.NEG&why
- gloss_ru: PRON.NEG&почему
- trans_en: no reason
- trans_ru: нипочему
-
--lexeme
  lex: manax
  stem: manax.
  gramm: PRON
@@ -841,16 +821,6 @@
  trans_ru: сколько
 
 -lexeme
- lex: nēmanax
- stem: nē&manax.
- gramm: PRON
- paradigm: unchangeable
- gloss: PRON.NEG&how.much
- gloss_ru: PRON.NEG&сколько
- trans_en: no amount
- trans_ru: нисколько
-
--lexeme
  lex: matər
  stem: matər.
  gramm: PRON
@@ -859,16 +829,6 @@
  gloss_ru: что.то
  trans_en: something
  trans_ru: что-то
-
--lexeme
- lex: nēm
- stem: nēm.
- gramm: PRON
- paradigm: ADV
- gloss: PRON.NEG
- gloss_ru: PRON.NEG
- trans_en: not
- trans_ru: не
 
 -lexeme
  lex: nēmatər
@@ -911,16 +871,6 @@
  trans_ru: кто
 
 -lexeme
- lex: nēmxōŋxa
- stem: nēm&xōŋxa.
- gramm: PRON
- paradigm: N_even
- gloss: PRON.NEG&who
- gloss_ru: PRON.NEG&кто
- trans_en: nobody
- trans_ru: никто
-
--lexeme
  lex: xumus
  stem: xumus.//xomus.
  gramm: PRON
@@ -931,16 +881,6 @@
  trans_ru: как
 
 -lexeme
- lex: nēmxumus
- stem: nēm&xumus.//nēm&xomus.
- gramm: PRON
- paradigm: unchangeable
- gloss: PRON.NEG&how
- gloss_ru: PRON.NEG&как
- trans_en: no way
- trans_ru: никак
-
--lexeme
  lex: xotum
  stem: xotum.
  gramm: PRON
@@ -949,6 +889,16 @@
  gloss_ru: как.нибудь
  trans_en: somehow
  trans_ru: как-нибудь
+
+-lexeme
+ lex: nēmxotum
+ stem: nēm&xotum.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&somehow
+ gloss_ru: PRON.NEG&как.нибудь
+ trans_en: no way
+ trans_ru: никак
 
 -lexeme
  lex: xuml'e

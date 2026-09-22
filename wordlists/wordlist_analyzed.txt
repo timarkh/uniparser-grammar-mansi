@@ -437,6 +437,7 @@
 <w><ana lex="nārapt" gr="V,pass,pst,subjc,3.s,pl.s" parts="nārapt-awe-s-ət" gloss="barricade-PASS-PST-3PL" gloss_ru="забаррикадировать-PASS-PST-3PL" trans_en="barricade" trans_ru="забаррикадировать"></ana>nāraptawesət</w>
 <w><ana lex="nāt" gr="V,pass,npst,subjc,3.s,sg.s" parts="nāt-awe" gloss="drift-PASS.NPST.3SG" gloss_ru="нести.течением-PASS.NPST.3SG" trans_en="drift" trans_ru="нести течением"></ana>nātawe</w>
 <w><ana lex="nēmat" gr="PRON" parts="nē-mat" gloss="PRON.NEG-what.kind" gloss_ru="PRON.NEG-какой" trans_en="none" trans_ru="никакой"></ana>nēmat</w>
+<w><ana lex="nēmxotum" gr="PRON" parts="nēm-xotum" gloss="PRON.NEG-somehow" gloss_ru="PRON.NEG-как.нибудь" trans_en="no way" trans_ru="никак"></ana>nēmxotum</w>
 <w><ana lex="nēɣl" gr="V,intr,mom,pst,act,subjc,3.s,pl.s" parts="nēɣl-ap-as-ət" gloss="appear-MOM-PST-3PL" gloss_ru="появиться-MOM-PST-3PL" trans_en="appear" trans_ru="появиться"></ana>nēɣlapasət</w>
 <w><ana lex="nēɣl" gr="V,intr,mom,npst,act,subjc,3.s,pl.s" parts="nēɣl-ap-ēɣ-t" gloss="appear-MOM-NPST-3PL" gloss_ru="появиться-MOM-NPST-3PL" trans_en="appear" trans_ru="появиться"></ana>nēɣlapēɣt</w>
 <w><ana lex="nēɣl" gr="V,intr,pst,act,subjc,3.s,pl.s" parts="nēɣl-əs-ət" gloss="appear-PST-3PL" gloss_ru="появиться-PST-3PL" trans_en="appear" trans_ru="появиться"></ana>nēɣləsət</w>
