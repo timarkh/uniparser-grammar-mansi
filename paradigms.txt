@@ -276,6 +276,29 @@
 
 
 
+
+-paradigm: NMLZ_e
+ -flex: .
+  gramm: sg,nom
+ -flex: .t//.ta
+  gramm: sg,loc
+  gloss: LOC
+ -flex: .<.>
+  gramm: sg
+  paradigm: NMLZ-poss-e
+
+-paradigm: NMLZ_te
+ -flex: .
+  gramm: sg,nom
+ -flex: .t//.ta
+  gramm: sg,loc
+  gloss: LOC
+ -flex: .<.>
+  gramm: sg
+  paradigm: NMLZ-poss-te
+
+
+
 -paradigm: POSTP_default
  -flex: .
   gramm: 
@@ -962,6 +985,13 @@
   gloss: TRANS
 
 
+-paradigm: NMLZ-case-poss
+ -flex: .
+  gramm: nom
+ -flex: .t//.ta
+  gramm: loc
+  gloss: LOC
+
 
 -paradigm: N-poss
  -flex: .m<.>//.um<.>
@@ -1090,6 +1120,98 @@
   gloss: POSS.3PL
  paradigm: N-case-numposs
 
+
+-paradigm: NMLZ-poss-e
+ -flex: .m<.>//.um<.>
+  gramm: 1sg
+  gloss: POSS.1SG
+ -flex: .mēn<.>//.amen<.>//.umēn<.>
+  gramm: 1du
+  gloss: POSS.1DU
+ -flex: .w<.>
+  gramm: 1pl
+  gloss: POSS.1PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .uw<.>
+  gramm: 1pl
+  gloss: POSS.1PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .n<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .ən<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .en<.>//.ēn<.>
+  gramm: 2du_pl
+  gloss: POSS.2DU/PL
+ -flex: .e<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+ -flex: .ē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-next: ^[.<>0-9,]*[a-zāēīōūəɕɣŋ].*
+ -flex: .tēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .en<.>//.ēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .nəl<.>//.anəl<.>//.janəl<.>
+  gramm: 3pl
+  gloss: POSS.3PL
+ paradigm: NMLZ-case-poss
+
+-paradigm: NMLZ-poss-te
+ -flex: .m<.>//.um<.>
+  gramm: 1sg
+  gloss: POSS.1SG
+ -flex: .mēn<.>//.amen<.>//.umēn<.>
+  gramm: 1du
+  gloss: POSS.1DU
+ -flex: .w<.>
+  gramm: 1pl
+  gloss: POSS.1PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .uw<.>
+  gramm: 1pl
+  gloss: POSS.1PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .n<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .ən<.>
+  gramm: 2sg
+  gloss: POSS.2SG
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .en<.>//.ēn<.>
+  gramm: 2du_pl
+  gloss: POSS.2DU/PL
+ -flex: .te<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+ -flex: .tē<.>
+  gramm: 3sg
+  gloss: POSS.3SG
+  regex-next: ^[.<>0-9,]*[a-zāēīōūəɕɣŋ].*
+ -flex: .tēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .en<.>//.ēn<.>
+  gramm: 3du
+  gloss: POSS.3DU
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
+ -flex: .nəl<.>//.anəl<.>//.janəl<.>
+  gramm: 3pl
+  gloss: POSS.3PL
+ paradigm: NMLZ-case-poss
 
 
 #  MAIN VERBAL PARADIGMS
@@ -2791,16 +2913,20 @@
  -flex: .m<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: N_odd
- -flex: .am<.>//.əm<.>//.im<.>//.um<.>
+  paradigm: NMLZ_e
+ -flex: .am<.>//.əm<.>//.um<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: N_even
+  paradigm: NMLZ_e
+ -flex: .im<.>
+  gramm: ptcp_res,nom,sg
+  gloss: PTCP.RES
+  paradigm: NMLZ-poss-te
  
  -flex: .ime<.>
   gramm: ptcp_pass
   gloss: PTCP.PASS
-  paradigm: N_odd
+  paradigm: NMLZ_te
 
  -flex: .p<.>
   gramm: ptcp
@@ -2811,14 +2937,13 @@
   gloss: PTCP
   paradigm: N_even
 
- -flex: .n<.>
+ -flex: .n//.an//.ən
+  gramm: ptcp_npst,nom,sg
+  gloss: PTCP.NPST
+ -flex: .ne<.>//.nē<.>
   gramm: ptcp_npst
   gloss: PTCP.NPST
-  paradigm: N_odd
- -flex: .ne<.>//.nē<.>//.an<.>//.ən<.>
-  gramm: ptcp_npst
-  gloss: PTCP.NPST
-  paradigm: N_even
+  paradigm: NMLZ_te
 
  -flex: .ake<.>
   gramm: temp
@@ -2850,16 +2975,20 @@
  -flex: .m<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: N_even
- -flex: .am<.>//.əm<.>//.im<.>//.um<.>
+  paradigm: NMLZ_e
+ -flex: .am<.>//.əm<.>//.um<.>
   gramm: ptcp_res
   gloss: PTCP.RES
-  paradigm: N_odd
+  paradigm: NMLZ_e
+ -flex: .im<.>
+  gramm: ptcp_res,nom,sg
+  gloss: PTCP.RES
+  paradigm: NMLZ-poss-te
  
  -flex: .ime<.>
   gramm: ptcp_pass
   gloss: PTCP.PASS
-  paradigm: N_even
+  paradigm: NMLZ_te
 
  -flex: .p<.>
   gramm: ptcp
@@ -2870,14 +2999,13 @@
   gloss: PTCP
   paradigm: N_odd
 
- -flex: .n<.>
+ -flex: .n//.an//.ən
+  gramm: ptcp_npst,nom,sg
+  gloss: PTCP.NPST
+ -flex: .ne<.>//.nē<.>
   gramm: ptcp_npst
   gloss: PTCP.NPST
-  paradigm: N_even
- -flex: .ne<.>//.nē<.>//.an<.>//.ən<.>
-  gramm: ptcp_npst
-  gloss: PTCP.NPST
-  paradigm: N_odd
+  paradigm: NMLZ_te
 
  -flex: .ake<.>
   gramm: temp
