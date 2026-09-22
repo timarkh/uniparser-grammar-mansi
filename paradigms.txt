@@ -298,6 +298,11 @@
   paradigm: NMLZ-poss-te
 
 
+-paradigm: POSTP_ins
+ -flex: .təl<.>
+  gramm: ins
+  gloss: INS
+ paradigm: POSTP_default
 
 -paradigm: POSTP_default
  -flex: .
@@ -1905,11 +1910,11 @@
   gloss: ASP
   regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
   paradigm: V_asp2_even
- -flex: .s<.>
-  gramm: asp
-  gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
-  paradigm: V_asp2_odd
+# -flex: .s<.>
+#  gramm: asp
+#  gloss: ASP
+#  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+#  paradigm: V_asp2_odd
  -flex: .iɣt<.>
   gramm: asp
   gloss: ASP
@@ -2103,11 +2108,11 @@
   gloss: ASP
   regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
   paradigm: V_asp2_odd
- -flex: .s<.>
-  gramm: asp
-  gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
-  paradigm: V_asp2_even
+# -flex: .s<.>
+#  gramm: asp
+#  gloss: ASP
+#  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+#  paradigm: V_asp2_even
  -flex: .iɣt<.>
   gramm: asp
   gloss: ASP

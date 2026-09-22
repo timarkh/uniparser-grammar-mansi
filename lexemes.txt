@@ -4399,6 +4399,16 @@
  trans_ru: обойти кругом
 
 -lexeme
+ lex: lākws
+ stem: lākws.
+ gramm: V
+ paradigm: V_odd
+ gloss: chase.down
+ gloss_ru: выслеживать
+ trans_en: chase down
+ trans_ru: выслеживать
+
+-lexeme
  lex: lākwəŋɕ
  stem: lākwəŋɕ.
  gramm: ADV
@@ -4545,8 +4555,18 @@
  paradigm: V_odd
  gloss: say
  gloss_ru: сказать
- trans_en: say
- trans_ru: сказать
+ trans_en: say; tell; appoint
+ trans_ru: сказать; приказать; назначить
+
+-lexeme
+ lex: lāws
+ stem: lāws.
+ gramm: V,w_trans
+ paradigm: V_odd
+ gloss: say
+ gloss_ru: сказать
+ trans_en: say, speak
+ trans_ru: сказать, говорить
 
 -lexeme
  lex: lāɕal
@@ -6499,6 +6519,16 @@
  trans_ru: привязать
 
 -lexeme
+ lex: nēɣsal
+ stem: nēɣsal.
+ gramm: V
+ paradigm: V_even
+ gloss: tie
+ gloss_ru: привязать
+ trans_en: tie
+ trans_ru: привязать
+
+-lexeme
  lex: nēɣl
  stem: nēɣl.
  gramm: V,intr
@@ -8003,6 +8033,7 @@
  stem: palt.
  gramm: POSTP
  paradigm: POSTP_default
+ paradigm: POSTP_ins
  gloss: to
  gloss_ru: к
  trans_en: to
@@ -8817,6 +8848,16 @@
  gloss_ru: успокоиться
  trans_en: calm down, fall silent
  trans_ru: успокоиться, замолчать
+
+-lexeme
+ lex: pōjtsāl
+ stem: pōjtsāl.
+ gramm: V
+ paradigm: V_even
+ gloss: stop
+ gloss_ru: stop
+ trans_en: stop, cease
+ trans_ru: перестать
 
 -lexeme
  lex: pojəlt
@@ -10883,6 +10924,16 @@
  stem: sēɣ.
  gramm: V
  paradigm: V_odd
+ gloss: wipe
+ gloss_ru: вытирать
+ trans_en: wipe
+ trans_ru: вытирать
+
+-lexeme
+ lex: sēɣsal
+ stem: sēɣsal.
+ gramm: V
+ paradigm: V_even
  gloss: wipe
  gloss_ru: вытирать
  trans_en: wipe
@@ -14111,7 +14162,7 @@
 -lexeme
  lex: wērm
  stem: wērm.
- gramm: V
+ gramm: V,komi
  paradigm: V_odd
  gloss: be.able
  gloss_ru: мочь
@@ -15377,6 +15428,16 @@
  gloss_ru: попасть.NPST
  trans_en: hit
  trans_ru: попасть
+
+-lexeme
+ lex: xōjsāl
+ stem: xōjsāl.
+ gramm: V,intr
+ paradigm: V_even
+ gloss: touch
+ gloss_ru: дотронуться
+ trans_en: touch
+ trans_ru: дотронуться
 
 -lexeme
  lex: xol

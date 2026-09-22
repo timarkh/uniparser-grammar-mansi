@@ -33,6 +33,8 @@ jiw
 kuɕn
 kērsol
 lakw
+lakwsalijanəl
+lakwsite
 malaɕlaxti
 mol
 oxsum
@@ -82,6 +84,9 @@ kwalsət
 kwālapakēte
 kārtlaxtēw
 kōnsəŋ
+lakwsalite
+lakwsawe
+lakwsijanəl
 lanenəl
 lawi
 lawn
@@ -132,6 +137,7 @@ tāɣintas
 tāɣmatwes
 tāɣəltawe
 tɣajt
+wissiɣ
 wolkati
 wāreɣt
 wōnxa
