@@ -41,9 +41,11 @@ SELECT (V imp) IF (-2 ("<ul>"i)) (-1 ("<=>"));
 # Participles with possession markers are very rare and may be homonymous with the mirative forms
 REMOVE (V ptcp_npst 3sg) IF (0 (V mir 3.s sg.s));
 
+# *ne in front of a noun -> participle, not mirative
+REMOVE (V mir) IF (0 ("<.*ne>"i)) (0 (V ptcp_npst)) (1 (N));
+
 # Participles in character names
 SELECT (V ptcp_npst) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
-REMOVE (V ptcp_npst 3sg) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
 
 
 
