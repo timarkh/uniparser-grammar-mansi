@@ -33,7 +33,7 @@
 <w><ana lex="Mis" gr="N,PN,sg,nom" parts="mis" gloss="Mis" gloss_ru="Мис" trans_en="Mis" trans_ru="Мис"></ana><ana lex="mi" gr="V,pst,act,subjc,3.s,sg.s" parts="mi-s" gloss="give-PST.3SG" gloss_ru="дать-PST.3SG" trans_en="give" trans_ru="дать"></ana><ana lex="mis" gr="N,anim,sg,nom" parts="mis" gloss="cow" gloss_ru="корова" trans_en="cow" trans_ru="корова"></ana>mis</w>
 <w><ana lex="wōr" gr="N,sg,lat" parts="wōr-n" gloss="forest-LAT" gloss_ru="лес-LAT" trans_en="forest" trans_ru="лес"></ana>wōrn</w>
 <w><ana lex="āŋkwal" gr="N,sg,nom" parts="āŋkwal" gloss="pole" gloss_ru="столб" trans_en="pole" trans_ru="столб"></ana>āŋkwal</w>
-<w><ana lex="a" gr="X" parts="a" gloss="and" gloss_ru="а" trans_en="and" trans_ru="а"></ana>a</w>
+<w><ana lex="a" gr="CONJ,rus" parts="a" gloss="and" gloss_ru="а" trans_en="and" trans_ru="а"></ana><ana lex="a" gr="X" parts="a" gloss="Q" gloss_ru="Q" trans_en="interrogative particle" trans_ru="вопросительная частица"></ana>a</w>
 <w><ana lex="kos" gr="X,procl" parts="kos" gloss="CONC" gloss_ru="CONC" trans_en="CONC" trans_ru="CONC"></ana>kos</w>
 <w><ana lex="palt" gr="POSTP" parts="palt" gloss="to" gloss_ru="к" trans_en="to" trans_ru="к"></ana>palt</w>
 <w><ana lex="tōrew" gr="N,anim,sg,nom" parts="tōrew" gloss="bear" gloss_ru="медведь" trans_en="bear" trans_ru="медведь"></ana>tōrew</w>

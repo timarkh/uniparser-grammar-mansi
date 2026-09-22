@@ -15,7 +15,7 @@ SET BOSPunct = (punct) | BOS;
 
 
 
-SECTION    # Preverbs and other proclitics
+SECTION    # Preverbs and other pro- and enclitics
 REMOVE (procl)
     IF (0 NotProclitics)
        (NEGATE *1 V BARRIER NotProclitics)
@@ -23,13 +23,16 @@ REMOVE (procl)
        (NEGATE -1 ("<ja>"i));
 SELECT (procl) IF (0 ("<juw>"i)) (-1 ("<ta>"i) OR ("<ti>"i));
 SELECT (procl) IF (0 ("<ta>"i) OR ("<ti>"i)) (1 V);
-SELECT (V npst 3.s sg.s) IF (0 ("<juw>"i)) (1 (V) OR Proclitics);
+SELECT (V npst 3.s sg.s) IF (0 ("<juw>"i))
+                            (NEGATE 1 (V) OR Proclitics);
+
+SELECT (CONJ rus) IF (0 ("<a>"i)) (-1 BOSPunct);
 
 
 SECTION    # Verbs
 # Select finite analyses with the correct subject agreement
-SELECT (V npst 1.s du.s) IF (*-1 ("mēn"i) BARRIER V | BOSPunct)
-                            (0 (".*mēn"r))
+SELECT (V npst 1.s du.s) IF (*-1 ("<mēn>"i) BARRIER V | BOSPunct)
+                            (0 ("<.*mēn>"r))
                             (NEGATE 0 (V npst pass));
 
 SELECT (V imp) IF (-1 ("<ul>"i));

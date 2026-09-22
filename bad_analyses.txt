@@ -3,6 +3,7 @@
   {"wfGlossed": ".*-i-ɣ$", "gloss": ".*NPST-3DU$"},
   {"wfGlossed": "^ēr-ɣ-.*", "gloss": "^be\\.needed-ASP.*"},
   {"wfGlossed": "^nom-s-.*", "gloss": "^remember-ASP.*"},
+  {"wfGlossed": "^ji-w-.*", "gloss": "^go-NPST.*"},
   {"gramm": "V.*,intr(.(?!(\\btr,|cau)))*objc.*"},
   {"wf": "^mis(it|an(e|um|ən))$", "gramm": "N.*,PN"},
   {"wf": "kastəl", "lemma": "kas"},

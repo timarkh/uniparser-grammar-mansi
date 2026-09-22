@@ -231,12 +231,22 @@
 -lexeme
  lex: a
  stem: a.
- gramm: X
+ gramm: CONJ,rus
  paradigm: unchangeable
  gloss: and
  gloss_ru: а
  trans_en: and
  trans_ru: а
+
+-lexeme
+ lex: a
+ stem: a.
+ gramm: X
+ paradigm: unchangeable
+ gloss: Q
+ gloss_ru: Q
+ trans_en: interrogative particle
+ trans_ru: вопросительная частица
 
 -lexeme
  lex: aa
