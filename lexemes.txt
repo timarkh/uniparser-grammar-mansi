@@ -321,7 +321,7 @@
 -lexeme
  lex: ākan'
  stem: ākan'.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: doll
  gloss_ru: кукла
@@ -851,7 +851,7 @@
 -lexeme
  lex: ampar
  stem: ampar.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: barn
  gloss_ru: амбар
@@ -871,7 +871,7 @@
 -lexeme
  lex: amɕik
  stem: amɕik.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: coachman
  gloss_ru: ямщик
@@ -881,7 +881,7 @@
 -lexeme
  lex: anana
  stem: anana.
- gramm: X
+ gramm: INTRJ
  paradigm: unchangeable
  gloss: INTRJ
  gloss_ru: INTRJ
@@ -1121,7 +1121,7 @@
 -lexeme
  lex: ārɕin
  stem: ārɕin.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: arshin
  gloss_ru: аршин
@@ -1911,7 +1911,7 @@
 -lexeme
  lex: i
  stem: i.
- gramm: X
+ gramm: CONJ,rus
  paradigm: unchangeable
  gloss: and
  gloss_ru: и
@@ -1941,7 +1941,7 @@
 -lexeme
  lex: inar
  stem: inar.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: saddle
  gloss_ru: седло
@@ -1979,16 +1979,6 @@
  trans_ru: приземлиться
 
 -lexeme
- lex: isiɣl
- stem: isiɣl.
- gramm: V,intr
- paradigm: V_even
- gloss: warm.up
- gloss_ru: согреться
- trans_en: warm up
- trans_ru: согреться
-
--lexeme
  lex: ismit
  stem: ismit.
  gramm: N
@@ -2021,7 +2011,7 @@
 -lexeme
  lex: istakan
  stem: istakan.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: glass
  gloss_ru: стакан
@@ -2041,7 +2031,7 @@
 -lexeme
  lex: isweska
  stem: isweska.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: lime
  gloss_ru: известь
@@ -2057,16 +2047,6 @@
  gloss_ru: тень
  trans_en: shadow
  trans_ru: тень
-
--lexeme
- lex: isəlt
- stem: isəlt.
- gramm: V
- paradigm: V_even
- gloss: warm
- gloss_ru: согреть
- trans_en: warm
- trans_ru: согреть
 
 -lexeme
  lex: it
@@ -2121,7 +2101,7 @@
 -lexeme
  lex: iɕwēr
  stem: iɕwēr.
- gramm: N,anim
+ gramm: N,anim,rus
  paradigm: N_even
  gloss: animal
  gloss_ru: зверь
@@ -2341,7 +2321,7 @@
 -lexeme
  lex: jārmak
  stem: jārmak.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: silk
  gloss_ru: шелк
@@ -2981,7 +2961,7 @@
 -lexeme
  lex: jūpk
  stem: jūpk.//jūpka.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: skirt
  gloss_ru: юбка
@@ -2991,7 +2971,7 @@
 -lexeme
  lex: jurt
  stem: jurt.
- gramm: N,anim,hum
+ gramm: N,anim,hum,komi
  paradigm: N_odd
  gloss: friend
  gloss_ru: друг
@@ -3071,7 +3051,7 @@
 -lexeme
  lex: kālaɕ
  stem: kālaɕ.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: kalach
  gloss_ru: калач
@@ -3161,7 +3141,7 @@
 -lexeme
  lex: karek
  stem: karek.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: sin
  gloss_ru: грех
@@ -3231,7 +3211,7 @@
 -lexeme
  lex: kārta
  stem: kārta.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: fence
  gloss_ru: ограда
@@ -3241,7 +3221,7 @@
 -lexeme
  lex: kartōpka
  stem: kartōpka.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: potato
  gloss_ru: картошка
@@ -3251,7 +3231,7 @@
 -lexeme
  lex: kārwil't
  stem: kārwil't.
- gramm: V
+ gramm: V,rus
  paradigm: V_even
  gloss: keep.watch
  gloss_ru: караулить
@@ -3655,7 +3635,7 @@
  paradigm: N_odd
  gloss: son.in.law
  gloss_ru: зять
- trans_en: son-in-law, husband of the eldest sister
+ trans_en: son-in-law, elder sister's husband
  trans_ru: зять, муж старшей сестры
 
 -lexeme
@@ -3671,7 +3651,7 @@
 -lexeme
  lex: kina
  stem: kina.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: movie
  gloss_ru: кино
@@ -4231,7 +4211,7 @@
 -lexeme
  lex: kurəska
  stem: kurəska.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: mug
  gloss_ru: кружка
@@ -4251,7 +4231,7 @@
 -lexeme
  lex: kūsnitsa
  stem: kūsnitsa.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: smithy
  gloss_ru: кузница
@@ -4311,7 +4291,7 @@
 -lexeme
  lex: kūɕaj
  stem: kūɕaj.//kuɕaj.//koɕaj.//koɕj.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: master
  gloss_ru: хозяин
@@ -4451,7 +4431,7 @@
 -lexeme
  lex: lāmpa
  stem: lāmpa.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: lamp
  gloss_ru: лампа
@@ -4611,7 +4591,7 @@
 -lexeme
  lex: lēkkar
  stem: lēkkar.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: healer
  gloss_ru: лекарь
@@ -5151,7 +5131,7 @@
 -lexeme
  lex: l'ēw
  stem: l'ēw.
- gramm: N,anim
+ gramm: N,anim,rus
  paradigm: N_odd
  gloss: lion
  gloss_ru: лев
@@ -5591,7 +5571,7 @@
 -lexeme
  lex: māssəna
  stem: māssəna.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: car
  gloss_ru: машина
@@ -5681,7 +5661,7 @@
 -lexeme
  lex: māɕtər
  stem: māɕtər.
- gramm: ADJ
+ gramm: ADJ,rus
  paradigm: ADJ_even
  gloss: skillful
  gloss_ru: искусный
@@ -5691,7 +5671,7 @@
 -lexeme
  lex: māɕtərl
  stem: māɕtər&l.
- gramm: V,vbz,vbz_l
+ gramm: V,rus,vbz,vbz_l
  paradigm: V_even
  gloss: skillful&VBZ
  gloss_ru: искусный&VBZ
@@ -5761,7 +5741,7 @@
 -lexeme
  lex: mir
  stem: mir.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: world
  gloss_ru: мир
@@ -5781,7 +5761,7 @@
 -lexeme
  lex: mis
  stem: mis.
- gramm: N,anim
+ gramm: N,anim,komi
  paradigm: N_odd
  gloss: cow
  gloss_ru: корова
@@ -5811,7 +5791,7 @@
 -lexeme
  lex: mōjt
  stem: mōjt.
- gramm: N
+ gramm: N,komi
  paradigm: N_odd
  gloss: tale
  gloss_ru: сказка
@@ -5821,7 +5801,7 @@
 -lexeme
  lex: mōjt
  stem: mōjt.
- gramm: V
+ gramm: V,komi
  paradigm: V_odd
  gloss: tell.stories
  gloss_ru: рассказывать.сказки
@@ -6161,7 +6141,7 @@
 -lexeme
  lex: musta
  stem: musta.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: bridge
  gloss_ru: мост
@@ -6171,7 +6151,7 @@
 -lexeme
  lex: mutra
  stem: mutra.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: wisdom
  gloss_ru: мудрость
@@ -6551,7 +6531,7 @@
 -lexeme
  lex: nēpak
  stem: nēpak.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: book
  gloss_ru: книга
@@ -6941,7 +6921,7 @@
 -lexeme
  lex: n'ān'
  stem: n'ān'.
- gramm: N
+ gramm: N,komi
  paradigm: N_odd
  gloss: bread
  gloss_ru: хлеб
@@ -7751,7 +7731,7 @@
 -lexeme
  lex: otnāko
  stem: otnāko.
- gramm: X
+ gramm: X,rus
  paradigm: unchangeable
  gloss: however
  gloss_ru: однако
@@ -8141,7 +8121,7 @@
 -lexeme
  lex: pān'a
  stem: pān'a.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: bathhouse
  gloss_ru: баня
@@ -8201,7 +8181,7 @@
 -lexeme
  lex: pārsa
  stem: pārsa.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: barge
  gloss_ru: баржа
@@ -8241,7 +8221,7 @@
 -lexeme
  lex: pasan
  stem: pasan.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: table
  gloss_ru: стол
@@ -8351,7 +8331,7 @@
 -lexeme
  lex: patran
  stem: patran.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: cartridges
  gloss_ru: патроны
@@ -8561,7 +8541,7 @@
 -lexeme
  lex: peraman'
  stem: peraman'.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: change
  gloss_ru: перемена
@@ -8721,7 +8701,7 @@
 -lexeme
  lex: pisal'
  stem: pisal'.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: gun
  gloss_ru: ружьё
@@ -8781,7 +8761,7 @@
 -lexeme
  lex: pojar
  stem: pojar.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: boyar
  gloss_ru: боярин
@@ -8971,7 +8951,7 @@
 -lexeme
  lex: pop
  stem: pop.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_odd
  gloss: priest
  gloss_ru: поп
@@ -9011,7 +8991,7 @@
 -lexeme
  lex: pora
  stem: pora.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: time
  gloss_ru: время
@@ -9221,7 +9201,7 @@
 -lexeme
  lex: pot
  stem: pot.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: pound
  gloss_ru: пуд
@@ -9241,7 +9221,7 @@
 -lexeme
  lex: potwata
  stem: potwata.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: cart
  gloss_ru: подвода
@@ -9531,7 +9511,7 @@
 -lexeme
  lex: pūriɕ
  stem: pūriɕ.
- gramm: N,anim
+ gramm: N,anim,komi
  paradigm: N_even
  gloss: pig
  gloss_ru: свинья
@@ -9721,7 +9701,7 @@
 -lexeme
  lex: puɕka
  stem: puɕka.//pūɕka.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: barrel
  gloss_ru: бочка
@@ -9911,7 +9891,7 @@
 -lexeme
  lex: rōpit
  stem: rōpit.//rūpit.
- gramm: V,w_trans
+ gramm: V,w_trans,rus
  paradigm: V_even
  gloss: work
  gloss_ru: работать
@@ -10031,7 +10011,7 @@
 -lexeme
  lex: rūpata
  stem: rūpata.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: work
  gloss_ru: работа
@@ -10041,7 +10021,7 @@
 -lexeme
  lex: rūt
  stem: rūt.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: family
  gloss_ru: род
@@ -10171,7 +10151,7 @@
 -lexeme
  lex: sājkal
  stem: sājkal.
- gramm: V,intr
+ gramm: V,intr,komi
  paradigm: V_even
  gloss: wake.up
  gloss_ru: проснуться
@@ -10181,7 +10161,7 @@
 -lexeme
  lex: sājkat
  stem: sājkat.
- gramm: V
+ gramm: V,komi
  paradigm: V_even
  gloss: wake
  gloss_ru: будить
@@ -10251,7 +10231,7 @@
 -lexeme
  lex: sākkar
  stem: sākkar.//sakkar.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: sugar
  gloss_ru: сахар
@@ -10271,7 +10251,7 @@
 -lexeme
  lex: sakōn
  stem: sakōn.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: law
  gloss_ru: закон
@@ -10351,7 +10331,7 @@
 -lexeme
  lex: saltat
  stem: saltat.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: soldier
  gloss_ru: солдат
@@ -10371,7 +10351,7 @@
 -lexeme
  lex: sāl'
  stem: sāl'.
- gramm: X
+ gramm: X,rus
  paradigm: unchangeable
  gloss: pity
  gloss_ru: жаль
@@ -10451,7 +10431,7 @@
 -lexeme
  lex: sāmpar
  stem: sāmpar.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: samovar
  gloss_ru: самовар
@@ -11231,7 +11211,7 @@
 -lexeme
  lex: solkōwoj
  stem: solkōwoj.//solkōwi.//solkowi.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: ruble
  gloss_ru: рубль
@@ -11281,7 +11261,7 @@
 -lexeme
  lex: sōpak
  stem: sōpak.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: boot
  gloss_ru: сапог
@@ -11301,7 +11281,7 @@
 -lexeme
  lex: sopas
  stem: sopas.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: stock
  gloss_ru: запас
@@ -11341,7 +11321,7 @@
 -lexeme
  lex: sōrn'i
  stem: sōrn'i.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: gold
  gloss_ru: золото
@@ -12111,7 +12091,7 @@
 -lexeme
  lex: tarēlka
  stem: tarēlka.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: plate
  gloss_ru: тарелка
@@ -12211,7 +12191,7 @@
 -lexeme
  lex: tawaj
  stem: tawaj.
- gramm: X
+ gramm: X,rus
  paradigm: unchangeable
  gloss: let's
  gloss_ru: давай
@@ -12291,7 +12271,7 @@
 -lexeme
  lex: tēla
  stem: tēla.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: business
  gloss_ru: дело
@@ -12951,7 +12931,7 @@
 -lexeme
  lex: tumajt
  stem: tumajt.
- gramm: V
+ gramm: V,rus
  paradigm: V_even
  gloss: think
  gloss_ru: думать
@@ -13531,7 +13511,7 @@
 -lexeme
  lex: ur'ātnik
  stem: ur'ātnik.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_odd
  gloss: constable
  gloss_ru: урядник
@@ -14050,9 +14030,9 @@
 
 -lexeme
  lex: wātaxum
- stem: wātaxum.
+ stem: wātaxum.|wātaxumi.
  gramm: N,anim,hum
- paradigm: N_even
+ paradigm: N_xum
  gloss: merchant
  gloss_ru: купец
  trans_en: merchant
@@ -14141,7 +14121,7 @@
 -lexeme
  lex: wērsta
  stem: wērsta.//wērista.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: verst
  gloss_ru: верста
@@ -14151,7 +14131,7 @@
 -lexeme
  lex: wētra
  stem: wētra.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: bucket
  gloss_ru: ведро
@@ -14161,7 +14141,7 @@
 -lexeme
  lex: weɕēl'it
  stem: weɕēl'it.
- gramm: V,intr
+ gramm: V,intr,rus
  paradigm: V_odd
  gloss: have.fun
  gloss_ru: веселиться
@@ -14231,7 +14211,7 @@
 -lexeme
  lex: wīna
  stem: wīna.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: alcohol
  gloss_ru: алкоголь
@@ -14241,7 +14221,7 @@
 -lexeme
  lex: winowat
  stem: winowat.
- gramm: ADJ
+ gramm: ADJ,rus
  paradigm: ADJ_odd
  gloss: guilty
  gloss_ru: виноватый
@@ -14983,10 +14963,10 @@
  stem: xan'ɕ.
  gramm: V
  paradigm: V_odd
- gloss: guess
- gloss_ru: отгадать
- trans_en: guess, learn
- trans_ru: отгадать, узнать
+ gloss: learn
+ gloss_ru: узнать
+ trans_en: learn, know, guess
+ trans_ru: узнать, отгадать
 
 -lexeme
  lex: xāp
@@ -16009,16 +15989,6 @@
  trans_ru: котомка, рюкзак
 
 -lexeme
- lex: xun't
- stem: xun't.
- gramm: X
- paradigm: unchangeable
- gloss: at.some.point
- gloss_ru: когда.то
- trans_en: at some point
- trans_ru: когда то
-
--lexeme
  lex: xūp
  stem: xūp.
  gramm: N
@@ -16141,7 +16111,7 @@
 -lexeme
  lex: škōla
  stem: škōla.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: school
  gloss_ru: школа
@@ -16151,7 +16121,7 @@
 -lexeme
  lex: šōfor
  stem: šōfor.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: driver
  gloss_ru: шофёр
@@ -16171,7 +16141,7 @@
 -lexeme
  lex: ɕāj
  stem: ɕāj.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: tea
  gloss_ru: чай
@@ -16181,7 +16151,7 @@
 -lexeme
  lex: ɕakar
  stem: ɕakar.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: sugar
  gloss_ru: сахар
@@ -16301,7 +16271,7 @@
 -lexeme
  lex: ɕarit
  stem: ɕarit.
- gramm: V
+ gramm: V,rus
  paradigm: V_even
  gloss: fry
  gloss_ru: жарить
@@ -16331,7 +16301,7 @@
 -lexeme
  lex: ɕarka
  stem: ɕarka.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: shot.glass
  gloss_ru: чарка
@@ -16341,7 +16311,7 @@
 -lexeme
  lex: ɕārəɕ
  stem: ɕārəɕ.//ɕāraɕ.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: sea
  gloss_ru: море
@@ -16421,7 +16391,7 @@
 -lexeme
  lex: ɕēp
  stem: ɕēp.
- gramm: N
+ gramm: N,komi
  paradigm: N_odd
  gloss: pocket
  gloss_ru: карман
@@ -16431,7 +16401,7 @@
 -lexeme
  lex: ɕēranka
  stem: ɕēranka.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: match
  gloss_ru: спичка
@@ -16441,7 +16411,7 @@
 -lexeme
  lex: ɕērmat
  stem: ɕērmat.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: reins
  gloss_ru: вожжи
@@ -16461,7 +16431,7 @@
 -lexeme
  lex: ɕētwert'
  stem: ɕetwert'.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: quarter
  gloss_ru: четверть
@@ -16511,7 +16481,7 @@
 -lexeme
  lex: ɕiɕkurek
  stem: ɕiɕkurek.
- gramm: N,anim
+ gramm: N,anim,komi
  paradigm: N_odd
  gloss: chicken
  gloss_ru: курица
@@ -16631,7 +16601,7 @@
 -lexeme
  lex: ɕōrtn'i
  stem: ɕōrtn'i.//ɕūrtn'i.
- gramm: N
+ gramm: N,komi
  paradigm: N_even
  gloss: turnip
  gloss_ru: репа
@@ -16751,7 +16721,7 @@
 -lexeme
  lex: artal'
  stem: artal'.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: cooperative
  gloss_ru: артель
@@ -16761,7 +16731,7 @@
 -lexeme
  lex: towār
  stem: towār.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: goods
  gloss_ru: товар
@@ -16771,7 +16741,7 @@
 -lexeme
  lex: pāprik
  stem: pāprik.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: factory
  gloss_ru: фабрика
@@ -16781,7 +16751,7 @@
 -lexeme
  lex: sawōt
  stem: sawōt.//zawōt.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: factory
  gloss_ru: завод
@@ -16801,7 +16771,7 @@
 -lexeme
  lex: maɕina
  stem: maɕina.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: car
  gloss_ru: машина
@@ -16811,7 +16781,7 @@
 -lexeme
  lex: trāktor
  stem: trāktor.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: tractor
  gloss_ru: трактор
@@ -16901,7 +16871,7 @@
 -lexeme
  lex: janwār'
  stem: janwār'.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: January
  gloss_ru: январь
@@ -16941,7 +16911,7 @@
 -lexeme
  lex: josaūl
  stem: josaūl.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_odd
  gloss: cossack.captain
  gloss_ru: есаул
@@ -16951,7 +16921,7 @@
 -lexeme
  lex: kak
  stem: kak.
- gramm: X
+ gramm: CONJ,rus
  paradigm: unchangeable
  gloss: like
  gloss_ru: как
@@ -16971,7 +16941,7 @@
 -lexeme
  lex: kānaɕ
  stem: kānaɕ.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: prince
  gloss_ru: князь
@@ -16981,7 +16951,7 @@
 -lexeme
  lex: kapitalīsta
  stem: kapitalīsta.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_odd
  gloss: capitalist
  gloss_ru: капиталист
@@ -16991,7 +16961,7 @@
 -lexeme
  lex: kapūsta
  stem: kapūsta.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: cabbage
  gloss_ru: капуста
@@ -17031,7 +17001,7 @@
 -lexeme
  lex: kaɕnā
  stem: kaɕnā.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: treasury
  gloss_ru: казна
@@ -17041,7 +17011,7 @@
 -lexeme
  lex: kirpiɕ
  stem: kirpiɕ.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: brick
  gloss_ru: кирпич
@@ -17051,7 +17021,7 @@
 -lexeme
  lex: komitēt
  stem: komitēt.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: committee
  gloss_ru: комитет
@@ -17061,7 +17031,7 @@
 -lexeme
  lex: kommūna
  stem: kommūna.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: commune
  gloss_ru: коммуна
@@ -17071,7 +17041,7 @@
 -lexeme
  lex: komsomōl
  stem: komsomōl.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: Komsomol
  gloss_ru: комсомол
@@ -17081,7 +17051,7 @@
 -lexeme
  lex: kōperatsija
  stem: kōperatsija.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: cooperative
  gloss_ru: кооператив
@@ -17091,7 +17061,7 @@
 -lexeme
  lex: krest'jān
  stem: krest'jān.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: peasant
  gloss_ru: крестьянин
@@ -17121,7 +17091,7 @@
 -lexeme
  lex: l'ūpajt
  stem: l'ūpajt.
- gramm: V
+ gramm: V,rus
  paradigm: V_even
  gloss: love
  gloss_ru: любить
@@ -17131,7 +17101,7 @@
 -lexeme
  lex: māj
  stem: māj.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: May
  gloss_ru: май
@@ -17141,7 +17111,7 @@
 -lexeme
  lex: mārt
  stem: mārt.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: March
  gloss_ru: март
@@ -17151,7 +17121,7 @@
 -lexeme
  lex: mil'jōn
  stem: mil'jōn.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: million
  gloss_ru: миллион
@@ -17161,7 +17131,7 @@
 -lexeme
  lex: morkōwka
  stem: morkōwka.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: carrots
  gloss_ru: морковь
@@ -17191,7 +17161,7 @@
 -lexeme
  lex: pasa
  stem: pasa.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: base
  gloss_ru: база
@@ -17231,7 +17201,7 @@
 -lexeme
  lex: pionēr
  stem: pionēr.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_odd
  gloss: pioneer
  gloss_ru: пионер
@@ -17261,7 +17231,7 @@
 -lexeme
  lex: resīna
  stem: resīna.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: rubber
  gloss_ru: резина
@@ -17271,7 +17241,7 @@
 -lexeme
  lex: sāl'it
  stem: sāl'it.
- gramm: V
+ gramm: V,rus
  paradigm: V_even
  gloss: pity
  gloss_ru: жалеть
@@ -17291,7 +17261,7 @@
 -lexeme
  lex: slon
  stem: slon.
- gramm: N,anim
+ gramm: N,anim,rus
  paradigm: N_odd
  gloss: elephant
  gloss_ru: слон
@@ -17301,7 +17271,7 @@
 -lexeme
  lex: sōpas
  stem: sōpas.
- gramm: ADJ
+ gramm: ADJ,rus
  paradigm: ADJ_even
  gloss: spare
  gloss_ru: запасной
@@ -17311,7 +17281,7 @@
 -lexeme
  lex: sowētska
  stem: sowētska.
- gramm: ADJ
+ gramm: ADJ,rus
  paradigm: ADJ_odd
  gloss: Soviet
  gloss_ru: Советский
@@ -17331,7 +17301,7 @@
 -lexeme
  lex: sūtka
  stem: sūtka.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: day
  gloss_ru: сутки
@@ -17381,7 +17351,7 @@
 -lexeme
  lex: ɕās
  stem: ɕās.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: hour
  gloss_ru: час
@@ -17411,7 +17381,7 @@
 -lexeme
  lex: iɕl'ēn
  stem: iɕl'ēn.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: member
  gloss_ru: член
@@ -17431,7 +17401,7 @@
 -lexeme
  lex: kolxōs
  stem: kolxōs.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: collective.farm
  gloss_ru: колхоз
@@ -17441,7 +17411,7 @@
 -lexeme
  lex: lāst'
  stem: lāst'.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: power
  gloss_ru: власть
@@ -17451,7 +17421,7 @@
 -lexeme
  lex: nēɣra
  stem: nēɣra.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: Black.person
  gloss_ru: негр
@@ -17461,7 +17431,7 @@
 -lexeme
  lex: pārt'i
  stem: pārt'i.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: party
  gloss_ru: партия
@@ -17471,7 +17441,7 @@
 -lexeme
  lex: pōl'nītsa
  stem: pōl'nītsa.
- gramm: N
+ gramm: N,rus
  paradigm: N_odd
  gloss: hospital
  gloss_ru: больница
@@ -17481,7 +17451,7 @@
 -lexeme
  lex: pretsetāt'el'
  stem: pretsetāt'el'.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: chairman
  gloss_ru: председатель
@@ -17491,7 +17461,7 @@
 -lexeme
  lex: rewol'ūtsi
  stem: rewol'ūtsi.
- gramm: N
+ gramm: N,rus
  paradigm: N_even
  gloss: revolution
  gloss_ru: революция
@@ -17501,7 +17471,7 @@
 -lexeme
  lex: saltāt
  stem: saltāt.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: soldier
  gloss_ru: солдат
@@ -17511,7 +17481,7 @@
 -lexeme
  lex: tōxtor
  stem: tōxtor.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_even
  gloss: doctor
  gloss_ru: доктор
@@ -17521,7 +17491,7 @@
 -lexeme
  lex: komunīst
  stem: komunīst.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_odd
  gloss: communist
  gloss_ru: коммунист
@@ -17531,7 +17501,7 @@
 -lexeme
  lex: sut
  stem: sut.
- gramm: N,anim,hum
+ gramm: N,anim,hum,rus
  paradigm: N_odd
  gloss: judge
  gloss_ru: судья

@@ -999,3 +999,13 @@
  gloss_ru: когда.нибудь
  trans_en: someday
  trans_ru: когда-нибудь
+
+-lexeme
+ lex: xun't
+ stem: xun't.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: at.some.point
+ gloss_ru: когда.то
+ trans_en: at some point
+ trans_ru: когда-то
