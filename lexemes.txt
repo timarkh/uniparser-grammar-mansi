@@ -10712,7 +10712,7 @@
 -lexeme
  lex: sāt
  stem: sāt.
- gramm: NUM
+ gramm: NUM,hdrd
  paradigm: NUM_odd
  gloss: hundred
  gloss_ru: сто

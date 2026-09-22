@@ -75,7 +75,9 @@ REMOVE (du nom) IF (0 (N trans) OR (A trans))
 # Random homonymy
 SELECT (PRON) IF (0 ("<tān>"i)) (*1 ("sāŋkwəlt") OR ("ērɣ") BARRIER NotProclitics);
 
-SELECT (NUM) IF (0 ("<s[aā]t>"r)) (1 ("<tal>") OR ("<tāl>") OR ("<ɕos>"));
+SELECT (NUM) IF (0 ("<s[aā]t>"r)) (1 ("tal") OR ("tāl") OR ("ɕos"));
 
 SELECT (PRON) IF (0 ("<mān>"i)) (1 (N 1pl) OR (POSTP 1pl));
 SELECT (N lat) IF (0 ("<mān>"i)) (1 ("<minas>"i) OR ("<minasət>"i));
+
+SELECT (NUM hdrd) IF (0 ("<sāt>"i)) (-1 ("<janiɣ>"i));

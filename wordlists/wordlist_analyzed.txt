@@ -15,7 +15,7 @@
 <w><ana lex="min" gr="V,intr,pst,act,subjc,3.s,sg.s" parts="min-as" gloss="set.off-PST.3SG" gloss_ru="пойти-PST.3SG" trans_en="set off" trans_ru="пойти"></ana>minas</w>
 <w><ana lex="ja" gr="X" parts="ja" gloss="well" gloss_ru="ну" trans_en="well" trans_ru="ну"></ana>ja</w>
 <w><ana lex="nupəl" gr="POSTP" parts="nupəl" gloss="towards" gloss_ru="к" trans_en="towards" trans_ru="к"></ana>nupəl</w>
-<w><ana lex="sāt" gr="N,sg,nom" parts="sāt" gloss="fish.trap" gloss_ru="садок" trans_en="fish trap" trans_ru="садок"></ana><ana lex="sāt" gr="NUM" parts="sāt" gloss="hundred" gloss_ru="сто" trans_en="hundred" trans_ru="сто"></ana><ana lex="sāt" gr="NUM" parts="sāt" gloss="seven" gloss_ru="семь" trans_en="seven" trans_ru="семь"></ana>sāt</w>
+<w><ana lex="sāt" gr="N,sg,nom" parts="sāt" gloss="fish.trap" gloss_ru="садок" trans_en="fish trap" trans_ru="садок"></ana><ana lex="sāt" gr="NUM" parts="sāt" gloss="seven" gloss_ru="семь" trans_en="seven" trans_ru="семь"></ana><ana lex="sāt" gr="NUM,hdrd" parts="sāt" gloss="hundred" gloss_ru="сто" trans_en="hundred" trans_ru="сто"></ana>sāt</w>
 <w><ana lex="taw" gr="PRON,pers,nom" parts="taw" gloss="3SG" gloss_ru="3SG" trans_en="он, она, оно" trans_ru="he, she, it"></ana>taw</w>
 <w><ana lex="ul" gr="X,procl" parts="ul" gloss="PROH" gloss_ru="PROH" trans_en="PROH" trans_ru="PROH"></ana>ul</w>
 <w><ana lex="sāli" gr="N,anim,sg,nom" parts="sāli" gloss="deer" gloss_ru="олень" trans_en="deer" trans_ru="олень"></ana>sāli</w>
