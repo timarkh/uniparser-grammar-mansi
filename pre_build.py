@@ -503,6 +503,9 @@ if __name__ == '__main__':
     print('***')
     for wf in a.analyze_words('tēli , os tēli pora ōləs , wos tēli'.split(), format='xml', disambiguate=True):
         print(wf)
+    print('***')
+    for wf in a.analyze_words('tipnenəl pilēw'.split(), format='xml', disambiguate=True):
+        print(wf)
 
     a.alphabet = 'cyr'
     a.glossBrackets = True

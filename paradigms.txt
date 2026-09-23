@@ -283,6 +283,9 @@
  -flex: .t//.ta
   gramm: sg,loc
   gloss: LOC
+ -flex: .nəl
+  gramm: abl
+  gloss: ABL
  -flex: .<.>
   gramm: sg
   paradigm: NMLZ-poss-e
@@ -293,6 +296,9 @@
  -flex: .t//.ta
   gramm: sg,loc
   gloss: LOC
+ -flex: .nəl
+  gramm: abl
+  gloss: ABL
  -flex: .<.>
   gramm: sg
   paradigm: NMLZ-poss-te
@@ -998,6 +1004,9 @@
  -flex: .t//.ta
   gramm: loc
   gloss: LOC
+ -flex: .nəl
+  gramm: abl
+  gloss: ABL
 
 
 -paradigm: N-poss
