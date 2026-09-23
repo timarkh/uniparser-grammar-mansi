@@ -977,14 +977,6 @@
  -flex: .təl
   gramm: ins
   gloss: INS
- -flex: .l
-  gramm: ins
-  gloss: INS
-  regex-prev: .*[aeiouāēīōūə][.<>]*$
- -flex: .əl
-  gramm: ins
-  gloss: INS
-  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
  -flex: .ɣ//.iɣ//.ɣiɣ
   gramm: trans
   gloss: TRANS
