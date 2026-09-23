@@ -1900,7 +1900,7 @@
   gloss: ASP
   paradigm: V_asp2_even
   paradigm: V_voice2_even
- -flex: .iɣl<.>//.il<.>
+ -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
   regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS)\b.*
@@ -2101,7 +2101,7 @@
   gloss: ASP
   paradigm: V_asp2_odd
   paradigm: V_voice2_odd
- -flex: .iɣl<.>//.il<.>
+ -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
   regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS)\b.*
@@ -2233,7 +2233,7 @@
   gramm: asp
   gloss: ASP
   paradigm: V_main_odd
- -flex: .iɣl<.>//.il<.>
+ -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
   regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
@@ -2372,7 +2372,7 @@
   gramm: asp
   gloss: ASP
   paradigm: V_main_even
- -flex: .iɣl<.>//.il<.>
+ -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
   regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
