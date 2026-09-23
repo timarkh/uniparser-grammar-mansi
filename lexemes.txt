@@ -10010,6 +10010,16 @@
  trans_ru: стихнуть
 
 -lexeme
+ lex: rotm
+ stem: rot&m.
+ gramm: V,vbz,vbz_m
+ paradigm: V_odd
+ gloss: calm&VBZ
+ gloss_ru: спокойный&VBZ
+ trans_en: calm down
+ trans_ru: успокоиться
+
+-lexeme
  lex: rōw
  stem: rōw.
  gramm: V,intr

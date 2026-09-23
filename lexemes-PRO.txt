@@ -332,7 +332,7 @@
 
 -lexeme
  lex: mān
- stem: mānaw.
+ stem: mānaw.//māɣinaw.//māɣnaw.
  gramm: PRON,pers,obl
  gloss: 1PL.OBL
  gloss_ru: 1PL.OBL
