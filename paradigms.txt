@@ -1887,11 +1887,6 @@
   paradigm: V_asp_odd_vowel_nonempty
 
 -paradigm: V_asp_odd_vowel_nonempty
- -flex: .aɕ<.>
-  gramm: asp
-  gloss: ASP
-  paradigm: V_asp2_even
-  paradigm: V_voice2_even
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
@@ -2088,11 +2083,6 @@
   gramm: 
   regex-next: ^[.<>0-9,]*[aeiouāēīōūə].*
   paradigm: V_main_even
- -flex: .aɕ<.>
-  gramm: asp
-  gloss: ASP
-  paradigm: V_asp2_odd
-  paradigm: V_voice2_odd
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
@@ -2221,10 +2211,6 @@
  -flex: .<.>
   gramm:
   paradigm: V_main_even
- -flex: .aɕ<.>
-  gramm: asp
-  gloss: ASP
-  paradigm: V_main_odd
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
@@ -2360,10 +2346,6 @@
  -flex: .<.>
   gramm:
   paradigm: V_main_odd
- -flex: .aɕ<.>
-  gramm: asp
-  gloss: ASP
-  paradigm: V_main_even
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP

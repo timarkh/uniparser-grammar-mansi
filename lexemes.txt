@@ -3285,8 +3285,8 @@
  paradigm: N_odd
  gloss: joy
  gloss_ru: радость
- trans_en: joy
- trans_ru: радость
+ trans_en: joy; agreement
+ trans_ru: радость; согласие
 
 -lexeme
  lex: kasaj
@@ -3315,12 +3315,12 @@
  paradigm: V_even
  gloss: agree
  gloss_ru: согласиться
- trans_en: agree
- trans_ru: согласиться
+ trans_en: agree, want
+ trans_ru: согласиться, хотеть
 
 -lexeme
  lex: kāsew
- stem: kasew.
+ stem: kāsew.
  gramm: N,anim
  paradigm: N_even
  gloss: roach
