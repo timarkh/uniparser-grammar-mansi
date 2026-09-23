@@ -6510,7 +6510,7 @@
 
 -lexeme
  lex: nāŋk
- stem: naŋk.
+ stem: nāŋk.
  gramm: V,intr
  paradigm: V_odd
  gloss: be.seen
@@ -9611,11 +9611,11 @@
 
 -lexeme
  lex: pusm
- stem: pusm.
- gramm: V,intr
+ stem: pus&m.
+ gramm: V,intr,vbz,vbz_m
  paradigm: V_odd
- gloss: recover
- gloss_ru: выздороветь
+ gloss: whole&VBZ
+ gloss_ru: целый&VBZ
  trans_en: recover
  trans_ru: выздороветь
 
@@ -9716,8 +9716,18 @@
  paradigm: V_odd
  gloss: poke
  gloss_ru: колоть
- trans_en: poke
- trans_ru: колоть
+ trans_en: poke, push, sting
+ trans_ru: колоть, толкать, жалить
+
+-lexeme
+ lex: puwtm
+ stem: puwt&m.
+ gramm: V
+ paradigm: V_odd
+ gloss: poke&ASP
+ gloss_ru: колоть&ASP
+ trans_en: poke, push, sting
+ trans_ru: ткнуть, толкнуть, кольнуть
 
 -lexeme
  lex: puwər

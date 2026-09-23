@@ -10,5 +10,7 @@
   {"wf": "^mis(it|an(e|um|ən))$", "gramm": "N.*,PN"},
   {"wf": "kastəl", "lemma": "kas"},
   {"gramm": ".*,(supernat|anim).*,loc.*"},
-  {"lemma": ".*(xōŋxa|xotjut)$", "gramm": ".*,[123](sg|du|pl).*"}
+  {"lemma": ".*(xōŋxa|xotjut)$", "gramm": ".*,[123](sg|du|pl).*"},
+  {"gramm": "NUM.*,1sg.*"},
+  {"lemma": "^([^ak]|a[^k]|k[^i]).*$", "gramm": "NUM.*,[123]du($|[^_].*)"}
 ]

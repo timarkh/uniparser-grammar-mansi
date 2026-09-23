@@ -1843,10 +1843,6 @@
   gloss: INCH
   paradigm: V_asp2_even
   paradigm: V_voice2_even
- -flex: .m<.>
-  gramm: asp
-  gloss: ASP
-  paradigm: V_asp2_odd
  -flex: .maj<.>
   gramm: asp
   gloss: ASP
@@ -2043,10 +2039,6 @@
   gloss: INCH
   paradigm: V_asp2_odd
   paradigm: V_voice2_odd
- -flex: .m<.>
-  gramm: asp
-  gloss: ASP
-  paradigm: V_asp2_even
  -flex: .maj<.>
   gramm: asp
   gloss: ASP
@@ -3147,7 +3139,7 @@
  -flex: .n//.ən
   gramm: subjc,2.s,sg.s
   gloss: 2SG
- -flex: .n//.en//.ēn
+ -flex: .n//.ēn
   gramm: subjc,2.s,du.s,pl.s
   gloss: 2DU/PL
  -flex: .te
