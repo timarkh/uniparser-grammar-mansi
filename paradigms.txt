@@ -343,9 +343,14 @@
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
- -flex: .nəl//.anəl//.janəl
+ -flex: .nəl//.janəl
   gramm: 3pl
   gloss: POSS.3PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .anəl
+  gramm: 3pl
+  gloss: POSS.3PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
 
 -paradigm: POSTP_default-syncop
  -flex: .
@@ -374,9 +379,14 @@
  -flex: <0>.tēn
   gramm: 3du
   gloss: POSS.3DU
- -flex: <0>.nəl//.anəl//<0>.janəl
+ -flex: <0>.nəl//<0>.janəl
   gramm: 3pl
   gloss: POSS.3PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .anəl
+  gramm: 3pl
+  gloss: POSS.3PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
 
 -paradigm: POSTP_foss_case
  -flex: <0>.
@@ -1042,9 +1052,14 @@
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
- -flex: .nəl<.>//.anəl<.>//.janəl<.>
+ -flex: .nəl<.>//.janəl<.>
   gramm: 3pl
   gloss: POSS.3PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .anəl<.>
+  gramm: 3pl
+  gloss: POSS.3PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
  paradigm: N-case-numposs
 
 
@@ -1077,9 +1092,14 @@
  -flex: <0>.tēn<.>
   gramm: 3du
   gloss: POSS.3DU
- -flex: <0>.nəl<.>//.anəl<.>//<0>.janəl<.>
+ -flex: <0>.nəl<.>//<0>.janəl<.>
   gramm: 3pl
   gloss: POSS.3PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .anəl<.>
+  gramm: 3pl
+  gloss: POSS.3PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
  paradigm: N-case-numposs
 
 
@@ -1112,9 +1132,14 @@
  -flex: .tēn<.>
   gramm: 3du
   gloss: POSS.3DU
- -flex: .nəl<.>//<0>.anəl<.>//.janəl<.>
+ -flex: .nəl<.>//.janəl<.>
   gramm: 3pl
   gloss: POSS.3PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: <0>.anəl<.>
+  gramm: 3pl
+  gloss: POSS.3PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
  paradigm: N-case-numposs
 
 
@@ -1159,9 +1184,14 @@
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
- -flex: .nəl<.>//.anəl<.>//.janəl<.>
+ -flex: .nəl//.janəl
   gramm: 3pl
   gloss: POSS.3PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .anəl
+  gramm: 3pl
+  gloss: POSS.3PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
  paradigm: NMLZ-case-poss
 
 -paradigm: NMLZ-poss-te
@@ -1205,9 +1235,14 @@
   gramm: 3du
   gloss: POSS.3DU
   regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
- -flex: .nəl<.>//.anəl<.>//.janəl<.>
+ -flex: .nəl//.janəl
   gramm: 3pl
   gloss: POSS.3PL
+  regex-prev: .*[aeiouāēīōūə][.<>]*$
+ -flex: .anəl
+  gramm: 3pl
+  gloss: POSS.3PL
+  regex-prev: .*[^.<>aeiouāēīōūə][.<>]*$
  paradigm: NMLZ-case-poss
 
 
