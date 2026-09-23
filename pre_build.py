@@ -483,7 +483,8 @@ if __name__ == '__main__':
         'atit',
         "l'ūl'it",
         'jolipāləl',
-        'jujipālt'
+        'jujipālt',
+        'tēltawe'
     ], format='xml'):
         print(wf)
 

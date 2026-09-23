@@ -4,6 +4,7 @@
   {"wfGlossed": "^ēr-ɣ-.*", "gloss": "^be\\.needed-ASP.*"},
   {"wfGlossed": "^nom-s-.*", "gloss": "^remember-ASP.*"},
   {"wfGlossed": "^ji-w-.*", "gloss": "^go-NPST.*"},
+  {"wfGlossed": "^tē-[lp]?t-.*", "gloss": "^eat-CAUS.*"},
   {"wfGlossed": ".*-i-[^aeiouāēīōūə]*$", "gloss": ".*-NPST-[^-]+$"},
   {"gramm": "V.*,intr(.(?!(\\btr,|cau)))*objc.*"},
   {"gramm": "POSTP.*,pl.*"},

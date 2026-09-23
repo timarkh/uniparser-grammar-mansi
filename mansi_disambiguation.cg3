@@ -61,6 +61,9 @@ SELECT (N pl nom) IF (0 ("<kolt>"r)) (1 ("ōl"));
 # ABL vs. INS (-əl as ABL only in Upper Lozva, otherwise very restricted)
 SELECT (N abl) IF (0 ("<pāwləl>i"));
 
+# ABL in front of 'fear'
+SELECT (abl) IF (*1 ("pil") BARRIER NotProclitics);
+
 # Only nominative in front of postpositions
 SELECT (nom) IF (0 (N) OR (PRON)) (1 (POSTP));
 
