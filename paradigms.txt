@@ -3003,10 +3003,6 @@
   gloss: PTCP.PASS
   paradigm: NMLZ_te
 
- -flex: .p<.>
-  gramm: ptcp
-  gloss: PTCP
-  paradigm: N_odd
  -flex: .ap<.>//.up<.>
   gramm: ptcp
   gloss: PTCP
@@ -3065,10 +3061,6 @@
   gloss: PTCP.PASS
   paradigm: NMLZ_te
 
- -flex: .p<.>
-  gramm: ptcp
-  gloss: PTCP
-  paradigm: N_even
  -flex: .ap<.>//.up<.>
   gramm: ptcp
   gloss: PTCP

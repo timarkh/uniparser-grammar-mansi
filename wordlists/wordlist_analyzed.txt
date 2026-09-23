@@ -377,7 +377,6 @@
 <w><ana lex="kēr" gr="V,act,cvb" parts="kēr-im" gloss="harness-CVB" gloss_ru="запрягать-CVB" trans_en="harness" trans_ru="запрягать"></ana>kērim</w>
 <w><ana lex="lakw" gr="V,npst,act,sg.o,objc,3.s,sg.s" parts="lakw-i-t-e" gloss="sneak.up-NPST-SG.O-3SG.S" gloss_ru="подкрадываться-NPST-SG.O-3SG.S" trans_en="sneak up" trans_ru="подкрадываться"></ana>lakwite</w>
 <w><ana lex="lili" gr="N,prop,prop1,du,nom" parts="lili-ŋ-iɣ" gloss="breath-PROP1-DU" gloss_ru="дыхание-PROP1-DU" trans_en="breath" trans_ru="дыхание"></ana><ana lex="lili" gr="N,prop,prop1,sg,trans" parts="lili-ŋ-iɣ" gloss="breath-PROP1-TRANS" gloss_ru="дыхание-PROP1-TRANS" trans_en="breath" trans_ru="дыхание"></ana>liliŋiɣ</w>
-<w><ana lex="li" gr="V,act,ptcp,sg,lat" parts="li-p-n" gloss="throw-PTCP-LAT" gloss_ru="бросать-PTCP-LAT" trans_en="throw" trans_ru="бросать"></ana>lipn</w>
 <w><ana lex="lowt" gr="V,refl,refl_xat,pst,act,subjc,3.s,sg.s" parts="lowt-xat-as" gloss="wash-REFL-PST.3SG" gloss_ru="мыть-REFL-PST.3SG" trans_en="wash" trans_ru="мыть"></ana>lowtxatas</w>
 <w><ana lex="lowt" gr="V,refl,refl_xat,act,ptcp_pass,sg,3sg,nom" parts="lowt-xat-ime-te" gloss="wash-REFL-PTCP.PASS-POSS.3SG" gloss_ru="мыть-REFL-PTCP.PASS-POSS.3SG" trans_en="wash" trans_ru="мыть"></ana>lowtxatimete</w>
 <w><ana lex="lowt" gr="V,refl,refl_xat,npst,act,subjc,1.s,sg.s" parts="lowt-xat-ēɣ-um" gloss="wash-REFL-NPST-1SG" gloss_ru="мыть-REFL-NPST-1SG" trans_en="wash" trans_ru="мыть"></ana>lowtxatēɣum</w>
