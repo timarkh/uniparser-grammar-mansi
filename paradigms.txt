@@ -1930,7 +1930,7 @@
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS|REFL)\b.*
   paradigm: V_asp2_even
   paradigm: V_voice2_even
  -flex: .aml<.>//.uml<.>
@@ -2122,7 +2122,7 @@
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS|REFL)\b.*
   paradigm: V_asp2_odd
   paradigm: V_voice2_odd
  -flex: .aml<.>//.uml<.>
