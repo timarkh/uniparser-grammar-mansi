@@ -1549,6 +1549,16 @@
  trans_ru: передний
 
 -lexeme
+ lex: ēlipāl
+ stem: ēli&pāl.//ēli&-pāl.
+ gramm: N
+ paradigm: N_odd
+ gloss: front&side
+ gloss_ru: передний&сторона
+ trans_en: in front
+ trans_ru: спереди
+
+-lexeme
  lex: ēlmi
  stem: ēlmi.
  gramm: N
@@ -1577,16 +1587,6 @@
  gloss_ru: впереди
  trans_en: ahead, far away
  trans_ru: впереди, далеко
-
--lexeme
- lex: ēləpāləl
- stem: ēləpāləl.
- gramm: ADV
- paradigm: ADV
- gloss: front
- gloss_ru: спереди
- trans_en: front
- trans_ru: спереди
 
 -lexeme
  lex: ēl'məŋ
@@ -2619,18 +2619,18 @@
  trans_ru: внизу
 
 -lexeme
- lex: joləpāləl
- stem: joləpāləl.
- gramm: ADV
- paradigm: ADV
- gloss: from.below
- gloss_ru: снизу
- trans_en: from below
+ lex: jolipāl
+ stem: joli&pāl.//joli&-pāl.
+ gramm: N
+ paradigm: N_odd
+ gloss: lower&side
+ gloss_ru: нижний&сторона
+ trans_en: below
  trans_ru: снизу
 
 -lexeme
- lex: joləsow
- stem: joləsow.
+ lex: jolisow
+ stem: jolisow.
  gramm: N
  paradigm: N_odd
  gloss: underwear
@@ -2639,8 +2639,8 @@
  trans_ru: нижнее бельё
 
 -lexeme
- lex: joləsup
- stem: joləsup.
+ lex: jolisup
+ stem: jolisup.
  gramm: N
  paradigm: N_odd
  gloss: pants
@@ -2879,12 +2879,22 @@
  trans_ru: задний
 
 -lexeme
- lex: jujpālt
- stem: jujpālt.
- gramm: ADV
- paradigm: ADV
- gloss: following
- gloss_ru: следом
+ lex: jujipāl
+ stem: juji&pāl.//juji&-pāl.
+ gramm: POSTP
+ paradigm: N_odd
+ gloss: back&side
+ gloss_ru: задний&сторона
+ trans_en: behind
+ trans_ru: сзади
+
+-lexeme
+ lex: jujpāl
+ stem: juj&pāl.
+ gramm: POSTP
+ paradigm: N_odd
+ gloss: back&side
+ gloss_ru: зад&сторона
  trans_en: following
  trans_ru: следом
 
