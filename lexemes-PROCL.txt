@@ -153,10 +153,10 @@
  stem: lap.
  gramm: PREV,procl
  paradigm: unchangeable
- gloss: close
- gloss_ru: закрыть
- trans_en: close
- trans_ru: закрыть
+ gloss: shut
+ gloss_ru: наглухо
+ trans_en: shut
+ trans_ru: наглухо
 
 -lexeme
  lex: nōx

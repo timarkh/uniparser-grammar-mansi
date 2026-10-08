@@ -691,8 +691,8 @@
  trans_ru: нигде
 
 -lexeme
- lex: xotəl'
- stem: xotəl'.
+ lex: xotəl
+ stem: xotəl.
  gramm: PRON
  paradigm: unchangeable
  gloss: from.where
@@ -852,11 +852,11 @@
 
 -lexeme
  lex: nēmat
- stem: nē&mat.
+ stem: nēmat.
  gramm: PRON
  paradigm: ADV
- gloss: PRON.NEG&what.kind
- gloss_ru: PRON.NEG&какой
+ gloss: PRON.NEG.INDEF
+ gloss_ru: PRON.NEG.INDEF
  trans_en: none
  trans_ru: никакой
 
@@ -969,3 +969,23 @@
  gloss_ru: когда.то
  trans_en: at some point
  trans_ru: когда-то
+
+-lexeme
+ lex: mat
+ stem: mat.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: INDEF
+ gloss_ru: INDEF
+ trans_en: INDEF
+ trans_ru: INDEF
+
+-lexeme
+ lex: xoti
+ stem: xoti.
+ gramm: PRON
+ paradigm: ADJ_even
+ gloss: which
+ gloss_ru: который
+ trans_en: which
+ trans_ru: который

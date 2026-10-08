@@ -5,7 +5,7 @@ dic2cyr = {
     'g': 'г', 'ɣ': 'г', 'd': 'д', 'e': 'э',
     'ž': 'ж', 'š': 'ш',
     'ə': 'ы', 'č': 'ч',
-    'z': 'з', 'i': 'ы', 'j': 'й', 'k': 'к',
+    'z': 'з', 'i': 'ӥ', 'j': 'й', 'k': 'к',
     'l': 'л', 'm': 'м', 'n': 'н',
     'o': 'о', 'p': 'п', 'r': 'р',
     's': 'с', 'ɕ': "с'", 't': 'т', 'u': 'у',
@@ -14,7 +14,7 @@ dic2cyr = {
     'ā': 'а̄',
     'ō': 'о̄',
     'ē': 'э̄',
-    'ī': 'ы̄',
+    'ī': 'ӥ̄',
     'ū': 'ӯ',
     'ŋ': 'ӈ'
 }
@@ -47,6 +47,7 @@ cyrHard2Soft = {
     'а': 'я', 'а̄': 'я̄',
     'э': 'е', 'э̄': 'ē',
     'ы': 'и', 'ы̄': 'ӣ',
+    'ӥ': 'и', 'ӥ̄': 'ӣ',
     'о': 'ё', 'о̄': 'ё̄',
     'у': 'ю', 'ӯ': 'ю̄'
 }
@@ -68,7 +69,7 @@ badChars = {
 }
 
 rxCyrLetter = re.compile('\\w̄?|[^\\w]')
-rxSoften = re.compile('\'([аэыоуӯ])', flags=re.I)
+rxSoften = re.compile('\'([аэыӥоуӯ])', flags=re.I)
 rxCyrSoften = re.compile('([яеиёюӣ]̄?)', flags=re.I)
 rxCyrMultSoften = re.compile('\'{2,}')
 rxNeutral1 = re.compile('(?<=[бвгджзкмпрфхцчшщй\'])([эы])', re.I)
@@ -123,6 +124,10 @@ def mansi_translit_cyrillic(text):
     res = rxYLab.sub('у\\1', res)
     res = rxYLabCapital.sub('У\\1', res)
     res = rxSoften.sub(lambda m: cyrHard2Soft[m.group(1).lower()], res)
+    res = res.replace('ӥ̄', 'ы̄')
+    res = res.replace('ӥ̄'.upper(), 'ы̄'.upper())
+    res = res.replace('ӥ', 'ы')
+    res = res.replace('ӥ'.upper(), 'ы'.upper())
     res = rxVJV.sub(lambda m: cyrHard2Soft[m.group(1).lower()], res)
     res = rxVJV.sub(lambda m: cyrHard2Soft[m.group(1).lower()], res)
     res = rxJV.sub(lambda m: cyrHard2Soft[m.group(1).lower()], res)

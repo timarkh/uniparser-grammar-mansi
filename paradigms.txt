@@ -3006,8 +3006,13 @@
   gramm: ptcp_res,nom,sg
   gloss: PTCP.RES
   paradigm: NMLZ-poss-te
+
+ -flex: .tāl<.>
+  gramm: ptcp_neg
+  gloss: PTCP.NEG
+  paradigm: NMLZ_e
  
- -flex: .ime<.>
+ -flex: .ime<.>//.ima<.>
   gramm: ptcp_pass
   gloss: PTCP.PASS
   paradigm: NMLZ_te
@@ -3065,7 +3070,12 @@
   gloss: PTCP.RES
   paradigm: NMLZ-poss-te
  
- -flex: .ime<.>
+ -flex: .tāl<.>
+  gramm: ptcp_neg
+  gloss: PTCP.NEG
+  paradigm: NMLZ_e
+
+ -flex: .ime<.>//.ima<.>
   gramm: ptcp_pass
   gloss: PTCP.PASS
   paradigm: NMLZ_te
