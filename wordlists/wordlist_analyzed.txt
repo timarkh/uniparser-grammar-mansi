@@ -9,7 +9,7 @@
 <w><ana lex="am" gr="PRON,pers,nom" parts="am" gloss="1SG" gloss_ru="1SG" trans_en="I" trans_ru="я"></ana>am</w>
 <w><ana lex="xum" gr="N,anim,hum,sg,nom" parts="xum" gloss="man" gloss_ru="мужчина" trans_en="man" trans_ru="мужчина"></ana>xum</w>
 <w><ana lex="ōjka" gr="N,anim,hum,sg,nom" parts="ōjka" gloss="man" gloss_ru="мужчина" trans_en="man" trans_ru="мужчина"></ana>ōjka</w>
-<w><ana lex="kēr" gr="N,sg,nom" parts="kēr" gloss="iron" gloss_ru="железо" trans_en="iron" trans_ru="железо"></ana>kēr</w>
+<w><ana lex="kēr" gr="N,sg,nom" parts="kēr" gloss="iron" gloss_ru="железо" trans_en="iron; shell; nail; glass" trans_ru="железо; ракушка; ноготь; стекло"></ana>kēr</w>
 <w><ana lex="min" gr="V,intr,pst,act,subjc,3.s,pl.s" parts="min-as-ət" gloss="set.off-PST-3PL" gloss_ru="пойти-PST-3PL" trans_en="set off" trans_ru="пойти"></ana>minasət</w>
 <w><ana lex="nōx" gr="PREV,procl" parts="nōŋx" gloss="up" gloss_ru="вверх" trans_en="up" trans_ru="вверх"></ana>nōŋx</w>
 <w><ana lex="min" gr="V,intr,pst,act,subjc,3.s,sg.s" parts="min-as" gloss="set.off-PST.3SG" gloss_ru="пойти-PST.3SG" trans_en="set off" trans_ru="пойти"></ana>minas</w>
@@ -17,8 +17,8 @@
 <w><ana lex="nupəl" gr="POSTP" parts="nupəl" gloss="towards" gloss_ru="к" trans_en="towards" trans_ru="к"></ana>nupəl</w>
 <w><ana lex="sāt" gr="N,sg,nom" parts="sāt" gloss="fish.trap" gloss_ru="садок" trans_en="fish trap" trans_ru="садок"></ana><ana lex="sāt" gr="NUM" parts="sāt" gloss="seven" gloss_ru="семь" trans_en="seven" trans_ru="семь"></ana><ana lex="sāt" gr="NUM,hdrd" parts="sāt" gloss="hundred" gloss_ru="сто" trans_en="hundred" trans_ru="сто"></ana>sāt</w>
 <w><ana lex="taw" gr="PRON,pers,nom" parts="taw" gloss="3SG" gloss_ru="3SG" trans_en="он, она, оно" trans_ru="he, she, it"></ana>taw</w>
-<w><ana lex="ul" gr="X,procl" parts="ul" gloss="PROH" gloss_ru="PROH" trans_en="PROH" trans_ru="PROH"></ana>ul</w>
-<w><ana lex="sāli" gr="N,anim,sg,nom" parts="sāli" gloss="deer" gloss_ru="олень" trans_en="deer" trans_ru="олень"></ana>sāli</w>
+<w><ana lex="ul" gr="X" parts="ul" gloss="probably" gloss_ru="вероятно" trans_en="probably" trans_ru="вероятно"></ana><ana lex="ul" gr="X,procl" parts="ul" gloss="PROH" gloss_ru="PROH" trans_en="PROH" trans_ru="PROH"></ana>ul</w>
+<w><ana lex="sāl" gr="V,intr,npst,act,subjc,3.s,sg.s" parts="sāl-i" gloss="flash-NPST.3SG" gloss_ru="сверкать-NPST.3SG" trans_en="flash" trans_ru="сверкать"></ana><ana lex="sāli" gr="N,anim,sg,nom" parts="sāli" gloss="deer" gloss_ru="олень" trans_en="deer" trans_ru="олень"></ana>sāli</w>
 <w><ana lex="tuw" gr="N,sg,ins" parts="tuw-əl" gloss="summer-INS" gloss_ru="лето-INS" trans_en="summer" trans_ru="лето"></ana><ana lex="tuwəl" gr="X" parts="tuwəl" gloss="from.there" gloss_ru="оттуда" trans_en="from there" trans_ru="оттуда"></ana><ana lex="tuwəl" gr="X" parts="tuwəl" gloss="then" gloss_ru="потом" trans_en="then" trans_ru="потом"></ana>tuwəl</w>
 <w><ana lex="at" gr="N,sg,nom" parts="at" gloss="smell" gloss_ru="запах" trans_en="smell" trans_ru="запах"></ana><ana lex="at" gr="NUM" parts="at" gloss="five" gloss_ru="пять" trans_en="five" trans_ru="пять"></ana><ana lex="at" gr="X,procl" parts="at" gloss="NEG" gloss_ru="NEG" trans_en="NEG" trans_ru="NEG"></ana>at</w>
 <w><ana lex="min" gr="V,intr,pst,act,subjc,3.s,du.s" parts="min-as-iɣ" gloss="set.off-PST-3DU" gloss_ru="пойти-PST-3DU" trans_en="set off" trans_ru="пойти"></ana>minasiɣ</w>
@@ -27,7 +27,7 @@
 <w><ana lex="am" gr="PRON,pers,obl" parts="anum" gloss="1SG.OBL" gloss_ru="1SG.OBL" trans_en="I" trans_ru="я"></ana>anum</w>
 <w><ana lex="ūj" gr="N,anim,sg,nom" parts="ūj" gloss="animal" gloss_ru="зверь" trans_en="animal" trans_ru="зверь"></ana>ūj</w>
 <w><ana lex="mā" gr="N,pl,nom" parts="mā-t" gloss="land-PL" gloss_ru="земля-PL" trans_en="land" trans_ru="земля"></ana><ana lex="mā" gr="N,sg,loc" parts="mā-t" gloss="land-LOC" gloss_ru="земля-LOC" trans_en="land" trans_ru="земля"></ana>māt</w>
-<w><ana lex="jol" gr="PREV,procl" parts="jol" gloss="down" gloss_ru="вниз" trans_en="down" trans_ru="вниз"></ana>jol</w>
+<w><ana lex="jol" gr="N,sg,nom" parts="jol" gloss="seat" gloss_ru="место" trans_en="seat" trans_ru="место"></ana><ana lex="jol" gr="PREV,procl" parts="jol" gloss="down" gloss_ru="вниз" trans_en="down" trans_ru="вниз"></ana>jol</w>
 <w><ana lex="kon" gr="PREV,procl" parts="kon" gloss="outside" gloss_ru="наружу" trans_en="outside" trans_ru="наружу"></ana>kon</w>
 <w><ana lex="lāw" gr="V,w_trans,npst,act,subjc,3.s,pl.s" parts="lāw-ēɣ-t" gloss="say-NPST-3PL" gloss_ru="сказать-NPST-3PL" trans_en="say; tell; appoint" trans_ru="сказать; приказать; назначить"></ana>lāwēɣt</w>
 <w><ana lex="Mis" gr="N,PN,sg,nom" parts="mis" gloss="Mis" gloss_ru="Мис" trans_en="Mis" trans_ru="Мис"></ana><ana lex="mi" gr="V,pst,act,subjc,3.s,sg.s" parts="mi-s" gloss="give-PST.3SG" gloss_ru="дать-PST.3SG" trans_en="give" trans_ru="дать"></ana><ana lex="mis" gr="N,anim,komi,sg,nom" parts="mis" gloss="cow" gloss_ru="корова" trans_en="cow" trans_ru="корова"></ana>mis</w>
@@ -52,6 +52,7 @@
 <w><ana lex="pat" gr="V,w_trans,pst,act,subjc,3.s,sg.s" parts="pat-əs" gloss="fall-PST.3SG" gloss_ru="падать-PST.3SG" trans_en="fall; start" trans_ru="падать; начать"></ana>patəs</w>
 <w><ana lex="sōrp" gr="N,anim,sg,nom" parts="sōrup" gloss="moose" gloss_ru="лось" trans_en="moose" trans_ru="лось"></ana>sōrup</w>
 <w><ana lex="xum" gr="N,anim,hum,du,nom" parts="xumi-ɣ" gloss="man-DU" gloss_ru="мужчина-DU" trans_en="man" trans_ru="мужчина"></ana><ana lex="xum" gr="N,anim,hum,sg,trans" parts="xum-iɣ" gloss="man-TRANS" gloss_ru="мужчина-TRANS" trans_en="man" trans_ru="мужчина"></ana>xumiɣ</w>
+<w><ana lex="āt" gr="N,sg,nom" parts="āt" gloss="hair" gloss_ru="волосы" trans_en="hair" trans_ru="волосы"></ana>āt</w>
 <w><ana lex="jurɕxat" gr="V,act,imp,2.s,sg.s,subjc" parts="jurɕxat-e-n" gloss="join-IMP-2SG" gloss_ru="присоединиться-IMP-2SG" trans_en="join" trans_ru="присоединиться"></ana>jurɕxaten</w>
 <w><ana lex="jēmt" gr="V,intr,w_trans,pst,act,subjc,3.s,sg.s" parts="jēmt-əs" gloss="become-PST.3SG" gloss_ru="стать-PST.3SG" trans_en="become" trans_ru="стать"></ana>jēmtəs</w>
 <w><ana lex="kit" gr="NUM" parts="kit" gloss="two" gloss_ru="два" trans_en="two" trans_ru="два"></ana>kit</w>
@@ -237,7 +238,7 @@
 <w><ana lex="raɣat" gr="V,intr,pst,act,subjc,3.s,sg.s" parts="raɣat-əs" gloss="fall-PST.3SG" gloss_ru="упасть-PST.3SG" trans_en="fall" trans_ru="упасть"></ana>raɣatəs</w>
 <w><ana lex="sam" gr="N,du,3sg,nom" parts="sam-aɣ-e" gloss="eye-DU-POSS.3SG" gloss_ru="глаз-DU-POSS.3SG" trans_en="eye" trans_ru="глаз"></ana><ana lex="sama" gr="N,du,3sg,nom" parts="sama-ɣ-e" gloss="swamp-DU-POSS.3SG" gloss_ru="болото-DU-POSS.3SG" trans_en="swamp" trans_ru="болото"></ana>samaɣe</w>
 <w><ana lex="sipɣ" gr="V,asp,npst,act,subjc,3.s,sg.s" parts="sipɣ-as-i" gloss="suck-ASP-NPST.3SG" gloss_ru="сосать-ASP-NPST.3SG" trans_en="suck" trans_ru="сосать"></ana>sipɣasi</w>
-<w><ana lex="sir" gr="N,sg,nom" parts="sir" gloss="kind" gloss_ru="разновидность" trans_en="kind" trans_ru="разновидность"></ana>sir</w>
+<w><ana lex="sir" gr="N,sg,nom" parts="sir" gloss="kind" gloss_ru="разновидность" trans_en="kind" trans_ru="разновидность"></ana><ana lex="sir" gr="N,sg,nom" parts="sir" gloss="rod" gloss_ru="жердь" trans_en="rod" trans_ru="жердь"></ana>sir</w>
 <w><ana lex="sis" gr="N,sg,2du_pl,nom" parts="sis-en" gloss="back-POSS.2DU/PL" gloss_ru="спина-POSS.2DU/PL" trans_en="back" trans_ru="спина"></ana><ana lex="sis" gr="N,sg,3du,nom" parts="sis-en" gloss="back-POSS.3DU" gloss_ru="спина-POSS.3DU" trans_en="back" trans_ru="спина"></ana><ana lex="sis" gr="N,sg,3sg,lat" parts="sis-e-n" gloss="back-POSS.3SG-LAT" gloss_ru="спина-POSS.3SG-LAT" trans_en="back" trans_ru="спина"></ana>sisen</w>
 <w><ana lex="soma" gr="X" parts="soma" gloss="as.if" gloss_ru="будто" trans_en="as if" trans_ru="будто"></ana>soma</w>
 <w><ana lex="sow" gr="N,sg,nom" parts="sow" gloss="skin" gloss_ru="кожа" trans_en="skin" trans_ru="кожа"></ana><ana lex="sow" gr="N,sg,nom" parts="sow" gloss="star" gloss_ru="звезда" trans_en="star" trans_ru="звезда"></ana>sow</w>
@@ -286,6 +287,7 @@
 <w><ana lex="īsnas" gr="N,sg,abl" parts="īsnas-nəl" gloss="window-ABL" gloss_ru="окно-ABL" trans_en="window" trans_ru="окно"></ana>īsnasnəl</w>
 <w><ana lex="ōl" gr="V,intr,w_trans,act,ptcp_res,sg,nom" parts="ōl-um" gloss="be-PTCP.RES" gloss_ru="быть-PTCP.RES" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,pst,act,mir,subjc,3.s,sg.s" parts="ōl-um" gloss="be-MIR.PST.3SG" gloss_ru="быть-MIR.PST.3SG" trans_en="be, live" trans_ru="быть, жить"></ana>ōlum</w>
 <w><ana lex="ūj" gr="N,anim,sg,1sg,nom" parts="ūj-um" gloss="animal-POSS.1SG" gloss_ru="зверь-POSS.1SG" trans_en="animal" trans_ru="зверь"></ana><ana lex="ūj" gr="V,intr,act,ptcp_res,sg,nom" parts="ūj-um" gloss="swim-PTCP.RES" gloss_ru="плыть-PTCP.RES" trans_en="swim" trans_ru="плыть"></ana><ana lex="ūj" gr="V,intr,pst,act,mir,subjc,3.s,sg.s" parts="ūj-um" gloss="swim-MIR.PST.3SG" gloss_ru="плыть-MIR.PST.3SG" trans_en="swim" trans_ru="плыть"></ana>ūjum</w>
+<w><ana lex="ūli" gr="N,sg,nom" parts="ūli" gloss="praise" gloss_ru="хвала" trans_en="praise" trans_ru="хвала"></ana>ūli</w>
 <w><ana lex="ūnt" gr="V,intr,pst,act,subjc,3.s,pl.s" parts="ūnt-s-ət" gloss="sit.down-PST-3PL" gloss_ru="сесть-PST-3PL" trans_en="sit down" trans_ru="сесть"></ana>ūntsət</w>
 <w><ana lex="ūnt" gr="V,intr,inch,pst,act,subjc,3.s,sg.s" parts="ūnt-əlmat-əs" gloss="sit.down-INCH-PST.3SG" gloss_ru="сесть-INCH-PST.3SG" trans_en="sit down" trans_ru="сесть"></ana>ūntəlmatəs</w>
 <w><ana lex="ūr" gr="N,sg,nom" parts="ūr" gloss="mountain" gloss_ru="гора" trans_en="mountain" trans_ru="гора"></ana>ūr</w>
@@ -335,7 +337,7 @@
 <w><ana lex="jaɣāɣi" gr="N,anim,hum,sg,3du,ins" parts="jaɣ-āɣi-tēn-təl" gloss="elder-daughter-POSS.3DU-INS" gloss_ru="старший-дочь-POSS.3DU-INS" trans_en="elder sister" trans_ru="старшая сестра"></ana>jaɣāɣitēntəl</w>
 <w><ana lex="jirxat" gr="V,act,ptcp_npst,sg,nom" parts="jirxat-ne" gloss="sacrifice-PTCP.NPST" gloss_ru="приносить.жертву-PTCP.NPST" trans_en="sacrifice" trans_ru="приносить жертву"></ana>jirxatne</w>
 <w><ana lex="joli" gr="ADJ,sg,nom" parts="joli" gloss="lower" gloss_ru="нижний" trans_en="lower" trans_ru="нижний"></ana>joli</w>
-<w><ana lex="joln" gr="X" parts="joln" gloss="below" gloss_ru="внизу" trans_en="below" trans_ru="внизу"></ana>joln</w>
+<w><ana lex="jol" gr="N,sg,lat" parts="jol-n" gloss="seat-LAT" gloss_ru="место-LAT" trans_en="seat" trans_ru="место"></ana><ana lex="joln" gr="X" parts="joln" gloss="below" gloss_ru="внизу" trans_en="below" trans_ru="внизу"></ana>joln</w>
 <w><ana lex="joxt" gr="V,intr,npst,act,subjc,3.s,sg.s" parts="joxt-i" gloss="come-NPST.3SG" gloss_ru="прийти-NPST.3SG" trans_en="come" trans_ru="прийти"></ana>joxti</w>
 <w><ana lex="joxt" gr="V,intr,asp,pst,act,subjc,3.s,pl.s" parts="joxt-iɣp-as-ət" gloss="come-ASP-PST-3PL" gloss_ru="прийти-ASP-PST-3PL" trans_en="come" trans_ru="прийти"></ana>joxtiɣpasət</w>
 <w><ana lex="joxt" gr="V,intr,refl,refl_xat,npst,act,subjc,2.s,du.s,pl.s" parts="joxt-xat-ēɣ-ēn" gloss="come-REFL-NPST-2DU/PL" gloss_ru="прийти-REFL-NPST-2DU/PL" trans_en="come" trans_ru="прийти"></ana>joxtxatēɣēn</w>
@@ -413,7 +415,7 @@
 <w><ana lex="mā" gr="N,sg,3pl,lat" parts="mā-nəl-n" gloss="land-POSS.3PL-LAT" gloss_ru="земля-POSS.3PL-LAT" trans_en="land" trans_ru="земля"></ana>mānəln</w>
 <w><ana lex="mā" gr="N,sg,3sg,loc" parts="mā-te-t" gloss="land-POSS.3SG-LOC" gloss_ru="земля-POSS.3SG-LOC" trans_en="land" trans_ru="земля"></ana>mātet</w>
 <w><ana lex="mā" gr="N,sg,1pl,loc" parts="mā-w-t" gloss="land-POSS.1PL-LOC" gloss_ru="земля-POSS.1PL-LOC" trans_en="land" trans_ru="земля"></ana>māwt</w>
-<w><ana lex="māɣəs" gr="POSTP" parts="māɣəs" gloss="for" gloss_ru="для" trans_en="for" trans_ru="для"></ana>māɣəs</w>
+<w><ana lex="māɣ" gr="V,pst,act,subjc,3.s,sg.s" parts="māɣ-əs" gloss="stick-PST.3SG" gloss_ru="засунуть-PST.3SG" trans_en="stick" trans_ru="засунуть"></ana><ana lex="māɣəs" gr="POSTP" parts="māɣəs" gloss="for" gloss_ru="для" trans_en="for" trans_ru="для"></ana>māɣəs</w>
 <w><ana lex="mōl" gr="ADJ,sg,nom" parts="mōl" gloss="past" gloss_ru="прошлый" trans_en="past" trans_ru="прошлый"></ana>mōl</w>
 <w><ana lex="mōlal" gr="ADV" parts="mōlal" gloss="earlier" gloss_ru="раньше" trans_en="earlier" trans_ru="раньше"></ana>mōlal</w>
 <w><ana lex="mōt" gr="ADJ,sg,nom" parts="mōtan" gloss="other" gloss_ru="другой" trans_en="other" trans_ru="другой"></ana>mōtan</w>
@@ -560,7 +562,7 @@
 <w><ana lex="tot" gr="V,npst,act,subjc,2.s,du.s,pl.s" parts="tot-ēɣ-n" gloss="carry-NPST-2DU/PL" gloss_ru="нести-NPST-2DU/PL" trans_en="carry" trans_ru="нести"></ana><ana lex="tot" gr="V,npst,act,subjc,2.s,sg.s" parts="tot-ēɣ-n" gloss="carry-NPST-2SG" gloss_ru="нести-NPST-2SG" trans_en="carry" trans_ru="нести"></ana>totēɣn</w>
 <w><ana lex="tuj" gr="V,asp,act,imp,2.s,du.s,pl.s,subjc" parts="tuj-al-ēn" gloss="push-ASP-IMP.2DU/PL" gloss_ru="толкать-ASP-IMP.2DU/PL" trans_en="push" trans_ru="толкать"></ana><ana lex="tuj" gr="V,asp,act,imp,2.s,pl.o,objc" parts="tuj-al-ēn" gloss="push-ASP-IMP.PL.O.2.S" gloss_ru="толкать-ASP-IMP.PL.O.2.S" trans_en="push" trans_ru="толкать"></ana>tujalēn</w>
 <w><ana lex="tuj" gr="V,npst,act,subjc,3.s,du.s" parts="tuj-ē-ɣ" gloss="push-NPST-3DU" gloss_ru="толкать-NPST-3DU" trans_en="push" trans_ru="толкать"></ana>tujēɣ</w>
-<w><ana lex="tāl" gr="N,sg,nom" parts="tāl" gloss="year" gloss_ru="год" trans_en="year" trans_ru="год"></ana>tāl</w>
+<w><ana lex="tāl" gr="N,sg,nom" parts="tāl" gloss="needles" gloss_ru="хвоя" trans_en="needles" trans_ru="хвоя"></ana><ana lex="tāl" gr="N,sg,nom" parts="tāl" gloss="year" gloss_ru="год" trans_en="year" trans_ru="год"></ana>tāl</w>
 <w><ana lex="tāl" gr="V,intr,asp,pst,act,subjc,3.s,sg.s" parts="tāl-mat-as" gloss="board-ASP-PST.3SG" gloss_ru="погрузиться-ASP-PST.3SG" trans_en="board" trans_ru="погрузиться"></ana>tālmatas</w>
 <w><ana lex="tān" gr="N,sg,3pl,lat" parts="tān-anəl-na" gloss="tune-POSS.3PL-LAT" gloss_ru="мелодия-POSS.3PL-LAT" trans_en="tune" trans_ru="мелодия"></ana><ana lex="tān" gr="PRON,pers,lat" parts="tānanəl-na" gloss="3PL.OBL-LAT" gloss_ru="3PL.OBL-LAT" trans_en="3PL OBL&amp;LAT" trans_ru="3PL OBL&amp;LAT"></ana>tānanəlna</w>
 <w><ana lex="tān" gr="N,sg,3sg,nom" parts="tān-e" gloss="tune-POSS.3SG" gloss_ru="мелодия-POSS.3SG" trans_en="tune" trans_ru="мелодия"></ana>tāne</w>
@@ -662,7 +664,7 @@
 <w><ana lex="ōl" gr="V,intr,w_trans,act,temp,sg,2sg,nom" parts="ōl-kē-n" gloss="be-TEMP-POSS.2SG" gloss_ru="быть-TEMP-POSS.2SG" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,act,temp,sg,lat" parts="ōl-kē-n" gloss="be-TEMP-LAT" gloss_ru="быть-TEMP-LAT" trans_en="be, live" trans_ru="быть, жить"></ana>ōlkēn</w>
 <w><ana lex="ōl" gr="V,intr,w_trans,act,ptcp_npst,sg,3sg,nom" parts="ōl-ne-te" gloss="be-PTCP.NPST-POSS.3SG" gloss_ru="быть-PTCP.NPST-POSS.3SG" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,npst,act,mir,subjc,3.s,sg.s" parts="ōl-ne-te" gloss="be-MIR.NPST-3SG" gloss_ru="быть-MIR.NPST-3SG" trans_en="be, live" trans_ru="быть, жить"></ana>ōlnete</w>
 <w><ana lex="ōl" gr="V,intr,w_trans,act,ptcp_npst,sg,2sg,nom" parts="ōl-nē-n" gloss="be-PTCP.NPST-POSS.2SG" gloss_ru="быть-PTCP.NPST-POSS.2SG" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,npst,act,mir,subjc,2.s,du.s,pl.s" parts="ōl-n-ēn" gloss="be-MIR.NPST-2DU/PL" gloss_ru="быть-MIR.NPST-2DU/PL" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,npst,act,mir,subjc,2.s,du.s,pl.s" parts="ōl-nē-n" gloss="be-MIR.NPST-2DU/PL" gloss_ru="быть-MIR.NPST-2DU/PL" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,npst,act,mir,subjc,2.s,sg.s" parts="ōl-nē-n" gloss="be-MIR.NPST-2SG" gloss_ru="быть-MIR.NPST-2SG" trans_en="be, live" trans_ru="быть, жить"></ana>ōlnēn</w>
-<w><ana lex="ōl" gr="V,intr,w_trans,tr,act,ptcp_res,sg,nom" parts="ōl-t-um" gloss="be-TR-PTCP.RES" gloss_ru="быть-TR-PTCP.RES" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,tr,pst,act,mir,subjc,3.s,sg.s" parts="ōl-t-um" gloss="be-TR-MIR.PST.3SG" gloss_ru="быть-TR-MIR.PST.3SG" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōlt" gr="V,act,ptcp_res,sg,nom" parts="ōlt-um" gloss="connect-PTCP.RES" gloss_ru="соединить-PTCP.RES" trans_en="connect" trans_ru="соединить"></ana><ana lex="ōlt" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="ōlt-um" gloss="connect-MIR.PST.3SG" gloss_ru="соединить-MIR.PST.3SG" trans_en="connect" trans_ru="соединить"></ana>ōltum</w>
+<w><ana lex="ōl" gr="V,intr,w_trans,tr,act,ptcp_res,sg,nom" parts="ōl-t-um" gloss="be-TR-PTCP.RES" gloss_ru="быть-TR-PTCP.RES" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōl" gr="V,intr,w_trans,tr,pst,act,mir,subjc,3.s,sg.s" parts="ōl-t-um" gloss="be-TR-MIR.PST.3SG" gloss_ru="быть-TR-MIR.PST.3SG" trans_en="be, live" trans_ru="быть, жить"></ana><ana lex="ōlt" gr="V,act,ptcp_res,sg,nom" parts="ōlt-um" gloss="connect-PTCP.RES" gloss_ru="соединить-PTCP.RES" trans_en="connect; lead chicks" trans_ru="соединить; вести птенцов за собой"></ana><ana lex="ōlt" gr="V,pst,act,mir,subjc,3.s,sg.s" parts="ōlt-um" gloss="connect-MIR.PST.3SG" gloss_ru="соединить-MIR.PST.3SG" trans_en="connect; lead chicks" trans_ru="соединить; вести птенцов за собой"></ana>ōltum</w>
 <w><ana lex="ōtər" gr="N,anim,hum,sg,3pl,nom" parts="ōtr-anəl" gloss="hero-POSS.3PL" gloss_ru="богатырь-POSS.3PL" trans_en="hero" trans_ru="богатырь"></ana>ōtranəl</w>
 <w><ana lex="ōwəl" gr="N,sg,lat" parts="ōwəl-n" gloss="edge-LAT" gloss_ru="край-LAT" trans_en="edge; end; start" trans_ru="край; конец; начало"></ana>ōwəln</w>
 <w><ana lex="ōwəl" gr="N,pl,nom" parts="ōwəl-t" gloss="edge-PL" gloss_ru="край-PL" trans_en="edge; end; start" trans_ru="край; конец; начало"></ana><ana lex="ōwəl" gr="N,sg,loc" parts="ōwəl-t" gloss="edge-LOC" gloss_ru="край-LOC" trans_en="edge; end; start" trans_ru="край; конец; начало"></ana>ōwəlt</w>

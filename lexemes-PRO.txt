@@ -122,6 +122,16 @@
 
 -lexeme
  lex: taw
+ stem: takwi&nā.
+ gramm: PRON,pers,emph,obl
+ gloss: 3SG.EMPH.OBL
+ gloss_ru: 3SG.EMPH.OBL
+ trans_en: он, она, оно
+ trans_ru: he, she, it
+ paradigm: PRON_pers_emph
+
+-lexeme
+ lex: taw
  stem: ta&kkē&t.//ta&kkē&te.
  gramm: PRON,pers,sol,3sg
  gloss: 3SG&SOL&POSS.3SG

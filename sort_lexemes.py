@@ -37,6 +37,32 @@ def sort_key(s):
     return s
 
 
+def get_para(pos, stem):
+    pos = re.sub(',.*', '', pos)
+    if re.search('^(N|V|ADJ|NUM|ADV|POSTP)', pos) is None:
+        return 'unchangeable'
+    if pos == 'ADV':
+        return 'ADV'
+    nSyll = len(re.findall('[aeiouāēīōūə]', re.sub('[/|].*', '', stem)))
+    if nSyll % 2 == 0:
+        nSyll = '_even'
+    else:
+        nSyll = '_odd'
+    para = pos + nSyll
+    if '|' in stem:
+        if re.search('^\\w\\w\\.\\|\\w\\w\\w\\.', stem) is not None and pos == 'V':
+            para = 'V_odd_short'
+        elif re.search('^([\\w\']+)[aeiouāēīōūə]([^aeiouāēīōūə]*)\\|\\1\\2', stem) is not None:
+            para += '-syncop'
+        elif re.search('^([\\w\']+)[nŋ]\'?([^aeiouāēīōūə]+)\\|\\1\\2', stem) is not None:
+            para += '-n'
+        elif 'xum.|' in stem and pos == 'N':
+            para = 'N_xum'
+        else:
+            print(stem, para)
+    return para
+
+
 def split_fields(lex):
     lemma = ''
     pos = ''
@@ -183,11 +209,15 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
         lexemes = fIn.readlines()
     for lex in sorted(l.strip('\r\n') for l in lexemes if len(l) > 5 and '\t' in l):
         lex = clean(lex)
-        lex += '\t' * (9 - lex.count('\t'))
-        lemma, pos, stem, para, gloss_ru, gloss_en, trans_ru, trans_en, remove, rest = lex.split('\t', 9)
+        lex += '\t' * (10 - lex.count('\t'))
+        lemma, pos, grdic, stem, para, gloss_ru, gloss_en, trans_ru, trans_en, remove, rest = lex.split('\t', 10)
         if (len(remove.strip()) > 0 and remove.strip() != 'L') or not lemma:
             lexDel.append(lex)
             continue
+        grdic = grdic.strip()
+        if len(grdic) > 0:
+            pos += ',' + grdic
+        pos = pos.replace(', ', ',')
         if 'PN' not in pos and re.search('\\b(topn|famn|persn|patrn)\\b', pos) is not None:
             pos += ',PN'
         if 'PN' not in pos and (lemma[0].lower() != lemma[0]
@@ -201,19 +231,8 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
             lemma = lemma[0].upper() + lemma[1:]
         # if para.startswith('ADV'):
         #     para = 'ADV'
-        # elif len(para) <= 0 or re.search('^(N|V|ADJ|NUM|ADV|POSTP)', para) is None:
-        #     para = 'unchangeable'
-        # elif '|' in stem:
-        #     if re.search('^\\w\\w\\.\\|\\w\\w\\w\\.', stem) is not None:
-        #         para = 'V_odd_short'
-        #     elif re.search('^([\\w\']+)[aeiouāēīōūə]([^aeiouāēīōūə]*)\\|\\1\\2', stem) is not None:
-        #         para += '-syncop'
-        #     elif re.search('^([\\w\']+)[nŋ]\'?([^aeiouāēīōūə]+)\\|\\1\\2', stem) is not None:
-        #         para += '-n'
-        #     elif stem == 'xum.|xumi.':
-        #         para = 'N_xum'
-        #     else:
-        #         print(stem, para)
+        if len(para) <= 0:
+            para = get_para(pos, stem)
         para = para.replace(' ', '').split('/')
         gloss_en = gloss_en.replace(' ', '.').replace('-', '.')
         gloss_ru = gloss_ru.replace(' ', '.').replace('-', '.')
@@ -243,6 +262,6 @@ if __name__ == '__main__':
     # yaml2csv('udm_lexemes_N_persn.txt', 'add_lex/udm_lexemes_N_persn.csv')
     # yaml2csv('udm_lexemes_ADJ.txt', 'add_lex/udm_lexemes_ADJ.csv')
     # yaml2csv('udm_lexemes_unchangeable.txt', 'add_lex/udm_lexemes_unchangeable.csv')
-    csv2yaml('lexemes_update_lozva-processed.csv', 'lexemes_2026.08.03.txt', '')
+    csv2yaml('add_lex/45_dict_add.csv', 'add_lex/45_dict_add.txt', '')
     # csv2yaml('lexemes-mansi-lat-2.csv', 'lexemes_update_2026.07.14.txt', 'lex_deleted_2026.07.14.csv')
     # csv2yaml('lexemes-mansi-lat.csv', 'lexemes.txt', 'lex_deleted.csv')
