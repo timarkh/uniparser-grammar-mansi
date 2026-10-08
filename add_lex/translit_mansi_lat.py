@@ -45,7 +45,7 @@ cyr2dic = {
 
 cyrHard2Soft = {
     'а': 'я', 'а̄': 'я̄',
-    'э': 'е', 'э̄': 'ē',
+    'э': 'е', 'э̄': 'е̄',
     'ы': 'и', 'ы̄': 'ӣ',
     'ӥ': 'и', 'ӥ̄': 'ӣ',
     'о': 'ё', 'о̄': 'ё̄',
@@ -54,7 +54,7 @@ cyrHard2Soft = {
 
 cyrSoft2Hard = {
     'я': 'а', 'я̄': 'а̄',
-    'е': 'э', 'ē': 'э̄',
+    'е': 'э', 'е̄': 'э̄', 'ē': 'э̄',
     'и': 'ы', 'ӣ': 'ы̄',
     'ё': 'о', 'ё̄': 'о̄',
     'ю': 'у', 'ю̄': 'ӯ'
@@ -70,7 +70,8 @@ badChars = {
 
 rxCyrLetter = re.compile('\\w̄?|[^\\w]')
 rxSoften = re.compile('\'([аэыӥоуӯ])', flags=re.I)
-rxCyrSoften = re.compile('([яеиёюӣ]̄?)', flags=re.I)
+rxCyrSoften = re.compile('([яеёю]̄?)', flags=re.I)
+rxCyrSoftenI = re.compile('(?<!^)([иӣ]̄?)', flags=re.I)
 rxCyrMultSoften = re.compile('\'{2,}')
 rxNeutral1 = re.compile('(?<=[бвгджзкмпрфхцчшщй\'])([эы])', re.I)
 rxNeutral2 = re.compile('(\\b)(ы)', re.I)
@@ -84,8 +85,9 @@ rxSoftYLabCapital = re.compile("['Ь]Ы([МПБ])")
 rxYLab = re.compile('ы([мпб])')
 rxYLabCapital = re.compile('Ы([МПБ])')
 rxCyrVowelSoft = re.compile('([ ,."()\\[\\]<>!?:;=-]|^|[ьаеёиӣоуӯыэюя̄])\'')
-rxCyrNeutralConsSoftY = re.compile('([бвгджзкмӈпрсфхцчшщй])[\'ь]ы')
-rxCyrNeutralConsSoft = re.compile('([бвгджзкмӈпрсфхцчшщй])[ь\']')
+rxCyrNeutralConsSoftY = re.compile('([бвгджзкмӈпрсфхцчшщйБВГДЖЗКМӇПРСФХЦЧШЩЙ]|^)[\'ь]ы')
+rxCyrNeutralConsSoftYCap = re.compile('([бвгджзкмӈпрсфхцчшщйБВГДЖЗКМӇПРСФХЦЧШЩЙ]|^)[\'ь]Ы')
+rxCyrNeutralConsSoft = re.compile('([бвгджзкмӈпрсфхцчшщйБВГДЖЗКМӇПРСФХЦЧШЩЙ])[\'ь]')
 
 rxCyrillic = re.compile('^[а-яёӟӥӧўөА-ЯЁӞӤӦЎӨ.,;:!?\\-()\\[\\]{}<>]*$')
 
@@ -137,8 +139,12 @@ def mansi_translit_cyrillic(text):
     res = rxCJV.sub(lambda m: 'ъ' + cyrHard2Soft[m.group(1).lower()], res)
     res = res.replace("'", 'ь')
     res = rxExtraSoft.sub('\\1\\1', res)
+    res = res.replace('ӣ', 'ӣ')
+    res = res.replace('ӣ'.upper(), 'ӣ'.upper())
+    res = res.replace('ӯ', 'ӯ')
+    res = res.replace('ӯ'.upper(), 'ӯ'.upper())
     res = res.replace('иг', 'ыг')
-    res = res.replace('ИГ', 'ЫГ')
+    res = res.replace('иг'.upper(), 'ыг'.upper())
     res = res.replace('ӣг', 'ы̄г')
     res = res.replace('ӣг'.upper(), 'ы̄г'.upper())
 
@@ -152,13 +158,18 @@ def mansi_translit_cyr2lat(text):
     Transliterate Mansi text from Cyrillics to Dasha's Latin script.
     """
     text = rxCyrSoften.sub(lambda m: "'" + cyrSoft2Hard[m.group(1).lower()], text)
+    text = rxCyrSoftenI.sub(lambda m: "'" + cyrSoft2Hard[m.group(1).lower()], text)
     text = text.replace("''", "'й")
     text = text.replace("ъ'", "й")
     text = text.replace("Ъ'", "Й")
     text = text.replace("с'", 'щ')
+    text = text.replace("сь", 'щ')
     text = text.replace("С'", 'Щ')
+    text = text.replace("СЬ", 'Щ')
+    text = text.replace("Сь", 'Щ')
     text = rxCyrVowelSoft.sub('\\1й', text)
     text = rxCyrNeutralConsSoftY.sub('\\1и', text)
+    text = rxCyrNeutralConsSoftYCap.sub('\\1И', text)
     text = rxCyrNeutralConsSoft.sub('\\1', text)
     letters = []
     for letter in rxCyrLetter.findall(text):
