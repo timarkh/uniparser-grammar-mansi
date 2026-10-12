@@ -2869,6 +2869,16 @@
  trans_ru: кружиться
 
 -lexeme
+ lex: jōŋxs
+ stem: jōŋxs.|jōxs.
+ gramm: V,intr
+ paradigm: V_odd-n
+ gloss: turn.around
+ gloss_ru: развернуться
+ trans_en: turn around
+ trans_ru: развернуться
+
+-lexeme
  lex: juj
  stem: juj.
  gramm: N
