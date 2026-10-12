@@ -1263,6 +1263,18 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+ -flex: .əriɕ<.>
+  gramm: pej
+  gloss: PEJ
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
+ -flex: .riɕ<.>
+  gramm: pej
+  gloss: PEJ
+  paradigm: V_asp_even_vowel
+  paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .tt<.>
   gramm: caus,caus_tt
   gloss: CAUS
@@ -1491,6 +1503,18 @@
 -paradigm: V_odd
  -flex: .<.>
   gramm: 
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
+ -flex: .əriɕ<.>
+  gramm: pej
+  gloss: PEJ
+  paradigm: V_asp_even_vowel
+  paradigm: V_asp_even_cons
+  paradigm: V_main_even
+ -flex: .riɕ<.>
+  gramm: pej
+  gloss: PEJ
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
   paradigm: V_main_odd

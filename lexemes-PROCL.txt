@@ -154,9 +154,9 @@
  gramm: PREV,procl
  paradigm: unchangeable
  gloss: shut
- gloss_ru: наглухо
+ gloss_ru: закрыть
  trans_en: shut
- trans_ru: наглухо
+ trans_ru: закрыть
 
 -lexeme
  lex: nōx

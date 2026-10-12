@@ -143,9 +143,9 @@
  stem: tapəs.|taps.
  gramm: N,PN,topn
  paradigm: N_even-syncop
- gloss: Tapsuj
+ gloss: Tapsuy
  gloss_ru: Тапсуй
- trans_en: Tapsuj
+ trans_en: Tapsuy
  trans_ru: Тапсуй
 
 -lexeme
@@ -2909,13 +2909,13 @@
  trans_ru: следом
 
 -lexeme
- lex: jujəl
- stem: jujəl.
+ lex: jujil
+ stem: jujil.
  gramm: ADV
  paradigm: ADV
  gloss: behind
  gloss_ru: сзади
- trans_en: behind, behind
+ trans_en: behind
  trans_ru: сзади, позади
 
 -lexeme
@@ -8885,7 +8885,7 @@
  gramm: V
  paradigm: V_even
  gloss: stop
- gloss_ru: stop
+ gloss_ru: перестать
  trans_en: stop, cease
  trans_ru: перестать
 
@@ -11097,7 +11097,7 @@
  gloss: dense
  gloss_ru: глухой
  trans_en: dense
- trans_ru: глухой
+ trans_ru: глухой (лес)
 
 -lexeme
  lex: sēripos
@@ -16380,6 +16380,16 @@
  trans_ru: войти
 
 -lexeme
+ lex: ɕalts
+ stem: ɕalts.
+ gramm: V
+ paradigm: V_odd
+ gloss: enter
+ gloss_ru: войти
+ trans_en: enter
+ trans_ru: войти
+
+-lexeme
  lex: ɕampəl
  stem: ɕampəl.|ɕampl.
  gramm: N
@@ -19258,3 +19268,23 @@
  gloss_ru: линия
  trans_en: line
  trans_ru: линия
+
+-lexeme
+ lex: Kapjan
+ stem: kapjan.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Kapyan
+ gloss_ru: Капьян
+ trans_en: Kapyan
+ trans_ru: Капьян
+
+-lexeme
+ lex: Sōraxta
+ stem: sōraxta.
+ gramm: N,PN
+ paradigm: N_even
+ gloss: Sorakhta
+ gloss_ru: Сорахта
+ trans_en: Sorakhta
+ trans_ru: Сорахта

@@ -203,7 +203,7 @@
 <w><ana lex="kāt" gr="N,sg,nom" parts="kāt" gloss="hand" gloss_ru="рука" trans_en="hand" trans_ru="рука"></ana>kāt</w>
 <w><ana lex="kīwər" gr="N,sg,lat" parts="kīwər-n" gloss="inside-LAT" gloss_ru="внутренность-LAT" trans_en="inside" trans_ru="внутренность"></ana>kīwərn</w>
 <w><ana lex="li" gr="V,refl,refl_xat,pst,act,subjc,3.s,sg.s" parts="laj-xat-as" gloss="throw-REFL-PST.3SG" gloss_ru="бросать-REFL-PST.3SG" trans_en="throw" trans_ru="бросать"></ana>lajxatas</w>
-<w><ana lex="lap" gr="PREV,procl" parts="lap" gloss="shut" gloss_ru="наглухо" trans_en="shut" trans_ru="наглухо"></ana>lap</w>
+<w><ana lex="lap" gr="PREV,procl" parts="lap" gloss="shut" gloss_ru="закрыть" trans_en="shut" trans_ru="закрыть"></ana>lap</w>
 <w><ana lex="lāɕal" gr="ADJ,sg,nom" parts="lāɕ" gloss="slow" gloss_ru="медленный" trans_en="slow" trans_ru="медленный"></ana>lāɕ</w>
 <w><ana lex="lāɕal" gr="ADJ,sg,nom" parts="lāɕal" gloss="slow" gloss_ru="медленный" trans_en="slow" trans_ru="медленный"></ana>lāɕal</w>
 <w><ana lex="lāɣəl" gr="N,sg,nom" parts="lāɣəl" gloss="leg" gloss_ru="нога" trans_en="leg" trans_ru="нога"></ana>lāɣəl</w>

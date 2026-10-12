@@ -77,6 +77,7 @@ def simplify_gloss(s):
         g = g.replace('VBLZ', 'VBZ')
         g = g.replace('INSTR', 'INS')
         g = g.replace('SOL', 'EMPH')
+        g = re.sub('ATTR[0-9]*', 'PROP1', g)
         g = re.sub('([^.]+)\\.POSS', 'POSS.\\1', g)
         g = re.sub('\\.S\\b', '', g)
         g = re.sub('\\b(MOM|FREQ|INCH)\\b', 'ASP', g)
