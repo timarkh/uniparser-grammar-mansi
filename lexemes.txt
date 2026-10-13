@@ -30,7 +30,7 @@
 
 -lexeme
  lex: Lepla
- stem: lepla.
+ stem: lepla.//lep.
  gramm: N,PN,topn
  paradigm: N_even
  gloss: Leplya
@@ -18763,7 +18763,7 @@
  lex: sis
  stem: sis.
  gramm: POSTP
- paradigm: POSTP_odd
+ paradigm: POSTP_default
  gloss: during
  gloss_ru: пока
  trans_en: during
@@ -18923,7 +18923,7 @@
  lex: torɣal'e
  stem: torɣal'e.
  gramm: POSTP
- paradigm: POSTP_odd
+ paradigm: POSTP_default
  gloss: toward
  gloss_ru: к
  trans_en: toward
