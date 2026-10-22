@@ -409,7 +409,7 @@
 <w><ana lex="mi" gr="V,npst,act,du.o,objc,1.s,pl.s" parts="mi-ɣ-aɣ-uw" gloss="give-NPST-DU.O-1PL.S" gloss_ru="дать-NPST-DU.O-1PL.S" trans_en="give" trans_ru="дать"></ana>miɣaɣuw</w>
 <w><ana lex="mi" gr="V,npst,act,subjc,1.s,pl.s" parts="mi-ɣ-uw" gloss="give-NPST-1PL" gloss_ru="дать-NPST-1PL" trans_en="give" trans_ru="дать"></ana>miɣuw</w>
 <w><ana lex="moɕɕa" gr="ADV" parts="moɕɕa" gloss="a.little" gloss_ru="мало" trans_en="a little" trans_ru="мало"></ana>moɕɕa</w>
-<w><ana lex="muli" gr="ADJ,sg,nom" parts="muli" gloss="male.bed" gloss_ru="мужская.кровать" trans_en="male bed" trans_ru="мужская кровать"></ana>muli</w>
+<w><ana lex="mul'i" gr="N,sg,nom" parts="muli" gloss="swarm" gloss_ru="косяк.рыбы" trans_en="swarm, school of fish" trans_ru="рой, косяк рыбы"></ana><ana lex="muli" gr="ADJ,sg,nom" parts="muli" gloss="male.bed" gloss_ru="мужская.кровать" trans_en="male bed" trans_ru="мужская кровать"></ana>muli</w>
 <w><ana lex="muwal" gr="X" parts="muwal" gloss="around" gloss_ru="вокруг" trans_en="around" trans_ru="вокруг"></ana>muwal</w>
 <w><ana lex="mā" gr="N,sg,3pl,nom" parts="mā-nəl" gloss="land-POSS.3PL" gloss_ru="земля-POSS.3PL" trans_en="land" trans_ru="земля"></ana><ana lex="mā" gr="N,sg,abl" parts="mā-nəl" gloss="land-ABL" gloss_ru="земля-ABL" trans_en="land" trans_ru="земля"></ana>mānəl</w>
 <w><ana lex="mā" gr="N,sg,3pl,lat" parts="mā-nəl-n" gloss="land-POSS.3PL-LAT" gloss_ru="земля-POSS.3PL-LAT" trans_en="land" trans_ru="земля"></ana>mānəln</w>

@@ -227,6 +227,8 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
             pos += ',anim'
         gramm = pos.replace(' ', '')
         gramm = gramm.strip('.,')
+        if not stem:
+            stem = lemma + '.'
         if re.search(',(persn|topn|famn|patrn|PN)\\b', gramm) is not None:
             lemma = lemma[0].upper() + lemma[1:]
         # if para.startswith('ADV'):

@@ -209,6 +209,16 @@
  trans_ru: Иоанн
 
 -lexeme
+ lex: Xōntaŋ
+ stem: xōntaŋ.
+ gramm: N,PN,topn
+ paradigm: N_even
+ gloss: Konda
+ gloss_ru: Конда
+ trans_en: Konda (river)
+ trans_ru: Конда (река)
+
+-lexeme
  lex: lawka
  stem: lawka.
  gramm: N
@@ -6789,8 +6799,8 @@
  trans_ru: сдирать
 
 -lexeme
- lex: nul
- stem: nul.
+ lex: nūl
+ stem: nūl.
  gramm: N
  paradigm: N_odd
  gloss: rapid.river.part
@@ -11890,8 +11900,8 @@
  trans_ru: поползень
 
 -lexeme
- lex: suw
- stem: suw.
+ lex: sūw
+ stem: sūw.
  gramm: N
  paradigm: N_odd
  gloss: staff
@@ -18311,7 +18321,7 @@
 
 -lexeme
  lex: mul'i
- stem: mul'i.
+ stem: mul'i.//muli.
  gramm: N
  paradigm: N_even
  gloss: swarm
@@ -18890,16 +18900,6 @@
  trans_ru: хворост
 
 -lexeme
- lex: tāŋx
- stem: tāŋx.
- gramm: N
- paradigm: N_odd
- gloss: fin
- gloss_ru: плавник
- trans_en: fin
- trans_ru: плавник
-
--lexeme
  lex: toliɣ
  stem: toliɣ.|tolɣ.
  gramm: N
@@ -19298,3 +19298,103 @@
  gloss_ru: Сорахта
  trans_en: Sorakhta
  trans_ru: Сорахта
+
+-lexeme
+ lex: ēpəŋ
+ stem: ēpəŋ.
+ gramm: ADJ
+ paradigm: ADJ_even
+ gloss: nutritious
+ gloss_ru: сытный
+ trans_en: nutritious (of ritual offerings)
+ trans_ru: сытный (в контексте ритуальных подношений)
+
+-lexeme
+ lex: laj
+ stem: laj.
+ gramm: ADJ
+ paradigm: ADJ_odd
+ gloss: light
+ gloss_ru: светлый
+ trans_en: light
+ trans_ru: светлый
+
+-lexeme
+ lex: pit
+ stem: pit.
+ gramm: ADJ
+ paradigm: ADJ_odd
+ gloss: dark
+ gloss_ru: тёмный
+ trans_en: dark
+ trans_ru: тёмный
+
+-lexeme
+ lex: pōrəx
+ stem: pōrəx.|pōrx.
+ gramm: N
+ paradigm: N_even-syncop
+ gloss: torso
+ gloss_ru: туловище
+ trans_en: torso
+ trans_ru: туловище
+
+-lexeme
+ lex: tāŋx
+ stem: tāŋx.|tāx.
+ gramm: N
+ paradigm: N_odd-n
+ gloss: fin
+ gloss_ru: плавник
+ trans_en: fin
+ trans_ru: плавник
+
+-lexeme
+ lex: tē
+ stem: tē.
+ gramm: INTRJ
+ paradigm: unchangeable
+ gloss: INTRJ
+ gloss_ru: INTRJ
+ trans_en: INTRJ
+ trans_ru: INTRJ
+
+-lexeme
+ lex: tōras
+ stem: tōras.
+ gramm: N
+ paradigm: N_even
+ gloss: span
+ gloss_ru: пядь
+ trans_en: span
+ trans_ru: пядь
+
+-lexeme
+ lex: ultta
+ stem: ultta.
+ gramm: POSTP
+ paradigm: POSTP_default
+ gloss: across
+ gloss_ru: через
+ trans_en: across
+ trans_ru: через
+
+-lexeme
+ lex: xōrtxan
+ stem: xōrtxan.
+ gramm: N,anim
+ paradigm: N_even
+ gloss: hawk
+ gloss_ru: ястреб
+ trans_en: hawk
+ trans_ru: ястреб
+
+-lexeme
+ lex: ɕāk
+ stem: ɕāk.
+ gramm: N
+ paradigm: N_odd
+ gloss: hammer
+ gloss_ru: молот
+ trans_en: hammer
+ trans_ru: молот

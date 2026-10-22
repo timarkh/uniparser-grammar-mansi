@@ -77,6 +77,7 @@ def simplify_gloss(s):
         g = g.replace('VBLZ', 'VBZ')
         g = g.replace('INSTR', 'INS')
         g = g.replace('SOL', 'EMPH')
+        g = re.sub('^RES$', 'PTCP.RES', g)
         g = re.sub('ATTR[0-9]*', 'PROP1', g)
         g = re.sub('([^.]+)\\.POSS', 'POSS.\\1', g)
         g = re.sub('\\.S\\b', '', g)
@@ -249,81 +250,108 @@ class MansiAnalyzer(Analyzer):
         Return one analysis that conforms most to the morpheme segmentation or
         the gloss provided.
         """
-        simpleGlossEn = simplify_gloss(glossEn)
-        simpleGlossRu = simplify_gloss(glossRu)
-        sortedGoodAnas = [[] for _ in range(13)]
+        # glossRu and glossEn can be strings or lists of strings
+        if type(glossEn) is str:
+            glossEn = [glossEn]
+        if type(glossRu) is str:
+            glossRu = [glossRu]
+
+        simpleGlossEn = [simplify_gloss(g) for g in glossEn]
+        simpleGlossRu = [simplify_gloss(g) for g in glossRu]
+        simpleGlossEnStem = [simplify_gloss(rxStemGloss.sub('', g)) for g in glossEn]
+        simpleGlossRuStem = [simplify_gloss(rxStemGloss.sub('', g)) for g in glossRu]
+        sortedGoodAnas = [[] for _ in range(15)]
 
         anas = super().analyze_words(word, format=format, disambiguate=False, replacementsAllowed=0)
         for ana in anas:
+            anaSimpleGlossRu = '---'    # Something that won't match any manual gloss
+            anaGlossRu = '---'
+            anaSimpleGlossStemRu = '---'
+            if 'ru' in ana.glossByLang:
+                anaGlossRu = ana.glossByLang['ru']
+                anaSimpleGlossRu = simplify_gloss(ana.glossByLang['ru'])
+                anaSimpleGlossStemRu = simplify_gloss(rxStemGloss.sub('', ana.glossByLang['ru']))
+            anaSimpleGlossEn = simplify_gloss(ana.gloss)
+            anaSimpleGlossStemEn = simplify_gloss(rxStemGloss.sub('', ana.gloss))
+
             if (ana.wfGlossed == parts
-                    and ana.gloss == glossEn):
+                    and any(g == ana.gloss for g in glossEn)):
                 sortedGoodAnas[0].append(ana)
             elif (ana.wfGlossed == parts
-                    and 'ru' in ana.glossByLang and ana.glossByLang['ru'] == glossRu):
+                    and any(g == anaGlossRu for g in glossRu)):
                 sortedGoodAnas[1].append(ana)
             elif (ana.wfGlossed == parts
-                  and simplify_gloss(ana.gloss) == simpleGlossEn):
+                  and any(g == anaSimpleGlossEn for g in simpleGlossEn)):
                 sortedGoodAnas[2].append(ana)
             elif (ana.wfGlossed == parts
-                  and 'ru' in ana.glossByLang and simplify_gloss(ana.glossByLang['ru']) == simpleGlossRu):
+                  and any(g == anaSimpleGlossRu for g in simpleGlossRu)):
                 sortedGoodAnas[3].append(ana)
             elif (simplify(ana.wfGlossed) == simplify(parts)
-                  and ana.gloss == glossEn):
+                  and any(g == ana.gloss for g in glossEn)):
                 sortedGoodAnas[4].append(ana)
             elif (simplify(ana.wfGlossed) == simplify(parts)
-                  and 'ru' in ana.glossByLang and ana.glossByLang['ru'] == glossRu):
+                  and any(g == anaGlossRu for g in glossRu)):
                 sortedGoodAnas[5].append(ana)
             elif (simplify(ana.wfGlossed) == simplify(parts)
-                  and simplify_gloss(ana.gloss) == simpleGlossEn):
+                  and any(g == anaSimpleGlossEn for g in simpleGlossEn)):
                 sortedGoodAnas[6].append(ana)
             elif (simplify(ana.wfGlossed) == simplify(parts)
-                  and 'ru' in ana.glossByLang and simplify_gloss(ana.glossByLang['ru']) == simpleGlossRu):
+                  and any(g == anaSimpleGlossRu for g in simpleGlossRu)):
                 sortedGoodAnas[7].append(ana)
+
+            elif ((not parts or '-' not in parts)
+                  and any(g == anaSimpleGlossEn for g in simpleGlossEn)):
+                sortedGoodAnas[8].append(ana)
+            elif ((not parts or '-' not in parts)
+                  and any(g == anaSimpleGlossRu for g in simpleGlossRu)):
+                sortedGoodAnas[9].append(ana)
+
             elif (simplify(ana.wfGlossed) == simplify(parts)
-                  or simplify_gloss(rxStemGloss.sub('', ana.gloss)) == simplify_gloss(rxStemGloss.sub('', glossEn))):
-                sortedGoodAnas[11].append(ana)
+                  or any(g == anaSimpleGlossStemEn for g in simpleGlossEnStem)):
+                sortedGoodAnas[13].append(ana)
             elif (simplify(ana.wfGlossed) == simplify(parts)
-                  or ana.gloss == glossEn):
-                sortedGoodAnas[12].append(ana)
+                  or any(g == anaSimpleGlossStemRu for g in simpleGlossRuStem)):
+                sortedGoodAnas[14].append(ana)
 
             # Search for glosses that have been corrected
-            partsSplit = rxGloss.findall(parts)
-            glossSplit = rxGloss.findall(glossEn)
-            if len(partsSplit) != len(glossSplit):
-                continue
-            potentialParts = ['']
-            potentialGloss = ['']
-            for i in range(len(glossSplit)):
-                curEnGl = glossSplit[i]
-                curPart = partsSplit[i]
-                if curEnGl not in self.eqEn:
-                    for iPotent in range(len(potentialParts)):
-                        potentialParts[iPotent] += curPart
-                        potentialGloss[iPotent] += curEnGl
+            for gl in glossEn:
+                partsSplit = rxGloss.findall(parts)
+                glossSplit = rxGloss.findall(gl)
+                if len(partsSplit) != len(glossSplit):
                     continue
-                additionsParts = []
-                additionsGloss = []
-                for lexOld, lexNew, enNew, ruNew in self.eqEn[curEnGl]:
-                    if lexOld != curPart:
-                        lexNew = curPart
-                    for iPotent in range(len(potentialParts)):
-                        additionsParts.append(potentialParts[iPotent] + lexNew)
-                        additionsGloss.append(potentialGloss[iPotent] + enNew)
-                potentialParts = additionsParts
-                potentialGloss = additionsGloss
-            for iPotent in range(len(potentialParts)):
-                if (ana.wfGlossed == potentialParts[iPotent]
-                        and simplify_gloss(ana.gloss) == simplify_gloss(potentialGloss[iPotent])):
-                    # print('CORRECTED GLOSS:', ana.gloss, gloss)
-                    sortedGoodAnas[8].append(ana)
-                elif (rxHyphens.sub('', ana.wfGlossed) == word
-                        and simplify_gloss(ana.gloss) == simplify_gloss(potentialGloss[iPotent])):
-                    # print('CORRECTED GLOSS:', ana.gloss, gloss)
-                    sortedGoodAnas[9].append(ana)
-                elif (simplify(ana.wfGlossed) == simplify(potentialParts[iPotent])
-                        and simplify_gloss(ana.gloss) == simplify_gloss(potentialGloss[iPotent])):
-                    # print('CORRECTED GLOSS:', ana.gloss, gloss)
-                    sortedGoodAnas[10].append(ana)
+                potentialParts = ['']
+                potentialGloss = ['']
+                for i in range(len(glossSplit)):
+                    curEnGl = glossSplit[i]
+                    curPart = partsSplit[i]
+                    if curEnGl not in self.eqEn:
+                        for iPotent in range(len(potentialParts)):
+                            potentialParts[iPotent] += curPart
+                            potentialGloss[iPotent] += curEnGl
+                        continue
+                    additionsParts = []
+                    additionsGloss = []
+                    for lexOld, lexNew, enNew, ruNew in self.eqEn[curEnGl]:
+                        if lexOld != curPart:
+                            lexNew = curPart
+                        for iPotent in range(len(potentialParts)):
+                            additionsParts.append(potentialParts[iPotent] + lexNew)
+                            additionsGloss.append(potentialGloss[iPotent] + enNew)
+                    potentialParts = additionsParts
+                    potentialGloss = additionsGloss
+                for iPotent in range(len(potentialParts)):
+                    if (ana.wfGlossed == potentialParts[iPotent]
+                            and anaSimpleGlossEn == simplify_gloss(potentialGloss[iPotent])):
+                        # print('CORRECTED GLOSS:', ana.gloss, gloss)
+                        sortedGoodAnas[10].append(ana)
+                    elif (rxHyphens.sub('', ana.wfGlossed) == word
+                            and anaSimpleGlossEn == simplify_gloss(potentialGloss[iPotent])):
+                        # print('CORRECTED GLOSS:', ana.gloss, gloss)
+                        sortedGoodAnas[11].append(ana)
+                    elif (simplify(ana.wfGlossed) == simplify(potentialParts[iPotent])
+                            and anaSimpleGlossEn == simplify_gloss(potentialGloss[iPotent])):
+                        # print('CORRECTED GLOSS:', ana.gloss, gloss)
+                        sortedGoodAnas[12].append(ana)
 
         for i in range(len(sortedGoodAnas)):
             if len(sortedGoodAnas[i]) > 0:
