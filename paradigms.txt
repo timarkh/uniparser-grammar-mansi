@@ -2006,14 +2006,17 @@
   gramm: mom
   gloss: MOM
   paradigm: V_asp2_even
+  paradigm: V_voice2_even
  -flex: .āl<.>
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_even
+  paradigm: V_voice2_even
  -flex: .al<.>
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_even
+  paradigm: V_voice2_even
  -flex: .alāl<.>
   gramm: asp
   gloss: ASP
@@ -2198,14 +2201,17 @@
   gramm: mom
   gloss: MOM
   paradigm: V_asp2_odd
+  paradigm: V_voice2_odd
  -flex: .āl<.>
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_odd
+  paradigm: V_voice2_odd
  -flex: .al<.>
   gramm: asp
   gloss: ASP
   paradigm: V_asp2_odd
+  paradigm: V_voice2_odd
  -flex: .alāl<.>
   gramm: asp
   gloss: ASP
@@ -2274,7 +2280,7 @@
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|IRR)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|IRR|INF)\b.*
   paradigm: V_main_odd
  -flex: .aml<.>//.uml<.>
   gramm: asp
@@ -2283,7 +2289,7 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|INF)\b.*
   paradigm: V_main_odd
  -flex: .iɣt<.>
   gramm: asp
@@ -2409,7 +2415,7 @@
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|IRR)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|IRR|INF)\b.*
   paradigm: V_main_even
  -flex: .aml<.>//.uml<.>
   gramm: asp
@@ -2418,7 +2424,7 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|INF)\b.*
   paradigm: V_main_even
  -flex: .iɣt<.>
   gramm: asp
