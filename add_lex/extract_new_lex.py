@@ -41,5 +41,37 @@ def extract_lemmas(fnameIn, fnameOut):
             fOut.write('\t'.join(line) + '\n')
 
 
+def process_rombandeeva():
+    """
+    Preliminary processing of the imperfectly OCRed Rombandeeva-Kuzakova
+    Mansi-Russian dictionary.
+    """
+    rxWord = re.compile('\\b[а-яё̄́ӈӣӯ]{3,}', flags=re.DOTALL)
+    rxEntry = re.compile('^([а-яё̄ӈӣӯ]{3,})((?:, *[а-яё̄ӈӣӯ]{3,})*)'
+                         '[ IПШ]+[ .]*([^;]+?) *')
+    with open('rombandeeva/rombandeeva.txt', 'r', encoding='utf-8') as fIn:
+        lines = [line.strip() for line in fIn if line.strip()]
+    wordFreqs = {}
+    # Count words, so that only those with a count of >= 2 are considered
+    for line in lines:
+        for w in rxWord.findall(line.lower()):
+            try:
+                wordFreqs[w] += 1
+            except KeyError:
+                wordFreqs[w] = 1
+    for line in lines:
+        if 'ПОСЛЕЛОГИ' in line:
+            break   # Start of the Russian-Mansi part
+        m = rxEntry.search(line.lower())
+        if not m:
+            print('Bad enrty: ' + line)
+            continue
+        lemma = m.group(1)
+        if lemma not in wordFreqs or wordFreqs[lemma] == 1:
+            print('Hapax legomenon: ' + lemma)
+            continue
+
+
 if __name__ == '__main__':
-    extract_lemmas('lozva_dict.txt', 'lozva_dict.csv')
+    # extract_lemmas('lozva_dict.txt', 'lozva_dict.csv')
+    process_rombandeeva()
