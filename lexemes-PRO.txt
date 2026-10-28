@@ -124,8 +124,8 @@
  lex: taw
  stem: takwi&nā.
  gramm: PRON,pers,emph,obl
- gloss: 3SG.EMPH.OBL
- gloss_ru: 3SG.EMPH.OBL
+ gloss: 3SG.EMPH&OBL
+ gloss_ru: 3SG.EMPH&OBL
  trans_en: he, she, it
  trans_ru: он, она, оно
  paradigm: PRON_pers_emph
@@ -352,7 +352,7 @@
 
 -lexeme
  lex: mān
- stem: mānaw&na.//mānaw&n.
+ stem: mānaw&na.//mānaw&n.//māɣinaw&na.//māɣinaw&n.//māɣnaw&na.//māɣnaw&n.
  gramm: PRON,pers,lat
  gloss: 1PL.OBL&LAT
  gloss_ru: 1PL.OBL&LAT
@@ -362,7 +362,7 @@
 
 -lexeme
  lex: mān
- stem: mānaw&nəl.
+ stem: mānaw&nəl.//māɣinaw&nəl.//māɣnaw&nəl.
  gramm: PRON,pers,abl
  gloss: 1PL.OBL&ABL
  gloss_ru: 1PL.OBL&ABL
@@ -372,7 +372,7 @@
 
 -lexeme
  lex: mān
- stem: mānaw&təl.
+ stem: mānaw&təl.//māɣinaw&təl.//māɣnaw&təl.
  gramm: PRON,pers,ins
  gloss: 1PL.OBL&INS
  gloss_ru: 1PL.OBL&INS
@@ -500,7 +500,7 @@
  lex: taji
  stem: taji.
  gramm: PRON
- paradigm: ADJ_even
+ paradigm: N_even
  gloss: that
  gloss_ru: то
  trans_en: that

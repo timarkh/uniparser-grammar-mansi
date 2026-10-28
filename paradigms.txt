@@ -36,6 +36,14 @@
   gramm: appr
   gloss: APPR
 
+-paradigm: NUM_nil
+ -flex: .it
+  gramm: ord
+  gloss: ORD
+ -flex: .intiɣ//.ittiɣ
+  gramm: iter_num
+  gloss: ITER.NUM
+
 -paradigm: NUM_odd-syncop
  -flex: .<.>
   gramm: 
@@ -993,6 +1001,10 @@
  -flex: .təl
   gramm: ins
   gloss: INS
+ -flex: .əl
+  gramm: ins
+  gloss: INS
+  regex-prev: .*t[.<>]*$
  -flex: .ɣ//.iɣ//.ɣiɣ
   gramm: trans
   gloss: TRANS
@@ -1852,6 +1864,12 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+ -flex: .upt<.>//.apt<.>
+  gramm: caus,caus_pt
+  gloss: CAUS
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
@@ -1891,6 +1909,12 @@
   paradigm: V_asp_odd_vowel
   paradigm: V_asp_odd_cons
   paradigm: V_main_odd
+ -flex: .upt<.>//.apt<.>
+  gramm: caus,caus_pt
+  gloss: CAUS
+  paradigm: V_asp_even_vowel
+  paradigm: V_asp_even_cons
+  paradigm: V_main_even
  -flex: .ltt<.>
   gramm: caus,caus_ltt
   gloss: CAUS
@@ -3093,7 +3117,7 @@
  -flex: .n//.an//.ən
   gramm: ptcp_npst,nom,sg
   gloss: PTCP.NPST
- -flex: .ne<.>//.nē<.>
+ -flex: .ne<.>//.nē<.>//.ane<.>//.anē<.>//.əne<.>//.ənē<.>
   gramm: ptcp_npst
   gloss: PTCP.NPST
   paradigm: NMLZ_te
@@ -3156,7 +3180,7 @@
  -flex: .n//.an//.ən
   gramm: ptcp_npst,nom,sg
   gloss: PTCP.NPST
- -flex: .ne<.>//.nē<.>
+ -flex: .ne<.>//.nē<.>//.ane<.>//.anē<.>//.əne<.>//.ənē<.>
   gramm: ptcp_npst
   gloss: PTCP.NPST
   paradigm: NMLZ_te

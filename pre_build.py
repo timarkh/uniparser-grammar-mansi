@@ -485,7 +485,14 @@ if __name__ == '__main__':
         'jolipāləl',
         'jujipālt',
         'tēltawe',
-        'an\'iɣlaxti'
+        'an\'iɣlaxti',
+        'jonɣənenəl','lowin\'tanete', 'pōjkənem', 'pōjkəne',
+        'n\'owumtapten',
+        'tajitetəl',
+        'xuripan',
+        'sālitəl',
+        'n\'ilit',
+        'l\'ū\'ɕne'
     ], format='xml'):
         print(wf)
 
