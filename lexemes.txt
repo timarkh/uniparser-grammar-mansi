@@ -399,8 +399,8 @@
  trans_ru: подряд
 
 -lexeme
- lex: akwjanət
- stem: akwjanət.
+ lex: akwjanit
+ stem: akwjanit.
  gramm: ADJ
  paradigm: ADJ_odd
  gloss: equal
@@ -447,16 +447,6 @@
  gloss_ru: прочь
  trans_en: away
  trans_ru: прочь
-
--lexeme
- lex: akwpisəj
- stem: akwpisəj.
- gramm: ADV
- paradigm: ADV
- gloss: always
- gloss_ru: всегда
- trans_en: always
- trans_ru: всегда
 
 -lexeme
  lex: akwporat
@@ -547,16 +537,6 @@
  gloss_ru: так.же
  trans_en: just as
  trans_ru: так же
-
--lexeme
- lex: akwtorəj
- stem: akwtorəj.
- gramm: ADV
- paradigm: ADV
- gloss: simultaneously
- gloss_ru: одновременно
- trans_en: simultaneously
- trans_ru: одновременно
 
 -lexeme
  lex: akwtox
@@ -765,8 +745,8 @@
  paradigm: N_odd
  gloss: taimen
  gloss_ru: таймень
- trans_en: taimen
- trans_ru: таймень
+ trans_en: taimen (fish)
+ trans_ru: таймень (рыба)
 
 -lexeme
  lex: alpi
@@ -1077,16 +1057,6 @@
  gloss_ru: долг
  trans_en: debt
  trans_ru: долг
-
--lexeme
- lex: arjin
- stem: arjin.
- gramm: N
- paradigm: N_even
- gloss: copper
- gloss_ru: медь
- trans_en: copper
- trans_ru: медь
 
 -lexeme
  lex: armiɣt
@@ -5549,8 +5519,8 @@
  trans_ru: щупать
 
 -lexeme
- lex: māltəp
- stem: maltəp.
+ lex: māltip
+ stem: māltip.
  gramm: ADJ
  paradigm: ADJ_even
  gloss: warm
@@ -7300,7 +7270,7 @@
 
 -lexeme
  lex: n'olkwāliɣ
- stem: n'olkwāliɣ.
+ stem: n'olkwāliɣ.//n'olkwaliɣ.
  gramm: N
  paradigm: N_odd
  gloss: reins
@@ -10481,7 +10451,7 @@
 
 -lexeme
  lex: sakkwāliɣ
- stem: sakkwāl.
+ stem: sakkwāl.//sakkwal.
  gramm: N
  paradigm: N_even
  gloss: beads
@@ -11651,7 +11621,7 @@
 
 -lexeme
  lex: sosiɣ
- stem: sosiɣ
+ stem: sosiɣ.
  gramm: N
  paradigm: N_even
  gloss: black.currant
@@ -14191,7 +14161,7 @@
 
 -lexeme
  lex: wāntl
- stem: wāntl.
+ stem: wāntl.//wāntal.
  gramm: V,intr
  paradigm: V_odd
  gloss: move
@@ -14280,8 +14250,8 @@
  trans_ru: утка
 
 -lexeme
- lex: wasiɣ
- stem: wasiɣ.//wossiɣ.
+ lex: wāssiɣ
+ stem: wasiɣ.//wāssiɣ.//wossiɣ.
  gramm: X
  paradigm: unchangeable
  gloss: anymore

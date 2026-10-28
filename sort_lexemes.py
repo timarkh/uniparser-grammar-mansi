@@ -258,12 +258,12 @@ def csv2yaml(fnameCsv, fnameYaml, fnameDel):
 
 
 if __name__ == '__main__':
-    # yaml2csv('lexemes.txt', 'lexemes_update_lozva.csv', fnameExternalDictCsv='add_lex/lozva_dict.csv')
+    # yaml2csv('lexemes.txt', 'rombandeeva_add.csv')
     # yaml2csv('lexemes_update_2026.07.14.txt', 'lexemes_update_2026.07.14.csv')
     # yaml2csv('udm_lexemes_V.txt', 'add_lex/udm_lexemes_V.csv')
     # yaml2csv('udm_lexemes_N_persn.txt', 'add_lex/udm_lexemes_N_persn.csv')
     # yaml2csv('udm_lexemes_ADJ.txt', 'add_lex/udm_lexemes_ADJ.csv')
     # yaml2csv('udm_lexemes_unchangeable.txt', 'add_lex/udm_lexemes_unchangeable.csv')
-    csv2yaml('add_lex/45_dict_add.csv', 'add_lex/45_dict_add.txt', '')
+    csv2yaml('add_lex/rombandeeva_add.csv', 'add_lex/rombandeeva_add.txt', '')
     # csv2yaml('lexemes-mansi-lat-2.csv', 'lexemes_update_2026.07.14.txt', 'lex_deleted_2026.07.14.csv')
     # csv2yaml('lexemes-mansi-lat.csv', 'lexemes.txt', 'lex_deleted.csv')

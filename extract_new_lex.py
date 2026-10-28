@@ -65,6 +65,29 @@ def extract_lemmas(fnameIn, fnameOut):
             fOut.write('\t'.join(line) + '\n')
 
 
+def translit_lemmas(fnameIn, fnameOut):
+    with open(fnameIn, 'r', encoding='utf-8') as fIn:
+        table = []
+        for line in fIn:
+            if '\t' not in line:
+                continue
+            line = line.strip('\n').split('\t')
+            lemma = mansi_translit_cyr2lat(line[0])
+            pos = line[1]
+            if pos == 'V':
+                lemma = re.sub('[au]ŋkwe?$', '', lemma)
+            stem = make_stem(lemma, pos)
+            paradigm = make_para(lemma, pos, stem)
+            line[0] = lemma
+            line[3] = stem
+            line[4] = paradigm
+            table.append(line)
+
+    with open(fnameOut, 'w', encoding='utf-8') as fOut:
+        for line in table:
+            fOut.write('\t'.join(line) + '\n')
+
+
 def is_good_gramm(gramm):
     if 'pos' not in gramm:
         return False
@@ -179,5 +202,6 @@ def process_rombandeeva():
 
 
 if __name__ == '__main__':
-    # extract_lemmas('lozva_dict.txt', 'lozva_dict.csv')
-    process_rombandeeva()
+    translit_lemmas('add_lex/rombandeeva_prepared_cyr.txt',
+                    'add_lex/rombandeeva_prepared_cyr.csv')
+    # process_rombandeeva()
