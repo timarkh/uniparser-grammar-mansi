@@ -12350,9 +12350,9 @@
 
 -lexeme
  lex: n'olkwāliɣ
- stem: n'olkwāliɣ.//n'olkwaliɣ.
+ stem: n'olkwāliɣ.//n'olkwaliɣ.|n'olkwālɣ.//n'olkwalɣ.
  gramm: N
- paradigm: N_odd
+ paradigm: N_odd-syncop
  gloss: reins
  gloss_ru: вожжа
  trans_en: reins
@@ -17991,9 +17991,9 @@
 
 -lexeme
  lex: sakkwāliɣ
- stem: sakkwāl.//sakkwal.
+ stem: sakkwāliɣ.|sakkwalɣ.
  gramm: N
- paradigm: N_even
+ paradigm: N_odd-syncop
  gloss: beads
  gloss_ru: бусы
  trans_en: beads
@@ -19721,9 +19721,9 @@
 
 -lexeme
  lex: solkwāliɣ
- stem: solkwāliɣ.
+ stem: solkwāliɣ.|solkwālɣ.
  gramm: N
- paradigm: N_odd
+ paradigm: N_odd-syncop
  gloss: reindeer.strap
  gloss_ru: постромка
  trans_en: strap around a reindeer’s torso (part of a harness)
