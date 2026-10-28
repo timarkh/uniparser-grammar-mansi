@@ -6,6 +6,7 @@ oxs
 pal
 xul
 pōɕka
+apa
 tara
 ōn
 apɕite
@@ -32,8 +33,6 @@ jiw
 kuɕn
 kērsol
 lakw
-lakwsalijanəl
-lakwsite
 malaɕlaxti
 mol
 oxsum
@@ -83,9 +82,6 @@ kwalsət
 kwālapakēte
 kārtlaxtēw
 kōnsəŋ
-lakwsalite
-lakwsawe
-lakwsijanəl
 lanenəl
 lawi
 lawn
@@ -150,7 +146,6 @@ xajtatālne
 xajtēɣt
 xan
 xatasət
-xosiɣxatuŋkwe
 xumjanəl
 xuml
 xun

@@ -589,8 +589,8 @@
  trans_ru: тут же
 
 -lexeme
- lex: akwxujplow
- stem: akwxojpuluw.
+ lex: akwxojplow
+ stem: akwxojpuluw.//akwxujpuluw.
  gramm: NUM
  paradigm: NUM_even
  gloss: eleven
@@ -599,8 +599,8 @@
  trans_ru: одиннадцать
 
 -lexeme
- lex: akwxujplow
- stem: akwxujplow.
+ lex: akwxojplow
+ stem: akwxujplow.//akwxojplow.
  gramm: NUM
  paradigm: NUM_odd
  gloss: eleven
@@ -617,6 +617,16 @@
  gloss_ru: безразлично
  trans_en: all the same
  trans_ru: безразлично, всё равно
+
+-lexeme
+ lex: akwxurip
+ stem: akwxurip.
+ gramm: ADJ
+ paradigm: ADJ_odd
+ gloss: same
+ gloss_ru: одинаковый
+ trans_en: same
+ trans_ru: одинаковый
 
 -lexeme
  lex: akwɕirəl
@@ -705,8 +715,8 @@
  paradigm: ADJ_even
  gloss: southern
  gloss_ru: южный
- trans_en: southern
- trans_ru: южный
+ trans_en: southern; upper
+ trans_ru: южный; верхний
 
 -lexeme
  lex: ālim
@@ -720,9 +730,9 @@
 
 -lexeme
  lex: aliɕ
- stem: aliɕ.
+ stem: aliɕ.|alɕ.//aliɕ.
  gramm: N
- paradigm: N_even
+ paradigm: N_even-syncop
  gloss: weapon
  gloss_ru: оружие
  trans_en: weapon
@@ -990,7 +1000,7 @@
 
 -lexeme
  lex: āpa
- stem: apa.
+ stem: āpa.
  gramm: N
  paradigm: N_even
  gloss: cradle
@@ -1025,8 +1035,8 @@
  paradigm: N_even
  gloss: bonfire
  gloss_ru: костер
- trans_en: bonfire
- trans_ru: костер
+ trans_en: bonfire; hearth
+ trans_ru: костер; очаг
 
 -lexeme
  lex: arɣēn
@@ -1135,8 +1145,8 @@
  paradigm: N_even
  gloss: coincidence
  gloss_ru: совпадение
- trans_en: coincidence (in size, by chance)
- trans_ru: совпадение (по размеру, по случаю)
+ trans_en: coincidence (in size, by chance); luck
+ trans_ru: совпадение (по размеру, по случаю); удача
 
 -lexeme
  lex: ārɕin
@@ -1289,8 +1299,18 @@
  trans_ru: пятьсот
 
 -lexeme
- lex: atxojpuluw
- stem: atxojpuluw.
+ lex: atxojplow
+ stem: atxojplow.
+ gramm: NUM
+ paradigm: NUM_odd
+ gloss: fifteen
+ gloss_ru: пятнадцать
+ trans_en: fifteen
+ trans_ru: пятнадцать
+
+-lexeme
+ lex: atxojplow
+ stem: atxujpuluw.//atxojpuluw.
  gramm: NUM
  paradigm: NUM_even
  gloss: fifteen
@@ -1455,8 +1475,8 @@
  paradigm: N_even
  gloss: pole
  gloss_ru: столб
- trans_en: pole
- trans_ru: столб
+ trans_en: pole, stump
+ trans_ru: столб, пень
 
 -lexeme
  lex: āŋkwat
@@ -1590,7 +1610,7 @@
 
 -lexeme
  lex: ēlmxolas
- stem: ēlmxolas.
+ stem: ēlmxolas.//ēlumxolas.
  gramm: N,anim,hum
  paradigm: N_odd
  gloss: human
@@ -1910,7 +1930,7 @@
 
 -lexeme
  lex: ēŋən
- stem: ēŋən.|ēŋn.
+ stem: ēŋən.//ēŋn.|ēŋn.
  gramm: N
  paradigm: N_odd-syncop
  gloss: chin
@@ -2159,16 +2179,6 @@
  trans_ru: река
 
 -lexeme
- lex: jaɣ
- stem: jaɣ.
- gramm: N,anim,hum
- paradigm: N_odd
- gloss: father
- gloss_ru: отец
- trans_en: father
- trans_ru: отец
-
--lexeme
  lex: jaɣāɣi
  stem: jaɣ&āɣi.
  gramm: N,anim,hum
@@ -2309,18 +2319,18 @@
  trans_ru: охладиться
 
 -lexeme
- lex: janətl
- stem: janətl.
- gramm: V
+ lex: janitl
+ stem: janit&l.
+ gramm: V,vbz,vbz_l
  paradigm: V_even
- gloss: congratulate
- gloss_ru: поздравлять
- trans_en: congratulate, honor, revere
- trans_ru: поздравлять, чествовать, почитать
+ gloss: size&VBZ
+ gloss_ru: величина&VBZ
+ trans_en: congratulate, respect, revere; celebrate
+ trans_ru: поздравлять, уважать, почитать; праздновать
 
 -lexeme
- lex: janətəl
- stem: janətəl.
+ lex: janitəl
+ stem: janitəl.
  gramm: ADV
  paradigm: ADV
  gloss: all
@@ -2615,8 +2625,18 @@
  paradigm: N_odd
  gloss: tree
  gloss_ru: дерево
- trans_en: tree
- trans_ru: дерево
+ trans_en: tree, stick; grave
+ trans_ru: дерево, палка; могила
+
+-lexeme
+ lex: jolal'
+ stem: jol&al'.
+ gramm: ADV
+ paradigm: ADV,dir
+ gloss: down&DIR
+ gloss_ru: низ&DIR
+ trans_en: down
+ trans_ru: вниз
 
 -lexeme
  lex: joli
@@ -2760,7 +2780,7 @@
 
 -lexeme
  lex: jōrn
- stem: jōrn.//jōrən.
+ stem: jōrn.
  gramm: N,anim,hum
  paradigm: N_odd
  gloss: Nenets
@@ -2769,10 +2789,30 @@
  trans_ru: ненец
 
 -lexeme
- lex: jōrənkol
+ lex: jōrn
+ stem: jōrən.
+ gramm: N,anim,hum
+ paradigm: N_even
+ gloss: Nenets
+ gloss_ru: ненец
+ trans_en: Nenets
+ trans_ru: ненец
+
+-lexeme
+ lex: jōrnkol
  stem: jōrənkol.
  gramm: N
  paradigm: N_odd
+ gloss: barn
+ gloss_ru: чум
+ trans_en: barn
+ trans_ru: чум
+
+-lexeme
+ lex: jōrnkol
+ stem: jōrnkol.
+ gramm: N
+ paradigm: N_even
  gloss: barn
  gloss_ru: чум
  trans_en: barn
@@ -3020,9 +3060,9 @@
 
 -lexeme
  lex: jurɕxat
- stem: jurɕxat.
+ stem: jurɕxat.//jurəɕxat.
  gramm: V
- paradigm: V_even
+ paradigm: V_odd
  gloss: join
  gloss_ru: присоединиться
  trans_en: join
@@ -3189,10 +3229,10 @@
  trans_ru: грех
 
 -lexeme
- lex: karj
- stem: karj.
+ lex: karɣ
+ stem: karɣ.//karj.
  gramm: V,intr
- paradigm: V_even
+ paradigm: V_odd
  gloss: growl
  gloss_ru: рычать
  trans_en: growl
@@ -3200,7 +3240,7 @@
 
 -lexeme
  lex: karsit
- stem: karsit.
+ stem: karsit.//karssit.
  gramm: N
  paradigm: N_even
  gloss: height
@@ -3231,6 +3271,16 @@
 -lexeme
  lex: kart
  stem: kart.
+ gramm: V,intr
+ paradigm: V_odd
+ gloss: clot
+ gloss_ru: загустеть
+ trans_en: clot
+ trans_ru: загустеть (о крови)
+
+-lexeme
+ lex: kārt
+ stem: kārt.
  gramm: V,intr
  paradigm: V_odd
  gloss: go.numb
@@ -3535,8 +3585,8 @@
  paradigm: N_odd
  gloss: older.brother
  gloss_ru: старший.брат
- trans_en: older brother
- trans_ru: старший брат
+ trans_en: older brother, uncle
+ trans_ru: старший брат, дядя
 
 -lexeme
  lex: kaɕilt
@@ -3829,10 +3879,20 @@
  trans_ru: сойти с ума
 
 -lexeme
- lex: kitxujplow
- stem: kitxujplow.
+ lex: kitxojplow
+ stem: kitxojplow.//kitxujplow.
  gramm: NUM
  paradigm: NUM_odd
+ gloss: twelve
+ gloss_ru: двенадцать
+ trans_en: twelve
+ trans_ru: двенадцать
+
+-lexeme
+ lex: kitxojplow
+ stem: kitxujpuluw.//kitxojpuluw.
+ gramm: NUM
+ paradigm: NUM_even
  gloss: twelve
  gloss_ru: двенадцать
  trans_en: twelve
@@ -4020,7 +4080,7 @@
 
 -lexeme
  lex: kons
- stem: kons.
+ stem: kons.//kos.
  gramm: V
  paradigm: V_odd
  gloss: scratch
@@ -4419,6 +4479,16 @@
  trans_ru: подкрадываться
 
 -lexeme
+ lex: lakws
+ stem: lakws.
+ gramm: V
+ paradigm: V_odd
+ gloss: move
+ gloss_ru: двигаться
+ trans_en: move
+ trans_ru: двигаться
+
+-lexeme
  lex: lākw
  stem: lākw.
  gramm: N
@@ -4655,8 +4725,8 @@
  paradigm: N_even
  gloss: healer
  gloss_ru: лекарь
- trans_en: healer
- trans_ru: лекарь
+ trans_en: healer, doctor
+ trans_ru: лекарь, врач
 
 -lexeme
  lex: lēpta
@@ -5139,8 +5209,8 @@
  trans_ru: злословить
 
 -lexeme
- lex: l'aɣal
- stem: l'aɣal.
+ lex: l'āɣal
+ stem: l'āɣal.
  gramm: V
  paradigm: V_even
  gloss: utter
@@ -5300,7 +5370,7 @@
 
 -lexeme
  lex: l'ūl'saŋ
- stem: l'ūl'saŋ.
+ stem: l'ūl'saŋ.//l'ūl'səŋ.
  gramm: ADV
  paradigm: ADV
  gloss: poorly
@@ -5310,7 +5380,7 @@
 
 -lexeme
  lex: l'ūn'ɕ
- stem: l'ūn'ɕ.
+ stem: l'ūn'ɕ.//l'ūɕ.
  gramm: N
  paradigm: N_odd
  gloss: crying
@@ -5765,8 +5835,8 @@
  paradigm: N_odd
  gloss: salary
  gloss_ru: зарплата
- trans_en: salary
- trans_ru: зарплата
+ trans_en: salary, cost
+ trans_ru: зарплата, стоимость
 
 -lexeme
  lex: mēŋkw
@@ -5880,7 +5950,7 @@
 
 -lexeme
  lex: mōjtak
- stem: mōjtak.
+ stem: mōjtak.//mūjtak.
  gramm: N
  paradigm: N_even
  gloss: soap
@@ -5990,7 +6060,7 @@
 
 -lexeme
  lex: morax
- stem: morax.
+ stem: morax.//morəx.
  gramm: N
  paradigm: N_even
  gloss: cloudberry
@@ -6080,9 +6150,19 @@
 
 -lexeme
  lex: mōt
- stem: mōt.//mōtan.
+ stem: mōt.
  gramm: ADJ
  paradigm: ADJ_odd
+ gloss: other
+ gloss_ru: другой
+ trans_en: other
+ trans_ru: другой
+
+-lexeme
+ lex: mōtan
+ stem: mōtan.
+ gramm: ADJ
+ paradigm: ADJ_even
  gloss: other
  gloss_ru: другой
  trans_en: other
@@ -6319,8 +6399,8 @@
  trans_ru: барышня
 
 -lexeme
- lex: naj
- stem: naj.
+ lex: nāj
+ stem: nāj.
  gramm: N
  paradigm: N_odd
  gloss: fire
@@ -6590,9 +6670,9 @@
 
 -lexeme
  lex: nēlum
- stem: nēlum.|nēlm.
+ stem: nēlum.//nēlm.
  gramm: N
- paradigm: N_odd-syncop
+ paradigm: N_odd
  gloss: tongue
  gloss_ru: язык
  trans_en: tongue
@@ -6615,12 +6695,12 @@
  paradigm: N_even
  gloss: book
  gloss_ru: книга
- trans_en: book
- trans_ru: книга
+ trans_en: book, paper
+ trans_ru: книга, бумага
 
 -lexeme
- lex: nēr
- stem: nēr.
+ lex: n'ēr
+ stem: n'ēr.
  gramm: N
  paradigm: N_odd
  gloss: foam
@@ -7100,7 +7180,7 @@
 
 -lexeme
  lex: n'āwl
- stem: n'āwl.
+ stem: n'āwl.//n'āwəl.
  gramm: V
  paradigm: V_odd
  gloss: chase
@@ -7620,7 +7700,7 @@
 
 -lexeme
  lex: ontolow
- stem: ontolow.
+ stem: ontolow.//ontoluw.
  gramm: NUM
  paradigm: NUM_odd
  gloss: nine
@@ -7629,8 +7709,18 @@
  trans_ru: девять
 
 -lexeme
- lex: ontolowxojpuluw
- stem: ontolowxojpuluw.
+ lex: ontolowxojplow
+ stem: ontolowxojplow.//ontolowxujplow.
+ gramm: NUM
+ paradigm: NUM_odd
+ gloss: nineteen
+ gloss_ru: девятнадцать
+ trans_en: nineteen
+ trans_ru: девятнадцать
+
+-lexeme
+ lex: ontolowxojplow
+ stem: ontolowxujpuluw.//ontolowxojpuluw.
  gramm: NUM
  paradigm: NUM_even
  gloss: nineteen
@@ -9141,7 +9231,7 @@
 
 -lexeme
  lex: pors
- stem: pors.
+ stem: pors.//porss.
  gramm: N
  paradigm: N_odd
  gloss: litter
@@ -9151,7 +9241,7 @@
 
 -lexeme
  lex: pors
- stem: pors.
+ stem: pors.//porss.
  gramm: V,intr
  paradigm: V_odd
  gloss: perish
@@ -9236,8 +9326,8 @@
  paradigm: V_odd
  gloss: milk
  gloss_ru: доить
- trans_en: milk
- trans_ru: доить
+ trans_en: milk; wash
+ trans_ru: доить; стирать
 
 -lexeme
  lex: pōs
@@ -9300,7 +9390,7 @@
  trans_ru: дым
 
 -lexeme
- lex: posəmlə
+ lex: posəml
  stem: posəm&l.
  gramm: V,vbz,vbz_l
  paradigm: V_odd
@@ -9518,6 +9608,16 @@
  gloss_ru: интересный
  trans_en: interesting
  trans_ru: интересный
+
+-lexeme
+ lex: pūmaɕ
+ stem: pūmaɕ.
+ gramm: N
+ paradigm: N_even
+ gloss: interest
+ gloss_ru: интерес
+ trans_en: interest
+ trans_ru: интерес, веселье
 
 -lexeme
  lex: pūmaɕipa
@@ -11440,14 +11540,14 @@
  trans_ru: морозильник
 
 -lexeme
- lex: sopas
- stem: sopas.
+ lex: sōpas
+ stem: sōpas.//sopas.
  gramm: N,rus
  paradigm: N_even
  gloss: stock
  gloss_ru: запас
- trans_en: stock
- trans_ru: запас
+ trans_en: stock; spare
+ trans_ru: запас; запасной
 
 -lexeme
  lex: sōpla
@@ -11651,7 +11751,7 @@
 
 -lexeme
  lex: soxt
- stem: soxt.
+ stem: soxt.//soxət.
  gramm: ADJ
  paradigm: ADJ_odd
  gloss: straight
@@ -11900,8 +12000,8 @@
  trans_ru: поползень
 
 -lexeme
- lex: sūw
- stem: sūw.
+ lex: suw
+ stem: suw.
  gramm: N
  paradigm: N_odd
  gloss: staff
@@ -12181,7 +12281,7 @@
 
 -lexeme
  lex: tal'ax
- stem: tal'ax.|tal'x.
+ stem: tal'ax.//tal'əx.|tal'x.
  gramm: N
  paradigm: N_even-syncop
  gloss: tip
@@ -12756,8 +12856,8 @@
  paradigm: N_even
  gloss: bear
  gloss_ru: медведь
- trans_en: bear
- trans_ru: медведь
+ trans_en: polar bear
+ trans_ru: белый медведь
 
 -lexeme
  lex: tōrɣ
@@ -12891,7 +12991,7 @@
 
 -lexeme
  lex: tōwa
- stem: tōwa.//tō.
+ stem: tōwa.//tōw.//tō.
  gramm: ADJ
  paradigm: ADJ_even
  gloss: some
@@ -12911,13 +13011,13 @@
 
 -lexeme
  lex: tōwl
- stem: tōwl.
+ stem: tōwl.//tōwəl.|tōwl.
  gramm: V,intr
- paradigm: V_odd
+ paradigm: V_odd-syncop
  gloss: be.enough
  gloss_ru: быть.достаточным
- trans_en: be enough
- trans_ru: быть достаточным
+ trans_en: be enough; come to an end
+ trans_ru: быть достаточным; завершиться
 
 -lexeme
  lex: tōwm
@@ -13272,7 +13372,17 @@
 -lexeme
  lex: tuwəl
  stem: tuwəl.
- gramm: X
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: from.there
+ gloss_ru: оттуда
+ trans_en: from there
+ trans_ru: оттуда
+
+-lexeme
+ lex: tuwəlūlt
+ stem: tuwəlūlt.
+ gramm: PRON
  paradigm: unchangeable
  gloss: from.there
  gloss_ru: оттуда
@@ -13282,8 +13392,18 @@
 -lexeme
  lex: tuwəl
  stem: tuwəl.
- gramm: X
- paradigm: unchangeable
+ gramm: ADV
+ paradigm: ADV
+ gloss: then
+ gloss_ru: потом
+ trans_en: then
+ trans_ru: потом
+
+-lexeme
+ lex: tuwəlūlt
+ stem: tuwəlūlt.
+ gramm: ADV
+ paradigm: ADV
  gloss: then
  gloss_ru: потом
  trans_en: then
@@ -13581,7 +13701,7 @@
 
 -lexeme
  lex: unsax
- stem: unsax.
+ stem: unsax.//unsəx.
  gramm: N
  paradigm: N_even
  gloss: bridge
@@ -13910,8 +14030,8 @@
  trans_ru: шагнуть
 
 -lexeme
- lex: ūsxuli
- stem: ūsxuli.
+ lex: ūsxūli
+ stem: ūsxūli.//ūsxuli.
  gramm: N
  paradigm: N_odd
  gloss: street
@@ -14001,7 +14121,7 @@
 
 -lexeme
  lex: wā
- stem: wā.
+ stem: wā.|wā.//wāj.
  gramm: V
  paradigm: V_odd_short
  gloss: see
@@ -14331,7 +14451,7 @@
 
 -lexeme
  lex: wi
- stem: wi.|wuj.
+ stem: wi.|wuj.//woj.
  gramm: V
  paradigm: V_odd_short
  gloss: take
@@ -14486,8 +14606,8 @@
  paradigm: ADJ_even
  gloss: light
  gloss_ru: светлый
- trans_en: light
- trans_ru: светлый
+ trans_en: light, white
+ trans_ru: светлый, белый
 
 -lexeme
  lex: wolt
@@ -14716,8 +14836,8 @@
  paradigm: N_even
  gloss: wagtail
  gloss_ru: трясогузка
- trans_en: wagtail
- trans_ru: трясогузка
+ trans_en: wagtail; tit
+ trans_ru: трясогузка; синица
 
 -lexeme
  lex: wosat
@@ -15592,12 +15712,12 @@
 -lexeme
  lex: xol
  stem: xol.
- gramm: V,intr
+ gramm: V
  paradigm: V_even
  gloss: end
  gloss_ru: кончиться
  trans_en: end
- trans_ru: кончиться
+ trans_ru: кончиться; кончить
 
 -lexeme
  lex: xolit
@@ -15678,6 +15798,16 @@
  gloss_ru: войско
  trans_en: army
  trans_ru: войско
+
+-lexeme
+ lex: xōntl
+ stem: xōnt&l.
+ gramm: V,vbz,vbz_l
+ paradigm: V_odd
+ gloss: army&VBZ
+ gloss_ru: войско&VBZ
+ trans_en: fight
+ trans_ru: воевать
 
 -lexeme
  lex: xōnt
@@ -15826,8 +15956,8 @@
  paradigm: N_even
  gloss: hawk
  gloss_ru: ястреб
- trans_en: hawk
- trans_ru: ястреб
+ trans_en: hawk, kite
+ trans_ru: ястреб, коршун
 
 -lexeme
  lex: xosa
@@ -15871,7 +16001,7 @@
 
 -lexeme
  lex: xosɣ
- stem: xosɣ.//xosiɣ.|xosɣ.
+ stem: xosɣ.//xosiɣ.//xossiɣ.|xosɣ.
  gramm: V
  paradigm: V_odd-syncop
  gloss: wave
@@ -17351,7 +17481,7 @@
 
 -lexeme
  lex: n'ololow
- stem: n'ololow.
+ stem: n'ololow.//n'ololuw.
  gramm: NUM
  paradigm: NUM_odd
  gloss: eight
@@ -17468,16 +17598,6 @@
  gloss_ru: слон
  trans_en: elephant
  trans_ru: слон
-
--lexeme
- lex: sōpas
- stem: sōpas.
- gramm: ADJ,rus
- paradigm: ADJ_even
- gloss: spare
- gloss_ru: запасной
- trans_en: spare
- trans_ru: запасной
 
 -lexeme
  lex: sowētska
@@ -17840,6 +17960,16 @@
  trans_ru: таскать
 
 -lexeme
+ lex: ālmt
+ stem: ālumt.
+ gramm: V
+ paradigm: V_even
+ gloss: heave
+ gloss_ru: таскать
+ trans_en: heave
+ trans_ru: таскать
+
+-lexeme
  lex: ālumpal
  stem: ālumpal.
  gramm: N
@@ -17896,8 +18026,8 @@
  paradigm: N_odd
  gloss: direction
  gloss_ru: направление
- trans_en: direction
- trans_ru: направление
+ trans_en: direction; edge
+ trans_ru: направление; край
 
 -lexeme
  lex: jiniɣ
@@ -18445,9 +18575,9 @@
  gramm: N,anim
  paradigm: N_even
  gloss: bird.with.its.chicks
- gloss_ru: птица.с.птенцами
+ gloss_ru: выводок
  trans_en: bird with its chicks
- trans_ru: птица с птенцами
+ trans_ru: выводок
 
 -lexeme
  lex: osiɣm
@@ -18790,7 +18920,7 @@
  trans_ru: гвоздь
 
 -lexeme
- lex: sōt-l
+ lex: sōtl
  stem: sōt&l.
  gramm: V,vbz,vbz_l
  paradigm: V_odd
@@ -19341,7 +19471,7 @@
 
 -lexeme
  lex: tāŋx
- stem: tāŋx.|tāx.
+ stem: tāŋx.//tāx.|tāx.
  gramm: N
  paradigm: N_odd-n
  gloss: fin

@@ -1574,6 +1574,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
@@ -1581,6 +1585,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 -paradigm: V_odd-syncop
  -flex: <0>.<.>
@@ -1653,6 +1661,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
@@ -1660,6 +1672,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 -paradigm: V_odd-n
  -flex: <0>.<.>
@@ -1732,6 +1748,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: <0>.axt<.>
   gramm: refl,refl_axt
   gloss: REFL
@@ -1739,6 +1759,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 
 
@@ -1792,6 +1816,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
@@ -1799,6 +1827,10 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_voice2_odd
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 
 -paradigm: V_voice2_even
@@ -1871,12 +1903,18 @@
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
  -flex: .axt<.>
   gramm: refl,refl_axt
   gloss: REFL
   paradigm: V_asp_even_vowel
   paradigm: V_asp_even_cons
   paradigm: V_main_even
+  paradigm: V_asp_odd_vowel
+  paradigm: V_asp_odd_cons
+  paradigm: V_main_odd
 
 
 
@@ -1954,7 +1992,7 @@
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS|REFL|IRR)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS|REFL|IRR|INF)\b.*
   paradigm: V_asp2_even
   paradigm: V_voice2_even
  -flex: .aml<.>//.uml<.>
@@ -1965,12 +2003,12 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|INF)\b.*
   paradigm: V_asp2_even
 # -flex: .s<.>
 #  gramm: asp
 #  gloss: ASP
-#  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+#  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|INF)\b.*
 #  paradigm: V_asp2_odd
  -flex: .iɣt<.>
   gramm: asp
@@ -2149,7 +2187,7 @@
  -flex: .iɣl<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS|REFL|IRR)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|CAUS|PASS|REFL|IRR|INF)\b.*
   paradigm: V_asp2_odd
   paradigm: V_voice2_odd
  -flex: .aml<.>//.uml<.>
@@ -2160,12 +2198,12 @@
  -flex: .as<.>
   gramm: asp
   gloss: ASP
-  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|INF)\b.*
   paradigm: V_asp2_odd
 # -flex: .s<.>
 #  gramm: asp
 #  gloss: ASP
-#  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM)\b.*
+#  regex-next-gloss: ^((PASS\.)?N?PST|PTCP|CVB|MIR(?!\.PST)|ASP|INCH|MOM|INF)\b.*
 #  paradigm: V_asp2_even
  -flex: .iɣt<.>
   gramm: asp
@@ -3072,7 +3110,7 @@
 
 
 -paradigm: V_nonfin_even
- -flex: .aŋkwe
+ -flex: .uŋkwe//.aŋkwe
   gramm: inf
   gloss: INF
  -flex: .im

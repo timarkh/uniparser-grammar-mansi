@@ -106,8 +106,8 @@
  gramm: PRON,pers,nom
  gloss: 3SG
  gloss_ru: 3SG
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: unchangeable
 
 -lexeme
@@ -116,8 +116,8 @@
  gramm: PRON,pers,emph
  gloss: 3SG.EMPH
  gloss_ru: 3SG.EMPH
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: PRON_pers_emph
 
 -lexeme
@@ -126,8 +126,8 @@
  gramm: PRON,pers,emph,obl
  gloss: 3SG.EMPH.OBL
  gloss_ru: 3SG.EMPH.OBL
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: PRON_pers_emph
 
 -lexeme
@@ -136,8 +136,8 @@
  gramm: PRON,pers,sol,3sg
  gloss: 3SG&SOL&POSS.3SG
  gloss_ru: 3SG&SOL&POSS.3SG
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: PRON_pers_emph
 
 -lexeme
@@ -146,8 +146,8 @@
  gramm: PRON,pers,obl
  gloss: 3SG.OBL
  gloss_ru: 3SG.OBL
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: unchangeable
 
 -lexeme
@@ -156,8 +156,8 @@
  gramm: PRON,pers,lat
  gloss: 3SG.OBL&LAT
  gloss_ru: 3SG.OBL&LAT
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: unchangeable
 
 -lexeme
@@ -166,8 +166,8 @@
  gramm: PRON,pers,abl
  gloss: 3SG.OBL&ABL
  gloss_ru: 3SG.OBL&ABL
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: unchangeable
 
 -lexeme
@@ -176,8 +176,8 @@
  gramm: PRON,pers,ins
  gloss: 3SG.OBL&INS
  gloss_ru: 3SG.OBL&INS
- trans_en: он, она, оно
- trans_ru: he, she, it
+ trans_en: he, she, it
+ trans_ru: он, она, оно
  paradigm: unchangeable
 
 -lexeme
@@ -912,7 +912,7 @@
 
 -lexeme
  lex: xuml'e
- stem: xuml'e.
+ stem: xuml'e.//xoml'e.
  gramm: PRON
  paradigm: ADV
  gloss: how

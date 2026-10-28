@@ -10,6 +10,7 @@
   {"gramm": "POSTP.*,pl.*"},
   {"wf": "^mis(it|an(e|um|ən))$", "gramm": "N.*,PN"},
   {"wf": "kastəl", "lemma": "kas"},
+  {"wf": "pasan", "lemma": "pasa"},
   {"gramm": ".*,(supernat|anim).*,loc.*"},
   {"lemma": ".*(xōŋxa|xotjut)$", "gramm": ".*,[123](sg|du|pl).*"},
   {"gramm": "NUM.*,1sg.*"},
