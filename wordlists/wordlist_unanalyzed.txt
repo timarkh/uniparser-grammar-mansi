@@ -6,11 +6,9 @@ oxs
 pal
 xul
 pōɕka
-apa
 tara
 ōn
 apɕite
-sar
 tiɣl
 ax
 ila
@@ -71,7 +69,6 @@ irasas
 ižwer
 jalaseɣt
 jurɕxateɣum
-jās
 jīnete
 jīnēte
 jīsuw
@@ -167,8 +164,6 @@ xūjliɣtasət
 ōjiɣpi
 ōjiɣpēɣt
 ōjəlmatwes
-ōsum
-ōsəŋ
 ɕap
 ɕas
 ɕi
