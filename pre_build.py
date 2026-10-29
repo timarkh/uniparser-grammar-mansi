@@ -492,7 +492,13 @@ if __name__ == '__main__':
         'xuripan',
         'sālitəl',
         'n\'ilit',
-        'l\'ū\'ɕne'
+        'l\'ū\'ɕne',
+        'lātɣəl',
+        'kwālēn',
+        'patiɣlane',
+        'manərən',
+        'manərn',
+        'manranəl'
     ], format='xml'):
         print(wf)
 
@@ -500,7 +506,7 @@ if __name__ == '__main__':
     for wf in a.analyze_words('tapəst taw ta kit pālēn ta xujasiɣ'.split(), format='xml', disambiguate=True):
         print(wf)
     print('***')
-    for wf in a.analyze_words('mān ; mān jotuw ; mān rōpitamuwt ; porat'.split(), format='xml', disambiguate=True):
+    for wf in a.analyze_words('mān ; mān jotuw ; mān rōpitamuwt ; porat ; kwālēn'.split(), format='xml', disambiguate=True):
         print(wf)
     print('***')
     for wf in a.analyze_words('koliɣ wārijanum kit koliɣ wārijanum'.split(), format='xml', disambiguate=True):

@@ -38,6 +38,10 @@ SELECT (V npst 1.s du.s) IF (*-1 ("<mēn>"i) BARRIER V | BOSPunct)
 SELECT (V imp) IF (-1 ("<ul>"i));
 SELECT (V imp) IF (-2 ("<ul>"i)) (-1 ("<=>"));
 
+# Intransitive verbs usually do not attach objective conjugation markers. But sometimes they do. :( So we got to be careful about that.
+
+REMOVE (V intr objc) IF (0 (V intr objc) - (caus) - (tr)) (0 (V intr subjc));
+
 # Participles with possession markers are very rare and may be homonymous with the mirative forms
 REMOVE (V ptcp_npst 3sg) IF (0 (V mir 3.s sg.s)) (0* (V) - (mir));
 

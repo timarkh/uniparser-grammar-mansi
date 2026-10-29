@@ -741,8 +741,8 @@
  trans_ru: где-то
 
 -lexeme
- lex: xottəl'
- stem: xottəl'.
+ lex: xottəl
+ stem: xottəl.
  gramm: PRON
  paradigm: unchangeable
  gloss: from.somewhere
@@ -785,6 +785,7 @@
  stem: manər.|manr.
  gramm: PRON
  paradigm: N-case-default-syncop
+ paradigm: POSTP_default-syncop
  gloss: what
  gloss_ru: что
  trans_en: what
