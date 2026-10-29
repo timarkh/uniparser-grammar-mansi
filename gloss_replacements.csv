@@ -443,10 +443,10 @@ os	thick	толстый	NONE
 ot	affectionate	ласковый	NONE		
 oter	hero	богатырь	ōtər	hero	богатырь
 otr	hero	богатырь	ōtər	hero	богатырь
-oule	end	конец	ōwəl	end	конец
-owl	end	конец	ōwəl	end	конец
+oule	end	конец	ōwəl	edge	край
+owl	end	конец	ōwəl	edge	край
 owl	guilt	вина	NONE		
-owəl	end	конец	ōwəl	end	конец
+owəl	end	конец	ōwəl	edge	край
 oxsar	fox	лиса	oxsar	fox	лиса
 oxsar	fox	лисица	oxsar	fox	лиса
 oŋɣa	older.brother's.wife	жена.старшего.брата	ōn'ɣa	daughter.in.law	невестка
@@ -1065,10 +1065,10 @@ xəl	dig	копать	xil	dig	копать
 ɕōwal	hearth?	чувал	ɕowal	hearth	чувал
 ālmt	lift.ASP	таскать	ālmt	heave	таскать
 joriɣp	plane-ASP	строгать	joriɣp	plane	строгать
-kēn'ɕamt	wake-CAUS 	будить	kēn'ɕamt	wake	будить
+kēn'ɕamt	wake-CAUS	будить	kēn'ɕamt	wake	будить
 lāɕxat	lurk-REFL	притаиться&REFL	lāɕxat	lurk&REFL	притаиться&REFL
 loɕtiɣl	loose.TR-ASP	свободный&ASP	loɕtiɣl	loose&ASP	свободный&ASP
-mirat	thunder.ASP 	греметь	mirat	thunder	греметь
+mirat	thunder.ASP	греметь	mirat	thunder	греметь
 mokram	hump-VBZ	наклониться	mokram	stoop	наклониться
 mowəlt	around-TR	окружить	mowəlt	go.around	окружить
 nōŋxal'	up-DIR	верх&DIR	nōŋxal'	up&DIR	верх&DIR
