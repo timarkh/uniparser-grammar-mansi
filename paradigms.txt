@@ -3050,18 +3050,30 @@
  -flex: .e|n
   gramm: imp,2.s,sg.s,subjc
   gloss: IMP|2SG
+ -flex: .e|ke|n
+  gramm: imp,2.s,sg.s,subjc,dim
+  gloss: IMP|DIM|2SG
  -flex: .ēn
   gramm: imp,2.s,du.s,pl.s,subjc
   gloss: IMP.2DU/PL
  -flex: .e|l|n
   gramm: imp,2.s,sg.s,sg.o,objc
   gloss: IMP|SG.O|2SG.S
+ -flex: .e|ke|l|n
+  gramm: imp,2.s,sg.s,sg.o,objc,dim
+  gloss: IMP|DIM|SG.O|2SG.S
  -flex: .e|l|an//.e|l|en
   gramm: imp,2.s,du.s,pl.s,sg.o,objc
   gloss: IMP|SG.O|2DU/PL.S
+ -flex: .e|ke|l|an//.e|ke|l|en
+  gramm: imp,2.s,du.s,pl.s,sg.o,objc,dim
+  gloss: IMP|DIM|SG.O|2DU/PL.S
  -flex: .e|ɣ|n//.e|ɣ|ən
   gramm: imp,2.s,du.o,objc
   gloss: IMP|DU.O|2.S
+ -flex: .e|ke|ɣ|n//.e|ke|ɣ|ən
+  gramm: imp,2.s,du.o,objc,dim
+  gloss: IMP|DIM|DU.O|2.S
  -flex: .ēn
   gramm: imp,2.s,pl.o,objc
   gloss: IMP.PL.O.2.S
