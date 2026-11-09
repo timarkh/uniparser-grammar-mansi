@@ -211,6 +211,10 @@ class MansiAnalyzer(Analyzer):
         """
         if self.alphabet == 'lat':
             analyses = super().__analyze_word__(word, replacementsAllowed=replacementsAllowed)
+            if not analyses and self.mode != 'strict':
+                wordNoDia = simplify(w)
+                if wordNoDia != word:
+                    analyses = super().__analyze_word__(wordNoDia, replacementsAllowed=replacementsAllowed)
             if self.glossBrackets:
                 for ana in analyses:
                     ana.gloss = self.bracket_gloss(ana.gloss)
@@ -226,7 +230,12 @@ class MansiAnalyzer(Analyzer):
         for var in words:
             # print(var)
             analyses += self.m.parse(var.lower(), replacementsAllowed=replacementsAllowed)
-        if len(analyses) <= 0:
+        if not analyses and self.mode != 'strict':
+            wordsNoDia = [simplify(w) for w in words]
+            wordsNoDia = [w for w in wordsNoDia if w not in words]
+            for var in wordsNoDia:
+                analyses += self.m.parse(var.lower(), replacementsAllowed=replacementsAllowed)
+        if not analyses:
             analyses = [Wordform(self.g, wf=word)]
         else:
             for ana in analyses:

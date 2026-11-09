@@ -20,23 +20,23 @@ REMOVE (procl)
     IF (0 NotProclitics)
        (NEGATE *1 V BARRIER NotProclitics)
        (*1 (N) OR (ADJ) OR (ADV) OR (NUM) OR (PRON) OR (POSTP) OR (INTRJ) OR (X) BARRIER NotProclitics)
-       (NEGATE -1 ("<ja>"i));
+       (NEGATE -1 ("<(ja|я)>"ri));
 SELECT (procl) IF (0 ("<juw>"i) OR ("<юв>"i)) (-1 ("<ta>"i) OR ("<ti>"i) OR ("<та>"i) OR ("<ты>"i));
 SELECT (procl) IF (0 ("<ta>"i) OR ("<ti>"i) OR ("<та>"i) OR ("<ты>"i)) (1 V);
-SELECT (V npst 3.s sg.s) IF (0 ("<juw>"i))
+SELECT (V npst 3.s sg.s) IF (0 ("<juw>"i) OR ("<юв>"i))
                             (NEGATE 1 (V) OR Proclitics);
 
-SELECT (CONJ rus) IF (0 ("<a>"i)) (-1 BOSPunct);
+SELECT (CONJ rus) IF (0 ("<a>"i) OR ("<а>"i)) (-1 BOSPunct);
 
 
 SECTION    # Verbs
 # Select finite analyses with the correct subject agreement
-SELECT (V npst 1.s du.s) IF (*-1 ("<mēn>"i) BARRIER V | BOSPunct)
-                            (0 ("<.*mēn>"r))
+SELECT (V npst 1.s du.s) IF (*-1 ("<mēn>"i) OR ("<ме̄н>"i) BARRIER V | BOSPunct)
+                            (0 ("<.*(mēn|ме̄н)>"ri))
                             (NEGATE 0 (V npst pass));
 
-SELECT (V imp) IF (-1 ("<ul>"i));
-SELECT (V imp) IF (-2 ("<ul>"i)) (-1 ("<=>"));
+SELECT (V imp) IF (-1 ("<ul>"i) OR ("<уl>"i));
+SELECT (V imp) IF (-2 ("<ul>"i) OR ("<уl>"i)) (-1 ("<=>"));
 
 # Intransitive verbs usually do not attach objective conjugation markers. But sometimes they do. :( So we got to be careful about that.
 
@@ -46,7 +46,7 @@ REMOVE (V intr objc) IF (0 (V intr objc) - (caus) - (tr)) (0 (V intr subjc));
 REMOVE (V ptcp_npst 3sg) IF (0 (V mir 3.s sg.s)) (0* (V) - (mir));
 
 # *ne in front of a noun -> participle, not mirative
-REMOVE (V mir) IF (0 ("<.*ne>"i)) (0 (V ptcp_npst)) (1 (N));
+REMOVE (V mir) IF (0 ("<.*(ne|нэ)>"ri)) (0 (V ptcp_npst)) (1 (N));
 
 # Participles in character names
 SELECT (V ptcp_npst) IF (-1 ("<mir>"i)) (0 ("<susne>"i)) (1 ("xum"));
@@ -57,10 +57,10 @@ SECTION    # Nouns
 SELECT (N PN) IF (0 ("<moɕ>"i)) (1 ("nē") OR ("xum"));
 
 # PL vs LOC
-SELECT (N pl nom) IF (0 ("<.*t>"r)) (1 ("kīwər"));
-SELECT (N loc) IF (0 ("<.*t>"r)) (0 (N topn));
-SELECT (N pl nom) IF (0 ("<.*t>"r)) (0 (N persn) OR (N famn) OR (N anim) OR (N supernat) OR ("pora"));
-SELECT (N pl nom) IF (0 ("<kolt>"r)) (1 ("ōl"));
+SELECT (N pl nom) IF (0 ("<.*[tт]>"r)) (1 ("kīwər"));
+SELECT (N loc) IF (0 ("<.*[tт]>"r)) (0 (N topn));
+SELECT (N pl nom) IF (0 ("<.*[tт]>"r)) (0 (N persn) OR (N famn) OR (N anim) OR (N supernat) OR ("pora"));
+SELECT (N pl nom) IF (0 ("<(kolt|колт)>"r)) (1 ("ōl"));
 
 # ABL vs. INS (-əl as ABL only in Upper Lozva, otherwise very restricted)
 SELECT (N abl) IF (0 ("<pāwləl>i"));
@@ -74,9 +74,9 @@ SELECT (nom) IF (0 (N) OR (PRON)) (1 (POSTP));
 # DU vs. TRAN
 REMOVE (du nom) IF (0 (N trans) OR (A trans))
                    (1* (V w_trans) BARRIER (V) OR (A) OR (POSTP))
-				   (NEGATE -1 ("<kit>"i))
-				   (NEGATE -2 ("<kit>"i))
-				   (NEGATE -3 ("<kit>"i))
+				   (NEGATE -1 ("<kit>"i) OR ("<кит>"i))
+				   (NEGATE -2 ("<kit>"i) OR ("<кит>"i))
+				   (NEGATE -3 ("<kit>"i) OR ("<кит>"i))
 				   (NEGATE 0* (V du.o) OR (V du.s));
 
 # LAT vs. POSS.2SG (vs. 1PL)

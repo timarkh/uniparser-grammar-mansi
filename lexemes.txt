@@ -39,6 +39,36 @@
  trans_ru: Иоанн
 
 -lexeme
+ lex: Pētər
+ stem: pētər.
+ gramm: N,PN,persn
+ paradigm: N_odd
+ gloss: Peter
+ gloss_ru: Пётр
+ trans_en: Peter
+ trans_ru: Пётр
+
+-lexeme
+ lex: Kristos
+ stem: kristos.
+ gramm: N,PN,persn
+ paradigm: N_odd
+ gloss: Christ
+ gloss_ru: Христос
+ trans_en: Christ
+ trans_ru: Христос
+
+-lexeme
+ lex: Marija
+ stem: marija.
+ gramm: N,PN,persn
+ paradigm: N_odd
+ gloss: Mary
+ gloss_ru: Мария
+ trans_en: Mary
+ trans_ru: Мария
+
+-lexeme
  lex: Jāpəl
  stem: jāpəl.
  gramm: N,PN,persn
@@ -2550,7 +2580,7 @@
 
 -lexeme
  lex: ēlmxolas
- stem: ēlmxolas.//ēlumxolas.
+ stem: ēlmxolas.//ēlumxolas.//ēlumxōlas.
  gramm: N,anim,hum
  paradigm: N_odd
  gloss: human
@@ -6520,7 +6550,7 @@
 
 -lexeme
  lex: kitxojplow
- stem: kitxujpuluw.//kitxojpuluw.
+ stem: kitxujpuluw.//kitxujpluw.//kitxojpuluw.
  gramm: NUM
  paradigm: NUM_even
  gloss: twelve
@@ -18080,6 +18110,16 @@
  trans_ru: закон
 
 -lexeme
+ lex: sākkon
+ stem: sākkon.
+ gramm: N,rus
+ paradigm: N_even
+ gloss: law
+ gloss_ru: закон
+ trans_en: law
+ trans_ru: закон
+
+-lexeme
  lex: sākpak
  stem: sākpak.
  gramm: ADJ
@@ -21841,7 +21881,7 @@
 
 -lexeme
  lex: tarəm
- stem: tarəm.|tarm.
+ stem: tarəm.|tarm.//tarməl.
  gramm: POSTP
  paradigm: POSTP_default-syncop
  gloss: on

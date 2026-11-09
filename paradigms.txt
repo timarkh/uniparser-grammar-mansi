@@ -3329,13 +3329,13 @@
  -flex: .mēn//.umēn//.amēn
   gramm: subjc,1.s,du.s
   gloss: 1DU
- -flex: .w//.uw
+ -flex: .w//.uw//.uwa
   gramm: subjc,1.s,pl.s
   gloss: 1PL
  -flex: .n//.ən
   gramm: subjc,2.s,sg.s
   gloss: 2SG
- -flex: .n//.en//.ēn
+ -flex: .n//.en//.ēn//.īn//.īna
   gramm: subjc,2.s,du.s,pl.s
   gloss: 2DU/PL
  -flex: .iɣ//.ɣ
@@ -3353,13 +3353,13 @@
  -flex: .mēn//.umēn//.amēn
   gramm: 1.s,du.s
   gloss: 1DU.S
- -flex: .w//.uw
+ -flex: .w//.uw//.uwa
   gramm: 1.s,pl.s
   gloss: 1PL.S
  -flex: .n//.ən
   gramm: 2.s,sg.s
   gloss: 2SG.S
- -flex: .n//.en//.ēn
+ -flex: .n//.en//.ēn//.īn//.īna
   gramm: 2.s,du.s,pl.s
   gloss: 2DU/PL.S
  -flex: .e
@@ -3395,19 +3395,19 @@
  -flex: .mēn//.umēn//.amēn
   gramm: 1.s,du.s
   gloss: 1DU.S
- -flex: .w//.uw
+ -flex: .w//.uw//.uwa
   gramm: 1.s,pl.s
   gloss: 1PL.S
  -flex: .n//.ən
   gramm: 2.s,sg.s
   gloss: 2SG.S
- -flex: .n//.en//.ēn
+ -flex: .n//.en//.ēn//.īn//.īna
   gramm: 2.s,du.s,pl.s
   gloss: 2DU/PL.S
 
 
 -paradigm: V-agr-2du_pl
- -flex: .n//.en//.ēn
+ -flex: .n//.en//.ēn//.īn//.īna
   gramm: subjc,2.s,du.s,pl.s
   gloss: 2DU/PL
 

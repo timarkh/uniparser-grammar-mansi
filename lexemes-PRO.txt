@@ -12,7 +12,7 @@
 
 -lexeme
  lex: am
- stem: anum.
+ stem: anum.//ānum.
  gramm: PRON,pers,obl
  gloss: 1SG.OBL
  gloss_ru: 1SG.OBL
@@ -22,7 +22,7 @@
 
 -lexeme
  lex: am
- stem: anum&na.//anum&n.
+ stem: anum&na.//anum&n.//ānum&na.//ānum&n.
  gramm: PRON,pers,lat
  gloss: 1SG.OBL&LAT
  gloss_ru: 1SG.OBL&LAT
@@ -32,7 +32,7 @@
 
 -lexeme
  lex: am
- stem: anum&nəl.
+ stem: anum&nəl.//ānum&nəl.
  gramm: PRON,pers,abl
  gloss: 1SG.OBL&ABL
  gloss_ru: 1SG.OBL&ABL
@@ -42,7 +42,7 @@
 
 -lexeme
  lex: am
- stem: anum&təl.
+ stem: anum&təl.//ānum&təl.
  gramm: PRON,pers,ins
  gloss: 1SG.OBL&INS
  gloss_ru: 1SG.OBL&INS
@@ -152,7 +152,7 @@
 
 -lexeme
  lex: taw
- stem: tawe&na.//tawe&n.
+ stem: tawe&na.//tawe&n.//tawē&na.//tawē&n.
  gramm: PRON,pers,lat
  gloss: 3SG.OBL&LAT
  gloss_ru: 3SG.OBL&LAT
@@ -162,7 +162,7 @@
 
 -lexeme
  lex: taw
- stem: tawe&nəl.
+ stem: tawe&nəl.//tawē&nəl.
  gramm: PRON,pers,abl
  gloss: 3SG.OBL&ABL
  gloss_ru: 3SG.OBL&ABL
@@ -172,7 +172,7 @@
 
 -lexeme
  lex: taw
- stem: tawe&təl.
+ stem: tawe&təl.//tawē&təl.
  gramm: PRON,pers,ins
  gloss: 3SG.OBL&INS
  gloss_ru: 3SG.OBL&INS
@@ -782,7 +782,7 @@
 
 -lexeme
  lex: manər
- stem: manər.|manr.
+ stem: manər.//manər.|manr.
  gramm: PRON
  paradigm: N-case-default-syncop
  paradigm: POSTP_default-syncop
@@ -960,6 +960,16 @@
  gloss_ru: когда.нибудь
  trans_en: someday
  trans_ru: когда-нибудь
+
+-lexeme
+ lex: nēmxun't
+ stem: nēm&xun't.
+ gramm: PRON
+ paradigm: unchangeable
+ gloss: PRON.NEG&at.some.point
+ gloss_ru: PRON.NEG&когда.то
+ trans_en: never
+ trans_ru: никогда
 
 -lexeme
  lex: xun't
