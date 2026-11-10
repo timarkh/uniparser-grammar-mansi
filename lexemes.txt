@@ -3799,6 +3799,16 @@
  trans_ru: вырастать, расти
 
 -lexeme
+ lex: janiɣpāla
+ stem: janiɣpāla.
+ gramm: ADJ
+ paradigm: ADJ_even
+ gloss: elderly
+ gloss_ru: пожилой
+ trans_en: elderly
+ trans_ru: пожилой
+
+-lexeme
  lex: janit
  stem: janit.
  gramm: N
@@ -17440,6 +17450,16 @@
  trans_ru: греть
 
 -lexeme
+ lex: rēɣt
+ stem: rēɣt.
+ gramm: V
+ paradigm: V_even
+ gloss: heat
+ gloss_ru: греть
+ trans_en: heat
+ trans_ru: греть, жарить
+
+-lexeme
  lex: rep
  stem: rep.
  gramm: V
@@ -24970,6 +24990,16 @@
  trans_ru: зацепить крючком, багром
 
 -lexeme
+ lex: wāŋlat
+ stem: wāŋlat.
+ gramm: V,intr
+ paradigm: V_even
+ gloss: stumble
+ gloss_ru: споткнуться
+ trans_en: stumble
+ trans_ru: споткнуться
+
+-lexeme
  lex: wāŋən
  stem: wāŋən.|wāŋn.
  gramm: N
@@ -29739,3 +29769,13 @@
  gloss_ru: дитя
  trans_en: child, infant
  trans_ru: дитя, младенец
+
+-lexeme
+ lex: talant
+ stem: talant
+ gramm: N,rus
+ paradigm: N_even
+ gloss: talent
+ gloss_ru: талант
+ trans_en: talent
+ trans_ru: талант

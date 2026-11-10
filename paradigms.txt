@@ -2901,6 +2901,9 @@
  -flex: <0>.ŋkwe
   gramm: inf
   gloss: INF
+ -flex: <0>.ŋkw
+  gramm: inf,nonst
+  gloss: INF
  -flex: <0>.w<.>//<0>.ɣ<.>
   gramm: npst,act
   gloss: NPST
@@ -3086,6 +3089,9 @@
  -flex: .uŋkwe//.aŋkwe
   gramm: inf
   gloss: INF
+ -flex: .uŋkw//.aŋkw
+  gramm: inf,nonst
+  gloss: INF
  -flex: .im
   gramm: cvb
   gloss: CVB
@@ -3148,6 +3154,9 @@
 -paradigm: V_nonfin_even
  -flex: .uŋkwe//.aŋkwe
   gramm: inf
+  gloss: INF
+ -flex: .uŋkw//.aŋkw
+  gramm: inf,nonst
   gloss: INF
  -flex: .im
   gramm: cvb
